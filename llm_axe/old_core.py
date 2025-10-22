@@ -199,8 +199,6 @@ def read_website(url):
         str: The body of the website.
         None: If the request fails.
     """
-
-    """
     headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36'}
     response = requests.get(url, headers=headers)
     if response.status_code == 200:
@@ -211,9 +209,6 @@ def read_website(url):
     else:
         warnings.warn("Failed to retrieve the website")
         return None
-    """
-
-    return selenium_hybrid_reader(url)
     
 
 def selenium_reader(url):
@@ -247,7 +242,7 @@ def selenium_reader(url):
     cService = webdriver.ChromeService(executable_path=selenium_executable_path)
     driver = webdriver.Chrome(options=options, service=cService)
     driver.get(url)
-    time.sleep(8)
+    time.sleep(3)
     body = driver.find_element(By.TAG_NAME, "body")
     body_text = body.get_attribute('innerText')
     driver.quit()

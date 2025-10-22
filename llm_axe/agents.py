@@ -595,16 +595,26 @@ class OnlineAgent:
             return None
             
         website_text = self.site_reader_function(url)
+        
+        if not website_text:
+            print(f"[DEBUG] WebsiteReader: Failed to retrieve text from {url}")
+            website_text = "Website could not be read"
+        elif len(website_text) > 10000:
+            website_text = website_text[:10000]
+
         user_prompt = f'''
-                    Please read the following information:
+                    Please read the following information in detail.
                     
                     Information about Website {url}: 
                     {website_text}
 
-                    Answer the following question based on the above information: 
+                    Provide a concise but complete summary of the page content.
+                    Explain its purpose, main ideas, and notable sections.
+                    Then answer the following question based on the above information: 
                     {prompt}
 
                     Start your answer with "Based on information from the internet, "
+                    Respond in 4–6 sentences.
                     '''
         
         final_responder = Agent(llm=self.llm, agent_type=AgentType.GENERIC_RESPONDER, temperature=self.temperature, stream=self.stream, **self.llm_options)
