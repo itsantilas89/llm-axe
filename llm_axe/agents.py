@@ -4,6 +4,8 @@ import json
 
 from llm_axe.core import AgentType, safe_read_json, generate_schema, get_yaml_prompt, internet_search, read_website, read_pdf, make_prompt, llm_has_ask, stream_and_record
 
+from llm_axe.url_selector import load_sources, match_sources
+
 
 class Agent:
     """
@@ -567,6 +569,13 @@ class OnlineAgent:
         query = self.get_search_query(prompt)
         if query is None:
             return None
+        
+        # attempt to use predefined trusted URLs first
+        trusted = match_sources(prompt, load_sources())
+        if trusted:
+            search_results = trusted
+        else:
+            search_results = self.search_function(query)
 
         search_results = self.search_function(query)
         search_results =  json.dumps(search_results)
