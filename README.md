@@ -10,19 +10,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## Goal
 llm-axe is meant to be a flexible toolkit that provides simple abstractions for commonly used functions related to LLMs. It's not meant to intrude in your development workflow as other larger frameworks often do.
 
@@ -32,14 +19,117 @@ It has functions for **automatic schema generation**, **pre-made agents** with s
 
 [Read the Development Documentation](https://github.com/emirsahin1/llm-axe/wiki)
 
-## Installation
 
 
+## Installation - (Juan Updated)
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/ntua-el20883/llm-axe
+cd llm-axe
+```
+
+---
+
+### 2. Install Ollama
+
+Download and install the **Ollama** executable from:
+[https://ollama.com/download](https://ollama.com/download)
+
+Verify that Ollama is correctly installed and running:
+
+```bash
+ollama --version
+```
+
+---
+
+### 3. Set Up Python Environment
+
+In the root of the repository, create and activate a Python virtual environment:
+
+```bash
+python -m venv .env
+# On Windows:
+.env\Scripts\activate
+# On macOS/Linux:
+source .env/bin/activate
+```
+
+---
+
+### 4. Install Dependencies
+
+Install the `llm-axe` package:
 
 ```bash
 pip install llm-axe
 ```
-    
+
+---
+
+### 5. Download a Model
+
+Browse available models in the [Ollama GitHub repository](https://github.com/ollama/ollama).
+Pull your desired model locally. Example:
+
+```bash
+ollama pull llama3.2:3b
+```
+
+You can list all downloaded models:
+
+```bash
+ollama list
+```
+
+---
+
+### 6. Test the Model (Optional)
+
+To verify that the model runs correctly, open a separate terminal and start a chat session directly with Ollama:
+
+```bash
+ollama run llama3.2:3b
+```
+
+The model will maintain context across turns within the same session.
+
+---
+
+### 7. Integrate the Model with the Code
+
+Open `./llm_axe/online_agent.py` in the project root and modify **line 5** to reference your chosen model:
+
+```python
+llm = OllamaChat(model="llama3.2:3b")
+```
+
+Replace `"llama3.2:3b"` with the name of the model you downloaded.
+
+---
+
+### 8. Run the Script
+
+Execute the test script:
+
+```bash
+python ./llm_axe/online_agent.py
+```
+
+You can now interact with the model through the script. Prompts can include URLs, which the model may process—it may take additional time depending on the complexity of the linked content.
+
+---
+
+### Notes
+
+* Ensure Ollama is running before executing the Python script.
+* Model performance and response time depend on system resources and model size.
+* If you switch models, re-edit the model name in `./llm_axe/online_agent.py` accordingly.
+
+
+
 ## Example Snippets
 - **Streaming Support**:
 ```python
