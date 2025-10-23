@@ -52,9 +52,3 @@ Used by `OnlineAgent` to replace or augment open web searches.
 (Added by project extension)
 Example entry point for interactive sessions and web integration.
 Demonstrates conversation memory, URL detection, and dynamic online retrieval.
-
----
-
-## DOCUMENTATION.md
-This file—summarizing internal responsibilities—should be maintained whenever
-new modules or features are added.
