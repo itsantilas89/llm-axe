@@ -1,9 +1,7 @@
 # llm_axe Internal Documentation
 
-This document summarizes the purpose and core functionality of each Python module
-inside the `llm_axe` package.  
-It complements the external README by describing implementation roles and
-internal dependencies.
+This document summarizes the purpose and core functionality of each Python module inside the `llm_axe` package.  
+It complements the external README by describing implementation roles and internal dependencies.
 
 ---
 
