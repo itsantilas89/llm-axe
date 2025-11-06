@@ -18,7 +18,7 @@ from llm_axe.models import OllamaChat
 
 def main():
     """Launch an interactive chat loop with internet-aware capabilities."""
-    llm = OllamaChat(model="gemma:1b")
+    llm = OllamaChat(model="llama3.2:3b")
     model_name = llm._model
     print(f"Interactive LLM-AXE for {model_name}. Type 'exit' to quit.\n")
 
