@@ -1,0 +1,42 @@
+{
+  "programme_name": "Αναβαθμίζω το Σπίτι Μου",
+  "description": "Ενεργειακή αναβάθμιση του κτιριακού αποθέματος της χώρας και χωροταξική μεταρρύθμιση",
+  "programme_objective": "Δράση: (16401)",
+  "eligible_parties": [
+    "Πράσινη Μετάβαση",
+    "Άξονας"
+  ],
+  "eligibility_criteria": [],
+  "property_requirements": [],
+  "minimum_funding_amount": "",
+  "maximum_funding_amount": "€400.000.000,00",
+  "funding_type": "Δάνεια",
+  "interest_rate": "",
+  "funding_coverage": "100%",
+  "total_budget": "€400.000.000,00",
+  "funding_sources": [
+    "Τραπεζική",
+    "Νέα"
+  ],
+  "duration": "12/02/2025 - 31/12/2025",
+  "loan_duration": "",
+  "completion_deadline": "",
+  "application_start_date": "12/02/2025",
+  "application_end_date": "31/12/2025",
+  "energy_performance_targets": "",
+  "eligible_interventions": [
+    "Εγκατάσταση συστημάτων θερμοστατικής ρύθμισης",
+    "Εγκατάσταση συστημάτων αποθήκευσης ενέργειας (συσσωρευτές) από ανανεώσιμες πηγές ενέργειας",
+    "Εγκατάσταση φωτοβολταϊκών σταθμών – μικρών ανεμογεννητριών και άλλων ΑΠΕ"
+  ],
+  "application_process": "",
+  "managing_body": "Ελληνική Αναπτυξιακή Τράπεζα",
+  "announcement_date": "12/02/2025",
+  "contact_info": [
+    {
+      "email": "anavathmizo@hdb.gr",
+      "phone": "+30 2103338902, +30 2103338908"
+    }
+  ],
+  "additional_details": ""
+}
