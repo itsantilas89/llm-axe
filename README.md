@@ -115,7 +115,7 @@ Replace `"llama3.2:3b"` with the name of the model you downloaded.
 Execute the test script:
 
 ```bash
-python ./llm_axe/online_agent.py
+python ./llm_axe/va1_url_selector.py
 ```
 
 You can now interact with the model through the script. Prompts can include URLs, which the model may process—it may take additional time depending on the complexity of the linked content.
@@ -126,7 +126,7 @@ You can now interact with the model through the script. Prompts can include URLs
 
 * Ensure Ollama is running before executing the Python script.
 * Model performance and response time depend on system resources and model size.
-* If you switch models, re-edit the model name in `./llm_axe/online_agent.py` accordingly.
+* If you switch models, re-edit the model name in `./llm_axe/va1_url_selector.py` accordingly.
 
 
 
