@@ -1,0 +1,52 @@
+{
+  "programme_name": "Program for Energy Upgrade of the Building Stock and Spatial Reorganization",
+  "description": "The program aims to support the energy upgrade of buildings in the residential and commercial sectors, as well as spatial reorganization projects.",
+  "programme_objective": "To reduce energy consumption and greenhouse gas emissions from buildings, improve the living conditions of citizens, and stimulate economic growth.",
+  "eligible_parties": ["Individuals", "Legal entities"],
+  "eligibility_criteria": [
+    "Ownership or lease of a building for at least 5 years",
+    "Meeting energy performance requirements"
+  ],
+  "property_requirements": [
+    "Buildings must be located in areas designated for intervention",
+    "Buildings must have an Energy Performance Certificate (EPC)"
+  ],
+  "minimum_funding_amount": "€50,000",
+  "maximum_funding_amount": "€2,000,000",
+  "funding_type": "Grants and low-interest loans",
+  "interest_rate": "1%",
+  "funding_coverage": "Up to 50% of the total eligible costs",
+  "total_budget": "€400,000,000",
+  "funding_sources": ["European Union funds", "National budget"],
+  "duration": "3 years",
+  "loan_duration": "Up to 15 years",
+  "completion_deadline": "31/12/2027",
+  "application_start_date": "12/02/2025",
+  "application_end_date": "31/12/2025 or until all available funds are exhausted",
+  "energy_performance_targets": [
+    {
+      "name": "Primary Energy Ratio (PER)",
+      "target": "40% reduction compared to the minimum energy performance requirements"
+    },
+    {
+      "name": "Final Energy Consumption (FEC)",
+      "target": "35% reduction compared to the minimum energy performance requirements"
+    }
+  ],
+  "eligible_interventions": [
+    "Energy efficiency improvements",
+    "Renewable energy systems",
+    "Spatial reorganization projects"
+  ],
+  "application_process": "Applications are submitted through the designated online platform.",
+  "managing_body": "Ministry of Environment and Energy",
+  "announcement_date": "16-12-2024",
+  "contact_info": [
+    {
+      "name": "Contact Center",
+      "email": "energyupgrade@moe.gr",
+      "phone": "+30 210 896 5000"
+    }
+  ],
+  "additional_details": "For more information, visit the official website of the program."
+}

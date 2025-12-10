@@ -39,14 +39,10 @@ Each key corresponds to an `AgentType` or workflow component.
 
 ---
 
-## url_selector.py
-(Added by project extension)
-Encapsulates logic for selecting relevant URLs from a trusted source registry.
-Used by `OnlineAgent` to replace or augment open web searches.
-
----
-
-## online_agent.py
+## va1_url_selector.py
 (Added by project extension)
 Example entry point for interactive sessions and web integration.
 Demonstrates conversation memory, URL detection, and dynamic online retrieval.
+
+Encapsulates logic for selecting relevant URLs from a trusted source registry.
+Used by `OnlineAgent` to replace or augment open web searches.

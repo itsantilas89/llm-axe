@@ -1,0 +1,42 @@
+{
+  "programme_name": "Energy Efficiency Improvement Program",
+  "description": "A program aimed at providing funding for energy efficiency improvements in buildings and infrastructure.",
+  "programme_objective": "To reduce energy consumption and greenhouse gas emissions by improving the energy performance of existing buildings and infrastructure.",
+  "eligible_parties": ["Individuals", "Businesses", "Public Sector"],
+  "eligibility_criteria": [
+    "Ownership or control of the property being improved",
+    "Meeting minimum energy performance standards",
+    "Providing a detailed project plan and cost estimate"
+  ],
+  "property_requirements": ["Existing buildings or infrastructure"],
+  "minimum_funding_amount": "50,000 EUR",
+  "maximum_funding_amount": "2,000,000 EUR",
+  "funding_type": "Grants and Loans",
+  "interest_rate": "Variable",
+  "funding_coverage": "Up to 70% of project costs",
+  "total_budget": "100,000,000 EUR",
+  "funding_sources": ["Government Budget", "European Union Funds"],
+  "duration": "2 years",
+  "loan_duration": "Up to 10 years",
+  "completion_deadline": "31 December 2025",
+  "application_start_date": "1 January 2023",
+  "application_end_date": "31 December 2024",
+  "energy_performance_targets": [
+    "Reduction of energy consumption by at least 20%",
+    "Improvement of energy performance rating by at least one class"
+  ],
+  "eligible_interventions": [
+    "Insulation",
+    "Heating and cooling system upgrades",
+    "Lighting upgrades",
+    "Renewable energy installations"
+  ],
+  "application_process": "Online application through the program's website",
+  "managing_body": "National Energy Agency",
+  "announcement_date": "15 November 2022",
+  "contact_info": [
+    "Email: info@energyagency.gov",
+    "Phone: +372 645 6789"
+  ],
+  "additional_details": "Funding is subject to availability and may be withdrawn at any time."
+}
