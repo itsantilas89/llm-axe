@@ -1,0 +1,50 @@
+{
+  "programme_name": "Astypalea Energy Efficiency Programme",
+  "description": "A programme to support energy efficiency measures in Astypalea, aiming to reduce energy consumption and promote sustainable practices.",
+  "programme_objective": "To improve the energy efficiency of buildings and businesses in Astypalea, contributing to a greener and more sustainable island community.",
+  "eligible_parties": [
+    "Private Businesses",
+    "Private Residences",
+    "Local Organizations"
+  ],
+  "eligibility_criteria": [
+    "Located in Astypalea",
+    "Demonstrable energy consumption",
+    "Commitment to energy efficiency measures"
+  ],
+  "property_requirements": [
+    "Buildings requiring energy efficiency upgrades",
+    "Suitable for energy-saving interventions"
+  ],
+  "minimum_funding_amount": "1.000€",
+  "maximum_funding_amount": "10.000€",
+  "funding_type": "Grants",
+  "interest_rate": "0%",
+  "funding_coverage": "Up to 100% of eligible costs",
+  "total_budget": "50.000€",
+  "funding_sources": [
+    "European Regional Development Fund (ERDF)",
+    "Local Government of Astypalea"
+  ],
+  "duration": "24 months",
+  "loan_duration": "N/A",
+  "completion_deadline": "31/12/2024",
+  "application_start_date": "01/01/2020",
+  "application_end_date": "31/12/2024",
+  "energy_performance_targets": "Reduction of energy consumption by 20% in participating buildings.",
+  "eligible_interventions": [
+    "Insulation of buildings",
+    "Installation of energy-efficient lighting",
+    "Replacement of old heating systems",
+    "Installation of solar panels"
+  ],
+  "application_process": "Applicants must submit a detailed proposal outlining their energy efficiency project, including a cost breakdown and expected energy savings.",
+  "managing_body": "Local Government of Astypalea",
+  "announcement_date": "15/03/2020",
+  "contact_info": [
+    "Email: astypaleaenergy@example.com",
+    "Phone: +30 22830 12345",
+    "Website: www.astypaleaenergy.gr"
+  ],
+  "additional_details": "The programme prioritizes projects that contribute to the island's sustainable development goals."
+}

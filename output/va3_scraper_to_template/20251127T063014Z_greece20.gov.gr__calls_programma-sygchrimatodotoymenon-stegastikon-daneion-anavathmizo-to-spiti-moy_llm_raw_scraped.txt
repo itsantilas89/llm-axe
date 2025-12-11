@@ -1,0 +1,59 @@
+{
+  "programme_name": "Program for Energy Upgrade of the Building Stock and Spatial Reorganization",
+  "description": "The program aims to support the energy upgrade of buildings in the residential and commercial sectors, as well as spatial reorganization projects.",
+  "programme_objective": "To reduce energy consumption and greenhouse gas emissions from buildings, improve the living and working environment, and promote sustainable urban development.",
+  "eligible_parties": ["Individuals", "Legal entities"],
+  "eligibility_criteria": [
+    "Ownership of the property for at least 5 years",
+    "Proof of income and solvency"
+  ],
+  "property_requirements": [
+    "Energy Performance Certificate (EPC) with a rating of D or lower",
+    "Building must be located in an area eligible for funding"
+  ],
+  "minimum_funding_amount": "€50,000",
+  "maximum_funding_amount": "€200,000",
+  "funding_type": "Loan",
+  "interest_rate": "1.5% per annum",
+  "funding_coverage": "Up to 70% of the total project cost",
+  "total_budget": "€400,000,000",
+  "funding_sources": ["European Regional Development Fund (ERDF)", "National budget"],
+  "duration": "5 years",
+  "loan_duration": "Up to 15 years",
+  "completion_deadline": "31/12/2027",
+  "application_start_date": "12/02/2025",
+  "application_end_date": "31/12/2025 or until all available funds are exhausted",
+  "energy_performance_targets": [
+    {
+      "name": "Primary Energy Consumption",
+      "target": "-40%"
+    },
+    {
+      "name": "Final Energy Consumption",
+      "target": "-35%"
+    }
+  ],
+  "eligible_interventions": [
+    "Insulation of walls, roofs, and floors",
+    "Replacement of windows and doors with energy-efficient models",
+    "Installation of renewable energy systems (e.g., solar panels, heat pumps)",
+    "Energy-efficient heating, ventilation, and air conditioning (HVAC) systems"
+  ],
+  "application_process": [
+    "Preliminary assessment of the property's energy performance",
+    "Submission of the application form and required documents",
+    "Technical evaluation of the project proposal",
+    "Financial evaluation of the applicant's eligibility",
+    "Approval or rejection of the application"
+  ],
+  "managing_body": "Ministry of Environment and Energy",
+  "announcement_date": "16-12-2024",
+  "contact_info": [
+    {
+      "name": "Contact Center",
+      "email": "energyupgrade@moe.gr",
+      "phone": "+30 210 895 7000"
+    }
+  ],
+  "additional_details": "For more information, visit the official website: https://energynomou.gr/programs/energy-upgrade-of-the-building-stock/"
+}

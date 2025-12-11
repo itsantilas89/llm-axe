@@ -1,0 +1,46 @@
+{
+  "programme_name": "Αναβαθμίζω το Σπίτι Μου",
+  "description": "Πρόγραμμα ενεργειακής αναβάθμισης για την αναβάθμιση των κτιριακών αποθεμάτων και τη χώρας και χωροταξική μεταρρύθμιση",
+  "programme_objective": "Αναβάθμιση των κτιριακών αποθεμάτων και η χώρα και χωροταξική μεταρύθμιση",
+  "eligible_parties": [
+    "Ιδιωτικοί ιδιοκτητές"
+  ],
+  "eligibility_criteria": [
+    "Δικαιώματα ιδιοκτησίας"
+  ],
+  "property_requirements": [
+    "Κτιριακός αποθεσμός"
+  ],
+  "minimum_funding_amount": "",
+  "maximum_funding_amount": "400.000.000,00",
+  "funding_type": "Στεγαστικά δάνεια ιδιωτών",
+  "interest_rate": "",
+  "funding_coverage": "100%",
+  "total_budget": "400.000.000,00",
+  "funding_sources": [
+    "Τραπεζική εφεσό"
+  ],
+  "duration": "12/02/2025 - 31/12/2025",
+  "loan_duration": "",
+  "completion_deadline": "",
+  "application_start_date": "12/02/2025",
+  "application_end_date": "31/12/2025",
+  "energy_performance_targets": "Αναβάθμιση της ενεργειακής performance",
+  "eligible_interventions": [
+    "Εγκατάσταση συστημάτων θερμοστατικής ρύθμισης"
+  ],
+  "application_process": "Υποβολή αίτησης στο συνεργαζόμενο πιστωτικό ίδρυμα",
+  "managing_body": "Ελληνική Αναπτυξιακή Τράπεζα",
+  "announcement_date": "16/12/2024",
+  "contact_info": [
+    {
+      "name": "E-mail",
+      "value": "anavathmizo@hdb.gr"
+    },
+    {
+      "name": "Τηλεφωνική εξυπηρέτηση",
+      "value": "211-1058659 (Δευτέρα - Παρασκευή 09:00–17:00)"
+    }
+  ],
+  "additional_details": ""
+}
