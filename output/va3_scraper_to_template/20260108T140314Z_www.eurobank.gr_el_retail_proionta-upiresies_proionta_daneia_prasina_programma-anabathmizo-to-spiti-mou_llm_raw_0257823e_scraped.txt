@@ -1,0 +1,98 @@
+{
+  "programme_name": "Αναβαθμίζω το Σπίτι μου",
+  "description": "Δάνειο για ενεργειακή αναβάθμιση",
+  "programme_objective": "Ενίσχυση της ενεργειακής απόδοσης των σπιτιών",
+  "eligible_parties": [
+    {
+      "party_type": "Individuals",
+      "eligibility_criteria": [
+        {
+          "criterion_name": "Age",
+          "criterion_value": "25-50"
+        },
+        {
+          "criterion_name": "Income",
+          "criterion_value": "Low"
+        }
+      ]
+    },
+    {
+      "party_type": "Zoogamous Couples",
+      "eligibility_criteria": [
+        {
+          "criterion_name": "Age",
+          "criterion_value": "25-50"
+        },
+        {
+          "criterion_name": "Income",
+          "criterion_value": "Low"
+        }
+      ]
+    }
+  ],
+  "property_requirements": [
+    {
+      "requirement_name": "Property Type",
+      "requirement_value": "Residential"
+    },
+    {
+      "requirement_name": "Property Age",
+      "requirement_value": "New or Renovated"
+    }
+  ],
+  "minimum_funding_amount": "5000",
+  "maximum_funding_amount": "200000",
+  "funding_type": "Loans",
+  "interest_rate": "Variable",
+  "funding_coverage": "Up to 70%",
+  "total_budget": "300000",
+  "funding_sources": [
+    {
+      "source_name": "European Union",
+      "source_value": "50%"
+    },
+    {
+      "source_name": "Greek Government",
+      "source_value": "30%"
+    }
+  ],
+  "duration": "3 years",
+  "loan_duration": "25-30 years",
+  "completion_deadline": "2025",
+  "application_start_date": "2022-01-01",
+  "application_end_date": "2024-12-31",
+  "energy_performance_targets": [
+    {
+      "target_name": "Energy Performance Index (EPI)",
+      "target_value": "A"
+    },
+    {
+      "target_name": "Energy Consumption",
+      "target_value": "-20%"
+    }
+  ],
+  "eligible_interventions": [
+    {
+      "intervention_name": "Insulation",
+      "intervention_value": "Up to 50%"
+    },
+    {
+      "intervention_name": "Windows Replacement",
+      "intervention_value": "Up to 30%"
+    },
+    {
+      "intervention_name": "Doors Replacement",
+      "intervention_value": "Up to 20%"
+    }
+  ],
+  "application_process": "Online Application",
+  "managing_body": "Greek Ministry of Environment and Energy",
+  "announcement_date": "2022-02-01",
+  "contact_info": [
+    {
+      "contact_name": "Greek Ministry of Environment and Energy",
+      "contact_email": "info@environment.gov.gr"
+    }
+  ],
+  "additional_details": "Terms and Conditions Apply"
+}

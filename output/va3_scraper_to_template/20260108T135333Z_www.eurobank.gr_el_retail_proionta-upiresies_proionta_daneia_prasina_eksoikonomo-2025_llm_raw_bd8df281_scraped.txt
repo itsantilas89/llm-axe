@@ -1,0 +1,100 @@
+{
+  "programme_name": "Εξοικονομώ 2025",
+  "description": "Πρόγραμμα για την ενεργειακή αναβάθμιση σπιτιών",
+  "programme_objective": "Μειώσει τα έξοδα ενέργειας και βελτίωση της ενεργειακής απόδοσης",
+  "eligible_parties": [
+    {
+      "name": "Δικαιούχοι",
+      "description": "Συμμετοχή των ιδιοκτητών σπιτιών"
+    },
+    {
+      "name": "Ενεργειακοί επιθεωρητές",
+      "description": "Πρόσβαση σε σπίτια για ενεργειακή εποπτεία"
+    }
+  ],
+  "eligibility_criteria": [
+    {
+      "name": "Δικαιούχος του προγράμματος",
+      "description": "Συμμετοχή στο πρόγραμμα Εξοικονομώ 2025"
+    },
+    {
+      "name": "Πρόσβαση σε σπίτια",
+      "description": "Ενεργειακός επιθεωρητής"
+    }
+  ],
+  "property_requirements": [
+    {
+      "name": "Σπίτι με καύστηρα ή λέβητα",
+      "description": "Πρόσβαση σε σπίτια με καυστήρα ή λέβητα"
+    },
+    {
+      "name": "Δικαιούχος του προγράμματος",
+      "description": "Συμμετοχή στο πρόγραμμα Εξοικονομώ 2025"
+    }
+  ],
+  "minimum_funding_amount": "500€",
+  "maximum_funding_amount": "50.000€",
+  "funding_type": "Δανείο",
+  "interest_rate": "0%",
+  "funding_coverage": "100%",
+  "total_budget": "10.000.000€",
+  "funding_sources": [
+    {
+      "name": "Ευρωπαϊκή Union",
+      "description": "Φορέας εποπτείας"
+    }
+  ],
+  "duration": "2 χρόνια",
+  "loan_duration": "5 χρόνια",
+  "completion_deadline": "2027",
+  "application_start_date": "2023-02-01",
+  "application_end_date": "2024-12-31",
+  "energy_performance_targets": [
+    {
+      "name": "Ενεργειακή απόδοση A+",
+      "description": "Πρόσβαση σε σπίτια με ενεργειακή απόδοσης A+"
+    }
+  ],
+  "eligible_interventions": [
+    {
+      "name": "Εγκατάσταση αντλίας θερμότητας",
+      "description": "Πρόσβαση σε σπίτια με αντλία θερμότητας"
+    },
+    {
+      "name": "Μονωποίηση ταράτσας",
+      "description": "Πρόσβαση σε σπίτια με μονωμένη ταράτσα"
+    }
+  ],
+  "application_process": [
+    {
+      "name": "Δήλωσης ενδιαφέροντος",
+      "description": "Συμμετοχή στο πρόγραμμα Εξοικονομώ 2025"
+    },
+    {
+      "name": "Επίλεξη προϋποθέσεων",
+      "description": "Πρόσβαση σε σπίτια με καύστηρα ή λέβητα"
+    }
+  ],
+  "managing_body": [
+    {
+      "name": "Δήμος",
+      "description": "Δήμος που διαχειρίζει το πρόγραμμα"
+    },
+    {
+      "name": "Ευρωπαϊκή Union",
+      "description": "Φορέας εποπτείας"
+    }
+  ],
+  "announcement_date": "2023-02-01",
+  "contact_info": [
+    {
+      "name": "Δήμος",
+      "description": "Δημοσκοπική έδρα"
+    },
+    {
+      "name": "Ευρωπαϊκή Union",
+      "description": "Φορέας εποπτείας"
+    }
+  ],
+  "additional_details": ""
+}

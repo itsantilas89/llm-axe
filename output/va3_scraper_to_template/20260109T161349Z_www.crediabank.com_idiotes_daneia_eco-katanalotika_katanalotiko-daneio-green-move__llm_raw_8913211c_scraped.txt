@@ -1,0 +1,33 @@
+{
+  "programme_name": "Green Move",
+  "description": "Katastematico dithanio gia oikologiko metaforiko medium",
+  "programme_objective": "Oikologiko metaforiko medium",
+  "eligible_parties": [
+    "Etaireia ton epanastaseon"
+  ],
+  "eligibility_criteria": [],
+  "property_requirements": [],
+  "minimum_funding_amount": "[€1.000]",
+  "maximum_funding_amount": "[€50.000] for new vehicle, [€25.000] for used vehicle, [€20.000] for electric bike or scooter",
+  "funding_type": "Loan",
+  "interest_rate": "6.75% for new vehicle, 9.75% for used vehicle",
+  "funding_coverage": "[80% of the offer price or the dealer's profit] or [the offer price or the dealer's profit] of the vehicle's resale value after government incentives",
+  "total_budget": "",
+  "funding_sources": [],
+  "duration": "[6-84 months] for new vehicle, [6-60 months] for used vehicle, [6-60 months] for electric bike or scooter",
+  "loan_duration": "[72 months] for new vehicle",
+  "completion_deadline": "",
+  "application_start_date": "",
+  "application_end_date": "",
+  "energy_performance_targets": "",
+  "eligible_interventions": [],
+  "application_process": "Online application through CrediaBank website",
+  "managing_body": "CrediaBank",
+  "announcement_date": "[10/01/2024]",
+  "contact_info": [
+    {
+      "name": "CrediaBank"
+    }
+  ],
+  "additional_details": ""
+}

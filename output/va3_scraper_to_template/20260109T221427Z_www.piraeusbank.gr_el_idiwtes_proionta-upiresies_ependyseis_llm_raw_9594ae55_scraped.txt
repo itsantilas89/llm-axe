@@ -1,0 +1,45 @@
+{
+  "programme_name": "Επενδύσεις – Έξυπνες Ιδέες",
+  "description": "Επενδύσεις και έξυπνες ιδέες για να αυξήσετε το κεφάλαιό σας.",
+  "programme_objective": "Αυξάνοντας την προοπτική θετικών αποδόσεων και ευελιξία.",
+  "eligible_parties": [
+    {
+      "name": "Ιδιώτες",
+      "description": ""
+    },
+    {
+      "name": "Τραπεζικά",
+      "description": ""
+    }
+  ],
+  "eligibility_criteria": [],
+  "property_requirements": [],
+  "minimum_funding_amount": "",
+  "maximum_funding_amount": "",
+  "funding_type": "",
+  "interest_rate": "",
+  "funding_coverage": "",
+  "total_budget": "",
+  "funding_sources": [],
+  "duration": "",
+  "loan_duration": "",
+  "completion_deadline": "",
+  "application_start_date": "",
+  "application_end_date": "",
+  "energy_performance_targets": "",
+  "eligible_interventions": [
+    {
+      "name": "Αποταμιευτικό",
+      "description": "Διπλό όφελος. Για νέους 18-30 ετών"
+    },
+    {
+      "name": "Επενδύσεις",
+      "description": ""
+    }
+  ],
+  "application_process": "",
+  "managing_body": "",
+  "announcement_date": "",
+  "contact_info": [],
+  "additional_details": ""
+}

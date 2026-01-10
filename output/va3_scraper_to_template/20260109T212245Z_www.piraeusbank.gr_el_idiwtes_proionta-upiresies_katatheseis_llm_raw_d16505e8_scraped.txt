@@ -1,0 +1,31 @@
+{
+  "programme_name": "Eco-Loan",
+  "description": "Low-interest loan for sustainable investments",
+  "programme_objective": "To promote sustainable investments and reduce carbon footprint",
+  "eligible_parties": [
+    "Individuals"
+  ],
+  "eligibility_criteria": [],
+  "property_requirements": [],
+  "minimum_funding_amount": "",
+  "maximum_funding_amount": "[500,000]",
+  "funding_type": "Loan",
+  "interest_rate": "[0.5-1.5%]",
+  "funding_coverage": "Up to 80%",
+  "total_budget": "€10 million",
+  "funding_sources": [],
+  "duration": "Up to 12 months",
+  "loan_duration": "Variable",
+  "completion_deadline": "",
+  "application_start_date": "",
+  "application_end_date": "",
+  "energy_performance_targets": "Reduce carbon footprint by 20%",
+  "eligible_interventions": [
+    "Renewable energy systems"
+  ],
+  "application_process": "Online application through Piraeus e-banking",
+  "managing_body": "Piraeus Bank",
+  "announcement_date": "",
+  "contact_info": [],
+  "additional_details": ""
+}

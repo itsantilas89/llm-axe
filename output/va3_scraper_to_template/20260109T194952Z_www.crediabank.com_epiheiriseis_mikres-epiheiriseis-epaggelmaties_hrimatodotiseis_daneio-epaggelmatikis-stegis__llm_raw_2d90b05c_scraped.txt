@@ -1,0 +1,33 @@
+{
+  "programme_name": "Δάνειο Επαγγελματικής Στέγης",
+  "description": "Δάνειο για αγορά, ανακαίνιση ή επέκταση επαγγελματικής στέγης",
+  "programme_objective": "Επενδύσεις στο μέλλον της επιχείρησής σου με διάρκεια έως 20 χρόνια και ανταγωνιστικό επιτόκιο",
+  "eligible_parties": [
+    "Επιχειρήσεις"
+  ],
+  "eligibility_criteria": [],
+  "property_requirements": [
+    "Αγορά, ανακαίνιση ή επέκταση επαγγελματικής στέγης"
+  ],
+  "minimum_funding_amount": "€10.000",
+  "maximum_funding_amount": "[3 M Euribor πλέον περιθωρίου]",
+  "funding_type": "Κυμαινόμενο δάνειο",
+  "interest_rate": "[3,50% πλέον Εισφοράς Ν.128/75 (σήμερα 0,60%) πλέον]",
+  "funding_coverage": "",
+  "total_budget": "",
+  "funding_sources": [],
+  "duration": "24 έως 240 μήνες",
+  "loan_duration": "24 έως 240 μήνες",
+  "completion_deadline": "",
+  "application_start_date": "",
+  "application_end_date": "",
+  "energy_performance_targets": "",
+  "eligible_interventions": [],
+  "application_process": "",
+  "managing_body": "",
+  "announcement_date": "",
+  "contact_info": [
+    ""
+  ],
+  "additional_details": "Διάρκεια δανείου και περιόδου χάριτος έως 36 μήνες, εφόσον υπάρχει κατασκευαστική περίοδος, χωρίς κεφαλαιοποίηση τόκων"
+}

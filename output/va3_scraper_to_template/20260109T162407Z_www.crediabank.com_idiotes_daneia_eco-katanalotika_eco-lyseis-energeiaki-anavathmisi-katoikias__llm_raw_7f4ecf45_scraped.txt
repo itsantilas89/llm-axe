@@ -1,0 +1,44 @@
+{
+  "programme_name": "Credia Eco Λύσεις",
+  "description": "Ενεργειακή Αναβάθμιση Κατοικίας",
+  "programme_objective": "",
+  "eligible_parties": [
+    {
+      "type": "Natural Persons",
+      "description": ""
+    }
+  ],
+  "eligibility_criteria": [],
+  "property_requirements": [
+    {
+      "type": "Residential Buildings",
+      "description": ""
+    }
+  ],
+  "minimum_funding_amount": "",
+  "maximum_funding_amount": "€25,000",
+  "funding_type": "Loan",
+  "interest_rate": "7.90%",
+  "funding_coverage": "Up to 100% of the total cost",
+  "total_budget": "€12,509.92",
+  "funding_sources": [],
+  "duration": "",
+  "loan_duration": "1-7 years",
+  "completion_deadline": "",
+  "application_start_date": "",
+  "application_end_date": "",
+  "energy_performance_targets": "",
+  "eligible_interventions": [
+    {
+      "type": "Energy Performance Certification"
+    },
+    {
+      "type": "Renewable Energy Systems"
+    }
+  ],
+  "application_process": "",
+  "managing_body": "CrediaBank",
+  "announcement_date": "",
+  "contact_info": [],
+  "additional_details": ""
+}

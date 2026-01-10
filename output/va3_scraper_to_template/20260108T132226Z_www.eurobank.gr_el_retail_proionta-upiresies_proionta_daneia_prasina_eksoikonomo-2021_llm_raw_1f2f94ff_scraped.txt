@@ -1,0 +1,72 @@
+{
+  "programme_name": "Εξοικονομώ",
+  "description": "Πρόγραμμα για την ενεργειακή αναβάθμιση των σπιτιών",
+  "programme_objective": "Απωθήστε τα πυρηνικά και θερμικά πυρά, και βελτίωση της ενεργειακής απόδοσης των σπιτιών",
+  "eligible_parties": [
+    {
+      "name": "Κόσμος",
+      "description": "Ο κατοίκος του σπιτιού"
+    },
+    {
+      "name": "Δημοτική Ενότητα",
+      "description": "Η δήμος που εδραιώνει την ενεργειακή αναβάθμιση"
+    }
+  ],
+  "eligibility_criteria": [
+    {
+      "name": "Κόσμος",
+      "description": "Ο κατοίκος του σπιτιού πρέπει να ζει στο σπίτι"
+    },
+    {
+      "name": "Δημοτική Ενότητα",
+      "description": "Η δήμος που εδραιώνει την ενεργειακή αναβάθμιση πρέπει να είναι η δήμος που εδραιώνει την ενεργειακή αναβάθμιση"
+    }
+  ],
+  "property_requirements": [
+    {
+      "name": "Σπίτι",
+      "description": "Το σπίτι πρέπει να έχει πυρηνικά και θερμικά πυρά"
+    },
+    {
+      "name": "Ενεργειακή απόδοση",
+      "description": "Η ενεργειακή απόδοσή του σπιτιού πρέπει να είναι κάτω από 80"
+    }
+  ],
+  "minimum_funding_amount": "",
+  "maximum_funding_amount": "",
+  "funding_type": "Συγχρηματοδότηση",
+  "interest_rate": "",
+  "funding_coverage": "100%",
+  "total_budget": "",
+  "funding_sources": [],
+  "duration": "2 χρόνια",
+  "loan_duration": "10 χρόνια",
+  "completion_deadline": "2025-01-01",
+  "application_start_date": "2023-01-01",
+  "application_end_date": "2024-12-31",
+  "energy_performance_targets": [
+    {
+      "name": "Ενεργειακή απόδοση",
+      "description": "Η ενεργειακή απόδοσή του σπιτιού πρέπει να είναι κάτω από 70"
+    },
+    {
+      "name": "Πυρηνικά πυρά",
+      "description": "Οι πυρηνικές πύρες πρέπει να εξαφανιστούν"
+    }
+  ],
+  "eligible_interventions": [
+    {
+      "name": "Ενεργειακή αναβάθμιση",
+      "description": "Η ενεργειακή αναβάθμιση του σπιτιού"
+    },
+    {
+      "name": "Πυρηνική ανακαίνιση",
+      "description": "Η πυρηνική ανακαίνιση του σπιτιού"
+    }
+  ],
+  "application_process": "",
+  "managing_body": "",
+  "announcement_date": "2023-01-01",
+  "contact_info": [],
+  "additional_details": ""
+}

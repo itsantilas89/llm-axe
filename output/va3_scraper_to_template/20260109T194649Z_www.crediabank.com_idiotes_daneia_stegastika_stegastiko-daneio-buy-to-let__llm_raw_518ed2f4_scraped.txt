@@ -1,0 +1,42 @@
+{
+  "programme_name": "Stegastiko Daneio Buy to Let",
+  "description": "Financing scheme for buying or renovating a property with the purpose of renting it out.",
+  "programme_objective": "To provide financing options for individuals who want to invest in rental properties.",
+  "eligible_parties": ["Individuals"],
+  "eligibility_criteria": [
+    "The applicant must be an individual",
+    "The applicant must have a stable income"
+  ],
+  "property_requirements": [
+    "The property must be used for renting out",
+    "The property must be located in Greece"
+  ],
+  "minimum_funding_amount": "€10,000",
+  "maximum_funding_amount": "€100,000",
+  "funding_type": "Loan",
+  "interest_rate": "3.10% (fixed) + Euribor 3m spread",
+  "funding_coverage": "Up to 80% of the property's value or up to 100% with a mortgage guarantee",
+  "total_budget": "€145,310.41",
+  "funding_sources": [],
+  "duration": "15 years",
+  "loan_duration": "180 months",
+  "completion_deadline": "",
+  "application_start_date": "",
+  "application_end_date": "",
+  "energy_performance_targets": "",
+  "eligible_interventions": [],
+  "application_process": "Online application through CrediaBank's website",
+  "managing_body": "CrediaBank",
+  "announcement_date": "",
+  "contact_info": [
+    {
+      "type": "Phone",
+      "value": ""
+    },
+    {
+      "type": "Email",
+      "value": ""
+    }
+  ],
+  "additional_details": "Additional fees for research, monitoring of the application and approval: €897"
+}

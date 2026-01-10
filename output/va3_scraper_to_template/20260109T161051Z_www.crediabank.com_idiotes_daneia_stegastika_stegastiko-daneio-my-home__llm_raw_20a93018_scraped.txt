@@ -1,0 +1,42 @@
+{
+  "programme_name": "Stegastiko Daneio My Home",
+  "description": "Δάνειο για Αγορά ή Ανακαίνιση Κατοικίας",
+  "programme_objective": "",
+  "eligible_parties": [
+    "Αγοράζεις, ανακαινίζεις ή μεταφέρεις δάνειο από άλλη τράπεζα"
+  ],
+  "eligibility_criteria": [],
+  "property_requirements": [],
+  "minimum_funding_amount": "",
+  "maximum_funding_amount": "€100.000",
+  "funding_type": "",
+  "interest_rate": "3% (πλέον εισφοράς Ν. 128/75, 0,12%) για τα πρώτα έτη, 4,60% για τα 15 έτη",
+  "funding_coverage": " έως 100% της εκτιμηθείσας αξίας του ακινήτου (με εξασφάλιση ενenchυρίαση μετρητών) και έως το 100% του συμβολαίου αγοράς",
+  "total_budget": "",
+  "funding_sources": [],
+  "duration": "3-30 έτη",
+  "loan_duration": "15 έτη (180 μήνες)",
+  "completion_deadline": "",
+  "application_start_date": "",
+  "application_end_date": "",
+  "energy_performance_targets": "",
+  "eligible_interventions": [],
+  "application_process": "",
+  "managing_body": "CrediaBank",
+  "announcement_date": "",
+  "contact_info": [
+    {
+      "name": "Attica My Home",
+      "value": "480,00"
+    },
+    {
+      "name": "Συνολικές άλλες εφάπαξ δαπάνες",
+      "value": "742 €"
+    },
+    {
+      "name": "Συνολικών εξόδων ασφάλισης",
+      "value": "2.250 €"
+    }
+  ],
+  "additional_details": ""
+}

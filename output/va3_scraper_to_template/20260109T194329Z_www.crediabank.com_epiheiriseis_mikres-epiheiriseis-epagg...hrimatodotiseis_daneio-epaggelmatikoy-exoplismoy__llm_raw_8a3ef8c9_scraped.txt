@@ -1,0 +1,31 @@
+{
+  "programme_name": "Δάνειο Επαγγελματικού Εξοπλισμού",
+  "description": "Δάνειο για αγορά ή ανανέωση επαγγελματικού εξοπλισμού",
+  "programme_objective": "Χρηματοδοτείς τις αναπτυξιακές ανάγκες της επιχείρησής σου με την αγορά ή ανανέωση παγίων στις εγκαταστάσεις σου, ώστε να γίνει πιο ανταγωνιστική και να μειώσει το περιβαλλοντικό της αποτύπωμα.",
+  "eligible_parties": [
+    "Επιχειρήσεις"
+  ],
+  "eligibility_criteria": [],
+  "property_requirements": [],
+  "minimum_funding_amount": "€10.000",
+  "maximum_funding_amount": "",
+  "funding_type": "Δανείο",
+  "interest_rate": "[3% - 7.50%]",
+  "funding_coverage": "80%",
+  "total_budget": "3 Μ Euribor + περιθώριο (spread)",
+  "funding_sources": [],
+  "duration": "24 - 120 μήνες",
+  "loan_duration": "",
+  "completion_deadline": "",
+  "application_start_date": "",
+  "application_end_date": "",
+  "energy_performance_targets": "",
+  "eligible_interventions": [
+    "Αγορά ηλεκτρικού επαγγελματικού αυτοκινήτου ή εξοπλισμού Ανανεώσιων Πηγών Ενέργειας (ΑΠΕ)"
+  ],
+  "application_process": "",
+  "managing_body": "",
+  "announcement_date": "",
+  "contact_info": [],
+  "additional_details": ""
+}

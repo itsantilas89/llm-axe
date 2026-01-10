@@ -3,5 +3,12 @@
     "https://www.nbg.gr/en/individuals/loans/eco-loans/green-loan",
     "https://www.piraeusbank.gr/en/individuals/banking-products-and-services/loans/personal/green-consumer-loan-for-green-upgrades",
     "https://www.alpha.gr/en/retail/loans/green-solutions/alpha-green-solutions-green-loan-for-the-home"
+  ],
+  "greek_banks_green_loans_stegastika": [
+    "https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina",
+    "https://www.crediabank.com/idiotes/daneia/stegastika/",
+    "https://www.piraeusbank.gr/el/idiwtes/proionta-upiresies/stegastika-daneia",
+    "https://www.nbg.gr/el/idiwtes/daneia/stegastika-daneia",
+    "https://www.alpha.gr/el/idiotes/daneia"
   ]
 }

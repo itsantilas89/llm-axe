@@ -1,0 +1,39 @@
+{
+  "programme_name": "Margin Account",
+  "description": "A financial product that enables investors to engage in transactions with security and flexibility.",
+  "programme_objective": "",
+  "eligible_parties": [],
+  "eligibility_criteria": [
+    {
+      "property_requirements": [
+        {
+          "name": "Χαρτοφυλάκιο Ασφαλείας",
+          "description": "A portfolio of assets or securities provided by the customer as collateral to secure the loan used for buying shares."
+        },
+        {
+          "name": "Περιθώριο",
+          "description": "The difference between the total value of the Collateral Portfolio and the amount borrowed (Credit Facility Balance)"
+        }
+      ]
+    }
+  ],
+  "minimum_funding_amount": "",
+  "maximum_funding_amount": "",
+  "funding_type": "",
+  "interest_rate": "",
+  "funding_coverage": "",
+  "total_budget": "",
+  "funding_sources": [],
+  "duration": "",
+  "loan_duration": "",
+  "completion_deadline": "",
+  "application_start_date": "",
+  "application_end_date": "",
+  "energy_performance_targets": "",
+  "eligible_interventions": [],
+  "application_process": "",
+  "managing_body": "",
+  "announcement_date": "",
+  "contact_info": [],
+  "additional_details": ""
+}

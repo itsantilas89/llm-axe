@@ -1,0 +1,37 @@
+{
+  "programme_name": "Αναβαθμίζω το Σπίτι μου",
+  "description": "Ευέλικτες λύσεις ενεργειακής αναβάθμισης κατοικίας με ευνοϊκούς όρους",
+  "programme_objective": "Βελτίωση της ενεργειακής απόδοσης και προστασία του περιβάλλοντος",
+  "eligible_parties": [
+    "Ιδιοκτήτες κύριων ή μη εκμισθωμένων δευτερευουσών κατοικιών"
+  ],
+  "eligibility_criteria": [],
+  "property_requirements": [],
+  "minimum_funding_amount": "[€5.000]",
+  "maximum_funding_amount": "[€25.000]",
+  "funding_type": "Δανείο",
+  "interest_rate": "",
+  "funding_coverage": "75% άτοκα από το ΤΑΑ, 25% έντοκα από την Τράπεζα",
+  "total_budget": "",
+  "funding_sources": [
+    "ΤΑΑ"
+  ],
+  "duration": "3-7 χρόνια",
+  "loan_duration": "3-7 χρόνια",
+  "completion_deadline": "18 μήνες από την υπογραφή της δανειακής σύμβασης",
+  "application_start_date": "",
+  "application_end_date": "",
+  "energy_performance_targets": "",
+  "eligible_interventions": [
+    "Θερμομόνωση τοίχων, δαπέδων και οροφής",
+    "Αντικατάσταση κουφωμάτων με ενεργειακά αποδοτικά",
+    "Εγκατάσταση ηλιακών θερμοσίφωνων",
+    "Συστήματα θέρμανσης και ψύξης νέας γενιάς",
+    "Εγκατάσταση φωτοβολταϊκών συστημάτων ή μικρών ανεμογεννητριών"
+  ],
+  "application_process": "",
+  "managing_body": "",
+  "announcement_date": "31.05.2026",
+  "contact_info": [],
+  "additional_details": ""
+}

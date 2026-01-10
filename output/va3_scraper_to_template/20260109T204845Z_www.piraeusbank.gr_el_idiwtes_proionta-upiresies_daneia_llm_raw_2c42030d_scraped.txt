@@ -1,0 +1,41 @@
+{
+  "programme_name": "Δάνεια",
+  "description": "Δάνεια για διάφορες ανάγκες",
+  "programme_objective": "Απαιτείται η αναζήτηση και η προβλεψή του δανείου που καλύπτει τις ανάγκες του πελάτη",
+  "eligible_parties": [
+    "Ιδιώτες",
+    "Τραπεζικά"
+  ],
+  "eligibility_criteria": [],
+  "property_requirements": [],
+  "minimum_funding_amount": "",
+  "maximum_funding_amount": "",
+  "funding_type": "Δανειακός",
+  "interest_rate": "[9,90]",
+  "funding_coverage": "100%",
+  "total_budget": "",
+  "funding_sources": [
+    "Δάνεια Πειραιώς"
+  ],
+  "duration": "",
+  "loan_duration": "",
+  "completion_deadline": "",
+  "application_start_date": "",
+  "application_end_date": "",
+  "energy_performance_targets": "",
+  "eligible_interventions": [],
+  "application_process": "Απλή και γρήγορη online διαδικασία",
+  "managing_body": "Δάνεια Πειραιώς",
+  "announcement_date": "",
+  "contact_info": [
+    {
+      "type": "email",
+      "value": ""
+    },
+    {
+      "type": "phone",
+      "value": ""
+    }
+  ],
+  "additional_details": ""
+}

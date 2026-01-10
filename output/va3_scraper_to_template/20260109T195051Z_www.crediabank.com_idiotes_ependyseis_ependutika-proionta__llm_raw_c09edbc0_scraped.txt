@@ -1,0 +1,33 @@
+{
+  "programme_name": "Ependutika Proionta",
+  "description": "MiFID II Margin Account",
+  "programme_objective": "[Empty]",
+  "eligible_parties": [
+    "Ependyseis"
+  ],
+  "eligibility_criteria": [],
+  "property_requirements": [],
+  "minimum_funding_amount": "[Empty]",
+  "maximum_funding_amount": "[Empty]",
+  "funding_type": "[Empty]",
+  "interest_rate": "[Empty]",
+  "funding_coverage": "[Empty]",
+  "total_budget": "[Empty]",
+  "funding_sources": [
+    "[Empty]"
+  ],
+  "duration": "[Empty]",
+  "loan_duration": "[Empty]",
+  "completion_deadline": "[Empty]",
+  "application_start_date": "[Empty]",
+  "application_end_date": "[Empty]",
+  "energy_performance_targets": "[Empty]",
+  "eligible_interventions": [],
+  "application_process": "[Empty]",
+  "managing_body": "[Empty]",
+  "announcement_date": "[Empty]",
+  "contact_info": [
+    "[Empty]"
+  ],
+  "additional_details": ""
+}

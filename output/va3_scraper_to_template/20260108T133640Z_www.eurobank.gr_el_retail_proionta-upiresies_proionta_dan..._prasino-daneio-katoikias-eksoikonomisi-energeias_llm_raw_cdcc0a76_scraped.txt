@@ -1,0 +1,83 @@
+{
+  "programme_name": "Πράσινο δάνειο κατοικίας",
+  "description": "Δάνειο για την ενεργειακή αναβάθμιση του σπιτιού",
+  "programme_objective": "Αποκτήστε δάνειο για την ενεργειακή αναβάθλιση του σπιτιού σας",
+  "eligible_parties": [
+    {
+      "name": "Κόστος του βραχέος",
+      "max_value": 15000
+    },
+    {
+      "name": "Πρόγραμμα «Αναβαθμίζω το Σπίτι μου»",
+      "min_value": 0,
+      "max_value": 100000
+    }
+  ],
+  "eligibility_criteria": [
+    {
+      "name": "Συμφωνία με τον δήμο",
+      "required": true
+    },
+    {
+      "name": "Πρόσθετα συνθήματα",
+      "required": false
+    }
+  ],
+  "property_requirements": [
+    {
+      "name": "Ακίνητο",
+      "required": true
+    },
+    {
+      "name": "Φυσική μορφή",
+      "required": true
+    }
+  ],
+  "minimum_funding_amount": 0,
+  "maximum_funding_amount": 100000,
+  "funding_type": "Δάνειο",
+  "interest_rate": 0,
+  "funding_coverage": 100,
+  "total_budget": 100000,
+  "funding_sources": [
+    {
+      "name": "Δήμος",
+      "percentage": 50
+    },
+    {
+      "name": "Πρόγραμμα «Αναβαθμίζω το Σπίτι μου»",
+      "percentage": 50
+    }
+  ],
+  "duration": "2 χρόνια",
+  "loan_duration": "10 χρόνια",
+  "completion_deadline": "2025-12-31",
+  "application_start_date": "2023-01-01",
+  "application_end_date": "2024-06-30",
+  "energy_performance_targets": [
+    {
+      "name": "Ενεργειακή απόδοση A+",
+      "required": true
+    }
+  ],
+  "eligible_interventions": [
+    {
+      "name": "Αλλαγή κουφωμάτων",
+      "required": false
+    },
+    {
+      "name": "Τοποθέτηση διπλών τζαμιών",
+      "required": false
+    }
+  ],
+  "application_process": "Δημοτική επιτροπή",
+  "managing_body": "Δημοτική Επιτροπή",
+  "announcement_date": "2023-01-01",
+  "contact_info": [
+    {
+      "name": "Δημοτική Επιτροπή",
+      "email": "info@demotropi.gr"
+    }
+  ],
+  "additional_details": ""
+}

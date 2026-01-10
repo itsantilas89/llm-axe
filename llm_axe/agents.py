@@ -4,7 +4,33 @@ import json
 
 from llm_axe.core import AgentType, safe_read_json, generate_schema, get_yaml_prompt, internet_search, read_website, read_pdf, make_prompt, llm_has_ask, stream_and_record
 
-from llm_axe.url_selector import load_sources, match_sources
+try:
+    from llm_axe.url_selector import load_sources, match_sources
+except ImportError:
+    # Fallback if url_selector doesn't exist: load from local trusted_sources.json
+    def load_sources(path: str = "trusted_sources.json"):
+        base_dir = os.path.dirname(__file__)
+        full_path = os.path.join(base_dir, path)
+        try:
+            with open(full_path, "r", encoding="utf-8") as f:
+                return json.load(f)
+        except Exception:
+            return {}
+
+    def match_sources(query: str, sources: dict):
+        if not sources:
+            return []
+        q = (query or "").lower()
+        # Prefer our green loan bank list if present
+        key = "greek_banks_green_loans_stegastika"
+        if key in sources:
+            return sources.get(key, [])
+        # Fallback: flatten all URL lists
+        urls = []
+        for v in sources.values():
+            if isinstance(v, list):
+                urls.extend([u for u in v if isinstance(u, str)])
+        return urls
 
 
 class Agent:
@@ -576,8 +602,6 @@ class OnlineAgent:
             search_results = trusted
         else:
             search_results = self.search_function(query)
-
-        search_results = self.search_function(query)
         search_results =  json.dumps(search_results)
 
         url_picker_prompts = []

@@ -1,0 +1,37 @@
+{
+  "programme_name": "EQUALL",
+  "description": "Ήσες ευκαιρίες για όλες",
+  "programme_objective": "Στελέχουμε τις γυναίκες που έχουν βιώσει έμφυλη βία",
+  "eligible_parties": [
+    {
+      "type": "Natural Persons",
+      "description": ""
+    }
+  ],
+  "eligibility_criteria": [],
+  "property_requirements": [],
+  "minimum_funding_amount": "",
+  "maximum_funding_amount": "",
+  "funding_type": "",
+  "interest_rate": "",
+  "funding_coverage": "",
+  "total_budget": "",
+  "funding_sources": [],
+  "duration": "",
+  "loan_duration": "",
+  "completion_deadline": "",
+  "application_start_date": "",
+  "application_end_date": "",
+  "energy_performance_targets": "",
+  "eligible_interventions": [],
+  "application_process": "",
+  "managing_body": "",
+  "announcement_date": "",
+  "contact_info": [
+    {
+      "type": "Phone",
+      "description": ""
+    }
+  ],
+  "additional_details": ""
+}

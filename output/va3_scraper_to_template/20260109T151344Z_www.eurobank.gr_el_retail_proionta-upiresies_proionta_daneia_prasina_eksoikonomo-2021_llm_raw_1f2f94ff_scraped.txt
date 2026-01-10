@@ -1,0 +1,98 @@
+{
+  "programme_name": "Εξοικονομώ",
+  "description": "Πρόγραμμα για την ενεργειακή αναβάθμιση των σπιτιών",
+  "programme_objective": "Απωθήστε τα πυρηνικά και θερμικά πυρά, και βελτίωση της ενεργειακής απόδοσης των σπιτιών",
+  "eligible_parties": [
+    {
+      "name": "Κόσμημα",
+      "description": "Οχυρό σπίτι"
+    },
+    {
+      "name": "Πολιτεία",
+      "description": "Δημοτική ενεργειακή επιθεώρηση"
+    }
+  ],
+  "eligibility_criteria": [
+    {
+      "name": "Κόσμημα",
+      "description": "Σε σπίτια που έχουν πυρηνικά και θερμικά πυρά"
+    },
+    {
+      "name": "Πολιτεία",
+      "description": "Σε σπίτια που δεν έχουν πυρηνικά και θερμικά πυρά"
+    }
+  ],
+  "property_requirements": [
+    {
+      "name": "Κόσμημα",
+      "description": "Σε σπίτια που έχουν πυρηνικά και θερμικά πυρά"
+    },
+    {
+      "name": "Πολιτεία",
+      "description": "Σε σπίτια που δεν έχουν πυρηνικά και θερμικά πυρά"
+    }
+  ],
+  "minimum_funding_amount": "500€",
+  "maximum_funding_amount": "100.000€",
+  "funding_type": "Δανείο",
+  "interest_rate": "0%",
+  "funding_coverage": "100%",
+  "total_budget": "10.000.000€",
+  "funding_sources": [
+    {
+      "name": "Ευρωπαϊκή Ένωση"
+    }
+  ],
+  "duration": "12 μήνες",
+  "loan_duration": "5 χρόνια",
+  "completion_deadline": "2024-12-31",
+  "application_start_date": "2022-01-01",
+  "application_end_date": "2023-12-31",
+  "energy_performance_targets": [
+    {
+      "name": "Κόσμημα",
+      "description": "Απωθήστε τα πυρηνικά και θερμικά πυρά"
+    },
+    {
+      "name": "Πολιτεία",
+      "description": "Βελτίωση της ενεργειακής απόδοσης"
+    }
+  ],
+  "eligible_interventions": [
+    {
+      "name": "Κόσμημα",
+      "description": "Απωθήστε τα πυρηνικά και θερμικά πυρά"
+    },
+    {
+      "name": "Πολιτεία",
+      "description": "Βελτίωση της ενεργειακής απόδοσης"
+    }
+  ],
+  "application_process": [
+    {
+      "name": "Κόσμημα",
+      "description": "Συμπληρώστε την αίτηση"
+    },
+    {
+      "name": "Πολιτεία",
+      "description": "Δημοτική ενεργειακή επιθεώρηση"
+    }
+  ],
+  "managing_body": [
+    {
+      "name": "Υπουργείο Περιβάλλοντος & Ενέργειας"
+    }
+  ],
+  "announcement_date": "2022-01-01",
+  "contact_info": [
+    {
+      "name": "ΕυροΦωνε",
+      "description": "Δημοτική ενεργειακή επιθεώρηση"
+    },
+    {
+      "name": "Υπουργείο Περιβάλλοντος & Ενέργειας",
+      "description": "Συμβουλευτικό σώμα"
+    }
+  ],
+  "additional_details": ""
+}

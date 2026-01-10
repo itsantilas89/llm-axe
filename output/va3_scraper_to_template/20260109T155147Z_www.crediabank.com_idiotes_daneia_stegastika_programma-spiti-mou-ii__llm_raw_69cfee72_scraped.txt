@@ -1,0 +1,44 @@
+{
+  "programme_name": "\u042c\u03b1\u03ba\u03b5\u03bc \u03a3\u03b1\u03b4\u03af \u03b2",
+  "description": "\u0394\u03bb\u03b9\u03b7\u03b5\u03b1 \u03c0\u03b5\u03ba\u03b5\u03bd\u03b5\u03b1 \u03a3\u03b1\u03b4\u03af \u03b2",
+  "programme_objective": "\u03bb\u03b9\u03b7\u03c0\u03b5\u03ba\u03b5\u03bd\u03b5\u03b1 \u03a3\u03b1\u03b4\u03af \u03b2",
+  "eligible_parties": [
+    {
+      "age_range": "[25, 50]",
+      "income_limit": [
+        {
+          "min_income": 10000,
+          "max_income": 25000
+        },
+        {
+          "min_income": 35000,
+          "max_income": 39000
+        }
+      ]
+    }
+  ],
+  "property_requirements": [],
+  "minimum_funding_amount": "",
+  "maximum_funding_amount": "190000",
+  "funding_type": "\u03b5\u03bb\u03c1\u03ba\u03bd\u03b5\u03b1 \u03a3\u03b1\u03b4\u03af \u03b2",
+  "interest_rate": "[0, 2]",
+  "funding_coverage": "90%",
+  "total_budget": "",
+  "funding_sources": [
+    {
+      "name": "\u03c0\u03bb\u03ba\u03bd\u03b5\u03b1 \u03a3\u03b1\u03b4\u03af"
+    }
+  ],
+  "duration": "[3, 30]",
+  "loan_duration": "",
+  "completion_deadline": "31.05.2026",
+  "application_start_date": "",
+  "application_end_date": "",
+  "energy_performance_targets": "",
+  "eligible_interventions": [],
+  "application_process": "\u03b5\u03bb\u03c1\u03ba\u03bd\u03b5\u03b1 \u03a3\u03b1\u03b4\u03af \u03b2",
+  "managing_body": "",
+  "announcement_date": "",
+  "contact_info": [],
+  "additional_details": ""
+}

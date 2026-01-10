@@ -1,0 +1,55 @@
+{
+  "programme_name": "Εξοικονομώ 2025",
+  "description": "Πρόγραμμα για την ενεργειακή αναβάθμιση σπιτιών",
+  "programme_objective": "Μέσος: Μειωμένη ενέργεια και αύξηση της εμπορικής αξίας σπιτιού",
+  "eligible_parties": [
+    {
+      "name": "Δικαιούχοι",
+      "description": "Συμμετοχή σε προγράμματα εξοικονομώ"
+    }
+  ],
+  "eligibility_criteria": [
+    {
+      "name": "Φυσικά πρόσωπα",
+      "description": "Δικαιούχοι είναι φυσικά πρόσωπα"
+    },
+    {
+      "name": "Συμμετοχή σε προγράμματα εξοικονομώ",
+      "description": "Δικαιούχοι είναι ceux που έχουν συμμετοχές σε προγράμματα εξοικονομώ"
+    }
+  ],
+  "property_requirements": [
+    {
+      "name": "Σπίτι",
+      "description": "Πρόγραμμα για την ενεργειακή αναβάθμιση σπιτιών"
+    }
+  ],
+  "minimum_funding_amount": "",
+  "maximum_funding_amount": "",
+  "funding_type": "",
+  "interest_rate": "",
+  "funding_coverage": "",
+  "total_budget": "",
+  "funding_sources": [],
+  "duration": "",
+  "loan_duration": "",
+  "completion_deadline": "",
+  "application_start_date": "",
+  "application_end_date": "",
+  "energy_performance_targets": "",
+  "eligible_interventions": [
+    {
+      "name": "Εγκατάσταση αντλίας θερμότητας",
+      "description": "Εγκατάσταση αντλίας θερμότητας"
+    },
+    {
+      "name": "Μονωποίηση ταράτσας",
+      "description": "Μονωποίηση ταράτσας"
+    }
+  ],
+  "application_process": "",
+  "managing_body": "",
+  "announcement_date": "",
+  "contact_info": [],
+  "additional_details": ""
+}

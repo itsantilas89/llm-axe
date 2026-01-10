@@ -1,0 +1,42 @@
+{
+  "programme_name": "Στεγαστικό Πρόγραμμα «Αναβαθμίζω το Σπίτι μου»",
+  "description": "Δάνειο για ενεργειακή αναβάθμιση κατοικίας με 100% επιδότηση επιτοκίου",
+  "programme_objective": "Αναβαθμίστε το σπίτι σας και μειώστε τις ενεργειακές του ανάγκες",
+  "eligible_parties": [
+    {
+      "country": "",
+      "residency": "",
+      "currency": ""
+    }
+  ],
+  "eligibility_criteria": [],
+  "property_requirements": [
+    {
+      "energy_performance_category": "[A+, A, B+]"
+    }
+  ],
+  "minimum_funding_amount": "",
+  "maximum_funding_amount": "",
+  "funding_type": "",
+  "interest_rate": "",
+  "funding_coverage": "100%",
+  "total_budget": "",
+  "funding_sources": [],
+  "duration": "",
+  "loan_duration": "",
+  "completion_deadline": "",
+  "application_start_date": "",
+  "application_end_date": "",
+  "energy_performance_targets": "",
+  "eligible_interventions": [],
+  "application_process": "",
+  "managing_body": "",
+  "announcement_date": "",
+  "contact_info": [
+    {
+      "type": "",
+      "value": ""
+    }
+  ],
+  "additional_details": ""
+}

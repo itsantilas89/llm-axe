@@ -1,0 +1,34 @@
+{
+  "programme_name": "Green Move",
+  "description": "Kata nalotiko Daneio Green Move",
+  "programme_objective": "To finance the purchase of eco-friendly vehicles and electric equipment",
+  "eligible_parties": [
+    "Private individuals"
+  ],
+  "eligibility_criteria": [
+    "The vehicle must be new or used (up to 5 years old)",
+    "The vehicle must meet certain environmental standards"
+  ],
+  "property_requirements": [],
+  "minimum_funding_amount": "€1.000",
+  "maximum_funding_amount": "€50.000",
+  "funding_type": "Loan",
+  "interest_rate": "6.75%",
+  "funding_coverage": "Up to 80% of the vehicle's value or the purchase price",
+  "total_budget": "€24,943,30",
+  "funding_sources": [],
+  "duration": "6-84 months",
+  "loan_duration": "72 months",
+  "completion_deadline": "",
+  "application_start_date": "",
+  "application_end_date": "",
+  "energy_performance_targets": "",
+  "eligible_interventions": [
+    "Purchase of a new eco-friendly vehicle"
+  ],
+  "application_process": "Online application through the CrediaBank website",
+  "managing_body": "CrediaBank",
+  "announcement_date": "10/01/2024",
+  "contact_info": [],
+  "additional_details": ""
+}

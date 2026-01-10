@@ -1,0 +1,62 @@
+{
+  "programme_name": "Στεγαστικό δάνειο CrediaBank First Home",
+  "description": "Δάνειο για αγορά ή κατασκευή Α’ κατοικίας",
+  "programme_objective": "Εξασφαλίζει χαμηλό επιτόκιο, προνομιακούς όρους χρηματοδότησης και έκπτωση εάν είσαι τρίτεκνος ή πολύτεκνος ή εάν το πρώτο σου σπίτι ανήκει σε ενεργειακή κατηγορία Α ή Β",
+  "eligible_parties": [
+    {
+      "description": "Μόνιμοι κάτοικοι Ελλάδας"
+    },
+    {
+      "description": "Ηλικίας έως και 50 ετών (τουλάχιστον ο ένας εκ των δύο σε περίπτωση ζεύγους)"
+    }
+  ],
+  "eligibility_criteria": [
+    {
+      "description": "Το προς χρηματοδότηση ακίνητο θα πρέπει να χρησιμοποιηθεί αποκλειστικά ως πρώτη κατοικία"
+    },
+    {
+      "description": "Δεν θα πρέπει να υφίσταται άλλο ακίνητο κατάλληλο για κατοิกία"
+    }
+  ],
+  "property_requirements": [
+    {
+      "description": "Χρηματοδότηση έως το 90% της εκτιμηθείσας αξίας του ακινήτου"
+    },
+    {
+      "description": "Μεγάλη διάρκεια αποπληρωμής"
+    }
+  ],
+  "minimum_funding_amount": "",
+  "maximum_funding_amount": "€ 350.000",
+  "funding_type": "Στεγαστικό δάνειο",
+  "interest_rate": [
+    {
+      "description": "Σταθερό επιτόκιο από 2,15%"
+    },
+    {
+      "description": "Κυμαινόμενο επιτόκιο με περιθώριο από 1,60%"
+    }
+  ],
+  "funding_coverage": "Χρηματοδότηση έως το 90% της αξίας του ακινήτου",
+  "total_budget": "",
+  "funding_sources": [],
+  "duration": "40 έτη",
+  "loan_duration": "30 έτη",
+  "completion_deadline": "",
+  "application_start_date": "",
+  "application_end_date": "",
+  "energy_performance_targets": "",
+  "eligible_interventions": [
+    {
+      "description": "Αγορά κατοικίας"
+    },
+    {
+      "description": "Anérgerese/Aποπεράτωση Α’ κατοικίας"
+    }
+  ],
+  "application_process": "",
+  "managing_body": "",
+  "announcement_date": "",
+  "contact_info": [],
+  "additional_details": ""
+}

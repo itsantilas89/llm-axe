@@ -222,6 +222,26 @@ resp = detector.detect(images=["../img2.jpg"], objects=["sheep", "chicken", "cat
 
 ```
 
+- **Product Discoverer (VA4)** - Automatic Green Loan Product Discovery
+```python
+from llm_axe.models import OllamaChat
+from llm_axe.va4_product_discoverer import discover_and_extract_products
+
+llm = OllamaChat(model="llama3.2:latest")
+
+# Automatically discover and extract energy efficiency loan products from Greek banks
+products = discover_and_extract_products(
+    bank_name="Eurobank",
+    bank_url="https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina",
+    llm=llm
+)
+
+# Results include structured data: product name, description, interest rate, eligible interventions, etc.
+for product in products:
+    print(f"Product: {product.get('programme_name')}")
+    print(f"Rate: {product.get('interest_rate')}")
+```
+
 [**See more complete examples**](https://github.com/emirsahin1/llm-axe/tree/main/examples)
 
 [**How to setup llm-axe with your own LLM**](https://github.com/emirsahin1/llm-axe/blob/main/examples/ex_llm_setup.py)
@@ -231,6 +251,7 @@ resp = detector.detect(images=["../img2.jpg"], objects=["sheep", "chicken", "cat
 
 - Local LLM internet access with Online Agent
 - PDF Document Reader Agent
+- **Automatic Product Discovery & Extraction (VA4)** - Discover and evaluate financial products from trusted sources
 - Premade utility Agents for common tasks
 - Compatible with any LLM, local or externally hosted
 - Built-in support for Ollama

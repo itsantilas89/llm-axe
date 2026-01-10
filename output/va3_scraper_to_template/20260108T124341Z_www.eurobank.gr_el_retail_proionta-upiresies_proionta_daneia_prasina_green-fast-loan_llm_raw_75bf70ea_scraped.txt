@@ -1,0 +1,66 @@
+{
+  "programme_name": "Green Fast Loan",
+  "description": "Fast loan for purchasing green products",
+  "programme_objective": "To support individuals in purchasing green products and reducing energy consumption",
+  "eligible_parties": [
+    {
+      "name": "Individuals"
+    }
+  ],
+  "eligibility_criteria": [
+    {
+      "name": "Age"
+    },
+    {
+      "name": "Income"
+    }
+  ],
+  "property_requirements": [
+    {
+      "name": "Energy performance"
+    }
+  ],
+  "minimum_funding_amount": "500",
+  "maximum_funding_amount": "5000",
+  "funding_type": "Loan",
+  "interest_rate": "Variable",
+  "funding_coverage": "80%",
+  "total_budget": "10000000",
+  "funding_sources": [
+    {
+      "name": "Eurobank"
+    }
+  ],
+  "duration": "12 months",
+  "loan_duration": "5 years",
+  "completion_deadline": "2024-12-31",
+  "application_start_date": "2022-01-01",
+  "application_end_date": "2023-12-31",
+  "energy_performance_targets": [
+    {
+      "name": "Energy efficiency"
+    }
+  ],
+  "eligible_interventions": [
+    {
+      "name": "Renewable energy systems"
+    },
+    {
+      "name": "Energy-efficient appliances"
+    }
+  ],
+  "application_process": "Online application",
+  "managing_body": "Eurobank",
+  "announcement_date": "2022-01-01",
+  "contact_info": [
+    {
+      "name": "Phone",
+      "number": "2109555455"
+    },
+    {
+      "name": "Email",
+      "address": "info@eurobank.gr"
+    }
+  ],
+  "additional_details": ""
+}

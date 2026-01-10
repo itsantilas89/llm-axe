@@ -1,0 +1,40 @@
+{
+  "programme_name": "Τραπεζικά Προϊόντα για Φοιτητές",
+  "description": "Εξοικονόμηση ενέργειας Μία βιώσιμη επιλογή",
+  "programme_objective": "Μια βιώσιμη επιλογή",
+  "eligible_parties": ["Φοιτητές"],
+  "eligibility_criteria": [],
+  "property_requirements": [],
+  "minimum_funding_amount": "",
+  "maximum_funding_amount": "",
+  "funding_type": "",
+  "interest_rate": "",
+  "funding_coverage": "",
+  "total_budget": "",
+  "funding_sources": [],
+  "duration": "",
+  "loan_duration": "",
+  "completion_deadline": "",
+  "application_start_date": "",
+  "application_end_date": "",
+  "energy_performance_targets": "Μειώστε την κατανάλωση ενέργειας",
+  "eligible_interventions": [],
+  "application_process": "Επιλέξτε την προβολή χαμηλής ενέργειας και μειώστε την κατανάλωση της επίσκεψής σας.",
+  "managing_body": "",
+  "announcement_date": "",
+  "contact_info": [
+    {
+      "type": "App Store (iOS)",
+      "value": "Κατεβάστε το Piraeus app από τo App Store"
+    },
+    {
+      "type": "Google Play Store (Android)",
+      "value": "Κατεβάστε το Piraeus app από Google Play Store"
+    },
+    {
+      "type": "App Gallery (Huawei)",
+      "value": "Κατεβάστε το Piraeus app από App Gallery"
+    }
+  ],
+  "additional_details": ""
+}

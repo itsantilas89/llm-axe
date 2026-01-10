@@ -1,0 +1,60 @@
+{
+  "programme_name": "Εξοικονομώ - Ανακαινίζω για νέους",
+  "description": "Πρόγραμμα για την ενεργειακή αναβάθμιση και ανακαίνιση σπιτιών",
+  "programme_objective": "Απαιτείται η ενεργειακή αναβάθμιση και ανακαίνιση σπιτιών για να μειωθεί ο ενεργειακός πόρρος",
+  "eligible_parties": [
+    {
+      "name": "Ελληνικό Δημοσιο",
+      "description": "Εγγυητής"
+    },
+    {
+      "name": "Δημόσιος",
+      "description": "Δημόσιος"
+    }
+  ],
+  "eligibility_criteria": [
+    {
+      "name": "Απαιτείται η présence του σπιτιού στην Ελλάδα",
+      "description": "Απαιτείται η présense του σπιτιού στην Ελλάδα"
+    },
+    {
+      "name": "Απαιτείται η existence of certain energy performance targets",
+      "description": "Απαιτείται η existence of certain energy performance targets"
+    }
+  ],
+  "property_requirements": [
+    {
+      "name": "Ποσοστό εγγύησης",
+      "description": "80% για τις περιπτώσεις ενοικίασης / δωρεάν παραχώρησης και 100% για τις περιπτώσεις ιδιοκατοίκησης"
+    }
+  ],
+  "minimum_funding_amount": "",
+  "maximum_funding_amount": "",
+  "funding_type": "Δανείο",
+  "interest_rate": "",
+  "funding_coverage": "80% - 100%",
+  "total_budget": "",
+  "funding_sources": [],
+  "duration": "2 χρόνια",
+  "loan_duration": "10 χρόνια",
+  "completion_deadline": "2025",
+  "application_start_date": "2023-01-01",
+  "application_end_date": "2024-12-31",
+  "energy_performance_targets": [
+    {
+      "name": "Ενεργειακός πόρρος",
+      "description": "Μειωθεί ο ενεργειακός πórρος"
+    }
+  ],
+  "eligible_interventions": [],
+  "application_process": "",
+  "managing_body": "",
+  "announcement_date": "2023-01-01",
+  "contact_info": [
+    {
+      "name": "Δημόσιος",
+      "description": "Δημόσιος"
+    }
+  ],
+  "additional_details": ""
+}

@@ -1,0 +1,39 @@
+{
+  "programme_name": "Stegastiko Daneio New Start",
+  "description": "Δάνειο για Αγορά ή Ανακαίνιση Κατοικίας",
+  "programme_objective": "Εξασφαλίζει χαμηλό επιτόκιο, ευέλικτη χρηματοδότηση και έκπτωση για ενεργειακά αποδοτικά ακίνητα",
+  "eligible_parties": [
+    "Καινοί ιδιοκτήρες"
+  ],
+  "eligibility_criteria": [
+    "Η κατοικία πρέπει να είναι ενεργειακής κατηγορίας Α ή Β"
+  ],
+  "property_requirements": [
+    "Ακίνητο πρέπει να έχει εκτιμηθείς αξίες τουλάχιστον €100.000"
+  ],
+  "minimum_funding_amount": "",
+  "maximum_funding_amount": "€170.087,21",
+  "funding_type": "Δάνειο",
+  "interest_rate": "[2,60% - 3,804%]",
+  "funding_coverage": "Εως 80% της εκτιμηθείσας αξίας του ακινήτου",
+  "total_budget": "",
+  "funding_sources": [],
+  "duration": "30 έτη",
+  "loan_duration": "30 έτη",
+  "completion_deadline": "",
+  "application_start_date": "",
+  "application_end_date": "",
+  "energy_performance_targets": "",
+  "eligible_interventions": [],
+  "application_process": "Απάντηση στο αίτημα",
+  "managing_body": "CrediaBank",
+  "announcement_date": "31.03.2026",
+  "contact_info": [
+    {
+      "name": "CrediaBank",
+      "email": "",
+      "phone": ""
+    }
+  ],
+  "additional_details": ""
+}

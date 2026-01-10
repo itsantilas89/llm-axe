@@ -1,0 +1,33 @@
+{
+  "programme_name": "Εναλλακτική Αγορά",
+  "description": "Μη οργανωμένη διαπραγμάτευση για μικρές και μεσαίες σύγχρονες αναπτυσσόμενες επιχειρήσεις",
+  "programme_objective": "Αποδότηση χρηματοδότησης στην ευρύτερη αγορά",
+  "eligible_parties": [
+    "Μικρές και μεσαίες σύγχρονες αναπτυσσόμενες επιχειρήσεις"
+  ],
+  "eligibility_criteria": [],
+  "property_requirements": [],
+  "minimum_funding_amount": "",
+  "maximum_funding_amount": "",
+  "funding_type": "Εναλλακτική Αγορά",
+  "interest_rate": "",
+  "funding_coverage": "",
+  "total_budget": "",
+  "funding_sources": [
+    "CrediaBank"
+  ],
+  "duration": "",
+  "loan_duration": "",
+  "completion_deadline": "",
+  "application_start_date": "",
+  "application_end_date": "",
+  "energy_performance_targets": "",
+  "eligible_interventions": [],
+  "application_process": "",
+  "managing_body": "CrediaBank",
+  "announcement_date": "",
+  "contact_info": [
+    ""
+  ],
+  "additional_details": "Πρωτοπόρος στην υποστήριξη της Εναλλακτικής Αγοράς"
+}

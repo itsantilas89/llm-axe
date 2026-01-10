@@ -1,0 +1,72 @@
+{
+  "programme_name": "Εξοικονομώ",
+  "description": "Πρόγραμμα για την ενεργειακή αναβάθμιση των σπιτιών",
+  "programme_objective": "Απωθήστε τα πυρηνικά και θερμικά πυρά, βελτίωση της ενεργειακής απόδοσης και αύξηση της ενεργειακής απόδοσης",
+  "eligible_parties": [
+    {
+      "name": "Δικαιούχοι",
+      "description": "Οι ιδιοκτήρες των σπιτιών"
+    },
+    {
+      "name": "Ενεργειακοί επιθεωρητές",
+      "description": "Οι ενεργειακοί επιθεωρήτες που θα ελέγξουν την ενεργειακή απόδοση του σπιτιού"
+    }
+  ],
+  "eligibility_criteria": [
+    {
+      "name": "Δικαιωτικότητα",
+      "description": "Ο ιδιοκτήρς του σπιτιού πρέπει να είναι δικαιούχος του προγράμματος"
+    },
+    {
+      "name": "Ενεργειακή απόδοση",
+      "description": "Το σπίτι πρέπει να έχει ενεργειακή απόδοσή A+"
+    }
+  ],
+  "property_requirements": [
+    {
+      "name": "Σπίτια",
+      "description": "Οι σπιτίες πρέπει να έχουν πυρηνικά και θερμικά πυρά"
+    },
+    {
+      "name": "Ενεργειακή απόδοση",
+      "description": "Το σπίτι πρέπει να έχει ενεργειακή απόδοσή A+"
+    }
+  ],
+  "minimum_funding_amount": "",
+  "maximum_funding_amount": "",
+  "funding_type": "Συγχρηματοδότηση",
+  "interest_rate": "",
+  "funding_coverage": "100%",
+  "total_budget": "",
+  "funding_sources": [],
+  "duration": "2 χρόνια",
+  "loan_duration": "5 χρόνια",
+  "completion_deadline": "2024-03-29",
+  "application_start_date": "2023-11-15",
+  "application_end_date": "2024-02-07",
+  "energy_performance_targets": [
+    {
+      "name": "Απωθήστε τα πυρηνικά και θερμικά πυρά",
+      "description": "Απωθήστε τα πυρηνικά και θερμικά πυρά"
+    },
+    {
+      "name": "Βελτίωση της ενεργειακής απόδοσης",
+      "description": "Βελτίωση της ενεργειακής απόδοσης"
+    }
+  ],
+  "eligible_interventions": [
+    {
+      "name": "Ενεργειακή αναβάθμιση",
+      "description": "Ενεργειακή αναβάθμιση του σπιτιού"
+    },
+    {
+      "name": "Απωθήστε τα πυρηνικά και θερμικά πυρά",
+      "description": "Απωθήστε τα πυρηνικά και θερμικά πυρά"
+    }
+  ],
+  "application_process": "",
+  "managing_body": "",
+  "announcement_date": "",
+  "contact_info": [],
+  "additional_details": ""
+}

@@ -1,0 +1,40 @@
+{
+  "programme_name": "E-loan",
+  "description": "Loan programme for personal use",
+  "programme_objective": "To provide a loan to individuals for personal use",
+  "eligible_parties": [
+    {
+      "type": "individuals"
+    }
+  ],
+  "eligibility_criteria": [],
+  "property_requirements": [],
+  "minimum_funding_amount": "",
+  "maximum_funding_amount": "",
+  "funding_type": "loan",
+  "interest_rate": "",
+  "funding_coverage": "",
+  "total_budget": "",
+  "funding_sources": [],
+  "duration": "",
+  "loan_duration": "3 years",
+  "completion_deadline": "",
+  "application_start_date": "",
+  "application_end_date": "",
+  "energy_performance_targets": "",
+  "eligible_interventions": [],
+  "application_process": "Online application through Piraeus e-banking",
+  "managing_body": "Piraeus Bank",
+  "announcement_date": "",
+  "contact_info": [
+    {
+      "type": "phone",
+      "number": ""
+    },
+    {
+      "type": "email",
+      "address": ""
+    }
+  ],
+  "additional_details": ""
+}

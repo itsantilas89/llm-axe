@@ -1,0 +1,64 @@
+{
+  "programme_name": "Στεγαστικό Δάνειο Eco Home",
+  "description": "Δάνειο για Ενεργειακή Αναβάθμιση Κατοικίας",
+  "programme_objective": "Μείωσε το ενεργειακό αποτύπωμα του σπιτιού σου και εξοिकονόμησε χρήματα με το Eco Home.",
+  "eligible_parties": [
+    {
+      "description": "Κάτοικοι"
+    }
+  ],
+  "eligibility_criteria": [
+    {
+      "description": "Η κατοικία πρέπει να είναι ενεργειακώς κατώτερη της Β."
+    },
+    {
+      "description": "Η κατοικία πρέπει να έχει παλιό σπίτι (πρόσθετα από το 2000)"
+    }
+  ],
+  "property_requirements": [
+    {
+      "description": "Η κατοικία πρέπει να είναι σε καλή κατάσταση"
+    },
+    {
+      "description": "Η κατοικία πρέπει να έχει παλιό σπίτι (πρόσθετα από το 2000)"
+    }
+  ],
+  "minimum_funding_amount": "[€15.000]",
+  "maximum_funding_amount": "[€75.000]",
+  "funding_type": "Δάνειο",
+  "interest_rate": [
+    {
+      "description": "Σταθερό: 4,20%",
+      "description2": "Κυμαινόμενο: Euribor 3m πλέον περιθωρίου (spread) 1,70%"
+    }
+  ],
+  "funding_coverage": "[100%]",
+  "total_budget": "[€14.563 - €32.011,60]",
+  "funding_sources": [],
+  "duration": "[3-30 έτη]",
+  "loan_duration": "[10-15 έτη]",
+  "completion_deadline": "",
+  "application_start_date": "",
+  "application_end_date": "",
+  "energy_performance_targets": "Ενεργειακής κατηγορίας κατώτερη της Β.",
+  "eligible_interventions": [
+    {
+      "description": "Η αντικατάσταση κουφωμάτων"
+    },
+    {
+      "description": "Τοποθέτηση/ αναβάθμιση θερμομόνωσης"
+    },
+    {
+      "description": "Αναβάθμιση συστήματος θέρμανσης/ ψύξης"
+    }
+  ],
+  "application_process": "",
+  "managing_body": "CrediaBank",
+  "announcement_date": "",
+  "contact_info": [
+    {
+      "description": "Επίσκεψτε ένα κατάστημά μας"
+    }
+  ],
+  "additional_details": ""
+}

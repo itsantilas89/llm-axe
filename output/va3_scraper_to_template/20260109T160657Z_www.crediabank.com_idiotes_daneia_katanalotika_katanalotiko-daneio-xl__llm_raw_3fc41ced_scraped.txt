@@ -1,0 +1,32 @@
+{
+  "programme_name": "Καταναλωτικό Δάνειο XL",
+  "description": "Κάλυψε τις προσωπικές και καταναλωτικές σου ανάγκες με την αξιοποίηση της ακίνητης περιουσίας σου.",
+  "programme_objective": "",
+  "eligible_parties": [],
+  "eligibility_criteria": [],
+  "property_requirements": [
+    {
+      "property_name": "Ακίνητη περιουσία",
+      "property_type": ""
+    }
+  ],
+  "minimum_funding_amount": "[€10.000]",
+  "maximum_funding_amount": "[€200.000]",
+  "funding_type": "",
+  "interest_rate": "4,40% (πλέον εισφοράς Ν.128/75, σήμερα 0,60%)",
+  "funding_coverage": "",
+  "total_budget": "",
+  "funding_sources": [],
+  "duration": "[12-240 μήνες]",
+  "loan_duration": "",
+  "completion_deadline": "",
+  "application_start_date": "",
+  "application_end_date": "",
+  "energy_performance_targets": "",
+  "eligible_interventions": [],
+  "application_process": "",
+  "managing_body": "",
+  "announcement_date": "",
+  "contact_info": [],
+  "additional_details": "Η χορήγηση του καταναλωτικού δανείου XL καλύπτεται υποχρεωτικά με εμπράγματη εξασφάλιση (εγγραφή προσημείωσης υποθήκης επί ακινήτου)"
+}

@@ -1,0 +1,29 @@
+{
+  "programme_name": "Στεγαστικό Δάνειο Premier Residence",
+  "description": "Δάνειο για Πολυτελή Κατοικία",
+  "programme_objective": "Αναζητάς λύση χρηματοδότησης για κατοिकία υψηλών προδιαγραφών;",
+  "eligible_parties": [
+    "Απαιτητικά projects"
+  ],
+  "eligibility_criteria": [],
+  "property_requirements": [],
+  "minimum_funding_amount": "",
+  "maximum_funding_amount": "",
+  "funding_type": "Χρηματοδότηση",
+  "interest_rate": "",
+  "funding_coverage": " έως το 70% της εκτιμηθείσας αξίας του χρηματοδοτούμενου ακινήτου αποπερατωμένου και έως το 70% του τιμήματος όπως αυτό θα βεβαιώνεται από το Συμβόλαιο Αγοραπωλησίας",
+  "total_budget": "",
+  "funding_sources": [],
+  "duration": "3 έως 20 έτη",
+  "loan_duration": "",
+  "completion_deadline": "",
+  "application_start_date": "",
+  "application_end_date": "",
+  "energy_performance_targets": "",
+  "eligible_interventions": [],
+  "application_process": "",
+  "managing_body": "",
+  "announcement_date": "",
+  "contact_info": [],
+  "additional_details": "Πρόωρης μερικής ή ολικής εξόφλησης χωρίς επιβάρυνση εφόσον αυτή πραγματοποιείται στη διάρκεια κυμαινόμενου επιτοκίου. Τμηματικών εκταμιεύσεων, εφόσον υφίσταται κατασκευαστική περίοδος. Παροχής περιόδου χάριτος έως και 36 μήνες, εφόσον υπάρχει κατασκευαστική περίοδος."
+}

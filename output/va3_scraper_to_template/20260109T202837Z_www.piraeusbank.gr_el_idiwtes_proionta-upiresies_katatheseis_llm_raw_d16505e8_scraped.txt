@@ -1,0 +1,44 @@
+{
+  "programme_name": "Eco-Loan",
+  "description": "Low-interest loan for sustainable projects",
+  "programme_objective": "To support sustainable development in Greece",
+  "eligible_parties": [
+    "Individuals",
+    "Small and Medium-sized Enterprises (SMEs)",
+    "Large Corporations"
+  ],
+  "eligibility_criteria": [
+    "Project must be environmentally friendly",
+    "Project must align with EU climate and energy policies"
+  ],
+  "property_requirements": [],
+  "minimum_funding_amount": "",
+  "maximum_funding_amount": "100,000 EUR",
+  "funding_type": "Grant",
+  "interest_rate": "0%",
+  "funding_coverage": "Up to 50% of project costs",
+  "total_budget": "500,000 EUR",
+  "funding_sources": [
+    "European Union"
+  ],
+  "duration": "Up to 5 years",
+  "loan_duration": "",
+  "completion_deadline": "Project completion date",
+  "application_start_date": "Monthly",
+  "application_end_date": "Monthly",
+  "energy_performance_targets": "Reduce energy consumption by 20%",
+  "eligible_interventions": [
+    "Renewable energy systems",
+    "Energy efficiency measures"
+  ],
+  "application_process": "Online application form",
+  "managing_body": "Piraeus Bank",
+  "announcement_date": "2022-01-01",
+  "contact_info": [
+    {
+      "name": "Piraeus Bank",
+      "email": "eco-loan@piraeusbank.gr"
+    }
+  ],
+  "additional_details": ""
+}

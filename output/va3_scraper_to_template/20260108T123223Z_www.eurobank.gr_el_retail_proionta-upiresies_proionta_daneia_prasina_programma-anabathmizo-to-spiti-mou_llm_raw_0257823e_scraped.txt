@@ -1,0 +1,50 @@
+{
+  "programme_name": "Αναβαθμίζω το Σπίτι μου",
+  "description": "Δάνειο για ενεργειακή αναβάθμιση",
+  "programme_objective": "Απαιτείται η αναβάθμιση της ενεργειακής απόδοσης του σπιτιού",
+  "eligible_parties": [
+    {
+      "name": "Ιδιώτες",
+      "age": "25-50 ετών"
+    },
+    {
+      "name": "Ζευγάρια",
+      "age": "25-50 ετών"
+    }
+  ],
+  "eligibility_criteria": [
+    {
+      "name": "Ποσό",
+      "value": "30 χρόνια"
+    },
+    {
+      "name": "Δόση",
+      "value": "30 χρόνια"
+    }
+  ],
+  "property_requirements": [],
+  "minimum_funding_amount": "",
+  "maximum_funding_amount": "",
+  "funding_type": "Στεγαστικό δάνειο",
+  "interest_rate": "",
+  "funding_coverage": "Χαμηλότοκο",
+  "total_budget": "",
+  "funding_sources": [],
+  "duration": "",
+  "loan_duration": "",
+  "completion_deadline": "",
+  "application_start_date": "",
+  "application_end_date": "",
+  "energy_performance_targets": "",
+  "eligible_interventions": [],
+  "application_process": "",
+  "managing_body": "",
+  "announcement_date": "",
+  "contact_info": [
+    {
+      "name": "Ευρώπη",
+      "phone": "+30 2109555888"
+    }
+  ],
+  "additional_details": ""
+}

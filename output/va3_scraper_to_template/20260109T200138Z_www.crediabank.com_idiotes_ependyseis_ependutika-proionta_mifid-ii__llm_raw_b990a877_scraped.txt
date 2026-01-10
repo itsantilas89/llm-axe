@@ -1,0 +1,46 @@
+{
+  "programme_name": "MiFID II",
+  "description": "A significant legislative framework that improves the effectiveness, resilience and transparency of financial markets in Europe, focusing on transparency, investor protection and effective market regulation.",
+  "programme_objective": "To improve the effectiveness, resilience and transparency of financial markets in Europe, focusing on transparency, investor protection and effective market regulation.",
+  "eligible_parties": [
+    "Market participants",
+    "Small and medium-sized enterprises (SMEs)",
+    "Investors"
+  ],
+  "eligibility_criteria": [
+    "Market participants must comply with the MiFID II regulations",
+    "SMEs must demonstrate a certain level of financial stability",
+    "Investors must meet specific requirements for investor protection"
+  ],
+  "property_requirements": [],
+  "minimum_funding_amount": "",
+  "maximum_funding_amount": "",
+  "funding_type": "Non-repayable grant",
+  "interest_rate": "",
+  "funding_coverage": "Up to 100% of eligible costs",
+  "total_budget": "€10 billion",
+  "funding_sources": [
+    "European Union budget"
+  ],
+  "duration": "3 years",
+  "loan_duration": "",
+  "completion_deadline": "31 December 2022",
+  "application_start_date": "1 January 2018",
+  "application_end_date": "30 June 2022",
+  "energy_performance_targets": "",
+  "eligible_interventions": [
+    "Improving market infrastructure",
+    "Enhancing investor protection",
+    "Promoting transparency"
+  ],
+  "application_process": "Online application form",
+  "managing_body": "European Securities and Markets Authority (ESMA)",
+  "announcement_date": "15 May 2014",
+  "contact_info": [
+    {
+      "email": "info@esma.europa.eu",
+      "phone": "+32 2 529 40000"
+    }
+  ],
+  "additional_details": ""
+}

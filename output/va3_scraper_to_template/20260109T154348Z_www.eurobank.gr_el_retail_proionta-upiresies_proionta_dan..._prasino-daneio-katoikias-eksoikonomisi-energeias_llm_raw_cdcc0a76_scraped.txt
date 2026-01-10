@@ -1,0 +1,95 @@
+{
+  "programme_name": "Πράσινο δάνειο κατοικίας",
+  "description": "Δάνειο για την ενεργειακή αναβάθμιση του σπιτιού",
+  "programme_objective": "Αποκτήστε δάνειο για την ενεργειακή αναβάθμιση του σπιτιού σας",
+  "eligible_parties": [
+    {
+      "name": "Κόστος του βραχέος",
+      "max_value": 15000
+    },
+    {
+      "name": "Πρόγραμμα «Αναβαθμίζω το Σπίτι μου»",
+      "max_value": 100000
+    }
+  ],
+  "eligibility_criteria": [
+    {
+      "name": "Συμφωνία με τον δήμο",
+      "condition": "Συμφωνία"
+    },
+    {
+      "name": "Πρόσθετα συνθήματα",
+      "condition": "Πρόσθετα συνθήματα"
+    }
+  ],
+  "property_requirements": [
+    {
+      "name": "Ακίνητο",
+      "condition": "Ακίνητο"
+    },
+    {
+      "name": "Φυσική μορφή",
+      "condition": "Φυσική μορφή"
+    }
+  ],
+  "minimum_funding_amount": 1000,
+  "maximum_funding_amount": 50000,
+  "funding_type": "Δάνειο",
+  "interest_rate": "0%",
+  "funding_coverage": "100%",
+  "total_budget": 500000,
+  "funding_sources": [
+    {
+      "name": "Δήμος",
+      "amount": 300000
+    },
+    {
+      "name": "Πρόγραμμα «Αναβαθμίζω το Σπίτι μου»",
+      "amount": 100000
+    }
+  ],
+  "duration": "12 μήνες",
+  "loan_duration": "5 χρόνια",
+  "completion_deadline": "2024-12-31",
+  "application_start_date": "2022-01-01",
+  "application_end_date": "2023-12-31",
+  "energy_performance_targets": [
+    {
+      "name": "Ενεργειακή απόδοσης",
+      "target": "B"
+    }
+  ],
+  "eligible_interventions": [
+    {
+      "name": "Αλλαγή κουφωμάτων",
+      "condition": "Αλλαγή κουφωμάτων"
+    },
+    {
+      "name": "Τοποθέτηση διπλών τζαμιών",
+      "condition": "Τοποθέτηση διπλών τζαμιών"
+    }
+  ],
+  "application_process": [
+    {
+      "name": "Δήμο",
+      "step": "1"
+    },
+    {
+      "name": "Πρόγραμμα «Αναβαθμίζω το Σπίτι μου»",
+      "step": "2"
+    }
+  ],
+  "managing_body": "Δημοτική Ενότητα",
+  "announcement_date": "2022-01-01",
+  "contact_info": [
+    {
+      "name": "Δήμος",
+      "email": "info@demotica.gr"
+    },
+    {
+      "name": "Πρόγραμμα «Αναβαθμίζω το Σπίτι μου»",
+      "email": "info@programme.gr"
+    }
+  ],
+  "additional_details": "Δάνειο για την ενεργειακή αναβάθμιση του σπιτιού σας"
+}

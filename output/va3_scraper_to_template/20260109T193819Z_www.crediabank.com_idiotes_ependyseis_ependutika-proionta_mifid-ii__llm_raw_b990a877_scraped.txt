@@ -1,0 +1,34 @@
+{
+  "programme_name": "MiFID II",
+  "description": "A significant legislative framework that improves the effectiveness, resilience and transparency of financial markets in Europe, focusing on transparency, investor protection and effective market regulation.",
+  "programme_objective": "",
+  "eligible_parties": [
+    "Market intermediaries",
+    "Investors"
+  ],
+  "eligibility_criteria": [],
+  "property_requirements": [],
+  "minimum_funding_amount": "",
+  "maximum_funding_amount": "",
+  "funding_type": "",
+  "interest_rate": "",
+  "funding_coverage": "",
+  "total_budget": "",
+  "funding_sources": [],
+  "duration": "3 January 2018",
+  "loan_duration": "",
+  "completion_deadline": "",
+  "application_start_date": "",
+  "application_end_date": "",
+  "energy_performance_targets": "",
+  "eligible_interventions": [
+    "Diversification of investment activities to official regulated venues",
+    "Implementation of G20 guidelines for derivatives",
+    "Facilitating access to capital for small and medium-sized enterprises"
+  ],
+  "application_process": "",
+  "managing_body": "",
+  "announcement_date": "15 May 2014",
+  "contact_info": [],
+  "additional_details": ""
+}
