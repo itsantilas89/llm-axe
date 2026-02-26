@@ -1,0 +1,17 @@
+{
+    "chat.tools.terminal.autoApprove": {
+        "/^\\.\\\\\\.env\\\\Scripts\\\\Activate\\.ps1; timeout 30 python -m llm_axe\\.va4_product_discoverer --no-qa \"https://athenslab\\.gr/blog/diatrofi/16-trofes-pou-enisxuoun-tin-energeia-tou-organismou\" 2>&1 \\| Out-String$/": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        "/^\\.\\\\\\.env\\\\Scripts\\\\python\\.exe test_keyword_filter\\.py$/": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        "/^\\.\\\\\\.env\\\\Scripts\\\\python\\.exe test_keyword_filter\\.py 2>&1 \\| Select-String -Pattern \"KEYWORD\\|should\\|Result\\|Found\\|financing\" \\| Out-String$/": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        ".\\.env\\Scripts\\python.exe": true
+    }
+}

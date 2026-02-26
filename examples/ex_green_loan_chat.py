@@ -96,7 +96,7 @@ def main():
     # Initialize LLM
     print("🔧 Αρχικοποίηση συστήματος...")
     try:
-        llm = OllamaChat(model="llama3.2:latest")
+        llm = OllamaChat(model="deepseek-r1:latest")
         print("✅ LLM Έτοιμο\n")
     except Exception as e:
         print(f"❌ Σφάλμα αρχικοποίησης: {e}")

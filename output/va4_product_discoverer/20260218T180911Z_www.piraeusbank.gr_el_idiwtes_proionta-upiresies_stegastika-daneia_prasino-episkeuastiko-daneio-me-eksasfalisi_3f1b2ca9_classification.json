@@ -1,0 +1,19 @@
+{
+  "timestamp": "20260218T180911Z",
+  "url": "https://www.piraeusbank.gr/el/idiwtes/proionta-upiresies/stegastika-daneia/prasino-episkeuastiko-daneio-me-eksasfalisi",
+  "classification": {
+    "is_relevant": true,
+    "primary_category": "housing_loan",
+    "secondary_categories": [],
+    "confidence": 1.0,
+    "reasoning": "Διευθυντική Επιτροπή είναι ένα δάνειο για σπίτια, που προσφέρει φυσικά credit και εγγυή.",
+    "key_features": [
+      "φυσικά credit",
+      "εγγυή"
+    ]
+  },
+  "extracted_data": {
+    "name": "Διευθυντική Επιτροπή",
+    "description": ""
+  }
+}

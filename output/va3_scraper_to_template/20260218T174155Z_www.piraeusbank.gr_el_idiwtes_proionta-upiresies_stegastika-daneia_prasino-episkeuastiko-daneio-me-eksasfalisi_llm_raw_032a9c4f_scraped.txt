@@ -1,0 +1,46 @@
+{
+  "programme_name": "Green Episkyvastiko",
+  "description": "Green Episkyvastiko dani",
+  "programme_objective": "Kymainomeno Epitokio",
+  "eligible_parties": [
+    {
+      "name": "Piraeus Bank"
+    }
+  ],
+  "eligibility_criteria": [
+    {
+      "name": "Akini topos"
+    },
+    {
+      "name": "Energetiki perimetros"
+    }
+  ],
+  "property_requirements": [
+    {
+      "name": "Kymainomeno epitokio"
+    }
+  ],
+  "minimum_funding_amount": "",
+  "maximum_funding_amount": "",
+  "funding_type": "Kymainomeno Epitokio",
+  "interest_rate": "Euribor menos stahero",
+  "funding_coverage": "0,15%",
+  "total_budget": "",
+  "funding_sources": [],
+  "duration": "3/5/10/15/20/25/30 etiros",
+  "loan_duration": "3/5/10/15/20/25/30 etiros",
+  "completion_deadline": "",
+  "application_start_date": "",
+  "application_end_date": "",
+  "energy_performance_targets": "",
+  "eligible_interventions": [],
+  "application_process": "Elektroniki epistemi",
+  "managing_body": "Piraeus Bank",
+  "announcement_date": "",
+  "contact_info": [
+    {
+      "name": "Piraeus Bank"
+    }
+  ],
+  "additional_details": ""
+}

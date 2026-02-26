@@ -76,9 +76,9 @@ def main():
     # Step 3: Initialize LLM
     print_section("STEP 3: Initializing LLM")
     
-    print("Initializing OllamaChat with llama3.2:latest...")
+    print("Initializing OllamaChat with deepseek-r1:latest...")
     try:
-        llm = OllamaChat(model="llama3.2:latest")
+        llm = OllamaChat(model="deepseek-r1:latest")
         print("[✓] LLM initialized successfully")
     except Exception as e:
         print(f"[ERROR] Failed to initialize LLM: {e}")

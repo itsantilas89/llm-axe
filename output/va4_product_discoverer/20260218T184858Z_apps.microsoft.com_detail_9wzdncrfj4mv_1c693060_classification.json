@@ -1,0 +1,42 @@
+{
+  "timestamp": "20260218T184858Z",
+  "url": "https://apps.microsoft.com/detail/9wzdncrfj4mv?hl=en-US&gl=GR",
+  "classification": {
+    "is_relevant": true,
+    "primary_category": "green_housing_loan",
+    "secondary_categories": [],
+    "confidence": 1.0,
+    "reasoning": "Το πρόγραμμα αφορά πράσινο στεγαστικό δάνειο με απαιτούμενη ενεργειακή αναβάθμιση.",
+    "key_features": [
+      "πράσινο στεγαστικό δάνειο",
+      "απαιτεί ενεργειακή αναβάθμιση"
+    ]
+  },
+  "extracted_data": {
+    "programme_name": "Lenovo Vantage - Free download and install on Windows | Microsoft Store",
+    "description": "Lenovo Vantage - Free download and install on Windows | Microsoft Store",
+    "programme_objective": "",
+    "eligible_parties": [],
+    "eligibility_criteria": [],
+    "property_requirements": [],
+    "minimum_funding_amount": "",
+    "maximum_funding_amount": "",
+    "funding_type": "",
+    "interest_rate": "",
+    "funding_coverage": "",
+    "total_budget": "",
+    "funding_sources": [],
+    "duration": "",
+    "loan_duration": "",
+    "completion_deadline": "",
+    "application_start_date": "",
+    "application_end_date": "",
+    "energy_performance_targets": "",
+    "eligible_interventions": [],
+    "application_process": "",
+    "managing_body": "",
+    "announcement_date": "",
+    "contact_info": [],
+    "additional_details": "Raw text from https://apps.microsoft.com/detail/9wzdncrfj4mv?hl=en-US&gl=GR (extraction failed)"
+  }
+}

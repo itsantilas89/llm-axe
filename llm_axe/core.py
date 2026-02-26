@@ -3,18 +3,36 @@ import json
 import os
 import warnings
 import yaml
-import docstring_parser
 from enum import Enum
-from googlesearch import search
 import requests
 from bs4 import BeautifulSoup
 from pypdf import PdfReader as pypdfReader
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 import time
-import numpy as np
-from sklearn.metrics.pairwise import cosine_similarity
 import re
+
+# Optional lightweight dep: docstring_parser
+try:
+    import docstring_parser  # type: ignore
+except Exception:  # pragma: no cover
+    docstring_parser = None  # type: ignore
+
+# Optional search backend: googlesearch
+try:
+    from googlesearch import search  # type: ignore
+except Exception:  # pragma: no cover
+    search = None  # type: ignore
+
+# Optional heavy deps: numpy + scikit-learn
+# These are only needed for embedding-based similarity (find_most_relevant).
+# Make them optional so the rest of the library can work without a C compiler.
+try:
+    import numpy as np  # type: ignore
+    from sklearn.metrics.pairwise import cosine_similarity  # type: ignore
+except Exception:  # pragma: no cover - best-effort graceful degradation
+    np = None  # type: ignore
+    cosine_similarity = None  # type: ignore
 
 
 class AgentType(Enum):
@@ -108,10 +126,21 @@ def get_yaml_prompt(yaml_file_name:str, prompt_name:str):
 def generate_schema(functions):
     """
     Generates a schema for a list of functions.
-    Doc string information is used as aid to generate the schema.
+
+    Docstring information is used as aid to generate the schema.
+    If ``docstring_parser`` is not available, this function will raise
+    a RuntimeError instead of failing at import time so that the rest
+    of the library remains usable.
+
     Args:
         functions (list): A list of functions to generate the schema for.
     """
+    if docstring_parser is None:
+        raise RuntimeError(
+            "generate_schema requires the 'docstring_parser' package, "
+            "which is not installed in this environment."
+        )
+
     schema = {}
     for func in functions:
         func_name = func.__name__
@@ -128,9 +157,13 @@ def generate_schema(functions):
             else:
                 default = param.default
 
-            params[name] = {'type': str(param.annotation), 'default value': default, 'description': param_desc}
-            i+=1
-        schema[func_name] = {'description': doc.short_description, 'parameters': params}
+            params[name] = {
+                "type": str(param.annotation),
+                "default value": default,
+                "description": param_desc,
+            }
+            i += 1
+        schema[func_name] = {"description": doc.short_description, "parameters": params}
 
     return json.dumps(schema)
 
@@ -178,10 +211,20 @@ def clean_json_response(response):
 def internet_search(query):
     """
     Searches the internet for a query.
-    Returns top 5 results.
+
+    This helper depends on the optional ``googlesearch`` package.
+    If it is not installed, a RuntimeError is raised so that the rest of
+    the library can still be imported and used without online search.
+
     Args:
         query (str): The query to search for.
     """
+    if search is None:
+        raise RuntimeError(
+            "internet_search requires the 'googlesearch' package, "
+            "which is not installed in this environment."
+        )
+
     urls = list(search(query, tld="co.in", num=5, stop=10, pause=2))
     urls_detailed = []
 
@@ -304,13 +347,27 @@ def fetch_url_info(url):
 def find_most_relevant(text_embedding_pairs: list, prompt_embedding: list, top_k: int = 5):
     """
     Finds the most relevant embeddings in the embeddings list in relation to the prompt_embedding.
+
+    Notes
+    -----
+    This function requires optional dependencies ``numpy`` and ``scikit-learn``.
+    If they are not installed, it raises a RuntimeError instead of failing at
+    import time so that the rest of the package can still be used.
+
     Args:
-        text_embedding_pairs (list): A list of embeddings to search through.
+        text_embedding_pairs (list): A list of (text, embedding) pairs.
         prompt_embedding (list): The embedding of the prompt.
         top_k (int, optional): The number of texts to return, in descending order. Defaults to 5.
+
     Returns:
-        list: A list of the most relevant text.
+        list: A list of the most relevant text snippets.
     """
+    if np is None or cosine_similarity is None:
+        raise RuntimeError(
+            "find_most_relevant requires 'numpy' and 'scikit-learn' to be installed, "
+            "but they are not available in this environment."
+        )
+
     texts, embeddings = zip(*text_embedding_pairs)
     distances = cosine_similarity([prompt_embedding], embeddings)[0]
     top_similar = np.argsort(distances)[-top_k:][::-1]

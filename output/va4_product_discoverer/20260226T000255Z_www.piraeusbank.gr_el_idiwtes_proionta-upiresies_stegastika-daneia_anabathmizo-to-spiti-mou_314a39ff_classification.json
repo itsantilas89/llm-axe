@@ -1,0 +1,27 @@
+{
+  "timestamp": "20260226T000255Z",
+  "url": "https://www.piraeusbank.gr/el/idiwtes/proionta-upiresies/stegastika-daneia/anabathmizo-to-spiti-mou",
+  "classification": {
+    "is_relevant": false,
+    "primary_category": "other",
+    "secondary_categories": [],
+    "confidence": 0.99,
+    "reasoning": "Αυτόματη απόρριψη: Δεν βρέθηκαν ενεργειακά keywords στο κείμενο. Πιθανώς άσχετο περιεχόμενο (π.χ. εφαρμογή, software, hardware, κλπ).",
+    "key_features": [
+      "no_energy_content"
+    ]
+  },
+  "extracted_data": {
+    "category": "Natural persons",
+    "eligibility_criteria": [
+      {
+        "name": "Age",
+        "value": "25-50"
+      },
+      {
+        "name": "Income",
+        "value": "Less than €30,000"
+      }
+    ]
+  }
+}

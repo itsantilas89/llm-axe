@@ -1,0 +1,37 @@
+# Example URLs for VA4 Product Discoverer
+# One URL per line. Lines starting with # are comments.
+#
+# Usage: python examples/batch_va4.py examples/sample_urls.txt
+
+# Eurobank - Green Loans (should be RELEVANT)
+https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/eksoikonomo-2025
+https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/programma-anabathmizo-to-spiti-mou
+https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/green-fast-loan
+
+# National Bank - Housing & Green Loans (should be RELEVANT)
+# https://www.nbg.gr/el/retail/loans/home-loans
+# https://www.nbg.gr/el/retail/loans/green-loans
+
+# Alpha Bank - Green Programs (should be RELEVANT)
+# https://www.alpha.gr/el/idiotes/daneia/prasina-daneia
+
+# Piraeus Bank - Energy Upgrade Programs (should be RELEVANT)
+# https://www.piraeusbank.gr/el/idiwtes/daneia/prasina-daneia
+
+# Government Programs (should be RELEVANT)
+# https://greece20.gov.gr/calls/programma-sygchrimatodotoymenon-stegastikon-daneion-anavathmizo-to-spiti-moy/
+# https://greece20.gov.gr/calls/programma-ilektra-gia-tin-energeiaki-anavathmisi-dimosion-ktirion/
+
+# Electric Vehicle Programs (should be NOT RELEVANT)
+# https://example.com/electric-vehicle-subsidy
+# https://example.com/ev-charging-stations
+
+# Real Estate Purchase Only (should be NOT RELEVANT)
+# https://example.com/buy-property-greece
+# https://example.com/real-estate-investment
+
+# Commercial Solar (should be NOT RELEVANT)
+# https://example.com/commercial-solar-panels
+# https://example.com/industrial-renewable-energy
+
+# Add your own URLs below:

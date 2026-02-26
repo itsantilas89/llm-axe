@@ -1,0 +1,51 @@
+{
+  "programme_name": "Green Episkyvastiko",
+  "description": "Sustainable renovation loan",
+  "programme_objective": "To support sustainable renovation projects in residential buildings",
+  "eligible_parties": [
+    "Individuals",
+    "Private companies"
+  ],
+  "eligibility_criteria": [
+    "Building must be a private residence",
+    "Project must meet energy performance targets",
+    "Eligible interventions: insulation, windows, doors, etc."
+  ],
+  "property_requirements": [
+    "Building must be owned by the applicant or have their consent",
+    "Building must be located in Greece"
+  ],
+  "minimum_funding_amount": "5000",
+  "maximum_funding_amount": "200000",
+  "funding_type": "Loan",
+  "interest_rate": "Euribor + 1.5%",
+  "funding_coverage": "Up to 50% of total costs",
+  "total_budget": "300000",
+  "funding_sources": [
+    "European Union funding"
+  ],
+  "duration": "30 years",
+  "loan_duration": "10-20 years",
+  "completion_deadline": "Project completion must be within 12 months",
+  "application_start_date": "2022-01-01",
+  "application_end_date": "2025-12-31",
+  "energy_performance_targets": [
+    "A+ rating"
+  ],
+  "eligible_interventions": [
+    "Insulation",
+    "Windows",
+    "Doors",
+    "Renewable energy systems"
+  ],
+  "application_process": "Online application through Piraeus website",
+  "managing_body": "Piraeus Bank",
+  "announcement_date": "2022-01-01",
+  "contact_info": [
+    {
+      "name": "Piraeus Bank",
+      "email": "greenloan@piraeusbank.gr"
+    }
+  ],
+  "additional_details": ""
+}

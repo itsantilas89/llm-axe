@@ -227,7 +227,7 @@ resp = detector.detect(images=["../img2.jpg"], objects=["sheep", "chicken", "cat
 from llm_axe.models import OllamaChat
 from llm_axe.va4_product_discoverer import discover_and_extract_products
 
-llm = OllamaChat(model="llama3.2:latest")
+llm = OllamaChat(model="deepseek-r1:latest")
 
 # Automatically discover and extract energy efficiency loan products from Greek banks
 products = discover_and_extract_products(

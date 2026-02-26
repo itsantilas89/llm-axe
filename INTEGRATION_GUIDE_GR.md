@@ -67,7 +67,7 @@ from llm_axe.models import OllamaChat
 from llm_axe.va4_product_discoverer import discover_and_extract_products
 
 # Αρχικοποίηση LLM
-llm = OllamaChat(model="llama3.2:latest")
+llm = OllamaChat(model="deepseek-r1:latest")
 
 # Ανακάλυψη products από Eurobank
 products = discover_and_extract_products(
@@ -248,7 +248,7 @@ from llm_axe.agents import OnlineAgent
 from llm_axe.models import OllamaChat
 from llm_axe.va4_product_discoverer import discover_and_extract_products
 
-llm = OllamaChat(model="llama3.2:latest")
+llm = OllamaChat(model="deepseek-r1:latest")
 agent = OnlineAgent(llm)
 
 # Ανακάλυψη products

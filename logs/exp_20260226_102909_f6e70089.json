@@ -1,0 +1,15 @@
+{
+  "experiment_id": "exp_20260226_102909_f6e70089",
+  "timestamp": "2026-02-26T10:29:09.967907+00:00",
+  "model": "deepseek-r1:latest",
+  "temperature": 0.0,
+  "hyperparameters": {
+    "filter": "keyword_prescreen"
+  },
+  "prompt": "[Keyword Pre-screen]",
+  "sources": [
+    "https://athenslab.gr/blog/diatrofi/16-trofes-pou-enisxuoun-tin-energeia-tou-organismou"
+  ],
+  "terminal_output": "REJECTED at keyword pre-screen (before extraction)",
+  "template_output_file": null
+}

@@ -1,0 +1,16 @@
+{
+  "experiment_id": "exp_20260226_000743_753406fe",
+  "timestamp": "2026-02-26T00:07:43.447245",
+  "model": "llama3.2",
+  "temperature": 0.5,
+  "hyperparameters": {
+    "max_retries": 2,
+    "keyword_filter": true
+  },
+  "prompt": "Example prompt for testing",
+  "sources": [
+    "https://example.com"
+  ],
+  "terminal_output": "Test output: Classification successful",
+  "template_output_file": null
+}

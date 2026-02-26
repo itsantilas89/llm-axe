@@ -505,20 +505,19 @@ def scrape_page(url: str) -> str:
 
 def build_prompt(page_text: str, template: dict, url: str):
     system = (
-        "You are a structured information extraction assistant. "
-        "Read the provided webpage text and extract financing scheme details strictly according to the schema below. "
-        "Fill every field as completely as possible using only what appears in the text. "
-        "Use multi-sentence text where relevant. "
-        "If a value is unknown, leave it empty ('') or []. "
-        "Do not hallucinate or fabricate missing details. "
-        "Return a JSON array with exactly one object that matches the schema."
+        "You are a precise data extraction assistant. "
+        "Extract information from Greek or English webpages about financial programs, loans, and subsidies. "
+        "Return ONLY valid JSON. No explanations, no markdown, no extra text. "
+        "Fill fields with actual data from the text. Use empty string '' for missing text fields, [] for missing arrays."
     )
     template_str = json.dumps(template, ensure_ascii=False, indent=2)
+    
     user = (
-        f"SOURCE URL:\n{url}\n\n"
-        f"PAGE CONTENT:\n{page_text}\n\n"
-        f"RESPONSE SCHEMA:\n{template_str}\n\n"
-        "Return only valid JSON, no explanations."
+        f"Extract information from this webpage into the JSON schema.\n\n"
+        f"URL: {url}\n\n"
+        f"WEBPAGE TEXT:\n{page_text}\n\n"
+        f"JSON SCHEMA (fill this with extracted data):\n{template_str}\n\n"
+        "IMPORTANT: Return ONLY the filled JSON object or array. No markdown code blocks, no explanations."
     )
     return [make_prompt("system", system), make_prompt("user", user)]
 
@@ -529,36 +528,108 @@ def build_prompt(page_text: str, template: dict, url: str):
 
 def extract_json(llm, page_text: str, template: dict, url: str):
     log("[DEBUG] Building extraction prompt")
-    prompts = build_prompt(page_text, template, url)
-    raw = llm.ask(prompts, format="json", temperature=0.1)
-
-    # --- NEW SECTION: sanitize the LLM output ---
-    cleaned = raw.strip()
-    # Remove Markdown fences if present
-    if cleaned.startswith("```"):
-        cleaned = cleaned.strip("`")
-        # remove language labels like json
-        cleaned = cleaned.replace("json", "", 1).strip()
-
-    # If JSON block appears inside other text, extract the part between first { and last }
-    if not cleaned.strip().startswith("["):
-        start = cleaned.find("[")
-        end = cleaned.rfind("]")
-        if start != -1 and end != -1:
-            cleaned = cleaned[start:end + 1]
-        else:
-            start = cleaned.find("{")
-            end = cleaned.rfind("}")
-            if start != -1 and end != -1:
-                cleaned = cleaned[start:end + 1]
-
-    # --- Try parsing the cleaned text ---
-    parsed = safe_read_json(cleaned)
-    if not isinstance(parsed, list) or not parsed or not isinstance(parsed[0], dict):
-        raw_path = save_raw_text(raw, url + "_llm_raw")
-        log(f"[DEBUG] Raw output saved to: {raw_path}")
-        raise ValueError("Invalid JSON response after cleaning")
-    return parsed
+    
+    max_retries = 3
+    last_error = None
+    
+    for attempt in range(max_retries):
+        try:
+            prompts = build_prompt(page_text, template, url)
+            # Increase temperature on retries
+            temp = 0.1 + (attempt * 0.15)
+            raw = llm.ask(prompts, format="json", temperature=temp)
+            
+            # --- Sanitize the LLM output ---
+            cleaned = raw.strip()
+            
+            # Remove markdown code blocks
+            if cleaned.startswith("```"):
+                # Find content between ``` markers
+                lines = cleaned.split('\n')
+                if len(lines) > 2:
+                    # Remove first and last line (the ``` markers)
+                    cleaned = '\n'.join(lines[1:-1])
+                    # Remove 'json' label if present at start
+                    if cleaned.strip().startswith('json'):
+                        cleaned = cleaned.strip()[4:].strip()
+            
+            # Extract JSON from text - be smart about finding the top-level structure
+            # First, check if response starts with [ or { (after stripping)
+            cleaned_stripped = cleaned.strip()
+            
+            # Try to extract based on what the response actually is
+            if cleaned_stripped.startswith('['):
+                # It's an array - find the matching closing bracket
+                start = cleaned.find("[")
+                end = cleaned.rfind("]")
+                if start != -1 and end != -1 and start < end:
+                    cleaned = cleaned[start:end + 1]
+            elif cleaned_stripped.startswith('{'):
+                # It's an object - find the matching closing brace
+                start = cleaned.find("{")
+                end = cleaned.rfind("}")
+                if start != -1 and end != -1 and start < end:
+                    cleaned = cleaned[start:end + 1]
+            else:
+                # No clear structure - try array first, then object
+                start = cleaned.find("[")
+                end = cleaned.rfind("]")
+                if start != -1 and end != -1 and start < end:
+                    cleaned = cleaned[start:end + 1]
+                else:
+                    # Fall back to object
+                    start = cleaned.find("{")
+                    end = cleaned.rfind("}")
+                    if start != -1 and end != -1 and start < end:
+                        cleaned = cleaned[start:end + 1]
+            
+            # Debug: Show what we're trying to parse
+            if len(cleaned) < 500:
+                log(f"[DEBUG] Parsing JSON string: {cleaned[:200]}...")
+            else:
+                log(f"[DEBUG] Parsing JSON string ({len(cleaned)} chars): {cleaned[:100]}...{cleaned[-50:]}")
+            
+            # Parse JSON
+            parsed = safe_read_json(cleaned)
+            
+            # Debug: Show parse result
+            if parsed is None:
+                log(f"[DEBUG] Parse result: None (JSON parsing failed)")
+                log(f"[DEBUG] String that failed to parse ({len(cleaned)} chars): {cleaned[:200]}...")
+            else:
+                log(f"[DEBUG] Parse result type: {type(parsed)}, keys: {list(parsed.keys())[:5] if isinstance(parsed, dict) else 'N/A'}")
+            
+            # Handle None result
+            if parsed is None:
+                raise ValueError("JSON parsing returned None - LLM output was not valid JSON")
+            
+            # Convert single object to array if needed
+            if isinstance(parsed, dict):
+                log(f"[DEBUG] Converting dict to array")
+                parsed = [parsed]
+            
+            # Validate structure
+            if isinstance(parsed, list) and len(parsed) > 0 and isinstance(parsed[0], dict):
+                log(f"[DEBUG] Successfully extracted JSON (attempt {attempt + 1})")
+                return parsed
+            else:
+                raise ValueError(f"Invalid JSON structure: expected array of objects, got {type(parsed)}")
+                
+        except Exception as e:
+            last_error = e
+            if attempt < max_retries - 1:
+                log(f"[WARN] Extraction attempt {attempt + 1} failed: {e}")
+                log(f"[INFO] Retrying with temperature={0.1 + ((attempt+1) * 0.15):.2f}...")
+            else:
+                # Save raw output for debugging
+                try:
+                    raw_path = save_raw_text(raw if 'raw' in locals() else 'No output', url + "_llm_raw")
+                    log(f"[DEBUG] Raw LLM output saved to: {raw_path}")
+                except:
+                    pass
+    
+    # All retries failed
+    raise ValueError(f"Failed to extract valid JSON after {max_retries} attempts. Last error: {last_error}")
 
 
 # --------------------------------------------------------------------------
@@ -566,7 +637,7 @@ def extract_json(llm, page_text: str, template: dict, url: str):
 # --------------------------------------------------------------------------
 
 def interactive_loop():
-    llm = OllamaChat(model="llama3.2:latest")
+    llm = OllamaChat(model="deepseek-r1:latest")
     template = TEMPLATE_DEFAULT[0]
     log("VA-Scraper v3 ready. Type a URL, a broad topic, or 'exit' to quit.\n")
 
@@ -717,7 +788,7 @@ def main():
         if (arg.lower().startswith("http://") or arg.lower().startswith("https://")
                 or arg.startswith("file://") or os.path.exists(arg)):
             url = arg
-            llm = OllamaChat(model="llama3.2:latest")
+            llm = OllamaChat(model="deepseek-r1:latest")
             template = TEMPLATE_DEFAULT[0]
 
             # Support local files passed as file:// or plain paths
@@ -743,7 +814,7 @@ def main():
             topic = arg
             # Try to use the LLM to produce recommendations (useful for CLI usage)
             try:
-                llm = OllamaChat(model="llama3.2:latest")
+                llm = OllamaChat(model="deepseek-r1:latest")
                 recs = query_llm_for_sources(llm, topic, max_results=8)
             except Exception as e:
                 log(f"[ERROR] LLM-based discovery failed: {e}")
@@ -756,3 +827,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
