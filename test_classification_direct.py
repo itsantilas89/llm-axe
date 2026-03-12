@@ -6,7 +6,7 @@ from llm_axe.models import OllamaChat
 import json
 
 # Initialize LLM
-llm = OllamaChat(model="deepseek-r1:latest")
+llm = OllamaChat(model="llama3.1:8b-instruct-q4_K_M")
 
 # Test 1: Microsoft app (completely irrelevant)
 print("\n" + "="*80)

@@ -22,13 +22,14 @@
 import os
 import sys
 import json
+import re
 from datetime import datetime
-from typing import Dict, List, Optional, Tuple
+from typing import List, Optional, Tuple
 
 # Import va3 components
 try:
     from llm_axe.va3_scraper_to_template import (
-        scrape_page, extract_json, save_raw_text, save_result,
+        scrape_page, extract_json, save_result,
         TEMPLATE_DEFAULT, _normalize_url, _is_host_resolvable
     )
     from llm_axe.models import OllamaChat
@@ -48,7 +49,7 @@ except Exception:
     from llm_axe.models import OllamaChat
     from llm_axe.core import make_prompt
     from llm_axe.va3_scraper_to_template import (
-        scrape_page, extract_json, save_raw_text, save_result,
+        scrape_page, extract_json, save_result,
         TEMPLATE_DEFAULT, _normalize_url, _is_host_resolvable
     )
     from llm_axe.simple_logger import log_experiment
@@ -134,34 +135,12 @@ def _create_minimal_data_from_text(text: str, url: str) -> dict:
             if 5 < len(url_title) < 200:
                 title = url_title
     
-    # Create minimal structure
-    return {
-        "programme_name": title,
-        "description": text[:500] if len(text) > 500 else text,
-        "programme_objective": "",
-        "eligible_parties": [],
-        "eligibility_criteria": [],
-        "property_requirements": [],
-        "minimum_funding_amount": "",
-        "maximum_funding_amount": "",
-        "funding_type": "",
-        "interest_rate": "",
-        "funding_coverage": "",
-        "total_budget": "",
-        "funding_sources": [],
-        "duration": "",
-        "loan_duration": "",
-        "completion_deadline": "",
-        "application_start_date": "",
-        "application_end_date": "",
-        "energy_performance_targets": "",
-        "eligible_interventions": [],
-        "application_process": "",
-        "managing_body": "",
-        "announcement_date": "",
-        "contact_info": [],
-        "additional_details": f"Raw text from {url} (extraction failed)"
-    }
+    # Create minimal structure from template to stay in sync
+    minimal = {k: ([] if isinstance(v, list) else "") for k, v in TEMPLATE_DEFAULT[0].items()}
+    minimal["programme_name"] = title
+    minimal["description"] = text[:500] if len(text) > 500 else text
+    minimal["additional_details"] = f"Raw text from {url} (extraction failed)"
+    return minimal
 
 # --------------------------------------------------------------------------
 # Classification Logic
@@ -185,7 +164,8 @@ def build_classification_prompt(extracted_data: dict) -> List[dict]:
     user = (
         f"Ανάλυσε το παρακάτω πρόγραμμα/προϊόν και κατηγοριοποίησέ το.\n\n"
         f"ΔΙΑΘΕΣΙΜΕΣ ΚΑΤΗΓΟΡΙΕΣ:\n{categories_list}\n\n"
-        f"ΔΕΔΟΜΕΝΑ ΠΡΟΓΡΑΜΜΑΤΟΣ:\n{json.dumps(extracted_data, ensure_ascii=False, indent=2)}\n\n"
+        # Filter out empty fields to reduce tokens sent to LLM
+        f"ΔΕΔΟΜΕΝΑ ΠΡΟΓΡΑΜΜΑΤΟΣ:\n{json.dumps({k: v for k, v in extracted_data.items() if v}, ensure_ascii=False, indent=2)}\n\n"
         "Επίστρεψε JSON με τη μορφή:\n"
         "{\n"
         '  "is_relevant": true/false,  // true αν το πρόγραμμα αφορά ενεργειακή αναβάθμιση ή ΑΠΕ σε κατοικίες\n'
@@ -195,35 +175,19 @@ def build_classification_prompt(extracted_data: dict) -> List[dict]:
         '  "reasoning": "Σύντομη εξήγηση γιατί το κατηγοριοποίησες έτσι",\n'
         '  "key_features": ["χαρακτηριστικό 1", "χαρακτηριστικό 2"]  // κύρια χαρακτηριστικά\n'
         "}\n\n"
-        "✅ RELEVANT (is_relevant=true) - Δέχονται ΜΟΝΟ αυτά:\n\n"
-        "ΕΝΕΡΓΕΙΑΚΕΣ ΕΠΕΜΒΑΣΕΙΣ:\n"
-        "• Θερμομόνωση (τοίχοι, οροφές, δάπεδα, ταράτσες)\n"
-        "• Αλλαγή κουφωμάτων για ενεργειακή απόδοση\n"
-        "• Αντικατάσταση καυστήρα/θέρμανσης με ενεργειακά αποδοτικό\n"
-        "• Φωτοβολταϊκά (PV) σε κατοικίες\n"
-        "• Αντλίες θερμότητας (heat pumps)\n"
-        "• Ηλιακοί θερμοσίφωνες/συλλέκτες\n"
-        "• Ενεργειακή πιστοποίηση/αναβάθμιση κατά A+, A++\n"
-        "• Συστήματα έξυπνης διαχείρισης ενέργειας\n\n"
-        "ΠΡΑΣΙΝΑ/ΕΝΕΡΓΕΙΑΚΑ ΔΑΝΕΙΑ:\n"
-        "• Στεγαστικά με ΥΠΟΧΡΕΩΤΙΚΕΣ ενεργειακές επεμβάσεις (π.χ. 'Αναβαθμίζω το σπίτι μου', 'Εξοικονομώ')\n"
-        "• Δάνεια που ΑΠΑΙΤΟΥΝ ελάχιστη ενεργειακή κλάση (π.χ. Β+ ή καλύτερη)\n"
-        "• Δάνεια με ΧΑΜΗΛΟΤΕΡΟ επιτόκιο για ενεργειακές αναβαθμίσεις\n"
-        "• Προγράμματα που συνδυάζουν δάνειο + ενεργειακές παρεμβάσεις\n\n"
-        "❌ NOT RELEVANT (is_relevant=false) - Απορρίπτονται:\n"
-        "• Απλά στεγαστικά δάνεια για αγορά/κατασκευή ΧΩΡΙΣ ενεργειακές προϋποθέσεις\n"
-        "• Ανακαινίσεις γενικές (βάψιμο, πλακάκια, μπάνια, κουζίνες) ΧΩΡΙΣ ενεργειακό στόχο\n"
-        "• Ηλεκτρικά οχήματα και φορτιστές\n"
-        "• Αγορές/πωλήσεις ακινήτων χωρίς ενεργειακό κριτήριο\n"
-        "• Εμπορικές/βιομηχανικές εγκαταστάσεις ΑΠΕ\n"
-        "• Γενικά καταναλωτικά δάνεια\n"
-        "• Software, hardware, εφαρμογές, τεχνολογικά προϊόντα (ΟΛΟΚΛΗΡΩΣ άσχετα)\n"
-        "• Οτιδήποτε άλλο χωρίς σχέση με ενέργεια ή ενεργειακή αναβάθμιση κατοικιών\n\n"
-        "⚠️ ΚΑΝΟΝΑΣ ΑΠΟΦΑΣΗΣ:\n"
-        "1. Αν το πρόγραμμα αναφέρει ΡΗΤΑ ενεργειακές επεμβάσεις ή ΑΠΕ → ελέγξε αν είναι για κατοικίες\n"
-        "2. Αν είναι στεγαστικό: Απαιτεί/επιδοτεί ενεργειακές αναβαθμίσεις? ΝΑΙ→relevant, ΟΧΙ→not relevant\n"
-        "3. Αν δεν είναι σαφές → is_relevant=false\n\n"
-        "ΣΗΜΑΝΤΙΚΟ: is_relevant=true ΜΟΝΟ ΑΝ primary_category ∈ {energy_upgrade, home_renewables, green_housing_loan}"
+        "✅ RELEVANT (is_relevant=true):\n"
+        "• Ενεργειακές επεμβάσεις σε ΚΑΤΟΙΚΙΕΣ: θερμομόνωση, κουφώματα, φωτοβολταϊκά, αντλίες θερμότητας, ηλιακοί\n"
+        "• Πράσινα δάνεια με ΥΠΟΧΡΕΩΤΙΚΕΣ ενεργειακές επεμβάσεις (π.χ. Εξοικονομώ, Αναβαθμίζω)\n"
+        "• Δάνεια που ΑΠΑΙΤΟΥΝ ελάχιστη ενεργειακή κλάση\n\n"
+        "❌ NOT RELEVANT (is_relevant=false):\n"
+        "• Απλά στεγαστικά ΧΩΡΙΣ ενεργειακές προϋποθέσεις\n"
+        "• Γενικές ανακαινίσεις, καταναλωτικά δάνεια, εμπορικές ΑΠΕ\n"
+        "• Ηλεκτρικά οχήματα, software, άσχετα θέματα\n\n"
+        "⚠️ ΚΑΝΟΝΕΣ:\n"
+        "1. Πρέπει να αφορά ενεργειακή αναβάθμιση ΚΑΤΟΙΚΙΩΝ\n"
+        "2. Στεγαστικά χωρίς ενεργειακό κριτήριο → not relevant\n"
+        "3. Αν δεν είναι σαφές → is_relevant=false\n"
+        "4. is_relevant=true ΜΟΝΟ ΑΝ primary_category ∈ {energy_upgrade, home_renewables, green_housing_loan}"
     )
     
     return [make_prompt("system", system), make_prompt("user", user)]
@@ -274,7 +238,6 @@ def _get_program_name(extracted_data: dict) -> str:
             # Reject if contains non-Greek/English/common characters (mixed cyrillic)
             # Check for cyrillic characters that shouldn't be in Greek text
             cyrillic_pattern = r'[а-яА-ЯёЁ]'  # Russian cyrillic
-            import re
             if re.search(cyrillic_pattern, name_clean):
                 log(f"[WARN] Rejected name with mixed Cyrillic: '{name_clean}'")
                 continue
@@ -369,11 +332,11 @@ def _has_energy_keywords(text: str) -> bool:
     FINANCING_KEYWORDS = [
         "δάνειο", "δανειο", "loan", "επιδότ", "subsidy", "επιχορήγησ",
         "χρηματοδότ", "funding", "χρηματ", "ενυπόθηκ",
-        "κρέδιτ", "credit",  # Remove generic "πρόγραμμα" - too ambiguous
-        # Only financing-specific uses:
+        "κρέδιτ", "credit",
+        # Only financing-specific compound terms:
         "προγραμμα χρηματοδότ", "financing program",
         "προγραμμα δανει", "loan program",
-        "κατάχρησ", "ανάκτησ"
+        "επιστροφή κόστους", "αποπληρωμ"
     ]
     
     text_lower = text.lower()
@@ -473,14 +436,16 @@ def prescreen_with_llm(llm, text: str, url: str) -> bool:
         log(f"[WARN] LLM pre-screening failed: {e} — proceeding with extraction")
         return True
 
-def classify_product(llm, extracted_data: dict, scraped_text: str = "", max_retries: int = 2, log_it: bool = True) -> Tuple[dict, str]:
+def classify_product(llm, extracted_data: dict, max_retries: int = 2, log_it: bool = True) -> Tuple[dict, Optional[str]]:
     """
     Use LLM to classify the product/program. Logs to logs/{experiment_id}.json
+    
+    NOTE: Keyword pre-check is done in process_url() BEFORE extraction.
+    If we reach here, the text has already passed the keyword + LLM pre-screen.
     
     Args:
         llm: LLM instance
         extracted_data: Extracted program data
-        scraped_text: Raw scraped HTML text (for keyword checking)
         max_retries: Max classification attempts
         log_it: Whether to save experiment log
     
@@ -494,9 +459,6 @@ def classify_product(llm, extracted_data: dict, scraped_text: str = "", max_retr
     prompt_text = ""
     result = None
     actual_temperature = 0.1  # Track actual temperature used
-    
-    # NOTE: Keyword pre-check is now done in process_url() BEFORE extraction.
-    # If we reach here, the text has already passed the keyword filter.
     
     # Try LLM classification with retries
     for attempt in range(max_retries):
@@ -673,7 +635,7 @@ def interactive_qa(llm, extracted_data: dict, classification: dict, url: str):
 # Main Workflow
 # --------------------------------------------------------------------------
 
-def process_url(url: str, llm, enable_qa: bool = True) -> Tuple[dict, dict]:
+def process_url(url: str, llm, enable_qa: bool = True) -> Tuple[dict, dict, Optional[str]]:
     """
     Complete workflow: scrape, pre-screen, extract, classify, and optionally start Q&A.
     
@@ -691,10 +653,11 @@ def process_url(url: str, llm, enable_qa: bool = True) -> Tuple[dict, dict]:
     log(f"ΕΠΕΞΕΡΓΑΣΙΑ URL: {url}")
     log(f"{'='*70}\n")
     
-    # Step 1: Scrape and extract using v3
-    log("[1/3] Scraping και εξαγωγή δεδομένων (v3)...")
+    # Step 1: Scrape + Pre-screen + Extract
+    log("[1/3] Scraping, pre-screening και εξαγωγή δεδομένων...")
     max_retries = 2
     extracted_data = None
+    text = ""  # Initialize text for scoping (used later in classify)
     
     for attempt in range(max_retries):
         try:
@@ -783,7 +746,6 @@ def process_url(url: str, llm, enable_qa: bool = True) -> Tuple[dict, dict]:
                 log(f"[DEBUG] Extracted data has {len(extracted_data)} keys: {list(extracted_data.keys())[:10]}...")
                 
                 # Save extracted data for inspection (even if incomplete)
-                from llm_axe.va3_scraper_to_template import save_result
                 saved_path = save_result(extracted_data_list, url_normalized)
                 log(f"[DEBUG] Saved extracted data to: {saved_path}")
                 
@@ -906,7 +868,7 @@ def process_url(url: str, llm, enable_qa: bool = True) -> Tuple[dict, dict]:
     # Step 2: Classify the product
     log("\n[2/3] Κατηγοριοποίηση προγράμματος...")
     try:
-        classification, experiment_id = classify_product(llm, extracted_data, scraped_text=text)
+        classification, experiment_id = classify_product(llm, extracted_data)
         
         # Ensure experiment_id is not None for logging references
         if experiment_id is None:
@@ -980,15 +942,15 @@ def main():
     )
     parser.add_argument(
         "--model",
-        default="deepseek-r1:latest",
-        help="Ollama model to use (default: deepseek-r1:latest)"
+        default="llama3.1:8b-instruct-q4_K_M",
+        help="Ollama model to use (default: llama3.1:8b-instruct-q4_K_M)"
     )
     
     args = parser.parse_args()
     
     # Initialize LLM
     log(f"[INFO] Initializing LLM with model: {args.model}")
-    log("[TIP] Για καλύτερα αποτελέσματα δοκίμασε: --model deepseek-r1:latest ή qwen2.5:32b")
+    log("[TIP] Για καλύτερα αποτελέσματα δοκίμασε: --model llama3.1:8b-instruct-q4_K_M ή qwen2.5:32b")
     llm = OllamaChat(model=args.model)
     
     if args.url:

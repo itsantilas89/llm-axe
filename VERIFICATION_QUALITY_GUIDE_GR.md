@@ -250,7 +250,7 @@ Eurobank: 3 potentially missed products
 from llm_axe.agents import Agent, AgentType
 from llm_axe.va4_product_discoverer import discover_and_extract_products
 
-llm = OllamaChat(model="deepseek-r1:latest")
+llm = OllamaChat(model="llama3.1:8b-instruct-q4_K_M")
 agent = Agent(llm, agent_type=AgentType.VALIDATOR)
 
 # Discover products

@@ -25,7 +25,7 @@ def example_single_url():
     print("="*70 + "\n")
     
     # Initialize LLM
-    llm = OllamaChat(model="deepseek-r1:latest")
+    llm = OllamaChat(model="llama3.1:8b-instruct-q4_K_M")
     
     # Example URLs to try (replace with real ones)
     example_urls = [
@@ -85,7 +85,7 @@ def example_batch_processing():
     print("="*70 + "\n")
     
     # Initialize LLM
-    llm = OllamaChat(model="deepseek-r1:latest")
+    llm = OllamaChat(model="llama3.1:8b-instruct-q4_K_M")
     
     # Example URLs covering different categories
     urls_to_test = [
@@ -144,7 +144,7 @@ def example_interactive_mode():
     print("="*70 + "\n")
     
     # Initialize LLM
-    llm = OllamaChat(model="deepseek-r1:latest")
+    llm = OllamaChat(model="llama3.1:8b-instruct-q4_K_M")
     
     print("Εισάγετε URLs για ανάλυση. Γράψτε 'exit' για έξοδο.\n")
     

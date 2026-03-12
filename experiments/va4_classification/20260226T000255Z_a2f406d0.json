@@ -9,7 +9,7 @@
   },
   "hyperparameters": {
     "max_retries": 2,
-    "model": "deepseek-r1:latest",
+    "model": "llama3.1:8b-instruct-q4_K_M",
     "keyword_filter_enabled": true
   },
   "inputs": {

@@ -7,7 +7,7 @@ from llm_axe.va4_product_discoverer import process_url
 from llm_axe.models import OllamaChat
 
 # Initialize LLM
-llm = OllamaChat(model="deepseek-r1:latest")
+llm = OllamaChat(model="llama3.1:8b-instruct-q4_K_M")
 
 # Test URL
 url = "https://www.piraeusbank.gr/el/idiwtes/proionta-upiresies/stegastika-daneia/anabathmizo-to-spiti-mou"

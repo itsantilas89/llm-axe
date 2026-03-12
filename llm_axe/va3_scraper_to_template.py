@@ -14,7 +14,6 @@
 import os
 import sys
 import json
-import time
 import re
 from datetime import datetime
 import requests
@@ -24,7 +23,6 @@ from typing import List, Dict
 from urllib.parse import urlparse, urlunparse
 import hashlib
 import socket
-import argparse
 
 # Try normal package imports first. If the package-level import fails (for
 # example because `llm_axe.__init__` imports missing modules), fall back to
@@ -103,7 +101,8 @@ def ensure_outputs_dir() -> str:
 
 def save_raw_text(content: str, url: str) -> str:
     out_dir = ensure_outputs_dir()
-    ts = datetime.utcnow().strftime("%Y%m%dT%H%M%SZ")
+    from datetime import timezone
+    ts = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
     # Use canonical safe name and append a short hash to reduce collisions
     safe_name = f"{_make_safe_name(url)}_{_short_hash(url)}"
     path = os.path.join(out_dir, f"{ts}_{safe_name}_scraped.txt")
@@ -113,7 +112,8 @@ def save_raw_text(content: str, url: str) -> str:
 
 def save_result(data, url: str) -> str:
     out_dir = ensure_outputs_dir()
-    ts = datetime.utcnow().strftime("%Y%m%dT%H%M%SZ")
+    from datetime import timezone
+    ts = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
     # Use canonical safe name and append a short hash to reduce collisions
     safe_name = f"{_make_safe_name(url)}_{_short_hash(url)}"
     path = os.path.join(out_dir, f"{ts}_{safe_name}_extracted.json")
@@ -229,7 +229,8 @@ def query_llm_for_sources(llm, topic: str, max_results: int = 6) -> List[Dict[st
         # save raw response for debugging
         try:
             out_dir = ensure_outputs_dir()
-            debug_path = os.path.join(out_dir, f"llm_sources_raw_{datetime.utcnow().strftime('%Y%m%dT%H%M%SZ')}.txt")
+            from datetime import timezone
+            debug_path = os.path.join(out_dir, f"llm_sources_raw_{datetime.now(timezone.utc).strftime('%Y%m%dT%H%M%SZ')}.txt")
             with open(debug_path, "w", encoding="utf-8") as df:
                 df.write(cleaned)
         except Exception:
@@ -475,9 +476,9 @@ def recommend_sources_for_topic(topic: str) -> List[Dict[str, str]]:
 # Page Scraper
 # --------------------------------------------------------------------------
 
-def scrape_page(url: str) -> str:
+def scrape_page(url: str, timeout: int = 30) -> str:
     log("[DEBUG] Fetching page content")
-    r = requests.get(url, headers={"User-Agent": "Mozilla/5.0"})
+    r = requests.get(url, headers={"User-Agent": "Mozilla/5.0"}, timeout=timeout)
     r.raise_for_status()
 
     soup = BeautifulSoup(r.text, "html.parser")
@@ -505,19 +506,18 @@ def scrape_page(url: str) -> str:
 
 def build_prompt(page_text: str, template: dict, url: str):
     system = (
-        "You are a precise data extraction assistant. "
-        "Extract information from Greek or English webpages about financial programs, loans, and subsidies. "
-        "Return ONLY valid JSON. No explanations, no markdown, no extra text. "
-        "Fill fields with actual data from the text. Use empty string '' for missing text fields, [] for missing arrays."
+        "You are a JSON data extractor. "
+        "Extract data from the provided Greek/English text into the given JSON schema. "
+        "Output ONLY the filled JSON. No markdown, no explanation, no extra text. "
+        "Rules: Use '' for missing strings, [] for missing arrays. Copy exact values from text. Do NOT invent data."
     )
     template_str = json.dumps(template, ensure_ascii=False, indent=2)
     
     user = (
-        f"Extract information from this webpage into the JSON schema.\n\n"
         f"URL: {url}\n\n"
-        f"WEBPAGE TEXT:\n{page_text}\n\n"
-        f"JSON SCHEMA (fill this with extracted data):\n{template_str}\n\n"
-        "IMPORTANT: Return ONLY the filled JSON object or array. No markdown code blocks, no explanations."
+        f"TEXT:\n{page_text}\n\n"
+        f"SCHEMA:\n{template_str}\n\n"
+        "Fill the schema with data found in the text. Return ONLY the JSON."
     )
     return [make_prompt("system", system), make_prompt("user", user)]
 
@@ -531,13 +531,19 @@ def extract_json(llm, page_text: str, template: dict, url: str):
     
     max_retries = 3
     last_error = None
+    prompts = build_prompt(page_text, template, url)  # Build once, reuse across retries
     
     for attempt in range(max_retries):
         try:
-            prompts = build_prompt(page_text, template, url)
             # Increase temperature on retries
             temp = 0.1 + (attempt * 0.15)
-            raw = llm.ask(prompts, format="json", temperature=temp)
+            # num_predict: cap output tokens (JSON response is ~1500 tokens max)
+            # num_ctx: ensure context window fits full input without truncation
+            raw = llm.ask(
+                prompts, format="json", temperature=temp,
+                num_predict=2048,
+                num_ctx=8192
+            )
             
             # --- Sanitize the LLM output ---
             cleaned = raw.strip()
@@ -625,8 +631,8 @@ def extract_json(llm, page_text: str, template: dict, url: str):
                 try:
                     raw_path = save_raw_text(raw if 'raw' in locals() else 'No output', url + "_llm_raw")
                     log(f"[DEBUG] Raw LLM output saved to: {raw_path}")
-                except:
-                    pass
+                except Exception as save_err:
+                    log(f"[WARN] Failed to save raw debug output: {save_err}")
     
     # All retries failed
     raise ValueError(f"Failed to extract valid JSON after {max_retries} attempts. Last error: {last_error}")
@@ -637,7 +643,7 @@ def extract_json(llm, page_text: str, template: dict, url: str):
 # --------------------------------------------------------------------------
 
 def interactive_loop():
-    llm = OllamaChat(model="deepseek-r1:latest")
+    llm = OllamaChat(model="llama3.1:8b-instruct-q4_K_M")
     template = TEMPLATE_DEFAULT[0]
     log("VA-Scraper v3 ready. Type a URL, a broad topic, or 'exit' to quit.\n")
 
@@ -656,6 +662,7 @@ def interactive_loop():
             url = user_input
             try:
                 log("[DEBUG] Starting scrape")
+                url_to_use = None  # Initialize before branching
                 # If it's a local file, read it directly instead of scraping
                 if url.startswith("file://"):
                     fp = url[len("file://"):]
@@ -668,7 +675,7 @@ def interactive_loop():
                     url_to_use = _normalize_url(url)
                     text = scrape_page(url_to_use)
                 # use normalized URL when saving/extracting to improve consistency
-                save_key = url_to_use if 'url_to_use' in locals() else url
+                save_key = url_to_use if url_to_use else url
                 text_path = save_raw_text(text, save_key)
                 log(f"[DEBUG] Saved cleaned text to {text_path}")
 
@@ -788,7 +795,7 @@ def main():
         if (arg.lower().startswith("http://") or arg.lower().startswith("https://")
                 or arg.startswith("file://") or os.path.exists(arg)):
             url = arg
-            llm = OllamaChat(model="deepseek-r1:latest")
+            llm = OllamaChat(model="llama3.1:8b-instruct-q4_K_M")
             template = TEMPLATE_DEFAULT[0]
 
             # Support local files passed as file:// or plain paths
@@ -796,17 +803,20 @@ def main():
                 fp = url[len("file://"):]
                 with open(fp, "r", encoding="utf-8") as f:
                     text = f.read()
+                save_key = url
             elif os.path.exists(url):
                 with open(url, "r", encoding="utf-8") as f:
                     text = f.read()
+                save_key = url
             else:
-                text = scrape_page(url)
+                save_key = _normalize_url(url)
+                text = scrape_page(save_key)
 
-            text_path = save_raw_text(text, url)
+            text_path = save_raw_text(text, save_key)
             log(f"[DEBUG] Saved cleaned text to {text_path}")
 
-            llm_output = extract_json(llm, text, template, url)
-            saved_path = save_result(llm_output, url)
+            llm_output = extract_json(llm, text, template, save_key)
+            saved_path = save_result(llm_output, save_key)
 
             print(json.dumps(llm_output, ensure_ascii=False, indent=2))
             log(f"[DEBUG] Saved structured output to: {saved_path}")
@@ -814,7 +824,7 @@ def main():
             topic = arg
             # Try to use the LLM to produce recommendations (useful for CLI usage)
             try:
-                llm = OllamaChat(model="deepseek-r1:latest")
+                llm = OllamaChat(model="llama3.1:8b-instruct-q4_K_M")
                 recs = query_llm_for_sources(llm, topic, max_results=8)
             except Exception as e:
                 log(f"[ERROR] LLM-based discovery failed: {e}")

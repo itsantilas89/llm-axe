@@ -330,7 +330,7 @@ def extract_json(llm: OllamaChat, page_text: str, template_obj: Dict[str, Any], 
 
 # ---- Main loop/CLI -----------------------------------------------------------
 
-def interactive_loop(model_name: str = "deepseek-r1:latest") -> None:
+def interactive_loop(model_name: str = "llama3.1:8b-instruct-q4_K_M") -> None:
     llm = OllamaChat(model=model_name)
     template_list = load_response_template()
     template_obj = template_list[0]
@@ -374,7 +374,7 @@ def interactive_loop(model_name: str = "deepseek-r1:latest") -> None:
 def main():
     if len(sys.argv) > 1:
         url = sys.argv[1]
-        llm = OllamaChat(model="deepseek-r1:latest")
+        llm = OllamaChat(model="llama3.1:8b-instruct-q4_K_M")
         template_list = load_response_template()
         template_obj = template_list[0]
 

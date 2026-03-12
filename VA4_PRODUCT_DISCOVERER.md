@@ -54,7 +54,7 @@ pip install -r requirements.txt
 ollama serve
 
 # Κατεβάστε το μοντέλο (αν δεν το έχετε)
-ollama pull deepseek-r1:latest
+ollama pull llama3.1:8b-instruct-q4_K_M
 ```
 
 ## Χρήση
@@ -69,7 +69,7 @@ python -m llm_axe.va4_product_discoverer "https://example.com/green-loan"
 python -m llm_axe.va4_product_discoverer --no-qa "https://example.com/program"
 
 # Χρήση διαφορετικού μοντέλου
-python -m llm_axe.va4_product_discoverer --model deepseek-r1:latest "https://..."
+python -m llm_axe.va4_product_discoverer --model llama3.1:8b-instruct-q4_K_M "https://..."
 
 # Διαδραστικό μοδέ (χωρίς παραμέτρους)
 python -m llm_axe.va4_product_discoverer
@@ -82,7 +82,7 @@ from llm_axe.va4_product_discoverer import process_url
 from llm_axe.models import OllamaChat
 
 # Initialize LLM
-llm = OllamaChat(model="deepseek-r1:latest")
+llm = OllamaChat(model="llama3.1:8b-instruct-q4_K_M")
 
 # Process URL
 url = "https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/eksoikonomo-2025"
@@ -103,7 +103,7 @@ else:
 from llm_axe.va4_product_discoverer import process_url
 from llm_axe.models import OllamaChat
 
-llm = OllamaChat(model="deepseek-r1:latest")
+llm = OllamaChat(model="llama3.1:8b-instruct-q4_K_M")
 
 urls = [
     "https://example.com/url1",
@@ -248,7 +248,7 @@ classification = classify_product(llm, extracted_data)
 
 ### Το LLM δεν κατηγοριοποιεί σωστά
 
-- Δοκιμάστε διαφορετικό μοντέλο: `--model deepseek-r1:latest`
+- Δοκιμάστε διαφορετικό μοντέλο: `--model llama3.1:8b-instruct-q4_K_M`
 - Ελέγξτε τα εξαγόμενα δεδομένα από το VA3
 - Αυξήστε το temperature (πειραματικά)
 

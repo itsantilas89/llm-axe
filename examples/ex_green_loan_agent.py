@@ -21,7 +21,7 @@ def main():
     # Initialize LLM
     print("[INFO] Initializing OllamaChat...")
     try:
-        llm = OllamaChat(model="deepseek-r1:latest")
+        llm = OllamaChat(model="llama3.1:8b-instruct-q4_K_M")
     except Exception as e:
         print(f"[ERROR] Failed to initialize LLM: {e}")
         print("Make sure Ollama is running: ollama serve")

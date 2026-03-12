@@ -250,8 +250,8 @@ Examples:
     )
     parser.add_argument(
         '--model',
-        default='deepseek-r1:latest',
-        help='Ollama model to use (default: deepseek-r1:latest)'
+        default='llama3.1:8b-instruct-q4_K_M',
+        help='Ollama model to use (default: llama3.1:8b-instruct-q4_K_M)'
     )
     parser.add_argument(
         '--stop-on-error',

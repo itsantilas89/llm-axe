@@ -73,7 +73,7 @@ def test_mock_classification():
     }
     
     try:
-        llm = OllamaChat(model="deepseek-r1:latest")
+        llm = OllamaChat(model="llama3.1:8b-instruct-q4_K_M")
         
         # Test 1: Green loan (should be relevant)
         print("\n[Test 2.1] Κατηγοριοποίηση: Πρόγραμμα Εξοικονομώ")

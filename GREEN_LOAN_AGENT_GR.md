@@ -121,7 +121,7 @@ LLM generates personalized response:
 from llm_axe.models import OllamaChat
 from llm_axe.green_loan_agent import GreenLoanAgent
 
-llm = OllamaChat(model="deepseek-r1:latest")
+llm = OllamaChat(model="llama3.1:8b-instruct-q4_K_M")
 agent = GreenLoanAgent(llm)
 
 query = "Θέλω φωτοβολταϊκά για το σπίτι μου"
@@ -361,7 +361,7 @@ Typical timing:
 ## Limitations & Future Work
 
 ### Current Limitations
-- Requires Ollama with deepseek-r1:latest
+- Requires Ollama with llama3.1:8b-instruct-q4_K_M
 - Single-threaded discovery (sequential bank processing)
 - Limited to first 15 products per query
 - BeautifulSoup can't handle JavaScript-rendered content

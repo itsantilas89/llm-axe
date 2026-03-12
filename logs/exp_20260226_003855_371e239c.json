@@ -1,7 +1,7 @@
 {
   "experiment_id": "exp_20260226_003855_371e239c",
   "timestamp": "2026-02-26T00:38:55.789848+00:00",
-  "model": "deepseek-r1:latest",
+  "model": "llama3.1:8b-instruct-q4_K_M",
   "temperature": 0.1,
   "hyperparameters": {
     "max_retries": 2,
