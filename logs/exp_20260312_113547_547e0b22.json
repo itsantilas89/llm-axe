@@ -1,0 +1,15 @@
+{
+  "experiment_id": "exp_20260312_113547_547e0b22",
+  "timestamp": "2026-03-12T11:35:47.299196+00:00",
+  "model": "llama3.2:latest",
+  "temperature": 0.0,
+  "hyperparameters": {
+    "filter": "llm_prescreen"
+  },
+  "prompt": "[LLM Pre-screen]",
+  "sources": [
+    "https://www.piraeusbank.gr/el/idiwtes/proionta-upiresies/stegastika-daneia/anabathmizo-to-spiti-mou"
+  ],
+  "terminal_output": "REJECTED at LLM pre-screen (before extraction)",
+  "template_output_file": null
+}

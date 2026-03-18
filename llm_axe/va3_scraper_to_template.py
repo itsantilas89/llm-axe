@@ -539,11 +539,15 @@ def extract_json(llm, page_text: str, template: dict, url: str):
             temp = 0.1 + (attempt * 0.15)
             # num_predict: cap output tokens (JSON response is ~1500 tokens max)
             # num_ctx: ensure context window fits full input without truncation
+            input_chars = sum(len(m.get("content", "")) for m in prompts)
+            log(f"[INFO] LLM inference ({getattr(llm, '_model', '?')}, attempt {attempt+1}/{max_retries}, ~{input_chars} input chars)...")
+            import time as _t; _t0 = _t.monotonic()
             raw = llm.ask(
                 prompts, format="json", temperature=temp,
-                num_predict=2048,
-                num_ctx=8192
+                num_predict=1024,
+                num_ctx=4096
             )
+            log(f"[INFO] ✓ LLM responded in {_t.monotonic()-_t0:.1f}s ({len(raw)} chars output)")
             
             # --- Sanitize the LLM output ---
             cleaned = raw.strip()

@@ -296,6 +296,87 @@ def _is_extracted_data_valid(extracted_data: dict) -> bool:
     
     return True
 
+
+def _extract_relevant_text(text: str, window: int = 500) -> str:
+    """Extract all keyword-relevant sections from text.
+    
+    Instead of blindly taking the first N chars (which may be boilerplate),
+    finds ALL positions where energy/financing keywords appear and keeps
+    a window of text around each one.  Overlapping windows are merged.
+    
+    Always includes the first 300 chars (title/header area).
+    """
+    # Short texts don't need filtering
+    if len(text) <= 5000:
+        return text
+    
+    _relevance_keywords = [
+        # Energy
+        "ενεργειακ", "θερμομόνωσ", "μόνωσ", "κουφώματ", "κουφωμ",
+        "φωτοβολτα", "ηλιακ", "αντλία θερμότ", "αντλια θερμοτ",
+        "εξοικονομ", "αναβαθμίζω", "αναβάθμισ", "αναβαθμισ",
+        "πράσιν", "πρασιν", "green loan", "heat pump",
+        "ηλεκτρα", "ήλεκτρα",
+        # Financing
+        "δάνειο", "δανειο", "επιδότ", "επιδοτ", "επιχορήγ",
+        "χρηματοδότ", "χρηματοδοτ", "αποπληρωμ",
+        # Template fields (capture key data areas)
+        "ποσό", "ποσο", "ποσοστό", "επιτόκιο", "επιτοκιο",
+        "δικαιούχ", "δικαιουχ", "κριτήρι", "κριτηρι",
+        "παρέμβασ", "παρεμβασ", "επέμβασ", "επεμβασ",
+        "προθεσμία", "προθεσμια", "διάρκεια", "διαρκεια",
+        "προϋπόθεσ", "προυποθεσ", "προϋπολογισμ",
+        "αίτηση", "αιτηση", "υποβολ",
+    ]
+    
+    text_lower = text.lower()
+    
+    # Collect all keyword hit positions
+    positions = set()
+    for kw in _relevance_keywords:
+        start = 0
+        while True:
+            idx = text_lower.find(kw, start)
+            if idx == -1:
+                break
+            positions.add(idx)
+            start = idx + len(kw)
+    
+    if not positions:
+        # No keywords found — fall back to first 5000 chars
+        log("[DEBUG] No relevance keywords found, using first 5000 chars")
+        return text[:5000]
+    
+    # Build intervals: [max(0, pos-window) .. pos+window] for each hit
+    intervals = []
+    for pos in sorted(positions):
+        lo = max(0, pos - window)
+        hi = min(len(text), pos + window)
+        intervals.append((lo, hi))
+    
+    # Always include title/header (first 300 chars)
+    intervals.insert(0, (0, min(300, len(text))))
+    
+    # Merge overlapping intervals
+    intervals.sort()
+    merged = [intervals[0]]
+    for lo, hi in intervals[1:]:
+        prev_lo, prev_hi = merged[-1]
+        if lo <= prev_hi:
+            merged[-1] = (prev_lo, max(prev_hi, hi))
+        else:
+            merged.append((lo, hi))
+    
+    # Build final text from merged intervals
+    parts = []
+    for lo, hi in merged:
+        parts.append(text[lo:hi])
+    
+    result = "\n[...]\n".join(parts)
+    log(f"[INFO] Smart text extraction: {len(text)} → {len(result)} chars ({len(merged)} relevant sections)")
+    return result
+
+
 def _has_energy_keywords(text: str) -> bool:
     """Check if scraped text contains any energy-related keywords."""
     # Energy-related keywords in Greek and English
@@ -385,8 +466,40 @@ def prescreen_with_llm(llm, text: str, url: str) -> bool:
     
     Returns True if page appears relevant, False otherwise.
     """
-    # Use only the first 1500 chars to keep it fast
-    snippet = text[:1500] if len(text) > 1500 else text
+    # Build a smart snippet: find where energy keywords appear and grab context around them.
+    # Bank pages often have 1000+ chars of navigation/FAQ boilerplate before the actual content.
+    SNIPPET_SIZE = 1500
+    snippet = text[:SNIPPET_SIZE]  # default: first N chars
+    
+    if len(text) > SNIPPET_SIZE:
+        # Find the first energy keyword that's past the title area (>300 chars).
+        # Keywords at char 0-300 are usually just the page title, followed by
+        # hundreds of chars of navbar/FAQ boilerplate before real content starts.
+        _prescreen_keywords = [
+            "ενεργειακ", "θερμομόνωσ", "φωτοβολτα", "αντλία θερμότ",
+            "εξοικονομ", "αναβαθμίζω", "αναβάθμισ", "πράσιν", "green loan",
+            "heat pump", "insulation", "renewable", "ηλιακ", "κουφωμ",
+            "δάνειο", "επιδότ", "χρηματοδότ", "επιχορήγ",
+        ]
+        text_lower = text.lower()
+        TITLE_ZONE = 300  # skip keywords in the title/header area
+        earliest = len(text)
+        for kw in _prescreen_keywords:
+            # Search past the title zone first
+            idx = text_lower.find(kw, TITLE_ZONE)
+            if idx != -1 and idx < earliest:
+                earliest = idx
+        
+        if earliest < len(text):
+            # Take a window starting 200 chars before the keyword
+            start = max(0, earliest - 200)
+            # Always prepend the title (first line) for context
+            first_line = text.split('\n', 1)[0][:200]
+            body_snippet = text[start:start + SNIPPET_SIZE - len(first_line) - 1]
+            snippet = first_line + "\n" + body_snippet
+            log(f"[DEBUG] Pre-screen snippet: title + body from char {start} (keyword at {earliest})")
+        else:
+            log("[DEBUG] Pre-screen snippet: using first 1500 chars (no keywords found past title)")
     
     prompt_system = (
         "Είσαι ένας ταχύς φιλτράρισμα-bot. Απαντάς ΜΟΝΟ με JSON: {\"relevant\": true/false, \"reason\": \"...\"}\n"
@@ -405,7 +518,7 @@ def prescreen_with_llm(llm, text: str, url: str) -> bool:
             make_prompt("system", prompt_system),
             make_prompt("user", prompt_user),
         ]
-        raw = llm.ask(prompts, format="json", temperature=0.0)
+        raw = llm.ask(prompts, format="json", temperature=0.0, num_predict=100)
         
         # Parse response
         cleaned = raw.strip()
@@ -470,7 +583,7 @@ def classify_product(llm, extracted_data: dict, max_retries: int = 2, log_it: bo
             if attempt == 0:
                 prompt_text = prompts[1].get("content", "")[:300] if len(prompts) > 1 else ""
             
-            raw = llm.ask(prompts, format="json", temperature=actual_temperature)
+            raw = llm.ask(prompts, format="json", temperature=actual_temperature, num_predict=512)
             
             # Clean response
             cleaned = raw.strip()
@@ -635,20 +748,28 @@ def interactive_qa(llm, extracted_data: dict, classification: dict, url: str):
 # Main Workflow
 # --------------------------------------------------------------------------
 
-def process_url(url: str, llm, enable_qa: bool = True) -> Tuple[dict, dict, Optional[str]]:
+def process_url(url: str, llm_fast, llm_smart=None, enable_qa: bool = True) -> Tuple[dict, dict, Optional[str]]:
     """
     Complete workflow: scrape, pre-screen, extract, classify, and optionally start Q&A.
     
+    Uses two LLM instances for optimal speed/quality trade-off:
+        - llm_fast  (e.g. llama3.2 3B): Pre-screen + JSON Extraction
+        - llm_smart (e.g. llama3.1 8B): Classification + Q&A
+    
+    If llm_smart is None, llm_fast is used for all steps (backward compat).
+    
     Flow:
         1) Scrape webpage
-        2) Pre-screen: keyword filter (free) + LLM quick check (cheap)
-        3) Extract: fill 23-field JSON template (expensive LLM)
-        4) Classify: determine category and relevance (expensive LLM)
-        5) Q&A: interactive questions about the program (optional)
+        2) Pre-screen: keyword filter (free) + LLM quick check (llm_fast)
+        3) Extract: fill 23-field JSON template (llm_fast)
+        4) Classify: determine category and relevance (llm_smart)
+        5) Q&A: interactive questions about the program (llm_smart)
     
     Returns:
         Tuple of (extracted_data, classification, experiment_id)
     """
+    if llm_smart is None:
+        llm_smart = llm_fast
     log(f"\n{'='*70}")
     log(f"ΕΠΕΞΕΡΓΑΣΙΑ URL: {url}")
     log(f"{'='*70}\n")
@@ -695,7 +816,7 @@ def process_url(url: str, llm, enable_qa: bool = True) -> Tuple[dict, dict, Opti
                 experiment_id = None
                 try:
                     experiment_id = log_experiment(
-                        model=getattr(llm, "_model", "unknown"),
+                        model=getattr(llm_fast, "_model", "unknown"),
                         temperature=0.0,
                         hyperparameters={"filter": "keyword_prescreen"},
                         prompt="[Keyword Pre-screen]",
@@ -708,7 +829,7 @@ def process_url(url: str, llm, enable_qa: bool = True) -> Tuple[dict, dict, Opti
                 return {}, rejection, experiment_id
             
             # 2) Lightweight LLM pre-screening (cheap, ~200 tokens)
-            if not prescreen_with_llm(llm, text, url_normalized):
+            if not prescreen_with_llm(llm_fast, text, url_normalized):
                 log("[REJECT] LLM pre-screen: Page is not about energy financing programs")
                 rejection = {
                     "is_relevant": False,
@@ -721,7 +842,7 @@ def process_url(url: str, llm, enable_qa: bool = True) -> Tuple[dict, dict, Opti
                 experiment_id = None
                 try:
                     experiment_id = log_experiment(
-                        model=getattr(llm, "_model", "unknown"),
+                        model=getattr(llm_fast, "_model", "unknown"),
                         temperature=0.0,
                         hyperparameters={"filter": "llm_prescreen"},
                         prompt="[LLM Pre-screen]",
@@ -736,10 +857,13 @@ def process_url(url: str, llm, enable_qa: bool = True) -> Tuple[dict, dict, Opti
             log("[✓] Pre-screening passed — proceeding with full extraction")
             
             # ── Full extraction (expensive LLM call) ──
+            # Smart text selection: keep all relevant sections around keywords
+            extract_text = _extract_relevant_text(text)
+            
             # Extract structured data with retry
             template = TEMPLATE_DEFAULT[0]
             try:
-                extracted_data_list = extract_json(llm, text, template, url_normalized)
+                extracted_data_list = extract_json(llm_fast, extract_text, template, url_normalized)
                 extracted_data = extracted_data_list[0] if extracted_data_list else {}
                 
                 # DEBUG: Show what keys we got
@@ -844,7 +968,7 @@ def process_url(url: str, llm, enable_qa: bool = True) -> Tuple[dict, dict, Opti
         experiment_id = None
         try:
             experiment_id = log_experiment(
-                model=getattr(llm, "_model", "unknown"),
+                model=getattr(llm_fast, "_model", "unknown"),
                 temperature=0.0,
                 hyperparameters={"max_retries": max_retries, "validation_filter": True},
                 prompt="[Data Validation Pre-filter]",
@@ -868,7 +992,7 @@ def process_url(url: str, llm, enable_qa: bool = True) -> Tuple[dict, dict, Opti
     # Step 2: Classify the product
     log("\n[2/3] Κατηγοριοποίηση προγράμματος...")
     try:
-        classification, experiment_id = classify_product(llm, extracted_data)
+        classification, experiment_id = classify_product(llm_smart, extracted_data)
         
         # Ensure experiment_id is not None for logging references
         if experiment_id is None:
@@ -906,7 +1030,7 @@ def process_url(url: str, llm, enable_qa: bool = True) -> Tuple[dict, dict, Opti
     if is_relevant and enable_qa:
         log("\n[3/3] Το πρόγραμμα ΜΑΣ ΕΝΔΙΑΦΕΡΕΙ! Ενεργοποίηση διαδραστικού συστήματος...")
         try:
-            interactive_qa(llm, extracted_data, classification, url_normalized)
+            interactive_qa(llm_smart, extracted_data, classification, url_normalized)
         except Exception as e:
             log(f"[ERROR] Σφάλμα στο διαδραστικό σύστημα: {e}")
     else:
@@ -941,22 +1065,28 @@ def main():
         help="Disable interactive Q&A even for relevant programs"
     )
     parser.add_argument(
-        "--model",
+        "--model-fast",
+        default="llama3.2:latest",
+        help="Fast LLM for pre-screen + extraction (default: llama3.2:latest)"
+    )
+    parser.add_argument(
+        "--model-smart",
         default="llama3.1:8b-instruct-q4_K_M",
-        help="Ollama model to use (default: llama3.1:8b-instruct-q4_K_M)"
+        help="Smart LLM for classification + Q&A (default: llama3.1:8b-instruct-q4_K_M)"
     )
     
     args = parser.parse_args()
     
-    # Initialize LLM
-    log(f"[INFO] Initializing LLM with model: {args.model}")
-    log("[TIP] Για καλύτερα αποτελέσματα δοκίμασε: --model llama3.1:8b-instruct-q4_K_M ή qwen2.5:32b")
-    llm = OllamaChat(model=args.model)
+    # Initialize dual LLMs
+    log(f"[INFO] LLM fast  (pre-screen + extraction): {args.model_fast}")
+    log(f"[INFO] LLM smart (classification + Q&A):     {args.model_smart}")
+    llm_fast  = OllamaChat(model=args.model_fast)
+    llm_smart = OllamaChat(model=args.model_smart)
     
     if args.url:
         # Single URL mode
         try:
-            process_url(args.url, llm, enable_qa=not args.no_qa)
+            process_url(args.url, llm_fast, llm_smart, enable_qa=not args.no_qa)
         except Exception as e:
             log(f"\n[ERROR] Αποτυχία επεξεργασίας: {e}")
             sys.exit(1)
@@ -982,7 +1112,7 @@ def main():
                 break
             
             try:
-                process_url(user_input, llm, enable_qa=not args.no_qa)
+                process_url(user_input, llm_fast, llm_smart, enable_qa=not args.no_qa)
             except Exception as e:
                 log(f"\n[ERROR] Αποτυχία επεξεργασίας: {e}\n")
                 continue
