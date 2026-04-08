@@ -1,0 +1,69 @@
+{
+  "timestamp": "20260326T112753Z",
+  "url": "https://www.piraeusbank.gr/el/idiwtes/proionta-upiresies/stegastika-daneia/prasino-episkeuastiko-daneio-me-eksasfalisi",
+  "classification": {
+    "is_relevant": false,
+    "primary_category": "",
+    "secondary_categories": [],
+    "confidence": 0.8,
+    "reasoning": "Το πρόγραμμα δεν αφορά ενεργειακή αναβάθμιση ή ΑΠΕ σε κατοικίες, αλλά είναι ένα στεγαστικό δάνειο χωρίς ενεργειακές προϋποθέσεις.",
+    "key_features": [
+      "Δάνεια για την αγορά/επισκευασία/κατασκευή στεγαστικού σπιτιού με κυμαινόμενο επιτόκιο"
+    ]
+  },
+  "extracted_data": {
+    "programme_name": "Green Episkyastiko Dianio",
+    "description": "Δάνεια για την αγορά/επισκευασία/κατασκευή στεγαστικού σπιτιού με κυμαινόμενο επιτόκιο",
+    "programme_objective": "Απολαύστε τα οφέλη του Green Episkyastiko Dianio και αποφασίσετε να αγοράσετε, να επισκευάσετε ή να κατασκευάσετε/αποπληρώσετε στεγαστικό δάνειο με κυμαινόμενο επιτόκιο",
+    "eligible_parties": [
+      {
+        "name": "Δικαιούχοι",
+        "description": "Κανείς"
+      }
+    ],
+    "eligibility_criteria": [
+      {
+        "name": "Απαιτήσεις",
+        "description": "Διέπεται από την αίτηση δανειοδότησης"
+      },
+      {
+        "name": "Περιθώρια",
+        "description": "Διέπεται από το Euribor μηνός, πλέον σταθερού περιθωρίου με έκπτωση 0,15% και της εισφοράς Ν.128/75"
+      }
+    ],
+    "property_requirements": [
+      {
+        "name": "Ακίνητο",
+        "description": "Διέπεται από την αίτηση δανειοδότησης"
+      },
+      {
+        "name": "Ζωή & Μόνιμη Ολική Ανικανότητα",
+        "description": "Προαιρετική"
+      }
+    ],
+    "minimum_funding_amount": "",
+    "maximum_funding_amount": "",
+    "funding_type": "Δάνεια",
+    "interest_rate": "Κυμαινόμενο επιτόκιο",
+    "funding_coverage": "0,15%",
+    "total_budget": "",
+    "funding_sources": [],
+    "duration": "Για όλη τη διάρκεια του δανείου",
+    "loan_duration": "Για τα πρώτα έτη (3/5/10/15/20/25/30 έτη)",
+    "completion_deadline": "",
+    "application_start_date": "",
+    "application_end_date": "",
+    "energy_performance_targets": "",
+    "eligible_interventions": [],
+    "application_process": "Κλείστε ραντεβού και επισκεφτείτε ένα κατάστημα της Πειραιώς",
+    "managing_body": "Η Τράπεζα",
+    "announcement_date": "",
+    "contact_info": [
+      {
+        "name": "Επικοινωνία",
+        "description": "Επικοινωνήστε μαζί μας τηλεφωνικά"
+      }
+    ],
+    "additional_details": ""
+  }
+}

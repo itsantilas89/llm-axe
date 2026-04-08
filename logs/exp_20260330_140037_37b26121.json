@@ -1,0 +1,15 @@
+{
+  "experiment_id": "exp_20260330_140037_37b26121",
+  "timestamp": "2026-03-30T14:00:37.321315+00:00",
+  "model": "llama3.2:latest",
+  "temperature": 0.0,
+  "hyperparameters": {
+    "filter": "keyword_prescreen"
+  },
+  "prompt": "[Keyword Pre-screen]",
+  "sources": [
+    "https://www.hollandandbarrett.gr/hnb-wellness-blog/diatrofi/11/30-trofes-pou-sou-dinoun-energeia/"
+  ],
+  "terminal_output": "REJECTED at keyword pre-screen (before extraction)",
+  "template_output_file": null
+}

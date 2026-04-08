@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Funding Programs Viewer</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <h1>Funding Programs - Prototype</h1>
+    <button id="toggle-admin" type="button">Admin</button>
+  </header>
+
+  <main class="layout">
+    <section class="panel" aria-label="Programs list">
+      <h2>Programs</h2>
+      <ul id="program-list" class="program-list"></ul>
+    </section>
+
+    <section class="panel" aria-label="Program details">
+      <h2>Details</h2>
+      <div id="details" class="details"></div>
+    </section>
+
+    <section class="panel" aria-label="Program chat">
+      <h2>Chat</h2>
+      <div id="suggestions" class="suggestions"></div>
+      <div id="chat-box" class="chat-box"></div>
+      <form id="chat-form" class="chat-form">
+        <input id="chat-input" type="text" placeholder="Ask about selected program" required>
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <section id="admin-panel" class="admin hidden" aria-label="Admin panel">
+    <h2>Admin JSON Editor</h2>
+    <p id="admin-source" class="muted"></p>
+    <textarea id="admin-json" rows="16" spellcheck="false"></textarea>
+    <div class="admin-actions">
+      <button id="admin-load" type="button">Load Selected JSON</button>
+      <button id="admin-save" type="button">Save</button>
+    </div>
+    <p id="admin-status" class="muted"></p>
+  </section>
+
+  <script src="./app.js"></script>
+</body>
+</html>

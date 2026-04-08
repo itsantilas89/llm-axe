@@ -29,7 +29,7 @@ from typing import List, Optional, Tuple
 # Import va3 components
 try:
     from llm_axe.va3_scraper_to_template import (
-        scrape_page, extract_json, save_result,
+        scrape_page, extract_json, save_raw_text, save_result,
         TEMPLATE_DEFAULT, _normalize_url, _is_host_resolvable
     )
     from llm_axe.models import OllamaChat
@@ -49,7 +49,7 @@ except Exception:
     from llm_axe.models import OllamaChat
     from llm_axe.core import make_prompt
     from llm_axe.va3_scraper_to_template import (
-        scrape_page, extract_json, save_result,
+        scrape_page, extract_json, save_raw_text, save_result,
         TEMPLATE_DEFAULT, _normalize_url, _is_host_resolvable
     )
     from llm_axe.simple_logger import log_experiment
@@ -161,11 +161,13 @@ def build_classification_prompt(extracted_data: dict) -> List[dict]:
         "Απάντησε ΜΟΝΟ με JSON format."
     )
     
+    # Use all extracted fields for maximum classification context.
+    full_data = extracted_data if isinstance(extracted_data, dict) else {}
+
     user = (
         f"Ανάλυσε το παρακάτω πρόγραμμα/προϊόν και κατηγοριοποίησέ το.\n\n"
         f"ΔΙΑΘΕΣΙΜΕΣ ΚΑΤΗΓΟΡΙΕΣ:\n{categories_list}\n\n"
-        # Filter out empty fields to reduce tokens sent to LLM
-        f"ΔΕΔΟΜΕΝΑ ΠΡΟΓΡΑΜΜΑΤΟΣ:\n{json.dumps({k: v for k, v in extracted_data.items() if v}, ensure_ascii=False, indent=2)}\n\n"
+        f"ΔΕΔΟΜΕΝΑ ΠΡΟΓΡΑΜΜΑΤΟΣ:\n{json.dumps(full_data, ensure_ascii=False, indent=2)}\n\n"
         "Επίστρεψε JSON με τη μορφή:\n"
         "{\n"
         '  "is_relevant": true/false,  // true αν το πρόγραμμα αφορά ενεργειακή αναβάθμιση ή ΑΠΕ σε κατοικίες\n'
@@ -191,6 +193,138 @@ def build_classification_prompt(extracted_data: dict) -> List[dict]:
     )
     
     return [make_prompt("system", system), make_prompt("user", user)]
+
+
+def _apply_deterministic_classification_guard(classification: dict, extracted_data: dict, source_url: str = "") -> dict:
+    """Apply lightweight rule-based guardrails to reduce obvious false negatives.
+
+    This guard is intentionally conservative: it only flips to relevant when there are
+    strong green-loan/energy signals from URL/name/fields.
+    """
+    out = dict(classification or {})
+
+    # Normalize potentially malformed LLM fields to safe scalar types.
+    if not isinstance(out.get("primary_category"), str):
+        out["primary_category"] = "other"
+    if not isinstance(out.get("is_relevant"), bool):
+        out["is_relevant"] = bool(out.get("is_relevant", False))
+    try:
+        out["confidence"] = float(out.get("confidence", 0.0) or 0.0)
+    except Exception:
+        out["confidence"] = 0.0
+    # Avoid mutating shared list objects that may come from caller payloads.
+    if isinstance(out.get("key_features"), list):
+        out["key_features"] = list(out["key_features"])
+    primary = (out.get("primary_category") or "").strip()
+
+    # Normalize malformed category values.
+    if primary not in ALL_CATEGORIES:
+        out["primary_category"] = "other"
+        if out.get("is_relevant"):
+            out["is_relevant"] = False
+            out["reasoning"] = "Auto-corrected: invalid primary_category"
+
+    # Enforce consistency: relevant must map to one of the energy/home categories of interest.
+    if out.get("is_relevant") and out.get("primary_category") not in CATEGORIES_OF_INTEREST:
+        out["is_relevant"] = False
+        out["reasoning"] = "Auto-corrected: non-interest category cannot be relevant"
+
+    def _to_lower_text(value) -> str:
+        """Convert any JSON-like value to lowercase text safely."""
+        if value is None:
+            return ""
+        if isinstance(value, str):
+            return value.lower()
+        if isinstance(value, (list, tuple, set)):
+            return " ".join(_to_lower_text(v) for v in value if v is not None)
+        if isinstance(value, dict):
+            # Include both keys and values to preserve useful signal words.
+            parts = []
+            for k, v in value.items():
+                parts.append(_to_lower_text(k))
+                parts.append(_to_lower_text(v))
+            return " ".join(p for p in parts if p)
+        return str(value).lower()
+
+    name = _to_lower_text((extracted_data or {}).get("programme_name", ""))
+    description = _to_lower_text((extracted_data or {}).get("description", ""))
+    objective = _to_lower_text((extracted_data or {}).get("programme_objective", ""))
+    funding_type = _to_lower_text((extracted_data or {}).get("funding_type", ""))
+    energy_targets = _to_lower_text((extracted_data or {}).get("energy_performance_targets", ""))
+    url_lower = _to_lower_text(source_url)
+
+    interventions = (extracted_data or {}).get("eligible_interventions", [])
+    has_interventions = isinstance(interventions, list) and len(interventions) > 0
+
+    text_blob = " ".join([name, description, objective, funding_type, energy_targets, url_lower])
+
+    strong_energy_signals = any(k in text_blob for k in [
+        "ενεργειακ", "αναβαθμ", "εξοικονομ", "heat pump", "φωτοβολτα", "θερμομον", "κουφωμ", "ηλιακ",
+        "energy", "energeiak", "anavathm", "retrofit", "insulation", "solar"
+    ])
+    strong_finance_signals = any(k in text_blob for k in [
+        "δάνει", "loan", "στεγαστ", "mortgage", "χρηματοδ"
+    ])
+
+    # IMPORTANT: we only care about residential/home programs.
+    strong_home_signals = any(k in text_blob for k in [
+        "κατοικ", "σπίτι", "σπιτι", "οικί", "οικια",
+        "home", "housing", "residential", "house", "apartment",
+        "στεγαστ"
+    ])
+
+    # Guard against commercial/enterprise contexts.
+    commercial_signals = any(k in text_blob for k in [
+        "επιχειρ", "business", "commercial", "βιομηχαν", "industrial",
+        "ξενοδοχ", "hotel", "factory", "γραφεί", "office"
+    ])
+
+    # Exclude domains you explicitly do NOT care about.
+    vehicle_signals = any(k in text_blob for k in [
+        "αμάξ", "αυτοκίνη", "οχημ", "ev", "electric vehicle", "ηλεκτρικ", "φορτισ"
+    ])
+    land_purchase_signals = any(k in text_blob for k in [
+        "οικόπεδ", "οικοπεδ", "αγορά κατοικ", "αγορά ακιν", "property purchase", "real estate acquisition",
+        "αγορά πρώτης κατοικίας", "αγορά σπιτιού", "buy home", "buy house"
+    ])
+
+    # Require explicit home energy-upgrade intent (not just generic housing/loan words).
+    home_upgrade_signals = any(k in text_blob for k in [
+        "ενεργειακ αναβαθ", "αναβάθμιση κατοικ", "αναβαθμιση κατοικ", "εξοικονομ", "θερμομον", "κουφωμ",
+        "αντλία θερμότ", "αντλια θερμοτ", "φωτοβολτα", "ηλιακ", "energy upgrade", "home retrofit", "home energy"
+        , "energy class", "energeiaki", "anavathm"
+    ]) or has_interventions or bool(energy_targets.strip())
+
+    # Only override when home energy-upgrade signals are clear and excluded domains are absent.
+    if (
+        (not out.get("is_relevant"))
+        and strong_energy_signals
+        and strong_finance_signals
+        and strong_home_signals
+        and home_upgrade_signals
+        and not commercial_signals
+        and not vehicle_signals
+        and not land_purchase_signals
+    ):
+        out["is_relevant"] = True
+        if out.get("primary_category") in ("other", "housing_loan", ""):
+            # Green housing loan if loan-like; else generic energy upgrade.
+            out["primary_category"] = "green_housing_loan" if ("δάνει" in text_blob or "loan" in text_blob) else "energy_upgrade"
+
+        base_reason = (out.get("reasoning") or "").strip()
+        override_reason = "Deterministic override: strong home energy-upgrade + financing signals"
+        out["reasoning"] = f"{base_reason} | {override_reason}" if base_reason else override_reason
+
+        confidence = float(out.get("confidence", 0.0) or 0.0)
+        out["confidence"] = max(confidence, 0.72 if not has_interventions else 0.8)
+
+        key_features = out.get("key_features", [])
+        if not isinstance(key_features, list):
+            key_features = []
+        key_features.append("deterministic_energy_financing_home_override")
+        out["key_features"] = key_features
+
+    return out
 
 def _get_program_name(extracted_data: dict) -> str:
     """Extract program name with fallback chain and validation.
@@ -549,7 +683,7 @@ def prescreen_with_llm(llm, text: str, url: str) -> bool:
         log(f"[WARN] LLM pre-screening failed: {e} — proceeding with extraction")
         return True
 
-def classify_product(llm, extracted_data: dict, max_retries: int = 2, log_it: bool = True) -> Tuple[dict, Optional[str]]:
+def classify_product(llm, extracted_data: dict, source_url: str = "", max_retries: int = 2, log_it: bool = True) -> Tuple[dict, Optional[str]]:
     """
     Use LLM to classify the product/program. Logs to logs/{experiment_id}.json
     
@@ -601,6 +735,9 @@ def classify_product(llm, extracted_data: dict, max_retries: int = 2, log_it: bo
             
             # Validate required fields
             if "is_relevant" in result and "primary_category" in result:
+                # First normalize malformed types/values from LLM output.
+                result = _apply_deterministic_classification_guard(result, extracted_data, source_url)
+
                 # STRICT: is_relevant only true for energy categories
                 if result["is_relevant"] and result["primary_category"] not in CATEGORIES_OF_INTEREST:
                     result["is_relevant"] = False
@@ -626,7 +763,7 @@ def classify_product(llm, extracted_data: dict, max_retries: int = 2, log_it: bo
             else:
                 raise ValueError("Missing required fields")
                 
-        except (json.JSONDecodeError, ValueError) as e:
+        except (json.JSONDecodeError, ValueError, TypeError) as e:
             if attempt < max_retries - 1:
                 log(f"[WARN] Attempt {attempt + 1} failed, retrying...")
             else:
@@ -779,6 +916,7 @@ def process_url(url: str, llm_fast, llm_smart=None, enable_qa: bool = True) -> T
     max_retries = 2
     extracted_data = None
     text = ""  # Initialize text for scoping (used later in classify)
+    scraped_text_saved = False
     
     for attempt in range(max_retries):
         try:
@@ -799,6 +937,16 @@ def process_url(url: str, llm_fast, llm_smart=None, enable_qa: bool = True) -> T
                 url_normalized = url
             else:
                 raise ValueError(f"Invalid URL or file path: {url}")
+
+            # Save scraped/source text once so evaluation can validate JSON values
+            # against the actual source text.
+            if not scraped_text_saved:
+                try:
+                    scraped_path = save_raw_text(text, url_normalized)
+                    log(f"[DEBUG] Saved scraped text to: {scraped_path}")
+                    scraped_text_saved = True
+                except Exception as save_err:
+                    log(f"[WARN] Failed to save scraped text: {save_err}")
             
             # ── Pre-screening: reject irrelevant pages BEFORE expensive extraction ──
             
@@ -992,7 +1140,7 @@ def process_url(url: str, llm_fast, llm_smart=None, enable_qa: bool = True) -> T
     # Step 2: Classify the product
     log("\n[2/3] Κατηγοριοποίηση προγράμματος...")
     try:
-        classification, experiment_id = classify_product(llm_smart, extracted_data)
+        classification, experiment_id = classify_product(llm_smart, extracted_data, source_url=url_normalized)
         
         # Ensure experiment_id is not None for logging references
         if experiment_id is None:

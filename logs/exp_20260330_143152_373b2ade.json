@@ -1,0 +1,16 @@
+{
+  "experiment_id": "exp_20260330_143152_373b2ade",
+  "timestamp": "2026-03-30T14:31:52.466291+00:00",
+  "model": "llama3.1:8b-instruct-q4_K_M",
+  "temperature": 0.1,
+  "hyperparameters": {
+    "max_retries": 2,
+    "attempt": 1
+  },
+  "prompt": "Ανάλυσε το παρακάτω πρόγραμμα/προϊόν και κατηγοριοποίησέ το.\n\nΔΙΑΘΕΣΙΜΕΣ ΚΑΤΗΓΟΡΙΕΣ:\n- energy_upgrade: Ενεργειακή αναβάθμιση (Energy upgrade/efficiency programs)\n- home_renewables: ΑΠΕ σε σπίτι (Renewable energy for homes - solar panels, heat pumps, insulation)\n- green_housing_loan: Πράσινο στεγαστι",
+  "sources": [
+    "Alpha Κατοικία"
+  ],
+  "terminal_output": "Category: other | Confidence: 0% | Relevant: False",
+  "template_output_file": null
+}

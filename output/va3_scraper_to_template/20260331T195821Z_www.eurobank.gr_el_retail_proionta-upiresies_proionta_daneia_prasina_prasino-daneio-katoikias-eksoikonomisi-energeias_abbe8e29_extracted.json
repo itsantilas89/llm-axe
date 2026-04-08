@@ -1,0 +1,58 @@
+[
+  {
+    "programme_name": "Πράσινο δάνειο κατοικίας - Εξοικονόμηση ενέργειας",
+    "description": "Δανείο για την αναβάθμιση της ενεργειακής απόδοσης του σπιτιού",
+    "programme_objective": "Αποκτήστε δάνειο για την αναβάθμιση της ενεργειακής απόδοσης του σπιτιού σας",
+    "eligible_parties": [
+      {
+        "name": "Κόστος των εργασιών",
+        "max_value": "15.000€"
+      },
+      {
+        "name": "Συμβάλλετε στη μείωση εκπομπών ρύπων",
+        "description": "Ενεργειακή αναβάθμιση"
+      }
+    ],
+    "eligibility_criteria": [
+      {
+        "name": "Πρόσθετε πιστοποιητικό ενεργειακής απόδοσης"
+      },
+      {
+        "name": "Συμβάλλετε στη μείωση εκπομπών ρύπων",
+        "description": "Ενεργειακή αναβάθμιση"
+      }
+    ],
+    "property_requirements": [
+      {
+        "name": "Πρόσθετε πιστοποιητικό ενεργειακής απόδοσης"
+      },
+      {
+        "name": "Συμβάλλετε στη μείωση εκπομπών ρύπων",
+        "description": "Ενεργειακή αναβάθμιση"
+      }
+    ],
+    "minimum_funding_amount": "",
+    "maximum_funding_amount": "",
+    "funding_type": "συνταγματική",
+    "interest_rate": "",
+    "funding_coverage": "100%",
+    "total_budget": "",
+    "funding_sources": [],
+    "duration": "",
+    "loan_duration": "",
+    "completion_deadline": "",
+    "application_start_date": "",
+    "application_end_date": "",
+    "energy_performance_targets": [
+      {
+        "name": "Αναβάθμιση ενεργειακής απόδοσης"
+      }
+    ],
+    "eligible_interventions": [],
+    "application_process": "",
+    "managing_body": "",
+    "announcement_date": "",
+    "contact_info": [],
+    "additional_details": ""
+  }
+]

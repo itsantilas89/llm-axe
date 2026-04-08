@@ -1,0 +1,40 @@
+[
+  {
+    "programme_name": "πράσινο δάνειο κατοικίας – Εξοικονόμηση ενέργειας",
+    "description": "Δανείο για την αναβάθμιση της ενεργειακής απόδοσης του σπιτιού",
+    "programme_objective": "Αναβάθμιση της ενεργειακής απόδοσης του σπιτιού και μείωση των εκπομπών ρύπων",
+    "eligible_parties": [
+      "υπάρχοντες ιδιοκτήρες"
+    ],
+    "eligibility_criteria": [
+      "στις εργασίες που κοστίζουν έως 15.000€",
+      "στις εργασίες που κοστίζουν πάνω από 15.000€"
+    ],
+    "property_requirements": [
+      "πρόσθετο πιστοποιητικό ενεργειακής απόδοσης"
+    ],
+    "minimum_funding_amount": "",
+    "maximum_funding_amount": "",
+    "funding_type": "συνχρεματοδοτούμενο",
+    "interest_rate": "",
+    "funding_coverage": "100% επιδότηση τόκων",
+    "total_budget": "",
+    "funding_sources": [],
+    "duration": "",
+    "loan_duration": "",
+    "completion_deadline": "",
+    "application_start_date": "",
+    "application_end_date": "",
+    "energy_performance_targets": "αποκατάσταση των 9 ενεργειακών κατηγοριών",
+    "eligible_interventions": [
+      "αλλαγή κουφωμάτων και τοποθέτηση διπλών τζαμιών"
+    ],
+    "application_process": "ραντεβού στο κατάστημα που σας εξυπηρετεί",
+    "managing_body": "",
+    "announcement_date": "",
+    "contact_info": [
+      ""
+    ],
+    "additional_details": ""
+  }
+]

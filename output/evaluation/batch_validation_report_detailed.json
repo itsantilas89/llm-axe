@@ -1,0 +1,1245 @@
+{
+  "summary": {
+    "total_files": 12,
+    "validated": 10,
+    "skipped": 2,
+    "errors": 0,
+    "overall_coverage": {
+      "total_checked": 220,
+      "found": 38,
+      "missing": 182
+    }
+  },
+  "results": [
+    {
+      "status": "ok",
+      "classification_file": "output\\va4_product_discoverer\\20260330T123132Z_www.piraeusbank.gr_el_idiwtes_proionta-upiresies_stegastika-daneia_prasino-episkeuastiko-daneio-me-eksasfalisi_3f1b2ca9_classification.json",
+      "scraped_file": "output\\va3_scraper_to_template\\20260331T172339Z_www.piraeusbank.gr_el_idiwtes_proionta-upiresies_stegastika-daneia_prasino-episkeuastiko-daneio-me-eksasfalisi_3f1b2ca9_scraped.txt",
+      "summary": {
+        "total_checked": 17,
+        "found": 1,
+        "missing": 16,
+        "coverage": 0.0588
+      },
+      "results": [
+        {
+          "path": "extracted_data.programme_name",
+          "value": "Green Episkyastiko Ditanio",
+          "found": false
+        },
+        {
+          "path": "extracted_data.description",
+          "value": "Stegastiko dantio kyminomenou epitokiou",
+          "found": false
+        },
+        {
+          "path": "extracted_data.programme_objective",
+          "value": "Ta xeria tou stegastikou dantio kyminomenou epitokious einai ta opla tou stergiou kathos eis ton kyrion 3/5/10/15/20/25/30 etiron.",
+          "found": false
+        },
+        {
+          "path": "extracted_data.eligible_parties[0].name",
+          "value": "Oikonomoi",
+          "found": false
+        },
+        {
+          "path": "extracted_data.eligible_parties[0].description",
+          "value": "Ta opla tou stergiou kathos eis ton kyrion 3/5/10/15/20/25/30 etiron.",
+          "found": false
+        },
+        {
+          "path": "extracted_data.eligible_parties[1].name",
+          "value": "Katastematici",
+          "found": false
+        },
+        {
+          "path": "extracted_data.eligible_parties[1].description",
+          "value": "Ta katastematica tou stergiou kathos eis ton kyrion 3/5/10/15/20/25/30 etiron.",
+          "found": false
+        },
+        {
+          "path": "extracted_data.eligibility_criteria[0].name",
+          "value": "Oikonomoi",
+          "found": false
+        },
+        {
+          "path": "extracted_data.eligibility_criteria[0].description",
+          "value": "Ta opla tou stergiou kathos eis ton kyrion 3/5/10/15/20/25/30 etiron.",
+          "found": false
+        },
+        {
+          "path": "extracted_data.eligibility_criteria[1].name",
+          "value": "Katastematici",
+          "found": false
+        },
+        {
+          "path": "extracted_data.eligibility_criteria[1].description",
+          "value": "Ta katastematica tou stergiou kathos eis ton kyrion 3/5/10/15/20/25/30 etiron.",
+          "found": false
+        },
+        {
+          "path": "extracted_data.property_requirements[0].name",
+          "value": "Stegastiko dantio",
+          "found": false
+        },
+        {
+          "path": "extracted_data.property_requirements[0].description",
+          "value": "Ta opla tou stergiou kathos eis ton kyrion 3/5/10/15/20/25/30 etiron.",
+          "found": false
+        },
+        {
+          "path": "extracted_data.property_requirements[1].name",
+          "value": "Katastematica",
+          "found": false
+        },
+        {
+          "path": "extracted_data.property_requirements[1].description",
+          "value": "Ta katastematica tou stergiou kathos eis ton kyrion 3/5/10/15/20/25/30 etiron.",
+          "found": false
+        },
+        {
+          "path": "extracted_data.contact_info[0].name",
+          "value": "Piraeus e-banking",
+          "found": true
+        },
+        {
+          "path": "extracted_data.contact_info[0].description",
+          "value": "E-mail: [info@peiraeusbank.gr](mailto:info@peiraeusbank.gr)",
+          "found": false
+        }
+      ]
+    },
+    {
+      "status": "ok",
+      "classification_file": "output\\va4_product_discoverer\\20260330T134538Z_www.eurobank.gr_el_retail_proionta-upiresies_proionta_daneia_prasina_programma-anabathmizo-to-spiti-mou_f1e4767b_classification.json",
+      "scraped_file": "output\\va3_scraper_to_template\\20260331T175258Z_www.eurobank.gr_el_retail_proionta-upiresies_proionta_daneia_prasina_programma-anabathmizo-to-spiti-mou_f1e4767b_scraped.txt",
+      "summary": {
+        "total_checked": 20,
+        "found": 8,
+        "missing": 12,
+        "coverage": 0.4
+      },
+      "results": [
+        {
+          "path": "extracted_data.programme_name",
+          "value": "Αναβαθμίζω το Σπίτι μου",
+          "found": true
+        },
+        {
+          "path": "extracted_data.description",
+          "value": "Δάνειο για ενεργειακή αναβάθμιση",
+          "found": false
+        },
+        {
+          "path": "extracted_data.programme_objective",
+          "value": "Μέγιστε την ενεργειακή απόδοση και μειώστε τα έξοδα",
+          "found": false
+        },
+        {
+          "path": "extracted_data.eligible_parties[0].name",
+          "value": "Ιδιώτες",
+          "found": true
+        },
+        {
+          "path": "extracted_data.eligible_parties[0].age_range",
+          "value": "[25, 50]",
+          "found": false
+        },
+        {
+          "path": "extracted_data.eligible_parties[0].relationship_status",
+          "value": "Ζευγάρια",
+          "found": true
+        },
+        {
+          "path": "extracted_data.eligibility_criteria[0].name",
+          "value": "Πρόσβαση σε δάνειο",
+          "found": false
+        },
+        {
+          "path": "extracted_data.eligibility_criteria[0].description",
+          "value": "Δανείο για στεγαστικό",
+          "found": false
+        },
+        {
+          "path": "extracted_data.eligibility_criteria[1].name",
+          "value": "Αποστολή του σπιτιού",
+          "found": false
+        },
+        {
+          "path": "extracted_data.eligibility_criteria[1].description",
+          "value": "Συμπεριφορά του σπιτιού",
+          "found": false
+        },
+        {
+          "path": "extracted_data.property_requirements[0].name",
+          "value": "Πόσο κοστίζει",
+          "found": false
+        },
+        {
+          "path": "extracted_data.property_requirements[0].description",
+          "value": "Χαμηλότοκο δάνειο",
+          "found": false
+        },
+        {
+          "path": "extracted_data.property_requirements[1].name",
+          "value": "Διάρκεια",
+          "found": true
+        },
+        {
+          "path": "extracted_data.property_requirements[1].description",
+          "value": "Δανείο για 30 χρόνια",
+          "found": false
+        },
+        {
+          "path": "extracted_data.eligible_interventions[0].name",
+          "value": "Εγκατάσταση αντλίας θερμότητας",
+          "found": true
+        },
+        {
+          "path": "extracted_data.eligible_interventions[1].name",
+          "value": "Μονωποίηση ταράτσας",
+          "found": false
+        },
+        {
+          "path": "extracted_data.contact_info[0].name",
+          "value": "Ευρώπη",
+          "found": false
+        },
+        {
+          "path": "extracted_data.contact_info[0].number",
+          "value": "2109555888",
+          "found": true
+        },
+        {
+          "path": "extracted_data.contact_info[0].days[0]",
+          "value": "Δευτέρα",
+          "found": true
+        },
+        {
+          "path": "extracted_data.contact_info[0].days[1]",
+          "value": "Παρασκευή",
+          "found": true
+        }
+      ]
+    },
+    {
+      "status": "ok",
+      "classification_file": "output\\va4_product_discoverer\\20260331T173832Z_www.piraeusbank.gr_el_idiwtes_proionta-upiresies_stegastika-daneia_prasino-episkeuastiko-daneio-me-eksasfalisi_3f1b2ca9_classification.json",
+      "scraped_file": "output\\va3_scraper_to_template\\20260331T172339Z_www.piraeusbank.gr_el_idiwtes_proionta-upiresies_stegastika-daneia_prasino-episkeuastiko-daneio-me-eksasfalisi_3f1b2ca9_scraped.txt",
+      "summary": {
+        "total_checked": 12,
+        "found": 0,
+        "missing": 12,
+        "coverage": 0.0
+      },
+      "results": [
+        {
+          "path": "extracted_data.programme_name",
+          "value": "Green Episkyastiko Ditanio",
+          "found": false
+        },
+        {
+          "path": "extracted_data.description",
+          "value": "Stegastiko dantio kyminomenou epitokiou",
+          "found": false
+        },
+        {
+          "path": "extracted_data.programme_objective",
+          "value": "Kymainomeno epitokio, baja Eurbor menos stahero perithorio me ekptosi 0,15% kai medenikai dapeia exetasis aiiteseis",
+          "found": false
+        },
+        {
+          "path": "extracted_data.eligible_parties[0].name",
+          "value": "Piraeus Bank",
+          "found": false
+        },
+        {
+          "path": "extracted_data.eligibility_criteria[0].name",
+          "value": "Akomodation akatastasi",
+          "found": false
+        },
+        {
+          "path": "extracted_data.eligibility_criteria[1].name",
+          "value": "Energetikos perimetros",
+          "found": false
+        },
+        {
+          "path": "extracted_data.eligibility_criteria[2].name",
+          "value": "Kymainomeno epitokio",
+          "found": false
+        },
+        {
+          "path": "extracted_data.property_requirements[0].name",
+          "value": "Akatastasi",
+          "found": false
+        },
+        {
+          "path": "extracted_data.property_requirements[1].name",
+          "value": "Energetikos perimetros",
+          "found": false
+        },
+        {
+          "path": "extracted_data.property_requirements[2].name",
+          "value": "Kymainomeno epitokio",
+          "found": false
+        },
+        {
+          "path": "extracted_data.eligible_interventions[0].name",
+          "value": "Episkeuasi",
+          "found": false
+        },
+        {
+          "path": "extracted_data.eligible_interventions[1].name",
+          "value": "Katastasi",
+          "found": false
+        }
+      ]
+    },
+    {
+      "status": "ok",
+      "classification_file": "output\\va4_product_discoverer\\20260331T183019Z_hdb.gr_growth-fund-green-co-financing-loans_af492829_classification.json",
+      "scraped_file": "output\\va3_scraper_to_template\\20260331T181812Z_hdb.gr_growth-fund-green-co-financing-loans_af492829_scraped.txt",
+      "summary": {
+        "total_checked": 22,
+        "found": 5,
+        "missing": 17,
+        "coverage": 0.2273
+      },
+      "results": [
+        {
+          "path": "extracted_data.programme_name",
+          "value": "Green Co-Financing Loans",
+          "found": true
+        },
+        {
+          "path": "extracted_data.description",
+          "value": "Green Co-Financing Loans: To provide favorable terms for investment loans to SMEs that develop Green Transition projects.",
+          "found": false
+        },
+        {
+          "path": "extracted_data.programme_objective",
+          "value": "To support SMEs in developing Green Transition projects and reduce greenhouse gas emissions, protect the environment, and lower energy consumption costs.",
+          "found": false
+        },
+        {
+          "path": "extracted_data.eligible_parties[0]",
+          "value": "Micro, Small and Medium-sized Enterprises (SMEs) with a legitimate establishment and operation in Greece",
+          "found": false
+        },
+        {
+          "path": "extracted_data.property_requirements[0]",
+          "value": "The loan amount cannot exceed €8 million",
+          "found": false
+        },
+        {
+          "path": "extracted_data.property_requirements[1]",
+          "value": "The first repayment period must be completed by June 30, 2026",
+          "found": false
+        },
+        {
+          "path": "extracted_data.maximum_funding_amount",
+          "value": "€415,000,000",
+          "found": false
+        },
+        {
+          "path": "extracted_data.funding_type",
+          "value": "Co-finance",
+          "found": false
+        },
+        {
+          "path": "extracted_data.interest_rate",
+          "value": "3%",
+          "found": true
+        },
+        {
+          "path": "extracted_data.funding_coverage",
+          "value": "40% of the loan amount (from the Fund) and 60% from the Hellenic Bank Group",
+          "found": false
+        },
+        {
+          "path": "extracted_data.total_budget",
+          "value": "€173,000,000",
+          "found": false
+        },
+        {
+          "path": "extracted_data.funding_sources[0]",
+          "value": "European Investment Bank",
+          "found": false
+        },
+        {
+          "path": "extracted_data.duration",
+          "value": "2-10 years",
+          "found": false
+        },
+        {
+          "path": "extracted_data.loan_duration",
+          "value": "2-10 years",
+          "found": false
+        },
+        {
+          "path": "extracted_data.completion_deadline",
+          "value": "June 30, 2026",
+          "found": false
+        },
+        {
+          "path": "extracted_data.energy_performance_targets",
+          "value": "Energy performance targets for the Green Transition projects",
+          "found": false
+        },
+        {
+          "path": "extracted_data.eligible_interventions[0]",
+          "value": "Green Transition projects in the sectors of Green Mobility, Energy Efficiency, and Renewable Energy",
+          "found": false
+        },
+        {
+          "path": "extracted_data.application_process",
+          "value": "KYC platform (Know Your Customer) and the Hellenic Bank Group's website",
+          "found": false
+        },
+        {
+          "path": "extracted_data.managing_body",
+          "value": "Hellenic Bank Group",
+          "found": false
+        },
+        {
+          "path": "extracted_data.contact_info[0].name",
+          "value": "HDB",
+          "found": true
+        },
+        {
+          "path": "extracted_data.contact_info[0].email",
+          "value": "[email protected]",
+          "found": true
+        },
+        {
+          "path": "extracted_data.contact_info[0].phone",
+          "value": "211 10 58 600",
+          "found": true
+        }
+      ]
+    },
+    {
+      "status": "ok",
+      "classification_file": "output\\va4_product_discoverer\\20260331T185249Z_www.eurobank.gr_el_retail_proionta-upiresies_proionta_daneia_prasina_green-fast-loan_15a4f314_classification.json",
+      "scraped_file": "output\\va3_scraper_to_template\\20260331T183911Z_www.eurobank.gr_el_retail_proionta-upiresies_proionta_daneia_prasina_green-fast-loan_15a4f314_scraped.txt",
+      "summary": {
+        "total_checked": 16,
+        "found": 9,
+        "missing": 7,
+        "coverage": 0.5625
+      },
+      "results": [
+        {
+          "path": "extracted_data.programme_name",
+          "value": "Green Fast Loan",
+          "found": true
+        },
+        {
+          "path": "extracted_data.description",
+          "value": "Δάνειο έως 5.000€ online, τηλεφωνικά ή σε κατάστημα για την αγορά πράσινων προϊόντων",
+          "found": false
+        },
+        {
+          "path": "extracted_data.programme_objective",
+          "value": "Αποκτήστε δάνειο για να αγοράσετε πράσινα προϊόντα και εξοικονομήστε ενέργεια",
+          "found": false
+        },
+        {
+          "path": "extracted_data.eligible_parties[0]",
+          "value": "Πελάτες Eurobank",
+          "found": false
+        },
+        {
+          "path": "extracted_data.eligibility_criteria[0]",
+          "value": "Θέλω δάνειο online",
+          "found": true
+        },
+        {
+          "path": "extracted_data.eligibility_criteria[1]",
+          "value": "Θέλω δάνειο έως 5.000€",
+          "found": false
+        },
+        {
+          "path": "extracted_data.property_requirements[0]",
+          "value": "Τις συσκευές που θέλετε να αγοράσετε πρέπει να είναι πράσινες",
+          "found": false
+        },
+        {
+          "path": "extracted_data.maximum_funding_amount",
+          "value": "5.000€",
+          "found": true
+        },
+        {
+          "path": "extracted_data.funding_type",
+          "value": "Δάνειο",
+          "found": true
+        },
+        {
+          "path": "extracted_data.funding_coverage",
+          "value": "100% επιδότηση τόκων",
+          "found": true
+        },
+        {
+          "path": "extracted_data.loan_duration",
+          "value": "5 λεπτά",
+          "found": true
+        },
+        {
+          "path": "extracted_data.eligible_interventions[0]",
+          "value": "Αγοράψη πράσινων ηλεκτρικών συσκευών",
+          "found": false
+        },
+        {
+          "path": "extracted_data.application_process",
+          "value": "Online, τηλεφωνικά ή σε κατάστημα",
+          "found": true
+        },
+        {
+          "path": "extracted_data.managing_body",
+          "value": "Eurobank",
+          "found": true
+        },
+        {
+          "path": "extracted_data.contact_info[0]",
+          "value": "2109555455",
+          "found": true
+        },
+        {
+          "path": "extracted_data.contact_info[1]",
+          "value": "Eιδική Γραμμή Εξυπηρέτησης για Καταναλωτικά Δάνεια",
+          "found": false
+        }
+      ]
+    },
+    {
+      "status": "ok",
+      "classification_file": "output\\va4_product_discoverer\\20260331T225839Z_www.eurobank.gr_el_retail_proionta-upiresies_proionta_daneia_prasina_prasino-daneio-katoikias-eksoikonomisi-energeias_abbe8e29_classification.json",
+      "scraped_file": "output\\va3_scraper_to_template\\20260331T185816Z_www.eurobank.gr_el_retail_proionta-upiresies_proionta_daneia_prasina_prasino-daneio-katoikias-eksoikonomisi-energeias_abbe8e29_scraped.txt",
+      "summary": {
+        "total_checked": 12,
+        "found": 4,
+        "missing": 8,
+        "coverage": 0.3333
+      },
+      "results": [
+        {
+          "path": "extracted_data.programme_name",
+          "value": "πράσινο δάνειο κατοικίας – Εξοικονόμηση ενέργειας",
+          "found": true
+        },
+        {
+          "path": "extracted_data.description",
+          "value": "Δανείο για την αναβάθμιση της ενεργειακής απόδοσης του σπιτιού",
+          "found": false
+        },
+        {
+          "path": "extracted_data.programme_objective",
+          "value": "Αναβάθμιση της ενεργειακής απόδοσης του σπιτιού και μείωση των εκπομπών ρύπων",
+          "found": false
+        },
+        {
+          "path": "extracted_data.eligible_parties[0]",
+          "value": "υπάρχοντες ιδιοκτήρες",
+          "found": false
+        },
+        {
+          "path": "extracted_data.eligibility_criteria[0]",
+          "value": "στις εργασίες που κοστίζουν έως 15.000€",
+          "found": false
+        },
+        {
+          "path": "extracted_data.eligibility_criteria[1]",
+          "value": "στις εργασίες που κοστίζουν πάνω από 15.000€",
+          "found": false
+        },
+        {
+          "path": "extracted_data.property_requirements[0]",
+          "value": "πρόσθετο πιστοποιητικό ενεργειακής απόδοσης",
+          "found": false
+        },
+        {
+          "path": "extracted_data.funding_type",
+          "value": "συνχρεματοδοτούμενο",
+          "found": false
+        },
+        {
+          "path": "extracted_data.funding_coverage",
+          "value": "100% επιδότηση τόκων",
+          "found": true
+        },
+        {
+          "path": "extracted_data.energy_performance_targets",
+          "value": "αποκατάσταση των 9 ενεργειακών κατηγοριών",
+          "found": false
+        },
+        {
+          "path": "extracted_data.eligible_interventions[0]",
+          "value": "αλλαγή κουφωμάτων και τοποθέτηση διπλών τζαμιών",
+          "found": true
+        },
+        {
+          "path": "extracted_data.application_process",
+          "value": "ραντεβού στο κατάστημα που σας εξυπηρετεί",
+          "found": true
+        }
+      ]
+    },
+    {
+      "status": "ok",
+      "classification_file": "output\\va4_product_discoverer\\20260331T231804Z_www.eurobank.gr_el_retail_proionta-upiresies_proionta_daneia_prasina_eksoikonomo-2021_5cb0adb0_classification.json",
+      "scraped_file": "output\\va3_scraper_to_template\\20260331T230258Z_www.eurobank.gr_el_retail_proionta-upiresies_proionta_daneia_prasina_eksoikonomo-2021_5cb0adb0_scraped.txt",
+      "summary": {
+        "total_checked": 25,
+        "found": 2,
+        "missing": 23,
+        "coverage": 0.08
+      },
+      "results": [
+        {
+          "path": "extracted_data.programme_name",
+          "value": "Εξοικονομώ",
+          "found": true
+        },
+        {
+          "path": "extracted_data.description",
+          "value": "Πρόγραμμα για την ενεργειακή αναβάθμιση των σπιτιών",
+          "found": false
+        },
+        {
+          "path": "extracted_data.programme_objective",
+          "value": "Απαιτείται η participation of homeowners who want to improve the energy efficiency of their homes",
+          "found": false
+        },
+        {
+          "path": "extracted_data.eligible_parties[0].name",
+          "value": "Homeowners",
+          "found": false
+        },
+        {
+          "path": "extracted_data.eligibility_criteria[0].name",
+          "value": "Age",
+          "found": true
+        },
+        {
+          "path": "extracted_data.eligibility_criteria[1].name",
+          "value": "Income",
+          "found": false
+        },
+        {
+          "path": "extracted_data.property_requirements[0].name",
+          "value": "Type of property",
+          "found": false
+        },
+        {
+          "path": "extracted_data.property_requirements[1].name",
+          "value": "Location",
+          "found": false
+        },
+        {
+          "path": "extracted_data.funding_type",
+          "value": "Grants",
+          "found": false
+        },
+        {
+          "path": "extracted_data.funding_coverage",
+          "value": "Up to 50% of the total cost",
+          "found": false
+        },
+        {
+          "path": "extracted_data.total_budget",
+          "value": "€100 million",
+          "found": false
+        },
+        {
+          "path": "extracted_data.funding_sources[0].name",
+          "value": "European Union",
+          "found": false
+        },
+        {
+          "path": "extracted_data.duration",
+          "value": "2 years",
+          "found": false
+        },
+        {
+          "path": "extracted_data.completion_deadline",
+          "value": "2025",
+          "found": false
+        },
+        {
+          "path": "extracted_data.application_start_date",
+          "value": "January 1, 2023",
+          "found": false
+        },
+        {
+          "path": "extracted_data.application_end_date",
+          "value": "December 31, 2024",
+          "found": false
+        },
+        {
+          "path": "extracted_data.energy_performance_targets[0].name",
+          "value": "Energy efficiency rating",
+          "found": false
+        },
+        {
+          "path": "extracted_data.energy_performance_targets[1].name",
+          "value": "Carbon emissions reduction",
+          "found": false
+        },
+        {
+          "path": "extracted_data.eligible_interventions[0].name",
+          "value": "Insulation",
+          "found": false
+        },
+        {
+          "path": "extracted_data.eligible_interventions[1].name",
+          "value": "Windows replacement",
+          "found": false
+        },
+        {
+          "path": "extracted_data.application_process",
+          "value": "Online application",
+          "found": false
+        },
+        {
+          "path": "extracted_data.managing_body",
+          "value": "Ministry of Environment and Energy",
+          "found": false
+        },
+        {
+          "path": "extracted_data.announcement_date",
+          "value": "June 2022",
+          "found": false
+        },
+        {
+          "path": "extracted_data.contact_info[0].name",
+          "value": "Phone number",
+          "found": false
+        },
+        {
+          "path": "extracted_data.contact_info[1].name",
+          "value": "Email address",
+          "found": false
+        }
+      ]
+    },
+    {
+      "status": "ok",
+      "classification_file": "output\\va4_product_discoverer\\20260331T234541Z_www.eurobank.gr_el_retail_proionta-upiresies_proionta_daneia_prasina_eksoikonomo-2023_38e6dacb_classification.json",
+      "scraped_file": "output\\va3_scraper_to_template\\20260331T232944Z_www.eurobank.gr_el_retail_proionta-upiresies_proionta_daneia_prasina_eksoikonomo-2023_38e6dacb_scraped.txt",
+      "summary": {
+        "total_checked": 35,
+        "found": 3,
+        "missing": 32,
+        "coverage": 0.0857
+      },
+      "results": [
+        {
+          "path": "extracted_data.programme_name",
+          "value": "Εξοικονομώ",
+          "found": true
+        },
+        {
+          "path": "extracted_data.description",
+          "value": "Πρόγραμμα για την ενεργειακή αναβάθμιση των σπιτιών",
+          "found": false
+        },
+        {
+          "path": "extracted_data.programme_objective",
+          "value": "Απαιτείται η participation of homeowners in the programme to improve energy efficiency and reduce energy consumption.",
+          "found": false
+        },
+        {
+          "path": "extracted_data.eligible_parties[0].name",
+          "value": "Homeowners",
+          "found": false
+        },
+        {
+          "path": "extracted_data.eligibility_criteria[0].name",
+          "value": "Residency",
+          "found": false
+        },
+        {
+          "path": "extracted_data.eligibility_criteria[0].value",
+          "value": "The property must be owned by a resident of Greece.",
+          "found": false
+        },
+        {
+          "path": "extracted_data.eligibility_criteria[1].name",
+          "value": "Energy Performance Certificate",
+          "found": false
+        },
+        {
+          "path": "extracted_data.eligibility_criteria[1].value",
+          "value": "The property must have an Energy Performance Certificate (EPC) rating of at least C.",
+          "found": false
+        },
+        {
+          "path": "extracted_data.property_requirements[0].name",
+          "value": "Age",
+          "found": true
+        },
+        {
+          "path": "extracted_data.property_requirements[0].value",
+          "value": "The property must be at least 10 years old.",
+          "found": false
+        },
+        {
+          "path": "extracted_data.property_requirements[1].name",
+          "value": "Size",
+          "found": false
+        },
+        {
+          "path": "extracted_data.property_requirements[1].value",
+          "value": "The property must have a minimum floor area of 50 square meters.",
+          "found": false
+        },
+        {
+          "path": "extracted_data.funding_type",
+          "value": "Grants",
+          "found": false
+        },
+        {
+          "path": "extracted_data.funding_coverage",
+          "value": "Up to 100% of the total funding amount",
+          "found": false
+        },
+        {
+          "path": "extracted_data.total_budget",
+          "value": "€500 million",
+          "found": false
+        },
+        {
+          "path": "extracted_data.funding_sources[0].name",
+          "value": "European Union",
+          "found": false
+        },
+        {
+          "path": "extracted_data.duration",
+          "value": "2 years",
+          "found": false
+        },
+        {
+          "path": "extracted_data.loan_duration",
+          "value": "5 years",
+          "found": false
+        },
+        {
+          "path": "extracted_data.completion_deadline",
+          "value": "2024-12-31",
+          "found": false
+        },
+        {
+          "path": "extracted_data.application_start_date",
+          "value": "2023-06-12",
+          "found": false
+        },
+        {
+          "path": "extracted_data.application_end_date",
+          "value": "2023-11-15",
+          "found": false
+        },
+        {
+          "path": "extracted_data.energy_performance_targets[0].name",
+          "value": "Energy Efficiency",
+          "found": false
+        },
+        {
+          "path": "extracted_data.energy_performance_targets[0].value",
+          "value": "Reduce energy consumption by at least 20%",
+          "found": false
+        },
+        {
+          "path": "extracted_data.energy_performance_targets[1].name",
+          "value": "Carbon Emissions",
+          "found": false
+        },
+        {
+          "path": "extracted_data.energy_performance_targets[1].value",
+          "value": "Reduce carbon emissions by at least 30%",
+          "found": false
+        },
+        {
+          "path": "extracted_data.eligible_interventions[0].name",
+          "value": "Insulation",
+          "found": false
+        },
+        {
+          "path": "extracted_data.eligible_interventions[1].name",
+          "value": "Windows Replacement",
+          "found": false
+        },
+        {
+          "path": "extracted_data.eligible_interventions[2].name",
+          "value": "Heating System Upgrade",
+          "found": false
+        },
+        {
+          "path": "extracted_data.application_process",
+          "value": "Online application",
+          "found": false
+        },
+        {
+          "path": "extracted_data.managing_body",
+          "value": "Ministry of Environment and Energy",
+          "found": false
+        },
+        {
+          "path": "extracted_data.announcement_date",
+          "value": "2023-06-12",
+          "found": false
+        },
+        {
+          "path": "extracted_data.contact_info[0].name",
+          "value": "Phone",
+          "found": true
+        },
+        {
+          "path": "extracted_data.contact_info[0].value",
+          "value": "+30 210 955 5000",
+          "found": false
+        },
+        {
+          "path": "extracted_data.contact_info[1].name",
+          "value": "Email",
+          "found": false
+        },
+        {
+          "path": "extracted_data.contact_info[1].value",
+          "value": "info@exoikonomos.gov.gr",
+          "found": false
+        }
+      ]
+    },
+    {
+      "status": "ok",
+      "classification_file": "output\\va4_product_discoverer\\20260401T000718Z_www.eurobank.gr_el_retail_proionta-upiresies_proionta_daneia_prasina_eksoikonomo-anakainizo-gia-neous_57ff89ca_classification.json",
+      "scraped_file": "output\\va3_scraper_to_template\\20260331T235155Z_www.eurobank.gr_el_retail_proionta-upiresies_proionta_daneia_prasina_eksoikonomo-anakainizo-gia-neous_57ff89ca_scraped.txt",
+      "summary": {
+        "total_checked": 36,
+        "found": 2,
+        "missing": 34,
+        "coverage": 0.0556
+      },
+      "results": [
+        {
+          "path": "extracted_data.programme_name",
+          "value": "Εξοικονομώ - Ανακαινίζω για νέους",
+          "found": false
+        },
+        {
+          "path": "extracted_data.description",
+          "value": "Πρόγραμμα για την ενεργειακή αναβάθμιση και ανακαίνιση σπιτιών",
+          "found": false
+        },
+        {
+          "path": "extracted_data.programme_objective",
+          "value": "Απαιτείται η participation of eligible parties to the programme in order to achieve the energy performance targets.",
+          "found": false
+        },
+        {
+          "path": "extracted_data.eligible_parties[0].name",
+          "value": "Individuals",
+          "found": false
+        },
+        {
+          "path": "extracted_data.eligible_parties[0].description",
+          "value": "Private individuals who own or rent a dwelling",
+          "found": false
+        },
+        {
+          "path": "extracted_data.eligible_parties[1].name",
+          "value": "Small and Medium-sized Enterprises (SMEs)",
+          "found": false
+        },
+        {
+          "path": "extracted_data.eligible_parties[1].description",
+          "value": "Businesses with fewer than 50 employees",
+          "found": false
+        },
+        {
+          "path": "extracted_data.eligibility_criteria[0].name",
+          "value": "Residence",
+          "found": false
+        },
+        {
+          "path": "extracted_data.eligibility_criteria[0].description",
+          "value": "The applicant must reside in the building or have a right of use to it",
+          "found": false
+        },
+        {
+          "path": "extracted_data.eligibility_criteria[1].name",
+          "value": "Energy Performance Certificate (EPC)",
+          "found": false
+        },
+        {
+          "path": "extracted_data.eligibility_criteria[1].description",
+          "value": "The EPC must be issued within the last 5 years and indicate that the building has an energy performance class D or lower",
+          "found": false
+        },
+        {
+          "path": "extracted_data.property_requirements[0].name",
+          "value": "Building type",
+          "found": false
+        },
+        {
+          "path": "extracted_data.property_requirements[0].description",
+          "value": "Residential buildings only",
+          "found": false
+        },
+        {
+          "path": "extracted_data.property_requirements[1].name",
+          "value": "Age of the building",
+          "found": false
+        },
+        {
+          "path": "extracted_data.property_requirements[1].description",
+          "value": "Buildings constructed before 2000",
+          "found": false
+        },
+        {
+          "path": "extracted_data.funding_type",
+          "value": "Grant",
+          "found": false
+        },
+        {
+          "path": "extracted_data.funding_coverage",
+          "value": "100%",
+          "found": true
+        },
+        {
+          "path": "extracted_data.total_budget",
+          "value": "500,000,000 EUR",
+          "found": false
+        },
+        {
+          "path": "extracted_data.funding_sources[0].name",
+          "value": "Greek Government",
+          "found": false
+        },
+        {
+          "path": "extracted_data.duration",
+          "value": "36 months",
+          "found": false
+        },
+        {
+          "path": "extracted_data.loan_duration",
+          "value": "10 years",
+          "found": false
+        },
+        {
+          "path": "extracted_data.completion_deadline",
+          "value": "2025-12-31",
+          "found": false
+        },
+        {
+          "path": "extracted_data.application_start_date",
+          "value": "2023-01-01",
+          "found": false
+        },
+        {
+          "path": "extracted_data.application_end_date",
+          "value": "2024-06-30",
+          "found": false
+        },
+        {
+          "path": "extracted_data.energy_performance_targets[0].name",
+          "value": "Energy performance class D or lower",
+          "found": false
+        },
+        {
+          "path": "extracted_data.energy_performance_targets[1].name",
+          "value": "Energy consumption reduction of at least 20%",
+          "found": false
+        },
+        {
+          "path": "extracted_data.eligible_interventions[0].name",
+          "value": "Renewable energy systems (solar, wind, biogas)",
+          "found": false
+        },
+        {
+          "path": "extracted_data.eligible_interventions[1].name",
+          "value": "Energy-efficient insulation and windows",
+          "found": false
+        },
+        {
+          "path": "extracted_data.eligible_interventions[2].name",
+          "value": "Building envelope improvements",
+          "found": false
+        },
+        {
+          "path": "extracted_data.application_process",
+          "value": "Online application through the programme's website",
+          "found": false
+        },
+        {
+          "path": "extracted_data.managing_body",
+          "value": "Greek Ministry of Environment and Energy",
+          "found": false
+        },
+        {
+          "path": "extracted_data.announcement_date",
+          "value": "2022-12-01",
+          "found": false
+        },
+        {
+          "path": "extracted_data.contact_info[0].name",
+          "value": "Email",
+          "found": true
+        },
+        {
+          "path": "extracted_data.contact_info[0].description",
+          "value": "info@danet.gr",
+          "found": false
+        },
+        {
+          "path": "extracted_data.contact_info[1].name",
+          "value": "Phone",
+          "found": false
+        },
+        {
+          "path": "extracted_data.contact_info[1].description",
+          "value": "+30 210 344 4444",
+          "found": false
+        }
+      ]
+    },
+    {
+      "status": "ok",
+      "classification_file": "output\\va4_product_discoverer\\20260401T003129Z_www.eurobank.gr_el_retail_proionta-upiresies_proionta_daneia_prasina_eksoikonomo-2025_9a0afe12_classification.json",
+      "scraped_file": "output\\va3_scraper_to_template\\20260401T001616Z_www.eurobank.gr_el_retail_proionta-upiresies_proionta_daneia_prasina_eksoikonomo-2025_9a0afe12_scraped.txt",
+      "summary": {
+        "total_checked": 25,
+        "found": 4,
+        "missing": 21,
+        "coverage": 0.16
+      },
+      "results": [
+        {
+          "path": "extracted_data.programme_name",
+          "value": "Εξοικονομώ 2025",
+          "found": true
+        },
+        {
+          "path": "extracted_data.description",
+          "value": "Πρόγραμμα για την ενεργειακή αναβάθμιση σπιτιών",
+          "found": false
+        },
+        {
+          "path": "extracted_data.programme_objective",
+          "value": "Μειωποίηση των έξοδων ενέργειας και βελτίωση της ενεργειακής απόδοσης σπιτιού",
+          "found": false
+        },
+        {
+          "path": "extracted_data.eligible_parties[0].description",
+          "value": "Δικαιούχοι: ιδιοκτήρες σπιτιών, ενοίκιοι σπιτιών",
+          "found": false
+        },
+        {
+          "path": "extracted_data.eligibility_criteria[0].description",
+          "value": "Συμφωνήθηκε η ενεργειακή αναβάθμιση",
+          "found": false
+        },
+        {
+          "path": "extracted_data.eligibility_criteria[1].description",
+          "value": "Η ενεργειακή απόδοσης του σπιτιού πρέπει να είναι κάτω από 80% για τα κλιματιστικά και 70% για τις κουφώματα",
+          "found": false
+        },
+        {
+          "path": "extracted_data.property_requirements[0].description",
+          "value": "Συμφωνήθηκε η ενεργειακή αναβάθμιση",
+          "found": false
+        },
+        {
+          "path": "extracted_data.property_requirements[1].description",
+          "value": "Η παλιά κλιματισμός και κουφώματα πρέπει να αντικατασταθούν με νέους",
+          "found": false
+        },
+        {
+          "path": "extracted_data.funding_type",
+          "value": "συνχρεωτικό",
+          "found": false
+        },
+        {
+          "path": "extracted_data.funding_coverage",
+          "value": "100%",
+          "found": true
+        },
+        {
+          "path": "extracted_data.duration",
+          "value": "2 χρόνια",
+          "found": false
+        },
+        {
+          "path": "extracted_data.loan_duration",
+          "value": "10 χρόνια",
+          "found": false
+        },
+        {
+          "path": "extracted_data.completion_deadline",
+          "value": "2027",
+          "found": false
+        },
+        {
+          "path": "extracted_data.application_start_date",
+          "value": "2023-02-01",
+          "found": false
+        },
+        {
+          "path": "extracted_data.application_end_date",
+          "value": "2025-12-31",
+          "found": false
+        },
+        {
+          "path": "extracted_data.energy_performance_targets[0].description",
+          "value": "80% για τα κλιματιστικά",
+          "found": false
+        },
+        {
+          "path": "extracted_data.energy_performance_targets[1].description",
+          "value": "70% για τις κουφώματα",
+          "found": false
+        },
+        {
+          "path": "extracted_data.eligible_interventions[0].description",
+          "value": "Εγκατάσταση αντλίας θερμότητας",
+          "found": false
+        },
+        {
+          "path": "extracted_data.eligible_interventions[1].description",
+          "value": "Εγκατάσταση καυστήρα ή λέβητα",
+          "found": false
+        },
+        {
+          "path": "extracted_data.eligible_interventions[2].description",
+          "value": "Μονωποίηση ταράτσας",
+          "found": false
+        },
+        {
+          "path": "extracted_data.application_process",
+          "value": "ออนไลนική αίτηση",
+          "found": false
+        },
+        {
+          "path": "extracted_data.managing_body",
+          "value": "Eurobank",
+          "found": true
+        },
+        {
+          "path": "extracted_data.announcement_date",
+          "value": "2023-02-01",
+          "found": false
+        },
+        {
+          "path": "extracted_data.contact_info[0].description",
+          "value": "Τηλεφωνία: 2109555000",
+          "found": false
+        },
+        {
+          "path": "extracted_data.contact_info[1].description",
+          "value": "Ελατε σε ένα κατάστημα",
+          "found": true
+        }
+      ]
+    }
+  ]
+}

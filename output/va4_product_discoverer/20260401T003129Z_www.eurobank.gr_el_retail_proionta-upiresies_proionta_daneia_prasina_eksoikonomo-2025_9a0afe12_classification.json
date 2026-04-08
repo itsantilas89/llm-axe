@@ -1,0 +1,85 @@
+{
+  "timestamp": "20260401T003129Z",
+  "url": "https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/eksoikonomo-2025",
+  "classification": {
+    "is_relevant": true,
+    "primary_category": "energy_upgrade",
+    "secondary_categories": [],
+    "confidence": 0.95,
+    "reasoning": "Το πρόγραμμα αφορά ενεργειακή αναβάθμιση σπιτιών με συγκεκριμένες προϋποθέσεις και επεμβάσεις.",
+    "key_features": [
+      "Ενεργειακές επεμβάσεις σε ΚΑΤΟΙΚΙΕΣ",
+      "Συμφωνήθηκε η ενεργειακή αναβάθμιση",
+      "Η παλιά κλιματισμός και κουφώματα πρέπει να αντικατασταθούν με νέους"
+    ]
+  },
+  "extracted_data": {
+    "programme_name": "Εξοικονομώ 2025",
+    "description": "Πρόγραμμα για την ενεργειακή αναβάθμιση σπιτιών",
+    "programme_objective": "Μειωποίηση των έξοδων ενέργειας και βελτίωση της ενεργειακής απόδοσης σπιτιού",
+    "eligible_parties": [
+      {
+        "description": "Δικαιούχοι: ιδιοκτήρες σπιτιών, ενοίκιοι σπιτιών"
+      }
+    ],
+    "eligibility_criteria": [
+      {
+        "description": "Συμφωνήθηκε η ενεργειακή αναβάθμιση"
+      },
+      {
+        "description": "Η ενεργειακή απόδοσης του σπιτιού πρέπει να είναι κάτω από 80% για τα κλιματιστικά και 70% για τις κουφώματα"
+      }
+    ],
+    "property_requirements": [
+      {
+        "description": "Συμφωνήθηκε η ενεργειακή αναβάθμιση"
+      },
+      {
+        "description": "Η παλιά κλιματισμός και κουφώματα πρέπει να αντικατασταθούν με νέους"
+      }
+    ],
+    "minimum_funding_amount": "",
+    "maximum_funding_amount": "",
+    "funding_type": "συνχρεωτικό",
+    "interest_rate": "",
+    "funding_coverage": "100%",
+    "total_budget": "",
+    "funding_sources": [],
+    "duration": "2 χρόνια",
+    "loan_duration": "10 χρόνια",
+    "completion_deadline": "2027",
+    "application_start_date": "2023-02-01",
+    "application_end_date": "2025-12-31",
+    "energy_performance_targets": [
+      {
+        "description": "80% για τα κλιματιστικά"
+      },
+      {
+        "description": "70% για τις κουφώματα"
+      }
+    ],
+    "eligible_interventions": [
+      {
+        "description": "Εγκατάσταση αντλίας θερμότητας"
+      },
+      {
+        "description": "Εγκατάσταση καυστήρα ή λέβητα"
+      },
+      {
+        "description": "Μονωποίηση ταράτσας"
+      }
+    ],
+    "application_process": "ออนไลนική αίτηση",
+    "managing_body": "Eurobank",
+    "announcement_date": "2023-02-01",
+    "contact_info": [
+      {
+        "description": "Τηλεφωνία: 2109555000"
+      },
+      {
+        "description": "Ελατε σε ένα κατάστημα"
+      }
+    ],
+    "additional_details": ""
+  }
+}

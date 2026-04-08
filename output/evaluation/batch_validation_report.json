@@ -1,0 +1,14 @@
+{
+  "summary": {
+    "total_files": 11,
+    "validated": 7,
+    "skipped": 4,
+    "errors": 0,
+    "overall_coverage": {
+      "total_checked": 41,
+      "found": 0,
+      "missing": 41
+    }
+  },
+  "results": []
+}

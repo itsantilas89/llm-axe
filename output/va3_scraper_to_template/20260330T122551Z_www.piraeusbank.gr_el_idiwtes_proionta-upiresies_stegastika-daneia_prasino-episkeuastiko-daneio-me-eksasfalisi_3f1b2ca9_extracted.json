@@ -1,0 +1,61 @@
+[
+  {
+    "programme_name": "Green Episkyastiko Ditanio",
+    "description": "Stegastiko dantio kyminomenou epitokiou",
+    "programme_objective": "Ta xeria tou stegastikou dantio kyminomenou epitokious einai ta opla tou stergiou kathos eis ton kyrion 3/5/10/15/20/25/30 etiron.",
+    "eligible_parties": [
+      {
+        "name": "Oikonomoi",
+        "description": "Ta opla tou stergiou kathos eis ton kyrion 3/5/10/15/20/25/30 etiron."
+      },
+      {
+        "name": "Katastematici",
+        "description": "Ta katastematica tou stergiou kathos eis ton kyrion 3/5/10/15/20/25/30 etiron."
+      }
+    ],
+    "eligibility_criteria": [
+      {
+        "name": "Oikonomoi",
+        "description": "Ta opla tou stergiou kathos eis ton kyrion 3/5/10/15/20/25/30 etiron."
+      },
+      {
+        "name": "Katastematici",
+        "description": "Ta katastematica tou stergiou kathos eis ton kyrion 3/5/10/15/20/25/30 etiron."
+      }
+    ],
+    "property_requirements": [
+      {
+        "name": "Stegastiko dantio",
+        "description": "Ta opla tou stergiou kathos eis ton kyrion 3/5/10/15/20/25/30 etiron."
+      },
+      {
+        "name": "Katastematica",
+        "description": "Ta katastematica tou stergiou kathos eis ton kyrion 3/5/10/15/20/25/30 etiron."
+      }
+    ],
+    "minimum_funding_amount": "",
+    "maximum_funding_amount": "",
+    "funding_type": "",
+    "interest_rate": "",
+    "funding_coverage": "",
+    "total_budget": "",
+    "funding_sources": [],
+    "duration": "",
+    "loan_duration": "",
+    "completion_deadline": "",
+    "application_start_date": "",
+    "application_end_date": "",
+    "energy_performance_targets": "",
+    "eligible_interventions": [],
+    "application_process": "",
+    "managing_body": "",
+    "announcement_date": "",
+    "contact_info": [
+      {
+        "name": "Piraeus e-banking",
+        "description": "E-mail: [info@peiraeusbank.gr](mailto:info@peiraeusbank.gr)"
+      }
+    ],
+    "additional_details": ""
+  }
+]

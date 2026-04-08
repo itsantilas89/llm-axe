@@ -1,0 +1,15 @@
+{
+  "experiment_id": "exp_20260331_183323_7391dd88",
+  "timestamp": "2026-03-31T18:33:23.546160+00:00",
+  "model": "llama3.2:latest",
+  "temperature": 0.0,
+  "hyperparameters": {
+    "filter": "llm_prescreen"
+  },
+  "prompt": "[LLM Pre-screen]",
+  "sources": [
+    "https://www.alpha.gr/el/idiotes/daneia/prasina-daneia/alpha-prasines-luseis-daneio-ilektriko-autokinito"
+  ],
+  "terminal_output": "REJECTED at LLM pre-screen (before extraction)",
+  "template_output_file": null
+}

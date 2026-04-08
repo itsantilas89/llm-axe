@@ -1,0 +1,75 @@
+{
+  "timestamp": "20260330T143152Z",
+  "url": "https://www.alpha.gr/el/idiotes/daneia/stegastika-daneia/stegastiko-daneio-alpha-katoikia",
+  "classification": {
+    "is_relevant": false,
+    "primary_category": "other",
+    "secondary_categories": [],
+    "confidence": 0,
+    "reasoning": "Δεν είναι σαφές αν το πρόγραμμα αφορά ενεργειακή αναβάθμιση ή ΑΠΕ σε κατοικίες",
+    "key_features": []
+  },
+  "extracted_data": {
+    "programme_name": "Alpha Κατοικία",
+    "description": "Δάνειο για σπίτι ή οικόπεδο",
+    "programme_objective": "Απαιτείται δάνειο για σπίτι ή οικόπεδο",
+    "eligible_parties": [
+      {
+        "name": "Εκπρόσωποι",
+        "description": "Εκπρόσωποι"
+      },
+      {
+        "name": "Ιδιοκτήρες",
+        "description": "Ιδιοκτήρες"
+      }
+    ],
+    "eligibility_criteria": [
+      {
+        "name": "Συμφωνία για την εγγραφή προσημείωσης",
+        "description": "Συμφωνία για την εγγραφή προσημείωσης"
+      },
+      {
+        "name": "Συμφωνία για την αποπληρωμή του δανείου",
+        "description": "Συμφωνία για την αποπληρωμή του δανείου"
+      }
+    ],
+    "property_requirements": [
+      {
+        "name": "Πόσο σπίτι ή οικόπεδο",
+        "description": "Πόσο σπίτι ή οικόπεδο"
+      },
+      {
+        "name": "Τιποτάξια",
+        "description": "Τιποτάξια"
+      }
+    ],
+    "minimum_funding_amount": "",
+    "maximum_funding_amount": "",
+    "funding_type": "",
+    "interest_rate": "",
+    "funding_coverage": "",
+    "total_budget": "",
+    "funding_sources": [],
+    "duration": "",
+    "loan_duration": "",
+    "completion_deadline": "",
+    "application_start_date": "",
+    "application_end_date": "",
+    "energy_performance_targets": "",
+    "eligible_interventions": [
+      {
+        "name": "Ανακαίνιση",
+        "description": "Ανακαίνιση"
+      },
+      {
+        "name": "Επισκευή",
+        "description": "Επισκευή"
+      }
+    ],
+    "application_process": "",
+    "managing_body": "",
+    "announcement_date": "",
+    "contact_info": [],
+    "additional_details": ""
+  }
+}
