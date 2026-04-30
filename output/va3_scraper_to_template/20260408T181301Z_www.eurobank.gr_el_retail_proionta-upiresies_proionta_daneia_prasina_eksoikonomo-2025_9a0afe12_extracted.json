@@ -1,0 +1,43 @@
+[
+  {
+    "programme_name": "Εξοικονομώ 2025",
+    "description": "",
+    "programme_objective": "Αναβάθμιση ενεργειακής απόδοσης σπιτιών",
+    "eligible_parties": [],
+    "eligibility_criteria": [
+      "Δικαιούχοι: Σπίτια με κατοικία",
+      "Δικαιούχοι: Σπίτια με κατοικία και δανεισμό"
+    ],
+    "property_requirements": [
+      "Σπίτια με κατοικία",
+      "Σπίτια με κατοικία και δανεισμό"
+    ],
+    "minimum_funding_amount": "",
+    "maximum_funding_amount": "10.000€",
+    "funding_type": "Δάνειο",
+    "interest_rate": "",
+    "funding_coverage": "100%",
+    "total_budget": "50.000.000€",
+    "funding_sources": [],
+    "duration": "12 μήνες",
+    "loan_duration": "5 χρόνια",
+    "completion_deadline": "31/12/2028",
+    "application_start_date": "01/02/2023",
+    "application_end_date": "30/06/2024",
+    "energy_performance_targets": "",
+    "eligible_interventions": [
+      "Εγκατάσταση αντλίας θερμότητας",
+      "Μονωτική θερμομόνωση",
+      "Κλιματισμός Inverter"
+    ],
+    "application_process": "Online",
+    "managing_body": "Δημοτική Ενέργεια",
+    "announcement_date": "01/02/2023",
+    "contact_info": [
+      "Δημοτική Ενέργεια",
+      "(210) 955-50-00",
+      "info@demoenergia.gr"
+    ],
+    "additional_details": ""
+  }
+]

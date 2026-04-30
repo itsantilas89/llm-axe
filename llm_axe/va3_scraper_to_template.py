@@ -509,7 +509,12 @@ def build_prompt(page_text: str, template: dict, url: str):
         "You are a JSON data extractor. "
         "Extract data from the provided Greek/English text into the given JSON schema. "
         "Output ONLY the filled JSON. No markdown, no explanation, no extra text. "
-        "Rules: Use '' for missing strings, [] for missing arrays. Copy exact values from text. Do NOT invent data."
+        "Rules: Use '' for missing strings, [] for missing arrays. "
+        "VERBATIM MODE: every non-empty value must be copied exactly from the source text as-is. "
+        "Do NOT paraphrase, summarize, translate, transliterate, normalize, or infer. "
+        "If exact wording is not present in the text, leave it empty ('' or []). "
+        "Keep original language/script, punctuation, accents, symbols, and casing from source snippets. "
+        "Do NOT invent data."
     )
     template_str = json.dumps(template, ensure_ascii=False, indent=2)
     
@@ -517,7 +522,9 @@ def build_prompt(page_text: str, template: dict, url: str):
         f"URL: {url}\n\n"
         f"TEXT:\n{page_text}\n\n"
         f"SCHEMA:\n{template_str}\n\n"
-        "Fill the schema with data found in the text. Return ONLY the JSON."
+        "Fill the schema using ONLY exact spans from TEXT. "
+        "For list/object items, each field value must be an exact substring from TEXT. "
+        "If uncertain or not exact, keep it empty. Return ONLY the JSON."
     )
     return [make_prompt("system", system), make_prompt("user", user)]
 
