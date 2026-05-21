@@ -1,0 +1,363 @@
+{
+  "summary": {
+    "total_files": 9,
+    "validated": 6,
+    "skipped": 3,
+    "errors": 0,
+    "overall_coverage": {
+      "total_checked": 54,
+      "found": 44,
+      "missing": 10
+    }
+  },
+  "results": [
+    {
+      "status": "ok",
+      "classification_file": "output\\va4_product_discoverer\\20260515T145221Z_www.piraeusbank.gr_el_idiwtes_proionta-upiresies_stegastika-daneia_prasino-episkeuastiko-daneio-me-eksasfalisi_3f1b2ca9_classification.json",
+      "scraped_file": "output\\va3_scraper_to_template\\20260419T154703Z_www.piraeusbank.gr_el_idiwtes_proionta-upiresies_stegastika-daneia_prasino-episkeuastiko-daneio-me-eksasfalisi_3f1b2ca9_scraped.txt",
+      "summary": {
+        "total_checked": 6,
+        "found": 4,
+        "missing": 2,
+        "coverage": 0.6667
+      },
+      "results": [
+        {
+          "path": "extracted_data.programme_name",
+          "value": "Prasino Episkeuastiko Daneio Me Eksasfalisi (από URL)",
+          "found": false
+        },
+        {
+          "path": "extracted_data.description",
+          "value": "Green Episkyastiko Dianio",
+          "found": false
+        },
+        {
+          "path": "extracted_data.eligibility_criteria[0]",
+          "value": "Απαιτείται η ασφάλιση Πυρός/Σεισμού για το ακίνητο.",
+          "found": true
+        },
+        {
+          "path": "extracted_data.eligibility_criteria[1]",
+          "value": "Απαιτείται η ασφάλιση Ζωής & Μόνιμης Ολικής Ανικανότητας ενός εκ των δανειοληπτών.",
+          "found": true
+        },
+        {
+          "path": "extracted_data.interest_rate",
+          "value": "0,15%",
+          "found": true
+        },
+        {
+          "path": "extracted_data.loan_duration",
+          "value": "3/5/10/15/20/25/30 έτη",
+          "found": true
+        }
+      ]
+    },
+    {
+      "status": "ok",
+      "classification_file": "output\\va4_product_discoverer\\20260515T154953Z_www.eurobank.gr_el_retail_proionta-upiresies_proionta_daneia_prasina_green-fast-loan_15a4f314_classification.json",
+      "scraped_file": "output\\va3_scraper_to_template\\20260410T141430Z_www.eurobank.gr_el_retail_proionta-upiresies_proionta_daneia_prasina_green-fast-loan_15a4f314_scraped.txt",
+      "summary": {
+        "total_checked": 8,
+        "found": 8,
+        "missing": 0,
+        "coverage": 1.0
+      },
+      "results": [
+        {
+          "path": "extracted_data.programme_name",
+          "value": "Green Fast Loan",
+          "found": true
+        },
+        {
+          "path": "extracted_data.description",
+          "value": "Δάνειο για την αγορά πράσινων προϊόντων",
+          "found": true
+        },
+        {
+          "path": "extracted_data.programme_objective",
+          "value": "Αποκτήστε δάνειο έως 5.000€ online, τηλεφωνικά ή σε κατάστημα και εξοικονομήστε ενέργεια και χρήματα",
+          "found": true
+        },
+        {
+          "path": "extracted_data.eligibility_criteria[0]",
+          "value": "Θέλω δάνειο online",
+          "found": true
+        },
+        {
+          "path": "extracted_data.eligibility_criteria[1]",
+          "value": "Θέλω Fast Loan",
+          "found": true
+        },
+        {
+          "path": "extracted_data.property_requirements[0]",
+          "value": "Θέλετε δάνειο Until 5.000€ για να αποκτήσετε πράσινες συσκευές",
+          "found": true
+        },
+        {
+          "path": "extracted_data.maximum_funding_amount",
+          "value": "30.000",
+          "found": true
+        },
+        {
+          "path": "extracted_data.application_process",
+          "value": "Online, τηλεφωνικά ή σε κατάστημα",
+          "found": true
+        }
+      ]
+    },
+    {
+      "status": "ok",
+      "classification_file": "output\\va4_product_discoverer\\20260518T084901Z_www.eurobank.gr_el_retail_proionta-upiresies_proionta_daneia_prasina_eksoikonomo-anakainizo-gia-neous_57ff89ca_classification.json",
+      "scraped_file": "output\\va3_scraper_to_template\\20260507T093055Z_www.eurobank.gr_el_retail_proionta-upiresies_proionta_daneia_prasina_eksoikonomo-anakainizo-gia-neous_57ff89ca_scraped.txt",
+      "summary": {
+        "total_checked": 13,
+        "found": 7,
+        "missing": 6,
+        "coverage": 0.5385
+      },
+      "results": [
+        {
+          "path": "extracted_data.programme_name",
+          "value": "Εξοικονομώ - Ανακαινίζω για νέους",
+          "found": true
+        },
+        {
+          "path": "extracted_data.eligible_parties[0]",
+          "value": "Ιδιοκτητές σπιτιών",
+          "found": false
+        },
+        {
+          "path": "extracted_data.eligibility_criteria[0]",
+          "value": "Διευκόντως ιδρυματικό δικαίωμα κατοικίας",
+          "found": false
+        },
+        {
+          "path": "extracted_data.eligibility_criteria[1]",
+          "value": "Διευκόντως ιδρυματικό δικαίωμα ενοικίασης",
+          "found": false
+        },
+        {
+          "path": "extracted_data.maximum_funding_amount",
+          "value": "100.000€",
+          "found": false
+        },
+        {
+          "path": "extracted_data.funding_type",
+          "value": "Εγγύηση του Ελληνικού Δημοσίου",
+          "found": true
+        },
+        {
+          "path": "extracted_data.funding_coverage",
+          "value": "80%",
+          "found": true
+        },
+        {
+          "path": "extracted_data.funding_sources[0]",
+          "value": "Δημοσιοδίκαιος εγγυητής",
+          "found": false
+        },
+        {
+          "path": "extracted_data.duration",
+          "value": "2 χρόνια",
+          "found": true
+        },
+        {
+          "path": "extracted_data.loan_duration",
+          "value": "10 χρόνια",
+          "found": false
+        },
+        {
+          "path": "extracted_data.energy_performance_targets[0]",
+          "value": "Αναβάθμιση της ενεργειακής απόδοσης του σπιτιού σε 3 ενεργειακές μονάδες",
+          "found": true
+        },
+        {
+          "path": "extracted_data.energy_performance_targets[1]",
+          "value": "Ανακαίνιση των πυροτεχνικών συστημάτων",
+          "found": true
+        },
+        {
+          "path": "extracted_data.application_process",
+          "value": "Δωρεάν",
+          "found": true
+        }
+      ]
+    },
+    {
+      "status": "ok",
+      "classification_file": "output\\va4_product_discoverer\\20260518T093512Z_www.eurobank.gr_el_retail_proionta-upiresies_proionta_daneia_prasina_programma-anabathmizo-to-spiti-mou_f1e4767b_classification.json",
+      "scraped_file": "output\\va3_scraper_to_template\\20260507T120728Z_www.eurobank.gr_el_retail_proionta-upiresies_proionta_daneia_prasina_programma-anabathmizo-to-spiti-mou_f1e4767b_scraped.txt",
+      "summary": {
+        "total_checked": 8,
+        "found": 8,
+        "missing": 0,
+        "coverage": 1.0
+      },
+      "results": [
+        {
+          "path": "extracted_data.programme_name",
+          "value": "Αναβαθμίζω το Σπίτι μου",
+          "found": true
+        },
+        {
+          "path": "extracted_data.eligibility_criteria[0]",
+          "value": "Ιδιώτες ή ζευγάρια 25-50 ετών",
+          "found": true
+        },
+        {
+          "path": "extracted_data.property_requirements[0]",
+          "value": "Πρώτη κατοικία για ιδιώτες ή ζευγάρια 25-50 ετών",
+          "found": true
+        },
+        {
+          "path": "extracted_data.energy_performance_targets[0]",
+          "value": "80% εάν εγκαταστήσετε αντλία θερμότητας αντί για καυστήρα ή λέβητα",
+          "found": true
+        },
+        {
+          "path": "extracted_data.energy_performance_targets[1]",
+          "value": "40% εάν Μονώσετε την ταράτσα σας ή τοποθετήσετε κέλυφος για θερμομόνωση",
+          "found": true
+        },
+        {
+          "path": "extracted_data.energy_performance_targets[2]",
+          "value": "20% εάν Αντικαταστήσετε τα κουφώματα του σπιτιού σας και τοποθετήσετε διπλά τζάμια",
+          "found": true
+        },
+        {
+          "path": "extracted_data.energy_performance_targets[3]",
+          "value": "18% εάν Εγκαταστήσετε καυστήρα ή λέβητα που λειτουργεί με φυσικό αέριο",
+          "found": true
+        },
+        {
+          "path": "extracted_data.energy_performance_targets[4]",
+          "value": "50% εάν Αντικαταστήσετε τις μονάδες κλιματισμού, με νέας τεχνολογίας inverter",
+          "found": true
+        }
+      ]
+    },
+    {
+      "status": "ok",
+      "classification_file": "output\\va4_product_discoverer\\20260518T102036Z_www.eurobank.gr_el_retail_proionta-upiresies_proionta_daneia_prasina_eksoikonomo-2023_38e6dacb_classification.json",
+      "scraped_file": "output\\va3_scraper_to_template\\20260518T100652Z_www.eurobank.gr_el_retail_proionta-upiresies_proionta_daneia_prasina_eksoikonomo-2023_38e6dacb_scraped.txt",
+      "summary": {
+        "total_checked": 11,
+        "found": 9,
+        "missing": 2,
+        "coverage": 0.8182
+      },
+      "results": [
+        {
+          "path": "extracted_data.programme_name",
+          "value": "Εξοικονομώ 2023",
+          "found": true
+        },
+        {
+          "path": "extracted_data.eligibility_criteria[0]",
+          "value": "είστε ιδιοκτήτης του σπιτιού",
+          "found": true
+        },
+        {
+          "path": "extracted_data.property_requirements[0]",
+          "value": "σπίτι με ενεργειακή κατανόηση A",
+          "found": true
+        },
+        {
+          "path": "extracted_data.property_requirements[1]",
+          "value": "σπίτι με ενεργειακή κατανόηση B",
+          "found": true
+        },
+        {
+          "path": "extracted_data.maximum_funding_amount",
+          "value": "10.000€",
+          "found": true
+        },
+        {
+          "path": "extracted_data.funding_type",
+          "value": "δάνειο",
+          "found": true
+        },
+        {
+          "path": "extracted_data.funding_coverage",
+          "value": "100%",
+          "found": true
+        },
+        {
+          "path": "extracted_data.duration",
+          "value": "12 μήνες",
+          "found": false
+        },
+        {
+          "path": "extracted_data.loan_duration",
+          "value": "5 χρόνια",
+          "found": true
+        },
+        {
+          "path": "extracted_data.eligible_interventions[0]",
+          "value": "αναβάθμιση ενεργειακής κατανόησης",
+          "found": false
+        },
+        {
+          "path": "extracted_data.application_process",
+          "value": "online",
+          "found": true
+        }
+      ]
+    },
+    {
+      "status": "ok",
+      "classification_file": "output\\va4_product_discoverer\\20260518T103511Z_www.eurobank.gr_el_retail_proionta-upiresies_proionta_daneia_prasina_green-fast-loan_15a4f314_classification.json",
+      "scraped_file": "output\\va3_scraper_to_template\\20260410T141430Z_www.eurobank.gr_el_retail_proionta-upiresies_proionta_daneia_prasina_green-fast-loan_15a4f314_scraped.txt",
+      "summary": {
+        "total_checked": 8,
+        "found": 8,
+        "missing": 0,
+        "coverage": 1.0
+      },
+      "results": [
+        {
+          "path": "extracted_data.programme_name",
+          "value": "Green Fast Loan",
+          "found": true
+        },
+        {
+          "path": "extracted_data.description",
+          "value": "Δάνειο για την αγορά πράσινων προϊόντων",
+          "found": true
+        },
+        {
+          "path": "extracted_data.programme_objective",
+          "value": "Αποκτήστε δάνειο έως 5.000€ online, τηλεφωνικά ή σε κατάστημα και εξοικονομήστε ενέργεια και χρήματα",
+          "found": true
+        },
+        {
+          "path": "extracted_data.eligibility_criteria[0]",
+          "value": "Θέλω δάνειο online",
+          "found": true
+        },
+        {
+          "path": "extracted_data.eligibility_criteria[1]",
+          "value": "Θέλω Fast Loan",
+          "found": true
+        },
+        {
+          "path": "extracted_data.property_requirements[0]",
+          "value": "Θέλετε δάνειο Until 5.000€ για να αποκτήσετε πράσινες συσκευές",
+          "found": true
+        },
+        {
+          "path": "extracted_data.maximum_funding_amount",
+          "value": "30.000",
+          "found": true
+        },
+        {
+          "path": "extracted_data.application_process",
+          "value": "Online, τηλεφωνικά ή σε κατάστημα",
+          "found": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "flow": "F_visual_analytics",
+  "inputs": {
+    "qa_consistency_report": "output\\evaluation\\qa_consistency_report_live.json",
+    "qa_semantic_report": "output\\evaluation\\qa_semantic_report_live.json",
+    "html_report": "output\\evaluation\\html_json_report_live.json"
+  },
+  "kpis": {
+    "qa_avg_coverage": 1.0,
+    "qa_avg_consistency": 0.48174603174603176,
+    "qa_validated_programs": 6,
+    "qa_skipped_programs": 3,
+    "html_coverage": 0.44086021505376344,
+    "semantic_items_scored": 30,
+    "semantic_available": true
+  },
+  "charts": [
+    "kpi_overview.png",
+    "qa_program_scores.png",
+    "qa_answer_sources.png",
+    "semantic_global_metrics.png",
+    "semantic_by_question.png",
+    "html_found_vs_missing.png"
+  ]
+}

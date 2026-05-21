@@ -81,6 +81,8 @@ def validate_one_pair(
     classification_file: Path,
     scraped_file: Path,
     fields: str = "extracted_data",
+    exclude_path_prefixes: list[str] | None = None,
+    token_recall_threshold: float = 0.7,
 ) -> dict:
     """Validate a single classification.json against its scraped.txt."""
     
@@ -107,7 +109,17 @@ def validate_one_pair(
             pairs=pairs,
             field_prefixes=field_prefixes,
             min_value_length=2,
+            token_recall_threshold=token_recall_threshold,
         )
+
+        if exclude_path_prefixes:
+            def _is_excluded(path: str) -> bool:
+                return any(
+                    path == prefix or path.startswith(prefix + ".") or path.startswith(prefix + "[")
+                    for prefix in exclude_path_prefixes
+                )
+
+            results = [r for r in results if not _is_excluded(r.path)]
         
         summary = summarize(results)
         
@@ -150,6 +162,14 @@ def parse_args() -> argparse.Namespace:
         help="Comma-separated JSON path prefixes to validate.",
     )
     parser.add_argument(
+        "--exclude-fields",
+        default="",
+        help=(
+            "Comma-separated JSON path prefixes to exclude from coverage KPI. "
+            "Use empty string to include everything."
+        ),
+    )
+    parser.add_argument(
         "--output",
         help="Optional output path for full validation report (JSON).",
     )
@@ -163,6 +183,12 @@ def parse_args() -> argparse.Namespace:
         type=int,
         default=0,
         help="Limit number of classifications to validate (0 = all).",
+    )
+    parser.add_argument(
+        "--token-recall-threshold",
+        type=float,
+        default=0.7,
+        help="Token recall threshold for relaxed matching of long values (0-1).",
     )
     return parser.parse_args()
 
@@ -192,6 +218,8 @@ def main() -> int:
         classification_files = classification_files[: args.max_files]
     
     print(f"Found {len(classification_files)} classification files.")
+    if args.exclude_fields.strip():
+        print(f"Excluding fields from KPI: {args.exclude_fields}")
     print()
     
     validated = 0
@@ -202,6 +230,19 @@ def main() -> int:
     all_summaries = {"total_checked": 0, "found": 0, "missing": 0}
     
     for i, class_file in enumerate(classification_files, 1):
+        try:
+            classification_data = json.loads(class_file.read_text(encoding="utf-8"))
+        except Exception as exc:
+            print(f"[{i}] ERROR {class_file.name} (cannot parse JSON: {exc})")
+            errors += 1
+            continue
+
+        is_relevant = bool(classification_data.get("classification", {}).get("is_relevant", False))
+        if not is_relevant:
+            print(f"[{i}] SKIP  {class_file.name} (not relevant)")
+            skipped += 1
+            continue
+
         scraped_file = find_matching_scraped(class_file, scraped_dir)
         
         if not scraped_file:
@@ -210,7 +251,17 @@ def main() -> int:
             continue
         
         print(f"[{i}] CHECK {class_file.name}")
-        result = validate_one_pair(class_file, scraped_file, args.fields)
+        exclude_path_prefixes = [
+            p.strip() for p in args.exclude_fields.split(",") if p.strip()
+        ] if args.exclude_fields.strip() else []
+
+        result = validate_one_pair(
+            class_file,
+            scraped_file,
+            args.fields,
+            exclude_path_prefixes=exclude_path_prefixes,
+            token_recall_threshold=args.token_recall_threshold,
+        )
         results.append(result)
         
         if result["status"] == "error":

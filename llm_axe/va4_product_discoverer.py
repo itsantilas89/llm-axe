@@ -111,6 +111,37 @@ def save_classification_result(url: str, extracted_data: dict, classification: d
         json.dump(result, f, ensure_ascii=False, indent=2)
     return path
 
+
+def _save_qa_responses(url: str, qa_responses: List[dict]) -> str:
+    """Save Q&A responses collected during interactive session.
+    
+    Args:
+        url: URL of the program
+        qa_responses: List of {"question": str, "answer": str, "timestamp": str} dicts
+    
+    Returns:
+        Path to saved file
+    """
+    out_dir = ensure_outputs_dir()
+    from datetime import timezone
+    ts = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
+    from llm_axe.va3_scraper_to_template import _make_safe_name, _short_hash
+    safe_name = f"{_make_safe_name(url)}_{_short_hash(url)}"
+    path = os.path.join(out_dir, f"{ts}_{safe_name}_qa_responses.json")
+    
+    result = {
+        "timestamp": ts,
+        "url": url,
+        "qa_count": len(qa_responses),
+        "responses": qa_responses
+    }
+    
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(result, f, ensure_ascii=False, indent=2)
+    
+    log(f"[INFO] Q&A responses saved to: {path}")
+    return path
+
 def _create_minimal_data_from_text(text: str, url: str) -> dict:
     """Create minimal data structure when full extraction fails.
     
@@ -833,7 +864,12 @@ def build_qa_prompt(extracted_data: dict, classification: dict, question: str) -
     return [make_prompt("system", system), make_prompt("user", context)]
 
 def interactive_qa(llm, extracted_data: dict, classification: dict, url: str):
-    """Start interactive Q&A session about the classified program."""
+    """Start interactive Q&A session about the classified program.
+    
+    Stores Q&A pairs in a JSON file for later evaluation by qa_consistency_validator.
+    """
+    
+    qa_responses = []  # Collect Q&A pairs for storage
     
     log("\n" + "="*70)
     log("ΔΙΑΔΡΑΣΤΙΚΟ ΣΥΣΤΗΜΑ ΕΡΩΤΗΣΕΩΝ")
@@ -878,8 +914,19 @@ def interactive_qa(llm, extracted_data: dict, classification: dict, url: str):
             prompts = build_qa_prompt(extracted_data, classification, question)
             answer = llm.ask(prompts, format="", temperature=0.3)
             log(f"\n💡 Απάντηση:\n{answer}\n")
+            
+            # Store Q&A pair for later evaluation
+            qa_responses.append({
+                "question": question,
+                "answer": answer,
+                "timestamp": datetime.now().isoformat(),
+            })
         except Exception as e:
             log(f"[ERROR] Σφάλμα κατά την απάντηση: {e}\n")
+    
+    # Save Q&A responses to file
+    if qa_responses:
+        _save_qa_responses(url, qa_responses)
 
 # --------------------------------------------------------------------------
 # Main Workflow

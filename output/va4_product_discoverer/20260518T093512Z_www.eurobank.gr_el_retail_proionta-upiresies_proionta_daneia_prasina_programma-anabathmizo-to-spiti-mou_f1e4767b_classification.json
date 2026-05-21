@@ -1,0 +1,60 @@
+{
+  "timestamp": "20260518T093512Z",
+  "url": "https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/programma-anabathmizo-to-spiti-mou",
+  "classification": {
+    "is_relevant": true,
+    "primary_category": "energy_upgrade",
+    "secondary_categories": [
+      "home_renewables"
+    ],
+    "confidence": 0.95,
+    "reasoning": "Το πρόγραμμα 'Αναβαθμίζω το Σπίτι μου' αφορά ενεργειακές επεμβάσεις σε κατοικίες, όπως θερμομόνωση και αντλίες θερμότητας.",
+    "key_features": [
+      "θερμομόνωση",
+      "αντλία θερμότητας"
+    ]
+  },
+  "extracted_data": {
+    "programme_name": "Αναβαθμίζω το Σπίτι μου",
+    "description": "",
+    "programme_objective": "",
+    "eligible_parties": [],
+    "eligibility_criteria": [
+      "Ιδιώτες ή ζευγάρια 25-50 ετών"
+    ],
+    "property_requirements": [
+      "Πρώτη κατοικία για ιδιώτες ή ζευγάρια 25-50 ετών"
+    ],
+    "minimum_funding_amount": "",
+    "maximum_funding_amount": "",
+    "funding_type": "",
+    "interest_rate": "",
+    "funding_coverage": "",
+    "total_budget": "",
+    "funding_sources": [],
+    "duration": "",
+    "loan_duration": "",
+    "completion_deadline": "",
+    "application_start_date": "",
+    "application_end_date": "",
+    "energy_performance_targets": [
+      "80% εάν εγκαταστήσετε αντλία θερμότητας αντί για καυστήρα ή λέβητα",
+      "40% εάν Μονώσετε την ταράτσα σας ή τοποθετήσετε κέλυφος για θερμομόνωση",
+      "20% εάν Αντικαταστήσετε τα κουφώματα του σπιτιού σας και τοποθετήσετε διπλά τζάμια",
+      "18% εάν Εγκαταστήσετε καυστήρα ή λέβητα που λειτουργεί με φυσικό αέριο",
+      "50% εάν Αντικαταστήσετε τις μονάδες κλιματισμού, με νέας τεχνολογίας inverter"
+    ],
+    "eligible_interventions": [],
+    "application_process": "",
+    "managing_body": "",
+    "announcement_date": "",
+    "contact_info": [
+      {
+        "name": "Ευρωπαϊκή Υπηρεσία Συντονισμού",
+        "phone": "2109555888",
+        "email": ""
+      }
+    ],
+    "additional_details": ""
+  }
+}

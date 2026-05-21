@@ -1,0 +1,87 @@
+{
+  "timestamp": "20260518T112519Z",
+  "url": "https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/green-fast-loan",
+  "programme_name": "Green Fast Loan",
+  "classification_file": "20260515T154953Z_www.eurobank.gr_el_retail_proionta-upiresies_proionta_daneia_prasina_green-fast-loan_15a4f314_classification.json",
+  "qa_count": 11,
+  "source": "batch_qa_runner",
+  "responses": [
+    {
+      "question_id": "q1",
+      "question": "1) Περίγραψε το πρόγραμμα, στόχος, δικαιούχοι, βασικά οφέλη.",
+      "answer": "Το πρόγραμμα \"Green Fast Loan\" προσφέρει δάνεια έως 30.000€ για την αγορά πράσινων προϊόντων. Ο στόχος του είναι η εξοικονομήση ενέργειας και χρήματος. Οι δικαιούχοι δεν καθορίζονται, αλλά απαιτούνται τα κριτήρια \"Θέλω δάνειο online\" και \"Θέλω Fast Loan\". Τα βασικά οφέλη περιλαμβάνουν την εξοικονομήση ενέργειας και χρήματος.",
+      "timestamp": "2026-05-18T11:23:41.087231+00:00",
+      "source": "batch_qa_runner"
+    },
+    {
+      "question_id": "q2",
+      "question": "2) Εξήγησε τη διαφορά μεταξύ “επιχορήγησης” και “δανείου” στο πλαίσιο ενεργειακής αναβάθμισης, με ένα παράδειγμα για το καθένα.",
+      "answer": "Δεν υπάρχει πληροφορία σχετικά με την επιχορήγηση.",
+      "timestamp": "2026-05-18T11:23:50.140371+00:00",
+      "source": "batch_qa_runner"
+    },
+    {
+      "question_id": "q3",
+      "question": "3) Δώσε 5 λέξεις-κλειδιά για αναζήτηση σχετικών προγραμμάτων και εξήγησε σε 1 πρόταση γιατί είναι χρήσιμη η καθεμία.",
+      "answer": "\"Δάνειο\", \"πράσινη\", \"αγορά\", \"προϊόντα\", \"ενέργεια\"\n\nΑυτές οι λέξεις-κλειδιά είναι χρήσιμες για την αναζήτηση σχετικών προγραμμάτων επειδή περιγράφουν το αντικείμενο του προγράμματος, δηλαδή δάνειο για αγορά πράσινων προϊόντων.",
+      "timestamp": "2026-05-18T11:24:12.019548+00:00",
+      "source": "batch_qa_runner"
+    },
+    {
+      "question_id": "q4",
+      "question": "4) Εντόπισε όλες τις προθεσμίες που αναφέρονται και γράψε τες σε μορφή ΗΗ/ΜΜ/ΕΕΕΕ.",
+      "answer": "Δεν υπάρχει πληροφορία για προθεσμίες στο πρόγραμμα \"Green Fast Loan\".",
+      "timestamp": "2026-05-18T11:24:21.391738+00:00",
+      "source": "batch_qa_runner"
+    },
+    {
+      "question_id": "q5",
+      "question": "5) Βρες αν υπάρχει ανώτατο ή κατώτατο όριο χρηματοδότησης και δώσε το ακριβές ποσό/ποσοστό.",
+      "answer": "Απάντηση: Κατώτατο όριο δεν υπάρχει, ενώ ανώτατο όριο είναι 30.000€.",
+      "timestamp": "2026-05-18T11:24:31.497393+00:00",
+      "source": "batch_qa_runner"
+    },
+    {
+      "question_id": "q6",
+      "question": "6) Describe the program in 90-120 words.",
+      "answer": "Το πρόγραμμα \"Green Fast Loan\" προσφέρει δάνεια έως 30.000€ για την αγορά πράσινων προϊόντων, με δυνατότητα αίτησης online, τηλεφωνικά ή σε κατάστημα. Η διάρκεια του δανείου είναι 5 χρόνια και δεν υπάρχει καθορισμός ελάχιστου ποσού δανεικού. Το πρόγραμμα έχει ως στόχο την εξοικονομήση ενέργειας και χρήματος. Οι αιτήσεις μπορούν να γίνουν μέσω των kontakt τηλεφωνικών γραμμών που παρέχονται.",
+      "timestamp": "2026-05-18T11:24:58.974297+00:00",
+      "source": "batch_qa_runner"
+    },
+    {
+      "question_id": "q7",
+      "question": "7) Explain the difference between a 'grant' and a 'loan' in the context of energy upgrades, with one example for each.",
+      "answer": "Δεν υπάρχει πληροφορία για την απάντηση σε αυτήν την ερώτηση.",
+      "timestamp": "2026-05-18T11:25:06.265812+00:00",
+      "source": "batch_qa_runner"
+    },
+    {
+      "question_id": "q8",
+      "question": "8) Ποια είναι η πρωτεύουσα της Ελλάδας ;",
+      "answer": "Δεν υπάρχει πληροφορία.",
+      "timestamp": "2026-05-18T11:25:09.828923+00:00",
+      "source": "batch_qa_runner"
+    },
+    {
+      "question_id": "q9",
+      "question": "9) Ποια είναι η πρωτεύουσα της Γαλλίας ;",
+      "answer": "Δεν υπάρχει πληροφορία.",
+      "timestamp": "2026-05-18T11:25:13.514637+00:00",
+      "source": "batch_qa_runner"
+    },
+    {
+      "question_id": "q10",
+      "question": "10) What's the capital of Greece ?",
+      "answer": "Δεν υπάρχει πληροφορία.",
+      "timestamp": "2026-05-18T11:25:16.420043+00:00",
+      "source": "batch_qa_runner"
+    },
+    {
+      "question_id": "q11",
+      "question": "11) What's the capital of France ?",
+      "answer": "Δεν υπάρχει πληροφορία.",
+      "timestamp": "2026-05-18T11:25:19.851387+00:00",
+      "source": "batch_qa_runner"
+    }
+  ]
+}

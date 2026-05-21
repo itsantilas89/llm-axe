@@ -1,0 +1,87 @@
+{
+  "timestamp": "20260518T112228Z",
+  "url": "https://www.piraeusbank.gr/el/idiwtes/proionta-upiresies/stegastika-daneia/prasino-episkeuastiko-daneio-me-eksasfalisi",
+  "programme_name": "Prasino Episkeuastiko Daneio Me Eksasfalisi (από URL)",
+  "classification_file": "20260515T145221Z_www.piraeusbank.gr_el_idiwtes_proionta-upiresies_stegastika-daneia_prasino-episkeuastiko-daneio-me-eksasfalisi_3f1b2ca9_classification.json",
+  "qa_count": 11,
+  "source": "batch_qa_runner",
+  "responses": [
+    {
+      "question_id": "q1",
+      "question": "1) Περίγραψε το πρόγραμμα, στόχος, δικαιούχοι, βασικά οφέλη.",
+      "answer": "Το πρόγραμμα με τίτλο \"Prasino Episkeuastiko Daneio Me Eksasfalisi (από URL)\" είναι γνωστό ως \"Green Episkyastiko Dianio\". Ο στόχος του προγράμματος δεν αναφέρεται ξεκάθαρα, αλλά οι δικαιούχοι είναι άγνωστοι. Τα βασικά οφέλη που προκύπτουν από το πρόγραμμα περιλαμβάνουν την ασφάλιση Πυρός/Σεισμού για τα ακίνητα και την ασφάλιση Ζωής & Μόνιμης Ολικής Ανικανότητας ενός εκ των δανειοληπτών.",
+      "timestamp": "2026-05-18T11:20:49.503780+00:00",
+      "source": "batch_qa_runner"
+    },
+    {
+      "question_id": "q2",
+      "question": "2) Εξήγησε τη διαφορά μεταξύ “επιχορήγησης” και “δανείου” στο πλαίσιο ενεργειακής αναβάθμισης, με ένα παράδειγμα για το καθένα.",
+      "answer": "Δεν υπάρχει πληροφορία σχετικά με την επιχορήγηση.",
+      "timestamp": "2026-05-18T11:20:58.403814+00:00",
+      "source": "batch_qa_runner"
+    },
+    {
+      "question_id": "q3",
+      "question": "3) Δώσε 5 λέξεις-κλειδιά για αναζήτηση σχετικών προγραμμάτων και εξήγησε σε 1 πρόταση γιατί είναι χρήσιμη η καθεμία.",
+      "answer": "\"Πράσινη Ασφάλιση\", \"Δάνεια\", \"Απαιτήσεις\", \"Εξασφαλισμοί\", \"Στεγαστικά\"\n\nΚάθε λέξη-κλειδί είναι χρήσιμη για να αναζητήσει προγράμματα με συγκεκριμένες ιδιότητες.",
+      "timestamp": "2026-05-18T11:21:16.750215+00:00",
+      "source": "batch_qa_runner"
+    },
+    {
+      "question_id": "q4",
+      "question": "4) Εντόπισε όλες τις προθεσμίες που αναφέρονται και γράψε τες σε μορφή ΗΗ/ΜΜ/ΕΕΕΕ.",
+      "answer": "Δεν υπάρχει πληροφορία για την εφαρμογή της προγράμματος.",
+      "timestamp": "2026-05-18T11:21:24.635582+00:00",
+      "source": "batch_qa_runner"
+    },
+    {
+      "question_id": "q5",
+      "question": "5) Βρες αν υπάρχει ανώτατο ή κατώτατο όριο χρηματοδότησης και δώσε το ακριβές ποσό/ποσοστό.",
+      "answer": "Δεν υπάρχει πληροφορία για ανώτατο ή κατώτατο όριο χρηματοδότησης.",
+      "timestamp": "2026-05-18T11:21:33.583174+00:00",
+      "source": "batch_qa_runner"
+    },
+    {
+      "question_id": "q6",
+      "question": "6) Describe the program in 90-120 words.",
+      "answer": "Το Prasino Episkeuastiko Daneio Me Eksasfalisi (Green Episkyastiko Dianio) είναι ένα πρόγραμμα δανείων που προσφέρει ευνοϊκές συνθήκες για την χρηματοδότηση έργων με υψηλή περιβαλλοντική απόδοση. Η ασφάλιση Πυρός/Σεισμού και η ασφάλιση Ζωής & Μόνιμης Ολικής Ανικανότητας είναι απαραίτητες προϋποθέσεις για την εligibility. Το πρόγραμμα δεν έχει καθοριστεί ο μέγιστος όρος δανείου, το επιτόκιο είναι 0,15% και η διάρκεια του δανείου μπορεί να είναι από 3 έως 30 χρόνια.",
+      "timestamp": "2026-05-18T11:22:04.796329+00:00",
+      "source": "batch_qa_runner"
+    },
+    {
+      "question_id": "q7",
+      "question": "7) Explain the difference between a 'grant' and a 'loan' in the context of energy upgrades, with one example for each.",
+      "answer": "Δεν υπάρχει πληροφορία σχετικά με την διαφορά μεταξύ δανείου και χορηγίας στο πλαίσιο των ενεργειακών αναβαθμίσεων.",
+      "timestamp": "2026-05-18T11:22:15.717919+00:00",
+      "source": "batch_qa_runner"
+    },
+    {
+      "question_id": "q8",
+      "question": "8) Ποια είναι η πρωτεύουσα της Ελλάδας ;",
+      "answer": "Δεν υπάρχει πληροφορία.",
+      "timestamp": "2026-05-18T11:22:19.123709+00:00",
+      "source": "batch_qa_runner"
+    },
+    {
+      "question_id": "q9",
+      "question": "9) Ποια είναι η πρωτεύουσα της Γαλλίας ;",
+      "answer": "Δεν υπάρχει πληροφορία.",
+      "timestamp": "2026-05-18T11:22:22.655505+00:00",
+      "source": "batch_qa_runner"
+    },
+    {
+      "question_id": "q10",
+      "question": "10) What's the capital of Greece ?",
+      "answer": "Δεν υπάρχει πληροφορία.",
+      "timestamp": "2026-05-18T11:22:25.461932+00:00",
+      "source": "batch_qa_runner"
+    },
+    {
+      "question_id": "q11",
+      "question": "11) What's the capital of France ?",
+      "answer": "Δεν υπάρχει πληροφορία.",
+      "timestamp": "2026-05-18T11:22:28.258214+00:00",
+      "source": "batch_qa_runner"
+    }
+  ]
+}

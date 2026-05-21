@@ -247,6 +247,45 @@ for product in products:
 [**How to setup llm-axe with your own LLM**](https://github.com/emirsahin1/llm-axe/blob/main/examples/ex_llm_setup.py)
 
 
+## Evaluation Workflow
+
+The recommended flow is to run classification once, then generate QA responses as many times as needed from the stored classification outputs.
+
+```bash
+# 1) Run classification once and save *_classification.json files
+python llm_axe/va4_product_discoverer.py
+
+# 2) Generate QA responses from the stored classifications
+python evaluation/qa_runner.py \
+    --classification-dir output/va4_product_discoverer \
+    --output-dir output/va4_product_discoverer \
+    --num-questions 3
+
+# 3) Validate the saved QA responses
+python evaluation/qa_consistency_validator.py \
+    --classification-dir output/va4_product_discoverer \
+    --qa-responses-dir output/va4_product_discoverer \
+    --summary-only \
+    --output output/evaluation/qa_consistency_report.json
+
+# 4) Compute semantic similarity metrics from the consistency report
+python evaluation/qa_semantic_validator.py \
+    --qa-report output/evaluation/qa_consistency_report.json \
+    --enable-bertscore \
+    --summary-only
+
+# 5) Flow F: generate visual analytics charts from all metrics
+python evaluation/metrics_visualizer.py \
+    --qa-consistency-report output/evaluation/qa_consistency_report.json \
+    --qa-semantic-report output/evaluation/qa_semantic_report.json \
+    --html-report output/evaluation/html_json_report.json \
+    --output-dir output/evaluation/plots
+```
+
+`qa_runner.py` writes timestamped `_qa_responses.json` files from the stored classification data, so you can repeat the QA step without rerunning classification.
+
+`metrics_visualizer.py` (Flow F) creates PNG charts and a `visual_summary.json` file for KPI overview, per-program QA scores, answer-source distribution, semantic metrics, and HTML found-vs-missing coverage.
+
 ## Features
 
 - Local LLM internet access with Online Agent

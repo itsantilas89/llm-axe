@@ -1,12 +1,12 @@
 {
-  "timestamp": "20260410T142858Z",
+  "timestamp": "20260518T110840Z",
   "url": "https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/green-fast-loan",
   "classification": {
     "is_relevant": false,
     "primary_category": "other",
     "secondary_categories": [],
-    "confidence": 0.5,
-    "reasoning": "Το πρόγραμμα δεν αφορά ενεργειακή αναβάθμιση ή ΑΠΕ σε κατοικίες",
+    "confidence": 0.0,
+    "reasoning": "Το πρόγραμμα δεν αφορά ενεργειακή αναβάθμιση ή ΑΠΕ σε κατοικίες.",
     "key_features": []
   },
   "extracted_data": {
@@ -30,17 +30,17 @@
     "application_end_date": "",
     "energy_performance_targets": "",
     "eligible_interventions": [],
-    "application_process": "Online, τηλεφωνικά ή σε κατάστημα",
+    "application_process": "",
     "managing_body": "",
     "announcement_date": "",
     "contact_info": [
       {
         "name": "2109555455",
-        "type": "Τηλέφωνο"
+        "type": "telefon"
       },
       {
-        "name": "Eυρώπη",
-        "type": "Διεύθυνση"
+        "name": "Eurobank Mobile App",
+        "type": "αποθήκη"
       }
     ],
     "additional_details": ""

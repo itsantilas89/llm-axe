@@ -1,0 +1,51 @@
+{
+  "timestamp": "20260515T154953Z",
+  "url": "https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/green-fast-loan",
+  "classification": {
+    "is_relevant": true,
+    "primary_category": "green_housing_loan",
+    "secondary_categories": [
+      "energy_upgrade"
+    ],
+    "confidence": 0.95,
+    "reasoning": "Το πρόγραμμα \"Green Fast Loan\" αφορά δάνεια για την αγορά πράσινων προϊόντων, με στόχο την εξοικονομία ενέργειας και χρήματος. Η προϋπόθεση για δάνειο έως 5.000€ είναι η αγορά πράσινων συσκευών, που περιλαμβάνει ενεργειακές επεμβάσεις.",
+    "key_features": [
+      "πράσινα προϊόντα",
+      "εξοικονομία ενέργειας και χρήματος"
+    ]
+  },
+  "extracted_data": {
+    "programme_name": "Green Fast Loan",
+    "description": "Δάνειο για την αγορά πράσινων προϊόντων",
+    "programme_objective": "Αποκτήστε δάνειο έως 5.000€ online, τηλεφωνικά ή σε κατάστημα και εξοικονομήστε ενέργεια και χρήματα",
+    "eligible_parties": [],
+    "eligibility_criteria": [
+      "Θέλω δάνειο online",
+      "Θέλω Fast Loan"
+    ],
+    "property_requirements": [
+      "Θέλετε δάνειο Until 5.000€ για να αποκτήσετε πράσινες συσκευές"
+    ],
+    "minimum_funding_amount": "",
+    "maximum_funding_amount": "30.000",
+    "funding_type": "",
+    "interest_rate": "",
+    "funding_coverage": "",
+    "total_budget": "",
+    "funding_sources": [],
+    "duration": "",
+    "loan_duration": "5",
+    "completion_deadline": "",
+    "application_start_date": "",
+    "application_end_date": "",
+    "energy_performance_targets": "",
+    "eligible_interventions": [],
+    "application_process": "Online, τηλεφωνικά ή σε κατάστημα",
+    "managing_body": "",
+    "announcement_date": "",
+    "contact_info": [
+      "2109555455"
+    ],
+    "additional_details": ""
+  }
+}

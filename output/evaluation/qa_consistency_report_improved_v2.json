@@ -1,0 +1,1359 @@
+{
+  "timestamp": "2026-05-20T19:11:04.107860",
+  "validation_type": "qa_consistency",
+  "total_files": 9,
+  "results": [
+    {
+      "url": "https://www.piraeusbank.gr/el/idiwtes/proionta-upiresies/stegastika-daneia/prasino-episkeuastiko-daneio-me-eksasfalisi",
+      "status": "OK",
+      "programme_name": "Prasino Episkeuastiko Daneio Me Eksasfalisi (από URL)",
+      "questions_tested": 11,
+      "questions_answered": 11,
+      "questions_applicable": 5,
+      "consistency_consistent": 1,
+      "consistency_applicable": 5,
+      "coverage": 1.0,
+      "consistency_score": 0.2,
+      "details": [
+        {
+          "question_id": "q1",
+          "question": "1) Περίγραψε το πρόγραμμα, στόχος, δικαιούχοι, βασικά οφέλη.",
+          "fields_checked": [
+            "programme_name",
+            "eligible_parties",
+            "eligibility_criteria",
+            "description",
+            "programme_objective",
+            "additional_details"
+          ],
+          "question_inference": "keyword_fallback",
+          "check_type": "list_contains",
+          "extracted_values": [
+            "Prasino Episkeuastiko Daneio Me Eksasfalisi (από URL)",
+            "Απαιτείται η ασφάλιση Πυρός/Σεισμού για το ακίνητο.",
+            "Απαιτείται η ασφάλιση Ζωής & Μόνιμης Ολικής Ανικανότητας ενός εκ των δανειοληπτών.",
+            "Green Episkyastiko Dianio"
+          ],
+          "llm_answer": "Το πρόγραμμα με τίτλο \"Prasino Episkeuastiko Daneio Me Eksasfalisi (από URL)\" είναι γνωστό ως \"Green Episkyastiko Dianio\". Ο στόχος του προγράμματος δεν αναφέρεται ξεκάθαρα, αλλά οι δικαιούχοι είναι άγνωστοι. Τα βασικά οφέλη που προκύπτουν από το πρόγραμμα περιλαμβάνουν την ασφάλιση Πυρός/Σεισμού για τα ακίνητα και την ασφάλιση Ζωής & Μόνιμης Ολικής Ανικανότητας ενός εκ των δανειοληπτών.",
+          "llm_answer_preview": "Το πρόγραμμα με τίτλο \"Prasino Episkeuastiko Daneio Me Eksasfalisi (από URL)\" είναι γνωστό ως \"Green Episkyastiko Dianio\". Ο στόχος του προγράμματος δεν αναφέρεται ξεκάθαρα, αλλά οι δικαιούχοι είναι ά",
+          "answer_source": "stored_qa_responses",
+          "is_consistent": true,
+          "consistency_applicable": true,
+          "reason": "Found 'Prasino Episkeuastiko Daneio Me Eksasfalisi (από URL)' in answer"
+        },
+        {
+          "question_id": "q2",
+          "question": "2) Εξήγησε τη διαφορά μεταξύ “επιχορήγησης” και “δανείου” στο πλαίσιο ενεργειακής αναβάθμισης, με ένα παράδειγμα για το καθένα.",
+          "fields_checked": [
+            "eligible_interventions",
+            "energy_performance_targets"
+          ],
+          "question_inference": "keyword_fallback",
+          "check_type": "list_contains",
+          "extracted_values": [],
+          "llm_answer": "Δεν υπάρχει πληροφορία σχετικά με την επιχορήγηση.",
+          "llm_answer_preview": "Δεν υπάρχει πληροφορία σχετικά με την επιχορήγηση.",
+          "answer_source": "stored_qa_responses",
+          "is_consistent": false,
+          "consistency_applicable": false,
+          "reason": "No extracted data to validate against (N/A)"
+        },
+        {
+          "question_id": "q3",
+          "question": "3) Δώσε 5 λέξεις-κλειδιά για αναζήτηση σχετικών προγραμμάτων και εξήγησε σε 1 πρόταση γιατί είναι χρήσιμη η καθεμία.",
+          "fields_checked": [
+            "programme_name"
+          ],
+          "question_inference": "keyword_fallback",
+          "check_type": "substring",
+          "extracted_values": [
+            "Prasino Episkeuastiko Daneio Me Eksasfalisi (από URL)"
+          ],
+          "llm_answer": "\"Πράσινη Ασφάλιση\", \"Δάνεια\", \"Απαιτήσεις\", \"Εξασφαλισμοί\", \"Στεγαστικά\"\n\nΚάθε λέξη-κλειδί είναι χρήσιμη για να αναζητήσει προγράμματα με συγκεκριμένες ιδιότητες.",
+          "llm_answer_preview": "\"Πράσινη Ασφάλιση\", \"Δάνεια\", \"Απαιτήσεις\", \"Εξασφαλισμοί\", \"Στεγαστικά\"\n\nΚάθε λέξη-κλειδί είναι χρήσιμη για να αναζητήσει προγράμματα με συγκεκριμένες ιδιότητες.",
+          "answer_source": "stored_qa_responses",
+          "is_consistent": false,
+          "consistency_applicable": true,
+          "reason": "None of ['Prasino Episkeuastiko Daneio Me Eksasfalisi (από URL)'] found in answer"
+        },
+        {
+          "question_id": "q4",
+          "question": "4) Εντόπισε όλες τις προθεσμίες που αναφέρονται και γράψε τες σε μορφή ΗΗ/ΜΜ/ΕΕΕΕ.",
+          "fields_checked": [
+            "application_start_date",
+            "application_end_date",
+            "completion_deadline",
+            "announcement_date"
+          ],
+          "question_inference": "keyword_fallback",
+          "check_type": "substring",
+          "extracted_values": [],
+          "llm_answer": "Δεν υπάρχει πληροφορία για την εφαρμογή της προγράμματος.",
+          "llm_answer_preview": "Δεν υπάρχει πληροφορία για την εφαρμογή της προγράμματος.",
+          "answer_source": "stored_qa_responses",
+          "is_consistent": false,
+          "consistency_applicable": false,
+          "reason": "No extracted data to validate against (N/A)"
+        },
+        {
+          "question_id": "q5",
+          "question": "5) Βρες αν υπάρχει ανώτατο ή κατώτατο όριο χρηματοδότησης και δώσε το ακριβές ποσό/ποσοστό.",
+          "fields_checked": [
+            "minimum_funding_amount",
+            "maximum_funding_amount",
+            "total_budget"
+          ],
+          "question_inference": "keyword_fallback",
+          "check_type": "substring",
+          "extracted_values": [],
+          "llm_answer": "Δεν υπάρχει πληροφορία για ανώτατο ή κατώτατο όριο χρηματοδότησης.",
+          "llm_answer_preview": "Δεν υπάρχει πληροφορία για ανώτατο ή κατώτατο όριο χρηματοδότησης.",
+          "answer_source": "stored_qa_responses",
+          "is_consistent": false,
+          "consistency_applicable": false,
+          "reason": "No extracted data to validate against (N/A)"
+        },
+        {
+          "question_id": "q6",
+          "question": "6) Describe the program in 90-120 words.",
+          "fields_checked": [
+            "programme_name",
+            "description",
+            "programme_objective",
+            "additional_details"
+          ],
+          "question_inference": "keyword_fallback",
+          "check_type": "substring",
+          "extracted_values": [
+            "Prasino Episkeuastiko Daneio Me Eksasfalisi (από URL)",
+            "Green Episkyastiko Dianio"
+          ],
+          "llm_answer": "Το Prasino Episkeuastiko Daneio Me Eksasfalisi (Green Episkyastiko Dianio) είναι ένα πρόγραμμα δανείων που προσφέρει ευνοϊκές συνθήκες για την χρηματοδότηση έργων με υψηλή περιβαλλοντική απόδοση. Η ασφάλιση Πυρός/Σεισμού και η ασφάλιση Ζωής & Μόνιμης Ολικής Ανικανότητας είναι απαραίτητες προϋποθέσεις για την εligibility. Το πρόγραμμα δεν έχει καθοριστεί ο μέγιστος όρος δανείου, το επιτόκιο είναι 0,15% και η διάρκεια του δανείου μπορεί να είναι από 3 έως 30 χρόνια.",
+          "llm_answer_preview": "Το Prasino Episkeuastiko Daneio Me Eksasfalisi (Green Episkyastiko Dianio) είναι ένα πρόγραμμα δανείων που προσφέρει ευνοϊκές συνθήκες για την χρηματοδότηση έργων με υψηλή περιβαλλοντική απόδοση. Η ασ",
+          "answer_source": "stored_qa_responses",
+          "is_consistent": false,
+          "consistency_applicable": true,
+          "reason": "None of ['Prasino Episkeuastiko Daneio Me Eksasfalisi (από URL)', 'Green Episkyastiko Dianio'] found in answer"
+        },
+        {
+          "question_id": "q7",
+          "question": "7) Explain the difference between a 'grant' and a 'loan' in the context of energy upgrades, with one example for each.",
+          "fields_checked": [
+            "eligible_interventions",
+            "energy_performance_targets"
+          ],
+          "question_inference": "keyword_fallback",
+          "check_type": "list_contains",
+          "extracted_values": [],
+          "llm_answer": "Δεν υπάρχει πληροφορία σχετικά με την διαφορά μεταξύ δανείου και χορηγίας στο πλαίσιο των ενεργειακών αναβαθμίσεων.",
+          "llm_answer_preview": "Δεν υπάρχει πληροφορία σχετικά με την διαφορά μεταξύ δανείου και χορηγίας στο πλαίσιο των ενεργειακών αναβαθμίσεων.",
+          "answer_source": "stored_qa_responses",
+          "is_consistent": false,
+          "consistency_applicable": false,
+          "reason": "No extracted data to validate against (N/A)"
+        },
+        {
+          "question_id": "q8",
+          "question": "8) Ποια είναι η πρωτεύουσα της Ελλάδας ;",
+          "fields_checked": [
+            "loan_duration",
+            "duration"
+          ],
+          "question_inference": "canonical_match:0.30",
+          "check_type": "substring",
+          "extracted_values": [
+            "3/5/10/15/20/25/30 έτη"
+          ],
+          "llm_answer": "Δεν υπάρχει πληροφορία.",
+          "llm_answer_preview": "Δεν υπάρχει πληροφορία.",
+          "answer_source": "stored_qa_responses",
+          "is_consistent": false,
+          "consistency_applicable": true,
+          "reason": "None of ['3/5/10/15/20/25/30 έτη'] found in answer"
+        },
+        {
+          "question_id": "q9",
+          "question": "9) Ποια είναι η πρωτεύουσα της Γαλλίας ;",
+          "fields_checked": [
+            "loan_duration",
+            "duration"
+          ],
+          "question_inference": "canonical_match:0.30",
+          "check_type": "substring",
+          "extracted_values": [
+            "3/5/10/15/20/25/30 έτη"
+          ],
+          "llm_answer": "Δεν υπάρχει πληροφορία.",
+          "llm_answer_preview": "Δεν υπάρχει πληροφορία.",
+          "answer_source": "stored_qa_responses",
+          "is_consistent": false,
+          "consistency_applicable": true,
+          "reason": "None of ['3/5/10/15/20/25/30 έτη'] found in answer"
+        },
+        {
+          "question_id": "q10",
+          "question": "10) What's the capital of Greece ?",
+          "fields_checked": [],
+          "question_inference": "keyword_fallback",
+          "check_type": "substring",
+          "extracted_values": [],
+          "llm_answer": "Δεν υπάρχει πληροφορία.",
+          "llm_answer_preview": "Δεν υπάρχει πληροφορία.",
+          "answer_source": "stored_qa_responses",
+          "is_consistent": false,
+          "consistency_applicable": false,
+          "reason": "No mapped fields for question (out-of-schema); excluded from consistency denominator"
+        },
+        {
+          "question_id": "q11",
+          "question": "11) What's the capital of France ?",
+          "fields_checked": [],
+          "question_inference": "keyword_fallback",
+          "check_type": "substring",
+          "extracted_values": [],
+          "llm_answer": "Δεν υπάρχει πληροφορία.",
+          "llm_answer_preview": "Δεν υπάρχει πληροφορία.",
+          "answer_source": "stored_qa_responses",
+          "is_consistent": false,
+          "consistency_applicable": false,
+          "reason": "No mapped fields for question (out-of-schema); excluded from consistency denominator"
+        }
+      ]
+    },
+    {
+      "url": "https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/green-fast-loan",
+      "status": "OK",
+      "programme_name": "Green Fast Loan",
+      "questions_tested": 11,
+      "questions_answered": 11,
+      "questions_applicable": 6,
+      "consistency_consistent": 2,
+      "consistency_applicable": 6,
+      "coverage": 1.0,
+      "consistency_score": 0.3333333333333333,
+      "details": [
+        {
+          "question_id": "q1",
+          "question": "1) Περίγραψε το πρόγραμμα, στόχος, δικαιούχοι, βασικά οφέλη.",
+          "fields_checked": [
+            "programme_name",
+            "eligible_parties",
+            "eligibility_criteria",
+            "description",
+            "programme_objective",
+            "additional_details"
+          ],
+          "question_inference": "keyword_fallback",
+          "check_type": "list_contains",
+          "extracted_values": [
+            "Green Fast Loan",
+            "Θέλω δάνειο online",
+            "Θέλω Fast Loan",
+            "Δάνειο για την αγορά πράσινων προϊόντων",
+            "Αποκτήστε δάνειο έως 5.000€ online, τηλεφωνικά ή σε κατάστημα και εξοικονομήστε ενέργεια και χρήματα"
+          ],
+          "llm_answer": "Το πρόγραμμα \"Green Fast Loan\" προσφέρει δάνεια έως 30.000€ για την αγορά πράσινων προϊόντων. Ο στόχος του είναι η εξοικονομήση ενέργειας και χρήματος. Οι δικαιούχοι δεν καθορίζονται, αλλά απαιτούνται τα κριτήρια \"Θέλω δάνειο online\" και \"Θέλω Fast Loan\". Τα βασικά οφέλη περιλαμβάνουν την εξοικονομήση ενέργειας και χρήματος.",
+          "llm_answer_preview": "Το πρόγραμμα \"Green Fast Loan\" προσφέρει δάνεια έως 30.000€ για την αγορά πράσινων προϊόντων. Ο στόχος του είναι η εξοικονομήση ενέργειας και χρήματος. Οι δικαιούχοι δεν καθορίζονται, αλλά απαιτούνται",
+          "answer_source": "stored_qa_responses",
+          "is_consistent": true,
+          "consistency_applicable": true,
+          "reason": "Found 'Green Fast Loan' in answer"
+        },
+        {
+          "question_id": "q2",
+          "question": "2) Εξήγησε τη διαφορά μεταξύ “επιχορήγησης” και “δανείου” στο πλαίσιο ενεργειακής αναβάθμισης, με ένα παράδειγμα για το καθένα.",
+          "fields_checked": [
+            "eligible_interventions",
+            "energy_performance_targets"
+          ],
+          "question_inference": "keyword_fallback",
+          "check_type": "list_contains",
+          "extracted_values": [],
+          "llm_answer": "Δεν υπάρχει πληροφορία σχετικά με την επιχορήγηση.",
+          "llm_answer_preview": "Δεν υπάρχει πληροφορία σχετικά με την επιχορήγηση.",
+          "answer_source": "stored_qa_responses",
+          "is_consistent": false,
+          "consistency_applicable": false,
+          "reason": "No extracted data to validate against (N/A)"
+        },
+        {
+          "question_id": "q3",
+          "question": "3) Δώσε 5 λέξεις-κλειδιά για αναζήτηση σχετικών προγραμμάτων και εξήγησε σε 1 πρόταση γιατί είναι χρήσιμη η καθεμία.",
+          "fields_checked": [
+            "programme_name"
+          ],
+          "question_inference": "keyword_fallback",
+          "check_type": "substring",
+          "extracted_values": [
+            "Green Fast Loan"
+          ],
+          "llm_answer": "\"Δάνειο\", \"πράσινη\", \"αγορά\", \"προϊόντα\", \"ενέργεια\"\n\nΑυτές οι λέξεις-κλειδιά είναι χρήσιμες για την αναζήτηση σχετικών προγραμμάτων επειδή περιγράφουν το αντικείμενο του προγράμματος, δηλαδή δάνειο για αγορά πράσινων προϊόντων.",
+          "llm_answer_preview": "\"Δάνειο\", \"πράσινη\", \"αγορά\", \"προϊόντα\", \"ενέργεια\"\n\nΑυτές οι λέξεις-κλειδιά είναι χρήσιμες για την αναζήτηση σχετικών προγραμμάτων επειδή περιγράφουν το αντικείμενο του προγράμματος, δηλαδή δάνειο γ",
+          "answer_source": "stored_qa_responses",
+          "is_consistent": false,
+          "consistency_applicable": true,
+          "reason": "None of ['Green Fast Loan'] found in answer"
+        },
+        {
+          "question_id": "q4",
+          "question": "4) Εντόπισε όλες τις προθεσμίες που αναφέρονται και γράψε τες σε μορφή ΗΗ/ΜΜ/ΕΕΕΕ.",
+          "fields_checked": [
+            "application_start_date",
+            "application_end_date",
+            "completion_deadline",
+            "announcement_date"
+          ],
+          "question_inference": "keyword_fallback",
+          "check_type": "substring",
+          "extracted_values": [],
+          "llm_answer": "Δεν υπάρχει πληροφορία για προθεσμίες στο πρόγραμμα \"Green Fast Loan\".",
+          "llm_answer_preview": "Δεν υπάρχει πληροφορία για προθεσμίες στο πρόγραμμα \"Green Fast Loan\".",
+          "answer_source": "stored_qa_responses",
+          "is_consistent": false,
+          "consistency_applicable": false,
+          "reason": "No extracted data to validate against (N/A)"
+        },
+        {
+          "question_id": "q5",
+          "question": "5) Βρες αν υπάρχει ανώτατο ή κατώτατο όριο χρηματοδότησης και δώσε το ακριβές ποσό/ποσοστό.",
+          "fields_checked": [
+            "minimum_funding_amount",
+            "maximum_funding_amount",
+            "total_budget"
+          ],
+          "question_inference": "keyword_fallback",
+          "check_type": "substring",
+          "extracted_values": [
+            "30.000"
+          ],
+          "llm_answer": "Απάντηση: Κατώτατο όριο δεν υπάρχει, ενώ ανώτατο όριο είναι 30.000€.",
+          "llm_answer_preview": "Απάντηση: Κατώτατο όριο δεν υπάρχει, ενώ ανώτατο όριο είναι 30.000€.",
+          "answer_source": "stored_qa_responses",
+          "is_consistent": false,
+          "consistency_applicable": true,
+          "reason": "None of ['30.000'] found in answer"
+        },
+        {
+          "question_id": "q6",
+          "question": "6) Describe the program in 90-120 words.",
+          "fields_checked": [
+            "programme_name",
+            "description",
+            "programme_objective",
+            "additional_details"
+          ],
+          "question_inference": "keyword_fallback",
+          "check_type": "substring",
+          "extracted_values": [
+            "Green Fast Loan",
+            "Δάνειο για την αγορά πράσινων προϊόντων",
+            "Αποκτήστε δάνειο έως 5.000€ online, τηλεφωνικά ή σε κατάστημα και εξοικονομήστε ενέργεια και χρήματα"
+          ],
+          "llm_answer": "Το πρόγραμμα \"Green Fast Loan\" προσφέρει δάνεια έως 30.000€ για την αγορά πράσινων προϊόντων, με δυνατότητα αίτησης online, τηλεφωνικά ή σε κατάστημα. Η διάρκεια του δανείου είναι 5 χρόνια και δεν υπάρχει καθορισμός ελάχιστου ποσού δανεικού. Το πρόγραμμα έχει ως στόχο την εξοικονομήση ενέργειας και χρήματος. Οι αιτήσεις μπορούν να γίνουν μέσω των kontakt τηλεφωνικών γραμμών που παρέχονται.",
+          "llm_answer_preview": "Το πρόγραμμα \"Green Fast Loan\" προσφέρει δάνεια έως 30.000€ για την αγορά πράσινων προϊόντων, με δυνατότητα αίτησης online, τηλεφωνικά ή σε κατάστημα. Η διάρκεια του δανείου είναι 5 χρόνια και δεν υπά",
+          "answer_source": "stored_qa_responses",
+          "is_consistent": true,
+          "consistency_applicable": true,
+          "reason": "Found field terms '000' in answer"
+        },
+        {
+          "question_id": "q7",
+          "question": "7) Explain the difference between a 'grant' and a 'loan' in the context of energy upgrades, with one example for each.",
+          "fields_checked": [
+            "eligible_interventions",
+            "energy_performance_targets"
+          ],
+          "question_inference": "keyword_fallback",
+          "check_type": "list_contains",
+          "extracted_values": [],
+          "llm_answer": "Δεν υπάρχει πληροφορία για την απάντηση σε αυτήν την ερώτηση.",
+          "llm_answer_preview": "Δεν υπάρχει πληροφορία για την απάντηση σε αυτήν την ερώτηση.",
+          "answer_source": "stored_qa_responses",
+          "is_consistent": false,
+          "consistency_applicable": false,
+          "reason": "No extracted data to validate against (N/A)"
+        },
+        {
+          "question_id": "q8",
+          "question": "8) Ποια είναι η πρωτεύουσα της Ελλάδας ;",
+          "fields_checked": [
+            "loan_duration",
+            "duration"
+          ],
+          "question_inference": "canonical_match:0.30",
+          "check_type": "substring",
+          "extracted_values": [
+            "5"
+          ],
+          "llm_answer": "Δεν υπάρχει πληροφορία.",
+          "llm_answer_preview": "Δεν υπάρχει πληροφορία.",
+          "answer_source": "stored_qa_responses",
+          "is_consistent": false,
+          "consistency_applicable": true,
+          "reason": "None of ['5'] found in answer"
+        },
+        {
+          "question_id": "q9",
+          "question": "9) Ποια είναι η πρωτεύουσα της Γαλλίας ;",
+          "fields_checked": [
+            "loan_duration",
+            "duration"
+          ],
+          "question_inference": "canonical_match:0.30",
+          "check_type": "substring",
+          "extracted_values": [
+            "5"
+          ],
+          "llm_answer": "Δεν υπάρχει πληροφορία.",
+          "llm_answer_preview": "Δεν υπάρχει πληροφορία.",
+          "answer_source": "stored_qa_responses",
+          "is_consistent": false,
+          "consistency_applicable": true,
+          "reason": "None of ['5'] found in answer"
+        },
+        {
+          "question_id": "q10",
+          "question": "10) What's the capital of Greece ?",
+          "fields_checked": [],
+          "question_inference": "keyword_fallback",
+          "check_type": "substring",
+          "extracted_values": [],
+          "llm_answer": "Δεν υπάρχει πληροφορία.",
+          "llm_answer_preview": "Δεν υπάρχει πληροφορία.",
+          "answer_source": "stored_qa_responses",
+          "is_consistent": false,
+          "consistency_applicable": false,
+          "reason": "No mapped fields for question (out-of-schema); excluded from consistency denominator"
+        },
+        {
+          "question_id": "q11",
+          "question": "11) What's the capital of France ?",
+          "fields_checked": [],
+          "question_inference": "keyword_fallback",
+          "check_type": "substring",
+          "extracted_values": [],
+          "llm_answer": "Δεν υπάρχει πληροφορία.",
+          "llm_answer_preview": "Δεν υπάρχει πληροφορία.",
+          "answer_source": "stored_qa_responses",
+          "is_consistent": false,
+          "consistency_applicable": false,
+          "reason": "No mapped fields for question (out-of-schema); excluded from consistency denominator"
+        }
+      ]
+    },
+    {
+      "url": "https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/prasino-daneio-katoikias-eksoikonomisi-energeias",
+      "status": "SKIP",
+      "reason": "Not relevant"
+    },
+    {
+      "url": "https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/eksoikonomo-anakainizo-gia-neous",
+      "status": "OK",
+      "programme_name": "Εξοικονομώ - Ανακαινίζω για νέους",
+      "questions_tested": 11,
+      "questions_answered": 11,
+      "questions_applicable": 9,
+      "consistency_consistent": 1,
+      "consistency_applicable": 9,
+      "coverage": 1.0,
+      "consistency_score": 0.1111111111111111,
+      "details": [
+        {
+          "question_id": "q1",
+          "question": "1) Περίγραψε το πρόγραμμα, στόχος, δικαιούχοι, βασικά οφέλη.",
+          "fields_checked": [
+            "programme_name",
+            "eligible_parties",
+            "eligibility_criteria",
+            "description",
+            "programme_objective",
+            "additional_details"
+          ],
+          "question_inference": "keyword_fallback",
+          "check_type": "list_contains",
+          "extracted_values": [
+            "Εξοικονομώ - Ανακαινίζω για νέους",
+            "Ιδιοκτητές σπιτιών",
+            "Διευκόντως ιδρυματικό δικαίωμα κατοικίας",
+            "Διευκόντως ιδρυματικό δικαίωμα ενοικίασης"
+          ],
+          "llm_answer": "Το πρόγραμμα \"Εξοικονομώ - Ανακαινίζω για νέους\" έχει ως στόχο την αναβάθμιση της ενεργειακής απόδοσης και την ανακαίνιση των πυροτεχνικών συστημάτων σε ιδιόκτητα σπίτια. Οι δικαιούχοι είναι οι ιδιοκτήτες σπιτιών με διευκόντως ιδρυματικό δικαίωμα κατοικίας ή ενοικίασης. Τα βασικά οφέλη περιλαμβάνουν την κάλυψη έως και 80% του κόστους ανακαίνισης μέσω εγγύησης του Ελληνικού Δημοσίου, με maksimum ποσό χρηματοδότησης 100.000€.",
+          "llm_answer_preview": "Το πρόγραμμα \"Εξοικονομώ - Ανακαινίζω για νέους\" έχει ως στόχο την αναβάθμιση της ενεργειακής απόδοσης και την ανακαίνιση των πυροτεχνικών συστημάτων σε ιδιόκτητα σπίτια. Οι δικαιούχοι είναι οι ιδιοκτ",
+          "answer_source": "stored_qa_responses",
+          "is_consistent": true,
+          "consistency_applicable": true,
+          "reason": "Found 'Εξοικονομώ - Ανακαινίζω για νέους' in answer"
+        },
+        {
+          "question_id": "q2",
+          "question": "2) Εξήγησε τη διαφορά μεταξύ “επιχορήγησης” και “δανείου” στο πλαίσιο ενεργειακής αναβάθμισης, με ένα παράδειγμα για το καθένα.",
+          "fields_checked": [
+            "eligible_interventions",
+            "energy_performance_targets"
+          ],
+          "question_inference": "keyword_fallback",
+          "check_type": "list_contains",
+          "extracted_values": [
+            "Αναβάθμιση της ενεργειακής απόδοσης του σπιτιού σε 3 ενεργειακές μονάδες",
+            "Ανακαίνιση των πυροτεχνικών συστημάτων"
+          ],
+          "llm_answer": "Δεν υπάρχει πληροφορία σχετικά με την επιχορήγηση.",
+          "llm_answer_preview": "Δεν υπάρχει πληροφορία σχετικά με την επιχορήγηση.",
+          "answer_source": "stored_qa_responses",
+          "is_consistent": false,
+          "consistency_applicable": true,
+          "reason": "No list items found in answer"
+        },
+        {
+          "question_id": "q3",
+          "question": "3) Δώσε 5 λέξεις-κλειδιά για αναζήτηση σχετικών προγραμμάτων και εξήγησε σε 1 πρόταση γιατί είναι χρήσιμη η καθεμία.",
+          "fields_checked": [
+            "programme_name"
+          ],
+          "question_inference": "keyword_fallback",
+          "check_type": "substring",
+          "extracted_values": [
+            "Εξοικονομώ - Ανακαινίζω για νέους"
+          ],
+          "llm_answer": "\"Εγγυητής\", \"Δημοσιοδίκαιος\", \"Ιδιοκτητές\", \"Σπίτια\", \"Ανακαίνιση\"\n\nΗ κατηγοριοποίηση με τα λέξεις-κλειδιά αυτού του προγράμματος είναι χρήσιμη για να βρει κανείς παρόμοια προγράμματα που προσφέρουν χρηματοδότηση μέσω εγγυητών, ιδίως για τους ιδιοκτήτες σπιτιών.",
+          "llm_answer_preview": "\"Εγγυητής\", \"Δημοσιοδίκαιος\", \"Ιδιοκτητές\", \"Σπίτια\", \"Ανακαίνιση\"\n\nΗ κατηγοριοποίηση με τα λέξεις-κλειδιά αυτού του προγράμματος είναι χρήσιμη για να βρει κανείς παρόμοια προγράμματα που προσφέρουν χ",
+          "answer_source": "stored_qa_responses",
+          "is_consistent": false,
+          "consistency_applicable": true,
+          "reason": "None of ['Εξοικονομώ - Ανακαινίζω για νέους'] found in answer"
+        },
+        {
+          "question_id": "q4",
+          "question": "4) Εντόπισε όλες τις προθεσμίες που αναφέρονται και γράψε τες σε μορφή ΗΗ/ΜΜ/ΕΕΕΕ.",
+          "fields_checked": [
+            "application_start_date",
+            "application_end_date",
+            "completion_deadline",
+            "announcement_date"
+          ],
+          "question_inference": "keyword_fallback",
+          "check_type": "substring",
+          "extracted_values": [
+            "2023-01-01",
+            "2024-02-28",
+            "2025-12-31",
+            "2022-12-01"
+          ],
+          "llm_answer": "1. 01/01/2023\n2. 28/02/2024\n3. 31/12/2025",
+          "llm_answer_preview": "1. 01/01/2023\n2. 28/02/2024\n3. 31/12/2025",
+          "answer_source": "stored_qa_responses",
+          "is_consistent": false,
+          "consistency_applicable": true,
+          "reason": "None of ['2023-01-01', '2024-02-28', '2025-12-31', '2022-12-01'] found in answer"
+        },
+        {
+          "question_id": "q5",
+          "question": "5) Βρες αν υπάρχει ανώτατο ή κατώτατο όριο χρηματοδότησης και δώσε το ακριβές ποσό/ποσοστό.",
+          "fields_checked": [
+            "minimum_funding_amount",
+            "maximum_funding_amount",
+            "total_budget"
+          ],
+          "question_inference": "keyword_fallback",
+          "check_type": "substring",
+          "extracted_values": [
+            "100.000€",
+            "500.000€"
+          ],
+          "llm_answer": "Εξοικονομώ - Ανακαινίζω για νέους\n\nΑπάντηση: Κατώτατο όριο χρηματοδότησης δεν υπάρχει, αλλά ανώτατο όριο είναι 100.000€.",
+          "llm_answer_preview": "Εξοικονομώ - Ανακαινίζω για νέους\n\nΑπάντηση: Κατώτατο όριο χρηματοδότησης δεν υπάρχει, αλλά ανώτατο όριο είναι 100.000€.",
+          "answer_source": "stored_qa_responses",
+          "is_consistent": false,
+          "consistency_applicable": true,
+          "reason": "None of ['100.000€', '500.000€'] found in answer"
+        },
+        {
+          "question_id": "q6",
+          "question": "6) Describe the program in 90-120 words.",
+          "fields_checked": [
+            "programme_name",
+            "description",
+            "programme_objective",
+            "additional_details"
+          ],
+          "question_inference": "keyword_fallback",
+          "check_type": "substring",
+          "extracted_values": [
+            "Εξοικονομώ - Ανακαινίζω για νέους"
+          ],
+          "llm_answer": "Το πρόγραμμα \"Εξοικονομώ - Ανακαινίζω για νέους\" είναι μια πρωτοβουλία που σκοπός της είναι η ανακαίνιση και η ενεργειακή απόδοση των σπιτιών, ιδιαίτερα αυτών που ανήκουν σε ιδιοκτήτες. Οι συμμετέχοντες πρέπει να έχουν διευκόντως ιδρυματικό δικαίωμα κατοικίας ή ενοικίασης. Το πρόγραμμα προσφέρει χρηματοδότηση έως 100.000€ με κάλυψη 80% του κόστους, μέσω εγγυητή του Ελληνικού Δημοσίου. Η διαδικασία αίτησης είναι δωρεάν και οι ενδιαφερόμενοι μπορούν να επικοινωνήσουν με το τηλέφωνο +30 210 345 6789 ή στο email info@danep.gr.",
+          "llm_answer_preview": "Το πρόγραμμα \"Εξοικονομώ - Ανακαινίζω για νέους\" είναι μια πρωτοβουλία που σκοπός της είναι η ανακαίνιση και η ενεργειακή απόδοση των σπιτιών, ιδιαίτερα αυτών που ανήκουν σε ιδιοκτήτες. Οι συμμετέχοντ",
+          "answer_source": "stored_qa_responses",
+          "is_consistent": false,
+          "consistency_applicable": true,
+          "reason": "None of ['Εξοικονομώ - Ανακαινίζω για νέους'] found in answer"
+        },
+        {
+          "question_id": "q7",
+          "question": "7) Explain the difference between a 'grant' and a 'loan' in the context of energy upgrades, with one example for each.",
+          "fields_checked": [
+            "eligible_interventions",
+            "energy_performance_targets"
+          ],
+          "question_inference": "keyword_fallback",
+          "check_type": "list_contains",
+          "extracted_values": [
+            "Αναβάθμιση της ενεργειακής απόδοσης του σπιτιού σε 3 ενεργειακές μονάδες",
+            "Ανακαίνιση των πυροτεχνικών συστημάτων"
+          ],
+          "llm_answer": "Στο πλαίσιο των ενεργειακών αναβαθμίσεων, ένα δάνειο (loan) είναι μια χρηματοδότηση που πρέπει να επιστραφεί με τόκο, ενώ ένα χορηγημένο ποσό (grant) δεν απαιτεί την επιστροφή του. \n\nΠχ: \n- Ένα δάνειο για ενεργειακές αναβαθμίσεις: Ένας ιδιοκτήτης σπιτιού δανείζεται 50.000€ από το πρόγραμμα για να αντικαταστήσει τα παλιά παράθυρα με νέα, που θα μειώνουν τις ενεργειακές απώλειες. Ο ιδιοκτήτης πρέπει να επιστρέψει το δάνειο με τόκο.\n- Ένα χορηγημένο ποσό για ενεργειακές αναβαθμίσεις: Ένας ιδιοκτήτης σπιτιού λαμβάνει 50.000€ από το πρόγραμμα για να αντικαταστήσει τα παλιά παράθυρα με νέα, που θα μειώνουν τις ενεργειακές απώλειες. Δεν χρειάζεται να επιστρέψει το ποσό.",
+          "llm_answer_preview": "Στο πλαίσιο των ενεργειακών αναβαθμίσεων, ένα δάνειο (loan) είναι μια χρηματοδότηση που πρέπει να επιστραφεί με τόκο, ενώ ένα χορηγημένο ποσό (grant) δεν απαιτεί την επιστροφή του. \n\nΠχ: \n- Ένα δάνειο",
+          "answer_source": "stored_qa_responses",
+          "is_consistent": false,
+          "consistency_applicable": true,
+          "reason": "No list items found in answer"
+        },
+        {
+          "question_id": "q8",
+          "question": "8) Ποια είναι η πρωτεύουσα της Ελλάδας ;",
+          "fields_checked": [
+            "loan_duration",
+            "duration"
+          ],
+          "question_inference": "canonical_match:0.30",
+          "check_type": "substring",
+          "extracted_values": [
+            "10 χρόνια",
+            "2 χρόνια"
+          ],
+          "llm_answer": "Δεν υπάρχει πληροφορία.",
+          "llm_answer_preview": "Δεν υπάρχει πληροφορία.",
+          "answer_source": "stored_qa_responses",
+          "is_consistent": false,
+          "consistency_applicable": true,
+          "reason": "None of ['10 χρόνια', '2 χρόνια'] found in answer"
+        },
+        {
+          "question_id": "q9",
+          "question": "9) Ποια είναι η πρωτεύουσα της Γαλλίας ;",
+          "fields_checked": [
+            "loan_duration",
+            "duration"
+          ],
+          "question_inference": "canonical_match:0.30",
+          "check_type": "substring",
+          "extracted_values": [
+            "10 χρόνια",
+            "2 χρόνια"
+          ],
+          "llm_answer": "Δεν υπάρχει πληροφορία.",
+          "llm_answer_preview": "Δεν υπάρχει πληροφορία.",
+          "answer_source": "stored_qa_responses",
+          "is_consistent": false,
+          "consistency_applicable": true,
+          "reason": "None of ['10 χρόνια', '2 χρόνια'] found in answer"
+        },
+        {
+          "question_id": "q10",
+          "question": "10) What's the capital of Greece ?",
+          "fields_checked": [],
+          "question_inference": "keyword_fallback",
+          "check_type": "substring",
+          "extracted_values": [],
+          "llm_answer": "Δεν υπάρχει πληροφορία.",
+          "llm_answer_preview": "Δεν υπάρχει πληροφορία.",
+          "answer_source": "stored_qa_responses",
+          "is_consistent": false,
+          "consistency_applicable": false,
+          "reason": "No mapped fields for question (out-of-schema); excluded from consistency denominator"
+        },
+        {
+          "question_id": "q11",
+          "question": "11) What's the capital of France ?",
+          "fields_checked": [],
+          "question_inference": "keyword_fallback",
+          "check_type": "substring",
+          "extracted_values": [],
+          "llm_answer": "Δεν υπάρχει πληροφορία.",
+          "llm_answer_preview": "Δεν υπάρχει πληροφορία.",
+          "answer_source": "stored_qa_responses",
+          "is_consistent": false,
+          "consistency_applicable": false,
+          "reason": "No mapped fields for question (out-of-schema); excluded from consistency denominator"
+        }
+      ]
+    },
+    {
+      "url": "https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/programma-anabathmizo-to-spiti-mou",
+      "status": "OK",
+      "programme_name": "Αναβαθμίζω το Σπίτι μου",
+      "questions_tested": 11,
+      "questions_answered": 11,
+      "questions_applicable": 5,
+      "consistency_consistent": 1,
+      "consistency_applicable": 5,
+      "coverage": 1.0,
+      "consistency_score": 0.2,
+      "details": [
+        {
+          "question_id": "q1",
+          "question": "1) Περίγραψε το πρόγραμμα, στόχος, δικαιούχοι, βασικά οφέλη.",
+          "fields_checked": [
+            "programme_name",
+            "eligible_parties",
+            "eligibility_criteria",
+            "description",
+            "programme_objective",
+            "additional_details"
+          ],
+          "question_inference": "keyword_fallback",
+          "check_type": "list_contains",
+          "extracted_values": [
+            "Αναβαθμίζω το Σπίτι μου",
+            "Ιδιώτες ή ζευγάρια 25-50 ετών"
+          ],
+          "llm_answer": "Το πρόγραμμα \"Αναβαθμίζω το Σπίτι μου\" απευθύνεται σε ιδιώτες ή ζευγάρια 25-50 ετών που sở hữu πρώτη κατοικία. Ο στόχος του προγράμματος δεν αναφέρεται με ακρίβεια, αλλά οι δικαιούχοι μπορούν να επωφεληθούν από την εγκατάσταση ενεργειακών επενδύσεων με ανταμοιβή σε ποσοστό 80%, 40%, 20% ή 18% ανάλογα με την επιλεγμένη επένδυση.",
+          "llm_answer_preview": "Το πρόγραμμα \"Αναβαθμίζω το Σπίτι μου\" απευθύνεται σε ιδιώτες ή ζευγάρια 25-50 ετών που sở hữu πρώτη κατοικία. Ο στόχος του προγράμματος δεν αναφέρεται με ακρίβεια, αλλά οι δικαιούχοι μπορούν να επωφε",
+          "answer_source": "stored_qa_responses",
+          "is_consistent": true,
+          "consistency_applicable": true,
+          "reason": "Found 'Αναβαθμίζω το Σπίτι μου' in answer"
+        },
+        {
+          "question_id": "q2",
+          "question": "2) Εξήγησε τη διαφορά μεταξύ “επιχορήγησης” και “δανείου” στο πλαίσιο ενεργειακής αναβάθμισης, με ένα παράδειγμα για το καθένα.",
+          "fields_checked": [
+            "eligible_interventions",
+            "energy_performance_targets"
+          ],
+          "question_inference": "keyword_fallback",
+          "check_type": "list_contains",
+          "extracted_values": [
+            "80% εάν εγκαταστήσετε αντλία θερμότητας αντί για καυστήρα ή λέβητα",
+            "40% εάν Μονώσετε την ταράτσα σας ή τοποθετήσετε κέλυφος για θερμομόνωση",
+            "20% εάν Αντικαταστήσετε τα κουφώματα του σπιτιού σας και τοποθετήσετε διπλά τζάμια",
+            "18% εάν Εγκαταστήσετε καυστήρα ή λέβητα που λειτουργεί με φυσικό αέριο",
+            "50% εάν Αντικαταστήσετε τις μονάδες κλιματισμού, με νέας τεχνολογίας inverter"
+          ],
+          "llm_answer": "Δεν υπάρχει πληροφορία σχετικά με την επιχορήγηση και τα δάνεια στο πρόγραμμα \"Αναβαθμίζω το Σπίτι μου\".",
+          "llm_answer_preview": "Δεν υπάρχει πληροφορία σχετικά με την επιχορήγηση και τα δάνεια στο πρόγραμμα \"Αναβαθμίζω το Σπίτι μου\".",
+          "answer_source": "stored_qa_responses",
+          "is_consistent": false,
+          "consistency_applicable": true,
+          "reason": "No list items found in answer"
+        },
+        {
+          "question_id": "q3",
+          "question": "3) Δώσε 5 λέξεις-κλειδιά για αναζήτηση σχετικών προγραμμάτων και εξήγησε σε 1 πρόταση γιατί είναι χρήσιμη η καθεμία.",
+          "fields_checked": [
+            "programme_name"
+          ],
+          "question_inference": "keyword_fallback",
+          "check_type": "substring",
+          "extracted_values": [
+            "Αναβαθμίζω το Σπίτι μου"
+          ],
+          "llm_answer": "Δεν υπάρχει πληροφορία για τις λέξεις-κλειδιά αναζήτησης.",
+          "llm_answer_preview": "Δεν υπάρχει πληροφορία για τις λέξεις-κλειδιά αναζήτησης.",
+          "answer_source": "stored_qa_responses",
+          "is_consistent": false,
+          "consistency_applicable": true,
+          "reason": "None of ['Αναβαθμίζω το Σπίτι μου'] found in answer"
+        },
+        {
+          "question_id": "q4",
+          "question": "4) Εντόπισε όλες τις προθεσμίες που αναφέρονται και γράψε τες σε μορφή ΗΗ/ΜΜ/ΕΕΕΕ.",
+          "fields_checked": [
+            "application_start_date",
+            "application_end_date",
+            "completion_deadline",
+            "announcement_date"
+          ],
+          "question_inference": "keyword_fallback",
+          "check_type": "substring",
+          "extracted_values": [],
+          "llm_answer": "Δεν υπάρχει πληροφορία για την ημερομηνία έναρξης και λήξη της αίτησης, καθώς και για την ορισμένη ημερομηνία ολοκλήρωσης του προγράμματος.",
+          "llm_answer_preview": "Δεν υπάρχει πληροφορία για την ημερομηνία έναρξης και λήξη της αίτησης, καθώς και για την ορισμένη ημερομηνία ολοκλήρωσης του προγράμματος.",
+          "answer_source": "stored_qa_responses",
+          "is_consistent": false,
+          "consistency_applicable": false,
+          "reason": "No extracted data to validate against (N/A)"
+        },
+        {
+          "question_id": "q5",
+          "question": "5) Βρες αν υπάρχει ανώτατο ή κατώτατο όριο χρηματοδότησης και δώσε το ακριβές ποσό/ποσοστό.",
+          "fields_checked": [
+            "minimum_funding_amount",
+            "maximum_funding_amount",
+            "total_budget"
+          ],
+          "question_inference": "keyword_fallback",
+          "check_type": "substring",
+          "extracted_values": [],
+          "llm_answer": "Δεν υπάρχει πληροφορία για ανώτατο ή κατώτατο όριο χρηματοδότησης.",
+          "llm_answer_preview": "Δεν υπάρχει πληροφορία για ανώτατο ή κατώτατο όριο χρηματοδότησης.",
+          "answer_source": "stored_qa_responses",
+          "is_consistent": false,
+          "consistency_applicable": false,
+          "reason": "No extracted data to validate against (N/A)"
+        },
+        {
+          "question_id": "q6",
+          "question": "6) Describe the program in 90-120 words.",
+          "fields_checked": [
+            "programme_name",
+            "description",
+            "programme_objective",
+            "additional_details"
+          ],
+          "question_inference": "keyword_fallback",
+          "check_type": "substring",
+          "extracted_values": [
+            "Αναβαθμίζω το Σπίτι μου"
+          ],
+          "llm_answer": "Το πρόγραμμα \"Αναβαθμίζω το Σπίτι μου\" απευθύνεται σε ιδιώτες ή ζευγάρια ηλικίας 25-50 ετών που sở hữu πρώτη κατοικία. Δεν υπάρχουν διαθέσιμες πληροφορίες για την ανάλυση του προγράμματος.",
+          "llm_answer_preview": "Το πρόγραμμα \"Αναβαθμίζω το Σπίτι μου\" απευθύνεται σε ιδιώτες ή ζευγάρια ηλικίας 25-50 ετών που sở hữu πρώτη κατοικία. Δεν υπάρχουν διαθέσιμες πληροφορίες για την ανάλυση του προγράμματος.",
+          "answer_source": "stored_qa_responses",
+          "is_consistent": false,
+          "consistency_applicable": true,
+          "reason": "None of ['Αναβαθμίζω το Σπίτι μου'] found in answer"
+        },
+        {
+          "question_id": "q7",
+          "question": "7) Explain the difference between a 'grant' and a 'loan' in the context of energy upgrades, with one example for each.",
+          "fields_checked": [
+            "eligible_interventions",
+            "energy_performance_targets"
+          ],
+          "question_inference": "keyword_fallback",
+          "check_type": "list_contains",
+          "extracted_values": [
+            "80% εάν εγκαταστήσετε αντλία θερμότητας αντί για καυστήρα ή λέβητα",
+            "40% εάν Μονώσετε την ταράτσα σας ή τοποθετήσετε κέλυφος για θερμομόνωση",
+            "20% εάν Αντικαταστήσετε τα κουφώματα του σπιτιού σας και τοποθετήσετε διπλά τζάμια",
+            "18% εάν Εγκαταστήσετε καυστήρα ή λέβητα που λειτουργεί με φυσικό αέριο",
+            "50% εάν Αντικαταστήσετε τις μονάδες κλιματισμού, με νέας τεχνολογίας inverter"
+          ],
+          "llm_answer": "Δεν υπάρχει πληροφορία σχετικά με την απόκτηση δανείου ή χορηγίας για ενεργειακά έργα.",
+          "llm_answer_preview": "Δεν υπάρχει πληροφορία σχετικά με την απόκτηση δανείου ή χορηγίας για ενεργειακά έργα.",
+          "answer_source": "stored_qa_responses",
+          "is_consistent": false,
+          "consistency_applicable": true,
+          "reason": "No list items found in answer"
+        },
+        {
+          "question_id": "q8",
+          "question": "8) Ποια είναι η πρωτεύουσα της Ελλάδας ;",
+          "fields_checked": [
+            "loan_duration",
+            "duration"
+          ],
+          "question_inference": "canonical_match:0.30",
+          "check_type": "substring",
+          "extracted_values": [],
+          "llm_answer": "Δεν υπάρχει πληροφορία.",
+          "llm_answer_preview": "Δεν υπάρχει πληροφορία.",
+          "answer_source": "stored_qa_responses",
+          "is_consistent": false,
+          "consistency_applicable": false,
+          "reason": "No extracted data to validate against (N/A)"
+        },
+        {
+          "question_id": "q9",
+          "question": "9) Ποια είναι η πρωτεύουσα της Γαλλίας ;",
+          "fields_checked": [
+            "loan_duration",
+            "duration"
+          ],
+          "question_inference": "canonical_match:0.30",
+          "check_type": "substring",
+          "extracted_values": [],
+          "llm_answer": "Δεν υπάρχει πληροφορία.",
+          "llm_answer_preview": "Δεν υπάρχει πληροφορία.",
+          "answer_source": "stored_qa_responses",
+          "is_consistent": false,
+          "consistency_applicable": false,
+          "reason": "No extracted data to validate against (N/A)"
+        },
+        {
+          "question_id": "q10",
+          "question": "10) What's the capital of Greece ?",
+          "fields_checked": [],
+          "question_inference": "keyword_fallback",
+          "check_type": "substring",
+          "extracted_values": [],
+          "llm_answer": "Δεν υπάρχει πληροφορία.",
+          "llm_answer_preview": "Δεν υπάρχει πληροφορία.",
+          "answer_source": "stored_qa_responses",
+          "is_consistent": false,
+          "consistency_applicable": false,
+          "reason": "No mapped fields for question (out-of-schema); excluded from consistency denominator"
+        },
+        {
+          "question_id": "q11",
+          "question": "11) What's the capital of France ?",
+          "fields_checked": [],
+          "question_inference": "keyword_fallback",
+          "check_type": "substring",
+          "extracted_values": [],
+          "llm_answer": "Δεν υπάρχει πληροφορία.",
+          "llm_answer_preview": "Δεν υπάρχει πληροφορία.",
+          "answer_source": "stored_qa_responses",
+          "is_consistent": false,
+          "consistency_applicable": false,
+          "reason": "No mapped fields for question (out-of-schema); excluded from consistency denominator"
+        }
+      ]
+    },
+    {
+      "url": "https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/eksoikonomo-2023",
+      "status": "OK",
+      "programme_name": "Εξοικονομώ 2023",
+      "questions_tested": 11,
+      "questions_answered": 11,
+      "questions_applicable": 9,
+      "consistency_consistent": 3,
+      "consistency_applicable": 9,
+      "coverage": 1.0,
+      "consistency_score": 0.3333333333333333,
+      "details": [
+        {
+          "question_id": "q1",
+          "question": "1) Περίγραψε το πρόγραμμα, στόχος, δικαιούχοι, βασικά οφέλη.",
+          "fields_checked": [
+            "programme_name",
+            "eligible_parties",
+            "eligibility_criteria",
+            "description",
+            "programme_objective",
+            "additional_details"
+          ],
+          "question_inference": "keyword_fallback",
+          "check_type": "list_contains",
+          "extracted_values": [
+            "Εξοικονομώ 2023",
+            "είστε ιδιοκτήτης του σπιτιού"
+          ],
+          "llm_answer": "Το πρόγραμμα \"Εξοικονομώ 2023\" είναι ένα δανειολόγιο που σκοπός του είναι η αναβάθμιση της ενεργειακής κατανόησης των σπιτιών. Οι δικαιούχοι είναι οι ιδιοκτήτες των σπιτιών, και τα βασικά οφέλη περιλαμβάνουν την κάλυψη 100% του κόστους αναβάθμισης, με δανειολόγιο έως 10.000€.",
+          "llm_answer_preview": "Το πρόγραμμα \"Εξοικονομώ 2023\" είναι ένα δανειολόγιο που σκοπός του είναι η αναβάθμιση της ενεργειακής κατανόησης των σπιτιών. Οι δικαιούχοι είναι οι ιδιοκτήτες των σπιτιών, και τα βασικά οφέλη περιλα",
+          "answer_source": "stored_qa_responses",
+          "is_consistent": true,
+          "consistency_applicable": true,
+          "reason": "Found 'Εξοικονομώ 2023' in answer"
+        },
+        {
+          "question_id": "q2",
+          "question": "2) Εξήγησε τη διαφορά μεταξύ “επιχορήγησης” και “δανείου” στο πλαίσιο ενεργειακής αναβάθμισης, με ένα παράδειγμα για το καθένα.",
+          "fields_checked": [
+            "eligible_interventions",
+            "energy_performance_targets"
+          ],
+          "question_inference": "keyword_fallback",
+          "check_type": "list_contains",
+          "extracted_values": [
+            "αναβάθμιση ενεργειακής κατανόησης"
+          ],
+          "llm_answer": "Δεν υπάρχει πληροφορία σχετικά με την επιχορήγηση.",
+          "llm_answer_preview": "Δεν υπάρχει πληροφορία σχετικά με την επιχορήγηση.",
+          "answer_source": "stored_qa_responses",
+          "is_consistent": false,
+          "consistency_applicable": true,
+          "reason": "No list items found in answer"
+        },
+        {
+          "question_id": "q3",
+          "question": "3) Δώσε 5 λέξεις-κλειδιά για αναζήτηση σχετικών προγραμμάτων και εξήγησε σε 1 πρόταση γιατί είναι χρήσιμη η καθεμία.",
+          "fields_checked": [
+            "programme_name"
+          ],
+          "question_inference": "keyword_fallback",
+          "check_type": "substring",
+          "extracted_values": [
+            "Εξοικονομώ 2023"
+          ],
+          "llm_answer": "\"Εξοικονομώ\", \"2023\", \"δάνειο\", \"ενεργειακή\", \"κατανόηση\"\n\nΑυτά τα λέξεις-κλειδιά είναι χρήσιμα για την αναζήτηση σχετικών προγραμμάτων, καθώς περιγράφουν το αντικείμενο του προγράμματος (Εξοικονομώ), τη χρονιά που εφαρμόζεται (2023), τον τύπο της χρηματοδότησης (δάνειο), την ενεργειακή απόδοση και την κατανόηση.",
+          "llm_answer_preview": "\"Εξοικονομώ\", \"2023\", \"δάνειο\", \"ενεργειακή\", \"κατανόηση\"\n\nΑυτά τα λέξεις-κλειδιά είναι χρήσιμα για την αναζήτηση σχετικών προγραμμάτων, καθώς περιγράφουν το αντικείμενο του προγράμματος (Εξοικονομώ),",
+          "answer_source": "stored_qa_responses",
+          "is_consistent": false,
+          "consistency_applicable": true,
+          "reason": "None of ['Εξοικονομώ 2023'] found in answer"
+        },
+        {
+          "question_id": "q4",
+          "question": "4) Εντόπισε όλες τις προθεσμίες που αναφέρονται και γράψε τες σε μορφή ΗΗ/ΜΜ/ΕΕΕΕ.",
+          "fields_checked": [
+            "application_start_date",
+            "application_end_date",
+            "completion_deadline",
+            "announcement_date"
+          ],
+          "question_inference": "keyword_fallback",
+          "check_type": "substring",
+          "extracted_values": [
+            "01/06/2023",
+            "15/11/2023",
+            "31/12/2023",
+            "01/06/2023"
+          ],
+          "llm_answer": "1. 01/06/2023 (απάντηση υποβολής αιτήσεων)\n2. 15/11/2023 (τελική ημερομηνία υποβολής αιτήσεων)\n3. 31/12/2023 (τελική ημερομηνία ολοκλήρωσης)",
+          "llm_answer_preview": "1. 01/06/2023 (απάντηση υποβολής αιτήσεων)\n2. 15/11/2023 (τελική ημερομηνία υποβολής αιτήσεων)\n3. 31/12/2023 (τελική ημερομηνία ολοκλήρωσης)",
+          "answer_source": "stored_qa_responses",
+          "is_consistent": true,
+          "consistency_applicable": true,
+          "reason": "Found '01/06/2023' in answer"
+        },
+        {
+          "question_id": "q5",
+          "question": "5) Βρες αν υπάρχει ανώτατο ή κατώτατο όριο χρηματοδότησης και δώσε το ακριβές ποσό/ποσοστό.",
+          "fields_checked": [
+            "minimum_funding_amount",
+            "maximum_funding_amount",
+            "total_budget"
+          ],
+          "question_inference": "keyword_fallback",
+          "check_type": "substring",
+          "extracted_values": [
+            "10.000€",
+            "500.000€"
+          ],
+          "llm_answer": "Απάντηση: Κατώτατο όριο χρηματοδότησης δεν υπάρχει, αλλά υπάρχει ανώτατο όριο χρηματοδότησης 10.000€.",
+          "llm_answer_preview": "Απάντηση: Κατώτατο όριο χρηματοδότησης δεν υπάρχει, αλλά υπάρχει ανώτατο όριο χρηματοδότησης 10.000€.",
+          "answer_source": "stored_qa_responses",
+          "is_consistent": false,
+          "consistency_applicable": true,
+          "reason": "None of ['10.000€', '500.000€'] found in answer"
+        },
+        {
+          "question_id": "q6",
+          "question": "6) Describe the program in 90-120 words.",
+          "fields_checked": [
+            "programme_name",
+            "description",
+            "programme_objective",
+            "additional_details"
+          ],
+          "question_inference": "keyword_fallback",
+          "check_type": "substring",
+          "extracted_values": [
+            "Εξοικονομώ 2023"
+          ],
+          "llm_answer": "Το πρόγραμμα \"Εξοικονομώ 2023\" προσφέρει δάνεια για την αναβάθμιση της ενεργειακής απόδοσης των σπιτιών. Οι ιδιοκτήτες σπιτιού που πληρούν τα κριτήρια εligibility είναι οι μόνοι που μπορούν να συμμετέχουν. Τα δάνεια έχουν 100% κάλυψη και ο μέγιστος όρος δανείου είναι 10.000€. Το πρόγραμμα έχει προϋπολογισμό 500.000€ και η διάρκεια του δανείου είναι 5 χρόνια. Οι αιτήσεις μπορούν να υποβληθούν online από τις 1 Ιουνίου 2023 έως τις 15 Νοεμβρίου 2023.",
+          "llm_answer_preview": "Το πρόγραμμα \"Εξοικονομώ 2023\" προσφέρει δάνεια για την αναβάθμιση της ενεργειακής απόδοσης των σπιτιών. Οι ιδιοκτήτες σπιτιού που πληρούν τα κριτήρια εligibility είναι οι μόνοι που μπορούν να συμμετέ",
+          "answer_source": "stored_qa_responses",
+          "is_consistent": true,
+          "consistency_applicable": true,
+          "reason": "Found 'Εξοικονομώ 2023' in answer"
+        },
+        {
+          "question_id": "q7",
+          "question": "7) Explain the difference between a 'grant' and a 'loan' in the context of energy upgrades, with one example for each.",
+          "fields_checked": [
+            "eligible_interventions",
+            "energy_performance_targets"
+          ],
+          "question_inference": "keyword_fallback",
+          "check_type": "list_contains",
+          "extracted_values": [
+            "αναβάθμιση ενεργειακής κατανόησης"
+          ],
+          "llm_answer": "Στο πλαίσιο των ενεργειακών αναβαθμίσεων, ένα δάνειο (loan) είναι χρηματοδότηση που πρέπει να επιστραφεί με τόκο, ενώ μια χορηγία (grant) είναι χρηματοδότηση που δεν πρέπει να επιστραφεί. \n\nΔείγμα δανείου: Ένας ιδιοκτήτης σπιτιού λαμβάνει 10.000€ για την αναβάθμιση της ενεργειακής κατανόησης του σπιτιού με δάνειο και πρέπει να επιστρέψει τα 10.000€ + τόκο (π.χ. 5%) μετά από 5 χρόνια.\n\nΔείγμα χορηγίας: Ένας ιδιοκτήτης σπιτιού λαμβάνει 10.000€ για την αναβάθμιση της ενεργειακής κατανόησης του σπιτιού με χορηγία και δεν πρέπει να επιστρέψει τα χρήματα ποτέ.",
+          "llm_answer_preview": "Στο πλαίσιο των ενεργειακών αναβαθμίσεων, ένα δάνειο (loan) είναι χρηματοδότηση που πρέπει να επιστραφεί με τόκο, ενώ μια χορηγία (grant) είναι χρηματοδότηση που δεν πρέπει να επιστραφεί. \n\nΔείγμα δαν",
+          "answer_source": "stored_qa_responses",
+          "is_consistent": false,
+          "consistency_applicable": true,
+          "reason": "No list items found in answer"
+        },
+        {
+          "question_id": "q8",
+          "question": "8) Ποια είναι η πρωτεύουσα της Ελλάδας ;",
+          "fields_checked": [
+            "loan_duration",
+            "duration"
+          ],
+          "question_inference": "canonical_match:0.30",
+          "check_type": "substring",
+          "extracted_values": [
+            "5 χρόνια",
+            "12 μήνες"
+          ],
+          "llm_answer": "Δεν υπάρχει πληροφορία.",
+          "llm_answer_preview": "Δεν υπάρχει πληροφορία.",
+          "answer_source": "stored_qa_responses",
+          "is_consistent": false,
+          "consistency_applicable": true,
+          "reason": "None of ['5 χρόνια', '12 μήνες'] found in answer"
+        },
+        {
+          "question_id": "q9",
+          "question": "9) Ποια είναι η πρωτεύουσα της Γαλλίας ;",
+          "fields_checked": [
+            "loan_duration",
+            "duration"
+          ],
+          "question_inference": "canonical_match:0.30",
+          "check_type": "substring",
+          "extracted_values": [
+            "5 χρόνια",
+            "12 μήνες"
+          ],
+          "llm_answer": "Δεν υπάρχει πληροφορία.",
+          "llm_answer_preview": "Δεν υπάρχει πληροφορία.",
+          "answer_source": "stored_qa_responses",
+          "is_consistent": false,
+          "consistency_applicable": true,
+          "reason": "None of ['5 χρόνια', '12 μήνες'] found in answer"
+        },
+        {
+          "question_id": "q10",
+          "question": "10) What's the capital of Greece ?",
+          "fields_checked": [],
+          "question_inference": "keyword_fallback",
+          "check_type": "substring",
+          "extracted_values": [],
+          "llm_answer": "Δεν υπάρχει πληροφορία.",
+          "llm_answer_preview": "Δεν υπάρχει πληροφορία.",
+          "answer_source": "stored_qa_responses",
+          "is_consistent": false,
+          "consistency_applicable": false,
+          "reason": "No mapped fields for question (out-of-schema); excluded from consistency denominator"
+        },
+        {
+          "question_id": "q11",
+          "question": "11) What's the capital of France ?",
+          "fields_checked": [],
+          "question_inference": "keyword_fallback",
+          "check_type": "substring",
+          "extracted_values": [],
+          "llm_answer": "Δεν υπάρχει πληροφορία.",
+          "llm_answer_preview": "Δεν υπάρχει πληροφορία.",
+          "answer_source": "stored_qa_responses",
+          "is_consistent": false,
+          "consistency_applicable": false,
+          "reason": "No mapped fields for question (out-of-schema); excluded from consistency denominator"
+        }
+      ]
+    },
+    {
+      "url": "https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/green-fast-loan",
+      "status": "OK",
+      "programme_name": "Green Fast Loan",
+      "questions_tested": 11,
+      "questions_answered": 11,
+      "questions_applicable": 4,
+      "consistency_consistent": 2,
+      "consistency_applicable": 4,
+      "coverage": 1.0,
+      "consistency_score": 0.5,
+      "details": [
+        {
+          "question_id": "q1",
+          "question": "1) Περίγραψε το πρόγραμμα, στόχος, δικαιούχοι, βασικά οφέλη.",
+          "fields_checked": [
+            "programme_name",
+            "eligible_parties",
+            "eligibility_criteria",
+            "description",
+            "programme_objective",
+            "additional_details"
+          ],
+          "question_inference": "keyword_fallback",
+          "check_type": "list_contains",
+          "extracted_values": [
+            "Green Fast Loan",
+            "Θέλω δάνειο online",
+            "Θέλω Fast Loan",
+            "Δάνειο για την αγορά πράσινων προϊόντων",
+            "Αποκτήστε δάνειο έως 5.000€ online, τηλεφωνικά ή σε κατάστημα και εξοικονομήστε ενέργεια και χρήματα"
+          ],
+          "llm_answer": "Το πρόγραμμα \"Green Fast Loan\" προσφέρει δάνεια έως 30.000€ για την αγορά πράσινων προϊόντων. Ο στόχος του είναι η εξοικονομήση ενέργειας και χρήματος. Οι δικαιούχοι δεν καθορίζονται, αλλά απαιτούνται τα κριτήρια \"Θέλω δάνειο online\" και \"Θέλω Fast Loan\". Τα βασικά οφέλη περιλαμβάνουν την εξοικονομήση ενέργειας και χρήματος.",
+          "llm_answer_preview": "Το πρόγραμμα \"Green Fast Loan\" προσφέρει δάνεια έως 30.000€ για την αγορά πράσινων προϊόντων. Ο στόχος του είναι η εξοικονομήση ενέργειας και χρήματος. Οι δικαιούχοι δεν καθορίζονται, αλλά απαιτούνται",
+          "answer_source": "stored_qa_responses",
+          "is_consistent": true,
+          "consistency_applicable": true,
+          "reason": "Found 'Green Fast Loan' in answer"
+        },
+        {
+          "question_id": "q2",
+          "question": "2) Εξήγησε τη διαφορά μεταξύ “επιχορήγησης” και “δανείου” στο πλαίσιο ενεργειακής αναβάθμισης, με ένα παράδειγμα για το καθένα.",
+          "fields_checked": [
+            "eligible_interventions",
+            "energy_performance_targets"
+          ],
+          "question_inference": "keyword_fallback",
+          "check_type": "list_contains",
+          "extracted_values": [],
+          "llm_answer": "Δεν υπάρχει πληροφορία σχετικά με την επιχορήγηση.",
+          "llm_answer_preview": "Δεν υπάρχει πληροφορία σχετικά με την επιχορήγηση.",
+          "answer_source": "stored_qa_responses",
+          "is_consistent": false,
+          "consistency_applicable": false,
+          "reason": "No extracted data to validate against (N/A)"
+        },
+        {
+          "question_id": "q3",
+          "question": "3) Δώσε 5 λέξεις-κλειδιά για αναζήτηση σχετικών προγραμμάτων και εξήγησε σε 1 πρόταση γιατί είναι χρήσιμη η καθεμία.",
+          "fields_checked": [
+            "programme_name"
+          ],
+          "question_inference": "keyword_fallback",
+          "check_type": "substring",
+          "extracted_values": [
+            "Green Fast Loan"
+          ],
+          "llm_answer": "\"Δάνειο\", \"πράσινη\", \"αγορά\", \"προϊόντα\", \"ενέργεια\"\n\nΑυτές οι λέξεις-κλειδιά είναι χρήσιμες για την αναζήτηση σχετικών προγραμμάτων επειδή περιγράφουν το αντικείμενο του προγράμματος, δηλαδή δάνειο για αγορά πράσινων προϊόντων.",
+          "llm_answer_preview": "\"Δάνειο\", \"πράσινη\", \"αγορά\", \"προϊόντα\", \"ενέργεια\"\n\nΑυτές οι λέξεις-κλειδιά είναι χρήσιμες για την αναζήτηση σχετικών προγραμμάτων επειδή περιγράφουν το αντικείμενο του προγράμματος, δηλαδή δάνειο γ",
+          "answer_source": "stored_qa_responses",
+          "is_consistent": false,
+          "consistency_applicable": true,
+          "reason": "None of ['Green Fast Loan'] found in answer"
+        },
+        {
+          "question_id": "q4",
+          "question": "4) Εντόπισε όλες τις προθεσμίες που αναφέρονται και γράψε τες σε μορφή ΗΗ/ΜΜ/ΕΕΕΕ.",
+          "fields_checked": [
+            "application_start_date",
+            "application_end_date",
+            "completion_deadline",
+            "announcement_date"
+          ],
+          "question_inference": "keyword_fallback",
+          "check_type": "substring",
+          "extracted_values": [],
+          "llm_answer": "Δεν υπάρχει πληροφορία για προθεσμίες στο πρόγραμμα \"Green Fast Loan\".",
+          "llm_answer_preview": "Δεν υπάρχει πληροφορία για προθεσμίες στο πρόγραμμα \"Green Fast Loan\".",
+          "answer_source": "stored_qa_responses",
+          "is_consistent": false,
+          "consistency_applicable": false,
+          "reason": "No extracted data to validate against (N/A)"
+        },
+        {
+          "question_id": "q5",
+          "question": "5) Βρες αν υπάρχει ανώτατο ή κατώτατο όριο χρηματοδότησης και δώσε το ακριβές ποσό/ποσοστό.",
+          "fields_checked": [
+            "minimum_funding_amount",
+            "maximum_funding_amount",
+            "total_budget"
+          ],
+          "question_inference": "keyword_fallback",
+          "check_type": "substring",
+          "extracted_values": [
+            "30.000"
+          ],
+          "llm_answer": "Απάντηση: Κατώτατο όριο δεν υπάρχει, ενώ ανώτατο όριο είναι 30.000€.",
+          "llm_answer_preview": "Απάντηση: Κατώτατο όριο δεν υπάρχει, ενώ ανώτατο όριο είναι 30.000€.",
+          "answer_source": "stored_qa_responses",
+          "is_consistent": false,
+          "consistency_applicable": true,
+          "reason": "None of ['30.000'] found in answer"
+        },
+        {
+          "question_id": "q6",
+          "question": "6) Describe the program in 90-120 words.",
+          "fields_checked": [
+            "programme_name",
+            "description",
+            "programme_objective",
+            "additional_details"
+          ],
+          "question_inference": "keyword_fallback",
+          "check_type": "substring",
+          "extracted_values": [
+            "Green Fast Loan",
+            "Δάνειο για την αγορά πράσινων προϊόντων",
+            "Αποκτήστε δάνειο έως 5.000€ online, τηλεφωνικά ή σε κατάστημα και εξοικονομήστε ενέργεια και χρήματα"
+          ],
+          "llm_answer": "Το πρόγραμμα \"Green Fast Loan\" προσφέρει δάνεια έως 30.000€ για την αγορά πράσινων προϊόντων, με δυνατότητα αίτησης online, τηλεφωνικά ή σε κατάστημα. Η διάρκεια του δανείου είναι 5 χρόνια και δεν υπάρχει καθορισμός ελάχιστου ποσού δανεικού. Το πρόγραμμα έχει ως στόχο την εξοικονομήση ενέργειας και χρήματος. Οι αιτήσεις μπορούν να γίνουν μέσω των kontakt τηλεφωνικών γραμμών που παρέχονται.",
+          "llm_answer_preview": "Το πρόγραμμα \"Green Fast Loan\" προσφέρει δάνεια έως 30.000€ για την αγορά πράσινων προϊόντων, με δυνατότητα αίτησης online, τηλεφωνικά ή σε κατάστημα. Η διάρκεια του δανείου είναι 5 χρόνια και δεν υπά",
+          "answer_source": "stored_qa_responses",
+          "is_consistent": true,
+          "consistency_applicable": true,
+          "reason": "Found field terms '000' in answer"
+        },
+        {
+          "question_id": "q7",
+          "question": "7) Explain the difference between a 'grant' and a 'loan' in the context of energy upgrades, with one example for each.",
+          "fields_checked": [
+            "eligible_interventions",
+            "energy_performance_targets"
+          ],
+          "question_inference": "keyword_fallback",
+          "check_type": "list_contains",
+          "extracted_values": [],
+          "llm_answer": "Δεν υπάρχει πληροφορία για την απάντηση σε αυτήν την ερώτηση.",
+          "llm_answer_preview": "Δεν υπάρχει πληροφορία για την απάντηση σε αυτήν την ερώτηση.",
+          "answer_source": "stored_qa_responses",
+          "is_consistent": false,
+          "consistency_applicable": false,
+          "reason": "No extracted data to validate against (N/A)"
+        },
+        {
+          "question_id": "q8",
+          "question": "8) Ποια είναι η πρωτεύουσα της Ελλάδας ;",
+          "fields_checked": [
+            "loan_duration",
+            "duration"
+          ],
+          "question_inference": "canonical_match:0.30",
+          "check_type": "substring",
+          "extracted_values": [],
+          "llm_answer": "Δεν υπάρχει πληροφορία.",
+          "llm_answer_preview": "Δεν υπάρχει πληροφορία.",
+          "answer_source": "stored_qa_responses",
+          "is_consistent": false,
+          "consistency_applicable": false,
+          "reason": "No extracted data to validate against (N/A)"
+        },
+        {
+          "question_id": "q9",
+          "question": "9) Ποια είναι η πρωτεύουσα της Γαλλίας ;",
+          "fields_checked": [
+            "loan_duration",
+            "duration"
+          ],
+          "question_inference": "canonical_match:0.30",
+          "check_type": "substring",
+          "extracted_values": [],
+          "llm_answer": "Δεν υπάρχει πληροφορία.",
+          "llm_answer_preview": "Δεν υπάρχει πληροφορία.",
+          "answer_source": "stored_qa_responses",
+          "is_consistent": false,
+          "consistency_applicable": false,
+          "reason": "No extracted data to validate against (N/A)"
+        },
+        {
+          "question_id": "q10",
+          "question": "10) What's the capital of Greece ?",
+          "fields_checked": [],
+          "question_inference": "keyword_fallback",
+          "check_type": "substring",
+          "extracted_values": [],
+          "llm_answer": "Δεν υπάρχει πληροφορία.",
+          "llm_answer_preview": "Δεν υπάρχει πληροφορία.",
+          "answer_source": "stored_qa_responses",
+          "is_consistent": false,
+          "consistency_applicable": false,
+          "reason": "No mapped fields for question (out-of-schema); excluded from consistency denominator"
+        },
+        {
+          "question_id": "q11",
+          "question": "11) What's the capital of France ?",
+          "fields_checked": [],
+          "question_inference": "keyword_fallback",
+          "check_type": "substring",
+          "extracted_values": [],
+          "llm_answer": "Δεν υπάρχει πληροφορία.",
+          "llm_answer_preview": "Δεν υπάρχει πληροφορία.",
+          "answer_source": "stored_qa_responses",
+          "is_consistent": false,
+          "consistency_applicable": false,
+          "reason": "No mapped fields for question (out-of-schema); excluded from consistency denominator"
+        }
+      ]
+    },
+    {
+      "url": "https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/green-fast-loan",
+      "status": "SKIP",
+      "reason": "Not relevant"
+    },
+    {
+      "url": "https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/green-fast-loan",
+      "status": "SKIP",
+      "reason": "Not relevant"
+    }
+  ]
+}

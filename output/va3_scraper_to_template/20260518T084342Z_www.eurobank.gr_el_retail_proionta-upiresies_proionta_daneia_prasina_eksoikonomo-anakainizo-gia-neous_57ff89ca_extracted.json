@@ -1,0 +1,44 @@
+[
+  {
+    "programme_name": "Εξοικονομώ - Ανακαινίζω για νέους",
+    "description": "",
+    "programme_objective": "",
+    "eligible_parties": [
+      "Ιδιοκτητές σπιτιών"
+    ],
+    "eligibility_criteria": [
+      "Διευκόντως ιδρυματικό δικαίωμα κατοικίας",
+      "Διευκόντως ιδρυματικό δικαίωμα ενοικίασης"
+    ],
+    "property_requirements": [],
+    "minimum_funding_amount": "",
+    "maximum_funding_amount": "100.000€",
+    "funding_type": "Εγγύηση του Ελληνικού Δημοσίου",
+    "interest_rate": "",
+    "funding_coverage": "80%",
+    "total_budget": "500.000€",
+    "funding_sources": [
+      "Δημοσιοδίκαιος εγγυητής"
+    ],
+    "duration": "2 χρόνια",
+    "loan_duration": "10 χρόνια",
+    "completion_deadline": "2025-12-31",
+    "application_start_date": "2023-01-01",
+    "application_end_date": "2024-02-28",
+    "energy_performance_targets": [
+      "Αναβάθμιση της ενεργειακής απόδοσης του σπιτιού σε 3 ενεργειακές μονάδες",
+      "Ανακαίνιση των πυροτεχνικών συστημάτων"
+    ],
+    "eligible_interventions": [],
+    "application_process": "Δωρεάν",
+    "managing_body": "",
+    "announcement_date": "2022-12-01",
+    "contact_info": [
+      {
+        "phone": "+30 210 345 6789",
+        "email": "info@danep.gr"
+      }
+    ],
+    "additional_details": ""
+  }
+]

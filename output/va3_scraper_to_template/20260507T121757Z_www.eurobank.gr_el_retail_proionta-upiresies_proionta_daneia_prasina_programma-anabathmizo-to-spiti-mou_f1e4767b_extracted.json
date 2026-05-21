@@ -1,0 +1,46 @@
+[
+  {
+    "programme_name": "Αναβαθμίζω το Σπίτι μου",
+    "description": "",
+    "programme_objective": "",
+    "eligible_parties": [],
+    "eligibility_criteria": [
+      "Ιδιώτες ή ζευγάρια 25-50 ετών"
+    ],
+    "property_requirements": [
+      "Πρώτη κατοικία για ιδιώτες ή ζευγάρια 25-50 ετών"
+    ],
+    "minimum_funding_amount": "",
+    "maximum_funding_amount": "",
+    "funding_type": "",
+    "interest_rate": "",
+    "funding_coverage": "",
+    "total_budget": "",
+    "funding_sources": [],
+    "duration": "",
+    "loan_duration": "",
+    "completion_deadline": "",
+    "application_start_date": "",
+    "application_end_date": "",
+    "energy_performance_targets": [
+      "80% εάν εγκαταστήσετε αντλία θερμότητας αντί για καυστήρα ή λέβητα"
+    ],
+    "eligible_interventions": [],
+    "application_process": "",
+    "managing_body": "",
+    "announcement_date": "",
+    "contact_info": [
+      {
+        "name": "Ευρώπη",
+        "number": "2109555888",
+        "days": "Δευτέρα έως Παρασκευή, 09:00-17:00"
+      },
+      {
+        "name": "EuroPhone Banking",
+        "number": "2109555000",
+        "days": "Δευτέρα έως Παρασκευή, 09:00-17:00"
+      }
+    ],
+    "additional_details": ""
+  }
+]

@@ -1,0 +1,51 @@
+[
+  {
+    "programme_name": "Εξοικονομώ - Ανακαινίζω για νέους",
+    "description": "",
+    "programme_objective": "",
+    "eligible_parties": [
+      "Ιδιωτικοί ιδιοκτητές",
+      "Δημοτικές ενώσεις",
+      "Δημοτική εταιρεία",
+      "Δημοτική εταιρεία με διοικητικό κέντρο στην Attica"
+    ],
+    "eligibility_criteria": [
+      "Η οικία πρέπει να είναι ιδιωτική και να μην έχει ως στόχο την κατοίκηση",
+      " Η οικία πρέπει να έχει παλιό βήμα σε terms of energy efficiency",
+      " Η οικία πρέπει να έχει παλιό βήμα σε terms of environmental impact"
+    ],
+    "property_requirements": [
+      "Η οικία πρέπει να είναι ιδιωτική και να μην έχει ως στόχο την κατοίκηση",
+      " Η οικία πρέπει να έχει παλιό βήμα σε terms of energy efficiency",
+      " Η οικία πρέπει να έχει παλιό βήμα σε terms of environmental impact"
+    ],
+    "minimum_funding_amount": "",
+    "maximum_funding_amount": "10.000€",
+    "funding_type": "Δανείο",
+    "interest_rate": "",
+    "funding_coverage": "80%",
+    "total_budget": "50.000€",
+    "funding_sources": [
+      "Δημοτική εταιρεία",
+      "Ελληνικό Δημόσιο"
+    ],
+    "duration": "2 χρόνια",
+    "loan_duration": "10 χρόνια",
+    "completion_deadline": "2025-12-31",
+    "application_start_date": "2023-01-01",
+    "application_end_date": "2024-06-30",
+    "energy_performance_targets": [
+      "Ενεργειακή αναβάθμιση του σπιτιού",
+      "Ενεργειακή ανακαίνιση του σπιτιού"
+    ],
+    "eligible_interventions": [],
+    "application_process": "",
+    "managing_body": "Δημοτική εταιρεία",
+    "announcement_date": "2023-01-01",
+    "contact_info": [
+      "Email: [email address]",
+      "Τηλεφώνο: [phone number]"
+    ],
+    "additional_details": ""
+  }
+]
