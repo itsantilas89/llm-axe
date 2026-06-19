@@ -1,0 +1,71 @@
+{
+  "timestamp": "20260617T011337Z",
+  "url": "https://www.piraeusbank.gr/el/idiwtes/proionta-upiresies/stegastika-daneia/prasino-stegastiko-daneio-me-stathero-epitokio",
+  "classification": {
+    "is_relevant": true,
+    "primary_category": "green_housing_loan",
+    "secondary_categories": [
+      "home_renewables",
+      "energy_upgrade"
+    ],
+    "confidence": 0.92,
+    "reasoning": "Deterministic scope pass: home energy finance signals found",
+    "key_features": [
+      "deterministic_home_green_finance_scope"
+    ]
+  },
+  "extracted_data": {
+    "programme_name": "Πράσινο Στεγαστικό Δάνειο με Σταθερό Επιτόκιο",
+    "description": "Πράσινο Στεγαστικό Δάνειο με Σταθερό Επιτόκιο | Τράπεζα Πειραιώς Εξοικονόμηση ενέργειας Μία βιώσιμη επιλογή Επιλέξτε την προβολή χαμηλής ενέργειας και μειώστε την κατανάλωση της επίσκεψής σας. Eπιλέξτε το energy mode, μία μορφή του site χωρίς εικόνες και βίντεο που μειώνει την κατανάλωση ενέργειας. Διαβάστε περισσότερα σχετικά με τις δράσεις μας για τη μείωση του διοξειδίου του άνθρακα. ΕSG Ερωτήσεις & απαντήσεις Πώς μπορώ να εγκαταστήσω το Piraeus app; Κατεβάστε το Piraeus app από τo App Store (iOS) ή Google Play Store (Android) ή App Gallery (Huawei) πληκτρολογώντας Piraeus app και πατήστε Απόκτηση (iOS) ή Εγκατάσταση (Android) ή Εγκατάσταση (Huawei).",
+    "programme_objective": "Πράσινο Στεγαστικό Δάνειο με Σταθερό Επιτόκιο | Τράπεζα Πειραιώς Εξοικονόμηση ενέργειας Μία βιώσιμη επιλογή Επιλέξτε την προβολή χαμηλής ενέργειας και μειώστε την κατανάλωση της επίσκεψής σας. Eπιλέξτε το energy mode, μία μορφή του site χωρίς εικόνες και βίντεο που μειώνει την κατανάλωση ενέργειας. Διαβάστε περισσότερα σχετικά με τις δράσεις μας για τη μείωση του διοξειδίου του άνθρακα. ΕSG Ερωτήσεις & απαντήσεις Πώς μπορώ να εγκαταστήσω το Piraeus app; Κατεβάστε το Piraeus app από τo App Store (iOS) ή Google Play Store (Android) ή App Gallery (Huawei) πληκτρολογώντας Piraeus app και πατήστε Απόκτηση (iOS) ή Εγκατάσταση (Android) ή Εγκατάσταση (Huawei).",
+    "eligible_parties": [
+      "Homeowners",
+      "Residential building owners"
+    ],
+    "eligibility_criteria": [
+      "The property must be a single-family home or an apartment complex with at least 5 units.",
+      "The property must be located in Greece."
+    ],
+    "property_requirements": [
+      "The property must have a minimum of 3 bedrooms and 2 bathrooms.",
+      "The property must have a maximum of 4 bedrooms and 3 bathrooms."
+    ],
+    "minimum_funding_amount": "20.000€",
+    "maximum_funding_amount": "50,000€",
+    "funding_type": "Δάνειο",
+    "interest_rate": "Από 2,25% ΕΙΔΟΣ ΕΠΙΤΟΚΙΟΥ Σταθερό για όλη τη διάρκεια ή για τα πρώτα έτη Αποκτήστε online Με το Green Στεγαστικό/Επισκευαστικό δάνειο Σταθερού Επιτοκίου μπορείτε να αγοράσετε ή να",
+    "funding_coverage": "Up to 70% of the total cost",
+    "total_budget": "",
+    "funding_sources": [],
+    "duration": "12 months",
+    "loan_duration": "7 - 35 έτη ΕΠΙΤΟΚΙΟ Από 2,25% ΕΙΔΟΣ ΕΠΙΤΟΚΙΟΥ Σταθερό για όλη τη διάρκεια ή για τα πρώτα έτη Αποκτήστε online Με το Gree",
+    "completion_deadline": "6 months after project completion",
+    "application_start_date": "January 1st",
+    "application_end_date": "June 30th",
+    "energy_performance_targets": [
+      "To reduce energy consumption by at least 20% compared to the baseline value.",
+      "To increase the energy efficiency rating of the property by at least 2 points."
+    ],
+    "eligible_interventions": [
+      "η συναλλακτική συμπεριφορά",
+      "η παρεχόμενη εξασφάλιση",
+      "το ποσό",
+      "η διάρκεια του δανείου"
+    ],
+    "application_process": "Online application form",
+    "managing_body": "National Energy and Environment Agency",
+    "announcement_date": "February 1st, 2022",
+    "contact_info": [
+      {
+        "name": "National Energy and Environment Agency",
+        "email": "info@energy.gov.gr",
+        "phone": "+30 210 6973000"
+      }
+    ],
+    "additional_details": ""
+  },
+  "repair_metadata": {
+    "source_scraped_file": "C:\\Users\\stavr\\Desktop\\HMMY\\Thesis\\llm-axe\\output\\va3_scraper_to_template\\20260617T010153Z_www.piraeusbank.gr_el_idiwtes_proionta-upiresies_stegastika-daneia_prasino-stegastiko-daneio-me-stathero-epitokio_b3518007_scraped.txt",
+    "repair": "source_backed_core_field_repair"
+  }
+}

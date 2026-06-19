@@ -1,0 +1,64 @@
+{
+  "timestamp": "20260617T032219Z",
+  "url": "https://www.alpha.gr/el/idiotes/daneia/episkevastika-daneia-gia-anakainisi/programma-eksoikonomo-anakainizo-gia-neous",
+  "classification": {
+    "is_relevant": true,
+    "primary_category": "green_housing_loan",
+    "secondary_categories": [
+      "home_renewables",
+      "energy_upgrade"
+    ],
+    "confidence": 0.92,
+    "reasoning": "Deterministic scope pass: home energy finance signals found",
+    "key_features": [
+      "deterministic_home_green_finance_scope"
+    ]
+  },
+  "extracted_data": {
+    "programme_name": "Εξοικονομώ – Ανακαινίζω για Νέους",
+    "description": "Πρόγραμμα «Εξοικονομώ – Ανακαινίζω για Νέους» | ALPHA BANK ΠΙΣΩ Εξοικονομώ – Ανακαινίζω για νέους Πρόγραμμα «Εξοικονομώ – Ανακαινίζω για νέους» Εφόσον δικαιούστε επιχορήγηση για το σκέλος «Εξοικονομώ», αποκτήστε δάνειο με προνομιακούς όρους για να συμπληρώσετε το ποσό που χρειάζεστε και να αναβαθμίσετε το σπίτι σας ενεργειακά.",
+    "programme_objective": "Πρόγραμμα «Εξοικονομώ – Ανακαινίζω για Νέους» | ALPHA BANK ΠΙΣΩ Εξοικονομώ – Ανακαινίζω για νέους Πρόγραμμα «Εξοικονομώ – Ανακαινίζω για νέους» Εφόσον δικαιούστε επιχορήγηση για το σκέλος «Εξοικονομώ», αποκτήστε δάνειο με προνομιακούς όρους για να συμπληρώσετε το ποσό που χρειάζεστε και να αναβαθμίσετε το σπίτι σας ενεργειακά.",
+    "eligible_parties": [
+      "Ιδιοκατοίκηση",
+      "Ενοικίαση"
+    ],
+    "eligibility_criteria": [],
+    "property_requirements": [
+      "Είναι νόμιμο.",
+      "Χρησιμοποιείται ως 1η κατοικία.",
+      "Κατατάσσεται σε κατηγορία χαμηλότερη ή ίση της Γ",
+      "Μην έχει κριθεί κατεδαφιστέο.",
+      "Μη βρίσκεται σε καθεστώς βραχυχρόνιας μίσθωσης."
+    ],
+    "minimum_funding_amount": "5.000€",
+    "maximum_funding_amount": "13.500€",
+    "funding_type": "Δάνειο",
+    "interest_rate": "0,12%",
+    "funding_coverage": "100%",
+    "total_budget": "",
+    "funding_sources": [],
+    "duration": "4-6 χρόνια",
+    "loan_duration": "4, 5 ή 6 χρόνια",
+    "completion_deadline": "",
+    "application_start_date": "",
+    "application_end_date": "",
+    "energy_performance_targets": "",
+    "eligible_interventions": [
+      "Μονώσεις",
+      "Αντικατάσταση κουφωμάτων",
+      "Τοποθέτηση / αντικατάσταση κελύφους για θερμομόνωση",
+      "Αναβάθμιση συστήματος θέρμανσης / ψύξης",
+      "Αναβάθμιση συστήματος ζεστού νερού χρήσης μέσω ΑΠΕ"
+    ],
+    "application_process": "",
+    "managing_body": "",
+    "announcement_date": "",
+    "contact_info": [],
+    "additional_details": "",
+    "source_url": "https://www.alpha.gr/el/idiotes/daneia/episkevastika-daneia-gia-anakainisi/programma-eksoikonomo-anakainizo-gia-neous",
+    "source_urls": [
+      "https://www.alpha.gr/el/idiotes/daneia/episkevastika-daneia-gia-anakainisi/programma-eksoikonomo-anakainizo-gia-neous"
+    ],
+    "id": "program-9c319ad489"
+  }
+}

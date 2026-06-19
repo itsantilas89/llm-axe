@@ -1,0 +1,48 @@
+{
+  "timestamp": "20260617T001913Z",
+  "url": "https://www.nbg.gr/el/idiwtes/daneia/daneia-exoikonomisis-energeias/eksoikonomw-anakoinizw-daneio-gia-neous",
+  "classification": {
+    "is_relevant": true,
+    "primary_category": "green_housing_loan",
+    "secondary_categories": [
+      "home_renewables",
+      "energy_upgrade"
+    ],
+    "confidence": 0.92,
+    "reasoning": "Deterministic scope pass: home energy finance signals found",
+    "key_features": [
+      "deterministic_home_green_finance_scope"
+    ]
+  },
+  "extracted_data": {
+    "programme_name": "Εξοικονομώ-Ανακαινίζω για νέους",
+    "description": "‘Εξοικονομώ – Ανακαινίζω’ Δάνειο για Νέους | Εθνική Τράπεζα Πράσινα δάνεια Εξοικονομώ – Ανακαινίζω για νέους Ανακαινίστε το σπίτι σας και αναβαθμίστε το ενεργειακά με το πρόγραμμα «Εξοικονομώ - Ανακαινίζω για νέους» που επιδοτείται από το Ταμείο Ανάκαμψης και Ανθεκτικότητας. Ιδιώτες Δάνεια Δάνεια Εξοικονόμησης Ενέργειας Εξοικονομώ – Ανακαινίζω για νέους Είστε ιδιοκτήτης κύριας κατοικίας, έχετε γεννηθεί από 01.01.1984 έως 31.12.2005 και επιθυμείτε να πραγματοποιήσετε κατασκευαστικές παρεμβάσεις προκειμένου να αναβαθμίσετε ενεργειακά το σπίτι σας και να ανακαινίσετε τον χώρο σας; Με το πρόγραμμα «Εξοικονομώ - Ανακαινίζω για νέους», μπορείτε να το κάνετε πραγματικότητα, εξασφαλίζοντας προνομιακούς όρους, με την εμπειρία και την καθοδήγηση των στελεχών μας. Συγκεκριμένα, μέσα από τις παροχές του Προγράμματος για το σκέλος \"Εξοικονομώ\" μπορείτε να λάβετε: Ποσό δανείου έως 13.",
+    "programme_objective": "‘Εξοικονομώ – Ανακαινίζω’ Δάνειο για Νέους | Εθνική Τράπεζα Πράσινα δάνεια Εξοικονομώ – Ανακαινίζω για νέους Ανακαινίστε το σπίτι σας και αναβαθμίστε το ενεργειακά με το πρόγραμμα «Εξοικονομώ - Ανακαινίζω για νέους» που επιδοτείται από το Ταμείο Ανάκαμψης και Ανθεκτικότητας. Ιδιώτες Δάνεια Δάνεια Εξοικονόμησης Ενέργειας Εξοικονομώ – Ανακαινίζω για νέους Είστε ιδιοκτήτης κύριας κατοικίας, έχετε γεννηθεί από 01.01.1984 έως 31.12.2005 και επιθυμείτε να πραγματοποιήσετε κατασκευαστικές παρεμβάσεις προκειμένου να αναβαθμίσετε ενεργειακά το σπίτι σας και να ανακαινίσετε τον χώρο σας; Με το πρόγραμμα «Εξοικονομώ - Ανακαινίζω για νέους», μπορείτε να το κάνετε πραγματικότητα, εξασφαλίζοντας προνομιακούς όρους, με την εμπειρία και την καθοδήγηση των στελεχών μας. Συγκεκριμένα, μέσα από τις παροχές του Προγράμματος για το σκέλος \"Εξοικονομώ\" μπορείτε να λάβετε: Ποσό δανείου έως 13.",
+    "eligible_parties": "",
+    "eligibility_criteria": "",
+    "property_requirements": "",
+    "minimum_funding_amount": "300€",
+    "maximum_funding_amount": "",
+    "funding_type": "Δάνειο",
+    "interest_rate": "",
+    "funding_coverage": "",
+    "total_budget": "",
+    "funding_sources": [],
+    "duration": "",
+    "loan_duration": "",
+    "completion_deadline": "",
+    "application_start_date": "",
+    "application_end_date": "",
+    "energy_performance_targets": "",
+    "eligible_interventions": [],
+    "application_process": "",
+    "managing_body": "",
+    "announcement_date": "",
+    "contact_info": "",
+    "additional_details": ""
+  },
+  "repair_metadata": {
+    "source_scraped_file": "C:\\Users\\stavr\\Desktop\\HMMY\\Thesis\\llm-axe\\output\\va3_scraper_to_template\\20260616T182757Z_www.nbg.gr_el_idiwtes_daneia_daneia-exoikonomisis-energeias_f784a97e_scraped.txt",
+    "repair": "source_backed_core_field_repair"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "experiment_id": "exp_20260616_191317_45c6a486",
+  "timestamp": "2026-06-16T19:13:17.960478+00:00",
+  "model": "llama3.2:latest",
+  "temperature": 0.0,
+  "hyperparameters": {
+    "filter": "keyword_prescreen"
+  },
+  "prompt": "[Keyword Pre-screen]",
+  "sources": [
+    "https://exoikonomoepixeiro.energy-invest.gov.gr/"
+  ],
+  "terminal_output": "REJECTED at keyword pre-screen (before extraction)",
+  "template_output_file": null
+}

@@ -1,0 +1,21 @@
+{
+  "timestamp": "20260616T214912Z",
+  "url": "https://hlektra.gov.gr/home",
+  "classification": {
+    "is_relevant": false,
+    "primary_category": "other",
+    "secondary_categories": [],
+    "confidence": 0.99,
+    "reasoning": "Αυτόματη απόρριψη: Δεν βρέθηκαν ενεργειακά + χρηματοδοτικά keywords.",
+    "key_features": [
+      "keyword_prefilter_reject"
+    ]
+  },
+  "extracted_data": {
+    "source_url": "https://hlektra.gov.gr/home",
+    "source_urls": [
+      "https://hlektra.gov.gr/home"
+    ],
+    "id": "program-658d84572d"
+  }
+}

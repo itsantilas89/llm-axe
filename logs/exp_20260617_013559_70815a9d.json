@@ -1,0 +1,15 @@
+{
+  "experiment_id": "exp_20260617_013559_70815a9d",
+  "timestamp": "2026-06-17T01:35:59.839024+00:00",
+  "model": "deterministic_scope_guard",
+  "temperature": 0.0,
+  "hyperparameters": {
+    "mode": "pre_llm_classification"
+  },
+  "prompt": "",
+  "sources": [
+    "Eco Λύσεις - Net Metering"
+  ],
+  "terminal_output": "Category: green_housing_loan | Confidence: 92% | Relevant: True",
+  "template_output_file": null
+}

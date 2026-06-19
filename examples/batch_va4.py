@@ -22,7 +22,13 @@ from typing import List, Dict
 # Add parent directory to path
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
-from llm_axe.va4_product_discoverer import process_url, ALL_CATEGORIES
+from llm_axe.va4_product_discoverer import (
+    DEFAULT_MODEL_FAST,
+    DEFAULT_MODEL_SMART,
+    process_url,
+    ALL_CATEGORIES,
+)
+from llm_axe.merged_snapshot import refresh_merged_snapshot
 from llm_axe.models import OllamaChat
 
 def log(msg: str, verbose: bool = True):
@@ -52,7 +58,8 @@ def read_urls_from_file(file_path: str) -> List[str]:
 
 def process_batch(
     urls: List[str], 
-    llm, 
+    llm_fast,
+    llm_smart,
     verbose: bool = True,
     continue_on_error: bool = True
 ) -> List[Dict]:
@@ -70,9 +77,10 @@ def process_batch(
         
         try:
             # Process URL without interactive Q&A
-            extracted_data, classification = process_url(
+            extracted_data, classification, _experiment_id = process_url(
                 url, 
-                llm, 
+                llm_fast,
+                llm_smart,
                 enable_qa=False
             )
             
@@ -250,8 +258,18 @@ Examples:
     )
     parser.add_argument(
         '--model',
-        default='llama3.1:8b-instruct-q4_K_M',
-        help='Ollama model to use (default: llama3.1:8b-instruct-q4_K_M)'
+        default=None,
+        help='Deprecated: use the same Ollama model for extraction and classification'
+    )
+    parser.add_argument(
+        '--model-fast',
+        default=DEFAULT_MODEL_FAST,
+        help=f'Fast LLM for pre-screen + extraction (default: {DEFAULT_MODEL_FAST})'
+    )
+    parser.add_argument(
+        '--model-smart',
+        default=DEFAULT_MODEL_SMART,
+        help=f'Smart LLM for classification (default: {DEFAULT_MODEL_SMART})'
     )
     parser.add_argument(
         '--stop-on-error',
@@ -267,6 +285,17 @@ Examples:
         '--interactive',
         action='store_true',
         help='Interactive mode: enter URLs manually'
+    )
+    parser.add_argument(
+        '--no-merge-refresh',
+        action='store_true',
+        help='Skip automatic prepare-only merged snapshot refresh after batch processing'
+    )
+    parser.add_argument(
+        '--merge-refresh-timeout-seconds',
+        type=int,
+        default=600,
+        help='Timeout for automatic merged snapshot refresh (default: 600 seconds)'
     )
     
     args = parser.parse_args()
@@ -295,17 +324,39 @@ Examples:
         print("No URLs to process")
         sys.exit(1)
     
-    # Initialize LLM
-    log(f"Initializing LLM ({args.model})...", not args.quiet)
-    llm = OllamaChat(model=args.model)
+    # Initialize LLMs
+    model_fast = args.model or args.model_fast
+    model_smart = args.model or args.model_smart
+    log(f"Initializing fast LLM ({model_fast})...", not args.quiet)
+    llm_fast = OllamaChat(model=model_fast)
+    log(f"Initializing smart LLM ({model_smart})...", not args.quiet)
+    llm_smart = OllamaChat(model=model_smart)
     
     # Process URLs
     results = process_batch(
         urls,
-        llm,
+        llm_fast,
+        llm_smart,
         verbose=not args.quiet,
         continue_on_error=not args.stop_on_error
     )
+
+    if not args.no_merge_refresh and any(item.get("status") == "success" for item in results):
+        snapshot = refresh_merged_snapshot(
+            prefix="cli_batch_merged",
+            log=lambda message: log(message, not args.quiet),
+            timeout_seconds=args.merge_refresh_timeout_seconds,
+        )
+        if snapshot.get("status") == "ok":
+            log(
+                "Merged snapshot refreshed: "
+                f"{snapshot.get('run_id')} "
+                f"({snapshot.get('target_count', '?')} programs, "
+                f"{snapshot.get('source_url_count', '?')} source URLs)",
+                not args.quiet,
+            )
+        else:
+            log(f"Merged snapshot refresh failed: {snapshot.get('message', '')}", True)
     
     # Generate report
     report = generate_report(results, output_format=args.format)

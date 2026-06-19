@@ -1,0 +1,82 @@
+{
+  "id": "program-423fd61fad",
+  "timestamp": "20260618T034758Z",
+  "url": "https://www.nbg.gr/el/idiwtes/daneia/stegastika-daneia/daneia-akinitwn/estia-prasini",
+  "source_urls": [
+    "https://www.nbg.gr/el/idiwtes/daneia/stegastika-daneia/daneia-akinitwn/estia-prasini"
+  ],
+  "source_files": [
+    "C:\\Users\\stavr\\Desktop\\HMMY\\Thesis\\llm-axe\\output\\va4_product_discoverer\\20260617T044339Z_www.nbg.gr_el_idiwtes_daneia_stegastika-daneia_daneia-akinitwn_estia-prasini_423fd61f_classification.json"
+  ],
+  "merged_from_count": 1,
+  "merged": true,
+  "field_sources": {
+    "description": "https://www.nbg.gr/el/idiwtes/daneia/stegastika-daneia/daneia-akinitwn/estia-prasini",
+    "duration": "https://www.nbg.gr/el/idiwtes/daneia/stegastika-daneia/daneia-akinitwn/estia-prasini",
+    "eligible_interventions": [
+      "https://www.nbg.gr/el/idiwtes/daneia/stegastika-daneia/daneia-akinitwn/estia-prasini"
+    ],
+    "eligible_parties": [
+      "https://www.nbg.gr/el/idiwtes/daneia/stegastika-daneia/daneia-akinitwn/estia-prasini"
+    ],
+    "energy_performance_targets": [
+      "https://www.nbg.gr/el/idiwtes/daneia/stegastika-daneia/daneia-akinitwn/estia-prasini"
+    ],
+    "funding_coverage": "https://www.nbg.gr/el/idiwtes/daneia/stegastika-daneia/daneia-akinitwn/estia-prasini",
+    "funding_type": "https://www.nbg.gr/el/idiwtes/daneia/stegastika-daneia/daneia-akinitwn/estia-prasini",
+    "interest_rate": "https://www.nbg.gr/el/idiwtes/daneia/stegastika-daneia/daneia-akinitwn/estia-prasini",
+    "loan_duration": "https://www.nbg.gr/el/idiwtes/daneia/stegastika-daneia/daneia-akinitwn/estia-prasini",
+    "post_completion_obligations": "https://www.nbg.gr/el/idiwtes/daneia/stegastika-daneia/daneia-akinitwn/estia-prasini",
+    "programme_name": "https://www.nbg.gr/el/idiwtes/daneia/stegastika-daneia/daneia-akinitwn/estia-prasini",
+    "programme_objective": "https://www.nbg.gr/el/idiwtes/daneia/stegastika-daneia/daneia-akinitwn/estia-prasini",
+    "property_requirements": [
+      "https://www.nbg.gr/el/idiwtes/daneia/stegastika-daneia/daneia-akinitwn/estia-prasini"
+    ]
+  },
+  "extracted_data": {
+    "description": "ΕΣΤΙΑ Πράσινη Στεγαστικό Δάνειο | Εθνική Τράπεζα Στεγαστικό ΕΣΤΙΑ Πράσινη 48 ώρες προέγκριση, 48 ώρες εκταμίευση, προσωπικός σύμβουλος. Ιδιώτες Δάνεια Στεγαστικά Δάνεια Δάνεια για Αγορά Ακινήτων ΕΣΤΙΑ Πράσινη Με το ΕΣΤΙΑ Πράσινη μπορείτε να χρηματοδοτηθείτε με ευνοϊκούς όρους για να αγοράσετε σπίτι με ενεργειακή κατηγορία τουλάχιστον Γ'. Έτσι, μπορείτε να εξοικονομήσετε ενέργεια και χρήματα, προστατεύοντας το περιβάλλον.",
+    "duration": "40 χρόνια",
+    "eligible_interventions": [
+      "αιτήματα για μεγαλύτερα ποσά δανείου",
+      "τα οποία ενδέχεται να απαιτούν πρόσθετη αξιολόγηση από αρμόδια ανώτερη εγκριτική επιτροπή και",
+      "ως εκ τούτου",
+      "μην λάβουν προέγκριση εντός του εν λόγω χρονικού διαστήματος"
+    ],
+    "eligible_parties": [
+      "Ιδιώτες"
+    ],
+    "energy_performance_targets": [
+      "Γ' ενεργειακή κατηγορία"
+    ],
+    "funding_coverage": "100%",
+    "funding_type": "Δάνειο",
+    "interest_rate": "σας κατά 0,10% ανεξαρτήτως ενεργειακής κατηγορίας Να μειώσετε το περιθώριο κυμαινόμενου επιτοκίου του δανείου σας κατά 0,10%, 0,15% ή 0,25%, ανάλογα με την ενεργειακή κατηγορία Να έχετε έκπτωση 50% στα έξοδα δανείου και το χαμηλότερο σταθε",
+    "loan_duration": "10 χρόνια",
+    "post_completion_obligations": "Για τις λοιπές περιπτώσεις (αγορά υπό ανέγερση κατοικίας, ανέγερση / αποπεράτωση / επισκευή), μετά την ολοκλήρωση των εργασιών και την προσκόμιση στην Τράπεζα του Πιστοποιητικού Ενεργειακής Αναβάθμισης (Π.Ε.Α.), σύμφωνα με το οποίο πιστοποιείται η τελική κατάταξη του ακινήτου σε ενεργειακή κατηγορία, αρκεί το δάνειο να είναι ενήμερο και επιπλέον σε περίπτωση επισκευής, το σπίτι να έχει αναβαθμιστεί κατά τουλάχιστον 1 ενεργειακή κατηγορία.",
+    "programme_name": "ΕΣΤΙΑ Πράσινη Στεγαστικό Δάνειο",
+    "programme_objective": "ΕΣΤΙΑ Πράσινη Στεγαστικό Δάνειο | Εθνική Τράπεζα Στεγαστικό ΕΣΤΙΑ Πράσινη 48 ώρες προέγκριση, 48 ώρες εκταμίευση, προσωπικός σύμβουλος. Ιδιώτες Δάνεια Στεγαστικά Δάνεια Δάνεια για Αγορά Ακινήτων ΕΣΤΙΑ Πράσινη Με το ΕΣΤΙΑ Πράσινη μπορείτε να χρηματοδοτηθείτε με ευνοϊκούς όρους για να αγοράσετε σπίτι με ενεργειακή κατηγορία τουλάχιστον Γ'. Έτσι, μπορείτε να εξοικονομήσετε ενέργεια και χρήματα, προστατεύοντας το περιβάλλον.",
+    "property_requirements": [
+      "Αγορά σπιτιού",
+      "Αγορά οικοπέδου για ανέγερση σπιτιού",
+      "Ανέγερση, αποπεράτωση, επέκταση ή επισκευή σπιτιού"
+    ],
+    "source_urls": [
+      "https://www.nbg.gr/el/idiwtes/daneia/stegastika-daneia/daneia-akinitwn/estia-prasini"
+    ],
+    "source_url": "https://www.nbg.gr/el/idiwtes/daneia/stegastika-daneia/daneia-akinitwn/estia-prasini",
+    "id": "program-423fd61fad"
+  },
+  "classification": {
+    "is_relevant": true,
+    "primary_category": "green_housing_loan",
+    "secondary_categories": [
+      "energy_upgrade",
+      "home_renewables"
+    ],
+    "confidence": 0.92,
+    "reasoning": "Merged source-backed JSON from 1 relevant URL(s).",
+    "key_features": [
+      "deterministic_home_green_finance_scope"
+    ]
+  }
+}

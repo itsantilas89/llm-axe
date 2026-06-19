@@ -16,7 +16,9 @@ from __future__ import annotations
 
 import argparse
 import json
+import re
 import sys
+from datetime import datetime, timezone
 from pathlib import Path
 from typing import Optional
 
@@ -55,10 +57,22 @@ def extract_url_parts(filename: str) -> str:
     return url_parts
 
 
+def timestamp_from_filename(filename: str) -> datetime | None:
+    match = re.match(r"^(\d{8}T\d{6}Z)_", filename)
+    if not match:
+        return None
+    try:
+        return datetime.strptime(match.group(1), "%Y%m%dT%H%M%SZ").replace(tzinfo=timezone.utc)
+    except ValueError:
+        return None
+
+
 def find_matching_scraped(classification_file: Path, scraped_dir: Path) -> Optional[Path]:
     """Find the corresponding _scraped.txt file for a _classification.json file.
     
-    Matches by domain + URL path, ignoring hashes and timestamps.
+    Matches by domain + URL path, ignoring hashes and timestamps. If multiple
+    scrapes exist for the same URL, prefer the closest scrape at or before the
+    classification timestamp; otherwise use the newest matching scrape.
     """
     
     class_url_parts = extract_url_parts(classification_file.name)
@@ -66,15 +80,34 @@ def find_matching_scraped(classification_file: Path, scraped_dir: Path) -> Optio
     if not class_url_parts:
         return None
     
-    # Search for a scraped file with the same URL parts
+    matches: list[Path] = []
     for scraped_file in scraped_dir.glob("*_scraped.txt"):
         scraped_url_parts = extract_url_parts(scraped_file.name)
         
         # Check if URL parts match (can be partial thanks to _llm_raw prefixes)
         if class_url_parts in scraped_url_parts or scraped_url_parts in class_url_parts:
-            return scraped_file
+            matches.append(scraped_file)
     
-    return None
+    if not matches:
+        return None
+
+    class_timestamp = timestamp_from_filename(classification_file.name)
+    if class_timestamp is not None:
+        older_or_same = [
+            scraped_file
+            for scraped_file in matches
+            if (timestamp_from_filename(scraped_file.name) or datetime.min.replace(tzinfo=timezone.utc)) <= class_timestamp
+        ]
+        if older_or_same:
+            return max(
+                older_or_same,
+                key=lambda path: timestamp_from_filename(path.name) or datetime.min.replace(tzinfo=timezone.utc),
+            )
+
+    return max(
+        matches,
+        key=lambda path: timestamp_from_filename(path.name) or datetime.min.replace(tzinfo=timezone.utc),
+    )
 
 
 def validate_one_pair(

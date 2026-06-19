@@ -1,0 +1,36 @@
+\begin{tikzpicture}[
+    card/.style={
+        rectangle,
+        rounded corners=3pt,
+        draw=blue!55,
+        fill=blue!6,
+        align=center,
+        text width=5.35cm,
+        minimum height=1.65cm,
+        font=\sffamily\small
+    }
+]
+\node[card] (global) at (-3.0,1.05) {
+    {\Large\bfseries\textcolor{blue!65!black}{30\%}}\\[3pt]
+    Παγκόσμια τελική κατανάλωση\\
+    ενέργειας στα κτίρια
+};
+
+\node[card] (euenergy) at (3.0,1.05) {
+    {\Large\bfseries\textcolor{blue!65!black}{40\%}}\\[3pt]
+    Κατανάλωση ενέργειας στην ΕΕ\\
+    που σχετίζεται με κτίρια
+};
+
+\node[card] (oldstock) at (-3.0,-1.05) {
+    {\Large\bfseries\textcolor{blue!65!black}{85\%}}\\[3pt]
+    Κτίρια της ΕΕ κατασκευασμένα\\
+    πριν από το 2000
+};
+
+\node[card] (inefficient) at (3.0,-1.05) {
+    {\Large\bfseries\textcolor{blue!65!black}{75\%}}\\[3pt]
+    Κτιριακό απόθεμα χαμηλής\\
+    ενεργειακής απόδοσης στην ΕΕ
+};
+\end{tikzpicture}

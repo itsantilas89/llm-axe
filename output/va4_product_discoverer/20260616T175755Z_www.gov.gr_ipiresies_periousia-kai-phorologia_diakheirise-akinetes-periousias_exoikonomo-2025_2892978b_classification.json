@@ -1,0 +1,64 @@
+{
+  "timestamp": "20260616T175755Z",
+  "url": "https://www.gov.gr/ipiresies/periousia-kai-phorologia/diakheirise-akinetes-periousias/exoikonomo-2025",
+  "classification": {
+    "is_relevant": true,
+    "primary_category": "energy_upgrade",
+    "secondary_categories": [
+      "home_renewables"
+    ],
+    "confidence": 0.95,
+    "reasoning": "Το πρόγραμμα 'Εξοικονομώ 2025' αφορά ενεργειακή αναβάθμιση κατοικιών, με στόχο την εξοικονομία ενέργειας και την ενίσχυση της ενεργειακής αυτονομίας.",
+    "key_features": [
+      "ενεργειακές επεμβάσεις",
+      "παρεμβάσεις εξοικονόμησης ενέργειας",
+      "deterministic_home_green_finance_scope"
+    ]
+  },
+  "extracted_data": {
+    "programme_name": "Εξοικονομώ 2025",
+    "description": "Μπορείτε να λάβετε επιδότηση για παρεμβάσεις που εξοικονομούν ενέργεια και ενισχύουν την ενεργειακή αυτονομία της κατοικίας σας σε ποσοστό άνω του 30% μέσω ενεργειακής αναβάθμισης κατά τουλάχιστον τρείς ενεργειακές κατηγορίες.",
+    "programme_objective": "Μπορείτε να λάβετε επιδότηση για παρεμβάσεις που εξοικονομούν ενέργεια και ενισχύουν την ενεργειακή αυτονομία της κατοικίας σας σε ποσοστό άνω του 30% μέσω ενεργειακής αναβάθμισης κατά τουλάχιστον τρείς ενεργειακές κατηγορίες.",
+    "eligible_parties": [],
+    "eligibility_criteria": [
+      "Οικογένειες με μέλος/μέλη ΑμεΑ",
+      "Οικογένειες με τρία εξαρτώμενα τέκνα",
+      "Πληγέντες σεισμόπληκτους",
+      "Ευάλωτα νοικοκυριά"
+    ],
+    "property_requirements": [
+      "Χρησιμοποιείται ως κύρια κατοικία",
+      "Έχει καταταχθεί βάσει του Πρώτου Πιστοποιητικού Ενεργειακής Απόδοσης (Α’ Π.Ε.Α.) σε κατηγορία χαμηλότερη ή ίση της Γ."
+    ],
+    "minimum_funding_amount": "",
+    "maximum_funding_amount": "",
+    "funding_type": "",
+    "interest_rate": "",
+    "funding_coverage": "",
+    "total_budget": "",
+    "funding_sources": [],
+    "duration": "",
+    "loan_duration": "",
+    "completion_deadline": "31η Μαϊου 2026",
+    "application_start_date": "",
+    "application_end_date": "",
+    "energy_performance_targets": "30% μέσω ενεργειακής αναβάθμισης κατά τουλάχιστον τρείς ενεργειακές κατηγορίες",
+    "eligible_interventions": [
+      "Αντικατάστασης κουφωμάτων",
+      "Τοποθέτησης/αναβάθμισης θερμομόνωσης",
+      "Αναβάθμισης συστήματος θέρμανσης/ψύξης",
+      "Τοποθέτησης συστήματος ζεστού νερού χρήσης (ΖΝΧ) με χρήση Ανανεώσιμων Πηγών Ενέργειας (ΑΠΕ)",
+      "Λοιπές παρεμβάσεις εξοικονόμησης ενέργειας"
+    ],
+    "application_process": "",
+    "managing_body": "",
+    "announcement_date": "",
+    "contact_info": [],
+    "additional_details": "",
+    "source_url": "https://www.gov.gr/ipiresies/periousia-kai-phorologia/diakheirise-akinetes-periousias/exoikonomo-2025",
+    "source_urls": [
+      "https://www.gov.gr/ipiresies/periousia-kai-phorologia/diakheirise-akinetes-periousias/exoikonomo-2025"
+    ],
+    "id": "2025-2892978b52"
+  }
+}

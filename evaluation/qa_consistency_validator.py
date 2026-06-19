@@ -116,6 +116,12 @@ def infer_question_spec(question_text: str, known_questions: list[dict]) -> dict
         
         ("interventions", ["eligible_interventions", "energy_performance_targets"], "list_contains",
          ["παρεμβάσεις", "interventions", "energy", "ενεργειακ", "ενεργειακή", "ενεργειακές", "αναβάθμιση"]),
+
+        ("completion_delay_consequences", ["completion_delay_consequences"], "substring",
+         ["δεν ολοκληρωθούν", "δεν ολοκληρωθουν", "μη ολοκλήρωση", "μη ολοκληρωση", "προβλεπόμενη προθεσμία", "προβλεπομενη προθεσμια", "καθυστέρηση", "καθυστερηση"]),
+
+        ("post_completion_obligations", ["post_completion_obligations"], "substring",
+         ["υποχρεώσεις μετά", "υποχρεωσεις μετα", "μετά την ολοκλήρωση", "μετα την ολοκληρωση", "μετά το έργο", "μετα το εργο"]),
         
         ("programme_description", ["programme_name", "description", "programme_objective", "additional_details"], "substring",
          ["περίγραψε", "describe", "στόχος", "objective", "benefits", "οφέλη", "σκοπός", "σκοπό", "περίγρ"]),

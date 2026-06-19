@@ -1,0 +1,46 @@
+{
+  "timestamp": "20260616T223341Z",
+  "url": "https://hdb.gr/en/green-co-financing-loans/",
+  "classification": {
+    "is_relevant": false,
+    "primary_category": "other",
+    "secondary_categories": [],
+    "confidence": 0.95,
+    "reasoning": "Deterministic scope reject: business/public context without residential home signal",
+    "key_features": [
+      "deterministic_scope_reject"
+    ]
+  },
+  "extracted_data": {
+    "programme_name": "Green Co-Financing Loans - Ελληνική Αναπτυξιακή Τράπεζα ESG Tracker by HDB: Δημιουργήστε δωρεάν αναφορά για την επιχείρη",
+    "description": "Green Co-Financing Loans - Ελληνική Αναπτυξιακή Τράπεζα ESG Tracker by HDB: Δημιουργήστε δωρεάν αναφορά για την επιχείρησή σας en Ελληνικά ( Greek ) Previous Programs Green Co-Financing Loans Green Co-Financing Loans The Green Co-Financing Loans Fund was established to provide favorable terms regarding investment loans to small and medium-sized enterprises (SMEs), offering 40% of the capital interest rate-free and a two-year partial interest subsidy upon the Financial Intermediary’s interest rate for the remaining 60% of the capital, for the implementation of Green Transition investment projects. Investment projects regarding Green Mobility, Energy Efficiency/Energy Upgrades, and Energy Production through Renewable Sources are supported.",
+    "programme_objective": "Green Co-Financing Loans - Ελληνική Αναπτυξιακή Τράπεζα ESG Tracker by HDB: Δημιουργήστε δωρεάν αναφορά για την επιχείρησή σας en Ελληνικά ( Greek ) Previous Programs Green Co-Financing Loans Green Co-Financing Loans The Green Co-Financing Loans Fund was established to provide favorable terms regarding investment loans to small and medium-sized enterprises (SMEs), offering 40% of the capital interest rate-free and a two-year partial interest subsidy upon the Financial Intermediary’s interest rate for the remaining 60% of the capital, for the implementation of Green Transition investment projects. Investment projects regarding Green Mobility, Energy Efficiency/Energy Upgrades, and Energy Production through Renewable Sources are supported.",
+    "eligible_parties": [],
+    "eligibility_criteria": [],
+    "property_requirements": [],
+    "minimum_funding_amount": "",
+    "maximum_funding_amount": "",
+    "funding_type": "Δάνειο",
+    "interest_rate": "",
+    "funding_coverage": "",
+    "total_budget": "",
+    "funding_sources": [],
+    "duration": "",
+    "loan_duration": "",
+    "completion_deadline": "",
+    "application_start_date": "",
+    "application_end_date": "",
+    "energy_performance_targets": "",
+    "eligible_interventions": [],
+    "application_process": "",
+    "managing_body": "",
+    "announcement_date": "",
+    "contact_info": [],
+    "additional_details": "",
+    "source_url": "https://hdb.gr/en/green-co-financing-loans/",
+    "source_urls": [
+      "https://hdb.gr/en/green-co-financing-loans/"
+    ],
+    "id": "green-co-financing-loans-esg-tracker-by-hdb-ad8f5fefab"
+  }
+}

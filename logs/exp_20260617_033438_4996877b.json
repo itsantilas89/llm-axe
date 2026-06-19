@@ -1,0 +1,15 @@
+{
+  "experiment_id": "exp_20260617_033438_4996877b",
+  "timestamp": "2026-06-17T03:34:38.155753+00:00",
+  "model": "deterministic_scope_guard",
+  "temperature": 0.0,
+  "hyperparameters": {
+    "mode": "pre_llm_classification"
+  },
+  "prompt": "",
+  "sources": [
+    "Στεγαστικό Δάνειο Eco Home"
+  ],
+  "terminal_output": "Category: green_housing_loan | Confidence: 92% | Relevant: True",
+  "template_output_file": null
+}

@@ -1,0 +1,78 @@
+{
+  "id": "program-8ef520bcb6",
+  "timestamp": "20260618T090716Z",
+  "url": "https://www.nbg.gr/el/idiwtes/daneia/daneia-exoikonomisis-energeias/prasino-daneio",
+  "source_urls": [
+    "https://www.nbg.gr/el/idiwtes/daneia/daneia-exoikonomisis-energeias/prasino-daneio"
+  ],
+  "source_files": [
+    "C:\\Users\\stavr\\Desktop\\HMMY\\Thesis\\llm-axe\\output\\va4_product_discoverer\\20260617T035136Z_www.nbg.gr_el_idiwtes_daneia_daneia-exoikonomisis-energeias_prasino-daneio_8ef520bc_classification.json"
+  ],
+  "merged_from_count": 1,
+  "merged": true,
+  "field_sources": {
+    "description": "https://www.nbg.gr/el/idiwtes/daneia/daneia-exoikonomisis-energeias/prasino-daneio",
+    "eligible_interventions": "https://www.nbg.gr/el/idiwtes/daneia/daneia-exoikonomisis-energeias/prasino-daneio",
+    "eligible_parties": "https://www.nbg.gr/el/idiwtes/daneia/daneia-exoikonomisis-energeias/prasino-daneio",
+    "funding_type": "https://www.nbg.gr/el/idiwtes/daneia/daneia-exoikonomisis-energeias/prasino-daneio",
+    "id": "https://www.nbg.gr/el/idiwtes/daneia/daneia-exoikonomisis-energeias/prasino-daneio",
+    "interest_rate": "https://www.nbg.gr/el/idiwtes/daneia/daneia-exoikonomisis-energeias/prasino-daneio",
+    "loan_duration": [
+      "https://www.nbg.gr/el/idiwtes/daneia/daneia-exoikonomisis-energeias/prasino-daneio"
+    ],
+    "maximum_funding_amount": "https://www.nbg.gr/el/idiwtes/daneia/daneia-exoikonomisis-energeias/prasino-daneio",
+    "minimum_funding_amount": "https://www.nbg.gr/el/idiwtes/daneia/daneia-exoikonomisis-energeias/prasino-daneio",
+    "programme_name": "https://www.nbg.gr/el/idiwtes/daneia/daneia-exoikonomisis-energeias/prasino-daneio",
+    "programme_objective": "https://www.nbg.gr/el/idiwtes/daneia/daneia-exoikonomisis-energeias/prasino-daneio",
+    "property_requirements": "https://www.nbg.gr/el/idiwtes/daneia/daneia-exoikonomisis-energeias/prasino-daneio",
+    "source_url": "https://www.nbg.gr/el/idiwtes/daneia/daneia-exoikonomisis-energeias/prasino-daneio",
+    "source_urls": [
+      "https://www.nbg.gr/el/idiwtes/daneia/daneia-exoikonomisis-energeias/prasino-daneio"
+    ]
+  },
+  "extracted_data": {
+    "description": "Πράσινο Δάνειο | Εθνική Τράπεζα Πράσινα δάνεια Πράσινο δάνειο Καλύπτετε τις ανάγκες σας, με ευνοϊκούς όρους και σεβασμό στο περιβάλλον.",
+    "eligible_interventions": [
+      "αγορά καινούργιο ηλεκτρικό όχημα/υβριδικό αυτοκίνητο",
+      "ενεργειακή αναβάθμιση της κατοικίας σας",
+      "οικολογικές συσκευές"
+    ],
+    "eligible_parties": [
+      "Ιδιώτες"
+    ],
+    "funding_type": "Δάνειο",
+    "id": "program-8ef520bcb6",
+    "interest_rate": "κυμαινόμενο με βάση το Euribor 3M στο οποίο προστίθεται επιπλέον περιθώριο",
+    "loan_duration": [
+      "12-48 μήνες",
+      "12-72 μήνες",
+      "12-84 μήνες"
+    ],
+    "maximum_funding_amount": "30.000€",
+    "minimum_funding_amount": "6.000€",
+    "programme_name": "Πράσινο Δάνειο",
+    "programme_objective": "Πράσινο Δάνειο | Εθνική Τράπεζα Πράσινα δάνεια Πράσινο δάνειο Καλύπτετε τις ανάγκες σας, με ευνοϊκούς όρους και σεβασμό στο περιβάλλον.",
+    "property_requirements": [
+      "αγορά καινούργιο ηλεκτρικό όχημα/υβριδικό αυτοκίνητο",
+      "ενεργειακή αναβάθμιση της κατοικίας σας",
+      "οικολογικές συσκευές"
+    ],
+    "source_url": "https://www.nbg.gr/el/idiwtes/daneia/daneia-exoikonomisis-energeias/prasino-daneio",
+    "source_urls": [
+      "https://www.nbg.gr/el/idiwtes/daneia/daneia-exoikonomisis-energeias/prasino-daneio"
+    ]
+  },
+  "classification": {
+    "is_relevant": true,
+    "primary_category": "green_housing_loan",
+    "secondary_categories": [
+      "energy_upgrade",
+      "home_renewables"
+    ],
+    "confidence": 0.92,
+    "reasoning": "Merged source-backed JSON from 1 relevant URL(s).",
+    "key_features": [
+      "deterministic_home_green_finance_scope"
+    ]
+  }
+}

@@ -1,0 +1,3451 @@
+{
+  "summary": {
+    "total_files": 22,
+    "validated": 22,
+    "skipped": 0,
+    "errors": 0,
+    "overall_coverage": {
+      "total_checked": 630,
+      "found": 387,
+      "missing": 243
+    }
+  },
+  "results": [
+    {
+      "status": "ok",
+      "classification_file": "output\\evaluation\\qa_full_runs\\smoke_check_20260618T044917757781Z\\classifications\\001_www.crediabank.com_idiotes_daneia_eco-katanalotika_eco-lyseis-energeiaki-anavathmisi-katoikias_36a72e32_classification.json",
+      "scraped_file": "output\\va3_scraper_to_template\\20260617T032633Z_www.crediabank.com_idiotes_daneia_eco-katanalotika_eco-lyseis-energeiaki-anavathmisi-katoikias_36a72e32_scraped.txt",
+      "summary": {
+        "total_checked": 18,
+        "found": 13,
+        "missing": 5,
+        "coverage": 0.7222
+      },
+      "results": [
+        {
+          "path": "extracted_data.description",
+          "value": "Credia Eco Λύσεις - Ενεργειακή Αναβάθμιση Κατοικίας - CrediaBank Credia Eco Λύσεις - Ενεργειακή Αναβάθμιση Κατοικίας Μετάτρεψε την κατοικία σου ενεργειακά πράσινη Εκδήλωση Ενδιαφέροντος Αναβαθμίζεις ενεργειακά την κατοικία σου; Με το δάνειο Eco Λύσεις έχεις ευνοϊκό επιτόκιο, έκπτωση μετά την ολοκλήρωση και αποπληρωμή που σε διευκολύνει. Χρηματοδότηση Σου προσφέρουμε χρηματοδότηση που ανέρχεται έως και στο 100% του ποσού τιμολογίων / προτιμολογίων ή προσφοράς για εργασίες ενεργειακής αναβάθμισης κατοικίας. Αναβάθμιση ενεργειακής κατηγορίας Αντικατάστασης κουφωμάτων Τοποθέτησης/ αναβάθμισης θερμομόνωσης Αναβάθμισης συστήματος θέρμανσης/ ψύξης, τοποθέτηση συστήματος ζεστού νερού χρήσης (ΖΝΧ) με χρήση ανανεώσιμων πηγών ενέργειας (ΑΠΕ) Οφέλη Μείωση του κόστους ενέργειας θέρμανσης – ψύξης Προστασία του περιβαλλοντικού σας αποτυπώματος Με μια ματιά Ποσό χορήγησης Από € 1.500 έως € 25.",
+          "found": true
+        },
+        {
+          "path": "extracted_data.eligible_interventions[0]",
+          "value": "Μονώσεις",
+          "found": false
+        },
+        {
+          "path": "extracted_data.eligible_interventions[1]",
+          "value": "Αντικατάσταση κουφωμάτων",
+          "found": true
+        },
+        {
+          "path": "extracted_data.eligible_interventions[2]",
+          "value": "Τοποθέτηση / αντικατάσταση κελύφους για θερμομόνωση",
+          "found": false
+        },
+        {
+          "path": "extracted_data.eligible_interventions[3]",
+          "value": "Αναβάθμιση συστήματος θέρμανσης / ψύξης",
+          "found": true
+        },
+        {
+          "path": "extracted_data.eligible_interventions[4]",
+          "value": "Αναβάθμιση συστήματος ζεστού νερού χρήσης μέσω ΑΠΕ",
+          "found": true
+        },
+        {
+          "path": "extracted_data.funding_coverage",
+          "value": "100%",
+          "found": true
+        },
+        {
+          "path": "extracted_data.funding_type",
+          "value": "Δάνειο",
+          "found": true
+        },
+        {
+          "path": "extracted_data.interest_rate",
+          "value": "7,90%",
+          "found": true
+        },
+        {
+          "path": "extracted_data.loan_duration",
+          "value": "1-7 έτη",
+          "found": true
+        },
+        {
+          "path": "extracted_data.maximum_funding_amount",
+          "value": "25.000€",
+          "found": true
+        },
+        {
+          "path": "extracted_data.minimum_funding_amount",
+          "value": "1.500€",
+          "found": true
+        },
+        {
+          "path": "extracted_data.post_completion_obligations",
+          "value": "128/75) κατά 0,20 εκατοστιαίες μονάδες (0,20%) μετά την προσκόμιση του ενεργειακού πιστοποιητικού κι εφόσον: (α) το δάνειό σου είναι ενήμερο, (β) έχουν ολοκληρωθεί οι εργασίες, (γ) το αναβαθμιζόμενο ακίνητο ανεβαίνει τουλάχιστον κατά μια ενεργειακή κατηγορία Εντός 6 μηνών από την εκταμίευση του δανείου σου, προσκομίζεις στην Τράπεζα πιστοποιητικό της ενεργειακής κατηγορίας που ανήκει η κατοικία σου, μετά την ολοκλήρωση των εργασιών ενεργειακής αναβάθμισης.",
+          "found": true
+        },
+        {
+          "path": "extracted_data.programme_name",
+          "value": "Credia Eco Λύσεις",
+          "found": true
+        },
+        {
+          "path": "extracted_data.programme_objective",
+          "value": "Credia Eco Λύσεις - Ενεργειακή Αναβάθμιση Κατοικίας - CrediaBank Credia Eco Λύσεις - Ενεργειακή Αναβάθμιση Κατοικίας Μετάτρεψε την κατοικία σου ενεργειακά πράσινη Εκδήλωση Ενδιαφέροντος Αναβαθμίζεις ενεργειακά την κατοικία σου; Με το δάνειο Eco Λύσεις έχεις ευνοϊκό επιτόκιο, έκπτωση μετά την ολοκλήρωση και αποπληρωμή που σε διευκολύνει. Χρηματοδότηση Σου προσφέρουμε χρηματοδότηση που ανέρχεται έως και στο 100% του ποσού τιμολογίων / προτιμολογίων ή προσφοράς για εργασίες ενεργειακής αναβάθμισης κατοικίας. Αναβάθμιση ενεργειακής κατηγορίας Αντικατάστασης κουφωμάτων Τοποθέτησης/ αναβάθμισης θερμομόνωσης Αναβάθμισης συστήματος θέρμανσης/ ψύξης, τοποθέτηση συστήματος ζεστού νερού χρήσης (ΖΝΧ) με χρήση ανανεώσιμων πηγών ενέργειας (ΑΠΕ) Οφέλη Μείωση του κόστους ενέργειας θέρμανσης – ψύξης Προστασία του περιβαλλοντικού σας αποτυπώματος Με μια ματιά Ποσό χορήγησης Από € 1.500 έως € 25.",
+          "found": true
+        },
+        {
+          "path": "extracted_data.source_urls[0]",
+          "value": "https://www.crediabank.com/idiotes/daneia/eco-katanalotika/eco-lyseis-energeiaki-anavathmisi-katoikias/",
+          "found": false
+        },
+        {
+          "path": "extracted_data.source_url",
+          "value": "https://www.crediabank.com/idiotes/daneia/eco-katanalotika/eco-lyseis-energeiaki-anavathmisi-katoikias/",
+          "found": false
+        },
+        {
+          "path": "extracted_data.id",
+          "value": "credia-eco-36a72e3237",
+          "found": false
+        }
+      ]
+    },
+    {
+      "status": "ok",
+      "classification_file": "output\\evaluation\\qa_full_runs\\smoke_check_20260618T044917757781Z\\classifications\\002_www.crediabank.com_idiotes_daneia_eco-katanalotika_eco-lyseis-net-metering-egkatastasi-oikiakon-fv-sustimaton_95f59cba_classification.json",
+      "scraped_file": "output\\va3_scraper_to_template\\20260617T013238Z_www.crediabank.com_idiotes_daneia_eco-katanalotika_eco-lyseis-net-metering-egkatastasi-oikiakon-fv-sustimaton_95f59cba_scraped.txt",
+      "summary": {
+        "total_checked": 16,
+        "found": 13,
+        "missing": 3,
+        "coverage": 0.8125
+      },
+      "results": [
+        {
+          "path": "extracted_data.description",
+          "value": "Eco Λύσεις - Net Metering (Εγκατάσταση Οικιακών Φ/Β Συστημάτων) - CrediaBank Eco Λύσεις - Net Metering (Εγκατάσταση Οικιακών Φ/Β Συστημάτων) Εγκατάσταση φωτοβολταϊκών πάνελ στο δικό σου κτήριο Εκδήλωση Ενδιαφέροντος Θες να εγκαταστήσεις φωτοβολταϊκά και να συμψηφίζεις την ενέργεια που παράγεις; Στην CrediaBank, σου προσφέρουμε τη δυνατότητα να αναβαθμίσεις ενεργειακά το σπίτι σου. Χρηματοδότηση Εγκατάστησε φωτοβολταϊκά πάνελ οπουδήποτε στο δικό σου κτήριο (δώμα, στέγη, στέγαστρο, σκίαστρο, παρκινγκ, πρόσοψη κλπ) με σκοπό το net metering Παρακολούθησε την ενέργεια που καταναλώνεις και παράγεις Χρησιμοποίησε το δίκτυο για έμμεση αποθήκευση της πράσινης ενέργειας Με μια ματιά Ποσό χορήγησης Από € 1.500 έως € 25.000 Επιτόκιο Το επιτόκιο είναι σταθερό για όλη τη διάρκεια του δανείου. 7,90%, πλέον εισφ. Ν128/75 (σήμερα 0,60%).",
+          "found": true
+        },
+        {
+          "path": "extracted_data.eligible_interventions[0]",
+          "value": "μέσω μίσθωσης",
+          "found": true
+        },
+        {
+          "path": "extracted_data.eligible_interventions[1]",
+          "value": "δωρεάν παραχώρησης κ",
+          "found": true
+        },
+        {
+          "path": "extracted_data.eligible_parties[0]",
+          "value": "φυσικά πρόσωπα",
+          "found": true
+        },
+        {
+          "path": "extracted_data.funding_coverage",
+          "value": "Χρηματοδότηση Σου προσφέρουμε χρηματοδότηση που ανέρχεται έως και στο 100% του ποσού τιμολογίων / προτιμολογίων",
+          "found": true
+        },
+        {
+          "path": "extracted_data.funding_type",
+          "value": "Δάνειο",
+          "found": true
+        },
+        {
+          "path": "extracted_data.interest_rate",
+          "value": "7,90%",
+          "found": true
+        },
+        {
+          "path": "extracted_data.loan_duration",
+          "value": "60 μήνες",
+          "found": true
+        },
+        {
+          "path": "extracted_data.maximum_funding_amount",
+          "value": "25.000€",
+          "found": true
+        },
+        {
+          "path": "extracted_data.minimum_funding_amount",
+          "value": "1.500€",
+          "found": true
+        },
+        {
+          "path": "extracted_data.programme_name",
+          "value": "Eco Λύσεις - Net Metering",
+          "found": true
+        },
+        {
+          "path": "extracted_data.programme_objective",
+          "value": "Eco Λύσεις - Net Metering (Εγκατάσταση Οικιακών Φ/Β Συστημάτων) - CrediaBank Eco Λύσεις - Net Metering (Εγκατάσταση Οικιακών Φ/Β Συστημάτων) Εγκατάσταση φωτοβολταϊκών πάνελ στο δικό σου κτήριο Εκδήλωση Ενδιαφέροντος Θες να εγκαταστήσεις φωτοβολταϊκά και να συμψηφίζεις την ενέργεια που παράγεις; Στην CrediaBank, σου προσφέρουμε τη δυνατότητα να αναβαθμίσεις ενεργειακά το σπίτι σου. Χρηματοδότηση Εγκατάστησε φωτοβολταϊκά πάνελ οπουδήποτε στο δικό σου κτήριο (δώμα, στέγη, στέγαστρο, σκίαστρο, παρκινγκ, πρόσοψη κλπ) με σκοπό το net metering Παρακολούθησε την ενέργεια που καταναλώνεις και παράγεις Χρησιμοποίησε το δίκτυο για έμμεση αποθήκευση της πράσινης ενέργειας Με μια ματιά Ποσό χορήγησης Από € 1.500 έως € 25.000 Επιτόκιο Το επιτόκιο είναι σταθερό για όλη τη διάρκεια του δανείου. 7,90%, πλέον εισφ. Ν128/75 (σήμερα 0,60%).",
+          "found": true
+        },
+        {
+          "path": "extracted_data.property_requirements[0]",
+          "value": "κτήριο (δώμα, στέγη, στέγαστρο, σκίαστρο, παρκινγκ, πρόσοψη κλπ)",
+          "found": true
+        },
+        {
+          "path": "extracted_data.source_urls[0]",
+          "value": "https://www.crediabank.com/idiotes/daneia/eco-katanalotika/eco-lyseis-net-metering-egkatastasi-oikiakon-fv-sustimaton/",
+          "found": false
+        },
+        {
+          "path": "extracted_data.source_url",
+          "value": "https://www.crediabank.com/idiotes/daneia/eco-katanalotika/eco-lyseis-net-metering-egkatastasi-oikiakon-fv-sustimaton/",
+          "found": false
+        },
+        {
+          "path": "extracted_data.id",
+          "value": "eco-net-metering-95f59cba48",
+          "found": false
+        }
+      ]
+    },
+    {
+      "status": "ok",
+      "classification_file": "output\\evaluation\\qa_full_runs\\smoke_check_20260618T044917757781Z\\classifications\\003_oikogeneia.gov.gr_programs_anavathmizo-to-spiti-mou_6d328bca_classification.json",
+      "scraped_file": "output\\va3_scraper_to_template\\20260617T043131Z_oikogeneia.gov.gr_programs_anavathmizo-to-spiti-mou_6d328bca_scraped.txt",
+      "summary": {
+        "total_checked": 154,
+        "found": 94,
+        "missing": 60,
+        "coverage": 0.6104
+      },
+      "results": [
+        {
+          "path": "extracted_data.announcement_date",
+          "value": "12 Φεβρουαρίου 2025",
+          "found": false
+        },
+        {
+          "path": "extracted_data.application_end_date",
+          "value": "31 Αυγούστου 2026",
+          "found": false
+        },
+        {
+          "path": "extracted_data.application_start_date",
+          "value": "12 Φεβρουαρίου 2025",
+          "found": false
+        },
+        {
+          "path": "extracted_data.completion_deadline",
+          "value": "31η Αυγούστου 2026",
+          "found": false
+        },
+        {
+          "path": "extracted_data.contact_info[0].email",
+          "value": "anavathmizo@hdb.gr",
+          "found": false
+        },
+        {
+          "path": "extracted_data.contact_info[1].website",
+          "value": "https://hdb.gr/anavathmizo-to-spiti-mou",
+          "found": false
+        },
+        {
+          "path": "extracted_data.contact_info[2].name",
+          "value": "Ωράριο Λειτουργίας",
+          "found": true
+        },
+        {
+          "path": "extracted_data.contact_info[2].value",
+          "value": "Δευτέρα – Παρασκευή 09:00 – 17:00",
+          "found": false
+        },
+        {
+          "path": "extracted_data.description",
+          "value": "Αναβαθμίζω το Σπίτι μου – Όροι συμμετοχής - Ελλάδα 2.0 Αναβαθμίζω το Σπίτι μου - Όροι συμμετοχής Ανενεργή Απευθύνεται σε: Ιδιώτες/Πολίτες Απευθύνεται ειδικά σε: Φυσικά πρόσωπα που έχουν εμπράγματο δικαίωμα (πλήρη κυριότητα/ επικαρπία/ψιλή κυριότητα) σε επιλέξιμη κατοικία (κύρια ή μη εκμισθωμένη δευτερεύουσα). Αντικείμενο του προγράμματος είναι η παροχή συγχρηματοδοτούμενων στεγαστικών δανείων με πλήρη επιδότηση επιτοκίου, για την ενεργειακή βελτίωση υφιστάμενων κατοικιών (κύριες ή μη εκμισθωμένες δευτερεύουσες) φυσικών προσώπων, μέσω της υλοποίησης επιλέξιμων ενεργειακών παρεμβάσεων. Δικαιούχοι του Προγράμματος είναι φυσικά πρόσωπα που έχουν εμπράγματο δικαίωμα (πλήρη κυριότητα/ επικαρπία/ ψιλή κυριότητα) σε επιλέξιμη κατοικία (κύρια ή μη εκμισθωμένη δευτερεύουσα), με την προϋπόθεση ότι δεν έχουν καταστεί από 01.01.",
+          "found": true
+        },
+        {
+          "path": "extracted_data.duration",
+          "value": "3-7 έτη",
+          "found": true
+        },
+        {
+          "path": "extracted_data.eligibility_criteria[0]",
+          "value": "Διαθέτουν νόμιμο εμπράγματο δικαίωμα (πλήρη κυριότητα, επικαρπία, ψιλή κυριότητα) σε κατοิกία που πληροί τις προδιαγραφές επιเลξιμότητας.",
+          "found": false
+        },
+        {
+          "path": "extracted_data.eligibility_criteria[1]",
+          "value": "Δεν έχουν καταστεί ωφελούμενοι από 01.01.2020 από οποιοδήποτε άλλο Πρόγραμμα ενεργειακής αναβάθμισης που χρηματοδοτήθηκε ή εξακολουθεί να χρηματοδοτείται με ενωσιακούς πόρους.",
+          "found": true
+        },
+        {
+          "path": "extracted_data.eligibility_criteria[2]",
+          "value": "Διαθέτουν νόμιμο εμπράγματο δικαίωμα (πλήρη κυριότητα, επικαρπία, ψιλή κυριότητα) σε κατοिकία που πληροί τις προδιαγραφές επιλεξιμότητας",
+          "found": false
+        },
+        {
+          "path": "extracted_data.eligibility_criteria[3]",
+          "value": "Είστε έως 71 ετών στην έναρξη του δανείου και 75 ετών στη λήξη του.",
+          "found": false
+        },
+        {
+          "path": "extracted_data.eligibility_criteria[4]",
+          "value": "Φορολογείστε στην Ελλάδα και να έχετε ελληνικό αριθμό κινητού.",
+          "found": false
+        },
+        {
+          "path": "extracted_data.eligibility_criteria[5]",
+          "value": "Έχετε επικαιροποιήσει τα στοιχεία σας στην Alpha Bank.",
+          "found": false
+        },
+        {
+          "path": "extracted_data.eligibility_criteria[6]",
+          "value": "Χρησιμοποιήσετε το δάνειο για νόμιμη δική σας κατοिकία, κύρια ή δευτερεύουσα.",
+          "found": false
+        },
+        {
+          "path": "extracted_data.eligibility_criteria[7]",
+          "value": "Διαθέσιμο υπόλοιπο πόρων του προγράμματος",
+          "found": false
+        },
+        {
+          "path": "extracted_data.eligible_interventions[0]",
+          "value": "Θερμομόνωση (εσωτερική/εξωτερική)",
+          "found": true
+        },
+        {
+          "path": "extracted_data.eligible_interventions[1]",
+          "value": "Κατασκευή πράσινης στέγης",
+          "found": true
+        },
+        {
+          "path": "extracted_data.eligible_interventions[2]",
+          "value": "Τοποθέτηση ενεργειακών κουφωμάτων/υαλοπινάκων",
+          "found": true
+        },
+        {
+          "path": "extracted_data.eligible_interventions[3]",
+          "value": "Τοποθέτηση ηλιακού θερμοσίφωνα",
+          "found": true
+        },
+        {
+          "path": "extracted_data.eligible_interventions[4]",
+          "value": "Εγκατάσταση συστημάτων εξωτερικής μόνιμης σκίασης (όχι τέντες)",
+          "found": true
+        },
+        {
+          "path": "extracted_data.eligible_interventions[5]",
+          "value": "Τοποθέτηση συστημάτων θέρμανσης/ψύξης με αξιοποίηση ανανεώσιμων πηγών ενέργειας ή με σύστημα συμπαραγωγής ηλεκτρισμού και θερμότητας υψηλής απόδοσης",
+          "found": true
+        },
+        {
+          "path": "extracted_data.eligible_interventions[6]",
+          "value": "Εγκατάσταση συστημάτων θερμοστατικής ρύθμισης",
+          "found": true
+        },
+        {
+          "path": "extracted_data.eligible_interventions[7]",
+          "value": "Εγκατάσταση συστημάτων αποθήκευσης ενέργειας (συσσωρευτές)",
+          "found": true
+        },
+        {
+          "path": "extracted_data.eligible_interventions[8]",
+          "value": "Εγκατάσταση φωτοβολταϊκών σταθμών – μικρών ανεμογεννητριών και άλλων ΑΠΕ",
+          "found": true
+        },
+        {
+          "path": "extracted_data.eligible_interventions[9]",
+          "value": "Εγκατάσταση συστημάτων αποθήκευσης ενέργειας (συσωρευτές) από ανανεώσιμες πηγές ενέργειας",
+          "found": true
+        },
+        {
+          "path": "extracted_data.eligible_interventions[10]",
+          "value": "Το Πρόγραμμα στοχεύει στη βελτίωση της ενεργειακής απόδοσης",
+          "found": true
+        },
+        {
+          "path": "extracted_data.eligible_interventions[11]",
+          "value": "ενεργειακής αναβάθμισης",
+          "found": true
+        },
+        {
+          "path": "extracted_data.eligible_interventions[12]",
+          "value": "Μονώσεις",
+          "found": false
+        },
+        {
+          "path": "extracted_data.eligible_interventions[13]",
+          "value": "Τοποθέτηση / αντικατάσταση κελύφους για θερμομόνωση",
+          "found": false
+        },
+        {
+          "path": "extracted_data.eligible_interventions[14]",
+          "value": "Εγκατάσταση φωτοβολταϊκών ή άλλων ΑΠΕ",
+          "found": true
+        },
+        {
+          "path": "extracted_data.eligible_interventions[15]",
+          "value": "Εγκατάσταση συστήματος αποθήκευσης ενέργειας",
+          "found": true
+        },
+        {
+          "path": "extracted_data.eligible_interventions[16]",
+          "value": "Θερμομόνωση τοίχων, δαπέδων και οροφής",
+          "found": false
+        },
+        {
+          "path": "extracted_data.eligible_interventions[17]",
+          "value": "Αντικατάσταση κουφωμάτων με ενεργειακά αποδοτικά",
+          "found": false
+        },
+        {
+          "path": "extracted_data.eligible_interventions[18]",
+          "value": "Εγκατάσταση ηλιακών θερμοσίφωνων",
+          "found": false
+        },
+        {
+          "path": "extracted_data.eligible_interventions[19]",
+          "value": "Τοποθέτηση Ενεργειακών Κουφωμάτων-Υαλοπινάκων",
+          "found": true
+        },
+        {
+          "path": "extracted_data.eligible_interventions[20]",
+          "value": "Τοποθέτηση συστήματος Θέρμανσης-Ψύξης , αποκλειστικά με την αξιοποίηση ανανεώσιμης πηγής ενέργειας ή με σύστημα συμπαραγωγής ηλεκτρισμού και θερμότητας υψηλής απόδοσης (ενδεικτικά ηλεκτρική αντλία θερμότητας , κλιματιστικές μονάδες inverter ενεργειακής κλάσης Α+ και άνω)",
+          "found": true
+        },
+        {
+          "path": "extracted_data.eligible_interventions[21]",
+          "value": "Εγκατάσταση συστήματος αποθήκευσης ενέργειας(συσσωρευτές) από ανανεώσιμες πηγές ενέργειας",
+          "found": true
+        },
+        {
+          "path": "extracted_data.eligible_interventions[22]",
+          "value": "Εγκατάσταση Φωτοβολταικών σταθμών-μικρών ανεμογεννητριών και άλλων ΑΠΕ",
+          "found": true
+        },
+        {
+          "path": "extracted_data.eligible_interventions[23]",
+          "value": "Εργασίες τοποθέτησης /Υπηρεσίες Τεχνικού Συμβούλου-Μηχανικού",
+          "found": true
+        },
+        {
+          "path": "extracted_data.eligible_interventions[24]",
+          "value": "Εγκατάσταση συστημάτων εξωτερικής σκίασης",
+          "found": true
+        },
+        {
+          "path": "extracted_data.eligible_interventions[25]",
+          "value": "Συστήματα θέρμανσης-ψύξης με ανανεώσιμες πηγές ενέργειας",
+          "found": false
+        },
+        {
+          "path": "extracted_data.eligible_interventions[26]",
+          "value": "Θερμομόνωση Εσωτερική ή εξωτερική θερμομόνωση",
+          "found": true
+        },
+        {
+          "path": "extracted_data.eligible_interventions[27]",
+          "value": "Τοποθέτηση ενεργειακών κουφωμάτων και υαλοπινάκων",
+          "found": true
+        },
+        {
+          "path": "extracted_data.eligible_interventions[28]",
+          "value": "Ανανεώσιμες πηγές ενέργειας",
+          "found": true
+        },
+        {
+          "path": "extracted_data.eligible_interventions[29]",
+          "value": "Σύστημα αποθήκευσης ενέργειας (συσσωρευτές)",
+          "found": true
+        },
+        {
+          "path": "extracted_data.eligible_interventions[30]",
+          "value": "Θérμανση και ψύξη",
+          "found": true
+        },
+        {
+          "path": "extracted_data.eligible_interventions[31]",
+          "value": "Τοποθέτηση συστήματος θερμοστατικής ρύθμισης",
+          "found": true
+        },
+        {
+          "path": "extracted_data.eligible_parties[0]",
+          "value": "Ιδιώτες",
+          "found": true
+        },
+        {
+          "path": "extracted_data.eligible_parties[1]",
+          "value": "Νέοι",
+          "found": true
+        },
+        {
+          "path": "extracted_data.eligible_parties[2]",
+          "value": "Ζευγάρια",
+          "found": true
+        },
+        {
+          "path": "extracted_data.eligible_parties[3]",
+          "value": "Οικογένειες",
+          "found": true
+        },
+        {
+          "path": "extracted_data.eligible_parties[4]",
+          "value": "φυσικά πρόσωπα",
+          "found": true
+        },
+        {
+          "path": "extracted_data.eligible_parties[5]",
+          "value": "Φυσικά πρόσωπα που πληρούν τα ακόλουθα κριτήρια επιเลξιμότητας",
+          "found": false
+        },
+        {
+          "path": "extracted_data.eligible_parties[6]",
+          "value": "φυσικά πρόσωπα με εμπράγματο δικαίωμα",
+          "found": true
+        },
+        {
+          "path": "extracted_data.eligible_parties[7]",
+          "value": "Φυσικά πρόσωπα που έχουν εμπράγματο δικαίωμα",
+          "found": true
+        },
+        {
+          "path": "extracted_data.eligible_parties[8]",
+          "value": "φυσικά πρόσωπα-ιδιοκτήτες ακινήτων",
+          "found": false
+        },
+        {
+          "path": "extracted_data.eligible_parties[9]",
+          "value": "Ιδιοκτήτες κύριων ή μη εκμισθωμένων δευτερευουσών κατοικιών",
+          "found": false
+        },
+        {
+          "path": "extracted_data.eligible_parties[10]",
+          "value": "φυσικά πρόσωπα που έχουν εμπράγματο δι-καίωμα (πλήρη κυριότητα / επικαρπία / ψιλή κυριότητα) σε επιλέξιμη κατοिकία",
+          "found": true
+        },
+        {
+          "path": "extracted_data.eligible_parties[11]",
+          "value": "φυσικά πρόσωπα που έχουν οποιοδήποτε εμπράγματο δικαίωμα",
+          "found": true
+        },
+        {
+          "path": "extracted_data.eligible_parties[12]",
+          "value": "φυσικά πρόσωπα που διαθέτουν εμπράγματο δικαίωμα",
+          "found": true
+        },
+        {
+          "path": "extracted_data.eligible_parties[13]",
+          "value": "Ιδιώτης",
+          "found": true
+        },
+        {
+          "path": "extracted_data.eligible_parties[14]",
+          "value": "Εθνική Τράπεζα",
+          "found": true
+        },
+        {
+          "path": "extracted_data.energy_performance_targets[0]",
+          "value": "Θερμομόνωση (εσωτερική/εξωτερική)",
+          "found": true
+        },
+        {
+          "path": "extracted_data.energy_performance_targets[1]",
+          "value": "Κατασκευή πράσινης στέγης",
+          "found": true
+        },
+        {
+          "path": "extracted_data.energy_performance_targets[2]",
+          "value": "Τοποθέτηση ενεργειακών κουφωμάτων/υαλοπινάκων",
+          "found": true
+        },
+        {
+          "path": "extracted_data.energy_performance_targets[3]",
+          "value": "Τοποθέτηση ηλιακού θερμοσίφωνα",
+          "found": true
+        },
+        {
+          "path": "extracted_data.energy_performance_targets[4]",
+          "value": "Εγκατάσταση συστημάτων εξωτερικής μόνιμης σκίασης (όχι τέντες)",
+          "found": true
+        },
+        {
+          "path": "extracted_data.energy_performance_targets[5]",
+          "value": "Τοποθέτηση συστημάτων θέρμανσης/ψύξης με αξιοποίηση ανανεώσιμων πηγών ενέργειας ή με σύστημα συμπαραγωγής ηλεκτρισμού και θερμότητας υψηλής απόδοσης",
+          "found": true
+        },
+        {
+          "path": "extracted_data.energy_performance_targets[6]",
+          "value": "Εγκατάσταση συστημάτων θερμοστατικής ρύθμισης",
+          "found": true
+        },
+        {
+          "path": "extracted_data.energy_performance_targets[7]",
+          "value": "Εγκατάσταση συστημάτων αποθήκευσης ενέργειας (συσωρευτές)",
+          "found": true
+        },
+        {
+          "path": "extracted_data.energy_performance_targets[8]",
+          "value": "Εγκατάσταση φωτοβολταϊκών σταθμών – μικρών ανεμογεννητριών και άλλων ΑΠΕ",
+          "found": true
+        },
+        {
+          "path": "extracted_data.energy_performance_targets[9]",
+          "value": "1.1.Θερμομόνωση (εσωτερική/εξωτερική)",
+          "found": true
+        },
+        {
+          "path": "extracted_data.energy_performance_targets[10]",
+          "value": "1.2.Κατασκευή πράσινης στέγης",
+          "found": true
+        },
+        {
+          "path": "extracted_data.energy_performance_targets[11]",
+          "value": "1.3.Τοποθέτηση Ενεργειακών Κουφωμάτων-Υαλοπινάκων",
+          "found": false
+        },
+        {
+          "path": "extracted_data.energy_performance_targets[12]",
+          "value": "1.4.Τοποθέτηση Ηλιακού Θερμοσίφωνα",
+          "found": true
+        },
+        {
+          "path": "extracted_data.energy_performance_targets[13]",
+          "value": "1.5.Εγκατάσταση συστημάτων εξωτερικής μόνιμης σκίασης (όχι τέντες)",
+          "found": true
+        },
+        {
+          "path": "extracted_data.energy_performance_targets[14]",
+          "value": "1.6.Τοποθέτηση συστήματος Θέρμανσης-Ψύξης , αποκλειστικά με την αξιοποίηση ανανεώσιμης πηγής ενέργειας ή με σύστημα συμπαραγωγής ηλεκτρισμού και",
+          "found": true
+        },
+        {
+          "path": "extracted_data.energy_performance_targets[15]",
+          "value": "Εσωτερική και εξωτερική θερμομόνωση",
+          "found": true
+        },
+        {
+          "path": "extracted_data.energy_performance_targets[16]",
+          "value": "Εγκατάσταση ενεργειακών κουφωμάτων και υαλοπινάκων",
+          "found": true
+        },
+        {
+          "path": "extracted_data.energy_performance_targets[17]",
+          "value": "Ενεργειακή απόδοση",
+          "found": true
+        },
+        {
+          "path": "extracted_data.energy_performance_targets[18]",
+          "value": "Λογαριασμοί ενέργειας",
+          "found": true
+        },
+        {
+          "path": "extracted_data.funding_coverage",
+          "value": "Εξασφαλίστε 100% άτοκο δάνειο για να κάνετε εργασίες ενεργειακής αναβάθμισης στο σπίτι σας, χωρίς να πληρώσετε έξοδα για την αίτηση ή εισφορά του Ν.128/1975",
+          "found": false
+        },
+        {
+          "path": "extracted_data.funding_sources[0]",
+          "value": "Ελληνική Αναπτυξιακή Τράπεζα",
+          "found": true
+        },
+        {
+          "path": "extracted_data.funding_sources[1]",
+          "value": "Ταμείο Ανάκαμψης",
+          "found": false
+        },
+        {
+          "path": "extracted_data.funding_sources[2]",
+          "value": "Ευρωπαϊκής Ένωσης-NextGenerationEU",
+          "found": false
+        },
+        {
+          "path": "extracted_data.funding_sources[3]",
+          "value": "δανειακό σκέλος του Ταμείου Ανάκαμψης",
+          "found": false
+        },
+        {
+          "path": "extracted_data.funding_type",
+          "value": "Δάνειο",
+          "found": true
+        },
+        {
+          "path": "extracted_data.interest_rate",
+          "value": "0%",
+          "found": true
+        },
+        {
+          "path": "extracted_data.loan_duration",
+          "value": "3-7 έτη",
+          "found": true
+        },
+        {
+          "path": "extracted_data.managing_body",
+          "value": "Ελληνική Αναπτυξιακή Τράπεζα (ΕΑΤ)",
+          "found": true
+        },
+        {
+          "path": "extracted_data.maximum_funding_amount",
+          "value": "25.000€",
+          "found": true
+        },
+        {
+          "path": "extracted_data.minimum_funding_amount",
+          "value": "5.000€",
+          "found": true
+        },
+        {
+          "path": "extracted_data.post_completion_obligations",
+          "value": "Τελική εκταμίευση – Ολοκληρώνεται η εκταμίευση του υπόλοιπου δανείου, με την προϋπόθεση ότι προκύπτει υπόλοιπο ποσό δανείου που χρειάζεται να καταβληθεί μετά από τον έλεγχο των επιλέξιμων παραστατικών.",
+          "found": false
+        },
+        {
+          "path": "extracted_data.programme_name",
+          "value": "Αναβαθμίζω το Σπίτι Μου",
+          "found": true
+        },
+        {
+          "path": "extracted_data.programme_objective",
+          "value": "Αναβαθμίζω το Σπίτι μου – Όροι συμμετοχής - Ελλάδα 2.0 Αναβαθμίζω το Σπίτι μου - Όροι συμμετοχής Ανενεργή Απευθύνεται σε: Ιδιώτες/Πολίτες Απευθύνεται ειδικά σε: Φυσικά πρόσωπα που έχουν εμπράγματο δικαίωμα (πλήρη κυριότητα/ επικαρπία/ψιλή κυριότητα) σε επιλέξιμη κατοικία (κύρια ή μη εκμισθωμένη δευτερεύουσα). Αντικείμενο του προγράμματος είναι η παροχή συγχρηματοδοτούμενων στεγαστικών δανείων με πλήρη επιδότηση επιτοκίου, για την ενεργειακή βελτίωση υφιστάμενων κατοικιών (κύριες ή μη εκμισθωμένες δευτερεύουσες) φυσικών προσώπων, μέσω της υλοποίησης επιλέξιμων ενεργειακών παρεμβάσεων. Δικαιούχοι του Προγράμματος είναι φυσικά πρόσωπα που έχουν εμπράγματο δικαίωμα (πλήρη κυριότητα/ επικαρπία/ ψιλή κυριότητα) σε επιλέξιμη κατοικία (κύρια ή μη εκμισθωμένη δευτερεύουσα), με την προϋπόθεση ότι δεν έχουν καταστεί από 01.01.",
+          "found": true
+        },
+        {
+          "path": "extracted_data.property_requirements[0]",
+          "value": "Δικαίωμα συμμετοχής έχουν φυσικά πρόσωπα με εμπράγματο δικαίωμα (πλήρη κυριότητα/ επικαρπία/ψιλή κυριότητα) σε κύρια ή μη εκμισθωμένη δευτερεύουσα κατοικία",
+          "found": true
+        },
+        {
+          "path": "extracted_data.property_requirements[1]",
+          "value": "δωρεά δανείων ύψους 5.000 έως 25.000 €",
+          "found": true
+        },
+        {
+          "path": "extracted_data.property_requirements[2]",
+          "value": "πλήρη επιδότηση επιτοκίου για την ενεργειακή βελτίωση υφιστάμενων κατοικιών",
+          "found": true
+        },
+        {
+          "path": "extracted_data.property_requirements[3]",
+          "value": "Κύριες ή μη εκμισθωμένες δευτερεύουσες κατοικίες φυσικών προσώπων, εντός της ελληνικής επικράτειας, οι οποίες πληρούν τις προϋποθέσεις νομιμότητας.",
+          "found": false
+        },
+        {
+          "path": "extracted_data.property_requirements[4]",
+          "value": "πλήρη κυριότητα/ επικαρπία/ψιλή κυριότητα σε κύρια ή μη εκμισθωμένη δευτερεύουσα κατοικία",
+          "found": true
+        },
+        {
+          "path": "extracted_data.property_requirements[5]",
+          "value": "από 01.01.2020 δεν έχουν καταστεί ωφελούμενοι από οποιοδήποτε άλλο Πρόγραμμα ενεργειακής αναβάθμισης που χρηματοδοτείται με ενωσιακούς πόρους",
+          "found": true
+        },
+        {
+          "path": "extracted_data.property_requirements[6]",
+          "value": "Θερμομόνωση (εσωτερική/εξωτερική)",
+          "found": true
+        },
+        {
+          "path": "extracted_data.property_requirements[7]",
+          "value": "Κατασκευή πράσινης στέγης",
+          "found": true
+        },
+        {
+          "path": "extracted_data.property_requirements[8]",
+          "value": "Τοποθέτηση ενεργειακών κουφωμάτων/υαλοπινάκων",
+          "found": true
+        },
+        {
+          "path": "extracted_data.property_requirements[9]",
+          "value": "Τοποθέτηση ηλιακού θερμοσίφωνα",
+          "found": true
+        },
+        {
+          "path": "extracted_data.property_requirements[10]",
+          "value": "Εγκατάσταση συστημάτων εξωτερικής μόνιμης σκίασης (όχι τέντες)",
+          "found": true
+        },
+        {
+          "path": "extracted_data.property_requirements[11]",
+          "value": "Τοποθέτηση συστημάτων θέρμανσης/ψύξης με αξιοποίηση ανανεώσιμων πηγών ενέργειας ή με σύστημα συμπαραγωγής ηλεκτρισμού και θερμότητας υψηλής απόδοσης",
+          "found": true
+        },
+        {
+          "path": "extracted_data.property_requirements[12]",
+          "value": "Εγκατάσταση συστημάτων θερμοστατικής ρύθμισης",
+          "found": true
+        },
+        {
+          "path": "extracted_data.property_requirements[13]",
+          "value": "Εγκατάσταση συστημάτων αποθήκευσης ενέργειας (συσσωρευτές) από ανανεώσιμες πηγές ενέργειας",
+          "found": true
+        },
+        {
+          "path": "extracted_data.property_requirements[14]",
+          "value": "Εγκατάσταση φωτοβολταϊκών σταθμών – μικρών ανεμογεννητριών και άλλων ΑΠΕ",
+          "found": true
+        },
+        {
+          "path": "extracted_data.property_requirements[15]",
+          "value": "Τοποθέτηση Ενεργειακών Κουφωμάτων-υαλοπινάκων",
+          "found": true
+        },
+        {
+          "path": "extracted_data.property_requirements[16]",
+          "value": "τοποθέτηση συστήματος Θέρμανσης-Ψύξης, αποκλειστικά με την αξιοποίηση ανανεώσιμης πηγής ενέργειας ή με σύστημα συμπαραγωγής ηλεκτρισμού και θερмότητας υψηλής απόδοσης",
+          "found": true
+        },
+        {
+          "path": "extracted_data.property_requirements[17]",
+          "value": "Εγκατάσταση συστήματος θερμοστατικής ρύθμισης",
+          "found": true
+        },
+        {
+          "path": "extracted_data.property_requirements[18]",
+          "value": "Εγκατάσταση συστημάτων αποθήκευσης ενέργειας (συσωρευτές) από ανανεώσιμες πηγές ενέργειας",
+          "found": true
+        },
+        {
+          "path": "extracted_data.property_requirements[19]",
+          "value": "Θερμομόνωση (εσωτερική / εξωτερική)",
+          "found": true
+        },
+        {
+          "path": "extracted_data.property_requirements[20]",
+          "value": "Εγκατάσταση συστήματος Θέρμανσης-Ψύξης, αποκλειστικά με την αξιοποίηση ανανεώσιμης πηγής ενέργειας ή με σύστημα συμπαραγωγής ηλεκτρισμού και θερμότητας υψηλής απόδοσης",
+          "found": true
+        },
+        {
+          "path": "extracted_data.property_requirements[21]",
+          "value": "Εγκατάσταση συστήματος αποθήκευσης ενέργειας (συσωρευτές) από ανανεώσιμες πηγές ενέργειας",
+          "found": true
+        },
+        {
+          "path": "extracted_data.property_requirements[22]",
+          "value": "Θερμομόνωση τοίχων, δαπέδων και οροφής",
+          "found": false
+        },
+        {
+          "path": "extracted_data.property_requirements[23]",
+          "value": "Αντικατάσταση κουφωμάτων με ενεργειακά αποδοτικά",
+          "found": false
+        },
+        {
+          "path": "extracted_data.property_requirements[24]",
+          "value": "Εγκατάσταση ηλιακών θερμοσίφωνων",
+          "found": false
+        },
+        {
+          "path": "extracted_data.property_requirements[25]",
+          "value": "υφίσταται νόμιμα",
+          "found": false
+        },
+        {
+          "path": "extracted_data.property_requirements[26]",
+          "value": "αυτή έχει χρήση κατοικίας (κύριας ή μη εκμισθωμένης δευτερεύουσας)",
+          "found": false
+        },
+        {
+          "path": "extracted_data.property_requirements[27]",
+          "value": "τοποθέτηση συστήματος Θέρμανσης-Ψύξης",
+          "found": false
+        },
+        {
+          "path": "extracted_data.property_requirements[28]",
+          "value": "κύρια ή μη εκμισθωμένη δευτερεύουσα, ανά ΑΦΜ και για ένα μόνο ακίνητο",
+          "found": false
+        },
+        {
+          "path": "extracted_data.property_requirements[29]",
+          "value": "κύρια ή μη εκμισθωμένη δευτερεύουσα κατοικία",
+          "found": true
+        },
+        {
+          "path": "extracted_data.property_requirements[30]",
+          "value": "η κατοικία πρέπει να μην έχει ενταχθεί σε άλλο πρόγραμμα ενεργειακής αναβάθμισης από την 1η Ιανουαρίου 2020",
+          "found": false
+        },
+        {
+          "path": "extracted_data.property_requirements[31]",
+          "value": "Είναι νόμιμο.",
+          "found": true
+        },
+        {
+          "path": "extracted_data.property_requirements[32]",
+          "value": "Μην ενοικιάζεται.",
+          "found": false
+        },
+        {
+          "path": "extracted_data.property_requirements[33]",
+          "value": "Έχω πάρει άλλο χρηματοδοτούμενο δάνειο για ενεργειακή αναβάθμιση στο ίδιο σπίτι.",
+          "found": false
+        },
+        {
+          "path": "extracted_data.property_requirements[34]",
+          "value": "Μπορώ να κάνω αίτηση; Όχι.",
+          "found": false
+        },
+        {
+          "path": "extracted_data.property_requirements[35]",
+          "value": "Τοποθέτηση συστήματος Θέρμανσης-Ψύξης, αποκλειστικά με ΑΠΕ ή με σύστημα συμπαραγωγής ηλεκτρισμού και θερμότητας υψηλής απόδοσης",
+          "found": true
+        },
+        {
+          "path": "extracted_data.property_requirements[36]",
+          "value": "Εγκατάσταση συστήματος αποθήκευσης ενέργειας (συσωρευτές)",
+          "found": false
+        },
+        {
+          "path": "extracted_data.property_requirements[37]",
+          "value": "Εγκατάσταση φωτοβολταϊκών, ανεμογεννητριών ή άλλων ΑΠΕ",
+          "found": true
+        },
+        {
+          "path": "extracted_data.total_budget",
+          "value": "400 εκατομμύρια ευρώ",
+          "found": false
+        },
+        {
+          "path": "extracted_data.source_urls[0]",
+          "value": "https://oikogeneia.gov.gr/programs/anavathmizo-to-spiti-mou/",
+          "found": false
+        },
+        {
+          "path": "extracted_data.source_urls[1]",
+          "value": "https://greece20.gov.gr/home-loans",
+          "found": false
+        },
+        {
+          "path": "extracted_data.source_urls[2]",
+          "value": "https://stegasi.gov.gr/programs/anavathmizo-to-spiti-mou/",
+          "found": false
+        },
+        {
+          "path": "extracted_data.source_urls[3]",
+          "value": "https://greece20.gov.gr/anavathmizo-to-spiti-moy/",
+          "found": false
+        },
+        {
+          "path": "extracted_data.source_urls[4]",
+          "value": "https://greece20.gov.gr/?calls=programma-sygchrimatodotoymenon-stegastikon-daneion-anavathmizo-to-spiti-moy",
+          "found": false
+        },
+        {
+          "path": "extracted_data.source_urls[5]",
+          "value": "https://hdb.gr/anavathmizo-to-spiti-mou/",
+          "found": false
+        },
+        {
+          "path": "extracted_data.source_urls[6]",
+          "value": "https://www.chaniabank.gr/idiotes/dania/anavathmizo-to-spiti-moy/",
+          "found": false
+        },
+        {
+          "path": "extracted_data.source_urls[7]",
+          "value": "https://www.crediabank.com/idiotes/daneia/stegastika/programma-anavathmizo-to-spiti-mou/",
+          "found": false
+        },
+        {
+          "path": "extracted_data.source_urls[8]",
+          "value": "https://www.piraeusbank.gr/el/idiwtes/proionta-upiresies/stegastika-daneia/anabathmizo-to-spiti-mou",
+          "found": false
+        },
+        {
+          "path": "extracted_data.source_urls[9]",
+          "value": "https://www.epirusbank.com/citizens/anavathmizo-to-spiti-mou",
+          "found": false
+        },
+        {
+          "path": "extracted_data.source_urls[10]",
+          "value": "https://www.bankofthessaly.gr/idiotes/prasina-daneia/anavathmizo-to-spiti-mou/",
+          "found": false
+        },
+        {
+          "path": "extracted_data.source_urls[11]",
+          "value": "https://www.bankofkarditsa.com.gr/el/idiotes/daneia/anavathmizo-to-spiti-mou",
+          "found": false
+        },
+        {
+          "path": "extracted_data.source_urls[12]",
+          "value": "https://www.alpha.gr/el/idiotes/daneia/episkevastika-daneia-gia-anakainisi/programma-anavathmizo-to-spiti-mou",
+          "found": false
+        },
+        {
+          "path": "extracted_data.source_urls[13]",
+          "value": "https://www.nbg.gr/el/idiwtes/daneia/stegastika-daneia/episkeuastika-daneia/anavathmizw-to-spiti-mou",
+          "found": false
+        },
+        {
+          "path": "extracted_data.source_urls[14]",
+          "value": "https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/programma-anabathmizo-to-spiti-mou",
+          "found": false
+        },
+        {
+          "path": "extracted_data.source_url",
+          "value": "https://oikogeneia.gov.gr/programs/anavathmizo-to-spiti-mou/",
+          "found": false
+        },
+        {
+          "path": "extracted_data.id",
+          "value": "program-6d328bca85",
+          "found": false
+        }
+      ]
+    },
+    {
+      "status": "ok",
+      "classification_file": "output\\evaluation\\qa_full_runs\\smoke_check_20260618T044917757781Z\\classifications\\004_www.nbg.gr_el_idiwtes_daneia_daneia-exoikonomisis-energeias_f784a97e_classification.json",
+      "scraped_file": "output\\va3_scraper_to_template\\20260617T035145Z_www.nbg.gr_el_idiwtes_daneia_daneia-exoikonomisis-energeias_prasino-daneio-spitiou-h-autokinhtou_d27b3e33_scraped.txt",
+      "summary": {
+        "total_checked": 14,
+        "found": 9,
+        "missing": 5,
+        "coverage": 0.6429
+      },
+      "results": [
+        {
+          "path": "extracted_data.contact_info[0]",
+          "value": "210 690 5200",
+          "found": false
+        },
+        {
+          "path": "extracted_data.contact_info[1]",
+          "value": "Εστία Πράσινη online",
+          "found": true
+        },
+        {
+          "path": "extracted_data.description",
+          "value": "Δάνεια Εξοικονόμησης Ενέργειας | Εθνική Τράπεζα Δάνεια Εξοικονόμησης Ενέργειας Πείτε \"ναι\" στα θέλω σας με σεβασμό προς το περιβάλλον Βρείτε το δάνειο Εξοικονόμησης Ενέργειας που ταιριάζει στα θέλω σας Εστία Πράσινη Ενεργειακά αναβαθμισμένο σπίτι Πράσινο Δάνειο με την εγγύηση του Ευρωπαϊκού Ταμείου Επενδύσεων (EIF).",
+          "found": true
+        },
+        {
+          "path": "extracted_data.eligible_interventions[0]",
+          "value": "πράσινο δάνειο με την εγγύηση του Ευρωπαϊκού Ταμείου Επενδύσεων (EIF)",
+          "found": true
+        },
+        {
+          "path": "extracted_data.eligible_interventions[1]",
+          "value": "αναβαθμισμένο σπίτι",
+          "found": true
+        },
+        {
+          "path": "extracted_data.eligible_interventions[2]",
+          "value": "πράσινο δάνειο για την απόκτηση λύσεων εξοικονόμησης ενέργειας",
+          "found": true
+        },
+        {
+          "path": "extracted_data.eligible_parties[0]",
+          "value": "Ιδιώτες",
+          "found": true
+        },
+        {
+          "path": "extracted_data.funding_sources[0]",
+          "value": "Ευρωπαϊκό Ταμείο Επενδύσεων (EIF)",
+          "found": true
+        },
+        {
+          "path": "extracted_data.funding_type",
+          "value": "Δάνειο",
+          "found": true
+        },
+        {
+          "path": "extracted_data.programme_name",
+          "value": "Εξοικονομώ",
+          "found": false
+        },
+        {
+          "path": "extracted_data.programme_objective",
+          "value": "Δάνεια Εξοικονόμησης Ενέργειας | Εθνική Τράπεζα Δάνεια Εξοικονόμησης Ενέργειας Πείτε \"ναι\" στα θέλω σας με σεβασμό προς το περιβάλλον Βρείτε το δάνειο Εξοικονόμησης Ενέργειας που ταιριάζει στα θέλω σας Εστία Πράσινη Ενεργειακά αναβαθμισμένο σπίτι Πράσινο Δάνειο με την εγγύηση του Ευρωπαϊκού Ταμείου Επενδύσεων (EIF).",
+          "found": true
+        },
+        {
+          "path": "extracted_data.source_urls[0]",
+          "value": "https://www.nbg.gr/el/idiwtes/daneia/daneia-exoikonomisis-energeias",
+          "found": false
+        },
+        {
+          "path": "extracted_data.source_url",
+          "value": "https://www.nbg.gr/el/idiwtes/daneia/daneia-exoikonomisis-energeias",
+          "found": false
+        },
+        {
+          "path": "extracted_data.id",
+          "value": "program-f784a97ef9",
+          "found": false
+        }
+      ]
+    },
+    {
+      "status": "ok",
+      "classification_file": "output\\evaluation\\qa_full_runs\\smoke_check_20260618T044917757781Z\\classifications\\005_www.eurobank.gr_el_retail_proionta-upiresies_proionta_daneia_prasina_eksoikonomo-2023_38e6dacb_classification.json",
+      "scraped_file": "output\\va3_scraper_to_template\\20260518T100652Z_www.eurobank.gr_el_retail_proionta-upiresies_proionta_daneia_prasina_eksoikonomo-2023_38e6dacb_scraped.txt",
+      "summary": {
+        "total_checked": 18,
+        "found": 16,
+        "missing": 2,
+        "coverage": 0.8889
+      },
+      "results": [
+        {
+          "path": "extracted_data.application_process",
+          "value": "online",
+          "found": true
+        },
+        {
+          "path": "extracted_data.completion_delay_consequences",
+          "value": "Εάν δεν τον έχετε πετύχει, ανακαλείται η απόφαση για υπαγωγή σας στο πρόγραμμα «Εξοικονομώ 2023» και δεν θα μπορείτε να λάβετε τις ενισχύσεις που προσφέρει.",
+          "found": true
+        },
+        {
+          "path": "extracted_data.description",
+          "value": "Εξοικονομώ 2023» | Eurobank Πρόγραμμα «Εξοικονομώ 2023» Έως 24.750€ / κατοικία για ενεργειακή αναβάθμιση Έως 75% επιχορήγηση του κόστους των εργασιών 100% επιδότηση τόκων δανείου Εάν είστε δικαιούχος του προγράμματος «Εξοικονομώ 2023», επιλέξτε την Eurobank ως τράπεζα συνεργασίας ή/και χρηματοδότησης και εξασφαλίστε αυτοματοποιημένη ψηφιακή διαδικασία αιτήσεων για άμεση προέγκριση και γρηγορότερη εκταμίευση του δανείου. Ενημερωθείτε αυτόματα για εκκρεμότητες της αίτησής σας. Με την εκταμίευση του δανείου, κερδίζετε 20 ευρώ €πιστροφή και εκπτώσεις σε νέα συμβόλαια για ασφαλιστικά προγράμματα της Eurolife FFH. Για να λύσετε απορίες σας σχετικά με το δάνειό σας στο πλαίσιο του «Εξοικονομώ 2023» (ή παλιότερου προγράμματος), τηλεφωνήστε στο EuroPhone Banking: 2109555000 , Δευτέρα έως Παρασκευή (εργάσιμες ημέρες), 09:00-17:00 Εάν θέλετε να σας συστήσουμε ενεργειακό επιθεωρητ",
+          "found": true
+        },
+        {
+          "path": "extracted_data.eligibility_criteria[0]",
+          "value": "είστε ιδιοκτήτης του σπιτιού",
+          "found": true
+        },
+        {
+          "path": "extracted_data.eligible_interventions[0]",
+          "value": "αναβάθμιση ενεργειακής κατανόησης",
+          "found": true
+        },
+        {
+          "path": "extracted_data.funding_coverage",
+          "value": "100%",
+          "found": true
+        },
+        {
+          "path": "extracted_data.funding_type",
+          "value": "δάνειο",
+          "found": true
+        },
+        {
+          "path": "extracted_data.interest_rate",
+          "value": "Σταθερό επιτόκιο Σε όλη τη διάρκεια του δανείου που συνδέεται με το πρόγραμμα «Εξοικονομώ 2023», το επιτόκιο είναι σταθερό και ίσο με: 6,50% επιτόκιο (επιδοτούμενο 100%) + 0,12% (εισφορά Ν.128/1975",
+          "found": true
+        },
+        {
+          "path": "extracted_data.loan_duration",
+          "value": "5 χρόνια",
+          "found": true
+        },
+        {
+          "path": "extracted_data.managing_body",
+          "value": "Ευρωπαϊκή Επιτροπή",
+          "found": false
+        },
+        {
+          "path": "extracted_data.maximum_funding_amount",
+          "value": "10.000€",
+          "found": true
+        },
+        {
+          "path": "extracted_data.minimum_funding_amount",
+          "value": "5.001€",
+          "found": true
+        },
+        {
+          "path": "extracted_data.post_completion_obligations",
+          "value": "Κατά την τελική εκταμίευση του προγράμματος οι αμοιβές των ενεργειακών επιθεωρητών πιστώνονται στον λογαριασμό σας, με βάση τις αποδείξεις που ανεβάζετε στην ηλεκτρονική πλατφόρμα του προγράμματος.",
+          "found": true
+        },
+        {
+          "path": "extracted_data.programme_name",
+          "value": "Εξοικονομώ 2023",
+          "found": true
+        },
+        {
+          "path": "extracted_data.programme_objective",
+          "value": "Εξοικονομώ 2023» | Eurobank Πρόγραμμα «Εξοικονομώ 2023» Έως 24.750€ / κατοικία για ενεργειακή αναβάθμιση Έως 75% επιχορήγηση του κόστους των εργασιών 100% επιδότηση τόκων δανείου Εάν είστε δικαιούχος του προγράμματος «Εξοικονομώ 2023», επιλέξτε την Eurobank ως τράπεζα συνεργασίας ή/και χρηματοδότησης και εξασφαλίστε αυτοματοποιημένη ψηφιακή διαδικασία αιτήσεων για άμεση προέγκριση και γρηγορότερη εκταμίευση του δανείου. Ενημερωθείτε αυτόματα για εκκρεμότητες της αίτησής σας. Με την εκταμίευση του δανείου, κερδίζετε 20 ευρώ €πιστροφή και εκπτώσεις σε νέα συμβόλαια για ασφαλιστικά προγράμματα της Eurolife FFH. Για να λύσετε απορίες σας σχετικά με το δάνειό σας στο πλαίσιο του «Εξοικονομώ 2023» (ή παλιότερου προγράμματος), τηλεφωνήστε στο EuroPhone Banking: 2109555000 , Δευτέρα έως Παρασκευή (εργάσιμες ημέρες), 09:00-17:00 Εάν θέλετε να σας συστήσουμε ενεργειακό επιθεωρητ",
+          "found": true
+        },
+        {
+          "path": "extracted_data.source_urls[0]",
+          "value": "https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/eksoikonomo-2023",
+          "found": true
+        },
+        {
+          "path": "extracted_data.source_url",
+          "value": "https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/eksoikonomo-2023",
+          "found": true
+        },
+        {
+          "path": "extracted_data.id",
+          "value": "2023-38e6dacb34",
+          "found": false
+        }
+      ]
+    },
+    {
+      "status": "ok",
+      "classification_file": "output\\evaluation\\qa_full_runs\\smoke_check_20260618T044917757781Z\\classifications\\006_www.gov.gr_ipiresies_periousia-kai-phorologia_diakheirise-akinetes-periousias_exoikonomo-2025_2892978b_classification.json",
+      "scraped_file": "output\\va3_scraper_to_template\\20260618T044525Z_www.gov.gr_ipiresies_periousia-kai-phorologia_diakheirise-akinetes-periousias_exoikonomo-2025_2892978b_scraped.txt",
+      "summary": {
+        "total_checked": 91,
+        "found": 44,
+        "missing": 47,
+        "coverage": 0.4835
+      },
+      "results": [
+        {
+          "path": "extracted_data.application_end_date",
+          "value": "13/4/2025",
+          "found": true
+        },
+        {
+          "path": "extracted_data.application_start_date",
+          "value": "08/01/2025",
+          "found": false
+        },
+        {
+          "path": "extracted_data.completion_deadline",
+          "value": "30 Ιουνίου 2026",
+          "found": true
+        },
+        {
+          "path": "extracted_data.completion_delay_consequences",
+          "value": "Εάν δεν πετύχει τον ελάχιστο ενεργειακό στόχο του προγράμματος, ανακαλείται η απόφαση για υπαγωγή σας στο πρόγραμμα «Εξοικονομώ 2025» και δεν θα μπορείτε να λάβετε τις ενισχύσεις που προσφέρει.",
+          "found": true
+        },
+        {
+          "path": "extracted_data.contact_info[0]",
+          "value": "210 690 5200",
+          "found": false
+        },
+        {
+          "path": "extracted_data.description",
+          "value": "Μετάβαση στο κύριο περιεχόμενο Ενεργοποίηση προσβασιμότητας για χαμηλή όραση Ανοίξτε το μενού προσβασιμότητας ΕΛΛΗΝΙΚΗ ΔΗΜΟΚΡΑΤΙΑ Υπουργειο Κοινωνικης Συνοχης και Οικογενειας Βρες το πρόγραμμά σου Εξοικονομώ 2025 Δήμοι - Οργανισμός Προνοιακών Επιδομάτων και Κοινωνικής Αλληλεγγύης - Υπουργείο Περιβάλλοντος και Ενέργειας Σε εξέλιξη Παρήλθε η περίοδος αιτήσεων Αρχική /Όλα Τα Προγράμματα /Στεγαστικά Προγράμματα /Εξοικονομώ 2025 Πληροφορίες Προγράμματος Στόχος του προγράμματος είναι η εξοικονόμηση ενέργειας, μέσω βελτίωσης της ενεργειακής κλάσης των νοικοκυριών, επιτυγχάνοντας εξοικονόμηση πρωτογενούς ενέργειας πάνω από 30% για κάθε κατοικία, μέσω της ενεργειακής αναβάθμισης κατά τουλάχιστον 3 ενεργειακές κατηγορίες.",
+          "found": false
+        },
+        {
+          "path": "extracted_data.duration",
+          "value": "2025",
+          "found": true
+        },
+        {
+          "path": "extracted_data.eligibility_criteria[0]",
+          "value": "Ατομικό εισόδημα: ≤5.000 ή οικογενειακό εισόδημα: ≤10.000",
+          "found": false
+        },
+        {
+          "path": "extracted_data.eligibility_criteria[1]",
+          "value": "Ατομικό εισόδημα: >5.000 ή οικογενειακό εισόδημα: >10.000",
+          "found": false
+        },
+        {
+          "path": "extracted_data.eligibility_criteria[2]",
+          "value": "Να είστε φυσικό πρόσωπο.",
+          "found": false
+        },
+        {
+          "path": "extracted_data.eligibility_criteria[3]",
+          "value": "Να είστε ο ιδιοκτήτης του ακινήτου, δηλαδή να έχετε πλήρη κυριότητα, ψιλή κυριότητα ή επικαρπία, ή να είστε ενοικιαστής με μισθωτήριο συμβόλαιο που να έχει διάρκεια υπολειπόμενης ισχύος μίσθωσης τουλάχιστον 7 έτη κατά την υποβολή της αίτησης.",
+          "found": false
+        },
+        {
+          "path": "extracted_data.eligibility_criteria[4]",
+          "value": "Ατομικό Εισόδημα (€) ≤5.000 ή Οικογενειακό Εισόδημα (€) ≤10.000",
+          "found": false
+        },
+        {
+          "path": "extracted_data.eligibility_criteria[5]",
+          "value": "Ωφελούμενοι της εισοδηματικής κατηγορίας 1",
+          "found": false
+        },
+        {
+          "path": "extracted_data.eligibility_criteria[6]",
+          "value": "δικαίωμα συμμετοχής έχει μόνο εκείνος που την ιδιοκατοikεί σε περιπτώσεις δωρεάν παραχώρησης / ενοικίασης",
+          "found": false
+        },
+        {
+          "path": "extracted_data.eligible_interventions[0]",
+          "value": "Μονώσεις",
+          "found": false
+        },
+        {
+          "path": "extracted_data.eligible_interventions[1]",
+          "value": "Τοποθέτηση / αντικατάσταση κελύφους για θερμομόνωση",
+          "found": false
+        },
+        {
+          "path": "extracted_data.eligible_interventions[2]",
+          "value": "Αναβάθμιση συστήματος ζεστού νερού χρήσης μέσω ΑΠΕ",
+          "found": true
+        },
+        {
+          "path": "extracted_data.eligible_interventions[3]",
+          "value": "Εγκατάσταση συστήματος αποθήκευσης ενέργειας",
+          "found": true
+        },
+        {
+          "path": "extracted_data.eligible_interventions[4]",
+          "value": "Αντικατάσταση κουφωμάτων",
+          "found": true
+        },
+        {
+          "path": "extracted_data.eligible_interventions[5]",
+          "value": "Αναβάθμιση συστήματος θέρμανσης / ψύξης",
+          "found": true
+        },
+        {
+          "path": "extracted_data.eligible_interventions[6]",
+          "value": "ενωσιακής ενεργειακής πολιτικής για την εξοικονόμηση ενέργειας",
+          "found": true
+        },
+        {
+          "path": "extracted_data.eligible_interventions[7]",
+          "value": "μέσω βελτίωσης της ενεργειακής κλάσης των νοικοκυριών",
+          "found": false
+        },
+        {
+          "path": "extracted_data.eligible_interventions[8]",
+          "value": "μέσω της ενεργειακής αναβάθμισης κατά τουλάχιστον 3 ενεργειακές κατηγορίες",
+          "found": true
+        },
+        {
+          "path": "extracted_data.eligible_interventions[9]",
+          "value": "Αντικατάσταση φωτισμού με LED",
+          "found": false
+        },
+        {
+          "path": "extracted_data.eligible_interventions[10]",
+          "value": "Μονωμένη θερμομόνωση",
+          "found": false
+        },
+        {
+          "path": "extracted_data.eligible_interventions[11]",
+          "value": "Εγκατάσταση καυστήρα ή λέβητα που λειτουργεί με φυσικό αέριο",
+          "found": false
+        },
+        {
+          "path": "extracted_data.eligible_interventions[12]",
+          "value": "Αντικατάσταση παλιού κλιματιστικού με καινούργιο τύπου Inverter",
+          "found": false
+        },
+        {
+          "path": "extracted_data.eligible_interventions[13]",
+          "value": "Ενεργειακή αναβάθμιση κατοικίας",
+          "found": true
+        },
+        {
+          "path": "extracted_data.eligible_interventions[14]",
+          "value": "ενεργειακής ανακαίνισης στον οικιακό κτηριακό τομέα: Επιχορήγηση από 50% έως 100% του προϋπολογισμού των εργασιών",
+          "found": false
+        },
+        {
+          "path": "extracted_data.eligible_interventions[15]",
+          "value": "υποχρεωτική αναβάθμιση κατά τουλάχιστον τρείς ενεργειακές κατηγορίες",
+          "found": true
+        },
+        {
+          "path": "extracted_data.eligible_interventions[16]",
+          "value": "Εγκατάσταση φωτοβολταϊκών ή άλλων ΑΠΕ",
+          "found": false
+        },
+        {
+          "path": "extracted_data.eligible_parties[0]",
+          "value": "Οικογένειες με μέλος/μέλη ΑμεΑ",
+          "found": true
+        },
+        {
+          "path": "extracted_data.eligible_parties[1]",
+          "value": "Οικογένειες με τρία εξαρτώμετα τέκνα",
+          "found": true
+        },
+        {
+          "path": "extracted_data.eligible_parties[2]",
+          "value": "Πληγέντες σεισμόπληκτους",
+          "found": true
+        },
+        {
+          "path": "extracted_data.eligible_parties[3]",
+          "value": "Ευάλωτα νοικοκυριά",
+          "found": true
+        },
+        {
+          "path": "extracted_data.eligible_parties[4]",
+          "value": "πληγέντες φυσικών καταστροφών των περιοχών της Θεσσαλίας, της Στερεάς Ελλάδας, της Κεντρικής και Δυτικής Μακεδονίας και τους σεισμόπληκτους του Αρκαλοχωρίου και της Σάμου",
+          "found": false
+        },
+        {
+          "path": "extracted_data.eligible_parties[5]",
+          "value": "οικογένειες με τρία (3) ή περισσότερα εξαρτώμενα τέκνα",
+          "found": true
+        },
+        {
+          "path": "extracted_data.eligible_parties[6]",
+          "value": "πληγέντες φυσικών καταστροφών των περιοχών της Θεσσαλίας, της Στερεάς Ελλάδας, της Κεντρικής και Δυτικής Μακεδονίας",
+          "found": false
+        },
+        {
+          "path": "extracted_data.eligible_parties[7]",
+          "value": "Φυσικό πρόσωπο",
+          "found": false
+        },
+        {
+          "path": "extracted_data.eligible_parties[8]",
+          "value": "Χωρίς εξασφάλιση",
+          "found": false
+        },
+        {
+          "path": "extracted_data.eligible_parties[9]",
+          "value": "ωφελούμενοι της εισοδηματικής κατηγορίας 1",
+          "found": false
+        },
+        {
+          "path": "extracted_data.eligible_parties[10]",
+          "value": "ωφελούμενοι της εισοδηματικής κατηγορίας 2",
+          "found": false
+        },
+        {
+          "path": "extracted_data.eligible_parties[11]",
+          "value": "υφίσταται νόμιμα κατοικία",
+          "found": true
+        },
+        {
+          "path": "extracted_data.eligible_parties[12]",
+          "value": "φυσικά πρόσωπα που έχουν εμπράγματο δικαίωμα (πλήρους κυριότητας / επικαρπίας / ψιλής κυριότητας) σε επιλέξιμη κατοिकία",
+          "found": false
+        },
+        {
+          "path": "extracted_data.energy_performance_targets[0]",
+          "value": "30%",
+          "found": true
+        },
+        {
+          "path": "extracted_data.energy_performance_targets[1]",
+          "value": "30% για κάθε κατοικία",
+          "found": true
+        },
+        {
+          "path": "extracted_data.energy_performance_targets[2]",
+          "value": "εξοικονόμηση πρωτογενούς ενέργειας πάνω από 30% για κάθε κατοικία",
+          "found": true
+        },
+        {
+          "path": "extracted_data.energy_performance_targets[3]",
+          "value": "Αναβάθμιση του ακινήτου σας κατά τουλάχιστον 3 ενεργειακές κατηγορίες μετά την ολοκλήρωση των εργασιών (ελάχιστος ενεργειακός στόχος), ώστε να εξασφαλίζεται εξοικονόμηση ενέργειας σε ποσοστό πάνω από 30%.",
+          "found": false
+        },
+        {
+          "path": "extracted_data.energy_performance_targets[4]",
+          "value": "Ενεργειακή αναβάθμιση για να μειώσει την κατανάλωση ενέργειας",
+          "found": true
+        },
+        {
+          "path": "extracted_data.energy_performance_targets[5]",
+          "value": "30% εξοικονόμηση πρωτογενούς ενέργειας",
+          "found": true
+        },
+        {
+          "path": "extracted_data.energy_performance_targets[6]",
+          "value": "κάλυψη: του κόστους των δύο ενεργειακών επιθεωρήσεων και της καταχώρησης της Πρότασης Παρεμβάσεων και της Καταγραφής Παρεμβάσεων της αμοιβής για την κατάρτιση της Ηλεκτρονικής Ταυτότητας Κτιρίου/Διηρημένης Ιδιοκτησίας της αμοιβής του Τεχνικού Συμβούλου της αμοιβής για τυχόν εκδόσεις αδειών/βεβαιώσεων/εγκρίσεων ή εκπόνησης μελετών που απαιτούνται από την κείμενη νομοθεσία για την υλοποίηση παρεμβάσεων",
+          "found": false
+        },
+        {
+          "path": "extracted_data.funding_coverage",
+          "value": "έως το 100% του επιλέξιμου προϋπολογισμού παρεμβάσεων υφίσταται η δυνατότητα χορήγησης δανείου για την εισοδηματική κατηγορία 2 με επιδότηση επιτοκίου, στη βάση σχετικού αιτήματος του Ωφελούμενου",
+          "found": false
+        },
+        {
+          "path": "extracted_data.funding_sources[0]",
+          "value": "Ταμείο Ανάκαμψης και Ανθεκτικότητας",
+          "found": false
+        },
+        {
+          "path": "extracted_data.funding_sources[1]",
+          "value": "πόρους του Ταμείου Ανάκαμψης και Ανθεκτικότητας",
+          "found": false
+        },
+        {
+          "path": "extracted_data.funding_type",
+          "value": "Δάνειο",
+          "found": false
+        },
+        {
+          "path": "extracted_data.interest_rate",
+          "value": "7,5% 100% επιδοτούμενο πλέον εισφοράς Ν.128/75",
+          "found": false
+        },
+        {
+          "path": "extracted_data.loan_duration",
+          "value": "4-6 χρόνια",
+          "found": false
+        },
+        {
+          "path": "extracted_data.managing_body",
+          "value": "Οργανισμός Προνοιακών Επιδομάτων και Κοινωνικής Αλληλεγγύης - Υπουργείο Περιβάλλοντος και Ενέργειας",
+          "found": false
+        },
+        {
+          "path": "extracted_data.maximum_funding_amount",
+          "value": "17.500€",
+          "found": false
+        },
+        {
+          "path": "extracted_data.minimum_funding_amount",
+          "value": "300€",
+          "found": false
+        },
+        {
+          "path": "extracted_data.post_completion_obligations",
+          "value": "Κατά την τελική εκταμίευση του προγράμματος οι αμοιβές των ενεργειακών επιθεωρητών πιστώνονται στον λογαριασμό σας, με βάση τις αποδείξεις που ανεβάζετε στην ηλεκτρονική πλατφόρμα του προγράμματος.",
+          "found": false
+        },
+        {
+          "path": "extracted_data.programme_name",
+          "value": "Εξοικονομώ 2025",
+          "found": true
+        },
+        {
+          "path": "extracted_data.programme_objective",
+          "value": "ΕΞΟΙΚΟΝΟΜΩ 2025 : Οδηγός / Παραρτήματα Μετάβαση στο περιεχόμενο Οδηγός / Παραρτήματα / Οδηγός Προγράμματος Οδηγός Προγράμματος Εξοικονομώ 2025 Παραρτήματα Οδηγού 1. ΠΑΡΑΡΤΗΜΑ Ι Δικαιολογητικά Υποβολής Αίτησης.pdf 2. ΠΑΡΑΡΤΗΜΑ II Πρόταση Παρεμβάσεων.pdf 3. ΠΑΡΑΡΤΗΜΑ ΙΙΙ Δήλωση Ωφελούμενου Υποβολής Αίτησης.pdf 4. ΠΑΡΑΡΤΗΜΑ IV Καταγραφή Παρεμβάσεων.pdf 5. ΠΑΡΑΡΤΗΜΑ V Δήλωση πιστοποίησης και Δικαιολογητικά.pdf 6. ΠΑΡΑΡΤΗΜΑ VΙ ΥΔ για ενισχύσεις βάσει de minimis.docx 7. ΠΑΡΑΡΤΗΜΑ VII ΥΔ Μη υποχρέωσης υποβολής δήλωσης φορολογίας.doc 8. ΠΑΡΑΡΤΗΜΑ VIII YΔ Χρήσης ακινήτου.doc 8.Β. ΠΑΡΑΡΤΗΜΑ VIII Β YΔ Χρήσης ακινήτου.doc 9. ΠΑΡΑΡΤΗΜΑ ΙΧ- Κριτήριο Αξιολόγησης.pdf 10. ΠΑΡΑΡΤΗΜΑ X Βεβαίωση εκτέλεσης εργασιών.pdf",
+          "found": false
+        },
+        {
+          "path": "extracted_data.property_requirements[0]",
+          "value": "Υφίσταται νόμιμα / Δεν έχει κριθεί κατεδαφιστέα. Χρησιμοποιείται ως κύρια κατοικία. Έχει καταταχθεί βάσει του Πρώτου Πιστοποιητικού Ενεργειακής Απόδοσης (Α’ Π.Ε.Α.) σε κατηγορία χαμηλότερη ή ίση της Γ.",
+          "found": true
+        },
+        {
+          "path": "extracted_data.property_requirements[1]",
+          "value": "υφίσταται νόμιμα",
+          "found": true
+        },
+        {
+          "path": "extracted_data.property_requirements[2]",
+          "value": "δεν έχει κριθεί κατεδαφιστέα",
+          "found": true
+        },
+        {
+          "path": "extracted_data.property_requirements[3]",
+          "value": "χρησιμοποιείται ως κύρια κατοικία",
+          "found": true
+        },
+        {
+          "path": "extracted_data.property_requirements[4]",
+          "value": "έχει καταταχθεί βάσει του Πρώτου Πιστοποιητικού Ενεργειακής Απόδοσης (Α’ Π.Ε.Α.) σε κατηγορία χαμηλότερη ή ίση της Γ.",
+          "found": true
+        },
+        {
+          "path": "extracted_data.property_requirements[5]",
+          "value": "βελτίωση της ενεργειακής κλάσης των νοικοキュριών",
+          "found": false
+        },
+        {
+          "path": "extracted_data.property_requirements[6]",
+          "value": "Να χρησιμοποιείται ως κύρια κατοικία είτε από εσάς που κατοικείτε σε αυτή ως ιδιοκτήτης (ιδιοκατοίκηση) είτε από κάποιο άλλο πρόσωπο (π.χ. ενοικιαστή).",
+          "found": false
+        },
+        {
+          "path": "extracted_data.property_requirements[7]",
+          "value": "Να είναι νόμιμο, δηλαδή να διαθέτει οικοδομική άδεια ή άλλο νομιμοποιητικό έγγραφο.",
+          "found": false
+        },
+        {
+          "path": "extracted_data.property_requirements[8]",
+          "value": "Να έχει καταταχθεί σε ενεργειακή κατηγορία χαμηλότερη ή ίση με τη Γ.",
+          "found": true
+        },
+        {
+          "path": "extracted_data.property_requirements[9]",
+          "value": "Έχει νόμιμη άδεια",
+          "found": true
+        },
+        {
+          "path": "extracted_data.property_requirements[10]",
+          "value": "Μην έχει κριθεί κατεδαφιστέο",
+          "found": false
+        },
+        {
+          "path": "extracted_data.property_requirements[11]",
+          "value": "Κατατάσσεται σε κατηγορία χαμηλότερη ή ίση της Γ, με βάση το Πιστοποιητικό Ενεργειακής Απόδοσης (ΠΕΑ)",
+          "found": true
+        },
+        {
+          "path": "extracted_data.property_requirements[12]",
+          "value": "Μην χρησιμοποιείται με βραχυχρόνια μίσθωση",
+          "found": false
+        },
+        {
+          "path": "extracted_data.property_requirements[13]",
+          "value": "υφίσταται νόμιμα κατοικία",
+          "found": true
+        },
+        {
+          "path": "extracted_data.property_requirements[14]",
+          "value": "υφίσταται βάσει του Α’ Π.Ε.Α. στην κατηγορία χαμηλότερη ή ίση της Γ’",
+          "found": true
+        },
+        {
+          "path": "extracted_data.property_requirements[15]",
+          "value": "η μονοκατοικία και το διαμέρισμα",
+          "found": false
+        },
+        {
+          "path": "extracted_data.source_url",
+          "value": "https://exoikonomo2025.gov.gr/odegos",
+          "found": true
+        },
+        {
+          "path": "extracted_data.source_urls[0]",
+          "value": "https://www.gov.gr/ipiresies/periousia-kai-phorologia/diakheirise-akinetes-periousias/exoikonomo-2025",
+          "found": true
+        },
+        {
+          "path": "extracted_data.source_urls[1]",
+          "value": "https://stegasi.gov.gr/programs/exoikonomo-2025/",
+          "found": true
+        },
+        {
+          "path": "extracted_data.source_urls[2]",
+          "value": "https://exoikonomo2025.gov.gr/",
+          "found": true
+        },
+        {
+          "path": "extracted_data.source_urls[3]",
+          "value": "https://exoikonomo2025.gov.gr/odegos",
+          "found": true
+        },
+        {
+          "path": "extracted_data.source_urls[4]",
+          "value": "https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/eksoikonomo-2025",
+          "found": true
+        },
+        {
+          "path": "extracted_data.source_urls[5]",
+          "value": "https://www.alpha.gr/el/idiotes/daneia/episkevastika-daneia-gia-anakainisi/programma-eksoikonomo-2025",
+          "found": true
+        },
+        {
+          "path": "extracted_data.source_urls[6]",
+          "value": "https://www.bankofthessaly.gr/idiotes/prasina-daneia/exoikonomo-2025/",
+          "found": true
+        },
+        {
+          "path": "extracted_data.source_urls[7]",
+          "value": "https://www.crediabank.com/idiotes/daneia/hrimatodotika-programmata/exoikonomo-2025/",
+          "found": true
+        },
+        {
+          "path": "extracted_data.source_urls[8]",
+          "value": "https://www.piraeusbank.gr/el/idiwtes/proionta-upiresies/stegastika-daneia/daneio-eksoikonomw",
+          "found": false
+        },
+        {
+          "path": "extracted_data.source_urls[9]",
+          "value": "https://www.nbg.gr/el/idiwtes/daneia/daneia-exoikonomisis-energeias/exoikonomo-2025",
+          "found": true
+        },
+        {
+          "path": "extracted_data.id",
+          "value": "2025-2892978b52",
+          "found": false
+        }
+      ]
+    },
+    {
+      "status": "ok",
+      "classification_file": "output\\evaluation\\qa_full_runs\\smoke_check_20260618T044917757781Z\\classifications\\007_exoikonomoneon.gov.gr_20e50a53_classification.json",
+      "scraped_file": "output\\va3_scraper_to_template\\20260617T022355Z_exoikonomoneon.gov.gr_20e50a53_scraped.txt",
+      "summary": {
+        "total_checked": 78,
+        "found": 23,
+        "missing": 55,
+        "coverage": 0.2949
+      },
+      "results": [
+        {
+          "path": "extracted_data.completion_deadline",
+          "value": "30 Ιουνίου 2026",
+          "found": true
+        },
+        {
+          "path": "extracted_data.completion_delay_consequences",
+          "value": "Εάν δεν τον έχετε πετύχει, ανακαλείται η απόφαση για υπαγωγή σας στο πρόγραμμα «Εξοικονομώ – Ανακαινίζω για νέους» και δεν θα μπορείτε να λάβετε τις ενισχύσεις που προσφέρει.",
+          "found": false
+        },
+        {
+          "path": "extracted_data.description",
+          "value": "Το Πρόγραμμα «Εξοικονομώ – Ανακαινίζω για νέους» εντάσσεται στα έργα που υποστηρίζονται από το Ταμείο Ανάκαμψης και Ανθεκτικότητας και έχει ως στόχο την προώθηση της εθνικής και ενωσιακής ενεργειακής πολιτικής για την εξοικονόμηση ενέργειας, μέσω της αναβάθμισης της ενεργειακής κλάσης των νοικοκυριών, κατά τουλάχιστον 3 ενεργειακές κατηγορίες (πάνω από 30% εξοικονόμηση Πρωτογενούς Ενέργειας). Η συνολική επένδυση των προγραμμάτων “Εξοικονομώ” θα συμβάλει στην εξοικονόμηση ενέργειας κατά τουλάχιστον 213 ktoe ετησίως και στην ενεργειακή ανακαίνιση κατ’ ελάχιστον 105.000 κατοικιών έως το 2025. Ιδιαίτερη μέριμνα λαμβάνεται για τη στήριξη των φτωχών και ευάλωτων νοικοκυριών με τη μορφή αυξημένου ποσοστού επιχορηγήσεων και χωριστού προϋπολογισμού 40 εκατομμυρίων Ευρώ.",
+          "found": true
+        },
+        {
+          "path": "extracted_data.duration",
+          "value": "2023-2025",
+          "found": false
+        },
+        {
+          "path": "extracted_data.eligibility_criteria[0]",
+          "value": "ατομικό εισόδημα έως €30.000 και οικογενειακό εισόδημα έως €50.000",
+          "found": false
+        },
+        {
+          "path": "extracted_data.eligibility_criteria[1]",
+          "value": "η συνολική αξία της ακίνητης περιουσίας να είναι ίση ή μικρότερη από 300.000 €",
+          "found": false
+        },
+        {
+          "path": "extracted_data.eligibility_criteria[2]",
+          "value": "φυσικά πρόσωπα που έχουν γεννηθεί στο διάστημα από την 1η Ιανουαρίου 1984 έως και την 31η Δεκεμβρίου 2005",
+          "found": false
+        },
+        {
+          "path": "extracted_data.eligibility_criteria[3]",
+          "value": "Κόστος ενεργειακών επιθεωρήσεων/έκδοσης Ηλεκτρονικής Ταυτότητας",
+          "found": false
+        },
+        {
+          "path": "extracted_data.eligibility_criteria[4]",
+          "value": "Αμοιβή Συμβούλου έργου",
+          "found": true
+        },
+        {
+          "path": "extracted_data.eligibility_criteria[5]",
+          "value": "Αμοιβή για τυχόν απαιτούμενες μελέτες",
+          "found": false
+        },
+        {
+          "path": "extracted_data.eligibility_criteria[6]",
+          "value": "Ατομικό εισόδημα (€) Οικογενειακό εισόδημα (€)",
+          "found": false
+        },
+        {
+          "path": "extracted_data.eligibility_criteria[7]",
+          "value": "Ποσοστό Επιχορήγησης",
+          "found": true
+        },
+        {
+          "path": "extracted_data.eligibility_criteria[8]",
+          "value": "Ιδιοκατοίκηση από τον αιτούντα Δωρεάν Παραχώρηση σε έτερο Πρόσωπο/Ενοικίαση Bonus για Πολύτεκνους",
+          "found": false
+        },
+        {
+          "path": "extracted_data.eligibility_criteria[9]",
+          "value": "Απαραίτητη η ενεργειακή επιθεώρηση στο ακίνητό σας",
+          "found": false
+        },
+        {
+          "path": "extracted_data.eligibility_criteria[10]",
+          "value": "Η αίτηση για το πρόγραμμα πρέπει να είναι ολοκληρωμένη και να περιλαμβάνει την έκθεση που συντάσσει κατά την επιτεώρηση",
+          "found": false
+        },
+        {
+          "path": "extracted_data.eligible_interventions[0]",
+          "value": "ενωσιακής ενεργειακής πολιτικής για την εξοικονόμηση ενέργειας",
+          "found": true
+        },
+        {
+          "path": "extracted_data.eligible_interventions[1]",
+          "value": "μέσω της αναβάθμισης της ενεργειακής κλάσης των νοικοκυριών",
+          "found": true
+        },
+        {
+          "path": "extracted_data.eligible_interventions[2]",
+          "value": "κατά τουλάχιστον 3 ενεργειακές κατηγορίες (πάνω από 30% εξοικονόμηση Πρωτογενούς Ενέργειας)",
+          "found": true
+        },
+        {
+          "path": "extracted_data.eligible_interventions[3]",
+          "value": "παρεμβάσεις ενεργειακής εξοικονόμησης",
+          "found": true
+        },
+        {
+          "path": "extracted_data.eligible_interventions[4]",
+          "value": "ανακαίνιση κατοικίας",
+          "found": true
+        },
+        {
+          "path": "extracted_data.eligible_interventions[5]",
+          "value": "προμήθεια και τοποθέτηση ενεργειακά αποδοτικών οικιακών ηλεκτρικών συσκευών",
+          "found": false
+        },
+        {
+          "path": "extracted_data.eligible_interventions[6]",
+          "value": "Μονώσεις",
+          "found": false
+        },
+        {
+          "path": "extracted_data.eligible_interventions[7]",
+          "value": "Αντικατάσταση κουφωμάτων",
+          "found": false
+        },
+        {
+          "path": "extracted_data.eligible_interventions[8]",
+          "value": "Τοποθέτηση / αντικατάσταση κελύφους για θερμομόνωση",
+          "found": false
+        },
+        {
+          "path": "extracted_data.eligible_interventions[9]",
+          "value": "Αναβάθμιση συστήματος θέρμανσης / ψύξης",
+          "found": false
+        },
+        {
+          "path": "extracted_data.eligible_interventions[10]",
+          "value": "Αναβάθμιση συστήματος ζεστού νερού χρήσης μέσω ΑΠΕ",
+          "found": false
+        },
+        {
+          "path": "extracted_data.eligible_interventions[11]",
+          "value": "με στόχο τη μείωση των ενεργειακών αναγκών",
+          "found": false
+        },
+        {
+          "path": "extracted_data.eligible_interventions[12]",
+          "value": "Αντιμετώπιση της ενεργειακής φτώχειας",
+          "found": false
+        },
+        {
+          "path": "extracted_data.eligible_interventions[13]",
+          "value": "Προμήθεια και τοποθέτηση ενεργειακών αποδοτικών οικιακών ηλεκτρικών συσκευών",
+          "found": false
+        },
+        {
+          "path": "extracted_data.eligible_interventions[14]",
+          "value": "Ενεργειακή αναβάθμιση κατοικίας",
+          "found": true
+        },
+        {
+          "path": "extracted_data.eligible_parties[0]",
+          "value": "νέοι",
+          "found": false
+        },
+        {
+          "path": "extracted_data.eligible_parties[1]",
+          "value": "πλήρεις κύριοι",
+          "found": false
+        },
+        {
+          "path": "extracted_data.eligible_parties[2]",
+          "value": "επικαρπωτές",
+          "found": false
+        },
+        {
+          "path": "extracted_data.eligible_parties[3]",
+          "value": "Ιδιοκατοίκηση",
+          "found": false
+        },
+        {
+          "path": "extracted_data.eligible_parties[4]",
+          "value": "Ενοικίαση",
+          "found": false
+        },
+        {
+          "path": "extracted_data.eligible_parties[5]",
+          "value": "Δωρεάν Παραχώρηση σε έτερο πρόσωπο/Ενοικίαση",
+          "found": false
+        },
+        {
+          "path": "extracted_data.eligible_parties[6]",
+          "value": "φυσικά πρόσωπα που έχουν γεννηθεί από 01/01/1984 έως και 31/12/2005",
+          "found": false
+        },
+        {
+          "path": "extracted_data.energy_performance_targets[0]",
+          "value": "πάνω από 30% εξοικονόμηση Πρωτογενούς Ενέργειας",
+          "found": true
+        },
+        {
+          "path": "extracted_data.energy_performance_targets[1]",
+          "value": "υποχρεωτική ένταξη πρώτα στην υποενότητα του «Εξοικονομώ»",
+          "found": false
+        },
+        {
+          "path": "extracted_data.energy_performance_targets[2]",
+          "value": "30% του ποσού των επιλέξιμων ενεργειακών παρεμβάσεων",
+          "found": true
+        },
+        {
+          "path": "extracted_data.energy_performance_targets[3]",
+          "value": "μετάβαση σε ένα «Ενεργειακά Αποδοτικό Σπίτι»",
+          "found": false
+        },
+        {
+          "path": "extracted_data.energy_performance_targets[4]",
+          "value": "Ενεργειακή αναβάθμιση του σπιτιού σας κατά 3 ενεργειακές μονάδες",
+          "found": true
+        },
+        {
+          "path": "extracted_data.funding_coverage",
+          "value": "100%",
+          "found": false
+        },
+        {
+          "path": "extracted_data.funding_sources[0]",
+          "value": "Ταμείο Ανάκαμψης και Ανθεκτικότητας",
+          "found": true
+        },
+        {
+          "path": "extracted_data.funding_sources[1]",
+          "value": "Δημόσια Υπηρεσία Απασχόλησης",
+          "found": false
+        },
+        {
+          "path": "extracted_data.funding_sources[2]",
+          "value": "πόρους του Ταμείου Ανάκαμψης και Ανθεκτικότητας",
+          "found": true
+        },
+        {
+          "path": "extracted_data.funding_type",
+          "value": "Δανειακή επιχορήγηση",
+          "found": true
+        },
+        {
+          "path": "extracted_data.interest_rate",
+          "value": "σταθερό 6,50%, επιδοτούμενο κατά 100%, πλέον εισφοράς του Ν. 128/75",
+          "found": false
+        },
+        {
+          "path": "extracted_data.loan_duration",
+          "value": "από 4 έως 6 χρόνια",
+          "found": true
+        },
+        {
+          "path": "extracted_data.maximum_funding_amount",
+          "value": "13.500€",
+          "found": false
+        },
+        {
+          "path": "extracted_data.minimum_funding_amount",
+          "value": "5.000€",
+          "found": true
+        },
+        {
+          "path": "extracted_data.post_completion_obligations",
+          "value": "Κατά την τελική εκταμίευση του προγράμματος οι αμοιβές των ενεργειακών επιθεωρητών πιστώνονται στον λογαριασμό σας, με βάση τις αποδείξεις που ανεβάζετε στην ηλεκτρονική πλατφόρμα του προγράμματος.",
+          "found": false
+        },
+        {
+          "path": "extracted_data.programme_name",
+          "value": "Εξοικονομώ – Ανακαινίζω για νέους",
+          "found": true
+        },
+        {
+          "path": "extracted_data.programme_objective",
+          "value": "πρόωθηση της εθνικής και ενωσιακής ενεργειακής πολιτικής για την εξοικονόμηση ενέργειας",
+          "found": true
+        },
+        {
+          "path": "extracted_data.property_requirements[0]",
+          "value": "υφίσταται νόμιμα",
+          "found": false
+        },
+        {
+          "path": "extracted_data.property_requirements[1]",
+          "value": "χρησιμοποιείται ως κύρια κατοικία",
+          "found": false
+        },
+        {
+          "path": "extracted_data.property_requirements[2]",
+          "value": "ακίνητο να το ιδιοκατοίκουν",
+          "found": false
+        },
+        {
+          "path": "extracted_data.property_requirements[3]",
+          "value": "Είναι νόμιμο.",
+          "found": false
+        },
+        {
+          "path": "extracted_data.property_requirements[4]",
+          "value": "Χρησιμοποιείται ως 1η κατοικία.",
+          "found": false
+        },
+        {
+          "path": "extracted_data.property_requirements[5]",
+          "value": "Κατατάσσεται σε κατηγορία χαμηλότερη ή ίση της Γ",
+          "found": false
+        },
+        {
+          "path": "extracted_data.property_requirements[6]",
+          "value": "Μην έχει κριθεί κατεδαφιστέο.",
+          "found": false
+        },
+        {
+          "path": "extracted_data.property_requirements[7]",
+          "value": "Μη βρίσκεται σε καθεστώς βραχυχρόνιας μίσθωσης.",
+          "found": false
+        },
+        {
+          "path": "extracted_data.property_requirements[8]",
+          "value": "οικιακό κτηριακό τομέα",
+          "found": false
+        },
+        {
+          "path": "extracted_data.property_requirements[9]",
+          "value": "Κόστος ενεργειακών επιθεωρήσεων/έκδοσης Ηλεκτρονικής Ταυτότητας",
+          "found": false
+        },
+        {
+          "path": "extracted_data.property_requirements[10]",
+          "value": "Χωρίς προσημείωση ακινήτου",
+          "found": false
+        },
+        {
+          "path": "extracted_data.property_requirements[11]",
+          "value": "Προκαταβολή του 70% του ποσού του δανείου",
+          "found": false
+        },
+        {
+          "path": "extracted_data.property_requirements[12]",
+          "value": "Απαραίτητη προϋπόθεση για συμμετοχή με δάνειο στο σκέλος \"Ανακαινίζω\" είναι η συμμετοχή με δάνειο στο σκέλος \"Εξοικονομώ\".",
+          "found": false
+        },
+        {
+          "path": "extracted_data.property_requirements[13]",
+          "value": "Ενεργειακή αναβάθμιση του σπιτιού σας",
+          "found": true
+        },
+        {
+          "path": "extracted_data.total_budget",
+          "value": "96.792.060,20 €",
+          "found": false
+        },
+        {
+          "path": "extracted_data.source_urls[0]",
+          "value": "https://exoikonomoneon.gov.gr/",
+          "found": true
+        },
+        {
+          "path": "extracted_data.source_urls[1]",
+          "value": "https://www.crediabank.com/idiotes/daneia/hrimatodotika-programmata/programma-exoikonomo-anakainizo-gia-neous/",
+          "found": false
+        },
+        {
+          "path": "extracted_data.source_urls[2]",
+          "value": "https://www.alpha.gr/el/idiotes/daneia/episkevastika-daneia-gia-anakainisi/programma-eksoikonomo-anakainizo-gia-neous",
+          "found": false
+        },
+        {
+          "path": "extracted_data.source_urls[3]",
+          "value": "https://www.bankofthessaly.gr/idiotes/prasina-daneia/exoikonomo-anakainizo-gia-neous/",
+          "found": false
+        },
+        {
+          "path": "extracted_data.source_urls[4]",
+          "value": "https://www.crediabank.com/programma-exoikonomo-anakainizo-gia-neous/",
+          "found": false
+        },
+        {
+          "path": "extracted_data.source_urls[5]",
+          "value": "https://www.nbg.gr/el/idiwtes/daneia/daneia-exoikonomisis-energeias/eksoikonomw-anakoinizw-daneio-gia-neous",
+          "found": false
+        },
+        {
+          "path": "extracted_data.source_urls[6]",
+          "value": "https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/eksoikonomo-anakainizo-gia-neous",
+          "found": false
+        },
+        {
+          "path": "extracted_data.source_url",
+          "value": "https://exoikonomoneon.gov.gr/",
+          "found": true
+        },
+        {
+          "path": "extracted_data.id",
+          "value": "program-20e50a5321",
+          "found": false
+        }
+      ]
+    },
+    {
+      "status": "ok",
+      "classification_file": "output\\evaluation\\qa_full_runs\\smoke_check_20260618T044917757781Z\\classifications\\008_www.nbg.gr_el_idiwtes_daneia_stegastika-daneia_daneia-akinitwn_estia-prasini_423fd61f_classification.json",
+      "scraped_file": "output\\va3_scraper_to_template\\20260617T043518Z_www.nbg.gr_el_idiwtes_daneia_stegastika-daneia_daneia-akinitwn_estia-prasini_423fd61f_scraped.txt",
+      "summary": {
+        "total_checked": 21,
+        "found": 18,
+        "missing": 3,
+        "coverage": 0.8571
+      },
+      "results": [
+        {
+          "path": "extracted_data.description",
+          "value": "ΕΣΤΙΑ Πράσινη Στεγαστικό Δάνειο | Εθνική Τράπεζα Στεγαστικό ΕΣΤΙΑ Πράσινη 48 ώρες προέγκριση, 48 ώρες εκταμίευση, προσωπικός σύμβουλος. Ιδιώτες Δάνεια Στεγαστικά Δάνεια Δάνεια για Αγορά Ακινήτων ΕΣΤΙΑ Πράσινη Με το ΕΣΤΙΑ Πράσινη μπορείτε να χρηματοδοτηθείτε με ευνοϊκούς όρους για να αγοράσετε σπίτι με ενεργειακή κατηγορία τουλάχιστον Γ'. Έτσι, μπορείτε να εξοικονομήσετε ενέργεια και χρήματα, προστατεύοντας το περιβάλλον.",
+          "found": true
+        },
+        {
+          "path": "extracted_data.duration",
+          "value": "40 χρόνια",
+          "found": true
+        },
+        {
+          "path": "extracted_data.eligible_interventions[0]",
+          "value": "αιτήματα για μεγαλύτερα ποσά δανείου",
+          "found": true
+        },
+        {
+          "path": "extracted_data.eligible_interventions[1]",
+          "value": "τα οποία ενδέχεται να απαιτούν πρόσθετη αξιολόγηση από αρμόδια ανώτερη εγκριτική επιτροπή και",
+          "found": true
+        },
+        {
+          "path": "extracted_data.eligible_interventions[2]",
+          "value": "ως εκ τούτου",
+          "found": true
+        },
+        {
+          "path": "extracted_data.eligible_interventions[3]",
+          "value": "μην λάβουν προέγκριση εντός του εν λόγω χρονικού διαστήματος",
+          "found": true
+        },
+        {
+          "path": "extracted_data.eligible_parties[0]",
+          "value": "Ιδιώτες",
+          "found": true
+        },
+        {
+          "path": "extracted_data.energy_performance_targets[0]",
+          "value": "Γ' ενεργειακή κατηγορία",
+          "found": true
+        },
+        {
+          "path": "extracted_data.funding_coverage",
+          "value": "100%",
+          "found": true
+        },
+        {
+          "path": "extracted_data.funding_type",
+          "value": "Δάνειο",
+          "found": true
+        },
+        {
+          "path": "extracted_data.interest_rate",
+          "value": "σας κατά 0,10% ανεξαρτήτως ενεργειακής κατηγορίας Να μειώσετε το περιθώριο κυμαινόμενου επιτοκίου του δανείου σας κατά 0,10%, 0,15% ή 0,25%, ανάλογα με την ενεργειακή κατηγορία Να έχετε έκπτωση 50% στα έξοδα δανείου και το χαμηλότερο σταθε",
+          "found": true
+        },
+        {
+          "path": "extracted_data.loan_duration",
+          "value": "10 χρόνια",
+          "found": true
+        },
+        {
+          "path": "extracted_data.post_completion_obligations",
+          "value": "Για τις λοιπές περιπτώσεις (αγορά υπό ανέγερση κατοικίας, ανέγερση / αποπεράτωση / επισκευή), μετά την ολοκλήρωση των εργασιών και την προσκόμιση στην Τράπεζα του Πιστοποιητικού Ενεργειακής Αναβάθμισης (Π.Ε.Α.), σύμφωνα με το οποίο πιστοποιείται η τελική κατάταξη του ακινήτου σε ενεργειακή κατηγορία, αρκεί το δάνειο να είναι ενήμερο και επιπλέον σε περίπτωση επισκευής, το σπίτι να έχει αναβαθμιστεί κατά τουλάχιστον 1 ενεργειακή κατηγορία.",
+          "found": true
+        },
+        {
+          "path": "extracted_data.programme_name",
+          "value": "ΕΣΤΙΑ Πράσινη Στεγαστικό Δάνειο",
+          "found": true
+        },
+        {
+          "path": "extracted_data.programme_objective",
+          "value": "ΕΣΤΙΑ Πράσινη Στεγαστικό Δάνειο | Εθνική Τράπεζα Στεγαστικό ΕΣΤΙΑ Πράσινη 48 ώρες προέγκριση, 48 ώρες εκταμίευση, προσωπικός σύμβουλος. Ιδιώτες Δάνεια Στεγαστικά Δάνεια Δάνεια για Αγορά Ακινήτων ΕΣΤΙΑ Πράσινη Με το ΕΣΤΙΑ Πράσινη μπορείτε να χρηματοδοτηθείτε με ευνοϊκούς όρους για να αγοράσετε σπίτι με ενεργειακή κατηγορία τουλάχιστον Γ'. Έτσι, μπορείτε να εξοικονομήσετε ενέργεια και χρήματα, προστατεύοντας το περιβάλλον.",
+          "found": true
+        },
+        {
+          "path": "extracted_data.property_requirements[0]",
+          "value": "Αγορά σπιτιού",
+          "found": true
+        },
+        {
+          "path": "extracted_data.property_requirements[1]",
+          "value": "Αγορά οικοπέδου για ανέγερση σπιτιού",
+          "found": true
+        },
+        {
+          "path": "extracted_data.property_requirements[2]",
+          "value": "Ανέγερση, αποπεράτωση, επέκταση ή επισκευή σπιτιού",
+          "found": true
+        },
+        {
+          "path": "extracted_data.source_urls[0]",
+          "value": "https://www.nbg.gr/el/idiwtes/daneia/stegastika-daneia/daneia-akinitwn/estia-prasini",
+          "found": false
+        },
+        {
+          "path": "extracted_data.source_url",
+          "value": "https://www.nbg.gr/el/idiwtes/daneia/stegastika-daneia/daneia-akinitwn/estia-prasini",
+          "found": false
+        },
+        {
+          "path": "extracted_data.id",
+          "value": "program-423fd61fad",
+          "found": false
+        }
+      ]
+    },
+    {
+      "status": "ok",
+      "classification_file": "output\\evaluation\\qa_full_runs\\smoke_check_20260618T044917757781Z\\classifications\\009_www.piraeusbank.gr_el_idiwtes_proionta-upiresies_daneia_proswpika_katanalwtiko-daneio-green-gia-prasines-episkeves_6f5d50a6_classification.json",
+      "scraped_file": "output\\va3_scraper_to_template\\20260617T095911Z_www.piraeusbank.gr_el_idiwtes_proionta-upiresies_daneia_proswpika_katanalwtiko-daneio-green-gia-prasines-episkeves_6f5d50a6_scraped.txt",
+      "summary": {
+        "total_checked": 18,
+        "found": 10,
+        "missing": 8,
+        "coverage": 0.5556
+      },
+      "results": [
+        {
+          "path": "extracted_data.description",
+          "value": "Καταναλωτικό Δάνειο Green για Πράσινες Επισκευές | Τράπεζα Πειραιώς Εξοικονόμηση ενέργειας Μία βιώσιμη επιλογή Επιλέξτε την προβολή χαμηλής ενέργειας και μειώστε την κατανάλωση της επίσκεψής σας. Eπιλέξτε το energy mode, μία μορφή του site χωρίς εικόνες και βίντεο που μειώνει την κατανάλωση ενέργειας. Διαβάστε περισσότερα σχετικά με τις δράσεις μας για τη μείωση του διοξειδίου του άνθρακα. ΕSG Ερωτήσεις & απαντήσεις Πώς μπορώ να εγκαταστήσω το Piraeus app; Κατεβάστε το Piraeus app από τo App Store (iOS) ή Google Play Store (Android) ή App Gallery (Huawei) πληκτρολογώντας Piraeus app και πατήστε Απόκτηση (iOS) ή Εγκατάσταση (Android) ή Εγκατάσταση (Huawei).",
+          "found": true
+        },
+        {
+          "path": "extracted_data.duration",
+          "value": "6 - 84 μήνες",
+          "found": true
+        },
+        {
+          "path": "extracted_data.eligible_interventions[0]",
+          "value": "Μονώσεις",
+          "found": false
+        },
+        {
+          "path": "extracted_data.eligible_interventions[1]",
+          "value": "Ενεργειακή αναβάθμιση κατοικίας",
+          "found": false
+        },
+        {
+          "path": "extracted_data.eligible_interventions[2]",
+          "value": "Τοποθέτηση / αντικατάσταση κελύφους για θερμομόνωση",
+          "found": false
+        },
+        {
+          "path": "extracted_data.eligible_interventions[3]",
+          "value": "Εγκατάσταση φωτοβολταϊκών ή άλλων ΑΠΕ",
+          "found": false
+        },
+        {
+          "path": "extracted_data.funding_coverage",
+          "value": "Χρηματοδότηση έως 100% της αξίας των αναγκών σας",
+          "found": true
+        },
+        {
+          "path": "extracted_data.funding_type",
+          "value": "Δάνειο",
+          "found": true
+        },
+        {
+          "path": "extracted_data.interest_rate",
+          "value": "8,75%",
+          "found": true
+        },
+        {
+          "path": "extracted_data.loan_duration",
+          "value": "6 - 84 μήνες",
+          "found": true
+        },
+        {
+          "path": "extracted_data.maximum_funding_amount",
+          "value": "20.000€",
+          "found": true
+        },
+        {
+          "path": "extracted_data.minimum_funding_amount",
+          "value": "1.500€",
+          "found": true
+        },
+        {
+          "path": "extracted_data.programme_name",
+          "value": "Καταναλωτικό Δάνειο Green για Πράσινες Επισκευές",
+          "found": true
+        },
+        {
+          "path": "extracted_data.programme_objective",
+          "value": "Βελτίωση ενεργειακής απόδοσης σπιτιού με πράσινες επισκευές και αγορές",
+          "found": false
+        },
+        {
+          "path": "extracted_data.property_requirements[0]",
+          "value": "οικοσκευές",
+          "found": true
+        },
+        {
+          "path": "extracted_data.source_urls[0]",
+          "value": "https://www.piraeusbank.gr/el/idiwtes/proionta-upiresies/daneia/proswpika/katanalwtiko-daneio-green-gia-prasines-episkeves",
+          "found": false
+        },
+        {
+          "path": "extracted_data.source_url",
+          "value": "https://www.piraeusbank.gr/el/idiwtes/proionta-upiresies/daneia/proswpika/katanalwtiko-daneio-green-gia-prasines-episkeves",
+          "found": false
+        },
+        {
+          "path": "extracted_data.id",
+          "value": "green-6f5d50a68d",
+          "found": false
+        }
+      ]
+    },
+    {
+      "status": "ok",
+      "classification_file": "output\\evaluation\\qa_full_runs\\smoke_check_20260618T044917757781Z\\classifications\\010_www.epirusbank.com_blog_deltia-tupou-1_183-neo-crematodot...gia-dikaioucous-tou-programmatos-lpotoboltaika-ste-steger_d2b59b5a_classification.json",
+      "scraped_file": "output\\va3_scraper_to_template\\20260617T044347Z_www.epirusbank.com_blog_deltia-tupou-1_183-neo-crematodot...gia-dikaioucous-tou-programmatos-lpotoboltaika-ste-steger_d2b59b5a_scraped.txt",
+      "summary": {
+        "total_checked": 14,
+        "found": 11,
+        "missing": 3,
+        "coverage": 0.7857
+      },
+      "results": [
+        {
+          "path": "extracted_data.announcement_date",
+          "value": "22 Ιανουαρίου, 2024",
+          "found": true
+        },
+        {
+          "path": "extracted_data.description",
+          "value": "Νέο χρηματοδοτικό προϊόν για δικαιούχους του Προγράμματος «Φωτοβολταϊκά στη στέγη» Νέα & Δελτία Τύπου Αρχική Νέα / Δελτία Τύπου ΔΗΜΟΣΙΕΥΘΗΚΕ 22 Ιανουαρίου, 2024 ← Δείτε όλα τα νέα Νέο χρηματοδοτικό προϊόν για δικαιούχους του Προγράμματος «Φωτοβολταϊκά στη στέγη» Η Συνεταιριστική Τράπεζα Ηπείρου ανακοινώνει ένα νέο χρηματοδοτικό προϊόν που θα διατίθεται στα νοικοκυριά που έχουν ενταχθεί στο Πρόγραμμα «Φωτοβολταϊκά στη Στέγη». Το νέο δάνειο, με προνομιακούς όρους, έχει ως στόχο να συμβάλλει στην εξοικονόμηση ενέργειας, τη μείωση του κόστους διαβίωσης και να συμβάλει και στον πράσινο μετασχηματισμό της τοπικής κοινωνίας. Συγκεκριμένα, το νέο δάνειο θα προσφέρεται με ιδιαίτερα χαμηλό σταθερό επιτόκιο 7,90% και για διάρκεια έως 7 έτη.",
+          "found": true
+        },
+        {
+          "path": "extracted_data.duration",
+          "value": "7 έτη",
+          "found": true
+        },
+        {
+          "path": "extracted_data.eligible_parties[0]",
+          "value": "νοικοκύρια",
+          "found": true
+        },
+        {
+          "path": "extracted_data.funding_coverage",
+          "value": "20% - 65%",
+          "found": true
+        },
+        {
+          "path": "extracted_data.funding_type",
+          "value": "Δάνειο",
+          "found": true
+        },
+        {
+          "path": "extracted_data.interest_rate",
+          "value": "7,90%",
+          "found": true
+        },
+        {
+          "path": "extracted_data.loan_duration",
+          "value": "7 έτη",
+          "found": true
+        },
+        {
+          "path": "extracted_data.managing_body",
+          "value": "Συνεταιριστική Τράπεζα Ηπείρου",
+          "found": true
+        },
+        {
+          "path": "extracted_data.programme_name",
+          "value": "Νέο χρηματοδοτικό προϊόν για δικαιούχους του Προγράμματος «Φωτοβολταϊκά στη στέγη»",
+          "found": true
+        },
+        {
+          "path": "extracted_data.programme_objective",
+          "value": "Νέο χρηματοδοτικό προϊόν για δικαιούχους του Προγράμματος «Φωτοβολταϊκά στη στέγη» Νέα & Δελτία Τύπου Αρχική Νέα / Δελτία Τύπου ΔΗΜΟΣΙΕΥΘΗΚΕ 22 Ιανουαρίου, 2024 ← Δείτε όλα τα νέα Νέο χρηματοδοτικό προϊόν για δικαιούχους του Προγράμματος «Φωτοβολταϊκά στη στέγη» Η Συνεταιριστική Τράπεζα Ηπείρου ανακοινώνει ένα νέο χρηματοδοτικό προϊόν που θα διατίθεται στα νοικοκυριά που έχουν ενταχθεί στο Πρόγραμμα «Φωτοβολταϊκά στη Στέγη». Το νέο δάνειο, με προνομιακούς όρους, έχει ως στόχο να συμβάλλει στην εξοικονόμηση ενέργειας, τη μείωση του κόστους διαβίωσης και να συμβάλει και στον πράσινο μετασχηματισμό της τοπικής κοινωνίας. Συγκεκριμένα, το νέο δάνειο θα προσφέρεται με ιδιαίτερα χαμηλό σταθερό επιτόκιο 7,90% και για διάρκεια έως 7 έτη.",
+          "found": true
+        },
+        {
+          "path": "extracted_data.source_urls[0]",
+          "value": "https://www.epirusbank.com/blog/deltia-tupou-1/183-neo-crematodotiko-proion-gia-dikaioucous-tou-programmatos-lpotoboltaika-ste-steger",
+          "found": false
+        },
+        {
+          "path": "extracted_data.source_url",
+          "value": "https://www.epirusbank.com/blog/deltia-tupou-1/183-neo-crematodotiko-proion-gia-dikaioucous-tou-programmatos-lpotoboltaika-ste-steger",
+          "found": false
+        },
+        {
+          "path": "extracted_data.id",
+          "value": "program-d2b59b5a9a",
+          "found": false
+        }
+      ]
+    },
+    {
+      "status": "ok",
+      "classification_file": "output\\evaluation\\qa_full_runs\\smoke_check_20260618T044917757781Z\\classifications\\011_www.alpha.gr_el_idiotes_daneia_prasina-daneia_f5ec5bff_classification.json",
+      "scraped_file": "output\\va3_scraper_to_template\\20260617T192325Z_www.alpha.gr_el_idiotes_daneia_prasina-daneia_alpha-prasines-luseis-daneio-ilektriko-autokinito_e1e220ae_scraped.txt",
+      "summary": {
+        "total_checked": 13,
+        "found": 5,
+        "missing": 8,
+        "coverage": 0.3846
+      },
+      "results": [
+        {
+          "path": "extracted_data.description",
+          "value": "Πράσινα Δάνεια | ALPHA BANK ΠΙΣΩ Πράσινα Για το σπίτι Για ηλεκτρικό αυτοκίνητο Αναβαθμίζω το σπίτι μου Εξοικονομώ – Ανακαινίζω για νέους Πράσινα δάνεια Αναβαθμίστε ενεργειακά το σπίτι σας ή αποκτήστε οικολογικό όχημα, με δάνεια με ευνοϊκούς όρους που επιβραβεύουν τον οικολογικό τρόπο ζωής. Κλείνω ραντεβού Γιατί να πάρω πράσινο δάνειο Για να αναβαθμίσετε ενεργειακά Κάντε αναβάθμιση στο σπίτι σας ή αγοράστε και εγκαταστήστε οικιακό φωτοβολταϊκό σύστημα, για να εξοικονομήσετε ενέργεια. Για να αγοράσετε αυτοκίνητο Αγοράστε ηλεκτρικό ή υβριδικό αυτοκίνητο, ή άλλο οικολογικό όχημα και μειώστε το περιβαλλοντικό αποτύπωμά σας. Τι πρέπει να ξέρω για τα πράσινα δάνεια Επιλέγετε δάνειο ανάλογα με τις ανάγκες και το προφίλ σας.",
+          "found": true
+        },
+        {
+          "path": "extracted_data.eligible_interventions[0]",
+          "value": "Ενεργειακή αναβάθμιση κατοικίας",
+          "found": false
+        },
+        {
+          "path": "extracted_data.eligible_interventions[1]",
+          "value": "Εγκατάσταση οικιακού φωτοβολταϊκού συστήματος",
+          "found": false
+        },
+        {
+          "path": "extracted_data.eligible_interventions[2]",
+          "value": "Εγκατάσταση φωτοβολταϊκών ή άλλων ΑΠΕ",
+          "found": false
+        },
+        {
+          "path": "extracted_data.funding_coverage",
+          "value": "μέχρι και 100% του προϋπολογισμού σας",
+          "found": false
+        },
+        {
+          "path": "extracted_data.funding_type",
+          "value": "Δάνειο",
+          "found": true
+        },
+        {
+          "path": "extracted_data.interest_rate",
+          "value": "Σταθερό ή κυμαινόμενο επιτόκιο Με το κυμαινόμενο επιτόκιο, η δόση σας ακολουθεί την πορεία των επιτοκίων στην αγορά",
+          "found": false
+        },
+        {
+          "path": "extracted_data.maximum_funding_amount",
+          "value": "30.000€",
+          "found": true
+        },
+        {
+          "path": "extracted_data.programme_name",
+          "value": "Πράσινα Δάνεια",
+          "found": true
+        },
+        {
+          "path": "extracted_data.programme_objective",
+          "value": "Πράσινα Δάνεια | ALPHA BANK ΠΙΣΩ Πράσινα Για το σπίτι Για ηλεκτρικό αυτοκίνητο Αναβαθμίζω το σπίτι μου Εξοικονομώ – Ανακαινίζω για νέους Πράσινα δάνεια Αναβαθμίστε ενεργειακά το σπίτι σας ή αποκτήστε οικολογικό όχημα, με δάνεια με ευνοϊκούς όρους που επιβραβεύουν τον οικολογικό τρόπο ζωής. Κλείνω ραντεβού Γιατί να πάρω πράσινο δάνειο Για να αναβαθμίσετε ενεργειακά Κάντε αναβάθμιση στο σπίτι σας ή αγοράστε και εγκαταστήστε οικιακό φωτοβολταϊκό σύστημα, για να εξοικονομήσετε ενέργεια. Για να αγοράσετε αυτοκίνητο Αγοράστε ηλεκτρικό ή υβριδικό αυτοκίνητο, ή άλλο οικολογικό όχημα και μειώστε το περιβαλλοντικό αποτύπωμά σας. Τι πρέπει να ξέρω για τα πράσινα δάνεια Επιλέγετε δάνειο ανάλογα με τις ανάγκες και το προφίλ σας.",
+          "found": true
+        },
+        {
+          "path": "extracted_data.source_urls[0]",
+          "value": "https://www.alpha.gr/el/idiotes/daneia/prasina-daneia",
+          "found": false
+        },
+        {
+          "path": "extracted_data.source_url",
+          "value": "https://www.alpha.gr/el/idiotes/daneia/prasina-daneia",
+          "found": false
+        },
+        {
+          "path": "extracted_data.id",
+          "value": "program-f5ec5bff60",
+          "found": false
+        }
+      ]
+    },
+    {
+      "status": "ok",
+      "classification_file": "output\\evaluation\\qa_full_runs\\smoke_check_20260618T044917757781Z\\classifications\\012_www.nbg.gr_el_idiwtes_daneia_daneia-exoikonomisis-energeias_prasino-daneio_8ef520bc_classification.json",
+      "scraped_file": "output\\va3_scraper_to_template\\20260617T035145Z_www.nbg.gr_el_idiwtes_daneia_daneia-exoikonomisis-energeias_prasino-daneio-spitiou-h-autokinhtou_d27b3e33_scraped.txt",
+      "summary": {
+        "total_checked": 20,
+        "found": 13,
+        "missing": 7,
+        "coverage": 0.65
+      },
+      "results": [
+        {
+          "path": "extracted_data.description",
+          "value": "Πράσινο Δάνειο | Εθνική Τράπεζα Πράσινα δάνεια Πράσινο δάνειο Καλύπτετε τις ανάγκες σας, με ευνοϊκούς όρους και σεβασμό στο περιβάλλον.",
+          "found": true
+        },
+        {
+          "path": "extracted_data.eligible_interventions[0]",
+          "value": "αγορά καινούργιο ηλεκτρικό όχημα/υβριδικό αυτοκίνητο",
+          "found": false
+        },
+        {
+          "path": "extracted_data.eligible_interventions[1]",
+          "value": "ενεργειακή αναβάθμιση της κατοικίας σας",
+          "found": true
+        },
+        {
+          "path": "extracted_data.eligible_interventions[2]",
+          "value": "οικολογικές συσκευές",
+          "found": true
+        },
+        {
+          "path": "extracted_data.eligible_parties[0]",
+          "value": "Ιδιώτες",
+          "found": true
+        },
+        {
+          "path": "extracted_data.funding_type",
+          "value": "Δάνειο",
+          "found": true
+        },
+        {
+          "path": "extracted_data.interest_rate",
+          "value": "κυμαινόμενο με βάση το Euribor 3M στο οποίο προστίθεται επιπλέον περιθώριο",
+          "found": true
+        },
+        {
+          "path": "extracted_data.loan_duration[0]",
+          "value": "12-48 μήνες",
+          "found": true
+        },
+        {
+          "path": "extracted_data.loan_duration[1]",
+          "value": "12-72 μήνες",
+          "found": true
+        },
+        {
+          "path": "extracted_data.loan_duration[2]",
+          "value": "12-84 μήνες",
+          "found": true
+        },
+        {
+          "path": "extracted_data.maximum_funding_amount",
+          "value": "30.000€",
+          "found": false
+        },
+        {
+          "path": "extracted_data.minimum_funding_amount",
+          "value": "6.000€",
+          "found": false
+        },
+        {
+          "path": "extracted_data.programme_name",
+          "value": "Πράσινο Δάνειο",
+          "found": true
+        },
+        {
+          "path": "extracted_data.programme_objective",
+          "value": "Πράσινο Δάνειο | Εθνική Τράπεζα Πράσινα δάνεια Πράσινο δάνειο Καλύπτετε τις ανάγκες σας, με ευνοϊκούς όρους και σεβασμό στο περιβάλλον.",
+          "found": true
+        },
+        {
+          "path": "extracted_data.property_requirements[0]",
+          "value": "αγορά καινούργιο ηλεκτρικό όχημα/υβριδικό αυτοκίνητο",
+          "found": false
+        },
+        {
+          "path": "extracted_data.property_requirements[1]",
+          "value": "ενεργειακή αναβάθμιση της κατοικίας σας",
+          "found": true
+        },
+        {
+          "path": "extracted_data.property_requirements[2]",
+          "value": "οικολογικές συσκευές",
+          "found": true
+        },
+        {
+          "path": "extracted_data.source_urls[0]",
+          "value": "https://www.nbg.gr/el/idiwtes/daneia/daneia-exoikonomisis-energeias/prasino-daneio",
+          "found": false
+        },
+        {
+          "path": "extracted_data.source_url",
+          "value": "https://www.nbg.gr/el/idiwtes/daneia/daneia-exoikonomisis-energeias/prasino-daneio",
+          "found": false
+        },
+        {
+          "path": "extracted_data.id",
+          "value": "program-8ef520bcb6",
+          "found": false
+        }
+      ]
+    },
+    {
+      "status": "ok",
+      "classification_file": "output\\evaluation\\qa_full_runs\\smoke_check_20260618T044917757781Z\\classifications\\013_www.alpha.gr_el_idiotes_daneia_episkevastika-daneia-gia-a...si_alpha-prasines-luseis-katanalotiko-daneio-gia-to-spiti_3ef84f91_classification.json",
+      "scraped_file": "output\\va3_scraper_to_template\\20260618T043737Z_www.alpha.gr_el_idiotes_daneia_episkevastika-daneia-gia-a...si_alpha-prasines-luseis-katanalotiko-daneio-gia-to-spiti_3ef84f91_scraped.txt",
+      "summary": {
+        "total_checked": 21,
+        "found": 15,
+        "missing": 6,
+        "coverage": 0.7143
+      },
+      "results": [
+        {
+          "path": "extracted_data.application_process[0]",
+          "value": "Συνδεθείτε με τους κωδικούς σας στο myAlpha Mobile ή το myAlpha Web.",
+          "found": true
+        },
+        {
+          "path": "extracted_data.application_process[1]",
+          "value": "Επιλέξτε τον λογαριασμό στον οποίο θέλετε να κατατεθεί το ποσό του δανείου και από τον οποίο θα πληρώνετε τη δόση.",
+          "found": true
+        },
+        {
+          "path": "extracted_data.description",
+          "value": "Αποκτήστε πράσινο δάνειο για το σπίτι, εξασφαλίστε την ενεργειακή αναβάθμισή του και εξοικονομήστε χρήματα. Κάντε αίτηση από κινητό ή υπολογιστή, ή κλείστε ραντεβού σε κατάστημα. Ξεκινώ την αίτηση Κλείνω ραντεβού Οικονομία με ενεργειακή αναβάθμιση 8,75% σταθερό επιτόκιο Έχετε σταθερό ονομαστικό επιτόκιο για όλη τη διάρκεια του δανείου. Από 1.500€ έως 30.000€ Εξασφαλίζετε έως 30.000€, ανάλογα με τις εργασίες ενεργειακής αναβάθμισης που θα κάνετε. Μείωση στους λογαριασμούς Κάνετε ενεργειακό συμψηφισμό και μειώνετε το κόστος των λογαριασμών σας. Ανακαλύπτω τα χαρακτηριστικά Δείτε τα χαρακτηριστικά για το καταναλωτικό δάνειο Alpha Πράσινες Λύσεις – Πράσινο δάνειο για το σπίτι. Τι επιτόκιο έχει 8,75% σταθερό επιτόκιο Το ετήσιο ονομαστικό επιτόκιο για το καταναλωτικό δάνειο Alpha Πράσινες Λύσεις – Πράσινο δάνειο για το σπίτι είναι 8,75%. Παραμένει σταθερό για όλη τη διάρκεια του δ",
+          "found": true
+        },
+        {
+          "path": "extracted_data.eligibility_criteria[0]",
+          "value": "Πραγματοποιήσετε μόνο εργασίες ενεργειακής αναβάθμισης",
+          "found": true
+        },
+        {
+          "path": "extracted_data.eligibility_criteria[1]",
+          "value": "Είστε έως 75 ετών στη λήξη του δανείου",
+          "found": true
+        },
+        {
+          "path": "extracted_data.eligible_interventions[0]",
+          "value": "Μονώσεις",
+          "found": false
+        },
+        {
+          "path": "extracted_data.eligible_interventions[1]",
+          "value": "Τοποθέτηση / αντικατάσταση κελύφους για θερμομόνωση",
+          "found": false
+        },
+        {
+          "path": "extracted_data.eligible_interventions[2]",
+          "value": "Εγκατάσταση φωτοβολταϊκών ή άλλων ΑΠΕ",
+          "found": false
+        },
+        {
+          "path": "extracted_data.eligible_parties[0]",
+          "value": "Ελεύθερος επαγγελματίας",
+          "found": true
+        },
+        {
+          "path": "extracted_data.energy_performance_targets[0]",
+          "value": "Αγοράσετε και εγκαταστήσετε οικιακά φωτοβολταϊκά, αντλίες θερμότητας, ηλιακό θερμοσίφωνα ή σύστημα.",
+          "found": true
+        },
+        {
+          "path": "extracted_data.funding_coverage",
+          "value": "Εξασφαλίζετε έως 30.000€, ανάλογα με τις εργασίες ενεργειακής αναβάθμισης που θα κάνετε.",
+          "found": true
+        },
+        {
+          "path": "extracted_data.funding_type",
+          "value": "Δάνειο",
+          "found": true
+        },
+        {
+          "path": "extracted_data.interest_rate",
+          "value": "8,75%",
+          "found": true
+        },
+        {
+          "path": "extracted_data.loan_duration",
+          "value": "6-96 μήνες",
+          "found": true
+        },
+        {
+          "path": "extracted_data.maximum_funding_amount",
+          "value": "30.000€",
+          "found": true
+        },
+        {
+          "path": "extracted_data.minimum_funding_amount",
+          "value": "1.500€",
+          "found": true
+        },
+        {
+          "path": "extracted_data.programme_name",
+          "value": "Πράσινο Δάνειο για το Σπίτι",
+          "found": true
+        },
+        {
+          "path": "extracted_data.programme_objective",
+          "value": "Αποκτήστε πράσινο δάνειο για το σπίτι, εξασφαλίστε την ενεργειακή αναβάθμισή του και εξοικονομήστε χρήματα.",
+          "found": true
+        },
+        {
+          "path": "extracted_data.source_urls[0]",
+          "value": "https://www.alpha.gr/el/idiotes/daneia/episkevastika-daneia-gia-anakainisi/alpha-prasines-luseis-katanalotiko-daneio-gia-to-spiti",
+          "found": false
+        },
+        {
+          "path": "extracted_data.source_url",
+          "value": "https://www.alpha.gr/el/idiotes/daneia/episkevastika-daneia-gia-anakainisi/alpha-prasines-luseis-katanalotiko-daneio-gia-to-spiti",
+          "found": false
+        },
+        {
+          "path": "extracted_data.id",
+          "value": "program-3ef84f91f5",
+          "found": false
+        }
+      ]
+    },
+    {
+      "status": "ok",
+      "classification_file": "output\\evaluation\\qa_full_runs\\smoke_check_20260618T044917757781Z\\classifications\\014_www.eurobank.gr_el_retail_proionta-upiresies_proionta_daneia_prasina_prasino-daneio-katoikias-eksoikonomisi-energeias_abbe8e29_classification.json",
+      "scraped_file": "output\\va3_scraper_to_template\\20260617T040023Z_www.eurobank.gr_el_retail_proionta-upiresies_proionta_daneia_prasina_prasino-daneio-katoikias-eksoikonomisi-energeias_abbe8e29_scraped.txt",
+      "summary": {
+        "total_checked": 16,
+        "found": 13,
+        "missing": 3,
+        "coverage": 0.8125
+      },
+      "results": [
+        {
+          "path": "extracted_data.description",
+          "value": "Με το πράσινο δάνειο κατοικίας – Εξοικονόμηση ενέργειας πραγματοποιείτε εργασίες ενεργειακής αναβάθμισης στο σπίτι σας, π.χ. τοποθετείτε διπλά τζάμια, θερμομονωτικό κέλυφος, νέο καυστήρα, ηλιακό θερμοσίφωνα ή φωτοβολταϊκό σύστημα. Εξοικονομείτε χρήματα από τους λογαριασμούς ενέργειας, ενώ παράλληλα ανεβαίνει η αξία του σπιτιού σας. Εάν είστε πελάτης μας και έχετε κωδικούς e-Banking , μπορείτε μέσα από το Eurobank Mobile App ή το e-Banking σας να: Διαμορφώσετε τα χαρακτηριστικά του δανείου σας online, στον Υπολογιστή δανείου , που υπολογίζει το αποτέλεσμα με βάση το δικό σας προφίλ. Λάβετε ενδεικτική εξατομικευμένη προσφορά με το επιτόκιο, τη δόση και τα έξοδα δανείο",
+          "found": true
+        },
+        {
+          "path": "extracted_data.eligible_interventions[0]",
+          "value": "τοποθετείτε διπλά τζάμια",
+          "found": true
+        },
+        {
+          "path": "extracted_data.eligible_interventions[1]",
+          "value": "θερμομονωτικό κέλυφος",
+          "found": true
+        },
+        {
+          "path": "extracted_data.eligible_interventions[2]",
+          "value": "νέο καυστήρα",
+          "found": true
+        },
+        {
+          "path": "extracted_data.eligible_interventions[3]",
+          "value": "ηλιακό θερμοσίφωνα",
+          "found": true
+        },
+        {
+          "path": "extracted_data.funding_type",
+          "value": "Δάνειο",
+          "found": true
+        },
+        {
+          "path": "extracted_data.interest_rate",
+          "value": "κυμαινόμενο επιτόκιο συνδέεται με το Euribor και αναπροσαρμόζεται κάθε μήνα",
+          "found": true
+        },
+        {
+          "path": "extracted_data.loan_duration",
+          "value": "30 χρόνια",
+          "found": true
+        },
+        {
+          "path": "extracted_data.maximum_funding_amount",
+          "value": "15.000€",
+          "found": true
+        },
+        {
+          "path": "extracted_data.programme_name",
+          "value": "Πράσινο Δάνειο Κατοικίας – Εξοικονόμηση Ενέργειας",
+          "found": true
+        },
+        {
+          "path": "extracted_data.programme_objective",
+          "value": "Με το πράσινο δάνειο κατοικίας – Εξοικονόμηση ενέργειας πραγματοποιείτε εργασίες ενεργειακής αναβάθμισης στο σπίτι σας, π.χ. τοποθετείτε διπλά τζάμια, θερμομονωτικό κέλυφος, νέο καυστήρα, ηλιακό θερμοσίφωνα ή φωτοβολταϊκό σύστημα. Εξοικονομείτε χρήματα από τους λογαριασμούς ενέργειας, ενώ παράλληλα ανεβαίνει η αξία του σπιτιού σας. Εάν είστε πελάτης μας και έχετε κωδικούς e-Banking , μπορείτε μέσα από το Eurobank Mobile App ή το e-Banking σας να: Διαμορφώσετε τα χαρακτηριστικά του δανείου σας online, στον Υπολογιστή δανείου , που υπολογίζει το αποτέλεσμα με βάση το δικό σας προφίλ. Λάβετε ενδεικτική εξατομικευμένη προσφορά με το επιτόκιο, τη δόση και τα έξοδα δανείο",
+          "found": true
+        },
+        {
+          "path": "extracted_data.property_requirements[0]",
+          "value": "σπίτι",
+          "found": true
+        },
+        {
+          "path": "extracted_data.property_requirements[1]",
+          "value": "οικόπεδο",
+          "found": true
+        },
+        {
+          "path": "extracted_data.source_urls[0]",
+          "value": "https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/prasino-daneio-katoikias-eksoikonomisi-energeias",
+          "found": false
+        },
+        {
+          "path": "extracted_data.source_url",
+          "value": "https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/prasino-daneio-katoikias-eksoikonomisi-energeias",
+          "found": false
+        },
+        {
+          "path": "extracted_data.id",
+          "value": "program-abbe8e2969",
+          "found": false
+        }
+      ]
+    },
+    {
+      "status": "ok",
+      "classification_file": "output\\evaluation\\qa_full_runs\\smoke_check_20260618T044917757781Z\\classifications\\015_www.nbg.gr_el_idiwtes_daneia_daneia-exoikonomisis-energeias_prasino-daneio-spitiou-h-autokinhtou_d27b3e33_classification.json",
+      "scraped_file": "output\\va3_scraper_to_template\\20260617T035145Z_www.nbg.gr_el_idiwtes_daneia_daneia-exoikonomisis-energeias_prasino-daneio-spitiou-h-autokinhtou_d27b3e33_scraped.txt",
+      "summary": {
+        "total_checked": 15,
+        "found": 12,
+        "missing": 3,
+        "coverage": 0.8
+      },
+      "results": [
+        {
+          "path": "extracted_data.description",
+          "value": "Με το νέο Πράσινο Δάνειο με την εγγύηση του Ευρωπαϊκού Ταμείου Επενδύσεων ( EIF ), έχετε τη δυνατότητα να αποκτήσετε ηλεκτρικό όχημα (μηδενικών εκπομπών ρύπων) ή να αναβαθμίσετε ενεργειακά την κατοικία σας, με ευνοϊκή τιμολόγηση . Έτσι, είστε ένα βήμα πιο κοντά σε μία «πράσινη» καθημερινότητα, φιλική προς το περιβάλλον. Ακόμη μπορείτε να: δανειστείτε από 300€ έως 50.000 € το αποπληρώσετε σε έως 8 χρόνια το αποκτήσετε απλά και γρήγορα, χωρίς εμπράγματη εξασφάλιση Με 2 λόγια: Απόκτηση ηλεκτρικού οχήματος (μηδενικών εκπομπών ρύπων) Ενεργειακή αναβάθμιση κατοικίας Ευνοϊκή τιμολόγηση με περιθώριο επιτοκίου 2%* Απλή και σύντομη διαδικασία απόκτησης Μεγάλη",
+          "found": true
+        },
+        {
+          "path": "extracted_data.duration",
+          "value": "12-96 μήνες",
+          "found": true
+        },
+        {
+          "path": "extracted_data.eligible_interventions[0]",
+          "value": "монώσεις κτιρίων, πράσινες στέγες, σκίαστρα αντικαταστάσεις παραθύρων και θυρών εξοπλισμός θέρμανσης/ εξαερισμού/ κλιματισμού νέος λέβητας (εξαιρουμένων ορυκτών καυσίμων) αποθήκευση & διανομή ηλεκτρικής/ θερμικής ενέργειας από ανανεώσιμες πηγές ενέργειας (ΑΠΕ), smart συστήματα φωτισμοί led & συναφής ηλεκτρολογικός εξοπλισμός φωτοβολταϊκά συστήματα συστήματα βιοενέργειας (ηλεκτρική/ θερμική ενέργεια) συστήματα γεωθερμίας οικιακές ανεμογεννήτριες τα έξοδα τεχνικών συμβούλων (μηχανικού-ενεργειακού επιθεωρητή) & αξιολόγησης απόδοσης κτιρίου (κόστος ΠΕΑ)",
+          "found": true
+        },
+        {
+          "path": "extracted_data.energy_performance_targets[0]",
+          "value": "βελτίωση τουλάχιστον κατά 1 ενεργειακή κλάση (τελική ≥ Β) ή εξοικονόμηση ενέργειας κατά min 30% σε σύγκριση με την αρχική (εκτός ΑΠΕ)",
+          "found": true
+        },
+        {
+          "path": "extracted_data.funding_sources[0]",
+          "value": "Ευρωπαϊκό Ταμείο Επενδύσεων (EIF)",
+          "found": true
+        },
+        {
+          "path": "extracted_data.funding_type",
+          "value": "Δάνειο",
+          "found": true
+        },
+        {
+          "path": "extracted_data.interest_rate",
+          "value": "κυμαινόμενο με βάση το Euribor 3M στο οποίο προστίθεται επιπλέον περιθώριο 2%",
+          "found": true
+        },
+        {
+          "path": "extracted_data.loan_duration",
+          "value": "8 χρόνια",
+          "found": true
+        },
+        {
+          "path": "extracted_data.maximum_funding_amount",
+          "value": "50.000€",
+          "found": true
+        },
+        {
+          "path": "extracted_data.minimum_funding_amount",
+          "value": "300€",
+          "found": true
+        },
+        {
+          "path": "extracted_data.programme_name",
+          "value": "Πράσινο Δάνειο Σπιτιού ή Αυτοκινήτου",
+          "found": true
+        },
+        {
+          "path": "extracted_data.programme_objective",
+          "value": "Με το νέο Πράσινο Δάνειο με την εγγύηση του Ευρωπαϊκού Ταμείου Επενδύσεων ( EIF ), έχετε τη δυνατότητα να αποκτήσετε ηλεκτρικό όχημα (μηδενικών εκπομπών ρύπων) ή να αναβαθμίσετε ενεργειακά την κατοικία σας, με ευνοϊκή τιμολόγηση . Έτσι, είστε ένα βήμα πιο κοντά σε μία «πράσινη» καθημερινότητα, φιλική προς το περιβάλλον. Ακόμη μπορείτε να: δανειστείτε από 300€ έως 50.000 € το αποπληρώσετε σε έως 8 χρόνια το αποκτήσετε απλά και γρήγορα, χωρίς εμπράγματη εξασφάλιση Με 2 λόγια: Απόκτηση ηλεκτρικού οχήματος (μηδενικών εκπομπών ρύπων) Ενεργειακή αναβάθμιση κατοικίας Ευνοϊκή τιμολόγηση με περιθώριο επιτοκίου 2%* Απλή και σύντομη διαδικασία απόκτησης Μεγάλη",
+          "found": true
+        },
+        {
+          "path": "extracted_data.source_urls[0]",
+          "value": "https://www.nbg.gr/el/idiwtes/daneia/daneia-exoikonomisis-energeias/prasino-daneio-spitiou-h-autokinhtou",
+          "found": false
+        },
+        {
+          "path": "extracted_data.source_url",
+          "value": "https://www.nbg.gr/el/idiwtes/daneia/daneia-exoikonomisis-energeias/prasino-daneio-spitiou-h-autokinhtou",
+          "found": false
+        },
+        {
+          "path": "extracted_data.id",
+          "value": "program-d27b3e3381",
+          "found": false
+        }
+      ]
+    },
+    {
+      "status": "ok",
+      "classification_file": "output\\evaluation\\qa_full_runs\\smoke_check_20260618T044917757781Z\\classifications\\016_www.piraeusbank.gr_el_idiwtes_proionta-upiresies_stegastika-daneia_prasino-episkeuastiko-daneio-me-eksasfalisi_3f1b2ca9_classification.json",
+      "scraped_file": "output\\va3_scraper_to_template\\20260617T100402Z_www.piraeusbank.gr_el_idiwtes_proionta-upiresies_stegastika-daneia_prasino-episkeuastiko-daneio-me-eksasfalisi_3f1b2ca9_scraped.txt",
+      "summary": {
+        "total_checked": 19,
+        "found": 17,
+        "missing": 2,
+        "coverage": 0.8947
+      },
+      "results": [
+        {
+          "path": "extracted_data.contact_info[0]",
+          "value": "Κλείστε ραντεβού σε ένα κατάστημα",
+          "found": true
+        },
+        {
+          "path": "extracted_data.contact_info[1]",
+          "value": "Τηλεφωνική εξυπηρέτηση",
+          "found": true
+        },
+        {
+          "path": "extracted_data.description",
+          "value": "Πράσινο Επισκευαστικό Δάνειο με Εξασφάλιση Πειραιώς | Τράπεζα Πειραιώς Εξοικονόμηση ενέργειας Μία βιώσιμη επιλογή Επιλέξτε την προβολή χαμηλής ενέργειας και μειώστε την κατανάλωση της επίσκεψής σας. Eπιλέξτε το energy mode, μία μορφή του site χωρίς εικόνες και βίντεο που μειώνει την κατανάλωση ενέργειας. Διαβάστε περισσότερα σχετικά με τις δράσεις μας για τη μείωση του διοξειδίου του άνθρακα. ΕSG Ερωτήσεις & απαντήσεις Πώς μπορώ να εγκαταστήσω το Piraeus app; Κατεβάστε το Piraeus app από τo App Store (iOS) ή Google Play Store (Android) ή App Gallery (Huawei) πληκτρολογώντας Piraeus app και πατήστε Απόκτηση (iOS) ή Εγκατάσταση (Android) ή Εγκατάσταση (Huawei).",
+          "found": true
+        },
+        {
+          "path": "extracted_data.duration",
+          "value": "2-25 έτη",
+          "found": true
+        },
+        {
+          "path": "extracted_data.eligible_parties[0]",
+          "value": "Ιδιώτες",
+          "found": true
+        },
+        {
+          "path": "extracted_data.eligible_parties[1]",
+          "value": "Τραπεζικά",
+          "found": true
+        },
+        {
+          "path": "extracted_data.energy_performance_targets[0]",
+          "value": "Μείωση του κόστους ενέργειας λόγω συμψηφισμού με την εγκατάσταση φωτοβολταϊκού συστήματος",
+          "found": true
+        },
+        {
+          "path": "extracted_data.funding_coverage",
+          "value": "μέχρι: 100% του προϋπολογισμού των εργασιών για εργασίες ενεργειακής αναβάθμισης 100% του προϋπολογισμού της οικονομικής προσφοράς/προτιμολογίου του προμηθευτή-εγκαταστάτη των φωτοβολταϊκών συστη",
+          "found": true
+        },
+        {
+          "path": "extracted_data.funding_type",
+          "value": "Δάνειο",
+          "found": true
+        },
+        {
+          "path": "extracted_data.interest_rate",
+          "value": "Euribor μηνός & περιθώριο από 1,25%",
+          "found": true
+        },
+        {
+          "path": "extracted_data.loan_duration",
+          "value": "2 - 25 έτη",
+          "found": true
+        },
+        {
+          "path": "extracted_data.minimum_funding_amount",
+          "value": "10.000€",
+          "found": true
+        },
+        {
+          "path": "extracted_data.programme_name",
+          "value": "Πράσινο Επισκευαστικό Δάνειο με Εξασφάλιση Πειραιώς",
+          "found": true
+        },
+        {
+          "path": "extracted_data.programme_objective",
+          "value": "Πράσινο Επισκευαστικό Δάνειο με Εξασφάλιση Πειραιώς | Τράπεζα Πειραιώς Εξοικονόμηση ενέργειας Μία βιώσιμη επιλογή Επιλέξτε την προβολή χαμηλής ενέργειας και μειώστε την κατανάλωση της επίσκεψής σας. Eπιλέξτε το energy mode, μία μορφή του site χωρίς εικόνες και βίντεο που μειώνει την κατανάλωση ενέργειας. Διαβάστε περισσότερα σχετικά με τις δράσεις μας για τη μείωση του διοξειδίου του άνθρακα. ΕSG Ερωτήσεις & απαντήσεις Πώς μπορώ να εγκαταστήσω το Piraeus app; Κατεβάστε το Piraeus app από τo App Store (iOS) ή Google Play Store (Android) ή App Gallery (Huawei) πληκτρολογώντας Piraeus app και πατήστε Απόκτηση (iOS) ή Εγκατάσταση (Android) ή Εγκατάσταση (Huawei).",
+          "found": true
+        },
+        {
+          "path": "extracted_data.property_requirements[0]",
+          "value": "Πράσινο Επισκευαστικό Δάνειο με Εξασφάλιση Πειραιώς",
+          "found": true
+        },
+        {
+          "path": "extracted_data.property_requirements[1]",
+          "value": "Ενεργειακή αναβάθμιση κατοικίας",
+          "found": true
+        },
+        {
+          "path": "extracted_data.source_urls[0]",
+          "value": "https://www.piraeusbank.gr/el/idiwtes/proionta-upiresies/stegastika-daneia/prasino-episkeuastiko-daneio-me-eksasfalisi",
+          "found": false
+        },
+        {
+          "path": "extracted_data.source_url",
+          "value": "https://www.piraeusbank.gr/el/idiwtes/proionta-upiresies/stegastika-daneia/prasino-episkeuastiko-daneio-me-eksasfalisi",
+          "found": false
+        },
+        {
+          "path": "extracted_data.id",
+          "value": "program-3f1b2ca9c2",
+          "found": true
+        }
+      ]
+    },
+    {
+      "status": "ok",
+      "classification_file": "output\\evaluation\\qa_full_runs\\smoke_check_20260618T044917757781Z\\classifications\\017_www.piraeusbank.gr_el_idiwtes_proionta-upiresies_stegastika-daneia_prasino-stegastiko-daneio-me-stathero-epitokio_b3518007_classification.json",
+      "scraped_file": "output\\va3_scraper_to_template\\20260618T043249Z_www.piraeusbank.gr_el_idiwtes_proionta-upiresies_stegastika-daneia_prasino-stegastiko-daneio-me-stathero-epitokio_b3518007_scraped.txt",
+      "summary": {
+        "total_checked": 14,
+        "found": 11,
+        "missing": 3,
+        "coverage": 0.7857
+      },
+      "results": [
+        {
+          "path": "extracted_data.completion_delay_consequences",
+          "value": "Εφόσον το δάνειο έχει χορηγηθεί με σκοπό την ανέγερση/επισκευή κατοικίας και σύμφωνα με την πιστοποίηση του μηχανικού της τράπεζας μετά την ολοκλήρωση των εργασιών, η κατοικία ανήκει σε άλλη κατηγορία ενεργειακής απόδοσης πλην των Α+, Α, Β+, καταργείται εφεξής η έκπτωση και το σταθερό επιτόκιο και το περιθώριο του κυμαινομένου επιτοκίου του δανείου επιβαρύνονται με 0,15%.",
+          "found": true
+        },
+        {
+          "path": "extracted_data.description",
+          "value": "Πράσινο Στεγαστικό Δάνειο με Σταθερό Επιτόκιο | Τράπεζα Πειραιώς Εξοικονόμηση ενέργειας Μία βιώσιμη επιλογή Επιλέξτε την προβολή χαμηλής ενέργειας και μειώστε την κατανάλωση της επίσκεψής σας. Eπιλέξτε το energy mode, μία μορφή του site χωρίς εικόνες και βίντεο που μειώνει την κατανάλωση ενέργειας. Διαβάστε περισσότερα σχετικά με τις δράσεις μας για τη μείωση του διοξειδίου του άνθρακα. ΕSG Ερωτήσεις & απαντήσεις Πώς μπορώ να εγκαταστήσω το Piraeus app; Κατεβάστε το Piraeus app από τo App Store (iOS) ή Google Play Store (Android) ή App Gallery (Huawei) πληκτρολογώντας Piraeus app και πατήστε Απόκτηση (iOS) ή Εγκατάσταση (Android) ή Εγκατάσταση (Huawei).",
+          "found": true
+        },
+        {
+          "path": "extracted_data.eligible_interventions[0]",
+          "value": "Αγορά, κατασκευή ή ανακαίνιση κατοικίας υψηλής ενεργειακής κατηγορίας (Α+, Α, Β+)",
+          "found": true
+        },
+        {
+          "path": "extracted_data.energy_performance_targets[0]",
+          "value": "Α+, Α, Β+",
+          "found": true
+        },
+        {
+          "path": "extracted_data.funding_coverage",
+          "value": "ποσοστό χρηματοδότησης διαμορφώνεται ανάλογα με τον σκοπό του δανείου και μπορεί να φτάσει έως το 90% εφόσον: α) η ηλικία σας δεν ξεπερνά τα 50 έτη β) κανένας εκ των οφειλετών/συνοφειλετών δεν τηρεί δάνειο που αφορά σε οικιστικό ακίνητο κατά τη στιγμή της έγκρισης γ) το ποσό του δανείου δεν ξεπερνά τα 500.000€",
+          "found": true
+        },
+        {
+          "path": "extracted_data.funding_type",
+          "value": "Δάνειο",
+          "found": true
+        },
+        {
+          "path": "extracted_data.interest_rate",
+          "value": "2,25%",
+          "found": true
+        },
+        {
+          "path": "extracted_data.loan_duration",
+          "value": "7 - 35 έτη",
+          "found": true
+        },
+        {
+          "path": "extracted_data.minimum_funding_amount",
+          "value": "20.000€",
+          "found": true
+        },
+        {
+          "path": "extracted_data.programme_name",
+          "value": "Πράσινο Στεγαστικό Δάνειο με Σταθερό Επιτόκιο",
+          "found": true
+        },
+        {
+          "path": "extracted_data.programme_objective",
+          "value": "Πράσινο Στεγαστικό Δάνειο με Σταθερό Επιτόκιο | Τράπεζα Πειραιώς Εξοικονόμηση ενέργειας Μία βιώσιμη επιλογή Επιλέξτε την προβολή χαμηλής ενέργειας και μειώστε την κατανάλωση της επίσκεψής σας. Eπιλέξτε το energy mode, μία μορφή του site χωρίς εικόνες και βίντεο που μειώνει την κατανάλωση ενέργειας. Διαβάστε περισσότερα σχετικά με τις δράσεις μας για τη μείωση του διοξειδίου του άνθρακα. ΕSG Ερωτήσεις & απαντήσεις Πώς μπορώ να εγκαταστήσω το Piraeus app; Κατεβάστε το Piraeus app από τo App Store (iOS) ή Google Play Store (Android) ή App Gallery (Huawei) πληκτρολογώντας Piraeus app και πατήστε Απόκτηση (iOS) ή Εγκατάσταση (Android) ή Εγκατάσταση (Huawei).",
+          "found": true
+        },
+        {
+          "path": "extracted_data.source_urls[0]",
+          "value": "https://www.piraeusbank.gr/el/idiwtes/proionta-upiresies/stegastika-daneia/prasino-stegastiko-daneio-me-stathero-epitokio",
+          "found": false
+        },
+        {
+          "path": "extracted_data.source_url",
+          "value": "https://www.piraeusbank.gr/el/idiwtes/proionta-upiresies/stegastika-daneia/prasino-stegastiko-daneio-me-stathero-epitokio",
+          "found": false
+        },
+        {
+          "path": "extracted_data.id",
+          "value": "program-b351800789",
+          "found": false
+        }
+      ]
+    },
+    {
+      "status": "ok",
+      "classification_file": "output\\evaluation\\qa_full_runs\\smoke_check_20260618T044917757781Z\\classifications\\018_www.piraeusbank.gr_el_idiwtes_proionta-upiresies_stegastika-daneia_prasino-stegastiko-daneio-sundedemeno-me-euribor_30fdb982_classification.json",
+      "scraped_file": "output\\va3_scraper_to_template\\20260617T011350Z_www.piraeusbank.gr_el_idiwtes_proionta-upiresies_stegastika-daneia_prasino-stegastiko-daneio-sundedemeno-me-euribor_30fdb982_scraped.txt",
+      "summary": {
+        "total_checked": 13,
+        "found": 10,
+        "missing": 3,
+        "coverage": 0.7692
+      },
+      "results": [
+        {
+          "path": "extracted_data.completion_delay_consequences",
+          "value": "Εφόσον το δάνειο έχει χορηγηθεί με σκοπό ανέγερση/επισκευή και σύμφωνα με την πιστοποίηση του μηχανικού της τράπεζας μετά την ολοκλήρωση των εργασιών η κατοικία ανήκει σε άλλη κατηγορία ενεργειακής απόδοσης πλην των Α+, Α, Β+, καταργείται εφεξής η έκπτωση και το περιθώριο του δανείου επιβαρύνεται με 0,15%.",
+          "found": true
+        },
+        {
+          "path": "extracted_data.description",
+          "value": "Πράσινο Στεγαστικό Δάνειο Συνδεδεμένο με Euribor | Τράπεζα Πειραιώς Εξοικονόμηση ενέργειας Μία βιώσιμη επιλογή Επιλέξτε την προβολή χαμηλής ενέργειας και μειώστε την κατανάλωση της επίσκεψής σας. Eπιλέξτε το energy mode, μία μορφή του site χωρίς εικόνες και βίντεο που μειώνει την κατανάλωση ενέργειας. Διαβάστε περισσότερα σχετικά με τις δράσεις μας για τη μείωση του διοξειδίου του άνθρακα. ΕSG Ερωτήσεις & απαντήσεις Πώς μπορώ να εγκαταστήσω το Piraeus app; Κατεβάστε το Piraeus app από τo App Store (iOS) ή Google Play Store (Android) ή App Gallery (Huawei) πληκτρολογώντας Piraeus app και πατήστε Απόκτηση (iOS) ή Εγκατάσταση (Android) ή Εγκατάσταση (Huawei).",
+          "found": true
+        },
+        {
+          "path": "extracted_data.eligible_interventions[0]",
+          "value": "Αγορά, κατασκευή ή ανακαίνιση κατοικίας υψηλής ενεργειακής κατηγορίας (Α+, Α, Β+)",
+          "found": true
+        },
+        {
+          "path": "extracted_data.funding_coverage",
+          "value": "ποσοστό χρηματοδότησης διαμορφώνεται ανάλογα με τον σκοπό του δανείου και μπορεί να φτάσει έως το 90% εφόσον: α) η ηλικία σας δεν ξεπερνά τα 50 έτη β) κανένας εκ των οφειλετών/συνοφειλετών δεν τηρεί δάνειο που αφορά σε οικιστικό ακίνητο κατά τη στιγμή της έγκρισης γ) το ποσό του δανείου δεν ξεπερνά τα 500.000€",
+          "found": true
+        },
+        {
+          "path": "extracted_data.funding_type",
+          "value": "Δάνειο",
+          "found": true
+        },
+        {
+          "path": "extracted_data.interest_rate",
+          "value": "Euribor μηνός & περιθώριο από 1,25%",
+          "found": true
+        },
+        {
+          "path": "extracted_data.loan_duration",
+          "value": "3 - 35 έτη",
+          "found": true
+        },
+        {
+          "path": "extracted_data.minimum_funding_amount",
+          "value": "20.000€",
+          "found": true
+        },
+        {
+          "path": "extracted_data.programme_name",
+          "value": "Πράσινο Στεγαστικό Δάνειο Συνδεδεμένο με Euribor",
+          "found": true
+        },
+        {
+          "path": "extracted_data.programme_objective",
+          "value": "Πράσινο Στεγαστικό Δάνειο Συνδεδεμένο με Euribor | Τράπεζα Πειραιώς Εξοικονόμηση ενέργειας Μία βιώσιμη επιλογή Επιλέξτε την προβολή χαμηλής ενέργειας και μειώστε την κατανάλωση της επίσκεψής σας. Eπιλέξτε το energy mode, μία μορφή του site χωρίς εικόνες και βίντεο που μειώνει την κατανάλωση ενέργειας. Διαβάστε περισσότερα σχετικά με τις δράσεις μας για τη μείωση του διοξειδίου του άνθρακα. ΕSG Ερωτήσεις & απαντήσεις Πώς μπορώ να εγκαταστήσω το Piraeus app; Κατεβάστε το Piraeus app από τo App Store (iOS) ή Google Play Store (Android) ή App Gallery (Huawei) πληκτρολογώντας Piraeus app και πατήστε Απόκτηση (iOS) ή Εγκατάσταση (Android) ή Εγκατάσταση (Huawei).",
+          "found": true
+        },
+        {
+          "path": "extracted_data.source_urls[0]",
+          "value": "https://www.piraeusbank.gr/el/idiwtes/proionta-upiresies/stegastika-daneia/prasino-stegastiko-daneio-sundedemeno-me-euribor",
+          "found": false
+        },
+        {
+          "path": "extracted_data.source_url",
+          "value": "https://www.piraeusbank.gr/el/idiwtes/proionta-upiresies/stegastika-daneia/prasino-stegastiko-daneio-sundedemeno-me-euribor",
+          "found": false
+        },
+        {
+          "path": "extracted_data.id",
+          "value": "euribor-30fdb98271",
+          "found": false
+        }
+      ]
+    },
+    {
+      "status": "ok",
+      "classification_file": "output\\evaluation\\qa_full_runs\\smoke_check_20260618T044917757781Z\\classifications\\019_www.eurobank.gr_el_retail_proionta-upiresies_proionta_daneia_prasina_green-fast-loan_15a4f314_classification.json",
+      "scraped_file": "output\\va3_scraper_to_template\\20260617T040554Z_www.eurobank.gr_el_retail_proionta-upiresies_proionta_daneia_prasina_green-fast-loan_15a4f314_scraped.txt",
+      "summary": {
+        "total_checked": 19,
+        "found": 16,
+        "missing": 3,
+        "coverage": 0.8421
+      },
+      "results": [
+        {
+          "path": "extracted_data.contact_info[0]",
+          "value": "2109555455",
+          "found": true
+        },
+        {
+          "path": "extracted_data.contact_info[1]",
+          "value": "Δευτέρα-Παρασκευή, 09:00-17:00",
+          "found": true
+        },
+        {
+          "path": "extracted_data.description",
+          "value": "Στην Eurobank στηρίζουμε το πρόγραμμα «Ανακυκλώνω – Αλλάζω συσκευή» του Υπουργείου Περιβάλλοντος και Ενέργειας και ενισχύουμε την προσπάθειά σας να εξοικονομήσετε ενέργεια για το περιβάλλον και χρήματα για τις ανάγκες σας. Αποκτήστε Green Fast Loan για να αγοράσετε πράσινες οικιακές συσκευές, να αντικαταστήσετε παλιές συσκευές σας που καταναλώνουν πολλή ενέργεια ή να εξοικονομείτε ενέργεια στις μετακινήσεις σας με την αγορά ηλεκτρικού ποδηλάτου ή σκούτερ.",
+          "found": true
+        },
+        {
+          "path": "extracted_data.eligible_interventions[0]",
+          "value": "Πράσινες οικιακές συσκευές",
+          "found": true
+        },
+        {
+          "path": "extracted_data.eligible_interventions[1]",
+          "value": "Λευκές οικιακές συσκευές",
+          "found": true
+        },
+        {
+          "path": "extracted_data.eligible_interventions[2]",
+          "value": "Συσκευές θέρμανσης και κλιματισμού",
+          "found": true
+        },
+        {
+          "path": "extracted_data.eligible_interventions[3]",
+          "value": "Ενεργειακή αναβάθμιση κατοικίας",
+          "found": true
+        },
+        {
+          "path": "extracted_data.funding_type",
+          "value": "Δάνειο",
+          "found": true
+        },
+        {
+          "path": "extracted_data.interest_rate",
+          "value": "11,90%",
+          "found": true
+        },
+        {
+          "path": "extracted_data.loan_duration",
+          "value": "από 6 μήνες έως 5 χρόνια",
+          "found": true
+        },
+        {
+          "path": "extracted_data.maximum_funding_amount",
+          "value": "5.000€",
+          "found": true
+        },
+        {
+          "path": "extracted_data.minimum_funding_amount",
+          "value": "300€",
+          "found": true
+        },
+        {
+          "path": "extracted_data.post_completion_obligations",
+          "value": "Αποστολή απόδειξης αγοράς Μετά την εκταμίευση του δανείου είναι απαραίτητο να μας στείλετε με email την απόδειξη ή τις αποδείξεις όπου φαίνεται ότι αγοράσατε πράσινα προϊόντα, μέσα σε 30 ημέρες από την υπογραφή της σύμβασής σας, για να παραμείνει το επιτόκιο σας μειωμένο σε όλη τη διάρκεια αποπληρωμής του δανείου.",
+          "found": true
+        },
+        {
+          "path": "extracted_data.programme_name",
+          "value": "Προσωπικό Δάνειο Green Fast Loan",
+          "found": true
+        },
+        {
+          "path": "extracted_data.programme_objective",
+          "value": "Στην Eurobank στηρίζουμε το πρόγραμμα «Ανακυκλώνω – Αλλάζω συσκευή» του Υπουργείου Περιβάλλοντος και Ενέργειας και ενισχύουμε την προσπάθειά σας να εξοικονομήσετε ενέργεια για το περιβάλλον και χρήματα για τις ανάγκες σας. Αποκτήστε Green Fast Loan για να αγοράσετε πράσινες οικιακές συσκευές, να αντικαταστήσετε παλιές συσκευές σας που καταναλώνουν πολλή ενέργεια ή να εξοικονομείτε ενέργεια στις μετακινήσεις σας με την αγορά ηλεκτρικού ποδηλάτου ή σκούτερ.",
+          "found": true
+        },
+        {
+          "path": "extracted_data.property_requirements[0]",
+          "value": "πράσινες ανάγκες σας",
+          "found": true
+        },
+        {
+          "path": "extracted_data.source_urls[0]",
+          "value": "https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/green-fast-loan",
+          "found": false
+        },
+        {
+          "path": "extracted_data.source_url",
+          "value": "https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/green-fast-loan",
+          "found": false
+        },
+        {
+          "path": "extracted_data.id",
+          "value": "green-fast-loan-15a4f314f7",
+          "found": false
+        }
+      ]
+    },
+    {
+      "status": "ok",
+      "classification_file": "output\\evaluation\\qa_full_runs\\smoke_check_20260618T044917757781Z\\classifications\\020_www.crediabank.com_idiotes_daneia_stegastika_stegastiko-daneio-eco-home_592fa2ea_classification.json",
+      "scraped_file": "output\\va3_scraper_to_template\\20260617T033055Z_www.crediabank.com_idiotes_daneia_stegastika_stegastiko-daneio-eco-home_592fa2ea_scraped.txt",
+      "summary": {
+        "total_checked": 22,
+        "found": 18,
+        "missing": 4,
+        "coverage": 0.8182
+      },
+      "results": [
+        {
+          "path": "extracted_data.description",
+          "value": "Στεγαστικό Δάνειο Eco Home - CrediaBank Στεγαστικό Δάνειο Eco Home Δάνειο για Ενεργειακή Αναβάθμιση Κατοικίας Εκδήλωση Ενδιαφέροντος Μείωσε το ενεργειακό αποτύπωμα του σπιτιού σου και εξοικονόμησε χρήματα με το Eco Home . Ιδανικό για θέρμανση, θερμομόνωση, κουφώματα ή ηλιακά συστήματα, με δάνειο που προσαρμόζεται στις δυνατότητές σου. Χρηματοδότηση Σου παρέχουμε την απαραίτητη υποστήριξη για να κάνεις το σπίτι σου πιο οικολογικό, αποδοτικό και άνετο. Κάλυψε μέχρι και το 100% του κόστους εργασιών ενεργειακής αναβάθμισης ακινήτου ή και ανακαίνισής του. Η χρηματοδότηση εργασιών ανακαίνισης δεν μπορεί να υπερβαίνει το 40% του συνολικού προϋπολογισμού.",
+          "found": true
+        },
+        {
+          "path": "extracted_data.eligible_interventions[0]",
+          "value": "Μονώσεις",
+          "found": false
+        },
+        {
+          "path": "extracted_data.eligible_interventions[1]",
+          "value": "Αντικατάσταση κουφωμάτων",
+          "found": true
+        },
+        {
+          "path": "extracted_data.eligible_interventions[2]",
+          "value": "Τοποθέτηση / αντικατάσταση κελύφους για θερμομόνωση",
+          "found": true
+        },
+        {
+          "path": "extracted_data.eligible_interventions[3]",
+          "value": "Αναβάθμιση συστήματος θέρμανσης / ψύξης",
+          "found": true
+        },
+        {
+          "path": "extracted_data.eligible_interventions[4]",
+          "value": "Αναβάθμιση συστήματος ζεστού νερού χρήσης μέσω ΑΠΕ",
+          "found": true
+        },
+        {
+          "path": "extracted_data.funding_coverage",
+          "value": "Κάλυψε μέχρι και το 100% του κόστους εργασιών ενεργειακής αναβάθμισης ακινήτου ή και ανακαίνισής του",
+          "found": true
+        },
+        {
+          "path": "extracted_data.funding_type",
+          "value": "Δάνειο",
+          "found": true
+        },
+        {
+          "path": "extracted_data.interest_rate[0]",
+          "value": "3,30%",
+          "found": true
+        },
+        {
+          "path": "extracted_data.interest_rate[1]",
+          "value": "Euribor 3m πλέον περιθωρίου (spread) 1,70%",
+          "found": true
+        },
+        {
+          "path": "extracted_data.loan_duration",
+          "value": "10-15 έτη",
+          "found": true
+        },
+        {
+          "path": "extracted_data.maximum_funding_amount",
+          "value": "75.000€",
+          "found": true
+        },
+        {
+          "path": "extracted_data.minimum_funding_amount",
+          "value": "15.000€",
+          "found": true
+        },
+        {
+          "path": "extracted_data.programme_name",
+          "value": "Στεγαστικό Δάνειο Eco Home",
+          "found": true
+        },
+        {
+          "path": "extracted_data.programme_objective",
+          "value": "Στεγαστικό Δάνειο Eco Home - CrediaBank Στεγαστικό Δάνειο Eco Home Δάνειο για Ενεργειακή Αναβάθμιση Κατοικίας Εκδήλωση Ενδιαφέροντος Μείωσε το ενεργειακό αποτύπωμα του σπιτιού σου και εξοικονόμησε χρήματα με το Eco Home . Ιδανικό για θέρμανση, θερμομόνωση, κουφώματα ή ηλιακά συστήματα, με δάνειο που προσαρμόζεται στις δυνατότητές σου. Χρηματοδότηση Σου παρέχουμε την απαραίτητη υποστήριξη για να κάνεις το σπίτι σου πιο οικολογικό, αποδοτικό και άνετο. Κάλυψε μέχρι και το 100% του κόστους εργασιών ενεργειακής αναβάθμισης ακινήτου ή και ανακαίνισής του. Η χρηματοδότηση εργασιών ανακαίνισης δεν μπορεί να υπερβαίνει το 40% του συνολικού προϋπολογισμού.",
+          "found": true
+        },
+        {
+          "path": "extracted_data.property_requirements[0]",
+          "value": "θέρμανση",
+          "found": true
+        },
+        {
+          "path": "extracted_data.property_requirements[1]",
+          "value": "θερμομόνωση",
+          "found": true
+        },
+        {
+          "path": "extracted_data.property_requirements[2]",
+          "value": "κουφώματα",
+          "found": true
+        },
+        {
+          "path": "extracted_data.property_requirements[3]",
+          "value": "ηλιακά συστήματα",
+          "found": true
+        },
+        {
+          "path": "extracted_data.source_urls[0]",
+          "value": "https://www.crediabank.com/idiotes/daneia/stegastika/stegastiko-daneio-eco-home/",
+          "found": false
+        },
+        {
+          "path": "extracted_data.source_url",
+          "value": "https://www.crediabank.com/idiotes/daneia/stegastika/stegastiko-daneio-eco-home/",
+          "found": false
+        },
+        {
+          "path": "extracted_data.id",
+          "value": "eco-home-592fa2ea5d",
+          "found": false
+        }
+      ]
+    },
+    {
+      "status": "ok",
+      "classification_file": "output\\evaluation\\qa_full_runs\\smoke_check_20260618T044917757781Z\\classifications\\021_www.bankofthessaly.gr_idiotes_prasina-daneia_a04101da_classification.json",
+      "scraped_file": "output\\va3_scraper_to_template\\20260617T020818Z_www.bankofthessaly.gr_idiotes_prasina-daneia_exoikonomo-anakainizo-gia-neous_ff06ecc7_scraped.txt",
+      "summary": {
+        "total_checked": 7,
+        "found": 0,
+        "missing": 7,
+        "coverage": 0.0
+      },
+      "results": [
+        {
+          "path": "extracted_data.description",
+          "value": "Τράπεζα Θεσσαλίας - Πράσινα Δάνεια Χρηματοδοτούμε τη βιωσιμότητα, γιατί το μέλλον είναι πράσινο. Πράσινα Δάνεια Εξοικονομώ 2025 μάθετε περισσότερα Πρόγραμμα «Αναβαθμίζω το σπίτι μου» μάθετε περισσότερα Εξοικονομώ-Ανακαινίζω για Νέους μάθετε περισσότερα Εξοικονομώ 2023 μάθετε περισσότερα Green Life μάθετε περισσότερα Mobile app Η Συνεταιριστική Τράπεζα Θεσσαλίας στο κινητό σου! Με τη νέα εφαρμογή ThessalyBank διαχειρίζεστε εύκολα και με ασφάλεια τα οικονομικά σας, όπου κι αν βρίσκεστε – όλα με ένα άγγιγμα. Άμεσα διαθέσιμη για εγκατάσταση. Κλείσιμο",
+          "found": false
+        },
+        {
+          "path": "extracted_data.funding_type",
+          "value": "Δάνειο",
+          "found": false
+        },
+        {
+          "path": "extracted_data.programme_name",
+          "value": "Τράπεζα Θεσσαλίας - Πράσινα Δάνεια",
+          "found": false
+        },
+        {
+          "path": "extracted_data.programme_objective",
+          "value": "Τράπεζα Θεσσαλίας - Πράσινα Δάνεια Χρηματοδοτούμε τη βιωσιμότητα, γιατί το μέλλον είναι πράσινο. Πράσινα Δάνεια Εξοικονομώ 2025 μάθετε περισσότερα Πρόγραμμα «Αναβαθμίζω το σπίτι μου» μάθετε περισσότερα Εξοικονομώ-Ανακαινίζω για Νέους μάθετε περισσότερα Εξοικονομώ 2023 μάθετε περισσότερα Green Life μάθετε περισσότερα Mobile app Η Συνεταιριστική Τράπεζα Θεσσαλίας στο κινητό σου! Με τη νέα εφαρμογή ThessalyBank διαχειρίζεστε εύκολα και με ασφάλεια τα οικονομικά σας, όπου κι αν βρίσκεστε – όλα με ένα άγγιγμα. Άμεσα διαθέσιμη για εγκατάσταση. Κλείσιμο",
+          "found": false
+        },
+        {
+          "path": "extracted_data.source_urls[0]",
+          "value": "https://www.bankofthessaly.gr/idiotes/prasina-daneia/",
+          "found": false
+        },
+        {
+          "path": "extracted_data.source_url",
+          "value": "https://www.bankofthessaly.gr/idiotes/prasina-daneia/",
+          "found": false
+        },
+        {
+          "path": "extracted_data.id",
+          "value": "program-a04101daf7",
+          "found": false
+        }
+      ]
+    },
+    {
+      "status": "ok",
+      "classification_file": "output\\evaluation\\qa_full_runs\\smoke_check_20260618T044917757781Z\\classifications\\022_www.gov.gr_ipiresies_polites-kai-kathemerinoteta_periballon-kai-poioteta-zoes_photoboltaika-ste-stege_9d577ea5_classification.json",
+      "scraped_file": "output\\va3_scraper_to_template\\20260617T023953Z_www.gov.gr_ipiresies_polites-kai-kathemerinoteta_periballon-kai-poioteta-zoes_photoboltaika-ste-stege_9d577ea5_scraped.txt",
+      "summary": {
+        "total_checked": 9,
+        "found": 6,
+        "missing": 3,
+        "coverage": 0.6667
+      },
+      "results": [
+        {
+          "path": "extracted_data.completion_deadline",
+          "value": "30η Απριλίου 2026",
+          "found": true
+        },
+        {
+          "path": "extracted_data.description",
+          "value": "Φωτοβολταϊκά στη στέγη - Gov.gr EL English EL English 3.900.000+ διάλογοι BETA 3.900.000+ διάλογοι BETA Ρωτήστε τον ψηφιακό βοηθό του gov.gr Ρωτήστε τον ψηφιακό βοηθό του gov.gr Αρχική Πολίτης και καθημερινότητα Περιβάλλον και ποιότητα ζωής Φωτοβολταϊκά στη στέγη Created with sketchtool.",
+          "found": true
+        },
+        {
+          "path": "extracted_data.eligible_parties[0]",
+          "value": "τα νοικοκυριά",
+          "found": true
+        },
+        {
+          "path": "extracted_data.programme_name",
+          "value": "Φωτοβολταϊκά στη στέγη",
+          "found": true
+        },
+        {
+          "path": "extracted_data.programme_objective",
+          "value": "Φωτοβολταϊκά στη στέγη - Gov.gr EL English EL English 3.900.000+ διάλογοι BETA 3.900.000+ διάλογοι BETA Ρωτήστε τον ψηφιακό βοηθό του gov.gr Ρωτήστε τον ψηφιακό βοηθό του gov.gr Αρχική Πολίτης και καθημερινότητα Περιβάλλον και ποιότητα ζωής Φωτοβολταϊκά στη στέγη Created with sketchtool.",
+          "found": true
+        },
+        {
+          "path": "extracted_data.property_requirements[0]",
+          "value": "σύνδεση με τον Διαχειριστή Ελληνικού Δικτύου Διανομής Ηλεκτρικής Ενέργειας (ΔΕΔΔΗΕ)",
+          "found": true
+        },
+        {
+          "path": "extracted_data.source_urls[0]",
+          "value": "https://www.gov.gr/ipiresies/polites-kai-kathemerinoteta/periballon-kai-poioteta-zoes/photoboltaika-ste-stege",
+          "found": false
+        },
+        {
+          "path": "extracted_data.source_url",
+          "value": "https://www.gov.gr/ipiresies/polites-kai-kathemerinoteta/periballon-kai-poioteta-zoes/photoboltaika-ste-stege",
+          "found": false
+        },
+        {
+          "path": "extracted_data.id",
+          "value": "program-9d577ea5a4",
+          "found": false
+        }
+      ]
+    }
+  ]
+}

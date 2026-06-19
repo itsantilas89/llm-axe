@@ -1,0 +1,96 @@
+% !TeX program = xelatex
+\documentclass[11pt,a4paper,oneside]{report}
+
+\usepackage[a4paper,top=2.5cm,bottom=2.5cm,left=3cm,right=2.5cm]{geometry}
+\usepackage{fontspec}
+\usepackage{polyglossia}
+\setmainlanguage{greek}
+\setotherlanguage{english}
+\setmainfont{Noto Serif}
+\setsansfont{Noto Sans}
+\setmonofont{Noto Sans Mono}
+
+\usepackage{microtype}
+\usepackage{setspace}
+\onehalfspacing
+
+\usepackage{graphicx}
+\usepackage{adjustbox}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{longtable}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{xcolor}
+\usepackage{tikz}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.18}
+\usetikzlibrary{arrows.meta,positioning,shapes.geometric,fit,calc}
+
+\usepackage{enumitem}
+\usepackage{csquotes}
+\usepackage[backend=biber,style=numeric,sorting=none,maxbibnames=99]{biblatex}
+\addbibresource{references.bib}
+
+\definecolor{linkblue}{RGB}{0,70,150}
+\usepackage[
+    colorlinks=true,
+    linkcolor=linkblue,
+    citecolor=linkblue,
+    urlcolor=linkblue
+]{hyperref}
+
+\newcolumntype{Y}{>{\raggedright\arraybackslash}X}
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}}
+\newcommand{\eng}[1]{\textenglish{#1}}
+\setlength{\tabcolsep}{5pt}
+\renewcommand{\arraystretch}{1.18}
+\captionsetup{font=small,labelfont=bf}
+
+\newcommand{\thesistitle}{Αυτόματη Εξαγωγή και Τυποποίηση Δεδομένων Χρηματοδοτικών Προγραμμάτων Ενεργειακής Αναβάθμισης με Χρήση Μεγάλων Γλωσσικών Μοντέλων}
+\newcommand{\thesistitleen}{Automatic Extraction and Standardization of Data for Energy Renovation Financing Programmes Using Large Language Models}
+\newcommand{\thesisauthor}{Σταυριάνα Ζαννέτου}
+\newcommand{\thesisauthorid}{03121608}
+\newcommand{\thesissupervisor}{[Ονοματεπώνυμο Επιβλέποντος]}
+\newcommand{\thesisadvisorone}{Ioannis Tsantilas}
+\newcommand{\thesisadvisortwo}{Daniela Stoian}
+\newcommand{\thesisplace}{Αθήνα}
+\newcommand{\thesisyear}{2026}
+
+\begin{document}
+
+\pagenumbering{roman}
+\input{frontmatter/titlepage}
+\input{frontmatter/approval}
+\input{frontmatter/declaration}
+\input{frontmatter/abstract_el}
+\input{frontmatter/abstract_en}
+\input{frontmatter/acknowledgements}
+
+\tableofcontents
+\clearpage
+\listoffigures
+\clearpage
+\listoftables
+\clearpage
+
+\pagenumbering{arabic}
+\include{chapters/01_introduction}
+\include{chapters/02_theoretical_background}
+\include{chapters/03_methodology}
+% Τα επόμενα κεφάλαια θα ενεργοποιηθούν όταν γραφτούν.
+% \include{chapters/04_implementation}
+% \include{chapters/05_results}
+% \include{chapters/06_web_application}
+% \include{chapters/07_conclusions}
+
+\printbibliography[heading=bibintoc,title={Βιβλιογραφία}]
+
+% Τα παραρτήματα θα ενεργοποιηθούν στο τελικό στάδιο του τόμου.
+% \appendix
+% \include{appendices/a_prompts}
+% \include{appendices/b_data_schema}
+% \include{appendices/c_sources}
+
+\end{document}

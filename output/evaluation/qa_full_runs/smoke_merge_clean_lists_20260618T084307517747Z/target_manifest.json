@@ -1,0 +1,309 @@
+{
+  "run_id": "smoke_merge_clean_lists_20260618T084307517747Z",
+  "created_at": "2026-06-18T08:43:41+00:00",
+  "runner": "per_program",
+  "classification_dir": "output/va4_product_discoverer",
+  "selection": {
+    "latest_by_url": true,
+    "is_relevant": true,
+    "merge_by_program": true,
+    "program_key_rules": [
+      "exact_normalized_title_or_url",
+      "exoikonomo_2025_aliases",
+      "exoikonomo_anakainizo_gia_neous_aliases",
+      "anavathmizo_to_spiti_mou_aliases",
+      "photovoltaika_sti_stegi_aliases"
+    ],
+    "max_programs": 0
+  },
+  "question_counts": {
+    "all15": 15,
+    "repeat_questions": 11,
+    "repeat_count": 5
+  },
+  "llm": {
+    "model": "llama3.1:8b-instruct-q4_K_M",
+    "temperature": 0.2,
+    "num_ctx": 8192,
+    "num_predict": 512,
+    "generation_mode": "per_program_full_pruned_json",
+    "all15_batch_size": 1,
+    "repeat_batch_size": 1,
+    "prompt_context": "full_pruned_json_empty_fields_removed_no_string_truncation"
+  },
+  "source_url_count": 51,
+  "target_count": 22,
+  "targets": [
+    {
+      "index": 1,
+      "programme_name": "Credia Eco Λύσεις",
+      "url": "https://www.crediabank.com/idiotes/daneia/eco-katanalotika/eco-lyseis-energeiaki-anavathmisi-katoikias/",
+      "source_path": "C:\\Users\\stavr\\Desktop\\HMMY\\Thesis\\llm-axe\\output\\va4_product_discoverer\\20260617T033048Z_www.crediabank.com_idiotes_daneia_eco-katanalotika_eco-lyseis-energeiaki-anavathmisi-katoikias_36a72e32_classification.json",
+      "copied_path": "output\\evaluation\\qa_full_runs\\smoke_merge_clean_lists_20260618T084307517747Z\\classifications\\001_www.crediabank.com_idiotes_daneia_eco-katanalotika_eco-lyseis-energeiaki-anavathmisi-katoikias_36a72e32_classification.json",
+      "merged_from_count": 1,
+      "source_urls": [
+        "https://www.crediabank.com/idiotes/daneia/eco-katanalotika/eco-lyseis-energeiaki-anavathmisi-katoikias/"
+      ]
+    },
+    {
+      "index": 2,
+      "programme_name": "Eco Λύσεις - Net Metering",
+      "url": "https://www.crediabank.com/idiotes/daneia/eco-katanalotika/eco-lyseis-net-metering-egkatastasi-oikiakon-fv-sustimaton/",
+      "source_path": "C:\\Users\\stavr\\Desktop\\HMMY\\Thesis\\llm-axe\\output\\va4_product_discoverer\\20260617T013559Z_www.crediabank.com_idiotes_daneia_eco-katanalotika_eco-lyseis-net-metering-egkatastasi-oikiakon-fv-sustimaton_95f59cba_classification.json",
+      "copied_path": "output\\evaluation\\qa_full_runs\\smoke_merge_clean_lists_20260618T084307517747Z\\classifications\\002_www.crediabank.com_idiotes_daneia_eco-katanalotika_eco-lyseis-net-metering-egkatastasi-oikiakon-fv-sustimaton_95f59cba_classification.json",
+      "merged_from_count": 1,
+      "source_urls": [
+        "https://www.crediabank.com/idiotes/daneia/eco-katanalotika/eco-lyseis-net-metering-egkatastasi-oikiakon-fv-sustimaton/"
+      ]
+    },
+    {
+      "index": 3,
+      "programme_name": "Αναβαθμίζω το Σπίτι Μου",
+      "url": "https://oikogeneia.gov.gr/programs/anavathmizo-to-spiti-mou/",
+      "source_path": "C:\\Users\\stavr\\Desktop\\HMMY\\Thesis\\llm-axe\\output\\va4_product_discoverer\\20260617T043509Z_oikogeneia.gov.gr_programs_anavathmizo-to-spiti-mou_6d328bca_classification.json",
+      "copied_path": "output\\evaluation\\qa_full_runs\\smoke_merge_clean_lists_20260618T084307517747Z\\classifications\\003_oikogeneia.gov.gr_programs_anavathmizo-to-spiti-mou_6d328bca_classification.json",
+      "merged_from_count": 15,
+      "source_urls": [
+        "https://oikogeneia.gov.gr/programs/anavathmizo-to-spiti-mou/",
+        "https://greece20.gov.gr/home-loans",
+        "https://stegasi.gov.gr/programs/anavathmizo-to-spiti-mou/",
+        "https://greece20.gov.gr/anavathmizo-to-spiti-moy/",
+        "https://greece20.gov.gr/?calls=programma-sygchrimatodotoymenon-stegastikon-daneion-anavathmizo-to-spiti-moy",
+        "https://hdb.gr/anavathmizo-to-spiti-mou/",
+        "https://www.chaniabank.gr/idiotes/dania/anavathmizo-to-spiti-moy/",
+        "https://www.crediabank.com/idiotes/daneia/stegastika/programma-anavathmizo-to-spiti-mou/",
+        "https://www.piraeusbank.gr/el/idiwtes/proionta-upiresies/stegastika-daneia/anabathmizo-to-spiti-mou",
+        "https://www.epirusbank.com/citizens/anavathmizo-to-spiti-mou",
+        "https://www.bankofthessaly.gr/idiotes/prasina-daneia/anavathmizo-to-spiti-mou/",
+        "https://www.bankofkarditsa.com.gr/el/idiotes/daneia/anavathmizo-to-spiti-mou",
+        "https://www.alpha.gr/el/idiotes/daneia/episkevastika-daneia-gia-anakainisi/programma-anavathmizo-to-spiti-mou",
+        "https://www.nbg.gr/el/idiwtes/daneia/stegastika-daneia/episkeuastika-daneia/anavathmizw-to-spiti-mou",
+        "https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/programma-anabathmizo-to-spiti-mou"
+      ]
+    },
+    {
+      "index": 4,
+      "programme_name": "Εξοικονομώ",
+      "url": "https://www.nbg.gr/el/idiwtes/daneia/daneia-exoikonomisis-energeias",
+      "source_path": "C:\\Users\\stavr\\Desktop\\HMMY\\Thesis\\llm-axe\\output\\va4_product_discoverer\\20260616T210705Z_www.nbg.gr_el_idiwtes_daneia_daneia-exoikonomisis-energeias_f784a97e_classification.json",
+      "copied_path": "output\\evaluation\\qa_full_runs\\smoke_merge_clean_lists_20260618T084307517747Z\\classifications\\004_www.nbg.gr_el_idiwtes_daneia_daneia-exoikonomisis-energeias_f784a97e_classification.json",
+      "merged_from_count": 1,
+      "source_urls": [
+        "https://www.nbg.gr/el/idiwtes/daneia/daneia-exoikonomisis-energeias"
+      ]
+    },
+    {
+      "index": 5,
+      "programme_name": "Εξοικονομώ 2023",
+      "url": "https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/eksoikonomo-2023",
+      "source_path": "C:\\Users\\stavr\\Desktop\\HMMY\\Thesis\\llm-axe\\output\\va4_product_discoverer\\20260518T102036Z_www.eurobank.gr_el_retail_proionta-upiresies_proionta_daneia_prasina_eksoikonomo-2023_38e6dacb_classification.json",
+      "copied_path": "output\\evaluation\\qa_full_runs\\smoke_merge_clean_lists_20260618T084307517747Z\\classifications\\005_www.eurobank.gr_el_retail_proionta-upiresies_proionta_daneia_prasina_eksoikonomo-2023_38e6dacb_classification.json",
+      "merged_from_count": 1,
+      "source_urls": [
+        "https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/eksoikonomo-2023"
+      ]
+    },
+    {
+      "index": 6,
+      "programme_name": "Εξοικονομώ 2025",
+      "url": "https://www.gov.gr/ipiresies/periousia-kai-phorologia/diakheirise-akinetes-periousias/exoikonomo-2025",
+      "source_path": "C:\\Users\\stavr\\Desktop\\HMMY\\Thesis\\llm-axe\\output\\va4_product_discoverer\\20260618T070325Z_www.gov.gr_ipiresies_periousia-kai-phorologia_diakheirise-akinetes-periousias_exoikonomo-2025_2892978b_classification.json",
+      "copied_path": "output\\evaluation\\qa_full_runs\\smoke_merge_clean_lists_20260618T084307517747Z\\classifications\\006_www.gov.gr_ipiresies_periousia-kai-phorologia_diakheirise-akinetes-periousias_exoikonomo-2025_2892978b_classification.json",
+      "merged_from_count": 10,
+      "source_urls": [
+        "https://www.gov.gr/ipiresies/periousia-kai-phorologia/diakheirise-akinetes-periousias/exoikonomo-2025",
+        "https://stegasi.gov.gr/programs/exoikonomo-2025/",
+        "https://exoikonomo2025.gov.gr/",
+        "https://exoikonomo2025.gov.gr/odegos",
+        "https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/eksoikonomo-2025",
+        "https://www.alpha.gr/el/idiotes/daneia/episkevastika-daneia-gia-anakainisi/programma-eksoikonomo-2025",
+        "https://www.bankofthessaly.gr/idiotes/prasina-daneia/exoikonomo-2025/",
+        "https://www.crediabank.com/idiotes/daneia/hrimatodotika-programmata/exoikonomo-2025/",
+        "https://www.piraeusbank.gr/el/idiwtes/proionta-upiresies/stegastika-daneia/daneio-eksoikonomw",
+        "https://www.nbg.gr/el/idiwtes/daneia/daneia-exoikonomisis-energeias/exoikonomo-2025"
+      ]
+    },
+    {
+      "index": 7,
+      "programme_name": "Εξοικονομώ – Ανακαινίζω για νέους",
+      "url": "https://exoikonomoneon.gov.gr/",
+      "source_path": "C:\\Users\\stavr\\Desktop\\HMMY\\Thesis\\llm-axe\\output\\va4_product_discoverer\\20260617T022550Z_exoikonomoneon.gov.gr_20e50a53_classification.json",
+      "copied_path": "output\\evaluation\\qa_full_runs\\smoke_merge_clean_lists_20260618T084307517747Z\\classifications\\007_exoikonomoneon.gov.gr_20e50a53_classification.json",
+      "merged_from_count": 7,
+      "source_urls": [
+        "https://exoikonomoneon.gov.gr/",
+        "https://www.crediabank.com/idiotes/daneia/hrimatodotika-programmata/programma-exoikonomo-anakainizo-gia-neous/",
+        "https://www.alpha.gr/el/idiotes/daneia/episkevastika-daneia-gia-anakainisi/programma-eksoikonomo-anakainizo-gia-neous",
+        "https://www.bankofthessaly.gr/idiotes/prasina-daneia/exoikonomo-anakainizo-gia-neous/",
+        "https://www.crediabank.com/programma-exoikonomo-anakainizo-gia-neous/",
+        "https://www.nbg.gr/el/idiwtes/daneia/daneia-exoikonomisis-energeias/eksoikonomw-anakoinizw-daneio-gia-neous",
+        "https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/eksoikonomo-anakainizo-gia-neous"
+      ]
+    },
+    {
+      "index": 8,
+      "programme_name": "ΕΣΤΙΑ Πράσινη Στεγαστικό Δάνειο",
+      "url": "https://www.nbg.gr/el/idiwtes/daneia/stegastika-daneia/daneia-akinitwn/estia-prasini",
+      "source_path": "C:\\Users\\stavr\\Desktop\\HMMY\\Thesis\\llm-axe\\output\\va4_product_discoverer\\20260617T044339Z_www.nbg.gr_el_idiwtes_daneia_stegastika-daneia_daneia-akinitwn_estia-prasini_423fd61f_classification.json",
+      "copied_path": "output\\evaluation\\qa_full_runs\\smoke_merge_clean_lists_20260618T084307517747Z\\classifications\\008_www.nbg.gr_el_idiwtes_daneia_stegastika-daneia_daneia-akinitwn_estia-prasini_423fd61f_classification.json",
+      "merged_from_count": 1,
+      "source_urls": [
+        "https://www.nbg.gr/el/idiwtes/daneia/stegastika-daneia/daneia-akinitwn/estia-prasini"
+      ]
+    },
+    {
+      "index": 9,
+      "programme_name": "Καταναλωτικό Δάνειο Green για Πράσινες Επισκευές",
+      "url": "https://www.piraeusbank.gr/el/idiwtes/proionta-upiresies/daneia/proswpika/katanalwtiko-daneio-green-gia-prasines-episkeves",
+      "source_path": "C:\\Users\\stavr\\Desktop\\HMMY\\Thesis\\llm-axe\\output\\va4_product_discoverer\\20260617T100354Z_www.piraeusbank.gr_el_idiwtes_proionta-upiresies_daneia_proswpika_katanalwtiko-daneio-green-gia-prasines-episkeves_6f5d50a6_classification.json",
+      "copied_path": "output\\evaluation\\qa_full_runs\\smoke_merge_clean_lists_20260618T084307517747Z\\classifications\\009_www.piraeusbank.gr_el_idiwtes_proionta-upiresies_daneia_proswpika_katanalwtiko-daneio-green-gia-prasines-episkeves_6f5d50a6_classification.json",
+      "merged_from_count": 1,
+      "source_urls": [
+        "https://www.piraeusbank.gr/el/idiwtes/proionta-upiresies/daneia/proswpika/katanalwtiko-daneio-green-gia-prasines-episkeves"
+      ]
+    },
+    {
+      "index": 10,
+      "programme_name": "Νέο χρηματοδοτικό προϊόν για δικαιούχους του Προγράμματος «Φωτοβολταϊκά στη στέγη»",
+      "url": "https://www.epirusbank.com/blog/deltia-tupou-1/183-neo-crematodotiko-proion-gia-dikaioucous-tou-programmatos-lpotoboltaika-ste-steger",
+      "source_path": "C:\\Users\\stavr\\Desktop\\HMMY\\Thesis\\llm-axe\\output\\va4_product_discoverer\\20260617T044552Z_www.epirusbank.com_blog_deltia-tupou-1_183-neo-crematodot...gia-dikaioucous-tou-programmatos-lpotoboltaika-ste-steger_d2b59b5a_classification.json",
+      "copied_path": "output\\evaluation\\qa_full_runs\\smoke_merge_clean_lists_20260618T084307517747Z\\classifications\\010_www.epirusbank.com_blog_deltia-tupou-1_183-neo-crematodot...gia-dikaioucous-tou-programmatos-lpotoboltaika-ste-steger_d2b59b5a_classification.json",
+      "merged_from_count": 1,
+      "source_urls": [
+        "https://www.epirusbank.com/blog/deltia-tupou-1/183-neo-crematodotiko-proion-gia-dikaioucous-tou-programmatos-lpotoboltaika-ste-steger"
+      ]
+    },
+    {
+      "index": 11,
+      "programme_name": "Πράσινα Δάνεια",
+      "url": "https://www.alpha.gr/el/idiotes/daneia/prasina-daneia",
+      "source_path": "C:\\Users\\stavr\\Desktop\\HMMY\\Thesis\\llm-axe\\output\\va4_product_discoverer\\20260617T041839Z_www.alpha.gr_el_idiotes_daneia_prasina-daneia_f5ec5bff_classification.json",
+      "copied_path": "output\\evaluation\\qa_full_runs\\smoke_merge_clean_lists_20260618T084307517747Z\\classifications\\011_www.alpha.gr_el_idiotes_daneia_prasina-daneia_f5ec5bff_classification.json",
+      "merged_from_count": 1,
+      "source_urls": [
+        "https://www.alpha.gr/el/idiotes/daneia/prasina-daneia"
+      ]
+    },
+    {
+      "index": 12,
+      "programme_name": "Πράσινο Δάνειο",
+      "url": "https://www.nbg.gr/el/idiwtes/daneia/daneia-exoikonomisis-energeias/prasino-daneio",
+      "source_path": "C:\\Users\\stavr\\Desktop\\HMMY\\Thesis\\llm-axe\\output\\va4_product_discoverer\\20260617T035136Z_www.nbg.gr_el_idiwtes_daneia_daneia-exoikonomisis-energeias_prasino-daneio_8ef520bc_classification.json",
+      "copied_path": "output\\evaluation\\qa_full_runs\\smoke_merge_clean_lists_20260618T084307517747Z\\classifications\\012_www.nbg.gr_el_idiwtes_daneia_daneia-exoikonomisis-energeias_prasino-daneio_8ef520bc_classification.json",
+      "merged_from_count": 1,
+      "source_urls": [
+        "https://www.nbg.gr/el/idiwtes/daneia/daneia-exoikonomisis-energeias/prasino-daneio"
+      ]
+    },
+    {
+      "index": 13,
+      "programme_name": "Πράσινο Δάνειο για το Σπίτι",
+      "url": "https://www.alpha.gr/el/idiotes/daneia/episkevastika-daneia-gia-anakainisi/alpha-prasines-luseis-katanalotiko-daneio-gia-to-spiti",
+      "source_path": "C:\\Users\\stavr\\Desktop\\HMMY\\Thesis\\llm-axe\\output\\va4_product_discoverer\\20260618T044520Z_www.alpha.gr_el_idiotes_daneia_episkevastika-daneia-gia-a...si_alpha-prasines-luseis-katanalotiko-daneio-gia-to-spiti_3ef84f91_classification.json",
+      "copied_path": "output\\evaluation\\qa_full_runs\\smoke_merge_clean_lists_20260618T084307517747Z\\classifications\\013_www.alpha.gr_el_idiotes_daneia_episkevastika-daneia-gia-a...si_alpha-prasines-luseis-katanalotiko-daneio-gia-to-spiti_3ef84f91_classification.json",
+      "merged_from_count": 1,
+      "source_urls": [
+        "https://www.alpha.gr/el/idiotes/daneia/episkevastika-daneia-gia-anakainisi/alpha-prasines-luseis-katanalotiko-daneio-gia-to-spiti"
+      ]
+    },
+    {
+      "index": 14,
+      "programme_name": "Πράσινο Δάνειο Κατοικίας – Εξοικονόμηση Ενέργειας",
+      "url": "https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/prasino-daneio-katoikias-eksoikonomisi-energeias",
+      "source_path": "C:\\Users\\stavr\\Desktop\\HMMY\\Thesis\\llm-axe\\output\\va4_product_discoverer\\20260617T040546Z_www.eurobank.gr_el_retail_proionta-upiresies_proionta_daneia_prasina_prasino-daneio-katoikias-eksoikonomisi-energeias_abbe8e29_classification.json",
+      "copied_path": "output\\evaluation\\qa_full_runs\\smoke_merge_clean_lists_20260618T084307517747Z\\classifications\\014_www.eurobank.gr_el_retail_proionta-upiresies_proionta_daneia_prasina_prasino-daneio-katoikias-eksoikonomisi-energeias_abbe8e29_classification.json",
+      "merged_from_count": 1,
+      "source_urls": [
+        "https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/prasino-daneio-katoikias-eksoikonomisi-energeias"
+      ]
+    },
+    {
+      "index": 15,
+      "programme_name": "Πράσινο Δάνειο Σπιτιού ή Αυτοκινήτου",
+      "url": "https://www.nbg.gr/el/idiwtes/daneia/daneia-exoikonomisis-energeias/prasino-daneio-spitiou-h-autokinhtou",
+      "source_path": "C:\\Users\\stavr\\Desktop\\HMMY\\Thesis\\llm-axe\\output\\va4_product_discoverer\\20260617T040015Z_www.nbg.gr_el_idiwtes_daneia_daneia-exoikonomisis-energeias_prasino-daneio-spitiou-h-autokinhtou_d27b3e33_classification.json",
+      "copied_path": "output\\evaluation\\qa_full_runs\\smoke_merge_clean_lists_20260618T084307517747Z\\classifications\\015_www.nbg.gr_el_idiwtes_daneia_daneia-exoikonomisis-energeias_prasino-daneio-spitiou-h-autokinhtou_d27b3e33_classification.json",
+      "merged_from_count": 1,
+      "source_urls": [
+        "https://www.nbg.gr/el/idiwtes/daneia/daneia-exoikonomisis-energeias/prasino-daneio-spitiou-h-autokinhtou"
+      ]
+    },
+    {
+      "index": 16,
+      "programme_name": "Πράσινο Επισκευαστικό Δάνειο με Εξασφάλιση Πειραιώς",
+      "url": "https://www.piraeusbank.gr/el/idiwtes/proionta-upiresies/stegastika-daneia/prasino-episkeuastiko-daneio-me-eksasfalisi",
+      "source_path": "C:\\Users\\stavr\\Desktop\\HMMY\\Thesis\\llm-axe\\output\\va4_product_discoverer\\20260617T100909Z_www.piraeusbank.gr_el_idiwtes_proionta-upiresies_stegastika-daneia_prasino-episkeuastiko-daneio-me-eksasfalisi_3f1b2ca9_classification.json",
+      "copied_path": "output\\evaluation\\qa_full_runs\\smoke_merge_clean_lists_20260618T084307517747Z\\classifications\\016_www.piraeusbank.gr_el_idiwtes_proionta-upiresies_stegastika-daneia_prasino-episkeuastiko-daneio-me-eksasfalisi_3f1b2ca9_classification.json",
+      "merged_from_count": 1,
+      "source_urls": [
+        "https://www.piraeusbank.gr/el/idiwtes/proionta-upiresies/stegastika-daneia/prasino-episkeuastiko-daneio-me-eksasfalisi"
+      ]
+    },
+    {
+      "index": 17,
+      "programme_name": "Πράσινο Στεγαστικό Δάνειο με Σταθερό Επιτόκιο",
+      "url": "https://www.piraeusbank.gr/el/idiwtes/proionta-upiresies/stegastika-daneia/prasino-stegastiko-daneio-me-stathero-epitokio",
+      "source_path": "C:\\Users\\stavr\\Desktop\\HMMY\\Thesis\\llm-axe\\output\\va4_product_discoverer\\20260618T043736Z_www.piraeusbank.gr_el_idiwtes_proionta-upiresies_stegastika-daneia_prasino-stegastiko-daneio-me-stathero-epitokio_b3518007_classification.json",
+      "copied_path": "output\\evaluation\\qa_full_runs\\smoke_merge_clean_lists_20260618T084307517747Z\\classifications\\017_www.piraeusbank.gr_el_idiwtes_proionta-upiresies_stegastika-daneia_prasino-stegastiko-daneio-me-stathero-epitokio_b3518007_classification.json",
+      "merged_from_count": 1,
+      "source_urls": [
+        "https://www.piraeusbank.gr/el/idiwtes/proionta-upiresies/stegastika-daneia/prasino-stegastiko-daneio-me-stathero-epitokio"
+      ]
+    },
+    {
+      "index": 18,
+      "programme_name": "Πράσινο Στεγαστικό Δάνειο Συνδεδεμένο με Euribor",
+      "url": "https://www.piraeusbank.gr/el/idiwtes/proionta-upiresies/stegastika-daneia/prasino-stegastiko-daneio-sundedemeno-me-euribor",
+      "source_path": "C:\\Users\\stavr\\Desktop\\HMMY\\Thesis\\llm-axe\\output\\va4_product_discoverer\\20260617T012225Z_www.piraeusbank.gr_el_idiwtes_proionta-upiresies_stegastika-daneia_prasino-stegastiko-daneio-sundedemeno-me-euribor_30fdb982_classification.json",
+      "copied_path": "output\\evaluation\\qa_full_runs\\smoke_merge_clean_lists_20260618T084307517747Z\\classifications\\018_www.piraeusbank.gr_el_idiwtes_proionta-upiresies_stegastika-daneia_prasino-stegastiko-daneio-sundedemeno-me-euribor_30fdb982_classification.json",
+      "merged_from_count": 1,
+      "source_urls": [
+        "https://www.piraeusbank.gr/el/idiwtes/proionta-upiresies/stegastika-daneia/prasino-stegastiko-daneio-sundedemeno-me-euribor"
+      ]
+    },
+    {
+      "index": 19,
+      "programme_name": "Προσωπικό Δάνειο Green Fast Loan",
+      "url": "https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/green-fast-loan",
+      "source_path": "C:\\Users\\stavr\\Desktop\\HMMY\\Thesis\\llm-axe\\output\\va4_product_discoverer\\20260617T041330Z_www.eurobank.gr_el_retail_proionta-upiresies_proionta_daneia_prasina_green-fast-loan_15a4f314_classification.json",
+      "copied_path": "output\\evaluation\\qa_full_runs\\smoke_merge_clean_lists_20260618T084307517747Z\\classifications\\019_www.eurobank.gr_el_retail_proionta-upiresies_proionta_daneia_prasina_green-fast-loan_15a4f314_classification.json",
+      "merged_from_count": 1,
+      "source_urls": [
+        "https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/green-fast-loan"
+      ]
+    },
+    {
+      "index": 20,
+      "programme_name": "Στεγαστικό Δάνειο Eco Home",
+      "url": "https://www.crediabank.com/idiotes/daneia/stegastika/stegastiko-daneio-eco-home/",
+      "source_path": "C:\\Users\\stavr\\Desktop\\HMMY\\Thesis\\llm-axe\\output\\va4_product_discoverer\\20260617T033438Z_www.crediabank.com_idiotes_daneia_stegastika_stegastiko-daneio-eco-home_592fa2ea_classification.json",
+      "copied_path": "output\\evaluation\\qa_full_runs\\smoke_merge_clean_lists_20260618T084307517747Z\\classifications\\020_www.crediabank.com_idiotes_daneia_stegastika_stegastiko-daneio-eco-home_592fa2ea_classification.json",
+      "merged_from_count": 1,
+      "source_urls": [
+        "https://www.crediabank.com/idiotes/daneia/stegastika/stegastiko-daneio-eco-home/"
+      ]
+    },
+    {
+      "index": 21,
+      "programme_name": "Τράπεζα Θεσσαλίας - Πράσινα Δάνεια",
+      "url": "https://www.bankofthessaly.gr/idiotes/prasina-daneia/",
+      "source_path": "C:\\Users\\stavr\\Desktop\\HMMY\\Thesis\\llm-axe\\output\\va4_product_discoverer\\20260617T020401Z_www.bankofthessaly.gr_idiotes_prasina-daneia_a04101da_classification.json",
+      "copied_path": "output\\evaluation\\qa_full_runs\\smoke_merge_clean_lists_20260618T084307517747Z\\classifications\\021_www.bankofthessaly.gr_idiotes_prasina-daneia_a04101da_classification.json",
+      "merged_from_count": 1,
+      "source_urls": [
+        "https://www.bankofthessaly.gr/idiotes/prasina-daneia/"
+      ]
+    },
+    {
+      "index": 22,
+      "programme_name": "Φωτοβολταϊκά στη στέγη",
+      "url": "https://www.gov.gr/ipiresies/polites-kai-kathemerinoteta/periballon-kai-poioteta-zoes/photoboltaika-ste-stege",
+      "source_path": "C:\\Users\\stavr\\Desktop\\HMMY\\Thesis\\llm-axe\\output\\va4_product_discoverer\\20260617T024138Z_www.gov.gr_ipiresies_polites-kai-kathemerinoteta_periballon-kai-poioteta-zoes_photoboltaika-ste-stege_9d577ea5_classification.json",
+      "copied_path": "output\\evaluation\\qa_full_runs\\smoke_merge_clean_lists_20260618T084307517747Z\\classifications\\022_www.gov.gr_ipiresies_polites-kai-kathemerinoteta_periballon-kai-poioteta-zoes_photoboltaika-ste-stege_9d577ea5_classification.json",
+      "merged_from_count": 1,
+      "source_urls": [
+        "https://www.gov.gr/ipiresies/polites-kai-kathemerinoteta/periballon-kai-poioteta-zoes/photoboltaika-ste-stege"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "experiment_id": "exp_20260616_184014_f629a469",
+  "timestamp": "2026-06-16T18:40:14.028022+00:00",
+  "model": "deterministic_scope_guard",
+  "temperature": 0.0,
+  "hyperparameters": {
+    "mode": "pre_llm_classification"
+  },
+  "prompt": "",
+  "sources": [
+    "Πράσινο Δάνειο Σπιτιού ή Αυτοκινήτου"
+  ],
+  "terminal_output": "Category: green_housing_loan | Confidence: 92% | Relevant: True",
+  "template_output_file": null
+}

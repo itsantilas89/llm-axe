@@ -1,0 +1,50 @@
+{
+  "timestamp": "20260617T044552Z",
+  "url": "https://www.epirusbank.com/blog/deltia-tupou-1/183-neo-crematodotiko-proion-gia-dikaioucous-tou-programmatos-lpotoboltaika-ste-steger",
+  "classification": {
+    "is_relevant": true,
+    "primary_category": "green_housing_loan",
+    "secondary_categories": [
+      "home_renewables",
+      "energy_upgrade"
+    ],
+    "confidence": 0.92,
+    "reasoning": "Deterministic scope pass: home energy finance signals found",
+    "key_features": [
+      "deterministic_home_green_finance_scope"
+    ]
+  },
+  "extracted_data": {
+    "programme_name": "Νέο χρηματοδοτικό προϊόν για δικαιούχους του Προγράμματος «Φωτοβολταϊκά στη στέγη»",
+    "description": "Νέο χρηματοδοτικό προϊόν για δικαιούχους του Προγράμματος «Φωτοβολταϊκά στη στέγη» Νέα & Δελτία Τύπου Αρχική Νέα / Δελτία Τύπου ΔΗΜΟΣΙΕΥΘΗΚΕ 22 Ιανουαρίου, 2024 ← Δείτε όλα τα νέα Νέο χρηματοδοτικό προϊόν για δικαιούχους του Προγράμματος «Φωτοβολταϊκά στη στέγη» Η Συνεταιριστική Τράπεζα Ηπείρου ανακοινώνει ένα νέο χρηματοδοτικό προϊόν που θα διατίθεται στα νοικοκυριά που έχουν ενταχθεί στο Πρόγραμμα «Φωτοβολταϊκά στη Στέγη». Το νέο δάνειο, με προνομιακούς όρους, έχει ως στόχο να συμβάλλει στην εξοικονόμηση ενέργειας, τη μείωση του κόστους διαβίωσης και να συμβάλει και στον πράσινο μετασχηματισμό της τοπικής κοινωνίας. Συγκεκριμένα, το νέο δάνειο θα προσφέρεται με ιδιαίτερα χαμηλό σταθερό επιτόκιο 7,90% και για διάρκεια έως 7 έτη.",
+    "programme_objective": "Νέο χρηματοδοτικό προϊόν για δικαιούχους του Προγράμματος «Φωτοβολταϊκά στη στέγη» Νέα & Δελτία Τύπου Αρχική Νέα / Δελτία Τύπου ΔΗΜΟΣΙΕΥΘΗΚΕ 22 Ιανουαρίου, 2024 ← Δείτε όλα τα νέα Νέο χρηματοδοτικό προϊόν για δικαιούχους του Προγράμματος «Φωτοβολταϊκά στη στέγη» Η Συνεταιριστική Τράπεζα Ηπείρου ανακοινώνει ένα νέο χρηματοδοτικό προϊόν που θα διατίθεται στα νοικοκυριά που έχουν ενταχθεί στο Πρόγραμμα «Φωτοβολταϊκά στη Στέγη». Το νέο δάνειο, με προνομιακούς όρους, έχει ως στόχο να συμβάλλει στην εξοικονόμηση ενέργειας, τη μείωση του κόστους διαβίωσης και να συμβάλει και στον πράσινο μετασχηματισμό της τοπικής κοινωνίας. Συγκεκριμένα, το νέο δάνειο θα προσφέρεται με ιδιαίτερα χαμηλό σταθερό επιτόκιο 7,90% και για διάρκεια έως 7 έτη.",
+    "eligible_parties": [
+      "νοικοκύρια"
+    ],
+    "eligibility_criteria": "",
+    "property_requirements": "",
+    "minimum_funding_amount": "",
+    "maximum_funding_amount": "",
+    "funding_type": "Δάνειο",
+    "interest_rate": "7,90%",
+    "funding_coverage": "20% - 65%",
+    "total_budget": "",
+    "funding_sources": [],
+    "duration": "7 έτη",
+    "loan_duration": "7 έτη",
+    "completion_deadline": "",
+    "application_start_date": "",
+    "application_end_date": "",
+    "energy_performance_targets": "",
+    "eligible_interventions": [],
+    "application_process": "",
+    "managing_body": "Συνεταιριστική Τράπεζα Ηπείρου",
+    "announcement_date": "22 Ιανουαρίου, 2024",
+    "contact_info": "",
+    "additional_details": ""
+  },
+  "repair_metadata": {
+    "source_scraped_file": "C:\\Users\\stavr\\Desktop\\HMMY\\Thesis\\llm-axe\\output\\va3_scraper_to_template\\20260617T044347Z_www.epirusbank.com_blog_deltia-tupou-1_183-neo-crematodot...gia-dikaioucous-tou-programmatos-lpotoboltaika-ste-steger_d2b59b5a_scraped.txt",
+    "repair": "source_backed_core_field_repair"
+  }
+}

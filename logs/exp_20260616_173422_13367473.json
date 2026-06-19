@@ -1,0 +1,15 @@
+{
+  "experiment_id": "exp_20260616_173422_13367473",
+  "timestamp": "2026-06-16T17:34:22.318944+00:00",
+  "model": "llama3.2:latest",
+  "temperature": 0.0,
+  "hyperparameters": {
+    "filter": "keyword_prescreen"
+  },
+  "prompt": "[Keyword Pre-screen]",
+  "sources": [
+    "https://stegasi.gov.gr/programs/anavathmizo-to-spiti-mou/"
+  ],
+  "terminal_output": "REJECTED at keyword pre-screen (before extraction)",
+  "template_output_file": null
+}

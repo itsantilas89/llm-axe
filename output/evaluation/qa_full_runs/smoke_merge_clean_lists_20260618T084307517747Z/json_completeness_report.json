@@ -1,0 +1,1221 @@
+{
+  "timestamp": "2026-06-18T11:44:10.600430",
+  "classification_dir": "output\\evaluation\\qa_full_runs\\smoke_merge_clean_lists_20260618T084307517747Z\\classifications",
+  "program_count": 22,
+  "error_count": 0,
+  "kind_counts": {
+    "bank_loan": 18,
+    "public_program": 4
+  },
+  "summary": {
+    "avg_expected_coverage": 0.7237762237762237,
+    "missing_expected_fields": [
+      {
+        "field": "completion_delay_consequences",
+        "missing_count": 17,
+        "examples": [
+          "Credia Eco Λύσεις",
+          "Eco Λύσεις - Net Metering",
+          "Αναβαθμίζω το Σπίτι Μου",
+          "Εξοικονομώ",
+          "ΕΣΤΙΑ Πράσινη Στεγαστικό Δάνειο"
+        ]
+      },
+      {
+        "field": "post_completion_obligations",
+        "missing_count": 15,
+        "examples": [
+          "Eco Λύσεις - Net Metering",
+          "Εξοικονομώ",
+          "Καταναλωτικό Δάνειο Green για Πράσινες Επισκευές",
+          "Νέο χρηματοδοτικό προϊόν για δικαιούχους του Προγράμματος «Φωτοβολταϊκά στη στέγη»",
+          "Πράσινα Δάνεια"
+        ]
+      },
+      {
+        "field": "property_requirements",
+        "missing_count": 10,
+        "examples": [
+          "Credia Eco Λύσεις",
+          "Εξοικονομώ",
+          "Εξοικονομώ 2023",
+          "Νέο χρηματοδοτικό προϊόν για δικαιούχους του Προγράμματος «Φωτοβολταϊκά στη στέγη»",
+          "Πράσινα Δάνεια"
+        ]
+      },
+      {
+        "field": "maximum_funding_amount",
+        "missing_count": 8,
+        "examples": [
+          "Εξοικονομώ",
+          "ΕΣΤΙΑ Πράσινη Στεγαστικό Δάνειο",
+          "Νέο χρηματοδοτικό προϊόν για δικαιούχους του Προγράμματος «Φωτοβολταϊκά στη στέγη»",
+          "Πράσινο Επισκευαστικό Δάνειο με Εξασφάλιση Πειραιώς",
+          "Πράσινο Στεγαστικό Δάνειο με Σταθερό Επιτόκιο"
+        ]
+      },
+      {
+        "field": "funding_coverage",
+        "missing_count": 6,
+        "examples": [
+          "Εξοικονομώ",
+          "Πράσινο Δάνειο",
+          "Πράσινο Δάνειο Κατοικίας – Εξοικονόμηση Ενέργειας",
+          "Πράσινο Δάνειο Σπιτιού ή Αυτοκινήτου",
+          "Προσωπικό Δάνειο Green Fast Loan"
+        ]
+      },
+      {
+        "field": "minimum_funding_amount",
+        "missing_count": 6,
+        "examples": [
+          "Εξοικονομώ",
+          "ΕΣΤΙΑ Πράσινη Στεγαστικό Δάνειο",
+          "Νέο χρηματοδοτικό προϊόν για δικαιούχους του Προγράμματος «Φωτοβολταϊκά στη στέγη»",
+          "Πράσινα Δάνεια",
+          "Πράσινο Δάνειο Κατοικίας – Εξοικονόμηση Ενέργειας"
+        ]
+      },
+      {
+        "field": "eligible_interventions",
+        "missing_count": 4,
+        "examples": [
+          "Νέο χρηματοδοτικό προϊόν για δικαιούχους του Προγράμματος «Φωτοβολταϊκά στη στέγη»",
+          "Πράσινο Επισκευαστικό Δάνειο με Εξασφάλιση Πειραιώς",
+          "Τράπεζα Θεσσαλίας - Πράσινα Δάνεια",
+          "Φωτοβολταϊκά στη στέγη"
+        ]
+      },
+      {
+        "field": "loan_duration",
+        "missing_count": 3,
+        "examples": [
+          "Εξοικονομώ",
+          "Πράσινα Δάνεια",
+          "Τράπεζα Θεσσαλίας - Πράσινα Δάνεια"
+        ]
+      },
+      {
+        "field": "interest_rate",
+        "missing_count": 2,
+        "examples": [
+          "Εξοικονομώ",
+          "Τράπεζα Θεσσαλίας - Πράσινα Δάνεια"
+        ]
+      },
+      {
+        "field": "total_budget",
+        "missing_count": 2,
+        "examples": [
+          "Εξοικονομώ 2025",
+          "Φωτοβολταϊκά στη στέγη"
+        ]
+      },
+      {
+        "field": "application_end_date",
+        "missing_count": 2,
+        "examples": [
+          "Εξοικονομώ – Ανακαινίζω για νέους",
+          "Φωτοβολταϊκά στη στέγη"
+        ]
+      },
+      {
+        "field": "application_start_date",
+        "missing_count": 2,
+        "examples": [
+          "Εξοικονομώ – Ανακαινίζω για νέους",
+          "Φωτοβολταϊκά στη στέγη"
+        ]
+      },
+      {
+        "field": "managing_body",
+        "missing_count": 2,
+        "examples": [
+          "Εξοικονομώ – Ανακαινίζω για νέους",
+          "Φωτοβολταϊκά στη στέγη"
+        ]
+      },
+      {
+        "field": "eligibility_criteria",
+        "missing_count": 1,
+        "examples": [
+          "Φωτοβολταϊκά στη στέγη"
+        ]
+      },
+      {
+        "field": "energy_performance_targets",
+        "missing_count": 1,
+        "examples": [
+          "Φωτοβολταϊκά στη στέγη"
+        ]
+      },
+      {
+        "field": "funding_sources",
+        "missing_count": 1,
+        "examples": [
+          "Φωτοβολταϊκά στη στέγη"
+        ]
+      },
+      {
+        "field": "funding_type",
+        "missing_count": 1,
+        "examples": [
+          "Φωτοβολταϊκά στη στέγη"
+        ]
+      }
+    ]
+  },
+  "results": [
+    {
+      "file": "output\\evaluation\\qa_full_runs\\smoke_merge_clean_lists_20260618T084307517747Z\\classifications\\001_www.crediabank.com_idiotes_daneia_eco-katanalotika_eco-lyseis-energeiaki-anavathmisi-katoikias_36a72e32_classification.json",
+      "programme_name": "Credia Eco Λύσεις",
+      "url": "https://www.crediabank.com/idiotes/daneia/eco-katanalotika/eco-lyseis-energeiaki-anavathmisi-katoikias/",
+      "source_urls": [
+        "https://www.crediabank.com/idiotes/daneia/eco-katanalotika/eco-lyseis-energeiaki-anavathmisi-katoikias/"
+      ],
+      "merged_from_count": 1,
+      "program_kind": "bank_loan",
+      "expected_fields": [
+        "completion_delay_consequences",
+        "description",
+        "eligible_interventions",
+        "funding_coverage",
+        "funding_type",
+        "interest_rate",
+        "loan_duration",
+        "maximum_funding_amount",
+        "minimum_funding_amount",
+        "post_completion_obligations",
+        "programme_name",
+        "programme_objective",
+        "property_requirements"
+      ],
+      "expected_present": [
+        "description",
+        "eligible_interventions",
+        "funding_coverage",
+        "funding_type",
+        "interest_rate",
+        "loan_duration",
+        "maximum_funding_amount",
+        "minimum_funding_amount",
+        "post_completion_obligations",
+        "programme_name",
+        "programme_objective"
+      ],
+      "expected_missing": [
+        "completion_delay_consequences",
+        "property_requirements"
+      ],
+      "expected_coverage": 0.8461538461538461,
+      "empty_fields_all": [],
+      "status": "ok"
+    },
+    {
+      "file": "output\\evaluation\\qa_full_runs\\smoke_merge_clean_lists_20260618T084307517747Z\\classifications\\002_www.crediabank.com_idiotes_daneia_eco-katanalotika_eco-lyseis-net-metering-egkatastasi-oikiakon-fv-sustimaton_95f59cba_classification.json",
+      "programme_name": "Eco Λύσεις - Net Metering",
+      "url": "https://www.crediabank.com/idiotes/daneia/eco-katanalotika/eco-lyseis-net-metering-egkatastasi-oikiakon-fv-sustimaton/",
+      "source_urls": [
+        "https://www.crediabank.com/idiotes/daneia/eco-katanalotika/eco-lyseis-net-metering-egkatastasi-oikiakon-fv-sustimaton/"
+      ],
+      "merged_from_count": 1,
+      "program_kind": "bank_loan",
+      "expected_fields": [
+        "completion_delay_consequences",
+        "description",
+        "eligible_interventions",
+        "funding_coverage",
+        "funding_type",
+        "interest_rate",
+        "loan_duration",
+        "maximum_funding_amount",
+        "minimum_funding_amount",
+        "post_completion_obligations",
+        "programme_name",
+        "programme_objective",
+        "property_requirements"
+      ],
+      "expected_present": [
+        "description",
+        "eligible_interventions",
+        "funding_coverage",
+        "funding_type",
+        "interest_rate",
+        "loan_duration",
+        "maximum_funding_amount",
+        "minimum_funding_amount",
+        "programme_name",
+        "programme_objective",
+        "property_requirements"
+      ],
+      "expected_missing": [
+        "completion_delay_consequences",
+        "post_completion_obligations"
+      ],
+      "expected_coverage": 0.8461538461538461,
+      "empty_fields_all": [],
+      "status": "ok"
+    },
+    {
+      "file": "output\\evaluation\\qa_full_runs\\smoke_merge_clean_lists_20260618T084307517747Z\\classifications\\003_oikogeneia.gov.gr_programs_anavathmizo-to-spiti-mou_6d328bca_classification.json",
+      "programme_name": "Αναβαθμίζω το Σπίτι Μου",
+      "url": "https://oikogeneia.gov.gr/programs/anavathmizo-to-spiti-mou/",
+      "source_urls": [
+        "https://oikogeneia.gov.gr/programs/anavathmizo-to-spiti-mou/",
+        "https://greece20.gov.gr/home-loans",
+        "https://stegasi.gov.gr/programs/anavathmizo-to-spiti-mou/",
+        "https://greece20.gov.gr/anavathmizo-to-spiti-moy/",
+        "https://greece20.gov.gr/?calls=programma-sygchrimatodotoymenon-stegastikon-daneion-anavathmizo-to-spiti-moy",
+        "https://hdb.gr/anavathmizo-to-spiti-mou/",
+        "https://www.chaniabank.gr/idiotes/dania/anavathmizo-to-spiti-moy/",
+        "https://www.crediabank.com/idiotes/daneia/stegastika/programma-anavathmizo-to-spiti-mou/",
+        "https://www.piraeusbank.gr/el/idiwtes/proionta-upiresies/stegastika-daneia/anabathmizo-to-spiti-mou",
+        "https://www.epirusbank.com/citizens/anavathmizo-to-spiti-mou",
+        "https://www.bankofthessaly.gr/idiotes/prasina-daneia/anavathmizo-to-spiti-mou/",
+        "https://www.bankofkarditsa.com.gr/el/idiotes/daneia/anavathmizo-to-spiti-mou",
+        "https://www.alpha.gr/el/idiotes/daneia/episkevastika-daneia-gia-anakainisi/programma-anavathmizo-to-spiti-mou",
+        "https://www.nbg.gr/el/idiwtes/daneia/stegastika-daneia/episkeuastika-daneia/anavathmizw-to-spiti-mou",
+        "https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/programma-anabathmizo-to-spiti-mou"
+      ],
+      "merged_from_count": 15,
+      "program_kind": "public_program",
+      "expected_fields": [
+        "application_end_date",
+        "application_start_date",
+        "completion_deadline",
+        "completion_delay_consequences",
+        "description",
+        "eligibility_criteria",
+        "eligible_interventions",
+        "eligible_parties",
+        "energy_performance_targets",
+        "funding_sources",
+        "funding_type",
+        "managing_body",
+        "maximum_funding_amount",
+        "post_completion_obligations",
+        "programme_name",
+        "programme_objective",
+        "total_budget"
+      ],
+      "expected_present": [
+        "application_end_date",
+        "application_start_date",
+        "completion_deadline",
+        "description",
+        "eligibility_criteria",
+        "eligible_interventions",
+        "eligible_parties",
+        "energy_performance_targets",
+        "funding_sources",
+        "funding_type",
+        "managing_body",
+        "maximum_funding_amount",
+        "post_completion_obligations",
+        "programme_name",
+        "programme_objective",
+        "total_budget"
+      ],
+      "expected_missing": [
+        "completion_delay_consequences"
+      ],
+      "expected_coverage": 0.9411764705882353,
+      "empty_fields_all": [],
+      "status": "ok"
+    },
+    {
+      "file": "output\\evaluation\\qa_full_runs\\smoke_merge_clean_lists_20260618T084307517747Z\\classifications\\004_www.nbg.gr_el_idiwtes_daneia_daneia-exoikonomisis-energeias_f784a97e_classification.json",
+      "programme_name": "Εξοικονομώ",
+      "url": "https://www.nbg.gr/el/idiwtes/daneia/daneia-exoikonomisis-energeias",
+      "source_urls": [
+        "https://www.nbg.gr/el/idiwtes/daneia/daneia-exoikonomisis-energeias"
+      ],
+      "merged_from_count": 1,
+      "program_kind": "bank_loan",
+      "expected_fields": [
+        "completion_delay_consequences",
+        "description",
+        "eligible_interventions",
+        "funding_coverage",
+        "funding_type",
+        "interest_rate",
+        "loan_duration",
+        "maximum_funding_amount",
+        "minimum_funding_amount",
+        "post_completion_obligations",
+        "programme_name",
+        "programme_objective",
+        "property_requirements"
+      ],
+      "expected_present": [
+        "description",
+        "eligible_interventions",
+        "funding_type",
+        "programme_name",
+        "programme_objective"
+      ],
+      "expected_missing": [
+        "completion_delay_consequences",
+        "funding_coverage",
+        "interest_rate",
+        "loan_duration",
+        "maximum_funding_amount",
+        "minimum_funding_amount",
+        "post_completion_obligations",
+        "property_requirements"
+      ],
+      "expected_coverage": 0.38461538461538464,
+      "empty_fields_all": [],
+      "status": "ok"
+    },
+    {
+      "file": "output\\evaluation\\qa_full_runs\\smoke_merge_clean_lists_20260618T084307517747Z\\classifications\\005_www.eurobank.gr_el_retail_proionta-upiresies_proionta_daneia_prasina_eksoikonomo-2023_38e6dacb_classification.json",
+      "programme_name": "Εξοικονομώ 2023",
+      "url": "https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/eksoikonomo-2023",
+      "source_urls": [
+        "https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/eksoikonomo-2023"
+      ],
+      "merged_from_count": 1,
+      "program_kind": "bank_loan",
+      "expected_fields": [
+        "completion_delay_consequences",
+        "description",
+        "eligible_interventions",
+        "funding_coverage",
+        "funding_type",
+        "interest_rate",
+        "loan_duration",
+        "maximum_funding_amount",
+        "minimum_funding_amount",
+        "post_completion_obligations",
+        "programme_name",
+        "programme_objective",
+        "property_requirements"
+      ],
+      "expected_present": [
+        "completion_delay_consequences",
+        "description",
+        "eligible_interventions",
+        "funding_coverage",
+        "funding_type",
+        "interest_rate",
+        "loan_duration",
+        "maximum_funding_amount",
+        "minimum_funding_amount",
+        "post_completion_obligations",
+        "programme_name",
+        "programme_objective"
+      ],
+      "expected_missing": [
+        "property_requirements"
+      ],
+      "expected_coverage": 0.9230769230769231,
+      "empty_fields_all": [],
+      "status": "ok"
+    },
+    {
+      "file": "output\\evaluation\\qa_full_runs\\smoke_merge_clean_lists_20260618T084307517747Z\\classifications\\006_www.gov.gr_ipiresies_periousia-kai-phorologia_diakheirise-akinetes-periousias_exoikonomo-2025_2892978b_classification.json",
+      "programme_name": "Εξοικονομώ 2025",
+      "url": "https://www.gov.gr/ipiresies/periousia-kai-phorologia/diakheirise-akinetes-periousias/exoikonomo-2025",
+      "source_urls": [
+        "https://www.gov.gr/ipiresies/periousia-kai-phorologia/diakheirise-akinetes-periousias/exoikonomo-2025",
+        "https://stegasi.gov.gr/programs/exoikonomo-2025/",
+        "https://exoikonomo2025.gov.gr/",
+        "https://exoikonomo2025.gov.gr/odegos",
+        "https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/eksoikonomo-2025",
+        "https://www.alpha.gr/el/idiotes/daneia/episkevastika-daneia-gia-anakainisi/programma-eksoikonomo-2025",
+        "https://www.bankofthessaly.gr/idiotes/prasina-daneia/exoikonomo-2025/",
+        "https://www.crediabank.com/idiotes/daneia/hrimatodotika-programmata/exoikonomo-2025/",
+        "https://www.piraeusbank.gr/el/idiwtes/proionta-upiresies/stegastika-daneia/daneio-eksoikonomw",
+        "https://www.nbg.gr/el/idiwtes/daneia/daneia-exoikonomisis-energeias/exoikonomo-2025"
+      ],
+      "merged_from_count": 10,
+      "program_kind": "public_program",
+      "expected_fields": [
+        "application_end_date",
+        "application_start_date",
+        "completion_deadline",
+        "completion_delay_consequences",
+        "description",
+        "eligibility_criteria",
+        "eligible_interventions",
+        "eligible_parties",
+        "energy_performance_targets",
+        "funding_sources",
+        "funding_type",
+        "managing_body",
+        "maximum_funding_amount",
+        "post_completion_obligations",
+        "programme_name",
+        "programme_objective",
+        "total_budget"
+      ],
+      "expected_present": [
+        "application_end_date",
+        "application_start_date",
+        "completion_deadline",
+        "completion_delay_consequences",
+        "description",
+        "eligibility_criteria",
+        "eligible_interventions",
+        "eligible_parties",
+        "energy_performance_targets",
+        "funding_sources",
+        "funding_type",
+        "managing_body",
+        "maximum_funding_amount",
+        "post_completion_obligations",
+        "programme_name",
+        "programme_objective"
+      ],
+      "expected_missing": [
+        "total_budget"
+      ],
+      "expected_coverage": 0.9411764705882353,
+      "empty_fields_all": [],
+      "status": "ok"
+    },
+    {
+      "file": "output\\evaluation\\qa_full_runs\\smoke_merge_clean_lists_20260618T084307517747Z\\classifications\\007_exoikonomoneon.gov.gr_20e50a53_classification.json",
+      "programme_name": "Εξοικονομώ – Ανακαινίζω για νέους",
+      "url": "https://exoikonomoneon.gov.gr/",
+      "source_urls": [
+        "https://exoikonomoneon.gov.gr/",
+        "https://www.crediabank.com/idiotes/daneia/hrimatodotika-programmata/programma-exoikonomo-anakainizo-gia-neous/",
+        "https://www.alpha.gr/el/idiotes/daneia/episkevastika-daneia-gia-anakainisi/programma-eksoikonomo-anakainizo-gia-neous",
+        "https://www.bankofthessaly.gr/idiotes/prasina-daneia/exoikonomo-anakainizo-gia-neous/",
+        "https://www.crediabank.com/programma-exoikonomo-anakainizo-gia-neous/",
+        "https://www.nbg.gr/el/idiwtes/daneia/daneia-exoikonomisis-energeias/eksoikonomw-anakoinizw-daneio-gia-neous",
+        "https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/eksoikonomo-anakainizo-gia-neous"
+      ],
+      "merged_from_count": 7,
+      "program_kind": "public_program",
+      "expected_fields": [
+        "application_end_date",
+        "application_start_date",
+        "completion_deadline",
+        "completion_delay_consequences",
+        "description",
+        "eligibility_criteria",
+        "eligible_interventions",
+        "eligible_parties",
+        "energy_performance_targets",
+        "funding_sources",
+        "funding_type",
+        "managing_body",
+        "maximum_funding_amount",
+        "post_completion_obligations",
+        "programme_name",
+        "programme_objective",
+        "total_budget"
+      ],
+      "expected_present": [
+        "completion_deadline",
+        "completion_delay_consequences",
+        "description",
+        "eligibility_criteria",
+        "eligible_interventions",
+        "eligible_parties",
+        "energy_performance_targets",
+        "funding_sources",
+        "funding_type",
+        "maximum_funding_amount",
+        "post_completion_obligations",
+        "programme_name",
+        "programme_objective",
+        "total_budget"
+      ],
+      "expected_missing": [
+        "application_end_date",
+        "application_start_date",
+        "managing_body"
+      ],
+      "expected_coverage": 0.8235294117647058,
+      "empty_fields_all": [],
+      "status": "ok"
+    },
+    {
+      "file": "output\\evaluation\\qa_full_runs\\smoke_merge_clean_lists_20260618T084307517747Z\\classifications\\008_www.nbg.gr_el_idiwtes_daneia_stegastika-daneia_daneia-akinitwn_estia-prasini_423fd61f_classification.json",
+      "programme_name": "ΕΣΤΙΑ Πράσινη Στεγαστικό Δάνειο",
+      "url": "https://www.nbg.gr/el/idiwtes/daneia/stegastika-daneia/daneia-akinitwn/estia-prasini",
+      "source_urls": [
+        "https://www.nbg.gr/el/idiwtes/daneia/stegastika-daneia/daneia-akinitwn/estia-prasini"
+      ],
+      "merged_from_count": 1,
+      "program_kind": "bank_loan",
+      "expected_fields": [
+        "completion_delay_consequences",
+        "description",
+        "eligible_interventions",
+        "funding_coverage",
+        "funding_type",
+        "interest_rate",
+        "loan_duration",
+        "maximum_funding_amount",
+        "minimum_funding_amount",
+        "post_completion_obligations",
+        "programme_name",
+        "programme_objective",
+        "property_requirements"
+      ],
+      "expected_present": [
+        "description",
+        "eligible_interventions",
+        "funding_coverage",
+        "funding_type",
+        "interest_rate",
+        "loan_duration",
+        "post_completion_obligations",
+        "programme_name",
+        "programme_objective",
+        "property_requirements"
+      ],
+      "expected_missing": [
+        "completion_delay_consequences",
+        "maximum_funding_amount",
+        "minimum_funding_amount"
+      ],
+      "expected_coverage": 0.7692307692307693,
+      "empty_fields_all": [],
+      "status": "ok"
+    },
+    {
+      "file": "output\\evaluation\\qa_full_runs\\smoke_merge_clean_lists_20260618T084307517747Z\\classifications\\009_www.piraeusbank.gr_el_idiwtes_proionta-upiresies_daneia_proswpika_katanalwtiko-daneio-green-gia-prasines-episkeves_6f5d50a6_classification.json",
+      "programme_name": "Καταναλωτικό Δάνειο Green για Πράσινες Επισκευές",
+      "url": "https://www.piraeusbank.gr/el/idiwtes/proionta-upiresies/daneia/proswpika/katanalwtiko-daneio-green-gia-prasines-episkeves",
+      "source_urls": [
+        "https://www.piraeusbank.gr/el/idiwtes/proionta-upiresies/daneia/proswpika/katanalwtiko-daneio-green-gia-prasines-episkeves"
+      ],
+      "merged_from_count": 1,
+      "program_kind": "bank_loan",
+      "expected_fields": [
+        "completion_delay_consequences",
+        "description",
+        "eligible_interventions",
+        "funding_coverage",
+        "funding_type",
+        "interest_rate",
+        "loan_duration",
+        "maximum_funding_amount",
+        "minimum_funding_amount",
+        "post_completion_obligations",
+        "programme_name",
+        "programme_objective",
+        "property_requirements"
+      ],
+      "expected_present": [
+        "description",
+        "eligible_interventions",
+        "funding_coverage",
+        "funding_type",
+        "interest_rate",
+        "loan_duration",
+        "maximum_funding_amount",
+        "minimum_funding_amount",
+        "programme_name",
+        "programme_objective",
+        "property_requirements"
+      ],
+      "expected_missing": [
+        "completion_delay_consequences",
+        "post_completion_obligations"
+      ],
+      "expected_coverage": 0.8461538461538461,
+      "empty_fields_all": [],
+      "status": "ok"
+    },
+    {
+      "file": "output\\evaluation\\qa_full_runs\\smoke_merge_clean_lists_20260618T084307517747Z\\classifications\\010_www.epirusbank.com_blog_deltia-tupou-1_183-neo-crematodot...gia-dikaioucous-tou-programmatos-lpotoboltaika-ste-steger_d2b59b5a_classification.json",
+      "programme_name": "Νέο χρηματοδοτικό προϊόν για δικαιούχους του Προγράμματος «Φωτοβολταϊκά στη στέγη»",
+      "url": "https://www.epirusbank.com/blog/deltia-tupou-1/183-neo-crematodotiko-proion-gia-dikaioucous-tou-programmatos-lpotoboltaika-ste-steger",
+      "source_urls": [
+        "https://www.epirusbank.com/blog/deltia-tupou-1/183-neo-crematodotiko-proion-gia-dikaioucous-tou-programmatos-lpotoboltaika-ste-steger"
+      ],
+      "merged_from_count": 1,
+      "program_kind": "bank_loan",
+      "expected_fields": [
+        "completion_delay_consequences",
+        "description",
+        "eligible_interventions",
+        "funding_coverage",
+        "funding_type",
+        "interest_rate",
+        "loan_duration",
+        "maximum_funding_amount",
+        "minimum_funding_amount",
+        "post_completion_obligations",
+        "programme_name",
+        "programme_objective",
+        "property_requirements"
+      ],
+      "expected_present": [
+        "description",
+        "funding_coverage",
+        "funding_type",
+        "interest_rate",
+        "loan_duration",
+        "programme_name",
+        "programme_objective"
+      ],
+      "expected_missing": [
+        "completion_delay_consequences",
+        "eligible_interventions",
+        "maximum_funding_amount",
+        "minimum_funding_amount",
+        "post_completion_obligations",
+        "property_requirements"
+      ],
+      "expected_coverage": 0.5384615384615384,
+      "empty_fields_all": [],
+      "status": "ok"
+    },
+    {
+      "file": "output\\evaluation\\qa_full_runs\\smoke_merge_clean_lists_20260618T084307517747Z\\classifications\\011_www.alpha.gr_el_idiotes_daneia_prasina-daneia_f5ec5bff_classification.json",
+      "programme_name": "Πράσινα Δάνεια",
+      "url": "https://www.alpha.gr/el/idiotes/daneia/prasina-daneia",
+      "source_urls": [
+        "https://www.alpha.gr/el/idiotes/daneia/prasina-daneia"
+      ],
+      "merged_from_count": 1,
+      "program_kind": "bank_loan",
+      "expected_fields": [
+        "completion_delay_consequences",
+        "description",
+        "eligible_interventions",
+        "funding_coverage",
+        "funding_type",
+        "interest_rate",
+        "loan_duration",
+        "maximum_funding_amount",
+        "minimum_funding_amount",
+        "post_completion_obligations",
+        "programme_name",
+        "programme_objective",
+        "property_requirements"
+      ],
+      "expected_present": [
+        "description",
+        "eligible_interventions",
+        "funding_coverage",
+        "funding_type",
+        "interest_rate",
+        "maximum_funding_amount",
+        "programme_name",
+        "programme_objective"
+      ],
+      "expected_missing": [
+        "completion_delay_consequences",
+        "loan_duration",
+        "minimum_funding_amount",
+        "post_completion_obligations",
+        "property_requirements"
+      ],
+      "expected_coverage": 0.6153846153846154,
+      "empty_fields_all": [],
+      "status": "ok"
+    },
+    {
+      "file": "output\\evaluation\\qa_full_runs\\smoke_merge_clean_lists_20260618T084307517747Z\\classifications\\012_www.nbg.gr_el_idiwtes_daneia_daneia-exoikonomisis-energeias_prasino-daneio_8ef520bc_classification.json",
+      "programme_name": "Πράσινο Δάνειο",
+      "url": "https://www.nbg.gr/el/idiwtes/daneia/daneia-exoikonomisis-energeias/prasino-daneio",
+      "source_urls": [
+        "https://www.nbg.gr/el/idiwtes/daneia/daneia-exoikonomisis-energeias/prasino-daneio"
+      ],
+      "merged_from_count": 1,
+      "program_kind": "bank_loan",
+      "expected_fields": [
+        "completion_delay_consequences",
+        "description",
+        "eligible_interventions",
+        "funding_coverage",
+        "funding_type",
+        "interest_rate",
+        "loan_duration",
+        "maximum_funding_amount",
+        "minimum_funding_amount",
+        "post_completion_obligations",
+        "programme_name",
+        "programme_objective",
+        "property_requirements"
+      ],
+      "expected_present": [
+        "description",
+        "eligible_interventions",
+        "funding_type",
+        "interest_rate",
+        "loan_duration",
+        "maximum_funding_amount",
+        "minimum_funding_amount",
+        "programme_name",
+        "programme_objective",
+        "property_requirements"
+      ],
+      "expected_missing": [
+        "completion_delay_consequences",
+        "funding_coverage",
+        "post_completion_obligations"
+      ],
+      "expected_coverage": 0.7692307692307693,
+      "empty_fields_all": [],
+      "status": "ok"
+    },
+    {
+      "file": "output\\evaluation\\qa_full_runs\\smoke_merge_clean_lists_20260618T084307517747Z\\classifications\\013_www.alpha.gr_el_idiotes_daneia_episkevastika-daneia-gia-a...si_alpha-prasines-luseis-katanalotiko-daneio-gia-to-spiti_3ef84f91_classification.json",
+      "programme_name": "Πράσινο Δάνειο για το Σπίτι",
+      "url": "https://www.alpha.gr/el/idiotes/daneia/episkevastika-daneia-gia-anakainisi/alpha-prasines-luseis-katanalotiko-daneio-gia-to-spiti",
+      "source_urls": [
+        "https://www.alpha.gr/el/idiotes/daneia/episkevastika-daneia-gia-anakainisi/alpha-prasines-luseis-katanalotiko-daneio-gia-to-spiti"
+      ],
+      "merged_from_count": 1,
+      "program_kind": "bank_loan",
+      "expected_fields": [
+        "completion_delay_consequences",
+        "description",
+        "eligible_interventions",
+        "funding_coverage",
+        "funding_type",
+        "interest_rate",
+        "loan_duration",
+        "maximum_funding_amount",
+        "minimum_funding_amount",
+        "post_completion_obligations",
+        "programme_name",
+        "programme_objective",
+        "property_requirements"
+      ],
+      "expected_present": [
+        "description",
+        "eligible_interventions",
+        "funding_coverage",
+        "funding_type",
+        "interest_rate",
+        "loan_duration",
+        "maximum_funding_amount",
+        "minimum_funding_amount",
+        "programme_name",
+        "programme_objective"
+      ],
+      "expected_missing": [
+        "completion_delay_consequences",
+        "post_completion_obligations",
+        "property_requirements"
+      ],
+      "expected_coverage": 0.7692307692307693,
+      "empty_fields_all": [],
+      "status": "ok"
+    },
+    {
+      "file": "output\\evaluation\\qa_full_runs\\smoke_merge_clean_lists_20260618T084307517747Z\\classifications\\014_www.eurobank.gr_el_retail_proionta-upiresies_proionta_daneia_prasina_prasino-daneio-katoikias-eksoikonomisi-energeias_abbe8e29_classification.json",
+      "programme_name": "Πράσινο Δάνειο Κατοικίας – Εξοικονόμηση Ενέργειας",
+      "url": "https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/prasino-daneio-katoikias-eksoikonomisi-energeias",
+      "source_urls": [
+        "https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/prasino-daneio-katoikias-eksoikonomisi-energeias"
+      ],
+      "merged_from_count": 1,
+      "program_kind": "bank_loan",
+      "expected_fields": [
+        "completion_delay_consequences",
+        "description",
+        "eligible_interventions",
+        "funding_coverage",
+        "funding_type",
+        "interest_rate",
+        "loan_duration",
+        "maximum_funding_amount",
+        "minimum_funding_amount",
+        "post_completion_obligations",
+        "programme_name",
+        "programme_objective",
+        "property_requirements"
+      ],
+      "expected_present": [
+        "description",
+        "eligible_interventions",
+        "funding_type",
+        "interest_rate",
+        "loan_duration",
+        "maximum_funding_amount",
+        "programme_name",
+        "programme_objective",
+        "property_requirements"
+      ],
+      "expected_missing": [
+        "completion_delay_consequences",
+        "funding_coverage",
+        "minimum_funding_amount",
+        "post_completion_obligations"
+      ],
+      "expected_coverage": 0.6923076923076923,
+      "empty_fields_all": [],
+      "status": "ok"
+    },
+    {
+      "file": "output\\evaluation\\qa_full_runs\\smoke_merge_clean_lists_20260618T084307517747Z\\classifications\\015_www.nbg.gr_el_idiwtes_daneia_daneia-exoikonomisis-energeias_prasino-daneio-spitiou-h-autokinhtou_d27b3e33_classification.json",
+      "programme_name": "Πράσινο Δάνειο Σπιτιού ή Αυτοκινήτου",
+      "url": "https://www.nbg.gr/el/idiwtes/daneia/daneia-exoikonomisis-energeias/prasino-daneio-spitiou-h-autokinhtou",
+      "source_urls": [
+        "https://www.nbg.gr/el/idiwtes/daneia/daneia-exoikonomisis-energeias/prasino-daneio-spitiou-h-autokinhtou"
+      ],
+      "merged_from_count": 1,
+      "program_kind": "bank_loan",
+      "expected_fields": [
+        "completion_delay_consequences",
+        "description",
+        "eligible_interventions",
+        "funding_coverage",
+        "funding_type",
+        "interest_rate",
+        "loan_duration",
+        "maximum_funding_amount",
+        "minimum_funding_amount",
+        "post_completion_obligations",
+        "programme_name",
+        "programme_objective",
+        "property_requirements"
+      ],
+      "expected_present": [
+        "description",
+        "eligible_interventions",
+        "funding_type",
+        "interest_rate",
+        "loan_duration",
+        "maximum_funding_amount",
+        "minimum_funding_amount",
+        "programme_name",
+        "programme_objective"
+      ],
+      "expected_missing": [
+        "completion_delay_consequences",
+        "funding_coverage",
+        "post_completion_obligations",
+        "property_requirements"
+      ],
+      "expected_coverage": 0.6923076923076923,
+      "empty_fields_all": [],
+      "status": "ok"
+    },
+    {
+      "file": "output\\evaluation\\qa_full_runs\\smoke_merge_clean_lists_20260618T084307517747Z\\classifications\\016_www.piraeusbank.gr_el_idiwtes_proionta-upiresies_stegastika-daneia_prasino-episkeuastiko-daneio-me-eksasfalisi_3f1b2ca9_classification.json",
+      "programme_name": "Πράσινο Επισκευαστικό Δάνειο με Εξασφάλιση Πειραιώς",
+      "url": "https://www.piraeusbank.gr/el/idiwtes/proionta-upiresies/stegastika-daneia/prasino-episkeuastiko-daneio-me-eksasfalisi",
+      "source_urls": [
+        "https://www.piraeusbank.gr/el/idiwtes/proionta-upiresies/stegastika-daneia/prasino-episkeuastiko-daneio-me-eksasfalisi"
+      ],
+      "merged_from_count": 1,
+      "program_kind": "bank_loan",
+      "expected_fields": [
+        "completion_delay_consequences",
+        "description",
+        "eligible_interventions",
+        "funding_coverage",
+        "funding_type",
+        "interest_rate",
+        "loan_duration",
+        "maximum_funding_amount",
+        "minimum_funding_amount",
+        "post_completion_obligations",
+        "programme_name",
+        "programme_objective",
+        "property_requirements"
+      ],
+      "expected_present": [
+        "description",
+        "funding_coverage",
+        "funding_type",
+        "interest_rate",
+        "loan_duration",
+        "minimum_funding_amount",
+        "programme_name",
+        "programme_objective",
+        "property_requirements"
+      ],
+      "expected_missing": [
+        "completion_delay_consequences",
+        "eligible_interventions",
+        "maximum_funding_amount",
+        "post_completion_obligations"
+      ],
+      "expected_coverage": 0.6923076923076923,
+      "empty_fields_all": [],
+      "status": "ok"
+    },
+    {
+      "file": "output\\evaluation\\qa_full_runs\\smoke_merge_clean_lists_20260618T084307517747Z\\classifications\\017_www.piraeusbank.gr_el_idiwtes_proionta-upiresies_stegastika-daneia_prasino-stegastiko-daneio-me-stathero-epitokio_b3518007_classification.json",
+      "programme_name": "Πράσινο Στεγαστικό Δάνειο με Σταθερό Επιτόκιο",
+      "url": "https://www.piraeusbank.gr/el/idiwtes/proionta-upiresies/stegastika-daneia/prasino-stegastiko-daneio-me-stathero-epitokio",
+      "source_urls": [
+        "https://www.piraeusbank.gr/el/idiwtes/proionta-upiresies/stegastika-daneia/prasino-stegastiko-daneio-me-stathero-epitokio"
+      ],
+      "merged_from_count": 1,
+      "program_kind": "bank_loan",
+      "expected_fields": [
+        "completion_delay_consequences",
+        "description",
+        "eligible_interventions",
+        "funding_coverage",
+        "funding_type",
+        "interest_rate",
+        "loan_duration",
+        "maximum_funding_amount",
+        "minimum_funding_amount",
+        "post_completion_obligations",
+        "programme_name",
+        "programme_objective",
+        "property_requirements"
+      ],
+      "expected_present": [
+        "completion_delay_consequences",
+        "description",
+        "eligible_interventions",
+        "funding_coverage",
+        "funding_type",
+        "interest_rate",
+        "loan_duration",
+        "minimum_funding_amount",
+        "programme_name",
+        "programme_objective"
+      ],
+      "expected_missing": [
+        "maximum_funding_amount",
+        "post_completion_obligations",
+        "property_requirements"
+      ],
+      "expected_coverage": 0.7692307692307693,
+      "empty_fields_all": [],
+      "status": "ok"
+    },
+    {
+      "file": "output\\evaluation\\qa_full_runs\\smoke_merge_clean_lists_20260618T084307517747Z\\classifications\\018_www.piraeusbank.gr_el_idiwtes_proionta-upiresies_stegastika-daneia_prasino-stegastiko-daneio-sundedemeno-me-euribor_30fdb982_classification.json",
+      "programme_name": "Πράσινο Στεγαστικό Δάνειο Συνδεδεμένο με Euribor",
+      "url": "https://www.piraeusbank.gr/el/idiwtes/proionta-upiresies/stegastika-daneia/prasino-stegastiko-daneio-sundedemeno-me-euribor",
+      "source_urls": [
+        "https://www.piraeusbank.gr/el/idiwtes/proionta-upiresies/stegastika-daneia/prasino-stegastiko-daneio-sundedemeno-me-euribor"
+      ],
+      "merged_from_count": 1,
+      "program_kind": "bank_loan",
+      "expected_fields": [
+        "completion_delay_consequences",
+        "description",
+        "eligible_interventions",
+        "funding_coverage",
+        "funding_type",
+        "interest_rate",
+        "loan_duration",
+        "maximum_funding_amount",
+        "minimum_funding_amount",
+        "post_completion_obligations",
+        "programme_name",
+        "programme_objective",
+        "property_requirements"
+      ],
+      "expected_present": [
+        "completion_delay_consequences",
+        "description",
+        "eligible_interventions",
+        "funding_coverage",
+        "funding_type",
+        "interest_rate",
+        "loan_duration",
+        "minimum_funding_amount",
+        "programme_name",
+        "programme_objective"
+      ],
+      "expected_missing": [
+        "maximum_funding_amount",
+        "post_completion_obligations",
+        "property_requirements"
+      ],
+      "expected_coverage": 0.7692307692307693,
+      "empty_fields_all": [],
+      "status": "ok"
+    },
+    {
+      "file": "output\\evaluation\\qa_full_runs\\smoke_merge_clean_lists_20260618T084307517747Z\\classifications\\019_www.eurobank.gr_el_retail_proionta-upiresies_proionta_daneia_prasina_green-fast-loan_15a4f314_classification.json",
+      "programme_name": "Προσωπικό Δάνειο Green Fast Loan",
+      "url": "https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/green-fast-loan",
+      "source_urls": [
+        "https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/green-fast-loan"
+      ],
+      "merged_from_count": 1,
+      "program_kind": "bank_loan",
+      "expected_fields": [
+        "completion_delay_consequences",
+        "description",
+        "eligible_interventions",
+        "funding_coverage",
+        "funding_type",
+        "interest_rate",
+        "loan_duration",
+        "maximum_funding_amount",
+        "minimum_funding_amount",
+        "post_completion_obligations",
+        "programme_name",
+        "programme_objective",
+        "property_requirements"
+      ],
+      "expected_present": [
+        "description",
+        "eligible_interventions",
+        "funding_type",
+        "interest_rate",
+        "loan_duration",
+        "maximum_funding_amount",
+        "minimum_funding_amount",
+        "post_completion_obligations",
+        "programme_name",
+        "programme_objective",
+        "property_requirements"
+      ],
+      "expected_missing": [
+        "completion_delay_consequences",
+        "funding_coverage"
+      ],
+      "expected_coverage": 0.8461538461538461,
+      "empty_fields_all": [],
+      "status": "ok"
+    },
+    {
+      "file": "output\\evaluation\\qa_full_runs\\smoke_merge_clean_lists_20260618T084307517747Z\\classifications\\020_www.crediabank.com_idiotes_daneia_stegastika_stegastiko-daneio-eco-home_592fa2ea_classification.json",
+      "programme_name": "Στεγαστικό Δάνειο Eco Home",
+      "url": "https://www.crediabank.com/idiotes/daneia/stegastika/stegastiko-daneio-eco-home/",
+      "source_urls": [
+        "https://www.crediabank.com/idiotes/daneia/stegastika/stegastiko-daneio-eco-home/"
+      ],
+      "merged_from_count": 1,
+      "program_kind": "bank_loan",
+      "expected_fields": [
+        "completion_delay_consequences",
+        "description",
+        "eligible_interventions",
+        "funding_coverage",
+        "funding_type",
+        "interest_rate",
+        "loan_duration",
+        "maximum_funding_amount",
+        "minimum_funding_amount",
+        "post_completion_obligations",
+        "programme_name",
+        "programme_objective",
+        "property_requirements"
+      ],
+      "expected_present": [
+        "description",
+        "eligible_interventions",
+        "funding_coverage",
+        "funding_type",
+        "interest_rate",
+        "loan_duration",
+        "maximum_funding_amount",
+        "minimum_funding_amount",
+        "programme_name",
+        "programme_objective",
+        "property_requirements"
+      ],
+      "expected_missing": [
+        "completion_delay_consequences",
+        "post_completion_obligations"
+      ],
+      "expected_coverage": 0.8461538461538461,
+      "empty_fields_all": [],
+      "status": "ok"
+    },
+    {
+      "file": "output\\evaluation\\qa_full_runs\\smoke_merge_clean_lists_20260618T084307517747Z\\classifications\\021_www.bankofthessaly.gr_idiotes_prasina-daneia_a04101da_classification.json",
+      "programme_name": "Τράπεζα Θεσσαλίας - Πράσινα Δάνεια",
+      "url": "https://www.bankofthessaly.gr/idiotes/prasina-daneia/",
+      "source_urls": [
+        "https://www.bankofthessaly.gr/idiotes/prasina-daneia/"
+      ],
+      "merged_from_count": 1,
+      "program_kind": "bank_loan",
+      "expected_fields": [
+        "completion_delay_consequences",
+        "description",
+        "eligible_interventions",
+        "funding_coverage",
+        "funding_type",
+        "interest_rate",
+        "loan_duration",
+        "maximum_funding_amount",
+        "minimum_funding_amount",
+        "post_completion_obligations",
+        "programme_name",
+        "programme_objective",
+        "property_requirements"
+      ],
+      "expected_present": [
+        "description",
+        "funding_type",
+        "programme_name",
+        "programme_objective"
+      ],
+      "expected_missing": [
+        "completion_delay_consequences",
+        "eligible_interventions",
+        "funding_coverage",
+        "interest_rate",
+        "loan_duration",
+        "maximum_funding_amount",
+        "minimum_funding_amount",
+        "post_completion_obligations",
+        "property_requirements"
+      ],
+      "expected_coverage": 0.3076923076923077,
+      "empty_fields_all": [],
+      "status": "ok"
+    },
+    {
+      "file": "output\\evaluation\\qa_full_runs\\smoke_merge_clean_lists_20260618T084307517747Z\\classifications\\022_www.gov.gr_ipiresies_polites-kai-kathemerinoteta_periballon-kai-poioteta-zoes_photoboltaika-ste-stege_9d577ea5_classification.json",
+      "programme_name": "Φωτοβολταϊκά στη στέγη",
+      "url": "https://www.gov.gr/ipiresies/polites-kai-kathemerinoteta/periballon-kai-poioteta-zoes/photoboltaika-ste-stege",
+      "source_urls": [
+        "https://www.gov.gr/ipiresies/polites-kai-kathemerinoteta/periballon-kai-poioteta-zoes/photoboltaika-ste-stege"
+      ],
+      "merged_from_count": 1,
+      "program_kind": "public_program",
+      "expected_fields": [
+        "application_end_date",
+        "application_start_date",
+        "completion_deadline",
+        "completion_delay_consequences",
+        "description",
+        "eligibility_criteria",
+        "eligible_interventions",
+        "eligible_parties",
+        "energy_performance_targets",
+        "funding_sources",
+        "funding_type",
+        "managing_body",
+        "maximum_funding_amount",
+        "post_completion_obligations",
+        "programme_name",
+        "programme_objective",
+        "total_budget"
+      ],
+      "expected_present": [
+        "completion_deadline",
+        "description",
+        "eligible_parties",
+        "programme_name",
+        "programme_objective"
+      ],
+      "expected_missing": [
+        "application_end_date",
+        "application_start_date",
+        "completion_delay_consequences",
+        "eligibility_criteria",
+        "eligible_interventions",
+        "energy_performance_targets",
+        "funding_sources",
+        "funding_type",
+        "managing_body",
+        "maximum_funding_amount",
+        "post_completion_obligations",
+        "total_budget"
+      ],
+      "expected_coverage": 0.29411764705882354,
+      "empty_fields_all": [],
+      "status": "ok"
+    }
+  ]
+}

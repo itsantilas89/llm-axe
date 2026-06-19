@@ -1,0 +1,45 @@
+\begin{tikzpicture}[
+    year/.style={
+        rectangle,
+        rounded corners=2pt,
+        draw=blue!65,
+        fill=blue!65,
+        text=white,
+        align=center,
+        minimum width=1.35cm,
+        minimum height=0.62cm,
+        font=\sffamily\bfseries\small
+    },
+    event/.style={
+        rectangle,
+        rounded corners=3pt,
+        draw=blue!50,
+        fill=blue!6,
+        align=left,
+        text width=9.6cm,
+        minimum height=0.78cm,
+        inner xsep=7pt,
+        font=\sffamily\small
+    },
+    arrow/.style={-{Latex[length=2mm]}, thick, draw=gray!65}
+]
+\node[year] (y2010) at (0,0) {2010};
+\node[event, right=0.45cm of y2010] (e2010) {EPBD 2010/31/ΕΕ: βασικό πλαίσιο για την ενεργειακή απόδοση των κτιρίων};
+
+\node[year, below=0.55cm of y2010] (y2018) {2018};
+\node[event, right=0.45cm of y2018] (e2018) {Τροποποίηση EPBD και ενίσχυση των μακροχρόνιων στρατηγικών ανακαίνισης};
+
+\node[year, below=0.55cm of y2018] (y2020) {2020};
+\node[event, right=0.45cm of y2020] (e2020) {Renovation Wave: επιτάχυνση και τουλάχιστον διπλασιασμός του ρυθμού ανακαινίσεων};
+
+\node[year, below=0.55cm of y2020] (y2024) {2024};
+\node[event, right=0.45cm of y2024] (e2024) {EPBD recast, Οδηγία (ΕΕ) 2024/1275: πορεία προς κτίρια μηδενικών εκπομπών};
+
+\node[year, below=0.55cm of y2024] (y2050) {2050};
+\node[event, right=0.45cm of y2050] (e2050) {Στόχος για υψηλής ενεργειακής απόδοσης και απανθρακοποιημένο κτιριακό απόθεμα};
+
+\draw[arrow] (y2010) -- (y2018);
+\draw[arrow] (y2018) -- (y2020);
+\draw[arrow] (y2020) -- (y2024);
+\draw[arrow] (y2024) -- (y2050);
+\end{tikzpicture}

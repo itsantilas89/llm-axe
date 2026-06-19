@@ -1,0 +1,75 @@
+{
+  "timestamp": "20260617T143344Z",
+  "url": "https://www.crediabank.com/idiotes/daneia/stegastika/stegastiko-daneio-eco-home/",
+  "source_urls": [
+    "https://www.crediabank.com/idiotes/daneia/stegastika/stegastiko-daneio-eco-home/"
+  ],
+  "source_files": [
+    "C:\\Users\\stavr\\Desktop\\HMMY\\Thesis\\llm-axe\\output\\va4_product_discoverer\\20260617T033438Z_www.crediabank.com_idiotes_daneia_stegastika_stegastiko-daneio-eco-home_592fa2ea_classification.json"
+  ],
+  "merged_from_count": 1,
+  "merged": true,
+  "field_sources": {
+    "description": "https://www.crediabank.com/idiotes/daneia/stegastika/stegastiko-daneio-eco-home/",
+    "eligible_interventions": [
+      "https://www.crediabank.com/idiotes/daneia/stegastika/stegastiko-daneio-eco-home/"
+    ],
+    "funding_coverage": "https://www.crediabank.com/idiotes/daneia/stegastika/stegastiko-daneio-eco-home/",
+    "funding_type": "https://www.crediabank.com/idiotes/daneia/stegastika/stegastiko-daneio-eco-home/",
+    "interest_rate": [
+      "https://www.crediabank.com/idiotes/daneia/stegastika/stegastiko-daneio-eco-home/"
+    ],
+    "loan_duration": "https://www.crediabank.com/idiotes/daneia/stegastika/stegastiko-daneio-eco-home/",
+    "maximum_funding_amount": "https://www.crediabank.com/idiotes/daneia/stegastika/stegastiko-daneio-eco-home/",
+    "minimum_funding_amount": "https://www.crediabank.com/idiotes/daneia/stegastika/stegastiko-daneio-eco-home/",
+    "programme_name": "https://www.crediabank.com/idiotes/daneia/stegastika/stegastiko-daneio-eco-home/",
+    "programme_objective": "https://www.crediabank.com/idiotes/daneia/stegastika/stegastiko-daneio-eco-home/",
+    "property_requirements": [
+      "https://www.crediabank.com/idiotes/daneia/stegastika/stegastiko-daneio-eco-home/"
+    ]
+  },
+  "extracted_data": {
+    "description": "Στεγαστικό Δάνειο Eco Home - CrediaBank Στεγαστικό Δάνειο Eco Home Δάνειο για Ενεργειακή Αναβάθμιση Κατοικίας Εκδήλωση Ενδιαφέροντος Μείωσε το ενεργειακό αποτύπωμα του σπιτιού σου και εξοικονόμησε χρήματα με το Eco Home . Ιδανικό για θέρμανση, θερμομόνωση, κουφώματα ή ηλιακά συστήματα, με δάνειο που προσαρμόζεται στις δυνατότητές σου. Χρηματοδότηση Σου παρέχουμε την απαραίτητη υποστήριξη για να κάνεις το σπίτι σου πιο οικολογικό, αποδοτικό και άνετο. Κάλυψε μέχρι και το 100% του κόστους εργασιών ενεργειακής αναβάθμισης ακινήτου ή και ανακαίνισής του. Η χρηματοδότηση εργασιών ανακαίνισης δεν μπορεί να υπερβαίνει το 40% του συνολικού προϋπολογισμού.",
+    "eligible_interventions": [
+      "Μονώσεις",
+      "Αντικατάσταση κουφωμάτων",
+      "Τοποθέτηση / αντικατάσταση κελύφους για θερμομόνωση",
+      "Αναβάθμιση συστήματος θέρμανσης / ψύξης",
+      "Αναβάθμιση συστήματος ζεστού νερού χρήσης μέσω ΑΠΕ"
+    ],
+    "funding_coverage": "Κάλυψε μέχρι και το 100% του κόστους εργασιών ενεργειακής αναβάθμισης ακινήτου ή και ανακαίνισής του",
+    "funding_type": "Δάνειο",
+    "interest_rate": [
+      "3,30%",
+      "Euribor 3m πλέον περιθωρίου (spread) 1,70%"
+    ],
+    "loan_duration": "10-15 έτη",
+    "maximum_funding_amount": "75.000€",
+    "minimum_funding_amount": "15.000€",
+    "programme_name": "Στεγαστικό Δάνειο Eco Home",
+    "programme_objective": "Στεγαστικό Δάνειο Eco Home - CrediaBank Στεγαστικό Δάνειο Eco Home Δάνειο για Ενεργειακή Αναβάθμιση Κατοικίας Εκδήλωση Ενδιαφέροντος Μείωσε το ενεργειακό αποτύπωμα του σπιτιού σου και εξοικονόμησε χρήματα με το Eco Home . Ιδανικό για θέρμανση, θερμομόνωση, κουφώματα ή ηλιακά συστήματα, με δάνειο που προσαρμόζεται στις δυνατότητές σου. Χρηματοδότηση Σου παρέχουμε την απαραίτητη υποστήριξη για να κάνεις το σπίτι σου πιο οικολογικό, αποδοτικό και άνετο. Κάλυψε μέχρι και το 100% του κόστους εργασιών ενεργειακής αναβάθμισης ακινήτου ή και ανακαίνισής του. Η χρηματοδότηση εργασιών ανακαίνισης δεν μπορεί να υπερβαίνει το 40% του συνολικού προϋπολογισμού.",
+    "property_requirements": [
+      "θέρμανση",
+      "θερμομόνωση",
+      "κουφώματα",
+      "ηλιακά συστήματα"
+    ],
+    "source_urls": [
+      "https://www.crediabank.com/idiotes/daneia/stegastika/stegastiko-daneio-eco-home/"
+    ],
+    "source_url": "https://www.crediabank.com/idiotes/daneia/stegastika/stegastiko-daneio-eco-home/"
+  },
+  "classification": {
+    "is_relevant": true,
+    "primary_category": "green_housing_loan",
+    "secondary_categories": [
+      "energy_upgrade",
+      "home_renewables"
+    ],
+    "confidence": 0.92,
+    "reasoning": "Merged source-backed JSON from 1 relevant URL(s).",
+    "key_features": [
+      "deterministic_home_green_finance_scope"
+    ]
+  }
+}

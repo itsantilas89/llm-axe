@@ -1,0 +1,15 @@
+{
+  "experiment_id": "exp_20260617_041330_2e5ae6fb",
+  "timestamp": "2026-06-17T04:13:30.776126+00:00",
+  "model": "deterministic_scope_guard",
+  "temperature": 0.0,
+  "hyperparameters": {
+    "mode": "pre_llm_classification"
+  },
+  "prompt": "",
+  "sources": [
+    "Προσωπικό Δάνειο Green Fast Loan"
+  ],
+  "terminal_output": "Category: green_housing_loan | Confidence: 92% | Relevant: True",
+  "template_output_file": null
+}

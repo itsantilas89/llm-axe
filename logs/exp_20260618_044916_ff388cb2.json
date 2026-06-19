@@ -1,0 +1,15 @@
+{
+  "experiment_id": "exp_20260618_044916_ff388cb2",
+  "timestamp": "2026-06-18T04:49:16.649725+00:00",
+  "model": "llama3.2:latest",
+  "temperature": 0.0,
+  "hyperparameters": {
+    "filter": "keyword_prescreen"
+  },
+  "prompt": "[Keyword Pre-screen]",
+  "sources": [
+    "https://www.piraeusbank.gr/el/idiwtes/proionta-upiresies/daneia/proswpika/katanalotiko-daneio-ev-loan-gia-agora-ilektrikou-autokinitou"
+  ],
+  "terminal_output": "REJECTED at keyword pre-screen (before extraction)",
+  "template_output_file": null
+}

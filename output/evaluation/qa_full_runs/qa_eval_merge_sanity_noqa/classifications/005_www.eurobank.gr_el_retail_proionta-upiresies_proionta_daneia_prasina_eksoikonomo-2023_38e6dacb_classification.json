@@ -1,0 +1,82 @@
+{
+  "timestamp": "20260617T120537Z",
+  "url": "https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/eksoikonomo-2023",
+  "source_urls": [
+    "https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/eksoikonomo-2023"
+  ],
+  "source_files": [
+    "C:\\Users\\stavr\\Desktop\\HMMY\\Thesis\\llm-axe\\output\\va4_product_discoverer\\20260518T102036Z_www.eurobank.gr_el_retail_proionta-upiresies_proionta_daneia_prasina_eksoikonomo-2023_38e6dacb_classification.json"
+  ],
+  "merged_from_count": 1,
+  "merged": true,
+  "field_sources": {
+    "announcement_date": "https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/eksoikonomo-2023",
+    "application_end_date": "https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/eksoikonomo-2023",
+    "application_process": "https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/eksoikonomo-2023",
+    "application_start_date": "https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/eksoikonomo-2023",
+    "completion_deadline": "https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/eksoikonomo-2023",
+    "description": "https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/eksoikonomo-2023",
+    "duration": "https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/eksoikonomo-2023",
+    "eligibility_criteria": [
+      "https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/eksoikonomo-2023"
+    ],
+    "eligible_interventions": [
+      "https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/eksoikonomo-2023"
+    ],
+    "funding_coverage": "https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/eksoikonomo-2023",
+    "funding_type": "https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/eksoikonomo-2023",
+    "loan_duration": "https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/eksoikonomo-2023",
+    "managing_body": "https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/eksoikonomo-2023",
+    "maximum_funding_amount": "https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/eksoikonomo-2023",
+    "minimum_funding_amount": "https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/eksoikonomo-2023",
+    "programme_name": "https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/eksoikonomo-2023",
+    "programme_objective": "https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/eksoikonomo-2023",
+    "property_requirements": [
+      "https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/eksoikonomo-2023"
+    ]
+  },
+  "extracted_data": {
+    "announcement_date": "01/06/2023",
+    "application_end_date": "15/11/2023",
+    "application_process": "online",
+    "application_start_date": "01/06/2023",
+    "completion_deadline": "31/12/2023",
+    "description": "Εξοικονομώ 2023» | Eurobank Πρόγραμμα «Εξοικονομώ 2023» Έως 24.750€ / κατοικία για ενεργειακή αναβάθμιση Έως 75% επιχορήγηση του κόστους των εργασιών 100% επιδότηση τόκων δανείου Εάν είστε δικαιούχος του προγράμματος «Εξοικονομώ 2023», επιλέξτε την Eurobank ως τράπεζα συνεργασίας ή/και χρηματοδότησης και εξασφαλίστε αυτοματοποιημένη ψηφιακή διαδικασία αιτήσεων για άμεση προέγκριση και γρηγορότερη εκταμίευση του δανείου. Ενημερωθείτε αυτόματα για εκκρεμότητες της αίτησής σας. Με την εκταμίευση του δανείου, κερδίζετε 20 ευρώ €πιστροφή και εκπτώσεις σε νέα συμβόλαια για ασφαλιστικά προγράμματα της Eurolife FFH. Για να λύσετε απορίες σας σχετικά με το δάνειό σας στο πλαίσιο του «Εξοικονομώ 2023» (ή παλιότερου προγράμματος), τηλεφωνήστε στο EuroPhone Banking: 2109555000 , Δευτέρα έως Παρασκευή (εργάσιμες ημέρες), 09:00-17:00 Εάν θέλετε να σας συστήσουμε ενεργειακό επιθεωρητ",
+    "duration": "12 μήνες",
+    "eligibility_criteria": [
+      "είστε ιδιοκτήτης του σπιτιού"
+    ],
+    "eligible_interventions": [
+      "αναβάθμιση ενεργειακής κατανόησης"
+    ],
+    "funding_coverage": "100%",
+    "funding_type": "δάνειο",
+    "loan_duration": "5 χρόνια",
+    "managing_body": "Ευρωπαϊκή Επιτροπή",
+    "maximum_funding_amount": "10.000€",
+    "minimum_funding_amount": "5.001€",
+    "programme_name": "Εξοικονομώ 2023",
+    "programme_objective": "Εξοικονομώ 2023» | Eurobank Πρόγραμμα «Εξοικονομώ 2023» Έως 24.750€ / κατοικία για ενεργειακή αναβάθμιση Έως 75% επιχορήγηση του κόστους των εργασιών 100% επιδότηση τόκων δανείου Εάν είστε δικαιούχος του προγράμματος «Εξοικονομώ 2023», επιλέξτε την Eurobank ως τράπεζα συνεργασίας ή/και χρηματοδότησης και εξασφαλίστε αυτοματοποιημένη ψηφιακή διαδικασία αιτήσεων για άμεση προέγκριση και γρηγορότερη εκταμίευση του δανείου. Ενημερωθείτε αυτόματα για εκκρεμότητες της αίτησής σας. Με την εκταμίευση του δανείου, κερδίζετε 20 ευρώ €πιστροφή και εκπτώσεις σε νέα συμβόλαια για ασφαλιστικά προγράμματα της Eurolife FFH. Για να λύσετε απορίες σας σχετικά με το δάνειό σας στο πλαίσιο του «Εξοικονομώ 2023» (ή παλιότερου προγράμματος), τηλεφωνήστε στο EuroPhone Banking: 2109555000 , Δευτέρα έως Παρασκευή (εργάσιμες ημέρες), 09:00-17:00 Εάν θέλετε να σας συστήσουμε ενεργειακό επιθεωρητ",
+    "property_requirements": [
+      "σπίτι με ενεργειακή κατανόηση A",
+      "σπίτι με ενεργειακή κατανόηση B"
+    ],
+    "source_urls": [
+      "https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/eksoikonomo-2023"
+    ],
+    "source_url": "https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/eksoikonomo-2023"
+  },
+  "classification": {
+    "is_relevant": true,
+    "primary_category": "green_housing_loan",
+    "secondary_categories": [
+      "energy_upgrade"
+    ],
+    "confidence": 0.95,
+    "reasoning": "Merged source-backed JSON from 1 relevant URL(s).",
+    "key_features": [
+      "πράσινο στεγαστικό δάνειο",
+      "υποχρεωτικές ενεργειακές επεμβάσεις"
+    ]
+  }
+}

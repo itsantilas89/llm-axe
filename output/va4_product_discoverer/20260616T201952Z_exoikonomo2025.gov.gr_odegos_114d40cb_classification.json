@@ -1,0 +1,21 @@
+{
+  "timestamp": "20260616T201952Z",
+  "url": "https://exoikonomo2025.gov.gr/odegos",
+  "classification": {
+    "is_relevant": false,
+    "primary_category": "other",
+    "secondary_categories": [],
+    "confidence": 0.99,
+    "reasoning": "Αυτόματη απόρριψη: Δεν βρέθηκαν ενεργειακά + χρηματοδοτικά keywords.",
+    "key_features": [
+      "keyword_prefilter_reject"
+    ]
+  },
+  "extracted_data": {
+    "source_url": "https://exoikonomo2025.gov.gr/odegos",
+    "source_urls": [
+      "https://exoikonomo2025.gov.gr/odegos"
+    ],
+    "id": "program-114d40cbbf"
+  }
+}

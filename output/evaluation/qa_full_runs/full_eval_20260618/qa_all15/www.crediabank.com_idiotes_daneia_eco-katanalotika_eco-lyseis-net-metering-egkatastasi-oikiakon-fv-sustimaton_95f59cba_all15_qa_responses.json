@@ -1,0 +1,162 @@
+{
+  "timestamp": "20260618T103633Z",
+  "url": "https://www.crediabank.com/idiotes/daneia/eco-katanalotika/eco-lyseis-net-metering-egkatastasi-oikiakon-fv-sustimaton/",
+  "programme_name": "Eco Λύσεις - Net Metering",
+  "classification_file": "002_www.crediabank.com_idiotes_daneia_eco-katanalotika_eco-lyseis-net-metering-egkatastasi-oikiakon-fv-sustimaton_95f59cba_classification.json",
+  "qa_count": 15,
+  "source": "qa_evaluation_suite",
+  "mode": "all15",
+  "responses": [
+    {
+      "question_id": "q12",
+      "question": "12) Ποια είναι η πρωτεύουσα της Ελλάδας ;",
+      "answer": "Δεν υπάρχει πληροφορία",
+      "repeat_index": 1,
+      "repeat_count": 1,
+      "timestamp": "2026-06-18T10:36:33.012081+00:00",
+      "source": "qa_evaluation_suite",
+      "answer_mode": "deterministic_out_of_scope_guard"
+    },
+    {
+      "question_id": "q13",
+      "question": "13) Ποια είναι η πρωτεύουσα της Γαλλίας ;",
+      "answer": "Δεν υπάρχει πληροφορία",
+      "repeat_index": 1,
+      "repeat_count": 1,
+      "timestamp": "2026-06-18T10:36:33.014436+00:00",
+      "source": "qa_evaluation_suite",
+      "answer_mode": "deterministic_out_of_scope_guard"
+    },
+    {
+      "question_id": "q14",
+      "question": "14) What's the capital of Greece ?",
+      "answer": "Δεν υπάρχει πληροφορία",
+      "repeat_index": 1,
+      "repeat_count": 1,
+      "timestamp": "2026-06-18T10:36:33.015534+00:00",
+      "source": "qa_evaluation_suite",
+      "answer_mode": "deterministic_out_of_scope_guard"
+    },
+    {
+      "question_id": "q15",
+      "question": "15) What's the capital of France ?",
+      "answer": "Δεν υπάρχει πληροφορία",
+      "repeat_index": 1,
+      "repeat_count": 1,
+      "timestamp": "2026-06-18T10:36:33.020829+00:00",
+      "source": "qa_evaluation_suite",
+      "answer_mode": "deterministic_out_of_scope_guard"
+    },
+    {
+      "question_id": "q1",
+      "question": "1) Περίγραψε το πρόγραμμα, στόχος, δικαιούχοι, βασικά οφέλη.",
+      "answer": "Το πρόγραμμα Eco Λύσεις - Net Metering προσφέρει χρηματοδότηση έως και το 100% του ποσού τιμολογίων/προτιμολογίων για την εγκατάσταση οικιακών φωτοβολταϊκών συστημάτων. Οι δικαιούχοι είναι φυσικά πρόσωπα που θέλουν να αναβαθμίσουν ενεργειακά το σπίτι τους και να συμψηφίζουν την ενέργεια που παράγουν. Τα βασικά οφέλη του προγράμματος περιλαμβάνουν την οικονομική επιβράβευση για την εγκατάσταση φωτοβολταϊκών πάνελ, τη δυνατότητα παρακολούθησης της ενέργειας που καταναλώνεται και παράγεται, καθώς και την έμμεση αποθήκευση της πράσινης ενέργειας μέσω του δικτύου.",
+      "repeat_index": 1,
+      "repeat_count": 1,
+      "timestamp": "2026-06-18T10:39:59.838143+00:00",
+      "source": "qa_evaluation_suite",
+      "answer_mode": "llm"
+    },
+    {
+      "question_id": "q2",
+      "question": "2) Εξήγησε τη διαφορά μεταξύ “επιχορήγησης” και “δανείου” στο πλαίσιο ενεργειακής αναβάθμισης, με ένα παράδειγμα για το καθένα.",
+      "answer": "Η επιχορήγηση αναφέρεται στην χρηματοδότηση από την κυβέρνηση ή άλλους φορείς για την ενεργειακή αναβάθμιση, χωρίς τη χρέωση συμφέροντος. Για παράδειγμα, η κυβέρνηση μπορεί να προσφέρει επιχορηγήσεις έως 50% του κόστους για την εγκατάσταση φωτοβολταϊκών πάνελ. Το δάνειο, από την άλλη πλευρά, είναι μια χρηματοδότηση που χορηγείται με συμφέροντος και πρέπει να επιστραφεί με τόκο. Για παράδειγμα, μπορείς να δανειστείς 10.000€ για την εγκατάσταση φωτοβολταϊκών πάνελ με επιτόκιο 7,90%.",
+      "repeat_index": 1,
+      "repeat_count": 1,
+      "timestamp": "2026-06-18T10:41:41.018189+00:00",
+      "source": "qa_evaluation_suite",
+      "answer_mode": "llm"
+    },
+    {
+      "question_id": "q3",
+      "question": "3) Δώσε 5 λέξεις-κλειδιά για αναζήτηση σχετικών προγραμμάτων και εξήγησε σε 1 πρόταση γιατί είναι χρήσιμη η καθεμία.",
+      "answer": "Φωτοβολταϊκά, Net Metering, Οικονομία Ενέργειας, Ανανεώσιμες Πηγές Ενέργειας, Κλιματική Αλλαγή",
+      "repeat_index": 1,
+      "repeat_count": 1,
+      "timestamp": "2026-06-18T10:42:22.403922+00:00",
+      "source": "qa_evaluation_suite",
+      "answer_mode": "llm"
+    },
+    {
+      "question_id": "q4",
+      "question": "4) Εντόπισε όλες τις προθεσμίες που αναφέρονται και γράψε τες σε μορφή ΗΗ/ΜΜ/ΕΕΕΕ.",
+      "answer": "Δεν υπάρχουν προθεσμίες που αναφέρονται στο πρόγραμμα.",
+      "repeat_index": 1,
+      "repeat_count": 1,
+      "timestamp": "2026-06-18T10:42:52.377114+00:00",
+      "source": "qa_evaluation_suite",
+      "answer_mode": "llm"
+    },
+    {
+      "question_id": "q5",
+      "question": "5) Βρες αν υπάρχει ανώτατο ή κατώτατο όριο χρηματοδότησης και δώσε το ακριβές ποσό/ποσοστό.",
+      "answer": "Το κατώτατο ποσό χρηματοδότησης είναι €1.500 και το ανώτατο ποσό είναι €25.000.",
+      "repeat_index": 1,
+      "repeat_count": 1,
+      "timestamp": "2026-06-18T10:43:29.904199+00:00",
+      "source": "qa_evaluation_suite",
+      "answer_mode": "llm"
+    },
+    {
+      "question_id": "q6",
+      "question": "6) Ποιες παρεμβάσεις ενεργειακής αναβάθμισης χρηματοδοτούνται;",
+      "answer": "Οι παρεμβάσεις που χρηματοδοτούνται είναι μέσω μίσθωσης και δωρεάν παραχώρησης κτήματος.",
+      "repeat_index": 1,
+      "repeat_count": 1,
+      "timestamp": "2026-06-18T10:44:07.344433+00:00",
+      "source": "qa_evaluation_suite",
+      "answer_mode": "llm"
+    },
+    {
+      "question_id": "q7",
+      "question": "7) Ποια είναι τα σημαντικότερα σημεία που πρέπει να προσέξει ένας ενδιαφερόμενος πριν υποβάλει αίτηση;",
+      "answer": "Για την υποβολή αίτησης, ο ενδιαφερόμενος πρέπει να έχει διαθέσει κτήριο (δώμα, στέγη, στέγαστρο, σκίαστρο, παρκινγκ, πρόσοψη κλπ) για εγκατάσταση φωτοβολταϊκών πάνελ.",
+      "repeat_index": 1,
+      "repeat_count": 1,
+      "timestamp": "2026-06-18T10:44:57.741849+00:00",
+      "source": "qa_evaluation_suite",
+      "answer_mode": "llm"
+    },
+    {
+      "question_id": "q8",
+      "question": "8) Τι γίνεται αν δεν ολοκληρωθούν οι εργασίες μέσα στην προβλεπόμενη προθεσμία;",
+      "answer": "Δεν υπάρχει πληροφορία σχετικά με την επίδραση της μη ολοκλήρωσης των εργασιών μέσα στην προβλεπόμενη προθεσμία στο πρόγραμμα Eco Λύσεις - Net Metering.",
+      "repeat_index": 1,
+      "repeat_count": 1,
+      "timestamp": "2026-06-18T10:45:41.459294+00:00",
+      "source": "qa_evaluation_suite",
+      "answer_mode": "llm"
+    },
+    {
+      "question_id": "q9",
+      "question": "9) Υπάρχουν υποχρεώσεις του δικαιούχου μετά την ολοκλήρωση του έργου;",
+      "answer": "Δεν υπάρχει πληροφορία",
+      "repeat_index": 1,
+      "repeat_count": 1,
+      "timestamp": "2026-06-18T10:46:06.797468+00:00",
+      "source": "qa_evaluation_suite",
+      "answer_mode": "llm"
+    },
+    {
+      "question_id": "q10",
+      "question": "10) Describe the program in 90-120 words.",
+      "answer": "Το πρόγραμμα Eco Λύσεις - Net Metering προσφέρει χρηματοδότηση έως και το 100% του ποσού τιμολογίων/προτιμολογίων για την εγκατάσταση οικιακών φωτοβολταϊκών συστημάτων. Η χρηματοδότηση ανέρχεται από €1.500 έως €25.000 και το επιτόκιο είναι σταθερό 7,90%. Οι δικαιούχοι είναι φυσικά πρόσωπα που μπορούν να εγκαταστήσουν φωτοβολταϊκά πάνελ σε κτήριο (δώμα, στέγη, στέγαστρο, σκίαστρο, παρκινγκ, πρόσοψη κλπ) με σκοπό το net metering.",
+      "repeat_index": 1,
+      "repeat_count": 1,
+      "timestamp": "2026-06-18T10:47:40.166400+00:00",
+      "source": "qa_evaluation_suite",
+      "answer_mode": "llm"
+    },
+    {
+      "question_id": "q11",
+      "question": "11) Explain the difference between a 'grant' and a 'loan' in the context of energy upgrades, with one example for each.",
+      "answer": "Μια χορηγία (grant) είναι μια μορφή χρηματοδότησης που δεν πρέπει να επιστρέφεται, ενώ ένα δάνειο (loan) είναι μια μορφή χρηματοδότησης που πρέπει να επιστραφεί με τόκους. Για παράδειγμα, η χορηγία για την εγκατάσταση φωτοβολταϊκών πάνελ στο πρόγραμμα Eco Λύσεις - Net Metering δεν πρέπει να επιστρέφεται, ενώ το δάνειο για την ίδια εγκατάσταση πρέπει να επιστραφεί με τόκους 7,90%.",
+      "repeat_index": 1,
+      "repeat_count": 1,
+      "timestamp": "2026-06-18T10:49:01.525080+00:00",
+      "source": "qa_evaluation_suite",
+      "answer_mode": "llm"
+    }
+  ],
+  "updated_at": "2026-06-18T10:49:01.525104+00:00"
+}

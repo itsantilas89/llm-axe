@@ -1,0 +1,166 @@
+{
+  "timestamp": "2026-05-25T12:02:03.554144",
+  "validation_type": "qa_repeatability_similarity",
+  "input_dir": "output\\va4_product_discoverer",
+  "summary": {
+    "qa_files_scanned": 12,
+    "qa_file_errors": 0,
+    "answers_scanned": 132,
+    "groups_compared": 55,
+    "min_repeats": 2,
+    "stable_threshold": 0.8,
+    "avg_token_f1": 0.7780991188379971,
+    "avg_jaccard": 0.7206795376039251,
+    "avg_exact_match_rate": 0.5060606060606061,
+    "stable_groups": 29
+  },
+  "by_program": [
+    {
+      "url": "https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/programma-anabathmizo-to-spiti-mou",
+      "programme_name": "Αναβαθμίζω το Σπίτι μου",
+      "groups_compared": 11,
+      "answers_compared": 22,
+      "avg_token_f1": 0.7121434927558785,
+      "avg_jaccard": 0.649165418695465,
+      "stable_groups": 5
+    },
+    {
+      "url": "https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/green-fast-loan",
+      "programme_name": "Green Fast Loan",
+      "groups_compared": 11,
+      "answers_compared": 44,
+      "avg_token_f1": 0.7632874869404923,
+      "avg_jaccard": 0.6890330203545023,
+      "stable_groups": 6
+    },
+    {
+      "url": "https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/eksoikonomo-anakainizo-gia-neous",
+      "programme_name": "Εξοικονομώ - Ανακαινίζω για νέους",
+      "groups_compared": 11,
+      "answers_compared": 22,
+      "avg_token_f1": 0.7799922915189298,
+      "avg_jaccard": 0.7198345823268656,
+      "stable_groups": 5
+    },
+    {
+      "url": "https://www.piraeusbank.gr/el/idiwtes/proionta-upiresies/stegastika-daneia/prasino-episkeuastiko-daneio-me-eksasfalisi",
+      "programme_name": "Prasino Episkeuastiko Daneio Me Eksasfalisi (από URL)",
+      "groups_compared": 11,
+      "answers_compared": 22,
+      "avg_token_f1": 0.7907028325210144,
+      "avg_jaccard": 0.749587024996861,
+      "stable_groups": 7
+    },
+    {
+      "url": "https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/eksoikonomo-2023",
+      "programme_name": "Εξοικονομώ 2023",
+      "groups_compared": 11,
+      "answers_compared": 22,
+      "avg_token_f1": 0.8443694904536706,
+      "avg_jaccard": 0.7957776416459317,
+      "stable_groups": 6
+    }
+  ],
+  "by_question": [
+    {
+      "question_id": "q3",
+      "question": "3) Δώσε 5 λέξεις-κλειδιά για αναζήτηση σχετικών προγραμμάτων και εξήγησε σε 1 πρόταση γιατί είναι χρήσιμη η καθεμία.",
+      "groups_compared": 5,
+      "answers_compared": 12,
+      "avg_token_f1": 0.4200430112650636,
+      "avg_jaccard": 0.3192964830261578,
+      "stable_groups": 0
+    },
+    {
+      "question_id": "q7",
+      "question": "7) Explain the difference between a 'grant' and a 'loan' in the context of energy upgrades, with one example for each.",
+      "groups_compared": 5,
+      "answers_compared": 12,
+      "avg_token_f1": 0.5234101307378197,
+      "avg_jaccard": 0.46261047784286163,
+      "stable_groups": 1
+    },
+    {
+      "question_id": "q6",
+      "question": "6) Describe the program in 90-120 words.",
+      "groups_compared": 5,
+      "answers_compared": 12,
+      "avg_token_f1": 0.5520454288750462,
+      "avg_jaccard": 0.41579825643684876,
+      "stable_groups": 0
+    },
+    {
+      "question_id": "q1",
+      "question": "1) Περίγραψε το πρόγραμμα, στόχος, δικαιούχοι, βασικά οφέλη.",
+      "groups_compared": 5,
+      "answers_compared": 12,
+      "avg_token_f1": 0.5995224487943305,
+      "avg_jaccard": 0.47950459393598255,
+      "stable_groups": 0
+    },
+    {
+      "question_id": "q4",
+      "question": "4) Εντόπισε όλες τις προθεσμίες που αναφέρονται και γράψε τες σε μορφή ΗΗ/ΜΜ/ΕΕΕΕ.",
+      "groups_compared": 5,
+      "answers_compared": 12,
+      "avg_token_f1": 0.7393819977595163,
+      "avg_jaccard": 0.6444919866282095,
+      "stable_groups": 1
+    },
+    {
+      "question_id": "q5",
+      "question": "5) Βρες αν υπάρχει ανώτατο ή κατώτατο όριο χρηματοδότησης και δώσε το ακριβές ποσό/ποσοστό.",
+      "groups_compared": 5,
+      "answers_compared": 12,
+      "avg_token_f1": 0.8191154422788606,
+      "avg_jaccard": 0.7491064491064491,
+      "stable_groups": 3
+    },
+    {
+      "question_id": "q2",
+      "question": "2) Εξήγησε τη διαφορά μεταξύ “επιχορήγησης” και “δανείου” στο πλαίσιο ενεργειακής αναβάθμισης, με ένα παράδειγμα για το καθένα.",
+      "groups_compared": 5,
+      "answers_compared": 12,
+      "avg_token_f1": 0.9055718475073313,
+      "avg_jaccard": 0.8566666666666667,
+      "stable_groups": 4
+    },
+    {
+      "question_id": "q8",
+      "question": "8) Ποια είναι η πρωτεύουσα της Ελλάδας ;",
+      "groups_compared": 5,
+      "answers_compared": 12,
+      "avg_token_f1": 1.0,
+      "avg_jaccard": 1.0,
+      "stable_groups": 5
+    },
+    {
+      "question_id": "q9",
+      "question": "9) Ποια είναι η πρωτεύουσα της Γαλλίας ;",
+      "groups_compared": 5,
+      "answers_compared": 12,
+      "avg_token_f1": 1.0,
+      "avg_jaccard": 1.0,
+      "stable_groups": 5
+    },
+    {
+      "question_id": "q10",
+      "question": "10) What's the capital of Greece ?",
+      "groups_compared": 5,
+      "answers_compared": 12,
+      "avg_token_f1": 1.0,
+      "avg_jaccard": 1.0,
+      "stable_groups": 5
+    },
+    {
+      "question_id": "q11",
+      "question": "11) What's the capital of France ?",
+      "groups_compared": 5,
+      "answers_compared": 12,
+      "avg_token_f1": 1.0,
+      "avg_jaccard": 1.0,
+      "stable_groups": 5
+    }
+  ],
+  "details": []
+}

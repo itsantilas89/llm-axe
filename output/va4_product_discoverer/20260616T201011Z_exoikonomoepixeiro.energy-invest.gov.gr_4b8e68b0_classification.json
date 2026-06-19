@@ -1,0 +1,21 @@
+{
+  "timestamp": "20260616T201011Z",
+  "url": "https://exoikonomoepixeiro.energy-invest.gov.gr/",
+  "classification": {
+    "is_relevant": false,
+    "primary_category": "other",
+    "secondary_categories": [],
+    "confidence": 0.96,
+    "reasoning": "No extracted JSON was produced in the latest batch; scoped source check: missing financing signal",
+    "key_features": [
+      "prefilter_reject"
+    ]
+  },
+  "extracted_data": {
+    "source_url": "https://exoikonomoepixeiro.energy-invest.gov.gr/",
+    "source_urls": [
+      "https://exoikonomoepixeiro.energy-invest.gov.gr/"
+    ],
+    "id": "program-4b8e68b026"
+  }
+}

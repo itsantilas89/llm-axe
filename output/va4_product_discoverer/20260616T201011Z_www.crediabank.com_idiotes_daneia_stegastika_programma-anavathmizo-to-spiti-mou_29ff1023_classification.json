@@ -1,0 +1,61 @@
+{
+  "timestamp": "20260616T201011Z",
+  "url": "https://www.crediabank.com/idiotes/daneia/stegastika/programma-anavathmizo-to-spiti-mou/",
+  "classification": {
+    "is_relevant": true,
+    "primary_category": "green_housing_loan",
+    "secondary_categories": [
+      "home_renewables",
+      "energy_upgrade"
+    ],
+    "confidence": 0.92,
+    "reasoning": "Deterministic scope pass: home energy finance signals found",
+    "key_features": [
+      "deterministic_home_green_finance_scope"
+    ]
+  },
+  "extracted_data": {
+    "programme_name": "Αναβαθμίζω το Σπίτι μου",
+    "description": "Πρόγραμμα “Αναβαθμίζω το σπίτι μου” - CrediaBank Πρόγραμμα “Αναβαθμίζω το σπίτι μου” Ευέλικτες λύσεις ενεργειακής αναβάθμισης κατοικίας με ευνοϊκούς όρους χωρίς εισοδηματικούς ή ηλικιακούς περιορισμούς Εκδήλωση Ενδιαφέροντος Αναβάθμισε ενεργειακά το σπίτι σου χώρις τόκους και με μηδενικά έξοδα.",
+    "programme_objective": "Πρόγραμμα “Αναβαθμίζω το σπίτι μου” - CrediaBank Πρόγραμμα “Αναβαθμίζω το σπίτι μου” Ευέλικτες λύσεις ενεργειακής αναβάθμισης κατοικίας με ευνοϊκούς όρους χωρίς εισοδηματικούς ή ηλικιακούς περιορισμούς Εκδήλωση Ενδιαφέροντος Αναβάθμισε ενεργειακά το σπίτι σου χώρις τόκους και με μηδενικά έξοδα.",
+    "eligible_parties": [
+      "Ιδιοκτήτες κύριων ή μη εκμισθωμένων δευτερευουσών κατοικιών"
+    ],
+    "eligibility_criteria": [],
+    "property_requirements": [
+      "Θερμομόνωση τοίχων, δαπέδων και οροφής",
+      "Αντικατάσταση κουφωμάτων με ενεργειακά αποδοτικά",
+      "Εγκατάσταση ηλιακών θερμοσίφωνων",
+      "Συστήματα θέρμανσης και ψύξης νέας γενιάς"
+    ],
+    "minimum_funding_amount": "5.000€",
+    "maximum_funding_amount": "€25.000",
+    "funding_type": "",
+    "interest_rate": "",
+    "funding_coverage": "75%",
+    "total_budget": "",
+    "funding_sources": [],
+    "duration": "",
+    "loan_duration": "3-7 χρόνια",
+    "completion_deadline": "",
+    "application_start_date": "",
+    "application_end_date": "",
+    "energy_performance_targets": "",
+    "eligible_interventions": [
+      "Θερμομόνωση τοίχων, δαπέδων και οροφής",
+      "Αντικατάσταση κουφωμάτων με ενεργειακά αποδοτικά",
+      "Εγκατάσταση ηλιακών θερμοσίφωνων",
+      "Συστήματα θέρμανσης και ψύξης νέας γενιάς"
+    ],
+    "application_process": "",
+    "managing_body": "",
+    "announcement_date": "31.05.2026",
+    "contact_info": [],
+    "additional_details": "",
+    "source_url": "https://www.crediabank.com/idiotes/daneia/stegastika/programma-anavathmizo-to-spiti-mou/",
+    "source_urls": [
+      "https://www.crediabank.com/idiotes/daneia/stegastika/programma-anavathmizo-to-spiti-mou/"
+    ],
+    "id": "program-29ff10236c"
+  }
+}

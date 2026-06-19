@@ -1,0 +1,67 @@
+{
+  "timestamp": "20260617T024810Z",
+  "url": "https://greece20.gov.gr/home-loans",
+  "classification": {
+    "is_relevant": true,
+    "primary_category": "green_housing_loan",
+    "secondary_categories": [
+      "home_renewables",
+      "energy_upgrade"
+    ],
+    "confidence": 0.92,
+    "reasoning": "Deterministic scope pass: home energy finance signals found",
+    "key_features": [
+      "deterministic_home_green_finance_scope"
+    ]
+  },
+  "extracted_data": {
+    "programme_name": "Αναβαθμίζω το σπίτι μου",
+    "description": "Αναβαθμίζω το σπίτι μου συγχρηματοδοτούνται με δανειακούς πόρους του Ταμείου Ανάκαμψης και Ανθεκτικότητας και απευθύνονται σε φυσικά πρόσωπα, υποστηρίζοντας την απόκτηση πρώτης κατοικίας και την ενεργειακή βελτίωση υφιστάμενων κατοικιών, αντίστοιχα.",
+    "programme_objective": "Αναβαθμίζω το σπίτι μου συγχρηματοδοτούνται με δανειακούς πόρους του Ταμείου Ανάκαμψης και Ανθεκτικότητας και απευθύνονται σε φυσικά πρόσωπα, υποστηρίζοντας την απόκτηση πρώτης κατοικίας και την ενεργειακή βελτίωση υφιστάμενων κατοικιών, αντίστοιχα.",
+    "eligible_parties": [
+      "φυσικά πρόσωπα"
+    ],
+    "eligibility_criteria": "",
+    "property_requirements": [
+      "δωρεά δανείων ύψους 5.000 έως 25.000 €",
+      "πλήρη επιδότηση επιτοκίου για την ενεργειακή βελτίωση υφιστάμενων κατοικιών"
+    ],
+    "minimum_funding_amount": "5.000€",
+    "maximum_funding_amount": "25.000€",
+    "funding_type": "Δάνειο",
+    "interest_rate": "0%",
+    "funding_coverage": "50% από το δανειακό σκέλος του Ταμείου Ανάκαμψης και 25% από ίδιους πόρους των συνεργαζόμενων πιστωτικών ιδρυμάτων",
+    "total_budget": "2 δισ. ευρώ",
+    "funding_sources": [
+      "Ταμείο Ανάκαμψης"
+    ],
+    "duration": "",
+    "loan_duration": "3 έως 30 έτη",
+    "completion_deadline": "31η Αυγούστου 2026",
+    "application_start_date": "15 Ιανουαρίου 2025",
+    "application_end_date": "31 Αυγούστου 2026",
+    "energy_performance_targets": "",
+    "eligible_interventions": [
+      "Θερμομόνωση (εσωτερική/εξωτερική)",
+      "Κατασκευή πράσινης στέγης",
+      "Τοποθέτηση ενεργειακών κουφωμάτων/υαλοπινάκων",
+      "Τοποθέτηση ηλιακού θερμοσίφωνα",
+      "Εγκατάσταση συστημάτων εξωτερικής μόνιμης σκίασης (όχι τέντες)",
+      "Τοποθέτηση συστημάτων θέρμανσης/ψύξης με αξιοποίηση ανανεώσιμων πηγών ενέργειας ή με σύστημα συμπαραγωγής ηλεκτρισμού και θερμότητας υψηλής απόδοσης",
+      "Εγκατάσταση συστημάτων θερμοστατικής ρύθμισης",
+      "Εγκατάσταση συστημάτων αποθήκευσης ενέργειας (συσωρευτές) από ανανεώσιμες πηγές ενέργειας",
+      "Εγκατάσταση φωτοβολταϊκών σταθμών – μικρών ανεμογεννητριών και άλλων ΑΠΕ"
+    ],
+    "application_process": "",
+    "managing_body": "Ελληνική Αναπτυξιακή Τράπεζα (ΕΑΤ)",
+    "announcement_date": "",
+    "contact_info": "",
+    "additional_details": "",
+    "completion_delay_consequences": "",
+    "post_completion_obligations": ""
+  },
+  "repair_metadata": {
+    "source_scraped_file": "C:\\Users\\stavr\\Desktop\\HMMY\\Thesis\\llm-axe\\output\\va3_scraper_to_template\\20260617T024146Z_greece20.gov.gr_home-loans_65e74a76_scraped.txt",
+    "repair": "source_backed_core_field_repair"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "experiment_id": "exp_20260618_044911_eafe1d25",
+  "timestamp": "2026-06-18T04:49:11.101593+00:00",
+  "model": "llama3.2:latest",
+  "temperature": 0.0,
+  "hyperparameters": {
+    "filter": "keyword_prescreen"
+  },
+  "prompt": "[Keyword Pre-screen]",
+  "sources": [
+    "https://www.alpha.gr/el/idiotes/daneia/katanalotika-daneia/alpha-prasines-luseis-daneio-ilektriko-autokinito"
+  ],
+  "terminal_output": "REJECTED at keyword pre-screen (before extraction)",
+  "template_output_file": null
+}

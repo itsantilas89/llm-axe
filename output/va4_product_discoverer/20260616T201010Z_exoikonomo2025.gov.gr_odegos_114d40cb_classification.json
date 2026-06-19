@@ -1,0 +1,21 @@
+{
+  "timestamp": "20260616T201010Z",
+  "url": "https://exoikonomo2025.gov.gr/odegos",
+  "classification": {
+    "is_relevant": false,
+    "primary_category": "other",
+    "secondary_categories": [],
+    "confidence": 0.96,
+    "reasoning": "No extracted JSON was produced in the latest batch; scoped source check: missing financing signal",
+    "key_features": [
+      "prefilter_reject"
+    ]
+  },
+  "extracted_data": {
+    "source_url": "https://exoikonomo2025.gov.gr/odegos",
+    "source_urls": [
+      "https://exoikonomo2025.gov.gr/odegos"
+    ],
+    "id": "program-114d40cbbf"
+  }
+}

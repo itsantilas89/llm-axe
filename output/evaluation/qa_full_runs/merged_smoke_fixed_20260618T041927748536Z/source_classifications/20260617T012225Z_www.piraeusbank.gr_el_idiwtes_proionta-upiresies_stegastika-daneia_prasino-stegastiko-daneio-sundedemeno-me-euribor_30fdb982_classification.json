@@ -1,0 +1,46 @@
+{
+  "timestamp": "20260617T012225Z",
+  "url": "https://www.piraeusbank.gr/el/idiwtes/proionta-upiresies/stegastika-daneia/prasino-stegastiko-daneio-sundedemeno-me-euribor",
+  "classification": {
+    "is_relevant": true,
+    "primary_category": "green_housing_loan",
+    "secondary_categories": [
+      "home_renewables",
+      "energy_upgrade"
+    ],
+    "confidence": 0.92,
+    "reasoning": "Deterministic scope pass: home energy finance signals found",
+    "key_features": [
+      "deterministic_home_green_finance_scope"
+    ]
+  },
+  "extracted_data": {
+    "programme_name": "Πράσινο Στεγαστικό Δάνειο Συνδεδεμένο με Euribor",
+    "description": "Πράσινο Στεγαστικό Δάνειο Συνδεδεμένο με Euribor | Τράπεζα Πειραιώς Εξοικονόμηση ενέργειας Μία βιώσιμη επιλογή Επιλέξτε την προβολή χαμηλής ενέργειας και μειώστε την κατανάλωση της επίσκεψής σας. Eπιλέξτε το energy mode, μία μορφή του site χωρίς εικόνες και βίντεο που μειώνει την κατανάλωση ενέργειας. Διαβάστε περισσότερα σχετικά με τις δράσεις μας για τη μείωση του διοξειδίου του άνθρακα. ΕSG Ερωτήσεις & απαντήσεις Πώς μπορώ να εγκαταστήσω το Piraeus app; Κατεβάστε το Piraeus app από τo App Store (iOS) ή Google Play Store (Android) ή App Gallery (Huawei) πληκτρολογώντας Piraeus app και πατήστε Απόκτηση (iOS) ή Εγκατάσταση (Android) ή Εγκατάσταση (Huawei).",
+    "programme_objective": "Πράσινο Στεγαστικό Δάνειο Συνδεδεμένο με Euribor | Τράπεζα Πειραιώς Εξοικονόμηση ενέργειας Μία βιώσιμη επιλογή Επιλέξτε την προβολή χαμηλής ενέργειας και μειώστε την κατανάλωση της επίσκεψής σας. Eπιλέξτε το energy mode, μία μορφή του site χωρίς εικόνες και βίντεο που μειώνει την κατανάλωση ενέργειας. Διαβάστε περισσότερα σχετικά με τις δράσεις μας για τη μείωση του διοξειδίου του άνθρακα. ΕSG Ερωτήσεις & απαντήσεις Πώς μπορώ να εγκαταστήσω το Piraeus app; Κατεβάστε το Piraeus app από τo App Store (iOS) ή Google Play Store (Android) ή App Gallery (Huawei) πληκτρολογώντας Piraeus app και πατήστε Απόκτηση (iOS) ή Εγκατάσταση (Android) ή Εγκατάσταση (Huawei).",
+    "eligible_parties": "",
+    "eligibility_criteria": "",
+    "property_requirements": "",
+    "minimum_funding_amount": "20.000€",
+    "maximum_funding_amount": "",
+    "funding_type": "Δάνειο",
+    "interest_rate": "Euribor μηνός & περιθώριο από 1,25%",
+    "energy_performance_targets": "",
+    "loan_duration": "3 - 35 έτη",
+    "completion_deadline": "",
+    "application_start_date": "",
+    "application_end_date": "",
+    "eligible_interventions": [
+      "Αγορά, κατασκευή ή ανακαίνιση κατοικίας υψηλής ενεργειακής κατηγορίας (Α+, Α, Β+)"
+    ],
+    "additional_details": "",
+    "total_budget": "",
+    "funding_coverage": "ποσοστό χρηματοδότησης διαμορφώνεται ανάλογα με τον σκοπό του δανείου και μπορεί να φτάσει έως το 90% εφόσον: α) η ηλικία σας δεν ξεπερνά τα 50 έτη β) κανένας εκ των οφειλετών/συνοφειλετών δεν τηρεί δάνειο που αφορά σε οικιστικό ακίνητο κατά τη στιγμή της έγκρισης γ) το ποσό του δανείου δεν ξεπερνά τα 500.000€",
+    "completion_delay_consequences": "Εφόσον το δάνειο έχει χορηγηθεί με σκοπό ανέγερση/επισκευή και σύμφωνα με την πιστοποίηση του μηχανικού της τράπεζας μετά την ολοκλήρωση των εργασιών η κατοικία ανήκει σε άλλη κατηγορία ενεργειακής απόδοσης πλην των Α+, Α, Β+, καταργείται εφεξής η έκπτωση και το περιθώριο του δανείου επιβαρύνεται με 0,15%.",
+    "post_completion_obligations": ""
+  },
+  "repair_metadata": {
+    "source_scraped_file": "C:\\Users\\stavr\\Desktop\\HMMY\\Thesis\\llm-axe\\output\\va3_scraper_to_template\\20260617T011350Z_www.piraeusbank.gr_el_idiwtes_proionta-upiresies_stegastika-daneia_prasino-stegastiko-daneio-sundedemeno-me-euribor_30fdb982_scraped.txt",
+    "repair": "source_backed_core_field_repair"
+  }
+}

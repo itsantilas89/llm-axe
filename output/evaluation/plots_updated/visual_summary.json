@@ -1,0 +1,30 @@
+{
+  "flow": "F_visual_analytics",
+  "inputs": {
+    "qa_consistency_report": "output\\evaluation\\qa_consistency_report_live.json",
+    "qa_semantic_report": "output\\evaluation\\qa_semantic_report_live.json",
+    "qa_repeatability_report": "output\\evaluation\\qa_repeatability_report.json",
+    "html_report": "output\\evaluation\\html_json_report_live_relaxed_relevant_v5.json"
+  },
+  "kpis": {
+    "qa_answer_data_consistency": 0.48174603174603176,
+    "qa_validated_programs": 6,
+    "qa_skipped_programs": 3,
+    "qa_repeatability_available": true,
+    "qa_repeatability_groups_compared": 55,
+    "qa_repeatability_avg_token_f1": 0.7780991188379971,
+    "qa_repeatability_avg_jaccard": 0.7206795376039251,
+    "html_evidence_found_rate": 0.7297297297297297,
+    "semantic_items_scored": 30,
+    "semantic_available": true
+  },
+  "charts": [
+    "overall_quality_scores.png",
+    "program_answer_data_consistency.png",
+    "answer_source_counts.png",
+    "semantic_similarity_overall.png",
+    "semantic_similarity_by_question.png",
+    "same_question_repeatability.png",
+    "html_evidence_found_missing.png"
+  ]
+}

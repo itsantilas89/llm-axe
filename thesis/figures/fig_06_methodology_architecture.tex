@@ -1,0 +1,42 @@
+\begin{tikzpicture}[
+    main/.style={
+        rectangle,
+        rounded corners=3pt,
+        draw=blue!55,
+        fill=blue!6,
+        align=left,
+        text width=9.15cm,
+        minimum height=0.72cm,
+        inner xsep=7pt,
+        font=\sffamily\small
+    },
+    check/.style={
+        rectangle,
+        rounded corners=3pt,
+        draw=blue!55,
+        fill=blue!6,
+        align=left,
+        text width=9.15cm,
+        minimum height=0.72cm,
+        inner xsep=7pt,
+        font=\sffamily\small
+    },
+    arrow/.style={-{Latex[length=2mm]}, thick, draw=gray!65}
+]
+\node[main] (sources) {1. Επιλογή επίσημων και τραπεζικών πηγών};
+\node[main, below=0.28cm of sources] (snapshot) {2. Συλλογή, καθαρισμός και αποθήκευση στιγμιότυπου περιεχομένου};
+\node[main, below=0.28cm of snapshot] (relevance) {3. Έλεγχος συνάφειας με LLM και απόρριψη μη σχετικών πηγών};
+\node[main, below=0.28cm of relevance] (extract) {4. Εξαγωγή πεδίων σε κοινό JSON σχήμα};
+\node[check, below=0.28cm of extract] (quality) {5. Δομικός και σημασιολογικός έλεγχος με URL, χρόνο και αρχικό κείμενο};
+\node[check, below=0.28cm of quality] (admin) {6. Ανθρώπινη εποπτεία, διόρθωση, έγκριση και ανάδραση στη ροή};
+\node[main, below=0.28cm of admin] (store) {7. Αποθήκευση εγκεκριμένης εγγραφής σε δομημένο JSON};
+\node[main, below=0.28cm of store] (app) {8. Αξιοποίηση από διαδικτυακή εφαρμογή και μετρικές αξιολόγησης};
+
+\draw[arrow] (sources) -- (snapshot);
+\draw[arrow] (snapshot) -- (relevance);
+\draw[arrow] (relevance) -- (extract);
+\draw[arrow] (extract) -- (quality);
+\draw[arrow] (quality) -- (admin);
+\draw[arrow] (admin) -- (store);
+\draw[arrow] (store) -- (app);
+\end{tikzpicture}

@@ -1,0 +1,15 @@
+{
+  "experiment_id": "exp_20260616_173430_a3d93af7",
+  "timestamp": "2026-06-16T17:34:30.697778+00:00",
+  "model": "llama3.2:latest",
+  "temperature": 0.0,
+  "hyperparameters": {
+    "filter": "keyword_prescreen"
+  },
+  "prompt": "[Keyword Pre-screen]",
+  "sources": [
+    "https://stegasi.gov.gr/programs/exoikonomo-2025/"
+  ],
+  "terminal_output": "REJECTED at keyword pre-screen (before extraction)",
+  "template_output_file": null
+}

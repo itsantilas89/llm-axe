@@ -1,5 +1,6 @@
 [
   {
+    "id": "2025-9a0afe12f0",
     "programme_name": "Εξοικονομώ 2025",
     "description": "",
     "programme_objective": "Αναβάθμιση ενεργειακής απόδοσης σπιτιών",
@@ -38,6 +39,14 @@
       "(210) 955-50-00",
       "info@demoenergia.gr"
     ],
-    "additional_details": ""
+    "additional_details": "",
+    "source_url": "https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/eksoikonomo-2025",
+    "source_urls": [
+      "https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/eksoikonomo-2025"
+    ],
+    "review_status": "approved",
+    "admin_notes": "",
+    "scraped_at": "2026-04-08T18:13:01+00:00",
+    "updated_at": "2026-06-04T12:09:15+00:00"
   }
 ]

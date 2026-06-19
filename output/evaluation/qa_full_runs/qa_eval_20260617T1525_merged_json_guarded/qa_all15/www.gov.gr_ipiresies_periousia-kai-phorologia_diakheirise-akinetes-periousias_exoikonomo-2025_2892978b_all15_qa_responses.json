@@ -1,0 +1,162 @@
+{
+  "timestamp": "20260617T132354Z",
+  "url": "https://www.gov.gr/ipiresies/periousia-kai-phorologia/diakheirise-akinetes-periousias/exoikonomo-2025",
+  "programme_name": "Εξοικονομώ 2025",
+  "classification_file": "006_www.gov.gr_ipiresies_periousia-kai-phorologia_diakheirise-akinetes-periousias_exoikonomo-2025_2892978b_classification.json",
+  "qa_count": 15,
+  "source": "qa_evaluation_suite",
+  "mode": "all15",
+  "responses": [
+    {
+      "question_id": "q12",
+      "question": "12) Ποια είναι η πρωτεύουσα της Ελλάδας ;",
+      "answer": "Δεν υπάρχει πληροφορία",
+      "repeat_index": 1,
+      "repeat_count": 1,
+      "timestamp": "2026-06-17T13:23:54.441911+00:00",
+      "source": "qa_evaluation_suite",
+      "answer_mode": "deterministic_out_of_scope_guard"
+    },
+    {
+      "question_id": "q13",
+      "question": "13) Ποια είναι η πρωτεύουσα της Γαλλίας ;",
+      "answer": "Δεν υπάρχει πληροφορία",
+      "repeat_index": 1,
+      "repeat_count": 1,
+      "timestamp": "2026-06-17T13:23:54.443647+00:00",
+      "source": "qa_evaluation_suite",
+      "answer_mode": "deterministic_out_of_scope_guard"
+    },
+    {
+      "question_id": "q14",
+      "question": "14) What's the capital of Greece ?",
+      "answer": "Δεν υπάρχει πληροφορία",
+      "repeat_index": 1,
+      "repeat_count": 1,
+      "timestamp": "2026-06-17T13:23:54.445747+00:00",
+      "source": "qa_evaluation_suite",
+      "answer_mode": "deterministic_out_of_scope_guard"
+    },
+    {
+      "question_id": "q15",
+      "question": "15) What's the capital of France ?",
+      "answer": "Δεν υπάρχει πληροφορία",
+      "repeat_index": 1,
+      "repeat_count": 1,
+      "timestamp": "2026-06-17T13:23:54.447030+00:00",
+      "source": "qa_evaluation_suite",
+      "answer_mode": "deterministic_out_of_scope_guard"
+    },
+    {
+      "question_id": "q1",
+      "question": "1) Περίγραψε το πρόγραμμα, στόχος, δικαιούχοι, βασικά οφέλη.",
+      "answer": "Το πρόγραμμα \"Εξοικονομώ 2025\" έχει στόχο την εξοικονόμηση ενέργειας, μέσω βελτίωσης της ενεργειακής κλάσης των νοικοκυριών. Οι δικαιούχοι είναι οικογένειες με μέλος/μέλη ΑμεΑ, οικογένειες με τρία εξαρτώμενα τέκνα, πληγέντες σεισμόπληκτους, ευάλωτα νοικοκυριά και ωφελούμενοι της εισοδηματικής κατηγορίας 1. Τα βασικά οφέλη είναι η βελτίωση της ενεργειακής κλάσης των νοικοκυριών και η εξοικονόμηση πρωτογενούς ενέργειας πάνω από 30% για κάθε κατοικία.",
+      "repeat_index": 1,
+      "repeat_count": 1,
+      "timestamp": "2026-06-17T13:36:04.731806+00:00",
+      "source": "qa_evaluation_suite",
+      "answer_mode": "llm"
+    },
+    {
+      "question_id": "q2",
+      "question": "2) Εξήγησε τη διαφορά μεταξύ “επιχορήγησης” και “δανείου” στο πλαίσιο ενεργειακής αναβάθμισης, με ένα παράδειγμα για το καθένα.",
+      "answer": "Δεν υπάρχει πληροφορία",
+      "repeat_index": 1,
+      "repeat_count": 1,
+      "timestamp": "2026-06-17T13:36:04.735792+00:00",
+      "source": "qa_evaluation_suite",
+      "answer_mode": "llm"
+    },
+    {
+      "question_id": "q3",
+      "question": "3) Δώσε 5 λέξεις-κλειδιά για αναζήτηση σχετικών προγραμμάτων και εξήγησε σε 1 πρόταση γιατί είναι χρήσιμη η καθεμία.",
+      "answer": "[{'keyword': 'Εξοικονομώ', 'description': 'Το πρόγραμμα \"Εξοικονομώ 2025\"'}, {'keyword': 'Δάνειο', 'description': 'Τρόπος χρηματοδότησης του προγράμματος'}, {'keyword': 'Πράσινα Δάνεια', 'description': 'Τρόπος χρηματοδότησης που περιλαμβάνει την εξοικονόμηση ενέργειας'}, {'keyword': 'Ενεργειακή Αναβάθμιση', 'description': 'Βασικός στόχος του προγράμματος'}, {'keyword': 'Κατοικία', 'description': 'Οικιακά κτίρια που επηρεάζονται από το πρόγραμμα'}]",
+      "repeat_index": 1,
+      "repeat_count": 1,
+      "timestamp": "2026-06-17T13:36:04.738968+00:00",
+      "source": "qa_evaluation_suite",
+      "answer_mode": "llm"
+    },
+    {
+      "question_id": "q4",
+      "question": "4) Εντόπισε όλες τις προθεσμίες που αναφέρονται και γράψε τες σε μορφή ΗΗ/ΜΜ/ΕΕΕΕ.",
+      "answer": "08/01/2025, 20/03/2025, 30 Ιουνίου 2026",
+      "repeat_index": 1,
+      "repeat_count": 1,
+      "timestamp": "2026-06-17T13:38:26.930125+00:00",
+      "source": "qa_evaluation_suite",
+      "answer_mode": "llm"
+    },
+    {
+      "question_id": "q5",
+      "question": "5) Βρες αν υπάρχει ανώτατο ή κατώτατο όριο χρηματοδότησης και δώσε το ακριβές ποσό/ποσοστό.",
+      "answer": "300€, 17.500€",
+      "repeat_index": 1,
+      "repeat_count": 1,
+      "timestamp": "2026-06-17T13:38:26.932286+00:00",
+      "source": "qa_evaluation_suite",
+      "answer_mode": "llm"
+    },
+    {
+      "question_id": "q6",
+      "question": "6) Ποιες παρεμβάσεις ενεργειακής αναβάθμισης χρηματοδοτούνται;",
+      "answer": "Ενεργειακή αναβάθμιση κατοικίας, Φωτισμός - έξυπνες πρίζες, φωτισμός LED, Απομακρυσμένος έλεγχος - π.χ. αισθητήρες WiFi, Εγκατάσταση φωτοβολταϊκών ή άλλων ΑΠΕ",
+      "repeat_index": 1,
+      "repeat_count": 1,
+      "timestamp": "2026-06-17T13:38:26.935079+00:00",
+      "source": "qa_evaluation_suite",
+      "answer_mode": "llm"
+    },
+    {
+      "question_id": "q7",
+      "question": "7) Ποια είναι τα σημαντικότερα σημεία που πρέπει να προσέξει ένας ενδιαφερόμενος πριν υποβάλει αίτηση;",
+      "answer": "Δεν υπάρχει πληροφορία",
+      "repeat_index": 1,
+      "repeat_count": 1,
+      "timestamp": "2026-06-17T13:39:48.528042+00:00",
+      "source": "qa_evaluation_suite",
+      "answer_mode": "llm"
+    },
+    {
+      "question_id": "q8",
+      "question": "8) Τι γίνεται αν δεν ολοκληρωθούν οι εργασίες μέσα στην προβλεπόμενη προθεσμία;",
+      "answer": "Δεν υπάρχει πληροφορία",
+      "repeat_index": 1,
+      "repeat_count": 1,
+      "timestamp": "2026-06-17T13:39:48.531069+00:00",
+      "source": "qa_evaluation_suite",
+      "answer_mode": "llm"
+    },
+    {
+      "question_id": "q9",
+      "question": "9) Υπάρχουν υποχρεώσεις του δικαιούχου μετά την ολοκλήρωση του έργου;",
+      "answer": "Δεν υπάρχει πληροφορία",
+      "repeat_index": 1,
+      "repeat_count": 1,
+      "timestamp": "2026-06-17T13:39:48.535024+00:00",
+      "source": "qa_evaluation_suite",
+      "answer_mode": "llm"
+    },
+    {
+      "question_id": "q10",
+      "question": "10) Describe the program in 90-120 words.",
+      "answer": "Το πρόγραμμα \"Εξοικονομώ 2025\" έχει ως στόχο την εξοικονόμηση ενέργειας, μέσω βελτίωσης της ενεργειακής κλάσης των νοικοκυριών. Οι οικογένειες με μέλος/μέλη ΑμεΑ, οικογένειες με τρία εξαρτώμενα τέκνα, πληγέντες φυσικών καταστροφών και ευάλωτα νοικοκυριά είναι οι επιλέξιμες πλευρές. Το πρόγραμμα προσφέρει χρηματοδότηση μέχρι 100% του προϋπολογισμού των εργασιών για την ενεργειακή αναβάθμιση κατοικίας.",
+      "repeat_index": 1,
+      "repeat_count": 1,
+      "timestamp": "2026-06-17T13:45:08.015192+00:00",
+      "source": "qa_evaluation_suite",
+      "answer_mode": "llm"
+    },
+    {
+      "question_id": "q11",
+      "question": "11) Explain the difference between a 'grant' and a 'loan' in the context of energy upgrades, with one example for each.",
+      "answer": "Μια δόση \"πράσινου δανείου\" είναι μια μορφή χρηματοδότησης που δεν χρειάζεται να αποδοθεί, όπως ένα δάνειο. Για παράδειγμα, αν το πρόγραμμα \"Εξοικονομώ 2025\" προσφέρει χρηματοδότηση μέχρι 100% του προϋπολογισμού των εργασιών για την ενεργειακή αναβάθμιση κατοικίας, τότε αυτό είναι μια μορφή δόσης \"πράσινου δανείου\". Μια δόση \"δανείου\" είναι μια μορφή χρηματοδότησης που πρέπει να αποδοθεί, όπως ένα συμβόλαιο δανεισμού. Για παράδειγμα, αν το πρόγραμμα \"Εξοικονομώ 2025\" προσφέρει χρηματοδότηση μέχρι 100% του προϋπολογισμού των εργασιών για την ενεργειακή αναβάθμιση κατοικίας με δανεισμό με επιτόκιο 7,50%, τότε αυτό είναι μια μορφή δόσης \"δανείου\".",
+      "repeat_index": 1,
+      "repeat_count": 1,
+      "timestamp": "2026-06-17T13:45:08.018786+00:00",
+      "source": "qa_evaluation_suite",
+      "answer_mode": "llm"
+    }
+  ],
+  "updated_at": "2026-06-17T13:45:08.019297+00:00"
+}

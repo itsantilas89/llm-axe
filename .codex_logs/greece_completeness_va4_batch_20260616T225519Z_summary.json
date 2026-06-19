@@ -1,0 +1,149 @@
+{
+  "started": "20260616T225519Z",
+  "results": [
+    {
+      "url": "https://hdb.gr/anavathmizo-to-spiti-mou/",
+      "status": "ok",
+      "returncode": 0,
+      "seconds": 812.54463
+    },
+    {
+      "url": "https://greece20.gov.gr/?calls=programma-sygchrimatodotoymenon-stegastikon-daneion-anavathmizo-to-spiti-moy",
+      "status": "ok",
+      "returncode": 0,
+      "seconds": 716.614519
+    },
+    {
+      "url": "https://greece20.gov.gr/anavathmizo-to-spiti-moy/",
+      "status": "ok",
+      "returncode": 0,
+      "seconds": 496.335101
+    },
+    {
+      "url": "https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/programma-anabathmizo-to-spiti-mou",
+      "status": "ok",
+      "returncode": 0,
+      "seconds": 701.301439
+    },
+    {
+      "url": "https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/eksoikonomo-anakainizo-gia-neous",
+      "status": "ok",
+      "returncode": 0,
+      "seconds": 659.261138
+    },
+    {
+      "url": "https://www.nbg.gr/el/idiwtes/daneia/stegastika-daneia/episkeuastika-daneia/anavathmizw-to-spiti-mou",
+      "status": "ok",
+      "returncode": 0,
+      "seconds": 519.794648
+    },
+    {
+      "url": "https://www.nbg.gr/el/idiwtes/daneia/daneia-exoikonomisis-energeias/exoikonomo-2025",
+      "status": "ok",
+      "returncode": 0,
+      "seconds": 542.273455
+    },
+    {
+      "url": "https://www.nbg.gr/el/idiwtes/daneia/daneia-exoikonomisis-energeias/eksoikonomw-anakoinizw-daneio-gia-neous",
+      "status": "ok",
+      "returncode": 0,
+      "seconds": 587.010712
+    },
+    {
+      "url": "https://www.alpha.gr/el/idiotes/daneia/episkevastika-daneia-gia-anakainisi/alpha-prasines-luseis-katanalotiko-daneio-gia-to-spiti",
+      "status": "ok",
+      "returncode": 0,
+      "seconds": 531.988476
+    },
+    {
+      "url": "https://www.alpha.gr/el/idiotes/daneia/episkevastika-daneia-gia-anakainisi/programma-anavathmizo-to-spiti-mou",
+      "status": "ok",
+      "returncode": 0,
+      "seconds": 448.132963
+    },
+    {
+      "url": "https://www.piraeusbank.gr/el/idiwtes/proionta-upiresies/stegastika-daneia/daneio-eksoikonomw",
+      "status": "ok",
+      "returncode": 0,
+      "seconds": 545.814519
+    },
+    {
+      "url": "https://www.piraeusbank.gr/el/idiwtes/proionta-upiresies/stegastika-daneia/prasino-episkeuastiko-daneio-me-eksasfalisi",
+      "status": "ok",
+      "returncode": 0,
+      "seconds": 1020.734103
+    },
+    {
+      "url": "https://www.piraeusbank.gr/el/idiwtes/proionta-upiresies/stegastika-daneia/prasino-stegastiko-daneio-me-stathero-epitokio",
+      "status": "ok",
+      "returncode": 0,
+      "seconds": 717.491594
+    },
+    {
+      "url": "https://www.piraeusbank.gr/el/idiwtes/proionta-upiresies/stegastika-daneia/prasino-stegastiko-daneio-sundedemeno-me-euribor",
+      "status": "ok",
+      "returncode": 0,
+      "seconds": 528.008744
+    },
+    {
+      "url": "https://www.crediabank.com/idiotes/daneia/hrimatodotika-programmata/exoikonomo-2025/",
+      "status": "ok",
+      "returncode": 0,
+      "seconds": 605.192295
+    },
+    {
+      "url": "https://www.crediabank.com/idiotes/daneia/eco-katanalotika/eco-lyseis-net-metering-egkatastasi-oikiakon-fv-sustimaton/",
+      "status": "ok",
+      "returncode": 0,
+      "seconds": 208.682681
+    },
+    {
+      "url": "https://www.crediabank.com/programma-exoikonomo-anakainizo-gia-neous/",
+      "status": "ok",
+      "returncode": 0,
+      "seconds": 670.039012
+    },
+    {
+      "url": "https://www.chaniabank.gr/idiotes/dania/anavathmizo-to-spiti-moy/",
+      "status": "ok",
+      "returncode": 0,
+      "seconds": 578.867914
+    },
+    {
+      "url": "https://www.bankofkarditsa.com.gr/el/idiotes/daneia/anavathmizo-to-spiti-mou",
+      "status": "ok",
+      "returncode": 0,
+      "seconds": 372.40376
+    },
+    {
+      "url": "https://www.bankofthessaly.gr/idiotes/prasina-daneia/",
+      "status": "ok",
+      "returncode": 0,
+      "seconds": 60.541544
+    },
+    {
+      "url": "https://www.bankofthessaly.gr/idiotes/prasina-daneia/exoikonomo-2025/",
+      "status": "ok",
+      "returncode": 0,
+      "seconds": 66.419978
+    },
+    {
+      "url": "https://www.bankofthessaly.gr/idiotes/prasina-daneia/anavathmizo-to-spiti-mou/",
+      "status": "ok",
+      "returncode": 0,
+      "seconds": 182.806064
+    },
+    {
+      "url": "https://www.bankofthessaly.gr/idiotes/prasina-daneia/exoikonomo-anakainizo-gia-neous/",
+      "status": "ok",
+      "returncode": 0,
+      "seconds": 122.114528
+    },
+    {
+      "url": "https://www.epirusbank.com/citizens/anavathmizo-to-spiti-mou",
+      "status": "ok",
+      "returncode": 0,
+      "seconds": 556.345391
+    }
+  ]
+}

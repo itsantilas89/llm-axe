@@ -1,0 +1,9 @@
+13:46:09 Targets selected: 25
+13:46:10 [all15] Program 1/25: Credia Eco ?????? | https://www.crediabank.com/idiotes/daneia/eco-katanalotika/eco-lyseis-energeiaki-anavathmisi-katoikias/
+13:47:28 [all15] Answer 1/375 (Credia Eco ??????, q1) ETA 485.9m
+13:47:47 [all15] Answer 2/375 (Credia Eco ??????, q2) ETA 301.9m
+13:49:35 [all15] Answer 3/375 (Credia Eco ??????, q3) ETA 424.8m
+13:49:57 [all15] Answer 4/375 (Credia Eco ??????, q4) ETA 350.8m
+13:50:26 [all15] Answer 5/375 (Credia Eco ??????, q5) ETA 316.3m
+13:51:09 [all15] Answer 6/375 (Credia Eco ??????, q6) ETA 306.7m
+13:51:19 [all15] Answer 7/375 (Credia Eco ??????, q7) ETA 271.5m

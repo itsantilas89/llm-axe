@@ -1,0 +1,319 @@
+{
+  "timestamp": "2026-06-19T16:56:00.819119",
+  "validation_type": "qa_repeatability_similarity",
+  "input_dir": "output\\evaluation\\qa_full_runs\\full_eval_20260618\\qa_repeat_q1_11_x5",
+  "summary": {
+    "qa_files_scanned": 22,
+    "qa_file_errors": 0,
+    "answers_scanned": 1210,
+    "groups_compared": 242,
+    "min_repeats": 5,
+    "stable_threshold": 0.8,
+    "avg_token_f1": 0.6992598428622793,
+    "avg_jaccard": 0.6146312938751696,
+    "avg_exact_match_rate": 0.2756198347107438,
+    "stable_groups": 81
+  },
+  "by_program": [
+    {
+      "url": "https://www.crediabank.com/idiotes/daneia/eco-katanalotika/eco-lyseis-net-metering-egkatastasi-oikiakon-fv-sustimaton/",
+      "programme_name": "Eco Λύσεις - Net Metering",
+      "groups_compared": 11,
+      "answers_compared": 55,
+      "avg_token_f1": 0.6258492837680182,
+      "avg_jaccard": 0.5339386361917429,
+      "stable_groups": 1
+    },
+    {
+      "url": "https://www.nbg.gr/el/idiwtes/daneia/daneia-exoikonomisis-energeias/prasino-daneio-spitiou-h-autokinhtou",
+      "programme_name": "Πράσινο Δάνειο Σπιτιού ή Αυτοκινήτου",
+      "groups_compared": 11,
+      "answers_compared": 55,
+      "avg_token_f1": 0.6273568607883883,
+      "avg_jaccard": 0.5240690802343373,
+      "stable_groups": 2
+    },
+    {
+      "url": "https://www.nbg.gr/el/idiwtes/daneia/stegastika-daneia/daneia-akinitwn/estia-prasini",
+      "programme_name": "ΕΣΤΙΑ Πράσινη Στεγαστικό Δάνειο",
+      "groups_compared": 11,
+      "answers_compared": 55,
+      "avg_token_f1": 0.6400471616677714,
+      "avg_jaccard": 0.5451344640689351,
+      "stable_groups": 3
+    },
+    {
+      "url": "https://www.crediabank.com/idiotes/daneia/eco-katanalotika/eco-lyseis-energeiaki-anavathmisi-katoikias/",
+      "programme_name": "Credia Eco Λύσεις",
+      "groups_compared": 11,
+      "answers_compared": 55,
+      "avg_token_f1": 0.649960767766536,
+      "avg_jaccard": 0.5517387028975519,
+      "stable_groups": 1
+    },
+    {
+      "url": "https://www.piraeusbank.gr/el/idiwtes/proionta-upiresies/stegastika-daneia/prasino-stegastiko-daneio-me-stathero-epitokio",
+      "programme_name": "Πράσινο Στεγαστικό Δάνειο με Σταθερό Επιτόκιο",
+      "groups_compared": 11,
+      "answers_compared": 55,
+      "avg_token_f1": 0.6515798641266433,
+      "avg_jaccard": 0.563317104645131,
+      "stable_groups": 4
+    },
+    {
+      "url": "https://www.piraeusbank.gr/el/idiwtes/proionta-upiresies/stegastika-daneia/prasino-stegastiko-daneio-sundedemeno-me-euribor",
+      "programme_name": "Πράσινο Στεγαστικό Δάνειο Συνδεδεμένο με Euribor",
+      "groups_compared": 11,
+      "answers_compared": 55,
+      "avg_token_f1": 0.6518835904592029,
+      "avg_jaccard": 0.5643460580156906,
+      "stable_groups": 3
+    },
+    {
+      "url": "https://www.alpha.gr/el/idiotes/daneia/prasina-daneia",
+      "programme_name": "Πράσινα Δάνεια",
+      "groups_compared": 11,
+      "answers_compared": 55,
+      "avg_token_f1": 0.6643988524676736,
+      "avg_jaccard": 0.5726282279640373,
+      "stable_groups": 3
+    },
+    {
+      "url": "https://www.piraeusbank.gr/el/idiwtes/proionta-upiresies/daneia/proswpika/katanalwtiko-daneio-green-gia-prasines-episkeves",
+      "programme_name": "Καταναλωτικό Δάνειο Green για Πράσινες Επισκευές",
+      "groups_compared": 11,
+      "answers_compared": 55,
+      "avg_token_f1": 0.66465008131741,
+      "avg_jaccard": 0.5715744611377708,
+      "stable_groups": 5
+    },
+    {
+      "url": "https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/prasino-daneio-katoikias-eksoikonomisi-energeias",
+      "programme_name": "Πράσινο Δάνειο Κατοικίας – Εξοικονόμηση Ενέργειας",
+      "groups_compared": 11,
+      "answers_compared": 55,
+      "avg_token_f1": 0.6727552034887024,
+      "avg_jaccard": 0.5755507724511735,
+      "stable_groups": 3
+    },
+    {
+      "url": "https://www.nbg.gr/el/idiwtes/daneia/daneia-exoikonomisis-energeias/prasino-daneio",
+      "programme_name": "Πράσινο Δάνειο",
+      "groups_compared": 11,
+      "answers_compared": 55,
+      "avg_token_f1": 0.6814210388087804,
+      "avg_jaccard": 0.611342104697995,
+      "stable_groups": 4
+    },
+    {
+      "url": "https://www.gov.gr/ipiresies/polites-kai-kathemerinoteta/periballon-kai-poioteta-zoes/photoboltaika-ste-stege",
+      "programme_name": "Φωτοβολταϊκά στη στέγη",
+      "groups_compared": 11,
+      "answers_compared": 55,
+      "avg_token_f1": 0.6931581690056889,
+      "avg_jaccard": 0.6194717076773392,
+      "stable_groups": 3
+    },
+    {
+      "url": "https://www.alpha.gr/el/idiotes/daneia/episkevastika-daneia-gia-anakainisi/alpha-prasines-luseis-katanalotiko-daneio-gia-to-spiti",
+      "programme_name": "Πράσινο Δάνειο για το Σπίτι",
+      "groups_compared": 11,
+      "answers_compared": 55,
+      "avg_token_f1": 0.7047939271351064,
+      "avg_jaccard": 0.618119593273019,
+      "stable_groups": 3
+    },
+    {
+      "url": "https://www.bankofthessaly.gr/idiotes/prasina-daneia/",
+      "programme_name": "Τράπεζα Θεσσαλίας - Πράσινα Δάνεια",
+      "groups_compared": 11,
+      "answers_compared": 55,
+      "avg_token_f1": 0.7080844431613394,
+      "avg_jaccard": 0.6223718529226598,
+      "stable_groups": 3
+    },
+    {
+      "url": "https://www.crediabank.com/idiotes/daneia/stegastika/stegastiko-daneio-eco-home/",
+      "programme_name": "Στεγαστικό Δάνειο Eco Home",
+      "groups_compared": 11,
+      "answers_compared": 55,
+      "avg_token_f1": 0.7157694506213236,
+      "avg_jaccard": 0.6233219257514657,
+      "stable_groups": 4
+    },
+    {
+      "url": "https://www.nbg.gr/el/idiwtes/daneia/daneia-exoikonomisis-energeias",
+      "programme_name": "Εξοικονομώ",
+      "groups_compared": 11,
+      "answers_compared": 55,
+      "avg_token_f1": 0.7182327240431865,
+      "avg_jaccard": 0.6390641178717967,
+      "stable_groups": 4
+    },
+    {
+      "url": "https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/green-fast-loan",
+      "programme_name": "Προσωπικό Δάνειο Green Fast Loan",
+      "groups_compared": 11,
+      "answers_compared": 55,
+      "avg_token_f1": 0.7190100704452891,
+      "avg_jaccard": 0.6264009601476923,
+      "stable_groups": 5
+    },
+    {
+      "url": "https://www.piraeusbank.gr/el/idiwtes/proionta-upiresies/stegastika-daneia/prasino-episkeuastiko-daneio-me-eksasfalisi",
+      "programme_name": "Πράσινο Επισκευαστικό Δάνειο με Εξασφάλιση Πειραιώς",
+      "groups_compared": 11,
+      "answers_compared": 55,
+      "avg_token_f1": 0.726293919202807,
+      "avg_jaccard": 0.6528387028082894,
+      "stable_groups": 5
+    },
+    {
+      "url": "https://www.epirusbank.com/blog/deltia-tupou-1/183-neo-crematodotiko-proion-gia-dikaioucous-tou-programmatos-lpotoboltaika-ste-steger",
+      "programme_name": "Νέο χρηματοδοτικό προϊόν για δικαιούχους του Προγράμματος «Φωτοβολταϊκά στη στέγη»",
+      "groups_compared": 11,
+      "answers_compared": 55,
+      "avg_token_f1": 0.7345156091784252,
+      "avg_jaccard": 0.666061420750474,
+      "stable_groups": 5
+    },
+    {
+      "url": "https://oikogeneia.gov.gr/programs/anavathmizo-to-spiti-mou/",
+      "programme_name": "Αναβαθμίζω το Σπίτι Μου",
+      "groups_compared": 11,
+      "answers_compared": 55,
+      "avg_token_f1": 0.7409619057286212,
+      "avg_jaccard": 0.6490666442076778,
+      "stable_groups": 4
+    },
+    {
+      "url": "https://www.gov.gr/ipiresies/periousia-kai-phorologia/diakheirise-akinetes-periousias/exoikonomo-2025",
+      "programme_name": "Εξοικονομώ 2025",
+      "groups_compared": 11,
+      "answers_compared": 55,
+      "avg_token_f1": 0.7870163609162021,
+      "avg_jaccard": 0.7129202815003899,
+      "stable_groups": 4
+    },
+    {
+      "url": "https://exoikonomoneon.gov.gr/",
+      "programme_name": "Εξοικονομώ – Ανακαινίζω για νέους",
+      "groups_compared": 11,
+      "answers_compared": 55,
+      "avg_token_f1": 0.7952321687972472,
+      "avg_jaccard": 0.7382913465262728,
+      "stable_groups": 6
+    },
+    {
+      "url": "https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/eksoikonomo-2023",
+      "programme_name": "Εξοικονομώ 2023",
+      "groups_compared": 11,
+      "answers_compared": 55,
+      "avg_token_f1": 0.8107450900757806,
+      "avg_jaccard": 0.7403202995122882,
+      "stable_groups": 6
+    }
+  ],
+  "by_question": [
+    {
+      "question_id": "q11",
+      "question": "11) Explain the difference between a 'grant' and a 'loan' in the context of energy upgrades, with one example for each.",
+      "groups_compared": 22,
+      "answers_compared": 110,
+      "avg_token_f1": 0.5151364463862919,
+      "avg_jaccard": 0.38610730309821933,
+      "stable_groups": 0
+    },
+    {
+      "question_id": "q7",
+      "question": "7) Ποια είναι τα σημαντικότερα σημεία που πρέπει να προσέξει ένας ενδιαφερόμενος πριν υποβάλει αίτηση;",
+      "groups_compared": 22,
+      "answers_compared": 110,
+      "avg_token_f1": 0.5234919189718962,
+      "avg_jaccard": 0.41367025920511324,
+      "stable_groups": 2
+    },
+    {
+      "question_id": "q2",
+      "question": "2) Εξήγησε τη διαφορά μεταξύ “επιχορήγησης” και “δανείου” στο πλαίσιο ενεργειακής αναβάθμισης, με ένα παράδειγμα για το καθένα.",
+      "groups_compared": 22,
+      "answers_compared": 110,
+      "avg_token_f1": 0.5380576368140647,
+      "avg_jaccard": 0.36474073914909394,
+      "stable_groups": 0
+    },
+    {
+      "question_id": "q8",
+      "question": "8) Τι γίνεται αν δεν ολοκληρωθούν οι εργασίες μέσα στην προβλεπόμενη προθεσμία;",
+      "groups_compared": 22,
+      "answers_compared": 110,
+      "avg_token_f1": 0.641025160484647,
+      "avg_jaccard": 0.5666439145685578,
+      "stable_groups": 5
+    },
+    {
+      "question_id": "q3",
+      "question": "3) Δώσε 5 λέξεις-κλειδιά για αναζήτηση σχετικών προγραμμάτων και εξήγησε σε 1 πρόταση γιατί είναι χρήσιμη η καθεμία.",
+      "groups_compared": 22,
+      "answers_compared": 110,
+      "avg_token_f1": 0.6868642620582533,
+      "avg_jaccard": 0.5941339443267601,
+      "stable_groups": 7
+    },
+    {
+      "question_id": "q10",
+      "question": "10) Describe the program in 90-120 words.",
+      "groups_compared": 22,
+      "answers_compared": 110,
+      "avg_token_f1": 0.6886799496103223,
+      "avg_jaccard": 0.5754815256927571,
+      "stable_groups": 3
+    },
+    {
+      "question_id": "q1",
+      "question": "1) Περίγραψε το πρόγραμμα, στόχος, δικαιούχοι, βασικά οφέλη.",
+      "groups_compared": 22,
+      "answers_compared": 110,
+      "avg_token_f1": 0.7306476618495246,
+      "avg_jaccard": 0.6385194995971145,
+      "stable_groups": 5
+    },
+    {
+      "question_id": "q4",
+      "question": "4) Εντόπισε όλες τις προθεσμίες που αναφέρονται και γράψε τες σε μορφή ΗΗ/ΜΜ/ΕΕΕΕ.",
+      "groups_compared": 22,
+      "answers_compared": 110,
+      "avg_token_f1": 0.8014708667955421,
+      "avg_jaccard": 0.7468195295255412,
+      "stable_groups": 13
+    },
+    {
+      "question_id": "q9",
+      "question": "9) Υπάρχουν υποχρεώσεις του δικαιούχου μετά την ολοκλήρωση του έργου;",
+      "groups_compared": 22,
+      "answers_compared": 110,
+      "avg_token_f1": 0.804182925077183,
+      "avg_jaccard": 0.7676142114135848,
+      "stable_groups": 12
+    },
+    {
+      "question_id": "q5",
+      "question": "5) Βρες αν υπάρχει ανώτατο ή κατώτατο όριο χρηματοδότησης και δώσε το ακριβές ποσό/ποσοστό.",
+      "groups_compared": 22,
+      "answers_compared": 110,
+      "avg_token_f1": 0.8692931242727323,
+      "avg_jaccard": 0.8512648547976088,
+      "stable_groups": 16
+    },
+    {
+      "question_id": "q6",
+      "question": "6) Ποιες παρεμβάσεις ενεργειακής αναβάθμισης χρηματοδοτούνται;",
+      "groups_compared": 22,
+      "answers_compared": 110,
+      "avg_token_f1": 0.8930083191646144,
+      "avg_jaccard": 0.8559484512525142,
+      "stable_groups": 18
+    }
+  ],
+  "details": []
+}

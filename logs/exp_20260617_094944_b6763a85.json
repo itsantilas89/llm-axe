@@ -1,0 +1,15 @@
+{
+  "experiment_id": "exp_20260617_094944_b6763a85",
+  "timestamp": "2026-06-17T09:49:44.663087+00:00",
+  "model": "deterministic_scope_guard",
+  "temperature": 0.0,
+  "hyperparameters": {
+    "mode": "pre_llm_classification"
+  },
+  "prompt": "",
+  "sources": [
+    "Καταναλωτικό Δάνειο ev-loan για Αγορά Ηλεκτρικού Αυτοκινήτου"
+  ],
+  "terminal_output": "Category: other | Confidence: 95% | Relevant: False",
+  "template_output_file": null
+}

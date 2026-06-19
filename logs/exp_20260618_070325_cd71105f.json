@@ -1,0 +1,15 @@
+{
+  "experiment_id": "exp_20260618_070325_cd71105f",
+  "timestamp": "2026-06-18T07:03:25.775290+00:00",
+  "model": "deterministic_scope_guard",
+  "temperature": 0.0,
+  "hyperparameters": {
+    "mode": "pre_llm_classification"
+  },
+  "prompt": "",
+  "sources": [
+    "Εξοικονομώ 2025"
+  ],
+  "terminal_output": "Category: energy_upgrade | Confidence: 92% | Relevant: True",
+  "template_output_file": null
+}

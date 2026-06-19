@@ -1,0 +1,58 @@
+{
+  "timestamp": "20260616T191624Z",
+  "url": "https://hlektra.gov.gr/home",
+  "classification": {
+    "is_relevant": true,
+    "primary_category": "green_housing_loan",
+    "secondary_categories": [
+      "home_renewables",
+      "energy_upgrade"
+    ],
+    "confidence": 0.92,
+    "reasoning": "Deterministic scope pass: home energy finance signals found",
+    "key_features": [
+      "deterministic_home_green_finance_scope"
+    ]
+  },
+  "extracted_data": {
+    "programme_name": "ΗΛΕΚΤΡΑ",
+    "description": "Το Πρόγραμμα «ΗΛΕΚΤΡΑ» σκοπεύει στην ενεργειακή αναβάθμιση των κτιρίων του Δημόσιου τομέα προωθώντας τον υποδειγματικό ρόλο του Δημοσίου στον τομέα της ενεργειακής αποδοτικότητας των κτιρίων.",
+    "programme_objective": "η ενεργειακή αναβάθμιση των κτιρίων του Δημόσιου τομέα",
+    "eligible_parties": [],
+    "eligibility_criteria": [],
+    "property_requirements": [],
+    "minimum_funding_amount": "640.000.000 €",
+    "maximum_funding_amount": "1.000.000.000 €",
+    "funding_type": "",
+    "interest_rate": "",
+    "funding_coverage": "",
+    "total_budget": "",
+    "funding_sources": [
+      "Ταμείο Παρακαταθηκών και Δανείων",
+      "Ευρωπαϊκής Τράπεζας Επενδύσεων",
+      "Ταμείο Ανάκαμψης και Ανθεκτικότητας"
+    ],
+    "duration": "",
+    "loan_duration": "",
+    "completion_deadline": "",
+    "application_start_date": "",
+    "application_end_date": "",
+    "energy_performance_targets": "30% εξοικονόμησης ετήσιας πρωτογενούς ενέργειας και 30% μείωση των εκπομπών αερίων του θερμοκηπίου",
+    "eligible_interventions": [
+      "κέλυφος",
+      "συστήματα θέρμανσης / ψύξη",
+      "συστήματα διαχείρισης ενέργειας",
+      "συστήματα αυτονόμησης"
+    ],
+    "application_process": "",
+    "managing_body": "",
+    "announcement_date": "",
+    "contact_info": [],
+    "additional_details": "",
+    "source_url": "https://hlektra.gov.gr/home",
+    "source_urls": [
+      "https://hlektra.gov.gr/home"
+    ],
+    "id": "program-658d84572d"
+  }
+}

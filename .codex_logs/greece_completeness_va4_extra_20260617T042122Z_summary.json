@@ -1,0 +1,29 @@
+{
+  "started": "20260617T042122Z",
+  "results": [
+    {
+      "url": "https://www.crediabank.com/idiotes/daneia/hrimatodotika-programmata/programma-exoikonomo-anakainizo-gia-neous/",
+      "status": "ok",
+      "returncode": 0,
+      "seconds": 593.070392
+    },
+    {
+      "url": "https://oikogeneia.gov.gr/programs/anavathmizo-to-spiti-mou/",
+      "status": "ok",
+      "returncode": 0,
+      "seconds": 234.633785
+    },
+    {
+      "url": "https://www.nbg.gr/el/idiwtes/daneia/stegastika-daneia/daneia-akinitwn/estia-prasini",
+      "status": "ok",
+      "returncode": 0,
+      "seconds": 510.275854
+    },
+    {
+      "url": "https://www.epirusbank.com/blog/deltia-tupou-1/183-neo-crematodotiko-proion-gia-dikaioucous-tou-programmatos-lpotoboltaika-ste-steger",
+      "status": "ok",
+      "returncode": 0,
+      "seconds": 133.15444
+    }
+  ]
+}

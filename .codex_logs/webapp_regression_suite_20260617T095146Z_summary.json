@@ -1,0 +1,305 @@
+[
+  {
+    "label": "Alpha EV-only loan",
+    "url": "https://www.alpha.gr/el/idiotes/daneia/katanalotika-daneia/alpha-prasines-luseis-daneio-ilektriko-autokinito",
+    "expected": false,
+    "actual": false,
+    "passed": true,
+    "job_id": "f284c117737e",
+    "job_status": "completed",
+    "saved_program_ids": [],
+    "errors": [],
+    "message": "Ολοκληρώθηκε: 0 JSON αρχεία",
+    "classification_path": "C:\\Users\\stavr\\Desktop\\HMMY\\Thesis\\llm-axe\\output\\va4_product_discoverer\\20260617T095149Z_www.alpha.gr_el_idiotes_daneia_katanalotika-daneia_alpha-prasines-luseis-daneio-ilektriko-autokinito_b4ed8ed1_classification.json",
+    "classification": {
+      "is_relevant": false,
+      "primary_category": "other",
+      "secondary_categories": [],
+      "confidence": 0.99,
+      "reasoning": "Αυτόματη απόρριψη: Δεν βρέθηκαν ενεργειακά + χρηματοδοτικά keywords.",
+      "key_features": [
+        "keyword_prefilter_reject"
+      ]
+    },
+    "last_log": "12:51:49 - Παράλειψη μη σχετικού URL: Αυτόματη απόρριψη: Δεν βρέθηκαν ενεργειακά + χρηματοδοτικά keywords."
+  },
+  {
+    "label": "Piraeus EV-only loan",
+    "url": "https://www.piraeusbank.gr/el/idiwtes/proionta-upiresies/daneia/proswpika/katanalotiko-daneio-ev-loan-gia-agora-ilektrikou-autokinitou",
+    "expected": false,
+    "actual": false,
+    "passed": true,
+    "job_id": "7e3de8c7dc6c",
+    "job_status": "completed",
+    "saved_program_ids": [],
+    "errors": [],
+    "message": "Ολοκληρώθηκε: 0 JSON αρχεία",
+    "classification_path": "C:\\Users\\stavr\\Desktop\\HMMY\\Thesis\\llm-axe\\output\\va4_product_discoverer\\20260617T095158Z_www.piraeusbank.gr_el_idiwtes_proionta-upiresies_daneia_p...analotiko-daneio-ev-loan-gia-agora-ilektrikou-autokinitou_69bfc371_classification.json",
+    "classification": {
+      "is_relevant": false,
+      "primary_category": "other",
+      "secondary_categories": [],
+      "confidence": 0.99,
+      "reasoning": "Αυτόματη απόρριψη: Δεν βρέθηκαν ενεργειακά + χρηματοδοτικά keywords.",
+      "key_features": [
+        "keyword_prefilter_reject"
+      ]
+    },
+    "last_log": "12:51:58 - Παράλειψη μη σχετικού URL: Αυτόματη απόρριψη: Δεν βρέθηκαν ενεργειακά + χρηματοδοτικά keywords."
+  },
+  {
+    "label": "Kinoumai Ilektrika III",
+    "url": "https://kinoumeilektrika3.gov.gr/",
+    "expected": false,
+    "actual": false,
+    "passed": true,
+    "job_id": "6bcc9fb61ff8",
+    "job_status": "completed",
+    "saved_program_ids": [],
+    "errors": [],
+    "message": "Ολοκληρώθηκε: 0 JSON αρχεία",
+    "classification_path": "C:\\Users\\stavr\\Desktop\\HMMY\\Thesis\\llm-axe\\output\\va4_product_discoverer\\20260617T095204Z_kinoumeilektrika3.gov.gr_04f67853_classification.json",
+    "classification": {
+      "is_relevant": false,
+      "primary_category": "other",
+      "secondary_categories": [],
+      "confidence": 0.99,
+      "reasoning": "Αυτόματη απόρριψη: Δεν βρέθηκαν ενεργειακά + χρηματοδοτικά keywords.",
+      "key_features": [
+        "keyword_prefilter_reject"
+      ]
+    },
+    "last_log": "12:52:04 - Παράλειψη μη σχετικού URL: Αυτόματη απόρριψη: Δεν βρέθηκαν ενεργειακά + χρηματοδοτικά keywords."
+  },
+  {
+    "label": "gov.gr Kinoumai Ilektrika III",
+    "url": "https://www.gov.gr/ipiresies/polites-kai-kathemerinoteta/periballon-kai-poioteta-zoes/kinoumai-elektrika-iii",
+    "expected": false,
+    "actual": false,
+    "passed": true,
+    "job_id": "8fe56dec1790",
+    "job_status": "completed",
+    "saved_program_ids": [],
+    "errors": [],
+    "message": "Ολοκληρώθηκε: 0 JSON αρχεία",
+    "classification_path": "C:\\Users\\stavr\\Desktop\\HMMY\\Thesis\\llm-axe\\output\\va4_product_discoverer\\20260617T095239Z_www.gov.gr_ipiresies_polites-kai-kathemerinoteta_periballon-kai-poioteta-zoes_kinoumai-elektrika-iii_a9692868_classification.json",
+    "classification": {
+      "is_relevant": false,
+      "primary_category": "other",
+      "secondary_categories": [],
+      "confidence": 0.99,
+      "reasoning": "Αυτόματη απόρριψη: Δεν βρέθηκαν ενεργειακά + χρηματοδοτικά keywords.",
+      "key_features": [
+        "keyword_prefilter_reject"
+      ]
+    },
+    "last_log": "12:52:39 - Παράλειψη μη σχετικού URL: Αυτόματη απόρριψη: Δεν βρέθηκαν ενεργειακά + χρηματοδοτικά keywords."
+  },
+  {
+    "label": "HDB Green Co-Financing SME",
+    "url": "https://hdb.gr/growth-fund-green-co-financing-loans/",
+    "expected": false,
+    "actual": false,
+    "passed": true,
+    "job_id": "198679ab23ec",
+    "job_status": "completed",
+    "saved_program_ids": [],
+    "errors": [],
+    "message": "Ολοκληρώθηκε: 0 JSON αρχεία",
+    "classification_path": "C:\\Users\\stavr\\Desktop\\HMMY\\Thesis\\llm-axe\\output\\va4_product_discoverer\\20260617T095244Z_hdb.gr_growth-fund-green-co-financing-loans_af492829_classification.json",
+    "classification": {
+      "is_relevant": false,
+      "primary_category": "other",
+      "secondary_categories": [],
+      "confidence": 0.99,
+      "reasoning": "Αυτόματη απόρριψη: Δεν βρέθηκαν ενεργειακά + χρηματοδοτικά keywords.",
+      "key_features": [
+        "keyword_prefilter_reject"
+      ]
+    },
+    "last_log": "12:52:44 - Παράλειψη μη σχετικού URL: Αυτόματη απόρριψη: Δεν βρέθηκαν ενεργειακά + χρηματοδοτικά keywords."
+  },
+  {
+    "label": "Exoikonomo Epixeiro",
+    "url": "https://exoikonomoepixeiro.energy-invest.gov.gr/",
+    "expected": false,
+    "actual": false,
+    "passed": true,
+    "job_id": "7a22cb264dbf",
+    "job_status": "completed",
+    "saved_program_ids": [],
+    "errors": [],
+    "message": "Ολοκληρώθηκε: 0 JSON αρχεία",
+    "classification_path": "C:\\Users\\stavr\\Desktop\\HMMY\\Thesis\\llm-axe\\output\\va4_product_discoverer\\20260617T095250Z_exoikonomoepixeiro.energy-invest.gov.gr_4b8e68b0_classification.json",
+    "classification": {
+      "is_relevant": false,
+      "primary_category": "other",
+      "secondary_categories": [],
+      "confidence": 0.99,
+      "reasoning": "Αυτόματη απόρριψη: Δεν βρέθηκαν ενεργειακά + χρηματοδοτικά keywords.",
+      "key_features": [
+        "keyword_prefilter_reject"
+      ]
+    },
+    "last_log": "12:52:50 - Παράλειψη μη σχετικού URL: Αυτόματη απόρριψη: Δεν βρέθηκαν ενεργειακά + χρηματοδοτικά keywords."
+  },
+  {
+    "label": "HLEKTRA public buildings",
+    "url": "https://hlektra.gov.gr/home",
+    "expected": false,
+    "actual": false,
+    "passed": true,
+    "job_id": "ab84d5efa2f0",
+    "job_status": "completed",
+    "saved_program_ids": [],
+    "errors": [],
+    "message": "Ολοκληρώθηκε: 0 JSON αρχεία",
+    "classification_path": "C:\\Users\\stavr\\Desktop\\HMMY\\Thesis\\llm-axe\\output\\va4_product_discoverer\\20260617T095254Z_hlektra.gov.gr_home_658d8457_classification.json",
+    "classification": {
+      "is_relevant": false,
+      "primary_category": "other",
+      "secondary_categories": [],
+      "confidence": 0.99,
+      "reasoning": "Αυτόματη απόρριψη: Δεν βρέθηκαν ενεργειακά + χρηματοδοτικά keywords.",
+      "key_features": [
+        "keyword_prefilter_reject"
+      ]
+    },
+    "last_log": "12:52:54 - Παράλειψη μη σχετικού URL: Αυτόματη απόρριψη: Δεν βρέθηκαν ενεργειακά + χρηματοδοτικά keywords."
+  },
+  {
+    "label": "Piraeus business photovoltaic",
+    "url": "https://www.piraeusbank.gr/el/epixeiriseis-epaggelmaties/xrimatodotiseis-programmata-xrimatodotisis/mikres-mesaies-epixeiriseis/prasines-xrimatodotiseis/peiraiws-epixeirein-fwtoboltaiko",
+    "expected": false,
+    "actual": false,
+    "passed": true,
+    "job_id": "6b07a30e340c",
+    "job_status": "completed",
+    "saved_program_ids": [],
+    "errors": [],
+    "message": "Ολοκληρώθηκε: 0 JSON αρχεία",
+    "classification_path": "C:\\Users\\stavr\\Desktop\\HMMY\\Thesis\\llm-axe\\output\\va4_product_discoverer\\20260617T095304Z_www.piraeusbank.gr_el_epixeiriseis-epaggelmaties_xrimatod...prasines-xrimatodotiseis_peiraiws-epixeirein-fwtoboltaiko_92ffafb9_classification.json",
+    "classification": {
+      "is_relevant": false,
+      "primary_category": "other",
+      "secondary_categories": [],
+      "confidence": 0.99,
+      "reasoning": "Αυτόματη απόρριψη: Δεν βρέθηκαν ενεργειακά + χρηματοδοτικά keywords.",
+      "key_features": [
+        "keyword_prefilter_reject"
+      ]
+    },
+    "last_log": "12:53:04 - Παράλειψη μη σχετικού URL: Αυτόματη απόρριψη: Δεν βρέθηκαν ενεργειακά + χρηματοδοτικά keywords."
+  },
+  {
+    "label": "Piraeus business net metering",
+    "url": "https://www.piraeusbank.gr/el/epixeiriseis-epaggelmaties/xrimatodotiseis-programmata-xrimatodotisis/mikres-mesaies-epixeiriseis/prasines-xrimatodotiseis/peiraiws-net-metering",
+    "expected": false,
+    "actual": false,
+    "passed": true,
+    "job_id": "1dd23cc91446",
+    "job_status": "completed",
+    "saved_program_ids": [],
+    "errors": [],
+    "message": "Ολοκληρώθηκε: 0 JSON αρχεία",
+    "classification_path": "C:\\Users\\stavr\\Desktop\\HMMY\\Thesis\\llm-axe\\output\\va4_product_discoverer\\20260617T095313Z_www.piraeusbank.gr_el_epixeiriseis-epaggelmaties_xrimatod...ixeiriseis_prasines-xrimatodotiseis_peiraiws-net-metering_5f356e17_classification.json",
+    "classification": {
+      "is_relevant": false,
+      "primary_category": "other",
+      "secondary_categories": [],
+      "confidence": 0.99,
+      "reasoning": "Αυτόματη απόρριψη: Δεν βρέθηκαν ενεργειακά + χρηματοδοτικά keywords.",
+      "key_features": [
+        "keyword_prefilter_reject"
+      ]
+    },
+    "last_log": "12:53:13 - Παράλειψη μη σχετικού URL: Αυτόματη απόρριψη: Δεν βρέθηκαν ενεργειακά + χρηματοδοτικά keywords."
+  },
+  {
+    "label": "Alpha green home loan",
+    "url": "https://www.alpha.gr/el/idiotes/daneia/episkevastika-daneia-gia-anakainisi/alpha-prasines-luseis-katanalotiko-daneio-gia-to-spiti",
+    "expected": true,
+    "actual": true,
+    "passed": true,
+    "job_id": "dde677427b24",
+    "job_status": "completed",
+    "saved_program_ids": [
+      "program-c11dd8a623"
+    ],
+    "errors": [],
+    "message": "Ολοκληρώθηκε: 1 JSON αρχεία",
+    "classification_path": "C:\\Users\\stavr\\Desktop\\HMMY\\Thesis\\llm-axe\\output\\va4_product_discoverer\\20260617T095859Z_www.alpha.gr_el_idiotes_daneia_episkevastika-daneia-gia-a...si_alpha-prasines-luseis-katanalotiko-daneio-gia-to-spiti_3ef84f91_classification.json",
+    "classification": {
+      "is_relevant": true,
+      "primary_category": "green_housing_loan",
+      "secondary_categories": [
+        "home_renewables",
+        "energy_upgrade"
+      ],
+      "confidence": 0.92,
+      "reasoning": "Deterministic scope pass: home energy finance signals found",
+      "key_features": [
+        "deterministic_home_green_finance_scope"
+      ]
+    },
+    "last_log": "12:58:59 - Αποθηκεύτηκε generated JSON: program-c11dd8a623"
+  },
+  {
+    "label": "Piraeus green consumer home repairs",
+    "url": "https://www.piraeusbank.gr/el/idiwtes/proionta-upiresies/daneia/proswpika/katanalwtiko-daneio-green-gia-prasines-episkeves",
+    "expected": true,
+    "actual": true,
+    "passed": true,
+    "job_id": "37e4587fac57",
+    "job_status": "completed",
+    "saved_program_ids": [
+      "green-6f5d50a68d"
+    ],
+    "errors": [],
+    "message": "Ολοκληρώθηκε: 1 JSON αρχεία",
+    "classification_path": "C:\\Users\\stavr\\Desktop\\HMMY\\Thesis\\llm-axe\\output\\va4_product_discoverer\\20260617T100354Z_www.piraeusbank.gr_el_idiwtes_proionta-upiresies_daneia_proswpika_katanalwtiko-daneio-green-gia-prasines-episkeves_6f5d50a6_classification.json",
+    "classification": {
+      "is_relevant": true,
+      "primary_category": "green_housing_loan",
+      "secondary_categories": [
+        "home_renewables",
+        "energy_upgrade"
+      ],
+      "confidence": 0.92,
+      "reasoning": "Deterministic scope pass: home energy finance signals found",
+      "key_features": [
+        "deterministic_home_green_finance_scope"
+      ]
+    },
+    "last_log": "13:03:55 - Αποθηκεύτηκε generated JSON: green-6f5d50a68d"
+  },
+  {
+    "label": "Piraeus green repair secured",
+    "url": "https://www.piraeusbank.gr/el/idiwtes/proionta-upiresies/stegastika-daneia/prasino-episkeuastiko-daneio-me-eksasfalisi",
+    "expected": true,
+    "actual": true,
+    "passed": true,
+    "job_id": "053a57765a2a",
+    "job_status": "completed",
+    "saved_program_ids": [
+      "program-3f1b2ca9c2"
+    ],
+    "errors": [],
+    "message": "Ολοκληρώθηκε: 1 JSON αρχεία",
+    "classification_path": "C:\\Users\\stavr\\Desktop\\HMMY\\Thesis\\llm-axe\\output\\va4_product_discoverer\\20260617T100909Z_www.piraeusbank.gr_el_idiwtes_proionta-upiresies_stegastika-daneia_prasino-episkeuastiko-daneio-me-eksasfalisi_3f1b2ca9_classification.json",
+    "classification": {
+      "is_relevant": true,
+      "primary_category": "green_housing_loan",
+      "secondary_categories": [
+        "home_renewables",
+        "energy_upgrade"
+      ],
+      "confidence": 0.92,
+      "reasoning": "Deterministic scope pass: home energy finance signals found",
+      "key_features": [
+        "deterministic_home_green_finance_scope"
+      ]
+    },
+    "last_log": "13:09:09 - Αποθηκεύτηκε generated JSON: program-3f1b2ca9c2"
+  }
+]

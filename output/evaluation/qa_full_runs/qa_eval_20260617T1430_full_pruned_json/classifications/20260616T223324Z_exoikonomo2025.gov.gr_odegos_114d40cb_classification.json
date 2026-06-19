@@ -1,0 +1,47 @@
+{
+  "timestamp": "20260616T223324Z",
+  "url": "https://exoikonomo2025.gov.gr/odegos",
+  "classification": {
+    "is_relevant": true,
+    "primary_category": "green_housing_loan",
+    "secondary_categories": [
+      "energy_upgrade"
+    ],
+    "confidence": 0.84,
+    "reasoning": "Deterministic scope pass: home energy finance signals found",
+    "key_features": [
+      "deterministic_home_green_finance_scope"
+    ]
+  },
+  "extracted_data": {
+    "programme_name": "ΕΞΟΙΚΟΝΟΜΩ 2025 : Οδηγός / Παραρτήματα Μετάβαση στο περιεχόμενο Οδηγός / Παραρτήματα / Οδηγός Προγράμματος Οδηγός Προγρά",
+    "description": "ΕΞΟΙΚΟΝΟΜΩ 2025 : Οδηγός / Παραρτήματα Μετάβαση στο περιεχόμενο Οδηγός / Παραρτήματα / Οδηγός Προγράμματος Οδηγός Προγράμματος Εξοικονομώ 2025 Παραρτήματα Οδηγού 1. ΠΑΡΑΡΤΗΜΑ Ι Δικαιολογητικά Υποβολής Αίτησης.pdf 2. ΠΑΡΑΡΤΗΜΑ II Πρόταση Παρεμβάσεων.pdf 3. ΠΑΡΑΡΤΗΜΑ ΙΙΙ Δήλωση Ωφελούμενου Υποβολής Αίτησης.pdf 4. ΠΑΡΑΡΤΗΜΑ IV Καταγραφή Παρεμβάσεων.pdf 5. ΠΑΡΑΡΤΗΜΑ V Δήλωση πιστοποίησης και Δικαιολογητικά.pdf 6. ΠΑΡΑΡΤΗΜΑ VΙ ΥΔ για ενισχύσεις βάσει de minimis.docx 7. ΠΑΡΑΡΤΗΜΑ VII ΥΔ Μη υποχρέωσης υποβολής δήλωσης φορολογίας.doc 8. ΠΑΡΑΡΤΗΜΑ VIII YΔ Χρήσης ακινήτου.doc 8.Β. ΠΑΡΑΡΤΗΜΑ VIII Β YΔ Χρήσης ακινήτου.doc 9. ΠΑΡΑΡΤΗΜΑ ΙΧ- Κριτήριο Αξιολόγησης.pdf 10. ΠΑΡΑΡΤΗΜΑ X Βεβαίωση εκτέλεσης εργασιών.pdf",
+    "programme_objective": "ΕΞΟΙΚΟΝΟΜΩ 2025 : Οδηγός / Παραρτήματα Μετάβαση στο περιεχόμενο Οδηγός / Παραρτήματα / Οδηγός Προγράμματος Οδηγός Προγράμματος Εξοικονομώ 2025 Παραρτήματα Οδηγού 1. ΠΑΡΑΡΤΗΜΑ Ι Δικαιολογητικά Υποβολής Αίτησης.pdf 2. ΠΑΡΑΡΤΗΜΑ II Πρόταση Παρεμβάσεων.pdf 3. ΠΑΡΑΡΤΗΜΑ ΙΙΙ Δήλωση Ωφελούμενου Υποβολής Αίτησης.pdf 4. ΠΑΡΑΡΤΗΜΑ IV Καταγραφή Παρεμβάσεων.pdf 5. ΠΑΡΑΡΤΗΜΑ V Δήλωση πιστοποίησης και Δικαιολογητικά.pdf 6. ΠΑΡΑΡΤΗΜΑ VΙ ΥΔ για ενισχύσεις βάσει de minimis.docx 7. ΠΑΡΑΡΤΗΜΑ VII ΥΔ Μη υποχρέωσης υποβολής δήλωσης φορολογίας.doc 8. ΠΑΡΑΡΤΗΜΑ VIII YΔ Χρήσης ακινήτου.doc 8.Β. ΠΑΡΑΡΤΗΜΑ VIII Β YΔ Χρήσης ακινήτου.doc 9. ΠΑΡΑΡΤΗΜΑ ΙΧ- Κριτήριο Αξιολόγησης.pdf 10. ΠΑΡΑΡΤΗΜΑ X Βεβαίωση εκτέλεσης εργασιών.pdf",
+    "eligible_parties": [],
+    "eligibility_criteria": [],
+    "property_requirements": [],
+    "minimum_funding_amount": "",
+    "maximum_funding_amount": "",
+    "funding_type": "",
+    "interest_rate": "",
+    "funding_coverage": "",
+    "total_budget": "",
+    "funding_sources": [],
+    "duration": "",
+    "loan_duration": "",
+    "completion_deadline": "",
+    "application_start_date": "",
+    "application_end_date": "",
+    "energy_performance_targets": "",
+    "eligible_interventions": [],
+    "application_process": "",
+    "managing_body": "",
+    "announcement_date": "",
+    "contact_info": [],
+    "additional_details": "",
+    "source_url": "https://exoikonomo2025.gov.gr/odegos",
+    "source_urls": [
+      "https://exoikonomo2025.gov.gr/odegos"
+    ]
+  }
+}

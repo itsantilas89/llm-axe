@@ -1,0 +1,75 @@
+{
+  "id": "program-3f1b2ca9c2",
+  "timestamp": "20260618T084341Z",
+  "url": "https://www.piraeusbank.gr/el/idiwtes/proionta-upiresies/stegastika-daneia/prasino-episkeuastiko-daneio-me-eksasfalisi",
+  "source_urls": [
+    "https://www.piraeusbank.gr/el/idiwtes/proionta-upiresies/stegastika-daneia/prasino-episkeuastiko-daneio-me-eksasfalisi"
+  ],
+  "source_files": [
+    "C:\\Users\\stavr\\Desktop\\HMMY\\Thesis\\llm-axe\\output\\va4_product_discoverer\\20260617T100909Z_www.piraeusbank.gr_el_idiwtes_proionta-upiresies_stegastika-daneia_prasino-episkeuastiko-daneio-me-eksasfalisi_3f1b2ca9_classification.json"
+  ],
+  "merged_from_count": 1,
+  "merged": true,
+  "field_sources": {
+    "contact_info": [
+      "https://www.piraeusbank.gr/el/idiwtes/proionta-upiresies/stegastika-daneia/prasino-episkeuastiko-daneio-me-eksasfalisi"
+    ],
+    "description": "https://www.piraeusbank.gr/el/idiwtes/proionta-upiresies/stegastika-daneia/prasino-episkeuastiko-daneio-me-eksasfalisi",
+    "duration": "https://www.piraeusbank.gr/el/idiwtes/proionta-upiresies/stegastika-daneia/prasino-episkeuastiko-daneio-me-eksasfalisi",
+    "eligible_parties": "https://www.piraeusbank.gr/el/idiwtes/proionta-upiresies/stegastika-daneia/prasino-episkeuastiko-daneio-me-eksasfalisi",
+    "funding_coverage": "https://www.piraeusbank.gr/el/idiwtes/proionta-upiresies/stegastika-daneia/prasino-episkeuastiko-daneio-me-eksasfalisi",
+    "funding_type": "https://www.piraeusbank.gr/el/idiwtes/proionta-upiresies/stegastika-daneia/prasino-episkeuastiko-daneio-me-eksasfalisi",
+    "id": "https://www.piraeusbank.gr/el/idiwtes/proionta-upiresies/stegastika-daneia/prasino-episkeuastiko-daneio-me-eksasfalisi",
+    "interest_rate": "https://www.piraeusbank.gr/el/idiwtes/proionta-upiresies/stegastika-daneia/prasino-episkeuastiko-daneio-me-eksasfalisi",
+    "loan_duration": "https://www.piraeusbank.gr/el/idiwtes/proionta-upiresies/stegastika-daneia/prasino-episkeuastiko-daneio-me-eksasfalisi",
+    "minimum_funding_amount": "https://www.piraeusbank.gr/el/idiwtes/proionta-upiresies/stegastika-daneia/prasino-episkeuastiko-daneio-me-eksasfalisi",
+    "programme_name": "https://www.piraeusbank.gr/el/idiwtes/proionta-upiresies/stegastika-daneia/prasino-episkeuastiko-daneio-me-eksasfalisi",
+    "programme_objective": "https://www.piraeusbank.gr/el/idiwtes/proionta-upiresies/stegastika-daneia/prasino-episkeuastiko-daneio-me-eksasfalisi",
+    "property_requirements": "https://www.piraeusbank.gr/el/idiwtes/proionta-upiresies/stegastika-daneia/prasino-episkeuastiko-daneio-me-eksasfalisi",
+    "source_url": "https://www.piraeusbank.gr/el/idiwtes/proionta-upiresies/stegastika-daneia/prasino-episkeuastiko-daneio-me-eksasfalisi",
+    "source_urls": [
+      "https://www.piraeusbank.gr/el/idiwtes/proionta-upiresies/stegastika-daneia/prasino-episkeuastiko-daneio-me-eksasfalisi"
+    ]
+  },
+  "extracted_data": {
+    "contact_info": [
+      "Κλείστε ραντεβού σε ένα κατάστημα",
+      "Τηλεφωνική εξυπηρέτηση"
+    ],
+    "description": "Πράσινο Επισκευαστικό Δάνειο με Εξασφάλιση Πειραιώς | Τράπεζα Πειραιώς Εξοικονόμηση ενέργειας Μία βιώσιμη επιλογή Επιλέξτε την προβολή χαμηλής ενέργειας και μειώστε την κατανάλωση της επίσκεψής σας. Eπιλέξτε το energy mode, μία μορφή του site χωρίς εικόνες και βίντεο που μειώνει την κατανάλωση ενέργειας. Διαβάστε περισσότερα σχετικά με τις δράσεις μας για τη μείωση του διοξειδίου του άνθρακα. ΕSG Ερωτήσεις & απαντήσεις Πώς μπορώ να εγκαταστήσω το Piraeus app; Κατεβάστε το Piraeus app από τo App Store (iOS) ή Google Play Store (Android) ή App Gallery (Huawei) πληκτρολογώντας Piraeus app και πατήστε Απόκτηση (iOS) ή Εγκατάσταση (Android) ή Εγκατάσταση (Huawei).",
+    "duration": "2-25 έτη",
+    "eligible_parties": [
+      "Ιδιώτες",
+      "Τραπεζικά"
+    ],
+    "funding_coverage": "μέχρι: 100% του προϋπολογισμού των εργασιών για εργασίες ενεργειακής αναβάθμισης 100% του προϋπολογισμού της οικονομικής προσφοράς/προτιμολογίου του προμηθευτή-εγκαταστάτη των φωτοβολταϊκών συστη",
+    "funding_type": "Δάνειο",
+    "id": "program-3f1b2ca9c2",
+    "interest_rate": "Euribor μηνός & περιθώριο από 1,25%",
+    "loan_duration": "2 - 25 έτη",
+    "minimum_funding_amount": "10.000€",
+    "programme_name": "Πράσινο Επισκευαστικό Δάνειο με Εξασφάλιση Πειραιώς",
+    "programme_objective": "Πράσινο Επισκευαστικό Δάνειο με Εξασφάλιση Πειραιώς | Τράπεζα Πειραιώς Εξοικονόμηση ενέργειας Μία βιώσιμη επιλογή Επιλέξτε την προβολή χαμηλής ενέργειας και μειώστε την κατανάλωση της επίσκεψής σας. Eπιλέξτε το energy mode, μία μορφή του site χωρίς εικόνες και βίντεο που μειώνει την κατανάλωση ενέργειας. Διαβάστε περισσότερα σχετικά με τις δράσεις μας για τη μείωση του διοξειδίου του άνθρακα. ΕSG Ερωτήσεις & απαντήσεις Πώς μπορώ να εγκαταστήσω το Piraeus app; Κατεβάστε το Piraeus app από τo App Store (iOS) ή Google Play Store (Android) ή App Gallery (Huawei) πληκτρολογώντας Piraeus app και πατήστε Απόκτηση (iOS) ή Εγκατάσταση (Android) ή Εγκατάσταση (Huawei).",
+    "property_requirements": [
+      "Πράσινο Επισκευαστικό Δάνειο με Εξασφάλιση Πειραιώς",
+      "Ενεργειακή αναβάθμιση κατοικίας"
+    ],
+    "source_url": "https://www.piraeusbank.gr/el/idiwtes/proionta-upiresies/stegastika-daneia/prasino-episkeuastiko-daneio-me-eksasfalisi",
+    "source_urls": [
+      "https://www.piraeusbank.gr/el/idiwtes/proionta-upiresies/stegastika-daneia/prasino-episkeuastiko-daneio-me-eksasfalisi"
+    ]
+  },
+  "classification": {
+    "is_relevant": true,
+    "primary_category": "green_housing_loan",
+    "secondary_categories": [
+      "energy_upgrade",
+      "home_renewables"
+    ],
+    "confidence": 0.92,
+    "reasoning": "Merged source-backed JSON from 1 relevant URL(s).",
+    "key_features": [
+      "deterministic_home_green_finance_scope"
+    ]
+  }
+}

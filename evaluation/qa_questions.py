@@ -60,4 +60,18 @@ def build_qa_questions() -> list[dict]:
             "check_type": "substring",
             "description": "Funding coverage consistency",
         },
+        {
+            "id": "completion_delay_consequences",
+            "query": "Τι γίνεται αν δεν ολοκληρωθούν οι εργασίες μέσα στην προβλεπόμενη προθεσμία;",
+            "fields": ["completion_delay_consequences"],
+            "check_type": "substring",
+            "description": "Completion delay consequences consistency",
+        },
+        {
+            "id": "post_completion_obligations",
+            "query": "Υπάρχουν υποχρεώσεις του δικαιούχου μετά την ολοκλήρωση του έργου;",
+            "fields": ["post_completion_obligations"],
+            "check_type": "substring",
+            "description": "Post-completion obligations consistency",
+        },
     ]

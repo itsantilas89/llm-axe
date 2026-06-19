@@ -14,7 +14,7 @@ url = "https://www.piraeusbank.gr/el/idiwtes/proionta-upiresies/stegastika-danei
 
 # Run process
 try:
-    extracted_data, classification = process_url(url, llm, enable_qa=False)
+    extracted_data, classification, _experiment_id = process_url(url, llm, enable_qa=False)
     print("\n✓ Process completed successfully!")
 except Exception as e:
     print(f"\n✗ Error: {e}", file=sys.stderr)

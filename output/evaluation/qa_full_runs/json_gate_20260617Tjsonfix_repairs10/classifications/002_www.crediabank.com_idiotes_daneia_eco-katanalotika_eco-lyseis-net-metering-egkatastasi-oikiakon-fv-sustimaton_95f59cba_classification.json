@@ -1,0 +1,72 @@
+{
+  "timestamp": "20260617T144041Z",
+  "url": "https://www.crediabank.com/idiotes/daneia/eco-katanalotika/eco-lyseis-net-metering-egkatastasi-oikiakon-fv-sustimaton/",
+  "source_urls": [
+    "https://www.crediabank.com/idiotes/daneia/eco-katanalotika/eco-lyseis-net-metering-egkatastasi-oikiakon-fv-sustimaton/"
+  ],
+  "source_files": [
+    "C:\\Users\\stavr\\Desktop\\HMMY\\Thesis\\llm-axe\\output\\va4_product_discoverer\\20260617T013559Z_www.crediabank.com_idiotes_daneia_eco-katanalotika_eco-lyseis-net-metering-egkatastasi-oikiakon-fv-sustimaton_95f59cba_classification.json"
+  ],
+  "merged_from_count": 1,
+  "merged": true,
+  "field_sources": {
+    "description": "https://www.crediabank.com/idiotes/daneia/eco-katanalotika/eco-lyseis-net-metering-egkatastasi-oikiakon-fv-sustimaton/",
+    "eligible_interventions": [
+      "https://www.crediabank.com/idiotes/daneia/eco-katanalotika/eco-lyseis-net-metering-egkatastasi-oikiakon-fv-sustimaton/"
+    ],
+    "eligible_parties": [
+      "https://www.crediabank.com/idiotes/daneia/eco-katanalotika/eco-lyseis-net-metering-egkatastasi-oikiakon-fv-sustimaton/"
+    ],
+    "funding_coverage": "https://www.crediabank.com/idiotes/daneia/eco-katanalotika/eco-lyseis-net-metering-egkatastasi-oikiakon-fv-sustimaton/",
+    "funding_type": "https://www.crediabank.com/idiotes/daneia/eco-katanalotika/eco-lyseis-net-metering-egkatastasi-oikiakon-fv-sustimaton/",
+    "interest_rate": "https://www.crediabank.com/idiotes/daneia/eco-katanalotika/eco-lyseis-net-metering-egkatastasi-oikiakon-fv-sustimaton/",
+    "loan_duration": "https://www.crediabank.com/idiotes/daneia/eco-katanalotika/eco-lyseis-net-metering-egkatastasi-oikiakon-fv-sustimaton/",
+    "maximum_funding_amount": "https://www.crediabank.com/idiotes/daneia/eco-katanalotika/eco-lyseis-net-metering-egkatastasi-oikiakon-fv-sustimaton/",
+    "minimum_funding_amount": "https://www.crediabank.com/idiotes/daneia/eco-katanalotika/eco-lyseis-net-metering-egkatastasi-oikiakon-fv-sustimaton/",
+    "programme_name": "https://www.crediabank.com/idiotes/daneia/eco-katanalotika/eco-lyseis-net-metering-egkatastasi-oikiakon-fv-sustimaton/",
+    "programme_objective": "https://www.crediabank.com/idiotes/daneia/eco-katanalotika/eco-lyseis-net-metering-egkatastasi-oikiakon-fv-sustimaton/",
+    "property_requirements": [
+      "https://www.crediabank.com/idiotes/daneia/eco-katanalotika/eco-lyseis-net-metering-egkatastasi-oikiakon-fv-sustimaton/"
+    ]
+  },
+  "extracted_data": {
+    "description": "Eco Λύσεις - Net Metering (Εγκατάσταση Οικιακών Φ/Β Συστημάτων) - CrediaBank Eco Λύσεις - Net Metering (Εγκατάσταση Οικιακών Φ/Β Συστημάτων) Εγκατάσταση φωτοβολταϊκών πάνελ στο δικό σου κτήριο Εκδήλωση Ενδιαφέροντος Θες να εγκαταστήσεις φωτοβολταϊκά και να συμψηφίζεις την ενέργεια που παράγεις; Στην CrediaBank, σου προσφέρουμε τη δυνατότητα να αναβαθμίσεις ενεργειακά το σπίτι σου. Χρηματοδότηση Εγκατάστησε φωτοβολταϊκά πάνελ οπουδήποτε στο δικό σου κτήριο (δώμα, στέγη, στέγαστρο, σκίαστρο, παρκινγκ, πρόσοψη κλπ) με σκοπό το net metering Παρακολούθησε την ενέργεια που καταναλώνεις και παράγεις Χρησιμοποίησε το δίκτυο για έμμεση αποθήκευση της πράσινης ενέργειας Με μια ματιά Ποσό χορήγησης Από € 1.500 έως € 25.000 Επιτόκιο Το επιτόκιο είναι σταθερό για όλη τη διάρκεια του δανείου. 7,90%, πλέον εισφ. Ν128/75 (σήμερα 0,60%).",
+    "eligible_interventions": [
+      "μέσω μίσθωσης",
+      "δωρεάν παραχώρησης κ"
+    ],
+    "eligible_parties": [
+      "φυσικά πρόσωπα"
+    ],
+    "funding_coverage": "Χρηματοδότηση Σου προσφέρουμε χρηματοδότηση που ανέρχεται έως και στο 100% του ποσού τιμολογίων / προτιμολογίων",
+    "funding_type": "Δάνειο",
+    "interest_rate": "7,90%",
+    "loan_duration": "60 μήνες",
+    "maximum_funding_amount": "25.000€",
+    "minimum_funding_amount": "1.500€",
+    "programme_name": "Eco Λύσεις - Net Metering",
+    "programme_objective": "Eco Λύσεις - Net Metering (Εγκατάσταση Οικιακών Φ/Β Συστημάτων) - CrediaBank Eco Λύσεις - Net Metering (Εγκατάσταση Οικιακών Φ/Β Συστημάτων) Εγκατάσταση φωτοβολταϊκών πάνελ στο δικό σου κτήριο Εκδήλωση Ενδιαφέροντος Θες να εγκαταστήσεις φωτοβολταϊκά και να συμψηφίζεις την ενέργεια που παράγεις; Στην CrediaBank, σου προσφέρουμε τη δυνατότητα να αναβαθμίσεις ενεργειακά το σπίτι σου. Χρηματοδότηση Εγκατάστησε φωτοβολταϊκά πάνελ οπουδήποτε στο δικό σου κτήριο (δώμα, στέγη, στέγαστρο, σκίαστρο, παρκινγκ, πρόσοψη κλπ) με σκοπό το net metering Παρακολούθησε την ενέργεια που καταναλώνεις και παράγεις Χρησιμοποίησε το δίκτυο για έμμεση αποθήκευση της πράσινης ενέργειας Με μια ματιά Ποσό χορήγησης Από € 1.500 έως € 25.000 Επιτόκιο Το επιτόκιο είναι σταθερό για όλη τη διάρκεια του δανείου. 7,90%, πλέον εισφ. Ν128/75 (σήμερα 0,60%).",
+    "property_requirements": [
+      "κτήριο (δώμα, στέγη, στέγαστρο, σκίαστρο, παρκινγκ, πρόσοψη κλπ)"
+    ],
+    "source_urls": [
+      "https://www.crediabank.com/idiotes/daneia/eco-katanalotika/eco-lyseis-net-metering-egkatastasi-oikiakon-fv-sustimaton/"
+    ],
+    "source_url": "https://www.crediabank.com/idiotes/daneia/eco-katanalotika/eco-lyseis-net-metering-egkatastasi-oikiakon-fv-sustimaton/",
+    "id": "eco-net-metering-95f59cba48"
+  },
+  "classification": {
+    "is_relevant": true,
+    "primary_category": "green_housing_loan",
+    "secondary_categories": [
+      "energy_upgrade",
+      "home_renewables"
+    ],
+    "confidence": 0.92,
+    "reasoning": "Merged source-backed JSON from 1 relevant URL(s).",
+    "key_features": [
+      "deterministic_home_green_finance_scope"
+    ]
+  },
+  "id": "eco-net-metering-95f59cba48"
+}

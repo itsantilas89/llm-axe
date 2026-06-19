@@ -1,0 +1,52 @@
+{
+  "timestamp": "20260617T040546Z",
+  "url": "https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/prasino-daneio-katoikias-eksoikonomisi-energeias",
+  "classification": {
+    "is_relevant": true,
+    "primary_category": "green_housing_loan",
+    "secondary_categories": [
+      "home_renewables",
+      "energy_upgrade"
+    ],
+    "confidence": 0.92,
+    "reasoning": "Deterministic scope pass: home energy finance signals found",
+    "key_features": [
+      "deterministic_home_green_finance_scope"
+    ]
+  },
+  "extracted_data": {
+    "programme_name": "Πράσινο Δάνειο Κατοικίας – Εξοικονόμηση Ενέργειας",
+    "description": "Με το πράσινο δάνειο κατοικίας – Εξοικονόμηση ενέργειας πραγματοποιείτε εργασίες ενεργειακής αναβάθμισης στο σπίτι σας, π.χ. τοποθετείτε διπλά τζάμια, θερμομονωτικό κέλυφος, νέο καυστήρα, ηλιακό θερμοσίφωνα ή φωτοβολταϊκό σύστημα. Εξοικονομείτε χρήματα από τους λογαριασμούς ενέργειας, ενώ παράλληλα ανεβαίνει η αξία του σπιτιού σας. Εάν είστε πελάτης μας και έχετε κωδικούς e-Banking , μπορείτε μέσα από το Eurobank Mobile App ή το e-Banking σας να: Διαμορφώσετε τα χαρακτηριστικά του δανείου σας online, στον Υπολογιστή δανείου , που υπολογίζει το αποτέλεσμα με βάση το δικό σας προφίλ. Λάβετε ενδεικτική εξατομικευμένη προσφορά με το επιτόκιο, τη δόση και τα έξοδα δανείο",
+    "programme_objective": "Με το πράσινο δάνειο κατοικίας – Εξοικονόμηση ενέργειας πραγματοποιείτε εργασίες ενεργειακής αναβάθμισης στο σπίτι σας, π.χ. τοποθετείτε διπλά τζάμια, θερμομονωτικό κέλυφος, νέο καυστήρα, ηλιακό θερμοσίφωνα ή φωτοβολταϊκό σύστημα. Εξοικονομείτε χρήματα από τους λογαριασμούς ενέργειας, ενώ παράλληλα ανεβαίνει η αξία του σπιτιού σας. Εάν είστε πελάτης μας και έχετε κωδικούς e-Banking , μπορείτε μέσα από το Eurobank Mobile App ή το e-Banking σας να: Διαμορφώσετε τα χαρακτηριστικά του δανείου σας online, στον Υπολογιστή δανείου , που υπολογίζει το αποτέλεσμα με βάση το δικό σας προφίλ. Λάβετε ενδεικτική εξατομικευμένη προσφορά με το επιτόκιο, τη δόση και τα έξοδα δανείο",
+    "eligible_parties": [],
+    "eligibility_criteria": [],
+    "property_requirements": [
+      "σπίτι",
+      "οικόπεδο"
+    ],
+    "minimum_funding_amount": "",
+    "maximum_funding_amount": "15.000€",
+    "funding_type": "Δάνειο",
+    "interest_rate": "",
+    "funding_coverage": "",
+    "total_budget": "",
+    "funding_sources": [],
+    "duration": "",
+    "loan_duration": "",
+    "completion_deadline": "",
+    "application_start_date": "",
+    "application_end_date": "",
+    "energy_performance_targets": "",
+    "eligible_interventions": [
+      "τοποθετείτε διπλά τζάμια",
+      "θερμομονωτικό κέλυφος",
+      "νέο καυστήρα",
+      "ηλιακό θερμοσίφωνα"
+    ],
+    "application_process": "",
+    "managing_body": "",
+    "announcement_date": "",
+    "contact_info": [],
+    "additional_details": ""
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "timestamp": "20260617T100354Z",
+  "url": "https://www.piraeusbank.gr/el/idiwtes/proionta-upiresies/daneia/proswpika/katanalwtiko-daneio-green-gia-prasines-episkeves",
+  "classification": {
+    "is_relevant": true,
+    "primary_category": "green_housing_loan",
+    "secondary_categories": [
+      "home_renewables",
+      "energy_upgrade"
+    ],
+    "confidence": 0.92,
+    "reasoning": "Deterministic scope pass: home energy finance signals found",
+    "key_features": [
+      "deterministic_home_green_finance_scope"
+    ]
+  },
+  "extracted_data": {
+    "programme_name": "Καταναλωτικό Δάνειο Green για Πράσινες Επισκευές",
+    "description": "Καταναλωτικό Δάνειο Green για Πράσινες Επισκευές | Τράπεζα Πειραιώς Εξοικονόμηση ενέργειας Μία βιώσιμη επιλογή Επιλέξτε την προβολή χαμηλής ενέργειας και μειώστε την κατανάλωση της επίσκεψής σας. Eπιλέξτε το energy mode, μία μορφή του site χωρίς εικόνες και βίντεο που μειώνει την κατανάλωση ενέργειας. Διαβάστε περισσότερα σχετικά με τις δράσεις μας για τη μείωση του διοξειδίου του άνθρακα. ΕSG Ερωτήσεις & απαντήσεις Πώς μπορώ να εγκαταστήσω το Piraeus app; Κατεβάστε το Piraeus app από τo App Store (iOS) ή Google Play Store (Android) ή App Gallery (Huawei) πληκτρολογώντας Piraeus app και πατήστε Απόκτηση (iOS) ή Εγκατάσταση (Android) ή Εγκατάσταση (Huawei).",
+    "programme_objective": "Βελτίωση ενεργειακής απόδοσης σπιτιού με πράσινες επισκευές και αγορές",
+    "eligible_parties": [],
+    "eligibility_criteria": [],
+    "property_requirements": [
+      "οικοσκευές"
+    ],
+    "minimum_funding_amount": "1.500€",
+    "maximum_funding_amount": "1.500€",
+    "funding_type": "Δάνειο",
+    "interest_rate": "8,75%",
+    "funding_coverage": "",
+    "total_budget": "",
+    "funding_sources": [],
+    "duration": "6 - 84 μήνες",
+    "loan_duration": "",
+    "completion_deadline": "",
+    "application_start_date": "",
+    "application_end_date": "",
+    "energy_performance_targets": "",
+    "eligible_interventions": [
+      "Μονώσεις",
+      "Ενεργειακή αναβάθμιση κατοικίας",
+      "Τοποθέτηση / αντικατάσταση κελύφους για θερμομόνωση",
+      "Εγκατάσταση φωτοβολταϊκών ή άλλων ΑΠΕ"
+    ],
+    "additional_details": "",
+    "source_url": "https://www.piraeusbank.gr/el/idiwtes/proionta-upiresies/daneia/proswpika/katanalwtiko-daneio-green-gia-prasines-episkeves",
+    "source_urls": [
+      "https://www.piraeusbank.gr/el/idiwtes/proionta-upiresies/daneia/proswpika/katanalwtiko-daneio-green-gia-prasines-episkeves"
+    ],
+    "id": "green-6f5d50a68d"
+  }
+}

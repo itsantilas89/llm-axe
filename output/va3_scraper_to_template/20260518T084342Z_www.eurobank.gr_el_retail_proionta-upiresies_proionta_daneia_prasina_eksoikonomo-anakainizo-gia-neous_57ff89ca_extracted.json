@@ -1,5 +1,6 @@
 [
   {
+    "id": "program-57ff89ca47",
     "programme_name": "Εξοικονομώ - Ανακαινίζω για νέους",
     "description": "",
     "programme_objective": "",
@@ -39,6 +40,27 @@
         "email": "info@danep.gr"
       }
     ],
-    "additional_details": ""
+    "additional_details": "",
+    "source_url": "https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/eksoikonomo-anakainizo-gia-neous",
+    "source_urls": [
+      "https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/eksoikonomo-anakainizo-gia-neous"
+    ],
+    "review_status": "rejected",
+    "admin_notes": "",
+    "scraped_at": "2026-05-18T08:43:42+00:00",
+    "updated_at": "2026-05-26T08:58:02+00:00",
+    "classification": {
+      "is_relevant": true,
+      "primary_category": "green_housing_loan",
+      "secondary_categories": [
+        "energy_upgrade"
+      ],
+      "confidence": 0.95,
+      "reasoning": "Το πρόγραμμα 'Εξοικονομώ - Ανακαινίζω για νέους' αφορά πράσινα στεγαστικά δάνεια με υποχρεωτικές ενεργειακές επεμβάσεις, που είναι χαρακτηριστικό της κατηγορίας green_housing_loan. Επιπλέον, περιλαμβάνει ενεργειακές επεμβάσεις όπως θερμομόνωση και ανακαίνιση πυροτεχνικών συστημάτων, που την κάνουν σχετική με την κατηγορία energy_upgrade.",
+      "key_features": [
+        "πράσινα στεγαστικά δάνεια",
+        "ενεργειακές επεμβάσεις"
+      ]
+    }
   }
 ]

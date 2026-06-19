@@ -1,0 +1,48 @@
+\begin{tikzpicture}[
+    source/.style={
+        rectangle,
+        rounded corners=3pt,
+        draw=gray!60,
+        fill=gray!8,
+        align=center,
+        text width=3.55cm,
+        minimum height=1.05cm,
+        font=\sffamily\small
+    },
+    hub/.style={
+        circle,
+        draw=orange!70!black,
+        fill=orange!12,
+        align=center,
+        text width=3.2cm,
+        minimum size=2.85cm,
+        font=\sffamily\small\bfseries
+    },
+    problem/.style={
+        rectangle,
+        rounded corners=3pt,
+        draw=red!55,
+        fill=red!6,
+        align=center,
+        text width=12.5cm,
+        minimum height=0.95cm,
+        font=\sffamily\small
+    },
+    arrow/.style={-{Latex[length=2mm]}, thick, draw=gray!65}
+]
+\node[hub] (hub) at (0,0) {Χρηματοδοτική\\πληροφορία};
+
+\node[source] (public) at (-4.9,2.25) {Δημόσιες πηγές\\ΥΠΕΝ, οδηγοί, προσκλήσεις};
+\node[source] (portals) at (4.9,2.25) {Πύλες προγραμμάτων\\π.χ. Εξοικονομώ};
+\node[source] (banks) at (-4.9,-2.25) {Τράπεζες\\πράσινα δάνεια};
+\node[source] (docs) at (4.9,-2.25) {PDF και ενημερώσεις\\παραρτήματα, παρατάσεις};
+
+\draw[arrow] (public) -- (hub);
+\draw[arrow] (portals) -- (hub);
+\draw[arrow] (banks) -- (hub);
+\draw[arrow] (docs) -- (hub);
+
+\node[problem] at (0,-4.05) {
+Πρόβλημα: διαφορετική δομή, διαφορετική ορολογία, συχνές αλλαγές και δυσκολία σύγκρισης
+};
+\end{tikzpicture}

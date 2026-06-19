@@ -1,0 +1,52 @@
+{
+  "timestamp": "20260617T095859Z",
+  "url": "https://www.alpha.gr/el/idiotes/daneia/episkevastika-daneia-gia-anakainisi/alpha-prasines-luseis-katanalotiko-daneio-gia-to-spiti",
+  "classification": {
+    "is_relevant": true,
+    "primary_category": "green_housing_loan",
+    "secondary_categories": [
+      "home_renewables",
+      "energy_upgrade"
+    ],
+    "confidence": 0.92,
+    "reasoning": "Deterministic scope pass: home energy finance signals found",
+    "key_features": [
+      "deterministic_home_green_finance_scope"
+    ]
+  },
+  "extracted_data": {
+    "programme_name": "Πράσινο Δάνειο για το Σπίτι",
+    "description": "Αποκτήστε πράσινο δάνειο για το σπίτι, εξασφαλίστε την ενεργειακή αναβάθμισή του και εξοικονομήστε χρήματα. Κάντε αίτηση από κινητό ή υπολογιστή, ή κλείστε ραντεβού σε κατάστημα. Ξεκινώ την αίτηση Κλείνω ραντεβού Οικονομία με ενεργειακή αναβάθμιση 8,75% σταθερό επιτόκιο Έχετε σταθερό ονομαστικό επιτόκιο για όλη τη διάρκεια του δανείου. Από 1.500€ έως 30.000€ Εξασφαλίζετε έως 30.000€, ανάλογα με τις εργασίες ενεργειακής αναβάθμισης που θα κάνετε. Μείωση στους λογαριασμούς Κάνετε ενεργειακό συμψηφισμό και μειώνετε το κόστος των λογαριασμών σας. Ανακαλύπτω τα χαρακτηριστικά Δείτε τα χαρακτηριστικά για το καταναλωτικό δάνειο Alpha Πράσινες Λύσεις – Πράσινο δάνειο για το σπίτι. Τι επιτόκιο έχει 8,75% σταθερό επιτόκιο Το ετήσιο ονομαστικό επιτόκιο για το καταναλωτικό δάνειο Alpha Πράσινες Λύσεις – Πράσινο δάνειο για το σπίτι είναι 8,75%. Παραμένει σταθερό για όλη τη διάρκεια του δ",
+    "programme_objective": "Αποκτήστε πράσινο δάνειο για το σπίτι, εξασφαλίστε την ενεργειακή αναβάθμισή του και εξοικονομήστε χρήματα. Κάντε αίτηση από κινητό ή υπολογιστή, ή κλείστε ραντεβού σε κατάστημα. Ξεκινώ την αίτηση Κλείνω ραντεβού Οικονομία με ενεργειακή αναβάθμιση 8,75% σταθερό επιτόκιο Έχετε σταθερό ονομαστικό επιτόκιο για όλη τη διάρκεια του δανείου. Από 1.500€ έως 30.000€ Εξασφαλίζετε έως 30.000€, ανάλογα με τις εργασίες ενεργειακής αναβάθμισης που θα κάνετε. Μείωση στους λογαριασμούς Κάνετε ενεργειακό συμψηφισμό και μειώνετε το κόστος των λογαριασμών σας. Ανακαλύπτω τα χαρακτηριστικά Δείτε τα χαρακτηριστικά για το καταναλωτικό δάνειο Alpha Πράσινες Λύσεις – Πράσινο δάνειο για το σπίτι. Τι επιτόκιο έχει 8,75% σταθερό επιτόκιο Το ετήσιο ονομαστικό επιτόκιο για το καταναλωτικό δάνειο Alpha Πράσινες Λύσεις – Πράσινο δάνειο για το σπίτι είναι 8,75%. Παραμένει σταθερό για όλη τη διάρκεια του δ",
+    "eligible_parties": [],
+    "eligibility_criteria": [],
+    "property_requirements": [],
+    "minimum_funding_amount": "1.500€",
+    "maximum_funding_amount": "30.000€",
+    "funding_type": "Δάνειο",
+    "interest_rate": "8,75%",
+    "funding_coverage": "",
+    "total_budget": "",
+    "funding_sources": [],
+    "duration": "",
+    "loan_duration": "6-96 μήνες",
+    "completion_deadline": "",
+    "application_start_date": "",
+    "application_end_date": "",
+    "energy_performance_targets": "",
+    "eligible_interventions": [
+      "Μονώσεις",
+      "Τοποθέτηση / αντικατάσταση κελύφους για θερμομόνωση",
+      "Εγκατάσταση φωτοβολταϊκών ή άλλων ΑΠΕ"
+    ],
+    "application_process": "",
+    "managing_body": "",
+    "announcement_date": "",
+    "contact_info": [],
+    "additional_details": ""
+  },
+  "repair_metadata": {
+    "source_scraped_file": "C:\\Users\\stavr\\Desktop\\HMMY\\Thesis\\llm-axe\\output\\va3_scraper_to_template\\20260617T001921Z_www.alpha.gr_el_idiotes_daneia_episkevastika-daneia-gia-a...si_alpha-prasines-luseis-katanalotiko-daneio-gia-to-spiti_3ef84f91_scraped.txt",
+    "repair": "source_backed_core_field_repair"
+  }
+}

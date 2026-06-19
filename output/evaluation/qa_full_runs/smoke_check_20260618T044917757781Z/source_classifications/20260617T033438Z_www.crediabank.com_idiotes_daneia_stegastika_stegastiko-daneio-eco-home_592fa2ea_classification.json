@@ -1,0 +1,64 @@
+{
+  "timestamp": "20260617T033438Z",
+  "url": "https://www.crediabank.com/idiotes/daneia/stegastika/stegastiko-daneio-eco-home/",
+  "classification": {
+    "is_relevant": true,
+    "primary_category": "green_housing_loan",
+    "secondary_categories": [
+      "home_renewables",
+      "energy_upgrade"
+    ],
+    "confidence": 0.92,
+    "reasoning": "Deterministic scope pass: home energy finance signals found",
+    "key_features": [
+      "deterministic_home_green_finance_scope"
+    ]
+  },
+  "extracted_data": {
+    "programme_name": "Στεγαστικό Δάνειο Eco Home",
+    "description": "Στεγαστικό Δάνειο Eco Home - CrediaBank Στεγαστικό Δάνειο Eco Home Δάνειο για Ενεργειακή Αναβάθμιση Κατοικίας Εκδήλωση Ενδιαφέροντος Μείωσε το ενεργειακό αποτύπωμα του σπιτιού σου και εξοικονόμησε χρήματα με το Eco Home . Ιδανικό για θέρμανση, θερμομόνωση, κουφώματα ή ηλιακά συστήματα, με δάνειο που προσαρμόζεται στις δυνατότητές σου. Χρηματοδότηση Σου παρέχουμε την απαραίτητη υποστήριξη για να κάνεις το σπίτι σου πιο οικολογικό, αποδοτικό και άνετο. Κάλυψε μέχρι και το 100% του κόστους εργασιών ενεργειακής αναβάθμισης ακινήτου ή και ανακαίνισής του. Η χρηματοδότηση εργασιών ανακαίνισης δεν μπορεί να υπερβαίνει το 40% του συνολικού προϋπολογισμού.",
+    "programme_objective": "Στεγαστικό Δάνειο Eco Home - CrediaBank Στεγαστικό Δάνειο Eco Home Δάνειο για Ενεργειακή Αναβάθμιση Κατοικίας Εκδήλωση Ενδιαφέροντος Μείωσε το ενεργειακό αποτύπωμα του σπιτιού σου και εξοικονόμησε χρήματα με το Eco Home . Ιδανικό για θέρμανση, θερμομόνωση, κουφώματα ή ηλιακά συστήματα, με δάνειο που προσαρμόζεται στις δυνατότητές σου. Χρηματοδότηση Σου παρέχουμε την απαραίτητη υποστήριξη για να κάνεις το σπίτι σου πιο οικολογικό, αποδοτικό και άνετο. Κάλυψε μέχρι και το 100% του κόστους εργασιών ενεργειακής αναβάθμισης ακινήτου ή και ανακαίνισής του. Η χρηματοδότηση εργασιών ανακαίνισης δεν μπορεί να υπερβαίνει το 40% του συνολικού προϋπολογισμού.",
+    "eligible_parties": "",
+    "eligibility_criteria": "",
+    "property_requirements": [
+      "θέρμανση",
+      "θερμομόνωση",
+      "κουφώματα",
+      "ηλιακά συστήματα"
+    ],
+    "minimum_funding_amount": "15.000€",
+    "maximum_funding_amount": "75.000€",
+    "funding_type": "Δάνειο",
+    "interest_rate": [
+      "3,30%",
+      "Euribor 3m πλέον περιθωρίου (spread) 1,70%"
+    ],
+    "funding_coverage": "Κάλυψε μέχρι και το 100% του κόστους εργασιών ενεργειακής αναβάθμισης ακινήτου ή και ανακαίνισής του",
+    "total_budget": "",
+    "funding_sources": [],
+    "duration": "",
+    "loan_duration": "10-15 έτη",
+    "completion_deadline": "",
+    "application_start_date": "",
+    "application_end_date": "",
+    "energy_performance_targets": "",
+    "eligible_interventions": [
+      "Μονώσεις",
+      "Αντικατάσταση κουφωμάτων",
+      "Τοποθέτηση / αντικατάσταση κελύφους για θερμομόνωση",
+      "Αναβάθμιση συστήματος θέρμανσης / ψύξης",
+      "Αναβάθμιση συστήματος ζεστού νερού χρήσης μέσω ΑΠΕ"
+    ],
+    "application_process": "",
+    "managing_body": "",
+    "announcement_date": "",
+    "contact_info": "",
+    "additional_details": "",
+    "completion_delay_consequences": "",
+    "post_completion_obligations": ""
+  },
+  "repair_metadata": {
+    "source_scraped_file": "C:\\Users\\stavr\\Desktop\\HMMY\\Thesis\\llm-axe\\output\\va3_scraper_to_template\\20260617T033055Z_www.crediabank.com_idiotes_daneia_stegastika_stegastiko-daneio-eco-home_592fa2ea_scraped.txt",
+    "repair": "source_backed_core_field_repair"
+  }
+}

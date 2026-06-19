@@ -1,0 +1,62 @@
+{
+  "timestamp": "20260616T181535Z",
+  "url": "https://www.piraeusbank.gr/el/idiwtes/proionta-upiresies/stegastika-daneia/anabathmizo-to-spiti-mou",
+  "classification": {
+    "is_relevant": true,
+    "primary_category": "green_housing_loan",
+    "secondary_categories": [
+      "energy_upgrade"
+    ],
+    "confidence": 0.95,
+    "reasoning": "Το πρόγραμμα \"Αναβαθμίζω το Σπίτι μου\" είναι ένα πράσινο στεγαστικό δάνειο που απαιτεί ενεργειακές επεμβάσεις, όπως θερμομόνωση και τοποθέτηση φωτοβολταϊκών.",
+    "key_features": [
+      "πράσινο στεγαστικό δάνειο",
+      "ενεργειακές επεμβάσεις",
+      "deterministic_home_green_finance_scope"
+    ]
+  },
+  "extracted_data": {
+    "programme_name": "Αναβαθμίζω το Σπίτι μου",
+    "description": "Το πρόγραμμα \"Αναβαθμίζω το Σπίτι μου\" σας προσφέρει τα παρακάτω οφέλη: Άτοκο δάνειο Για το 75% του ποσού του δανείου που χρηματοδοτείται από κεφάλαια του ΤΑΑ.",
+    "programme_objective": "Το πρόγραμμα \"Αναβαθμίζω το Σπίτι μου\" σας προσφέρει τα παρακάτω οφέλη: Άτοκο δάνειο Για το 75% του ποσού του δανείου που χρηματοδοτείται από κεφάλαια του ΤΑΑ.",
+    "eligible_parties": [
+      "φυσικά πρόσωπα"
+    ],
+    "eligibility_criteria": [],
+    "property_requirements": [
+      "υφίσταται νόμιμα",
+      "αυτή έχει χρήση κατοικίας (κύριας ή μη εκμισθωμένης δευτερεύουσας)"
+    ],
+    "minimum_funding_amount": "",
+    "maximum_funding_amount": "400εκ €",
+    "funding_type": "",
+    "interest_rate": "",
+    "funding_coverage": "75% του ποσού του δανείου που χρηματοδοτείται από κεφάλαια του ΤΑΑ και σταθερό επιτόκιο για το υπόλοιπο 25% του δανείου που προέρχεται από κεφάλαια της Τράπεζας",
+    "total_budget": "",
+    "funding_sources": [],
+    "duration": "",
+    "loan_duration": "",
+    "completion_deadline": "",
+    "application_start_date": "12.02.2025",
+    "application_end_date": "31.05.2026",
+    "energy_performance_targets": [
+      "1.1.Θερμομόνωση (εσωτερική/εξωτερική)",
+      "1.2.Κατασκευή πράσινης στέγης",
+      "1.3.Τοποθέτηση Ενεργειακών Κουφωμάτων-Υαλοπινάκων",
+      "1.4.Τοποθέτηση Ηλιακού Θερμοσίφωνα",
+      "1.5.Εγκατάσταση συστημάτων εξωτερικής μόνιμης σκίασης (όχι τέντες)",
+      "1.6.Τοποθέτηση συστήματος Θέρμανσης-Ψύξης , αποκλειστικά με την αξιοποίηση ανανεώσιμης πηγής ενέργειας ή με σύστημα συμπαραγωγής ηλεκτρισμού"
+    ],
+    "eligible_interventions": [],
+    "application_process": "",
+    "managing_body": "",
+    "announcement_date": "",
+    "contact_info": [],
+    "additional_details": "",
+    "source_url": "https://www.piraeusbank.gr/el/idiwtes/proionta-upiresies/stegastika-daneia/anabathmizo-to-spiti-mou",
+    "source_urls": [
+      "https://www.piraeusbank.gr/el/idiwtes/proionta-upiresies/stegastika-daneia/anabathmizo-to-spiti-mou"
+    ],
+    "id": "program-314a39ffae"
+  }
+}

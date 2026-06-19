@@ -1,0 +1,15 @@
+{
+  "experiment_id": "exp_20260616_191328_20e86583",
+  "timestamp": "2026-06-16T19:13:28.501527+00:00",
+  "model": "llama3.2:latest",
+  "temperature": 0.0,
+  "hyperparameters": {
+    "filter": "keyword_prescreen"
+  },
+  "prompt": "[Keyword Pre-screen]",
+  "sources": [
+    "https://hdb.gr/en/green-co-financing-loans/"
+  ],
+  "terminal_output": "REJECTED at keyword pre-screen (before extraction)",
+  "template_output_file": null
+}

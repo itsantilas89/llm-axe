@@ -1,0 +1,39 @@
+12:51:47 HEALTH {'status': 'ok', 'program_count': 0, 'candidate_count': 25}
+12:51:47 START Alpha EV-only loan expected=False url=https://www.alpha.gr/el/idiotes/daneia/katanalotika-daneia/alpha-prasines-luseis-daneio-ilektriko-autokinito
+12:51:47 JOB Alpha EV-only loan id=f284c117737e
+12:51:52 DONE Alpha EV-only loan expected=False actual=False passed=True saved=0 job=f284c117737e
+12:51:52 START Piraeus EV-only loan expected=False url=https://www.piraeusbank.gr/el/idiwtes/proionta-upiresies/daneia/proswpika/katanalotiko-daneio-ev-loan-gia-agora-ilektrikou-autokinitou
+12:51:52 JOB Piraeus EV-only loan id=7e3de8c7dc6c
+12:52:02 DONE Piraeus EV-only loan expected=False actual=False passed=True saved=0 job=7e3de8c7dc6c
+12:52:02 START Kinoumai Ilektrika III expected=False url=https://kinoumeilektrika3.gov.gr/
+12:52:02 JOB Kinoumai Ilektrika III id=6bcc9fb61ff8
+12:52:07 DONE Kinoumai Ilektrika III expected=False actual=False passed=True saved=0 job=6bcc9fb61ff8
+12:52:07 START gov.gr Kinoumai Ilektrika III expected=False url=https://www.gov.gr/ipiresies/polites-kai-kathemerinoteta/periballon-kai-poioteta-zoes/kinoumai-elektrika-iii
+12:52:07 JOB gov.gr Kinoumai Ilektrika III id=8fe56dec1790
+12:52:42 DONE gov.gr Kinoumai Ilektrika III expected=False actual=False passed=True saved=0 job=8fe56dec1790
+12:52:42 START HDB Green Co-Financing SME expected=False url=https://hdb.gr/growth-fund-green-co-financing-loans/
+12:52:42 JOB HDB Green Co-Financing SME id=198679ab23ec
+12:52:47 DONE HDB Green Co-Financing SME expected=False actual=False passed=True saved=0 job=198679ab23ec
+12:52:47 START Exoikonomo Epixeiro expected=False url=https://exoikonomoepixeiro.energy-invest.gov.gr/
+12:52:47 JOB Exoikonomo Epixeiro id=7a22cb264dbf
+12:52:52 DONE Exoikonomo Epixeiro expected=False actual=False passed=True saved=0 job=7a22cb264dbf
+12:52:52 START HLEKTRA public buildings expected=False url=https://hlektra.gov.gr/home
+12:52:52 JOB HLEKTRA public buildings id=ab84d5efa2f0
+12:52:57 DONE HLEKTRA public buildings expected=False actual=False passed=True saved=0 job=ab84d5efa2f0
+12:52:57 START Piraeus business photovoltaic expected=False url=https://www.piraeusbank.gr/el/epixeiriseis-epaggelmaties/xrimatodotiseis-programmata-xrimatodotisis/mikres-mesaies-epixeiriseis/prasines-xrimatodotiseis/peiraiws-epixeirein-fwtoboltaiko
+12:52:57 JOB Piraeus business photovoltaic id=6b07a30e340c
+12:53:07 DONE Piraeus business photovoltaic expected=False actual=False passed=True saved=0 job=6b07a30e340c
+12:53:07 START Piraeus business net metering expected=False url=https://www.piraeusbank.gr/el/epixeiriseis-epaggelmaties/xrimatodotiseis-programmata-xrimatodotisis/mikres-mesaies-epixeiriseis/prasines-xrimatodotiseis/peiraiws-net-metering
+12:53:07 JOB Piraeus business net metering id=1dd23cc91446
+12:53:17 DONE Piraeus business net metering expected=False actual=False passed=True saved=0 job=1dd23cc91446
+12:53:17 START Alpha green home loan expected=True url=https://www.alpha.gr/el/idiotes/daneia/episkevastika-daneia-gia-anakainisi/alpha-prasines-luseis-katanalotiko-daneio-gia-to-spiti
+12:53:17 JOB Alpha green home loan id=dde677427b24
+12:59:04 DONE Alpha green home loan expected=True actual=True passed=True saved=1 job=dde677427b24
+12:59:04 START Piraeus green consumer home repairs expected=True url=https://www.piraeusbank.gr/el/idiwtes/proionta-upiresies/daneia/proswpika/katanalwtiko-daneio-green-gia-prasines-episkeves
+12:59:04 JOB Piraeus green consumer home repairs id=37e4587fac57
+13:03:56 DONE Piraeus green consumer home repairs expected=True actual=True passed=True saved=1 job=37e4587fac57
+13:03:56 START Piraeus green repair secured expected=True url=https://www.piraeusbank.gr/el/idiwtes/proionta-upiresies/stegastika-daneia/prasino-episkeuastiko-daneio-me-eksasfalisi
+13:03:56 JOB Piraeus green repair secured id=053a57765a2a
+13:09:12 DONE Piraeus green repair secured expected=True actual=True passed=True saved=1 job=053a57765a2a
+13:09:12 START Chania Anavathmizo expected=True url=https://www.chaniabank.gr/idiotes/dania/anavathmizo-to-spiti-moy/
+13:09:12 JOB Chania Anavathmizo id=971b47d10d43

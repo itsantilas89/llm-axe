@@ -1,0 +1,17 @@
+{
+  "started": "20260616T195643Z",
+  "results": [
+    {
+      "url": "https://stegasi.gov.gr/programs/anavathmizo-to-spiti-mou/",
+      "status": "ok",
+      "returncode": 0,
+      "seconds": 223.176132
+    },
+    {
+      "url": "https://stegasi.gov.gr/programs/exoikonomo-2025/",
+      "status": "ok",
+      "returncode": 0,
+      "seconds": 379.437348
+    }
+  ]
+}

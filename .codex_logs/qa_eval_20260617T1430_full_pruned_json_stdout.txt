@@ -1,0 +1,37 @@
+14:30:23 Targets selected: 25
+14:30:24 [all15] Program 1/25: Credia Eco ?????? | https://www.crediabank.com/idiotes/daneia/eco-katanalotika/eco-lyseis-energeiaki-anavathmisi-katoikias/
+14:36:16 [all15] Answer 1/375 (Credia Eco ??????, q1) ETA 2194.0m
+14:36:16 [all15] Answer 2/375 (Credia Eco ??????, q2) ETA 1094.1m
+14:36:16 [all15] Answer 3/375 (Credia Eco ??????, q3) ETA 727.4m
+14:37:44 [all15] Answer 4/375 (Credia Eco ??????, q4) ETA 680.1m
+14:37:44 [all15] Answer 5/375 (Credia Eco ??????, q5) ETA 542.6m
+14:37:44 [all15] Answer 6/375 (Credia Eco ??????, q6) ETA 451.0m
+14:38:36 [all15] Answer 7/375 (Credia Eco ??????, q7) ETA 431.5m
+14:38:36 [all15] Answer 8/375 (Credia Eco ??????, q8) ETA 376.5m
+14:38:36 [all15] Answer 9/375 (Credia Eco ??????, q9) ETA 333.8m
+14:41:05 [all15] Answer 10/375 (Credia Eco ??????, q10) ETA 390.2m
+14:41:05 [all15] Answer 11/375 (Credia Eco ??????, q11) ETA 353.8m
+14:41:05 [all15] Answer 12/375 (Credia Eco ??????, q12) ETA 323.4m
+14:41:47 [all15] Answer 13/375 (Credia Eco ??????, q13) ETA 317.1m
+14:41:47 [all15] Answer 14/375 (Credia Eco ??????, q14) ETA 293.6m
+14:41:47 [all15] Answer 15/375 (Credia Eco ??????, q15) ETA 273.3m
+14:41:47 [all15] Program 2/25: Eco ?????? - Net Metering | https://www.crediabank.com/idiotes/daneia/eco-katanalotika/eco-lyseis-net-metering-egkatastasi-oikiakon-fv-sustimaton/
+14:45:53 [all15] Answer 16/375 (Eco ?????? - Net Metering, q1) ETA 347.5m
+14:45:53 [all15] Answer 17/375 (Eco ?????? - Net Metering, q2) ETA 326.2m
+14:45:53 [all15] Answer 18/375 (Eco ?????? - Net Metering, q3) ETA 307.2m
+14:46:58 [all15] Answer 19/375 (Eco ?????? - Net Metering, q4) ETA 310.4m
+14:46:58 [all15] Answer 20/375 (Eco ?????? - Net Metering, q5) ETA 294.1m
+14:46:58 [all15] Answer 21/375 (Eco ?????? - Net Metering, q6) ETA 279.3m
+14:47:47 [all15] Answer 22/375 (Eco ?????? - Net Metering, q7) ETA 279.1m
+14:47:47 [all15] Answer 23/375 (Eco ?????? - Net Metering, q8) ETA 266.2m
+14:47:47 [all15] Answer 24/375 (Eco ?????? - Net Metering, q9) ETA 254.4m
+14:49:47 [all15] Answer 25/375 (Eco ?????? - Net Metering, q10) ETA 271.4m
+14:49:47 [all15] Answer 26/375 (Eco ?????? - Net Metering, q11) ETA 260.2m
+14:49:47 [all15] Answer 27/375 (Eco ?????? - Net Metering, q12) ETA 249.9m
+14:50:26 [all15] Answer 28/375 (Eco ?????? - Net Metering, q13) ETA 248.4m
+14:50:26 [all15] Answer 29/375 (Eco ?????? - Net Metering, q14) ETA 239.1m
+14:50:26 [all15] Answer 30/375 (Eco ?????? - Net Metering, q15) ETA 230.5m
+14:50:26 [all15] Program 3/25: Exoikonomo 2025 | https://www.crediabank.com/idiotes/daneia/hrimatodotika-programmata/exoikonomo-2025/
+14:54:37 [all15] Answer 31/375 (Exoikonomo 2025, q1) ETA 268.8m
+14:54:37 [all15] Answer 32/375 (Exoikonomo 2025, q2) ETA 259.6m
+14:54:37 [all15] Answer 33/375 (Exoikonomo 2025, q3) ETA 251.0m

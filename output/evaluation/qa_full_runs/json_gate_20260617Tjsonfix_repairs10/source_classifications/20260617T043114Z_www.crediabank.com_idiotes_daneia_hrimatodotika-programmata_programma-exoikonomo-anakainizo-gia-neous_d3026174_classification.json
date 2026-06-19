@@ -1,0 +1,68 @@
+{
+  "timestamp": "20260617T043114Z",
+  "url": "https://www.crediabank.com/idiotes/daneia/hrimatodotika-programmata/programma-exoikonomo-anakainizo-gia-neous/",
+  "classification": {
+    "is_relevant": true,
+    "primary_category": "green_housing_loan",
+    "secondary_categories": [
+      "energy_upgrade"
+    ],
+    "confidence": 0.92,
+    "reasoning": "Deterministic scope pass: home energy finance signals found",
+    "key_features": [
+      "deterministic_home_green_finance_scope"
+    ]
+  },
+  "extracted_data": {
+    "programme_name": "Εξοικονομώ – Ανακαινίζω για Νέους",
+    "description": "Το πρόγραμμα καλύπτει από 40% έως 75% (με πρόσθετη επιχορήγηση 15% για πολύτεκνους) του ποσού των επιλέξιμων ενεργειακών παρεμβάσεων, ενώ το υπόλοιπο ποσό μπορεί να καλυφθεί από άτοκο δάνειο.",
+    "programme_objective": "στήριξη των νέων, σου δίνουμε τη δυνατότητα να εξασφαλίσεις μία πλήρη ενεργειακή αναβάθμιση και ανακαίνιση της κατοικίας σου",
+    "eligible_parties": [
+      "νέοι",
+      "πλήρεις κύριοι",
+      "επικαρπωτές"
+    ],
+    "eligibility_criteria": [
+      "ατομικό εισόδημα έως €30.000 και οικογενειακό εισόδημα έως €50.000",
+      "η συνολική αξία της ακίνητης περιουσίας να είναι ίση ή μικρότερη από 300.000 €"
+    ],
+    "property_requirements": [
+      "υφίσταται νόμιμα",
+      "χρησιμοποιείται ως κύρια κατοικία",
+      "ακίνητο να το ιδιοκατοίκουν"
+    ],
+    "minimum_funding_amount": "",
+    "maximum_funding_amount": "",
+    "funding_type": "Δάνειο",
+    "interest_rate": "σταθερό 6,50%, επιδοτούμενο κατά 100%, πλέον εισφοράς του Ν. 128/75",
+    "funding_coverage": "30%",
+    "total_budget": "96.792.060,20 €",
+    "funding_sources": [
+      "Ταμείο Ανάκαμψης και Ανθεκτικότητας",
+      "Δημόσια Υπηρεσία Απασχόλησης"
+    ],
+    "duration": "",
+    "loan_duration": "4, 5 ή 6 έτη",
+    "completion_deadline": "",
+    "application_start_date": "",
+    "application_end_date": "",
+    "energy_performance_targets": [
+      "υποχρεωτική ένταξη πρώτα στην υποενότητα του «Εξοικονομώ»",
+      "30% του ποσού των επιλέξιμων ενεργειακών παρεμβάσεων"
+    ],
+    "eligible_interventions": [
+      "παρεμβάσεις ενεργειακής εξοικονόμησης",
+      "ανακαίνιση κατοικίας",
+      "προμήθεια και τοποθέτηση ενεργειακά αποδοτικών οικιακών ηλεκτρικών συσκευών"
+    ],
+    "application_process": "",
+    "managing_body": "",
+    "announcement_date": "",
+    "contact_info": "",
+    "additional_details": ""
+  },
+  "repair_metadata": {
+    "source_scraped_file": "C:\\Users\\stavr\\Desktop\\HMMY\\Thesis\\llm-axe\\output\\va3_scraper_to_template\\20260617T033445Z_www.crediabank.com_idiotes_daneia_hrimatodotika-programmata_programma-exoikonomo-anakainizo-gia-neous_d3026174_scraped.txt",
+    "repair": "source_backed_core_field_repair"
+  }
+}

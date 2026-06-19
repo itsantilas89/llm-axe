@@ -1,0 +1,70 @@
+{
+  "id": "program-f784a97ef9",
+  "timestamp": "20260617T153858Z",
+  "url": "https://www.nbg.gr/el/idiwtes/daneia/daneia-exoikonomisis-energeias",
+  "source_urls": [
+    "https://www.nbg.gr/el/idiwtes/daneia/daneia-exoikonomisis-energeias"
+  ],
+  "source_files": [
+    "C:\\Users\\stavr\\Desktop\\HMMY\\Thesis\\llm-axe\\output\\va4_product_discoverer\\20260616T210705Z_www.nbg.gr_el_idiwtes_daneia_daneia-exoikonomisis-energeias_f784a97e_classification.json"
+  ],
+  "merged_from_count": 1,
+  "merged": true,
+  "field_sources": {
+    "contact_info": [
+      "https://www.nbg.gr/el/idiwtes/daneia/daneia-exoikonomisis-energeias"
+    ],
+    "description": "https://www.nbg.gr/el/idiwtes/daneia/daneia-exoikonomisis-energeias",
+    "eligible_interventions": [
+      "https://www.nbg.gr/el/idiwtes/daneia/daneia-exoikonomisis-energeias"
+    ],
+    "eligible_parties": [
+      "https://www.nbg.gr/el/idiwtes/daneia/daneia-exoikonomisis-energeias"
+    ],
+    "funding_sources": [
+      "https://www.nbg.gr/el/idiwtes/daneia/daneia-exoikonomisis-energeias"
+    ],
+    "funding_type": "https://www.nbg.gr/el/idiwtes/daneia/daneia-exoikonomisis-energeias",
+    "programme_name": "https://www.nbg.gr/el/idiwtes/daneia/daneia-exoikonomisis-energeias",
+    "programme_objective": "https://www.nbg.gr/el/idiwtes/daneia/daneia-exoikonomisis-energeias"
+  },
+  "extracted_data": {
+    "contact_info": [
+      "210 690 5200",
+      "Εστία Πράσινη online"
+    ],
+    "description": "Δάνεια Εξοικονόμησης Ενέργειας | Εθνική Τράπεζα Δάνεια Εξοικονόμησης Ενέργειας Πείτε \"ναι\" στα θέλω σας με σεβασμό προς το περιβάλλον Βρείτε το δάνειο Εξοικονόμησης Ενέργειας που ταιριάζει στα θέλω σας Εστία Πράσινη Ενεργειακά αναβαθμισμένο σπίτι Πράσινο Δάνειο με την εγγύηση του Ευρωπαϊκού Ταμείου Επενδύσεων (EIF).",
+    "eligible_interventions": [
+      "πράσινο δάνειο με την εγγύηση του Ευρωπαϊκού Ταμείου Επενδύσεων (EIF)",
+      "αναβαθμισμένο σπίτι",
+      "πράσινο δάνειο για την απόκτηση λύσεων εξοικονόμησης ενέργειας"
+    ],
+    "eligible_parties": [
+      "Ιδιώτες"
+    ],
+    "funding_sources": [
+      "Ευρωπαϊκό Ταμείο Επενδύσεων (EIF)"
+    ],
+    "funding_type": "Δάνειο",
+    "programme_name": "Εξοικονομώ",
+    "programme_objective": "Δάνεια Εξοικονόμησης Ενέργειας | Εθνική Τράπεζα Δάνεια Εξοικονόμησης Ενέργειας Πείτε \"ναι\" στα θέλω σας με σεβασμό προς το περιβάλλον Βρείτε το δάνειο Εξοικονόμησης Ενέργειας που ταιριάζει στα θέλω σας Εστία Πράσινη Ενεργειακά αναβαθμισμένο σπίτι Πράσινο Δάνειο με την εγγύηση του Ευρωπαϊκού Ταμείου Επενδύσεων (EIF).",
+    "source_urls": [
+      "https://www.nbg.gr/el/idiwtes/daneia/daneia-exoikonomisis-energeias"
+    ],
+    "source_url": "https://www.nbg.gr/el/idiwtes/daneia/daneia-exoikonomisis-energeias",
+    "id": "program-f784a97ef9"
+  },
+  "classification": {
+    "is_relevant": true,
+    "primary_category": "green_housing_loan",
+    "secondary_categories": [
+      "energy_upgrade",
+      "home_renewables"
+    ],
+    "confidence": 0.92,
+    "reasoning": "Merged source-backed JSON from 1 relevant URL(s).",
+    "key_features": [
+      "deterministic_home_green_finance_scope"
+    ]
+  }
+}

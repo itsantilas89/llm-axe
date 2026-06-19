@@ -6,10 +6,14 @@ import sys
 from datetime import datetime, timezone
 from pathlib import Path
 
+ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT))
+
+from llm_axe.qa_prompting import build_single_qa_prompt, deterministic_qa_out_of_scope_answer
+
 
 def _safe_import_ollama_chat():
     """Import OllamaChat lazily so batch QA can run without eager model loading."""
-    sys.path.insert(0, str(Path(__file__).parent.parent))
     from llm_axe.models import OllamaChat
 
     return OllamaChat
@@ -48,23 +52,14 @@ def _save_qa_responses(
 
 
 def _build_prompt(program_data: dict, question: str) -> list[dict]:
-    system_prompt = (
-        "Είσαι ένας ειδικός σύμβουλος πράσινων δανείων. "
-        "Απάντησε σύντομα και με ακρίβεια στη σχετική ερώτηση, "
-        "βασιζόμενος ΜΟΝΟ στα δομημένα δεδομένα του προγράμματος. "
-        "Αν δεν γνωρίζεις την απάντηση, πες 'Δεν υπάρχει πληροφορία'."
-    )
-    user_prompt = (
-        f"Πληροφορίες προγράμματος:\n{json.dumps(program_data, ensure_ascii=False, indent=2)}\n\n"
-        f"ΕΡΩΤΗΣΗ: {question}"
-    )
-    return [
-        {"role": "system", "content": system_prompt},
-        {"role": "user", "content": user_prompt},
-    ]
+    return build_single_qa_prompt(program_data, question)
 
 
 def ask_llm(llm, program_data: dict, question: str) -> str:
+    out_of_scope_answer = deterministic_qa_out_of_scope_answer(question)
+    if out_of_scope_answer:
+        return out_of_scope_answer
+
     try:
         answer = llm.ask(_build_prompt(program_data, question), format="", temperature=0.2)
         return answer.strip()
@@ -81,6 +76,7 @@ def run_batch(
     target_url: str,
     classification_file_name: str,
     custom_questions: list[str],
+    repeat_each_question: int,
 ) -> int:
     classification_files = sorted(classification_dir.glob("*_classification.json"))
     if max_files > 0:
@@ -103,7 +99,13 @@ def run_batch(
 
     print("📊 QA Batch Runner")
     print(f"   Files: {len(classification_files)}")
-    print(f"   Questions per program: {len(custom_questions)}")
+    if repeat_each_question > 1:
+        print(
+            f"   Questions per program: {len(custom_questions)} "
+            f"(x{repeat_each_question} repeats = {len(custom_questions) * repeat_each_question} answers)"
+        )
+    else:
+        print(f"   Questions per program: {len(custom_questions)}")
     print(f"   Output dir: {output_dir}")
     print(f"   LLM: {llm_model}")
     print()
@@ -141,17 +143,23 @@ def run_batch(
             print(f"   URL: {classification_data.get('url', '')}")
 
             for idx, question in enumerate(questions, 1):
-                question_id = f"q{idx}"
-                answer = ask_llm(llm, extracted_data, question)
-                qa_responses.append(
-                    {
-                        "question_id": question_id,
-                        "question": question,
-                        "answer": answer,
-                        "timestamp": datetime.now(timezone.utc).isoformat(),
-                        "source": "batch_qa_runner",
-                    }
-                )
+                for repeat_idx in range(1, repeat_each_question + 1):
+                    question_id = f"q{idx}"
+                    if repeat_each_question > 1:
+                        question_id = f"{question_id}_r{repeat_idx}"
+
+                    answer = ask_llm(llm, extracted_data, question)
+                    qa_responses.append(
+                        {
+                            "question_id": question_id,
+                            "question": question,
+                            "answer": answer,
+                            "repeat_index": repeat_idx,
+                            "repeat_count": repeat_each_question,
+                            "timestamp": datetime.now(timezone.utc).isoformat(),
+                            "source": "batch_qa_runner",
+                        }
+                    )
 
             saved_path = _save_qa_responses(
                 url=classification_data.get("url", ""),
@@ -242,6 +250,12 @@ def main() -> int:
         default="",
         help="Optional text or JSON file with custom questions to ask. One question per line or a JSON list of strings.",
     )
+    parser.add_argument(
+        "--repeat-each-question",
+        type=int,
+        default=1,
+        help="Ask each provided question this many times in the same QA run.",
+    )
 
     args = parser.parse_args()
 
@@ -250,6 +264,10 @@ def main() -> int:
 
     if not classification_dir.exists():
         print(f"❌ Classification directory not found: {classification_dir}")
+        return 1
+
+    if args.repeat_each_question < 1:
+        print("ERROR: --repeat-each-question must be >= 1.")
         return 1
 
     questions = list(args.question)
@@ -279,6 +297,7 @@ def main() -> int:
         target_url=args.url,
         classification_file_name=args.classification_file,
         custom_questions=questions,
+        repeat_each_question=args.repeat_each_question,
     )
 
 

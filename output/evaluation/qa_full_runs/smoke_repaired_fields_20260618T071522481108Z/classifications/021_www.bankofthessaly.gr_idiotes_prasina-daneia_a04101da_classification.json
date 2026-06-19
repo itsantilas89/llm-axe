@@ -1,0 +1,48 @@
+{
+  "id": "program-a04101daf7",
+  "timestamp": "20260618T071536Z",
+  "url": "https://www.bankofthessaly.gr/idiotes/prasina-daneia/",
+  "source_urls": [
+    "https://www.bankofthessaly.gr/idiotes/prasina-daneia/"
+  ],
+  "source_files": [
+    "C:\\Users\\stavr\\Desktop\\HMMY\\Thesis\\llm-axe\\output\\va4_product_discoverer\\20260617T020401Z_www.bankofthessaly.gr_idiotes_prasina-daneia_a04101da_classification.json"
+  ],
+  "merged_from_count": 1,
+  "merged": true,
+  "field_sources": {
+    "description": "https://www.bankofthessaly.gr/idiotes/prasina-daneia/",
+    "funding_type": "https://www.bankofthessaly.gr/idiotes/prasina-daneia/",
+    "id": "https://www.bankofthessaly.gr/idiotes/prasina-daneia/",
+    "programme_name": "https://www.bankofthessaly.gr/idiotes/prasina-daneia/",
+    "programme_objective": "https://www.bankofthessaly.gr/idiotes/prasina-daneia/",
+    "source_url": "https://www.bankofthessaly.gr/idiotes/prasina-daneia/",
+    "source_urls": [
+      "https://www.bankofthessaly.gr/idiotes/prasina-daneia/"
+    ]
+  },
+  "extracted_data": {
+    "description": "Τράπεζα Θεσσαλίας - Πράσινα Δάνεια Χρηματοδοτούμε τη βιωσιμότητα, γιατί το μέλλον είναι πράσινο. Πράσινα Δάνεια Εξοικονομώ 2025 μάθετε περισσότερα Πρόγραμμα «Αναβαθμίζω το σπίτι μου» μάθετε περισσότερα Εξοικονομώ-Ανακαινίζω για Νέους μάθετε περισσότερα Εξοικονομώ 2023 μάθετε περισσότερα Green Life μάθετε περισσότερα Mobile app Η Συνεταιριστική Τράπεζα Θεσσαλίας στο κινητό σου! Με τη νέα εφαρμογή ThessalyBank διαχειρίζεστε εύκολα και με ασφάλεια τα οικονομικά σας, όπου κι αν βρίσκεστε – όλα με ένα άγγιγμα. Άμεσα διαθέσιμη για εγκατάσταση. Κλείσιμο",
+    "funding_type": "Δάνειο",
+    "id": "program-a04101daf7",
+    "programme_name": "Τράπεζα Θεσσαλίας - Πράσινα Δάνεια",
+    "programme_objective": "Τράπεζα Θεσσαλίας - Πράσινα Δάνεια Χρηματοδοτούμε τη βιωσιμότητα, γιατί το μέλλον είναι πράσινο. Πράσινα Δάνεια Εξοικονομώ 2025 μάθετε περισσότερα Πρόγραμμα «Αναβαθμίζω το σπίτι μου» μάθετε περισσότερα Εξοικονομώ-Ανακαινίζω για Νέους μάθετε περισσότερα Εξοικονομώ 2023 μάθετε περισσότερα Green Life μάθετε περισσότερα Mobile app Η Συνεταιριστική Τράπεζα Θεσσαλίας στο κινητό σου! Με τη νέα εφαρμογή ThessalyBank διαχειρίζεστε εύκολα και με ασφάλεια τα οικονομικά σας, όπου κι αν βρίσκεστε – όλα με ένα άγγιγμα. Άμεσα διαθέσιμη για εγκατάσταση. Κλείσιμο",
+    "source_url": "https://www.bankofthessaly.gr/idiotes/prasina-daneia/",
+    "source_urls": [
+      "https://www.bankofthessaly.gr/idiotes/prasina-daneia/"
+    ]
+  },
+  "classification": {
+    "is_relevant": true,
+    "primary_category": "green_housing_loan",
+    "secondary_categories": [
+      "energy_upgrade",
+      "home_renewables"
+    ],
+    "confidence": 0.84,
+    "reasoning": "Merged source-backed JSON from 1 relevant URL(s).",
+    "key_features": [
+      "deterministic_home_green_finance_scope"
+    ]
+  }
+}

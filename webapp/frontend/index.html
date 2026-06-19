@@ -1,50 +1,104 @@
 <!doctype html>
-<html lang="en">
+<html lang="el">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Funding Programs Viewer</title>
+  <title>Προγράμματα Χρηματοδότησης</title>
   <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
   <header class="topbar">
-    <h1>Funding Programs - Prototype</h1>
-    <button id="toggle-admin" type="button">Admin</button>
+    <div>
+      <h1>Προγράμματα Χρηματοδότησης</h1>
+      <p id="health" class="muted">Σύνδεση...</p>
+    </div>
+    <nav class="role-tabs" aria-label="Ρόλοι">
+      <button id="user-tab" class="active" type="button">User</button>
+      <button id="admin-tab" type="button">Admin</button>
+    </nav>
   </header>
 
-  <main class="layout">
-    <section class="panel" aria-label="Programs list">
-      <h2>Programs</h2>
+  <main id="user-view" class="workspace">
+    <section class="programs-pane" aria-label="Λίστα προγραμμάτων">
+      <div class="pane-header">
+        <h2>Διαθέσιμα</h2>
+        <button id="refresh-programs" type="button" title="Ανανέωση">↻</button>
+      </div>
       <ul id="program-list" class="program-list"></ul>
     </section>
 
-    <section class="panel" aria-label="Program details">
-      <h2>Details</h2>
-      <div id="details" class="details"></div>
+    <section class="details-pane" aria-label="Στοιχεία προγράμματος">
+      <div id="details" class="details empty-state">Επιλέξτε πρόγραμμα από τη λίστα.</div>
     </section>
 
-    <section class="panel" aria-label="Program chat">
-      <h2>Chat</h2>
+    <section class="chat-pane" aria-label="Συνομιλία">
+      <div class="pane-header">
+        <h2>Ερώτηση</h2>
+        <span id="chat-model-badge" class="badge">QA model</span>
+      </div>
+      <label class="field-label" for="qa-model">QA LLM model</label>
+      <input id="qa-model" type="text" value="llama3.1:8b-instruct-q4_K_M">
       <div id="suggestions" class="suggestions"></div>
       <div id="chat-box" class="chat-box"></div>
       <form id="chat-form" class="chat-form">
-        <input id="chat-input" type="text" placeholder="Ask about selected program" required>
-        <button type="submit">Send</button>
+        <input id="chat-input" type="text" placeholder="Ρωτήστε για το επιλεγμένο πρόγραμμα" required>
+        <button type="submit">Αποστολή</button>
       </form>
     </section>
   </main>
 
-  <section id="admin-panel" class="admin hidden" aria-label="Admin panel">
-    <h2>Admin JSON Editor</h2>
-    <p id="admin-source" class="muted"></p>
-    <textarea id="admin-json" rows="16" spellcheck="false"></textarea>
-    <div class="admin-actions">
-      <button id="admin-load" type="button">Load Selected JSON</button>
-      <button id="admin-save" type="button">Save</button>
-    </div>
-    <p id="admin-status" class="muted"></p>
-  </section>
+  <main id="admin-view" class="admin-workspace hidden">
+    <section class="admin-column" aria-label="Crawl">
+      <div class="pane-header">
+        <h2>Επεξεργασία URL</h2>
+      </div>
+      <label class="field-label" for="custom-url">URL</label>
+      <input id="custom-url" type="url" placeholder="https://...">
+      <label class="field-label" for="model-fast">Fast LLM model</label>
+      <input id="model-fast" type="text" value="llama3.2:latest">
+      <label class="field-label" for="model-classification">Classification LLM model</label>
+      <input id="model-classification" type="text" value="llama3.1:8b-instruct-q4_K_M">
+      <div class="crawl-actions">
+        <button id="start-crawl" class="primary" type="button">Αξιολόγηση link</button>
+        <button id="check-all-links" type="button">Επανεξέταση γνωστών VA4 links</button>
+      </div>
+    </section>
 
-  <script src="./app.js"></script>
+    <section class="admin-column wide" aria-label="Κατάσταση εκτέλεσης">
+      <div class="pane-header">
+        <h2>Κατάσταση</h2>
+        <span id="job-status" class="badge">Ανενεργό</span>
+      </div>
+      <p id="job-message" class="muted">Δεν έχει ξεκινήσει επεξεργασία URL.</p>
+      <div id="discovered-list" class="discovered-list"></div>
+      <pre id="job-log" class="job-log empty-log">Τα μηνύματα εκτέλεσης θα εμφανιστούν εδώ.</pre>
+    </section>
+
+    <section class="admin-column editor" aria-label="JSON editor">
+      <div class="pane-header">
+        <h2>JSON</h2>
+      </div>
+      <label class="field-label" for="admin-program-select">Πρόγραμμα</label>
+      <div id="admin-status-filters" class="status-filters" aria-label="Φίλτρο κατάστασης"></div>
+      <select id="admin-program-select">
+        <option value="">Επιλέξτε πρόγραμμα...</option>
+      </select>
+      <label class="field-label" for="admin-review-status">Κατάσταση</label>
+      <select id="admin-review-status">
+        <option value="needs_review">needs_review</option>
+        <option value="approved">approved</option>
+        <option value="rejected">rejected</option>
+      </select>
+      <p id="admin-source" class="muted">Επιλέξτε πρόγραμμα.</p>
+      <textarea id="admin-json" spellcheck="false"></textarea>
+      <div class="editor-actions">
+        <button id="admin-load" type="button">Φόρτωση</button>
+        <button id="admin-save" class="primary" type="button">Αποθήκευση</button>
+      </div>
+      <p id="admin-status" class="muted"></p>
+    </section>
+  </main>
+
+  <script src="./app.js?v=20260604-1"></script>
 </body>
 </html>

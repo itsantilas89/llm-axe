@@ -130,6 +130,9 @@ ENV/
 env.bak/
 venv.bak/
 
+# Local model downloads
+models/huggingface/
+
 # Spyder project settings
 .spyderproject
 .spyproject

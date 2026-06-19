@@ -1,0 +1,11 @@
+Supplemental batch started 20260616T215839Z
+
+[1/3] START https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/green-fast-loan
+[1/3] END error UnicodeEncodeError: 'charmap' codec can't encode characters in position 272-282: character maps to <undefined>
+
+[2/3] START https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/prasino-daneio-katoikias-eksoikonomisi-energeias
+[2/3] END error UnicodeEncodeError: 'charmap' codec can't encode characters in position 272-282: character maps to <undefined>
+
+[3/3] START https://www.nbg.gr/el/idiwtes/daneia/daneia-exoikonomisis-energeias/prasino-daneio
+[3/3] END error UnicodeEncodeError: 'charmap' codec can't encode characters in position 272-282: character maps to <undefined>
+Supplemental batch summary: C:\Users\stavr\Desktop\HMMY\Thesis\llm-axe\.codex_logs\supplemental_va4_batch_20260616T215839Z_summary.json

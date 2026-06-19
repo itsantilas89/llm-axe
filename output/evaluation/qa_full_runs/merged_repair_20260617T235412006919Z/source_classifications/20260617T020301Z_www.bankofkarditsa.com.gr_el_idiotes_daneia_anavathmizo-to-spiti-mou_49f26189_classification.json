@@ -1,0 +1,64 @@
+{
+  "timestamp": "20260617T020301Z",
+  "url": "https://www.bankofkarditsa.com.gr/el/idiotes/daneia/anavathmizo-to-spiti-mou",
+  "classification": {
+    "is_relevant": true,
+    "primary_category": "green_housing_loan",
+    "secondary_categories": [
+      "home_renewables",
+      "energy_upgrade"
+    ],
+    "confidence": 0.92,
+    "reasoning": "Deterministic scope pass: home energy finance signals found",
+    "key_features": [
+      "deterministic_home_green_finance_scope"
+    ]
+  },
+  "extracted_data": {
+    "programme_name": "Αναβαθμίζω το Σπίτι μου",
+    "description": "Αναβαθμίζω το Σπίτι μου Τράπεζα Προφίλ Οικονομικά Στοιχεία Ανθρώπινο Δυναμικό Ακίνητα Τράπεζας Έργα / Projects Νέα & Ανακοινώσεις Ιδιώτες Καταθέσεις Καταθέσεις Ταμιευτηρίου Αποταμιευτικός Λογαριασμός TreasureKid Καταθέσεις Προθεσμίας Σύστημα Εγγύησης Καταθέσεων Δάνεια Στεγαστικό Πρόγραμμα Σπίτι Μου ΙΙ Στεγαστικά Δάνεια Καταναλωτικά - Προσωπικά Δάνεια Ρυθμίσεις Δανείων Αναβαθμίζω το Σπίτι μου Επενδυτικά Προγράμματα Κάρτες Χρεωστική Κάρτα VISA Νέα Χρεωστική Κάρτα Mastercard 3D Secure IRIS Payments Ασφάλιση Υπηρεσίες SynPay E-Statement Επιχειρήσεις Λογαριασμοί Διαχείρισης Λογαριασμοί Όψεως Εταιρικές Προθεσμιακές Καταθέσεις Ασφαλιστικά Προϊόντα Ασφάλιση Επαγγελματικής Στέγης Αστική Ευθύνη Ασφάλεια Φ/Β Πάρκων Ασφάλεια Πιστώσεων Ζωής Δανειοληπτών Ασφάλεια Μεταφορών Τεχνικές Ασφαλίσεις Χρηματοδοτικά Προϊόντα Sustainability Microfinance SME Competitiveness Social Ταμείο Εγγυοδοσίας «Development",
+    "programme_objective": "Αναβαθμίζω το Σπίτι μου Τράπεζα Προφίλ Οικονομικά Στοιχεία Ανθρώπινο Δυναμικό Ακίνητα Τράπεζας Έργα / Projects Νέα & Ανακοινώσεις Ιδιώτες Καταθέσεις Καταθέσεις Ταμιευτηρίου Αποταμιευτικός Λογαριασμός TreasureKid Καταθέσεις Προθεσμίας Σύστημα Εγγύησης Καταθέσεων Δάνεια Στεγαστικό Πρόγραμμα Σπίτι Μου ΙΙ Στεγαστικά Δάνεια Καταναλωτικά - Προσωπικά Δάνεια Ρυθμίσεις Δανείων Αναβαθμίζω το Σπίτι μου Επενδυτικά Προγράμματα Κάρτες Χρεωστική Κάρτα VISA Νέα Χρεωστική Κάρτα Mastercard 3D Secure IRIS Payments Ασφάλιση Υπηρεσίες SynPay E-Statement Επιχειρήσεις Λογαριασμοί Διαχείρισης Λογαριασμοί Όψεως Εταιρικές Προθεσμιακές Καταθέσεις Ασφαλιστικά Προϊόντα Ασφάλιση Επαγγελματικής Στέγης Αστική Ευθύνη Ασφάλεια Φ/Β Πάρκων Ασφάλεια Πιστώσεων Ζωής Δανειοληπτών Ασφάλεια Μεταφορών Τεχνικές Ασφαλίσεις Χρηματοδοτικά Προϊόντα Sustainability Microfinance SME Competitiveness Social Ταμείο Εγγυοδοσίας «Development",
+    "eligible_parties": [
+      "φυσικά πρόσωπα που διαθέτουν εμπράγματο δικαίωμα"
+    ],
+    "eligibility_criteria": "",
+    "property_requirements": [
+      "κύρια ή μη εκμισθωμένη δευτερεύουσα κατοικία",
+      "η κατοικία πρέπει να μην έχει ενταχθεί σε άλλο πρόγραμμα ενεργειακής αναβάθμισης από την 1η Ιανουαρίου 2020"
+    ],
+    "minimum_funding_amount": "5.000€",
+    "maximum_funding_amount": "25.000€",
+    "funding_type": "Δάνειο",
+    "interest_rate": "προκύπτει από το σταθμισμένο άθροισμα και ανέρχεται σε 1,75%, ενώ επιδοτείται πλήρως από το πρόγραμμα για όλη τη διάρκεια του δανείου",
+    "funding_coverage": "75%",
+    "total_budget": "",
+    "funding_sources": [
+      "Ταμείο Ανάκαμψης",
+      "Ευρωπαϊκής Ένωσης-NextGenerationEU"
+    ],
+    "duration": "",
+    "loan_duration": "7 έτη",
+    "completion_deadline": "",
+    "application_start_date": "1η Ιανουαρίου 2020",
+    "application_end_date": "",
+    "energy_performance_targets": [
+      "Εσωτερική και εξωτερική θερμομόνωση",
+      "Κατασκευή πράσινης στέγης",
+      "Εγκατάσταση ενεργειακών κουφωμάτων και υαλοπινάκων"
+    ],
+    "eligible_interventions": [
+      "Εγκατάσταση ηλιακών θερμοσιφώνων",
+      "Εγκατάσταση συστημάτων εξωτερικής σκίασης",
+      "Συστήματα θέρμανσης-ψύξης με ανανεώσιμες πηγές ενέργειας"
+    ],
+    "application_process": "",
+    "managing_body": "Ελληνική Αναπτυξιακή Τράπεζα Α.Ε",
+    "announcement_date": "",
+    "contact_info": "",
+    "additional_details": ""
+  },
+  "repair_metadata": {
+    "source_scraped_file": "C:\\Users\\stavr\\Desktop\\HMMY\\Thesis\\llm-axe\\output\\va3_scraper_to_template\\20260617T015656Z_www.bankofkarditsa.com.gr_el_idiotes_daneia_anavathmizo-to-spiti-mou_49f26189_scraped.txt",
+    "repair": "source_backed_core_field_repair"
+  }
+}

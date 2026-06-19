@@ -1,0 +1,46 @@
+{
+  "timestamp": "20260617T095250Z",
+  "url": "https://exoikonomoepixeiro.energy-invest.gov.gr/",
+  "classification": {
+    "is_relevant": false,
+    "primary_category": "other",
+    "secondary_categories": [],
+    "confidence": 0.99,
+    "reasoning": "Αυτόματη απόρριψη: Δεν βρέθηκαν ενεργειακά + χρηματοδοτικά keywords.",
+    "key_features": [
+      "keyword_prefilter_reject"
+    ]
+  },
+  "extracted_data": {
+    "programme_name": "",
+    "description": "",
+    "programme_objective": "",
+    "eligible_parties": [],
+    "eligibility_criteria": [],
+    "property_requirements": [],
+    "minimum_funding_amount": "",
+    "maximum_funding_amount": "",
+    "funding_type": "",
+    "interest_rate": "",
+    "funding_coverage": "",
+    "total_budget": "",
+    "funding_sources": [],
+    "duration": "",
+    "loan_duration": "",
+    "completion_deadline": "",
+    "application_start_date": "",
+    "application_end_date": "",
+    "energy_performance_targets": "",
+    "eligible_interventions": [],
+    "application_process": "",
+    "managing_body": "",
+    "announcement_date": "",
+    "contact_info": [],
+    "additional_details": "",
+    "source_url": "https://exoikonomoepixeiro.energy-invest.gov.gr/",
+    "source_urls": [
+      "https://exoikonomoepixeiro.energy-invest.gov.gr/"
+    ],
+    "id": "program-4b8e68b026"
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "timestamp": "20260617T101527Z",
+  "url": "https://www.chaniabank.gr/idiotes/dania/anavathmizo-to-spiti-moy/",
+  "classification": {
+    "is_relevant": true,
+    "primary_category": "green_housing_loan",
+    "secondary_categories": [
+      "home_renewables",
+      "energy_upgrade"
+    ],
+    "confidence": 0.92,
+    "reasoning": "Deterministic scope pass: home energy finance signals found",
+    "key_features": [
+      "deterministic_home_green_finance_scope"
+    ]
+  },
+  "extracted_data": {
+    "programme_name": "Αναβαθμίζω το Σπίτι μου",
+    "description": "Το πρόγραμμα «Αναβαθμίζω το Σπίτι μου» που διαχειρίζεται η Ελληνική Αναπτυξιακή Τράπεζα υλοποιείται στο πλαίσιο του Δανειακού Προγράμματος του Ταμείου Ανάκαμψης και Ανθεκτικότητας με τη χρηματοδότηση της Ευρωπαϊκής Ένωσης – NextGenerationEU. Κύρια Χαρακτηριστικά Δικαιούχοι Επιλέξιμες",
+    "programme_objective": "Το πρόγραμμα «Αναβαθμίζω το Σπίτι μου» που διαχειρίζεται η Ελληνική Αναπτυξιακή Τράπεζα υλοποιείται στο πλαίσιο του Δανειακού Προγράμματος του Ταμείου Ανάκαμψης και Ανθεκτικότητας με τη χρηματοδότηση της Ευρωπαϊκής Ένωσης – NextGenerationEU. Κύρια Χαρακτηριστικά Δικαιούχοι Επιλέξιμες",
+    "eligible_parties": [
+      "Φυσικά πρόσωπα"
+    ],
+    "eligibility_criteria": "",
+    "property_requirements": [
+      "Θερμομόνωση (εσωτερική / εξωτερική)",
+      "Κατασκευή πράσινης στέγης",
+      "Τοποθέτηση Ενεργειακών Κουφωμάτων-υαλοπινάκων",
+      "Τοποθέτηση Ηλιακού Θερμοσίφωνα",
+      "Εγκατάσταση συστημάτων εξωτερικής μόνιμης Σκίασης (όχι τέντες)",
+      "Εγκατάσταση συστήματος Θέρμανσης-Ψύξης, αποκλειστικά με την αξιοποίηση ανανεώσιμης πηγής ενέργειας ή με σύστημα συμπαραγωγής ηλεκτρισμού και θερμότητας υψηλής απόδοσης",
+      "Εγκατάσταση συστημάτων θερμοστατικής ρύθμισης",
+      "Εγκατάσταση συστήματος αποθήκευσης ενέργειας (συσωρευτές) από ανανεώσιμες πηγές ενέργειας",
+      "Εγκατάσταση φωτοβολταϊκών σταθμών – μικρών ανεμογεννητριών και άλλων ΑΠΕ"
+    ],
+    "minimum_funding_amount": "5.000€",
+    "maximum_funding_amount": "25.000€",
+    "funding_type": "Δάνειο",
+    "interest_rate": "0% για το 75% του δανείου και σταθερό 7% για το 25% του δανείου για όλη την διάρκειά του",
+    "funding_coverage": "100% επιδότηση, από πόρους του προγράμματος για το έντοκο μέρος (25%) της Τράπεζας",
+    "total_budget": "",
+    "funding_sources": [],
+    "duration": "",
+    "loan_duration": "3 έως 7 έτη, μηνιαίας τοκοχρεολυτικής απόσβεσης",
+    "completion_deadline": "",
+    "application_start_date": "",
+    "application_end_date": "",
+    "energy_performance_targets": "",
+    "eligible_interventions": [
+      "Μονώσεις",
+      "Τοποθέτηση / αντικατάσταση κελύφους για θερμομόνωση",
+      "Τοποθέτηση ηλιακού θερμοσίφωνα",
+      "Κατασκευή πράσινης στέγης",
+      "Εγκατάσταση φωτοβολταϊκών ή άλλων ΑΠΕ",
+      "Εγκατάσταση συστήματος αποθήκευσης ενέργειας"
+    ],
+    "application_process": "",
+    "managing_body": "",
+    "announcement_date": "",
+    "contact_info": "",
+    "additional_details": "",
+    "source_url": "https://www.chaniabank.gr/idiotes/dania/anavathmizo-to-spiti-moy/",
+    "source_urls": [
+      "https://www.chaniabank.gr/idiotes/dania/anavathmizo-to-spiti-moy/"
+    ],
+    "id": "program-e7d7db7808",
+    "completion_delay_consequences": "",
+    "post_completion_obligations": ""
+  },
+  "repair_metadata": {
+    "source_scraped_file": "C:\\Users\\stavr\\Desktop\\HMMY\\Thesis\\llm-axe\\output\\va3_scraper_to_template\\20260617T100914Z_www.chaniabank.gr_idiotes_dania_anavathmizo-to-spiti-moy_e7d7db78_scraped.txt",
+    "repair": "source_backed_core_field_repair"
+  }
+}

@@ -1,0 +1,51 @@
+[
+  {
+    "programme_name": "Exoikonomo 2025",
+    "description": "Δάνειο για το Πρόγραμμα Εξοικονομώ 2025 Αναβαθμίστε το σπίτι σας και μειώστε τις ενεργειακές του ανάγκες.",
+    "programme_objective": "Δάνειο για το Πρόγραμμα Εξοικονομώ 2025 Αναβαθμίστε το σπίτι σας και μειώστε τις ενεργειακές του ανάγκες.",
+    "eligible_parties": [
+      "υφίσταται νόμιμα κατοικία"
+    ],
+    "eligibility_criteria": [
+      "κρίθηκε κατεδαφιστέα",
+      "δικαίωμα συμμετοχής έχει μόνο εκείνος που την ιδιοκατοikεί σε περιπτώσεις δωρεάν παραχώρησης / ενοικίασης"
+    ],
+    "property_requirements": [
+      "υφίσταται νόμιμα κατοικία"
+    ],
+    "minimum_funding_amount": "",
+    "maximum_funding_amount": "17.500€",
+    "funding_type": "Δάνειο",
+    "interest_rate": "",
+    "funding_coverage": "",
+    "total_budget": "",
+    "funding_sources": [],
+    "duration": "7 ετών",
+    "loan_duration": "",
+    "completion_deadline": "",
+    "application_start_date": "08/01/2025",
+    "application_end_date": "20/03/2025",
+    "energy_performance_targets": [
+      "30% εξοικονόμηση πρωτογενούς ενέργειας"
+    ],
+    "eligible_interventions": [
+      "Μονώσεις",
+      "Αντικατάσταση κουφωμάτων",
+      "Τοποθέτηση / αντικατάσταση κελύφους για θερμομόνωση",
+      "Αναβάθμιση συστήματος θέρμανσης / ψύξης",
+      "Αναβάθμιση συστήματος ζεστού νερού χρήσης μέσω ΑΠΕ",
+      "Εγκατάσταση φωτοβολταϊκών ή άλλων ΑΠΕ",
+      "Εγκατάσταση συστήματος αποθήκευσης ενέργειας"
+    ],
+    "application_process": "",
+    "managing_body": "",
+    "announcement_date": "",
+    "contact_info": [],
+    "additional_details": "",
+    "source_url": "https://www.piraeusbank.gr/el/idiwtes/proionta-upiresies/stegastika-daneia/daneio-eksoikonomw",
+    "source_urls": [
+      "https://www.piraeusbank.gr/el/idiwtes/proionta-upiresies/stegastika-daneia/daneio-eksoikonomw"
+    ],
+    "id": "exoikonomo-2025-19afb17da5"
+  }
+]

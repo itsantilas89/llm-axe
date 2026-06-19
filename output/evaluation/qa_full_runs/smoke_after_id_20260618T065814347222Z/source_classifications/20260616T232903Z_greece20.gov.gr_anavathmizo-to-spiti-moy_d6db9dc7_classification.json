@@ -1,0 +1,87 @@
+{
+  "timestamp": "20260616T232903Z",
+  "url": "https://greece20.gov.gr/anavathmizo-to-spiti-moy/",
+  "classification": {
+    "is_relevant": true,
+    "primary_category": "green_housing_loan",
+    "secondary_categories": [
+      "home_renewables",
+      "energy_upgrade"
+    ],
+    "confidence": 0.92,
+    "reasoning": "Deterministic scope pass: home energy finance signals found",
+    "key_features": [
+      "deterministic_home_green_finance_scope"
+    ]
+  },
+  "extracted_data": {
+    "programme_name": "Αναβαθμίζω το Σπίτι μου",
+    "description": "Αναβαθμίζω το Σπίτι μου: Ξεκινούν σήμερα οι αιτήσεις - Ελλάδα 2.0 Πίσω στα Νέα Αναβαθμίζω το Σπίτι μου: Ξεκινούν σήμερα οι αιτήσεις 12 Φεβρουαρίου 2025 Ανακοινώσεις , Δελτία Τύπου , Τελευταία Νέα Ξεκινούν σήμερα οι αιτήσεις για τους ιδιοκτήτες κατοικιών που ενδιαφέρονται να συμμετάσχουν στο πρόγραμμα συγχρηματοδοτούμενων στεγαστικών δανείων του Ταμείου Ανάκαμψης Αναβαθμίζω το Σπίτι μου . Αντικείμενο του προγράμματος είναι η παροχή δανείου ύψους 5.000 έως 25.000 € , με πλήρη επιδότηση επιτοκίου , για την ενεργειακή βελτίωση υφιστάμενων κατοικιών, μέσω της υλοποίησης επιλέξιμων ενεργειακών παρεμβάσεων. Δικαίωμα συμμετοχής έχουν φυσικά πρόσωπα με εμπράγματο δικαίωμα (πλήρη κυριότητα/ επικαρπία/ψιλή κυριότητα) σε κύρια ή μη εκμισθωμένη δευτερεύουσα κατοικία , με την προϋπόθεση ότι από 01.01.",
+    "programme_objective": "παιχτούνται για τους ιδιοκτήτες κατοικιών που ενδιαφέρονται να συμμετάσχουν στο πρόγραμμα συγχρηματοδοτούμενων στεγαστικών δανείων του Ταμείου Ανάκαμψης",
+    "eligible_parties": [
+      "φυσικά πρόσωπα με εμπράγματο δικαίωμα"
+    ],
+    "eligibility_criteria": "",
+    "property_requirements": [
+      "πλήρη κυριότητα/ επικαρπία/ψιλή κυριότητα σε κύρια ή μη εκμισθωμένη δευτερεύουσα κατοικία",
+      "από 01.01.2020 δεν έχουν καταστεί ωφελούμενοι από οποιοδήποτε άλλο Πρόγραμμα ενεργειακής αναβάθμισης που χρηματοδοτείται με ενωσιακούς πόρους"
+    ],
+    "minimum_funding_amount": "5.000€",
+    "maximum_funding_amount": "25.000€",
+    "funding_type": "Δάνειο",
+    "interest_rate": "0%",
+    "funding_coverage": "",
+    "total_budget": "400 εκατομμύρια ευρώ",
+    "funding_sources": [
+      "Ευρωπαϊκής Ένωσης-NextGenerationEU",
+      "δανειακό σκέλος του Ταμείου Ανάκαμψης"
+    ],
+    "duration": "",
+    "loan_duration": "",
+    "completion_deadline": "",
+    "application_start_date": "12 Φεβρουαρίου 2025",
+    "application_end_date": "",
+    "energy_performance_targets": [
+      "Θερμομόνωση (εσωτερική/εξωτερική)",
+      "Κατασκευή πράσινης στέγης",
+      "Τοποθέτηση ενεργειακών κουφωμάτων/υαλοπινάκων",
+      "Τοποθέτηση ηλιακού θερμοσίφωνα",
+      "Εγκατάσταση συστημάτων εξωτερικής μόνιμης σκίασης (όχι τέντες)",
+      "Τοποθέτηση συστημάτων θέρμανσης/ψύξης με αξιοποίηση ανανεώσιμων πηγών ενέργειας ή με σύστημα συμπαραγωγής ηλεκτρισμού και θερμότητας υψηλής απόδοσης",
+      "Εγκατάσταση συστημάτων θερμοστατικής ρύθμισης",
+      "Εγκατάσταση συστημάτων αποθήκευσης ενέργειας (συσωρευτές)",
+      "Εγκατάσταση φωτοβολταϊκών σταθμών – μικρών ανεμογεννητριών και άλλων ΑΠΕ"
+    ],
+    "eligible_interventions": [
+      "Μονώσεις",
+      "Τοποθέτηση / αντικατάσταση κελύφους για θερμομόνωση",
+      "Τοποθέτηση ηλιακού θερμοσίφωνα",
+      "Κατασκευή πράσινης στέγης",
+      "Εγκατάσταση φωτοβολταϊκών ή άλλων ΑΠΕ",
+      "Εγκατάσταση συστήματος αποθήκευσης ενέργειας"
+    ],
+    "application_process": "",
+    "managing_body": "Ελληνική Αναπτυξιακή Τράπεζα ΑΕ",
+    "announcement_date": "12 Φεβρουαρίου 2025",
+    "contact_info": [
+      {
+        "email": "anavathmizo@hdb.gr"
+      },
+      {
+        "website": "https://hdb.gr/anavathmizo-to-spiti-mou"
+      }
+    ],
+    "additional_details": "",
+    "source_url": "https://greece20.gov.gr/anavathmizo-to-spiti-moy/",
+    "source_urls": [
+      "https://greece20.gov.gr/anavathmizo-to-spiti-moy/"
+    ],
+    "id": "program-d6db9dc7e4",
+    "completion_delay_consequences": "",
+    "post_completion_obligations": ""
+  },
+  "repair_metadata": {
+    "source_scraped_file": "C:\\Users\\stavr\\Desktop\\HMMY\\Thesis\\llm-axe\\output\\va3_scraper_to_template\\20260616T232056Z_greece20.gov.gr_anavathmizo-to-spiti-moy_d6db9dc7_scraped.txt",
+    "repair": "source_backed_core_field_repair"
+  }
+}

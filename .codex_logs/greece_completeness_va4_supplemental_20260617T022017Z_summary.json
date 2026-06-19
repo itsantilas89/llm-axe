@@ -1,0 +1,125 @@
+{
+  "started": "20260617T022017Z",
+  "results": [
+    {
+      "url": "https://exoikonomo2025.gov.gr/",
+      "status": "ok",
+      "returncode": 0,
+      "seconds": 211.174751
+    },
+    {
+      "url": "https://exoikonomoneon.gov.gr/",
+      "status": "ok",
+      "returncode": 0,
+      "seconds": 122.113229
+    },
+    {
+      "url": "https://stegasi.gov.gr/programs/anavathmizo-to-spiti-mou/",
+      "status": "ok",
+      "returncode": 0,
+      "seconds": 199.481525
+    },
+    {
+      "url": "https://stegasi.gov.gr/programs/exoikonomo-2025/",
+      "status": "ok",
+      "returncode": 0,
+      "seconds": 364.248975
+    },
+    {
+      "url": "https://www.gov.gr/ipiresies/periousia-kai-phorologia/diakheirise-akinetes-periousias/exoikonomo-2025",
+      "status": "ok",
+      "returncode": 0,
+      "seconds": 241.725588
+    },
+    {
+      "url": "https://www.gov.gr/ipiresies/polites-kai-kathemerinoteta/periballon-kai-poioteta-zoes/photoboltaika-ste-stege",
+      "status": "ok",
+      "returncode": 0,
+      "seconds": 142.659841
+    },
+    {
+      "url": "https://greece20.gov.gr/home-loans",
+      "status": "ok",
+      "returncode": 0,
+      "seconds": 392.339379
+    },
+    {
+      "url": "https://www.piraeusbank.gr/el/idiwtes/proionta-upiresies/stegastika-daneia/anabathmizo-to-spiti-mou",
+      "status": "ok",
+      "returncode": 0,
+      "seconds": 562.357012
+    },
+    {
+      "url": "https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/eksoikonomo-2025",
+      "status": "ok",
+      "returncode": 0,
+      "seconds": 565.272419
+    },
+    {
+      "url": "https://www.alpha.gr/el/idiotes/daneia/episkevastika-daneia-gia-anakainisi/programma-eksoikonomo-2025",
+      "status": "ok",
+      "returncode": 0,
+      "seconds": 457.794343
+    },
+    {
+      "url": "https://www.alpha.gr/el/idiotes/daneia/episkevastika-daneia-gia-anakainisi/programma-eksoikonomo-anakainizo-gia-neous",
+      "status": "ok",
+      "returncode": 0,
+      "seconds": 463.252327
+    },
+    {
+      "url": "https://www.crediabank.com/idiotes/daneia/stegastika/programma-anavathmizo-to-spiti-mou/",
+      "status": "ok",
+      "returncode": 0,
+      "seconds": 236.922723
+    },
+    {
+      "url": "https://www.crediabank.com/idiotes/daneia/eco-katanalotika/eco-lyseis-energeiaki-anavathmisi-katoikias/",
+      "status": "ok",
+      "returncode": 0,
+      "seconds": 272.277197
+    },
+    {
+      "url": "https://www.crediabank.com/idiotes/daneia/stegastika/stegastiko-daneio-eco-home/",
+      "status": "ok",
+      "returncode": 0,
+      "seconds": 229.522383
+    },
+    {
+      "url": "https://www.crediabank.com/idiotes/daneia/hrimatodotika-programmata/programma-exoikonomo-anakainizo-gia-neous/",
+      "status": "failed",
+      "returncode": 4294967295,
+      "seconds": 545.271808
+    },
+    {
+      "url": "https://www.nbg.gr/el/idiwtes/daneia/daneia-exoikonomisis-energeias/prasino-daneio",
+      "status": "ok",
+      "returncode": 0,
+      "seconds": 472.715633
+    },
+    {
+      "url": "https://www.nbg.gr/el/idiwtes/daneia/daneia-exoikonomisis-energeias/prasino-daneio-spitiou-h-autokinhtou",
+      "status": "ok",
+      "returncode": 0,
+      "seconds": 518.915457
+    },
+    {
+      "url": "https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/prasino-daneio-katoikias-eksoikonomisi-energeias",
+      "status": "ok",
+      "returncode": 0,
+      "seconds": 331.485635
+    },
+    {
+      "url": "https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/green-fast-loan",
+      "status": "ok",
+      "returncode": 0,
+      "seconds": 464.260783
+    },
+    {
+      "url": "https://www.alpha.gr/el/idiotes/daneia/prasina-daneia",
+      "status": "ok",
+      "returncode": 0,
+      "seconds": 308.545563
+    }
+  ]
+}

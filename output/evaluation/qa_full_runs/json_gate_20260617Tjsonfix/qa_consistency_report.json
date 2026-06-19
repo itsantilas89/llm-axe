@@ -1,0 +1,1330 @@
+{
+  "timestamp": "2026-06-17T17:00:52.864063",
+  "validation_type": "qa_consistency",
+  "total_files": 21,
+  "results": [
+    {
+      "url": "https://www.crediabank.com/idiotes/daneia/eco-katanalotika/eco-lyseis-energeiaki-anavathmisi-katoikias/",
+      "status": "OK",
+      "programme_name": "Credia Eco Λύσεις",
+      "questions_tested": 3,
+      "questions_answered": 0,
+      "questions_applicable": 0,
+      "consistency_consistent": 0,
+      "consistency_applicable": 0,
+      "coverage": 0.0,
+      "consistency_score": 0.0,
+      "details": [
+        {
+          "question_id": "interest_rate",
+          "question": "Ποιο είναι το επιτόκιο του προγράμματος;",
+          "fields_checked": [
+            "interest_rate"
+          ],
+          "question_inference": "unknown",
+          "check_type": "substring",
+          "extracted_values": [],
+          "llm_answer": "",
+          "llm_answer_preview": "",
+          "answer_source": "missing",
+          "is_consistent": false,
+          "reason": "No answer found (offline mode)",
+          "skipped": true
+        },
+        {
+          "question_id": "duration",
+          "question": "Ποια είναι η διάρκεια του δανείου;",
+          "fields_checked": [
+            "loan_duration",
+            "duration"
+          ],
+          "question_inference": "unknown",
+          "check_type": "substring",
+          "extracted_values": [],
+          "llm_answer": "",
+          "llm_answer_preview": "",
+          "answer_source": "missing",
+          "is_consistent": false,
+          "reason": "No answer found (offline mode)",
+          "skipped": true
+        },
+        {
+          "question_id": "eligible_parties",
+          "question": "Ποιες κατηγορίες αιτούντων είναι επιλέξιμες;",
+          "fields_checked": [
+            "eligible_parties"
+          ],
+          "question_inference": "unknown",
+          "check_type": "list_contains",
+          "extracted_values": [],
+          "llm_answer": "",
+          "llm_answer_preview": "",
+          "answer_source": "missing",
+          "is_consistent": false,
+          "reason": "No answer found (offline mode)",
+          "skipped": true
+        }
+      ]
+    },
+    {
+      "url": "https://www.crediabank.com/idiotes/daneia/eco-katanalotika/eco-lyseis-net-metering-egkatastasi-oikiakon-fv-sustimaton/",
+      "status": "OK",
+      "programme_name": "Eco Λύσεις - Net Metering",
+      "questions_tested": 3,
+      "questions_answered": 0,
+      "questions_applicable": 0,
+      "consistency_consistent": 0,
+      "consistency_applicable": 0,
+      "coverage": 0.0,
+      "consistency_score": 0.0,
+      "details": [
+        {
+          "question_id": "interest_rate",
+          "question": "Ποιο είναι το επιτόκιο του προγράμματος;",
+          "fields_checked": [
+            "interest_rate"
+          ],
+          "question_inference": "unknown",
+          "check_type": "substring",
+          "extracted_values": [],
+          "llm_answer": "",
+          "llm_answer_preview": "",
+          "answer_source": "missing",
+          "is_consistent": false,
+          "reason": "No answer found (offline mode)",
+          "skipped": true
+        },
+        {
+          "question_id": "duration",
+          "question": "Ποια είναι η διάρκεια του δανείου;",
+          "fields_checked": [
+            "loan_duration",
+            "duration"
+          ],
+          "question_inference": "unknown",
+          "check_type": "substring",
+          "extracted_values": [],
+          "llm_answer": "",
+          "llm_answer_preview": "",
+          "answer_source": "missing",
+          "is_consistent": false,
+          "reason": "No answer found (offline mode)",
+          "skipped": true
+        },
+        {
+          "question_id": "eligible_parties",
+          "question": "Ποιες κατηγορίες αιτούντων είναι επιλέξιμες;",
+          "fields_checked": [
+            "eligible_parties"
+          ],
+          "question_inference": "unknown",
+          "check_type": "list_contains",
+          "extracted_values": [],
+          "llm_answer": "",
+          "llm_answer_preview": "",
+          "answer_source": "missing",
+          "is_consistent": false,
+          "reason": "No answer found (offline mode)",
+          "skipped": true
+        }
+      ]
+    },
+    {
+      "url": "https://oikogeneia.gov.gr/programs/anavathmizo-to-spiti-mou/",
+      "status": "OK",
+      "programme_name": "Αναβαθμίζω το Σπίτι Μου",
+      "questions_tested": 3,
+      "questions_answered": 0,
+      "questions_applicable": 0,
+      "consistency_consistent": 0,
+      "consistency_applicable": 0,
+      "coverage": 0.0,
+      "consistency_score": 0.0,
+      "details": [
+        {
+          "question_id": "interest_rate",
+          "question": "Ποιο είναι το επιτόκιο του προγράμματος;",
+          "fields_checked": [
+            "interest_rate"
+          ],
+          "question_inference": "unknown",
+          "check_type": "substring",
+          "extracted_values": [],
+          "llm_answer": "",
+          "llm_answer_preview": "",
+          "answer_source": "missing",
+          "is_consistent": false,
+          "reason": "No answer found (offline mode)",
+          "skipped": true
+        },
+        {
+          "question_id": "duration",
+          "question": "Ποια είναι η διάρκεια του δανείου;",
+          "fields_checked": [
+            "loan_duration",
+            "duration"
+          ],
+          "question_inference": "unknown",
+          "check_type": "substring",
+          "extracted_values": [],
+          "llm_answer": "",
+          "llm_answer_preview": "",
+          "answer_source": "missing",
+          "is_consistent": false,
+          "reason": "No answer found (offline mode)",
+          "skipped": true
+        },
+        {
+          "question_id": "eligible_parties",
+          "question": "Ποιες κατηγορίες αιτούντων είναι επιλέξιμες;",
+          "fields_checked": [
+            "eligible_parties"
+          ],
+          "question_inference": "unknown",
+          "check_type": "list_contains",
+          "extracted_values": [],
+          "llm_answer": "",
+          "llm_answer_preview": "",
+          "answer_source": "missing",
+          "is_consistent": false,
+          "reason": "No answer found (offline mode)",
+          "skipped": true
+        }
+      ]
+    },
+    {
+      "url": "https://www.nbg.gr/el/idiwtes/daneia/daneia-exoikonomisis-energeias",
+      "status": "OK",
+      "programme_name": "Εξοικονομώ",
+      "questions_tested": 3,
+      "questions_answered": 0,
+      "questions_applicable": 0,
+      "consistency_consistent": 0,
+      "consistency_applicable": 0,
+      "coverage": 0.0,
+      "consistency_score": 0.0,
+      "details": [
+        {
+          "question_id": "interest_rate",
+          "question": "Ποιο είναι το επιτόκιο του προγράμματος;",
+          "fields_checked": [
+            "interest_rate"
+          ],
+          "question_inference": "unknown",
+          "check_type": "substring",
+          "extracted_values": [],
+          "llm_answer": "",
+          "llm_answer_preview": "",
+          "answer_source": "missing",
+          "is_consistent": false,
+          "reason": "No answer found (offline mode)",
+          "skipped": true
+        },
+        {
+          "question_id": "duration",
+          "question": "Ποια είναι η διάρκεια του δανείου;",
+          "fields_checked": [
+            "loan_duration",
+            "duration"
+          ],
+          "question_inference": "unknown",
+          "check_type": "substring",
+          "extracted_values": [],
+          "llm_answer": "",
+          "llm_answer_preview": "",
+          "answer_source": "missing",
+          "is_consistent": false,
+          "reason": "No answer found (offline mode)",
+          "skipped": true
+        },
+        {
+          "question_id": "eligible_parties",
+          "question": "Ποιες κατηγορίες αιτούντων είναι επιλέξιμες;",
+          "fields_checked": [
+            "eligible_parties"
+          ],
+          "question_inference": "unknown",
+          "check_type": "list_contains",
+          "extracted_values": [],
+          "llm_answer": "",
+          "llm_answer_preview": "",
+          "answer_source": "missing",
+          "is_consistent": false,
+          "reason": "No answer found (offline mode)",
+          "skipped": true
+        }
+      ]
+    },
+    {
+      "url": "https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/eksoikonomo-2023",
+      "status": "OK",
+      "programme_name": "Εξοικονομώ 2023",
+      "questions_tested": 3,
+      "questions_answered": 0,
+      "questions_applicable": 0,
+      "consistency_consistent": 0,
+      "consistency_applicable": 0,
+      "coverage": 0.0,
+      "consistency_score": 0.0,
+      "details": [
+        {
+          "question_id": "interest_rate",
+          "question": "Ποιο είναι το επιτόκιο του προγράμματος;",
+          "fields_checked": [
+            "interest_rate"
+          ],
+          "question_inference": "unknown",
+          "check_type": "substring",
+          "extracted_values": [],
+          "llm_answer": "",
+          "llm_answer_preview": "",
+          "answer_source": "missing",
+          "is_consistent": false,
+          "reason": "No answer found (offline mode)",
+          "skipped": true
+        },
+        {
+          "question_id": "duration",
+          "question": "Ποια είναι η διάρκεια του δανείου;",
+          "fields_checked": [
+            "loan_duration",
+            "duration"
+          ],
+          "question_inference": "unknown",
+          "check_type": "substring",
+          "extracted_values": [],
+          "llm_answer": "",
+          "llm_answer_preview": "",
+          "answer_source": "missing",
+          "is_consistent": false,
+          "reason": "No answer found (offline mode)",
+          "skipped": true
+        },
+        {
+          "question_id": "eligible_parties",
+          "question": "Ποιες κατηγορίες αιτούντων είναι επιλέξιμες;",
+          "fields_checked": [
+            "eligible_parties"
+          ],
+          "question_inference": "unknown",
+          "check_type": "list_contains",
+          "extracted_values": [],
+          "llm_answer": "",
+          "llm_answer_preview": "",
+          "answer_source": "missing",
+          "is_consistent": false,
+          "reason": "No answer found (offline mode)",
+          "skipped": true
+        }
+      ]
+    },
+    {
+      "url": "https://www.gov.gr/ipiresies/periousia-kai-phorologia/diakheirise-akinetes-periousias/exoikonomo-2025",
+      "status": "OK",
+      "programme_name": "Εξοικονομώ 2025",
+      "questions_tested": 3,
+      "questions_answered": 0,
+      "questions_applicable": 0,
+      "consistency_consistent": 0,
+      "consistency_applicable": 0,
+      "coverage": 0.0,
+      "consistency_score": 0.0,
+      "details": [
+        {
+          "question_id": "interest_rate",
+          "question": "Ποιο είναι το επιτόκιο του προγράμματος;",
+          "fields_checked": [
+            "interest_rate"
+          ],
+          "question_inference": "unknown",
+          "check_type": "substring",
+          "extracted_values": [],
+          "llm_answer": "",
+          "llm_answer_preview": "",
+          "answer_source": "missing",
+          "is_consistent": false,
+          "reason": "No answer found (offline mode)",
+          "skipped": true
+        },
+        {
+          "question_id": "duration",
+          "question": "Ποια είναι η διάρκεια του δανείου;",
+          "fields_checked": [
+            "loan_duration",
+            "duration"
+          ],
+          "question_inference": "unknown",
+          "check_type": "substring",
+          "extracted_values": [],
+          "llm_answer": "",
+          "llm_answer_preview": "",
+          "answer_source": "missing",
+          "is_consistent": false,
+          "reason": "No answer found (offline mode)",
+          "skipped": true
+        },
+        {
+          "question_id": "eligible_parties",
+          "question": "Ποιες κατηγορίες αιτούντων είναι επιλέξιμες;",
+          "fields_checked": [
+            "eligible_parties"
+          ],
+          "question_inference": "unknown",
+          "check_type": "list_contains",
+          "extracted_values": [],
+          "llm_answer": "",
+          "llm_answer_preview": "",
+          "answer_source": "missing",
+          "is_consistent": false,
+          "reason": "No answer found (offline mode)",
+          "skipped": true
+        }
+      ]
+    },
+    {
+      "url": "https://exoikonomoneon.gov.gr/",
+      "status": "OK",
+      "programme_name": "Εξοικονομώ – Ανακαινίζω για νέους",
+      "questions_tested": 3,
+      "questions_answered": 0,
+      "questions_applicable": 0,
+      "consistency_consistent": 0,
+      "consistency_applicable": 0,
+      "coverage": 0.0,
+      "consistency_score": 0.0,
+      "details": [
+        {
+          "question_id": "interest_rate",
+          "question": "Ποιο είναι το επιτόκιο του προγράμματος;",
+          "fields_checked": [
+            "interest_rate"
+          ],
+          "question_inference": "unknown",
+          "check_type": "substring",
+          "extracted_values": [],
+          "llm_answer": "",
+          "llm_answer_preview": "",
+          "answer_source": "missing",
+          "is_consistent": false,
+          "reason": "No answer found (offline mode)",
+          "skipped": true
+        },
+        {
+          "question_id": "duration",
+          "question": "Ποια είναι η διάρκεια του δανείου;",
+          "fields_checked": [
+            "loan_duration",
+            "duration"
+          ],
+          "question_inference": "unknown",
+          "check_type": "substring",
+          "extracted_values": [],
+          "llm_answer": "",
+          "llm_answer_preview": "",
+          "answer_source": "missing",
+          "is_consistent": false,
+          "reason": "No answer found (offline mode)",
+          "skipped": true
+        },
+        {
+          "question_id": "eligible_parties",
+          "question": "Ποιες κατηγορίες αιτούντων είναι επιλέξιμες;",
+          "fields_checked": [
+            "eligible_parties"
+          ],
+          "question_inference": "unknown",
+          "check_type": "list_contains",
+          "extracted_values": [],
+          "llm_answer": "",
+          "llm_answer_preview": "",
+          "answer_source": "missing",
+          "is_consistent": false,
+          "reason": "No answer found (offline mode)",
+          "skipped": true
+        }
+      ]
+    },
+    {
+      "url": "https://www.nbg.gr/el/idiwtes/daneia/stegastika-daneia/daneia-akinitwn/estia-prasini",
+      "status": "OK",
+      "programme_name": "ΕΣΤΙΑ Πράσινη Στεγαστικό Δάνειο",
+      "questions_tested": 3,
+      "questions_answered": 0,
+      "questions_applicable": 0,
+      "consistency_consistent": 0,
+      "consistency_applicable": 0,
+      "coverage": 0.0,
+      "consistency_score": 0.0,
+      "details": [
+        {
+          "question_id": "interest_rate",
+          "question": "Ποιο είναι το επιτόκιο του προγράμματος;",
+          "fields_checked": [
+            "interest_rate"
+          ],
+          "question_inference": "unknown",
+          "check_type": "substring",
+          "extracted_values": [],
+          "llm_answer": "",
+          "llm_answer_preview": "",
+          "answer_source": "missing",
+          "is_consistent": false,
+          "reason": "No answer found (offline mode)",
+          "skipped": true
+        },
+        {
+          "question_id": "duration",
+          "question": "Ποια είναι η διάρκεια του δανείου;",
+          "fields_checked": [
+            "loan_duration",
+            "duration"
+          ],
+          "question_inference": "unknown",
+          "check_type": "substring",
+          "extracted_values": [],
+          "llm_answer": "",
+          "llm_answer_preview": "",
+          "answer_source": "missing",
+          "is_consistent": false,
+          "reason": "No answer found (offline mode)",
+          "skipped": true
+        },
+        {
+          "question_id": "eligible_parties",
+          "question": "Ποιες κατηγορίες αιτούντων είναι επιλέξιμες;",
+          "fields_checked": [
+            "eligible_parties"
+          ],
+          "question_inference": "unknown",
+          "check_type": "list_contains",
+          "extracted_values": [],
+          "llm_answer": "",
+          "llm_answer_preview": "",
+          "answer_source": "missing",
+          "is_consistent": false,
+          "reason": "No answer found (offline mode)",
+          "skipped": true
+        }
+      ]
+    },
+    {
+      "url": "https://www.piraeusbank.gr/el/idiwtes/proionta-upiresies/daneia/proswpika/katanalwtiko-daneio-green-gia-prasines-episkeves",
+      "status": "OK",
+      "programme_name": "Καταναλωτικό Δάνειο Green για Πράσινες Επισκευές",
+      "questions_tested": 3,
+      "questions_answered": 0,
+      "questions_applicable": 0,
+      "consistency_consistent": 0,
+      "consistency_applicable": 0,
+      "coverage": 0.0,
+      "consistency_score": 0.0,
+      "details": [
+        {
+          "question_id": "interest_rate",
+          "question": "Ποιο είναι το επιτόκιο του προγράμματος;",
+          "fields_checked": [
+            "interest_rate"
+          ],
+          "question_inference": "unknown",
+          "check_type": "substring",
+          "extracted_values": [],
+          "llm_answer": "",
+          "llm_answer_preview": "",
+          "answer_source": "missing",
+          "is_consistent": false,
+          "reason": "No answer found (offline mode)",
+          "skipped": true
+        },
+        {
+          "question_id": "duration",
+          "question": "Ποια είναι η διάρκεια του δανείου;",
+          "fields_checked": [
+            "loan_duration",
+            "duration"
+          ],
+          "question_inference": "unknown",
+          "check_type": "substring",
+          "extracted_values": [],
+          "llm_answer": "",
+          "llm_answer_preview": "",
+          "answer_source": "missing",
+          "is_consistent": false,
+          "reason": "No answer found (offline mode)",
+          "skipped": true
+        },
+        {
+          "question_id": "eligible_parties",
+          "question": "Ποιες κατηγορίες αιτούντων είναι επιλέξιμες;",
+          "fields_checked": [
+            "eligible_parties"
+          ],
+          "question_inference": "unknown",
+          "check_type": "list_contains",
+          "extracted_values": [],
+          "llm_answer": "",
+          "llm_answer_preview": "",
+          "answer_source": "missing",
+          "is_consistent": false,
+          "reason": "No answer found (offline mode)",
+          "skipped": true
+        }
+      ]
+    },
+    {
+      "url": "https://www.alpha.gr/el/idiotes/daneia/prasina-daneia",
+      "status": "OK",
+      "programme_name": "Πράσινα Δάνεια",
+      "questions_tested": 3,
+      "questions_answered": 0,
+      "questions_applicable": 0,
+      "consistency_consistent": 0,
+      "consistency_applicable": 0,
+      "coverage": 0.0,
+      "consistency_score": 0.0,
+      "details": [
+        {
+          "question_id": "interest_rate",
+          "question": "Ποιο είναι το επιτόκιο του προγράμματος;",
+          "fields_checked": [
+            "interest_rate"
+          ],
+          "question_inference": "unknown",
+          "check_type": "substring",
+          "extracted_values": [],
+          "llm_answer": "",
+          "llm_answer_preview": "",
+          "answer_source": "missing",
+          "is_consistent": false,
+          "reason": "No answer found (offline mode)",
+          "skipped": true
+        },
+        {
+          "question_id": "duration",
+          "question": "Ποια είναι η διάρκεια του δανείου;",
+          "fields_checked": [
+            "loan_duration",
+            "duration"
+          ],
+          "question_inference": "unknown",
+          "check_type": "substring",
+          "extracted_values": [],
+          "llm_answer": "",
+          "llm_answer_preview": "",
+          "answer_source": "missing",
+          "is_consistent": false,
+          "reason": "No answer found (offline mode)",
+          "skipped": true
+        },
+        {
+          "question_id": "eligible_parties",
+          "question": "Ποιες κατηγορίες αιτούντων είναι επιλέξιμες;",
+          "fields_checked": [
+            "eligible_parties"
+          ],
+          "question_inference": "unknown",
+          "check_type": "list_contains",
+          "extracted_values": [],
+          "llm_answer": "",
+          "llm_answer_preview": "",
+          "answer_source": "missing",
+          "is_consistent": false,
+          "reason": "No answer found (offline mode)",
+          "skipped": true
+        }
+      ]
+    },
+    {
+      "url": "https://www.nbg.gr/el/idiwtes/daneia/daneia-exoikonomisis-energeias/prasino-daneio",
+      "status": "OK",
+      "programme_name": "Πράσινο Δάνειο",
+      "questions_tested": 3,
+      "questions_answered": 0,
+      "questions_applicable": 0,
+      "consistency_consistent": 0,
+      "consistency_applicable": 0,
+      "coverage": 0.0,
+      "consistency_score": 0.0,
+      "details": [
+        {
+          "question_id": "interest_rate",
+          "question": "Ποιο είναι το επιτόκιο του προγράμματος;",
+          "fields_checked": [
+            "interest_rate"
+          ],
+          "question_inference": "unknown",
+          "check_type": "substring",
+          "extracted_values": [],
+          "llm_answer": "",
+          "llm_answer_preview": "",
+          "answer_source": "missing",
+          "is_consistent": false,
+          "reason": "No answer found (offline mode)",
+          "skipped": true
+        },
+        {
+          "question_id": "duration",
+          "question": "Ποια είναι η διάρκεια του δανείου;",
+          "fields_checked": [
+            "loan_duration",
+            "duration"
+          ],
+          "question_inference": "unknown",
+          "check_type": "substring",
+          "extracted_values": [],
+          "llm_answer": "",
+          "llm_answer_preview": "",
+          "answer_source": "missing",
+          "is_consistent": false,
+          "reason": "No answer found (offline mode)",
+          "skipped": true
+        },
+        {
+          "question_id": "eligible_parties",
+          "question": "Ποιες κατηγορίες αιτούντων είναι επιλέξιμες;",
+          "fields_checked": [
+            "eligible_parties"
+          ],
+          "question_inference": "unknown",
+          "check_type": "list_contains",
+          "extracted_values": [],
+          "llm_answer": "",
+          "llm_answer_preview": "",
+          "answer_source": "missing",
+          "is_consistent": false,
+          "reason": "No answer found (offline mode)",
+          "skipped": true
+        }
+      ]
+    },
+    {
+      "url": "https://www.alpha.gr/el/idiotes/daneia/episkevastika-daneia-gia-anakainisi/alpha-prasines-luseis-katanalotiko-daneio-gia-to-spiti",
+      "status": "OK",
+      "programme_name": "Πράσινο Δάνειο για το Σπίτι",
+      "questions_tested": 3,
+      "questions_answered": 0,
+      "questions_applicable": 0,
+      "consistency_consistent": 0,
+      "consistency_applicable": 0,
+      "coverage": 0.0,
+      "consistency_score": 0.0,
+      "details": [
+        {
+          "question_id": "interest_rate",
+          "question": "Ποιο είναι το επιτόκιο του προγράμματος;",
+          "fields_checked": [
+            "interest_rate"
+          ],
+          "question_inference": "unknown",
+          "check_type": "substring",
+          "extracted_values": [],
+          "llm_answer": "",
+          "llm_answer_preview": "",
+          "answer_source": "missing",
+          "is_consistent": false,
+          "reason": "No answer found (offline mode)",
+          "skipped": true
+        },
+        {
+          "question_id": "duration",
+          "question": "Ποια είναι η διάρκεια του δανείου;",
+          "fields_checked": [
+            "loan_duration",
+            "duration"
+          ],
+          "question_inference": "unknown",
+          "check_type": "substring",
+          "extracted_values": [],
+          "llm_answer": "",
+          "llm_answer_preview": "",
+          "answer_source": "missing",
+          "is_consistent": false,
+          "reason": "No answer found (offline mode)",
+          "skipped": true
+        },
+        {
+          "question_id": "eligible_parties",
+          "question": "Ποιες κατηγορίες αιτούντων είναι επιλέξιμες;",
+          "fields_checked": [
+            "eligible_parties"
+          ],
+          "question_inference": "unknown",
+          "check_type": "list_contains",
+          "extracted_values": [],
+          "llm_answer": "",
+          "llm_answer_preview": "",
+          "answer_source": "missing",
+          "is_consistent": false,
+          "reason": "No answer found (offline mode)",
+          "skipped": true
+        }
+      ]
+    },
+    {
+      "url": "https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/prasino-daneio-katoikias-eksoikonomisi-energeias",
+      "status": "OK",
+      "programme_name": "Πράσινο Δάνειο Κατοικίας – Εξοικονόμηση Ενέργειας",
+      "questions_tested": 3,
+      "questions_answered": 0,
+      "questions_applicable": 0,
+      "consistency_consistent": 0,
+      "consistency_applicable": 0,
+      "coverage": 0.0,
+      "consistency_score": 0.0,
+      "details": [
+        {
+          "question_id": "interest_rate",
+          "question": "Ποιο είναι το επιτόκιο του προγράμματος;",
+          "fields_checked": [
+            "interest_rate"
+          ],
+          "question_inference": "unknown",
+          "check_type": "substring",
+          "extracted_values": [],
+          "llm_answer": "",
+          "llm_answer_preview": "",
+          "answer_source": "missing",
+          "is_consistent": false,
+          "reason": "No answer found (offline mode)",
+          "skipped": true
+        },
+        {
+          "question_id": "duration",
+          "question": "Ποια είναι η διάρκεια του δανείου;",
+          "fields_checked": [
+            "loan_duration",
+            "duration"
+          ],
+          "question_inference": "unknown",
+          "check_type": "substring",
+          "extracted_values": [],
+          "llm_answer": "",
+          "llm_answer_preview": "",
+          "answer_source": "missing",
+          "is_consistent": false,
+          "reason": "No answer found (offline mode)",
+          "skipped": true
+        },
+        {
+          "question_id": "eligible_parties",
+          "question": "Ποιες κατηγορίες αιτούντων είναι επιλέξιμες;",
+          "fields_checked": [
+            "eligible_parties"
+          ],
+          "question_inference": "unknown",
+          "check_type": "list_contains",
+          "extracted_values": [],
+          "llm_answer": "",
+          "llm_answer_preview": "",
+          "answer_source": "missing",
+          "is_consistent": false,
+          "reason": "No answer found (offline mode)",
+          "skipped": true
+        }
+      ]
+    },
+    {
+      "url": "https://www.nbg.gr/el/idiwtes/daneia/daneia-exoikonomisis-energeias/prasino-daneio-spitiou-h-autokinhtou",
+      "status": "OK",
+      "programme_name": "Πράσινο Δάνειο Σπιτιού ή Αυτοκινήτου",
+      "questions_tested": 3,
+      "questions_answered": 0,
+      "questions_applicable": 0,
+      "consistency_consistent": 0,
+      "consistency_applicable": 0,
+      "coverage": 0.0,
+      "consistency_score": 0.0,
+      "details": [
+        {
+          "question_id": "interest_rate",
+          "question": "Ποιο είναι το επιτόκιο του προγράμματος;",
+          "fields_checked": [
+            "interest_rate"
+          ],
+          "question_inference": "unknown",
+          "check_type": "substring",
+          "extracted_values": [],
+          "llm_answer": "",
+          "llm_answer_preview": "",
+          "answer_source": "missing",
+          "is_consistent": false,
+          "reason": "No answer found (offline mode)",
+          "skipped": true
+        },
+        {
+          "question_id": "duration",
+          "question": "Ποια είναι η διάρκεια του δανείου;",
+          "fields_checked": [
+            "loan_duration",
+            "duration"
+          ],
+          "question_inference": "unknown",
+          "check_type": "substring",
+          "extracted_values": [],
+          "llm_answer": "",
+          "llm_answer_preview": "",
+          "answer_source": "missing",
+          "is_consistent": false,
+          "reason": "No answer found (offline mode)",
+          "skipped": true
+        },
+        {
+          "question_id": "eligible_parties",
+          "question": "Ποιες κατηγορίες αιτούντων είναι επιλέξιμες;",
+          "fields_checked": [
+            "eligible_parties"
+          ],
+          "question_inference": "unknown",
+          "check_type": "list_contains",
+          "extracted_values": [],
+          "llm_answer": "",
+          "llm_answer_preview": "",
+          "answer_source": "missing",
+          "is_consistent": false,
+          "reason": "No answer found (offline mode)",
+          "skipped": true
+        }
+      ]
+    },
+    {
+      "url": "https://www.piraeusbank.gr/el/idiwtes/proionta-upiresies/stegastika-daneia/prasino-episkeuastiko-daneio-me-eksasfalisi",
+      "status": "OK",
+      "programme_name": "Πράσινο Επισκευαστικό Δάνειο με Εξασφάλιση Πειραιώς",
+      "questions_tested": 3,
+      "questions_answered": 0,
+      "questions_applicable": 0,
+      "consistency_consistent": 0,
+      "consistency_applicable": 0,
+      "coverage": 0.0,
+      "consistency_score": 0.0,
+      "details": [
+        {
+          "question_id": "interest_rate",
+          "question": "Ποιο είναι το επιτόκιο του προγράμματος;",
+          "fields_checked": [
+            "interest_rate"
+          ],
+          "question_inference": "unknown",
+          "check_type": "substring",
+          "extracted_values": [],
+          "llm_answer": "",
+          "llm_answer_preview": "",
+          "answer_source": "missing",
+          "is_consistent": false,
+          "reason": "No answer found (offline mode)",
+          "skipped": true
+        },
+        {
+          "question_id": "duration",
+          "question": "Ποια είναι η διάρκεια του δανείου;",
+          "fields_checked": [
+            "loan_duration",
+            "duration"
+          ],
+          "question_inference": "unknown",
+          "check_type": "substring",
+          "extracted_values": [],
+          "llm_answer": "",
+          "llm_answer_preview": "",
+          "answer_source": "missing",
+          "is_consistent": false,
+          "reason": "No answer found (offline mode)",
+          "skipped": true
+        },
+        {
+          "question_id": "eligible_parties",
+          "question": "Ποιες κατηγορίες αιτούντων είναι επιλέξιμες;",
+          "fields_checked": [
+            "eligible_parties"
+          ],
+          "question_inference": "unknown",
+          "check_type": "list_contains",
+          "extracted_values": [],
+          "llm_answer": "",
+          "llm_answer_preview": "",
+          "answer_source": "missing",
+          "is_consistent": false,
+          "reason": "No answer found (offline mode)",
+          "skipped": true
+        }
+      ]
+    },
+    {
+      "url": "https://www.piraeusbank.gr/el/idiwtes/proionta-upiresies/stegastika-daneia/prasino-stegastiko-daneio-me-stathero-epitokio",
+      "status": "OK",
+      "programme_name": "Πράσινο Στεγαστικό Δάνειο με Σταθερό Επιτόκιο",
+      "questions_tested": 3,
+      "questions_answered": 0,
+      "questions_applicable": 0,
+      "consistency_consistent": 0,
+      "consistency_applicable": 0,
+      "coverage": 0.0,
+      "consistency_score": 0.0,
+      "details": [
+        {
+          "question_id": "interest_rate",
+          "question": "Ποιο είναι το επιτόκιο του προγράμματος;",
+          "fields_checked": [
+            "interest_rate"
+          ],
+          "question_inference": "unknown",
+          "check_type": "substring",
+          "extracted_values": [],
+          "llm_answer": "",
+          "llm_answer_preview": "",
+          "answer_source": "missing",
+          "is_consistent": false,
+          "reason": "No answer found (offline mode)",
+          "skipped": true
+        },
+        {
+          "question_id": "duration",
+          "question": "Ποια είναι η διάρκεια του δανείου;",
+          "fields_checked": [
+            "loan_duration",
+            "duration"
+          ],
+          "question_inference": "unknown",
+          "check_type": "substring",
+          "extracted_values": [],
+          "llm_answer": "",
+          "llm_answer_preview": "",
+          "answer_source": "missing",
+          "is_consistent": false,
+          "reason": "No answer found (offline mode)",
+          "skipped": true
+        },
+        {
+          "question_id": "eligible_parties",
+          "question": "Ποιες κατηγορίες αιτούντων είναι επιλέξιμες;",
+          "fields_checked": [
+            "eligible_parties"
+          ],
+          "question_inference": "unknown",
+          "check_type": "list_contains",
+          "extracted_values": [],
+          "llm_answer": "",
+          "llm_answer_preview": "",
+          "answer_source": "missing",
+          "is_consistent": false,
+          "reason": "No answer found (offline mode)",
+          "skipped": true
+        }
+      ]
+    },
+    {
+      "url": "https://www.piraeusbank.gr/el/idiwtes/proionta-upiresies/stegastika-daneia/prasino-stegastiko-daneio-sundedemeno-me-euribor",
+      "status": "OK",
+      "programme_name": "Πράσινο Στεγαστικό Δάνειο Συνδεδεμένο με Euribor",
+      "questions_tested": 3,
+      "questions_answered": 0,
+      "questions_applicable": 0,
+      "consistency_consistent": 0,
+      "consistency_applicable": 0,
+      "coverage": 0.0,
+      "consistency_score": 0.0,
+      "details": [
+        {
+          "question_id": "interest_rate",
+          "question": "Ποιο είναι το επιτόκιο του προγράμματος;",
+          "fields_checked": [
+            "interest_rate"
+          ],
+          "question_inference": "unknown",
+          "check_type": "substring",
+          "extracted_values": [],
+          "llm_answer": "",
+          "llm_answer_preview": "",
+          "answer_source": "missing",
+          "is_consistent": false,
+          "reason": "No answer found (offline mode)",
+          "skipped": true
+        },
+        {
+          "question_id": "duration",
+          "question": "Ποια είναι η διάρκεια του δανείου;",
+          "fields_checked": [
+            "loan_duration",
+            "duration"
+          ],
+          "question_inference": "unknown",
+          "check_type": "substring",
+          "extracted_values": [],
+          "llm_answer": "",
+          "llm_answer_preview": "",
+          "answer_source": "missing",
+          "is_consistent": false,
+          "reason": "No answer found (offline mode)",
+          "skipped": true
+        },
+        {
+          "question_id": "eligible_parties",
+          "question": "Ποιες κατηγορίες αιτούντων είναι επιλέξιμες;",
+          "fields_checked": [
+            "eligible_parties"
+          ],
+          "question_inference": "unknown",
+          "check_type": "list_contains",
+          "extracted_values": [],
+          "llm_answer": "",
+          "llm_answer_preview": "",
+          "answer_source": "missing",
+          "is_consistent": false,
+          "reason": "No answer found (offline mode)",
+          "skipped": true
+        }
+      ]
+    },
+    {
+      "url": "https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/green-fast-loan",
+      "status": "OK",
+      "programme_name": "Προσωπικό Δάνειο Green Fast Loan",
+      "questions_tested": 3,
+      "questions_answered": 0,
+      "questions_applicable": 0,
+      "consistency_consistent": 0,
+      "consistency_applicable": 0,
+      "coverage": 0.0,
+      "consistency_score": 0.0,
+      "details": [
+        {
+          "question_id": "interest_rate",
+          "question": "Ποιο είναι το επιτόκιο του προγράμματος;",
+          "fields_checked": [
+            "interest_rate"
+          ],
+          "question_inference": "unknown",
+          "check_type": "substring",
+          "extracted_values": [],
+          "llm_answer": "",
+          "llm_answer_preview": "",
+          "answer_source": "missing",
+          "is_consistent": false,
+          "reason": "No answer found (offline mode)",
+          "skipped": true
+        },
+        {
+          "question_id": "duration",
+          "question": "Ποια είναι η διάρκεια του δανείου;",
+          "fields_checked": [
+            "loan_duration",
+            "duration"
+          ],
+          "question_inference": "unknown",
+          "check_type": "substring",
+          "extracted_values": [],
+          "llm_answer": "",
+          "llm_answer_preview": "",
+          "answer_source": "missing",
+          "is_consistent": false,
+          "reason": "No answer found (offline mode)",
+          "skipped": true
+        },
+        {
+          "question_id": "eligible_parties",
+          "question": "Ποιες κατηγορίες αιτούντων είναι επιλέξιμες;",
+          "fields_checked": [
+            "eligible_parties"
+          ],
+          "question_inference": "unknown",
+          "check_type": "list_contains",
+          "extracted_values": [],
+          "llm_answer": "",
+          "llm_answer_preview": "",
+          "answer_source": "missing",
+          "is_consistent": false,
+          "reason": "No answer found (offline mode)",
+          "skipped": true
+        }
+      ]
+    },
+    {
+      "url": "https://www.crediabank.com/idiotes/daneia/stegastika/stegastiko-daneio-eco-home/",
+      "status": "OK",
+      "programme_name": "Στεγαστικό Δάνειο Eco Home",
+      "questions_tested": 3,
+      "questions_answered": 0,
+      "questions_applicable": 0,
+      "consistency_consistent": 0,
+      "consistency_applicable": 0,
+      "coverage": 0.0,
+      "consistency_score": 0.0,
+      "details": [
+        {
+          "question_id": "interest_rate",
+          "question": "Ποιο είναι το επιτόκιο του προγράμματος;",
+          "fields_checked": [
+            "interest_rate"
+          ],
+          "question_inference": "unknown",
+          "check_type": "substring",
+          "extracted_values": [],
+          "llm_answer": "",
+          "llm_answer_preview": "",
+          "answer_source": "missing",
+          "is_consistent": false,
+          "reason": "No answer found (offline mode)",
+          "skipped": true
+        },
+        {
+          "question_id": "duration",
+          "question": "Ποια είναι η διάρκεια του δανείου;",
+          "fields_checked": [
+            "loan_duration",
+            "duration"
+          ],
+          "question_inference": "unknown",
+          "check_type": "substring",
+          "extracted_values": [],
+          "llm_answer": "",
+          "llm_answer_preview": "",
+          "answer_source": "missing",
+          "is_consistent": false,
+          "reason": "No answer found (offline mode)",
+          "skipped": true
+        },
+        {
+          "question_id": "eligible_parties",
+          "question": "Ποιες κατηγορίες αιτούντων είναι επιλέξιμες;",
+          "fields_checked": [
+            "eligible_parties"
+          ],
+          "question_inference": "unknown",
+          "check_type": "list_contains",
+          "extracted_values": [],
+          "llm_answer": "",
+          "llm_answer_preview": "",
+          "answer_source": "missing",
+          "is_consistent": false,
+          "reason": "No answer found (offline mode)",
+          "skipped": true
+        }
+      ]
+    },
+    {
+      "url": "https://www.bankofthessaly.gr/idiotes/prasina-daneia/",
+      "status": "OK",
+      "programme_name": "Τράπεζα Θεσσαλίας - Πράσινα Δάνεια Χρηματοδοτούμε τη βιωσιμότητα, γιατί το μέλλον είναι πράσινο. Πράσινα Δάνεια Εξοικονο",
+      "questions_tested": 3,
+      "questions_answered": 0,
+      "questions_applicable": 0,
+      "consistency_consistent": 0,
+      "consistency_applicable": 0,
+      "coverage": 0.0,
+      "consistency_score": 0.0,
+      "details": [
+        {
+          "question_id": "interest_rate",
+          "question": "Ποιο είναι το επιτόκιο του προγράμματος;",
+          "fields_checked": [
+            "interest_rate"
+          ],
+          "question_inference": "unknown",
+          "check_type": "substring",
+          "extracted_values": [],
+          "llm_answer": "",
+          "llm_answer_preview": "",
+          "answer_source": "missing",
+          "is_consistent": false,
+          "reason": "No answer found (offline mode)",
+          "skipped": true
+        },
+        {
+          "question_id": "duration",
+          "question": "Ποια είναι η διάρκεια του δανείου;",
+          "fields_checked": [
+            "loan_duration",
+            "duration"
+          ],
+          "question_inference": "unknown",
+          "check_type": "substring",
+          "extracted_values": [],
+          "llm_answer": "",
+          "llm_answer_preview": "",
+          "answer_source": "missing",
+          "is_consistent": false,
+          "reason": "No answer found (offline mode)",
+          "skipped": true
+        },
+        {
+          "question_id": "eligible_parties",
+          "question": "Ποιες κατηγορίες αιτούντων είναι επιλέξιμες;",
+          "fields_checked": [
+            "eligible_parties"
+          ],
+          "question_inference": "unknown",
+          "check_type": "list_contains",
+          "extracted_values": [],
+          "llm_answer": "",
+          "llm_answer_preview": "",
+          "answer_source": "missing",
+          "is_consistent": false,
+          "reason": "No answer found (offline mode)",
+          "skipped": true
+        }
+      ]
+    },
+    {
+      "url": "https://www.gov.gr/ipiresies/polites-kai-kathemerinoteta/periballon-kai-poioteta-zoes/photoboltaika-ste-stege",
+      "status": "OK",
+      "programme_name": "Φωτοβολταϊκά στη στέγη",
+      "questions_tested": 3,
+      "questions_answered": 0,
+      "questions_applicable": 0,
+      "consistency_consistent": 0,
+      "consistency_applicable": 0,
+      "coverage": 0.0,
+      "consistency_score": 0.0,
+      "details": [
+        {
+          "question_id": "interest_rate",
+          "question": "Ποιο είναι το επιτόκιο του προγράμματος;",
+          "fields_checked": [
+            "interest_rate"
+          ],
+          "question_inference": "unknown",
+          "check_type": "substring",
+          "extracted_values": [],
+          "llm_answer": "",
+          "llm_answer_preview": "",
+          "answer_source": "missing",
+          "is_consistent": false,
+          "reason": "No answer found (offline mode)",
+          "skipped": true
+        },
+        {
+          "question_id": "duration",
+          "question": "Ποια είναι η διάρκεια του δανείου;",
+          "fields_checked": [
+            "loan_duration",
+            "duration"
+          ],
+          "question_inference": "unknown",
+          "check_type": "substring",
+          "extracted_values": [],
+          "llm_answer": "",
+          "llm_answer_preview": "",
+          "answer_source": "missing",
+          "is_consistent": false,
+          "reason": "No answer found (offline mode)",
+          "skipped": true
+        },
+        {
+          "question_id": "eligible_parties",
+          "question": "Ποιες κατηγορίες αιτούντων είναι επιλέξιμες;",
+          "fields_checked": [
+            "eligible_parties"
+          ],
+          "question_inference": "unknown",
+          "check_type": "list_contains",
+          "extracted_values": [],
+          "llm_answer": "",
+          "llm_answer_preview": "",
+          "answer_source": "missing",
+          "is_consistent": false,
+          "reason": "No answer found (offline mode)",
+          "skipped": true
+        }
+      ]
+    }
+  ]
+}

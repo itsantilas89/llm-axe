@@ -1,0 +1,147 @@
+{
+  "timestamp": "20260617T110236Z",
+  "url": "https://www.crediabank.com/idiotes/daneia/eco-katanalotika/eco-lyseis-energeiaki-anavathmisi-katoikias/",
+  "programme_name": "Credia Eco Λύσεις",
+  "classification_file": "20260617T033048Z_www.crediabank.com_idiotes_daneia_eco-katanalotika_eco-lyseis-energeiaki-anavathmisi-katoikias_36a72e32_classification.json",
+  "qa_count": 15,
+  "source": "qa_evaluation_suite",
+  "mode": "all15",
+  "responses": [
+    {
+      "question_id": "q1",
+      "question": "1) Περίγραψε το πρόγραμμα, στόχος, δικαιούχοι, βασικά οφέλη.",
+      "answer": "Το πρόγραμμα ονομάζεται Credia Eco Λύσεις και έχει στόχο την ενεργειακή αναβάθμιση κατοικιών. Οι δικαιούχοι είναι οι ιδιοκτήτες κατοικίας. Τα βασικά οφέλη είναι η μείωση του κόστους ενέργειας θέρμανσης – ψύξης και η προστασία του περιβαλλοντικού αποτυπώματος.",
+      "repeat_index": 1,
+      "repeat_count": 1,
+      "timestamp": "2026-06-17T11:11:17.240413+00:00",
+      "source": "qa_evaluation_suite"
+    },
+    {
+      "question_id": "q2",
+      "question": "2) Εξήγησε τη διαφορά μεταξύ “επιχορήγησης” και “δανείου” στο πλαίσιο ενεργειακής αναβάθμισης, με ένα παράδειγμα για το καθένα.",
+      "answer": "Δεν υπάρχει πληροφορία για την επιχορήγηση. Η διαφορά μεταξύ δανείου και χρηματοδότησης δεν είναι καθαρά οριζόμενη στο JSON.",
+      "repeat_index": 1,
+      "repeat_count": 1,
+      "timestamp": "2026-06-17T11:11:17.243031+00:00",
+      "source": "qa_evaluation_suite"
+    },
+    {
+      "question_id": "q3",
+      "question": "3) Δώσε 5 λέξεις-κλειδιά για αναζήτηση σχετικών προγραμμάτων και εξήγησε σε 1 πρόταση γιατί είναι χρήσιμη η καθεμία.",
+      "answer": "['Ενεργειακή αναβάθμιση', 'Χρηματοδότηση', 'Δάνειο', 'Πράσινη οικονομία', 'Κλιματική αλλαγή']",
+      "repeat_index": 1,
+      "repeat_count": 1,
+      "timestamp": "2026-06-17T11:11:17.244064+00:00",
+      "source": "qa_evaluation_suite"
+    },
+    {
+      "question_id": "q4",
+      "question": "4) Εντόπισε όλες τις προθεσμίες που αναφέρονται και γράψε τες σε μορφή ΗΗ/ΜΜ/ΕΕΕΕ.",
+      "answer": "Δεν υπάρχει πληροφορία για προθεσμίες.",
+      "repeat_index": 1,
+      "repeat_count": 1,
+      "timestamp": "2026-06-17T11:11:17.244940+00:00",
+      "source": "qa_evaluation_suite"
+    },
+    {
+      "question_id": "q5",
+      "question": "5) Βρες αν υπάρχει ανώτατο ή κατώτατο όριο χρηματοδότησης και δώσε το ακριβές ποσό/ποσοστό.",
+      "answer": "1.500€ - 25.000€",
+      "repeat_index": 1,
+      "repeat_count": 1,
+      "timestamp": "2026-06-17T11:11:17.245776+00:00",
+      "source": "qa_evaluation_suite"
+    },
+    {
+      "question_id": "q6",
+      "question": "6) Ποιες παρεμβάσεις ενεργειακής αναβάθμισης χρηματοδοτούνται;",
+      "answer": "Μονώσεις, Αντικατάσταση κουφωμάτων, Τοποθέτηση / αντικατάσταση κελύφους για θερμομόνωση, Αναβάθμιση συστήματος θέρμανσης / ψύξης, Αναβάθμιση συστήματος ζεστού νερού χρήσης μέσω ΑΠΕ",
+      "repeat_index": 1,
+      "repeat_count": 1,
+      "timestamp": "2026-06-17T11:11:17.246608+00:00",
+      "source": "qa_evaluation_suite"
+    },
+    {
+      "question_id": "q7",
+      "question": "7) Ποια είναι τα σημαντικότερα σημεία που πρέπει να προσέξει ένας ενδιαφερόμενος πριν υποβάλει αίτηση;",
+      "answer": "Δεν υπάρχει πληροφορία για τα σημεία που πρέπει να προσέξει ένας ενδιαφερόμενος πριν υποβάλει αίτηση.",
+      "repeat_index": 1,
+      "repeat_count": 1,
+      "timestamp": "2026-06-17T11:11:17.247488+00:00",
+      "source": "qa_evaluation_suite"
+    },
+    {
+      "question_id": "q8",
+      "question": "8) Τι γίνεται αν δεν ολοκληρωθούν οι εργασίες μέσα στην προβλεπόμενη προθεσμία;",
+      "answer": "Δεν υπάρχει πληροφορία για τι γίνεται αν δεν ολοκληρωθούν οι εργασίες μέσα στην προβλεπόμενη προθεσμία.",
+      "repeat_index": 1,
+      "repeat_count": 1,
+      "timestamp": "2026-06-17T11:11:17.248504+00:00",
+      "source": "qa_evaluation_suite"
+    },
+    {
+      "question_id": "q9",
+      "question": "9) Υπάρχουν υποχρεώσεις του δικαιούχου μετά την ολοκλήρωση του έργου;",
+      "answer": "Δεν υπάρχει πληροφορία για υποχρεώσεις του δικαιούχου μετά την ολοκλήρωση του έργου.",
+      "repeat_index": 1,
+      "repeat_count": 1,
+      "timestamp": "2026-06-17T11:11:17.249744+00:00",
+      "source": "qa_evaluation_suite"
+    },
+    {
+      "question_id": "q10",
+      "question": "10) Describe the program in 90-120 words.",
+      "answer": "Το πρόγραμμα Credia Eco Λύσεις προσφέρει χρηματοδότηση έως και το 100% των εργασιών ενεργειακής αναβάθμισης κατοικίας. Οι δικαιούχοι είναι οι ιδιοκτήτες κατοικίας και τα βασικά οφέλη είναι η μείωση του κόστους ενέργειας θέρμανσης – ψύξης και η προστασία του περιβαλλοντικού αποτυπώματος.",
+      "repeat_index": 1,
+      "repeat_count": 1,
+      "timestamp": "2026-06-17T11:11:17.251928+00:00",
+      "source": "qa_evaluation_suite"
+    },
+    {
+      "question_id": "q11",
+      "question": "11) Explain the difference between a 'grant' and a 'loan' in the context of energy upgrades, with one example for each.",
+      "answer": "Δεν υπάρχει πληροφορία για την επιχορήγηση. Η διαφορά μεταξύ δανείου και χρηματοδότησης δεν είναι καθαρά οριζόμενη στο JSON.",
+      "repeat_index": 1,
+      "repeat_count": 1,
+      "timestamp": "2026-06-17T11:11:17.253045+00:00",
+      "source": "qa_evaluation_suite"
+    },
+    {
+      "question_id": "q12",
+      "question": "12) Ποια είναι η πρωτεύουσα της Ελλάδας ;",
+      "answer": "Αθήνα",
+      "repeat_index": 1,
+      "repeat_count": 1,
+      "timestamp": "2026-06-17T11:11:17.254351+00:00",
+      "source": "qa_evaluation_suite"
+    },
+    {
+      "question_id": "q13",
+      "question": "13) Ποια είναι η πρωτεύουσα της Γαλλίας ;",
+      "answer": "Παρίσι",
+      "repeat_index": 1,
+      "repeat_count": 1,
+      "timestamp": "2026-06-17T11:11:17.255379+00:00",
+      "source": "qa_evaluation_suite"
+    },
+    {
+      "question_id": "q14",
+      "question": "14) What's the capital of Greece ?",
+      "answer": "Αθήνα",
+      "repeat_index": 1,
+      "repeat_count": 1,
+      "timestamp": "2026-06-17T11:11:17.256278+00:00",
+      "source": "qa_evaluation_suite"
+    },
+    {
+      "question_id": "q15",
+      "question": "15) What's the capital of France ?",
+      "answer": "Παρίσι",
+      "repeat_index": 1,
+      "repeat_count": 1,
+      "timestamp": "2026-06-17T11:11:17.257016+00:00",
+      "source": "qa_evaluation_suite"
+    }
+  ],
+  "updated_at": "2026-06-17T11:11:17.257043+00:00"
+}

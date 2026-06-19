@@ -1,0 +1,41 @@
+\begin{tikzpicture}[
+    layer/.style={
+        rectangle,
+        rounded corners=3pt,
+        draw=blue!52,
+        fill=blue!6,
+        align=center,
+        text width=11.25cm,
+        minimum height=0.72cm,
+        font=\sffamily\small
+    },
+    note/.style={
+        rectangle,
+        rounded corners=2pt,
+        draw=gray!35,
+        fill=gray!6,
+        align=center,
+        text width=2.45cm,
+        minimum height=0.48cm,
+        font=\sffamily\scriptsize
+    },
+    arrow/.style={-{Latex[length=1.8mm]}, thick, draw=gray!55}
+]
+\node[layer] (l1) at (0,0) {Ενεργειακή απόδοση κτιρίων και ανάγκη ανακαινίσεων};
+\node[layer, below=0.24cm of l1] (l2) {Χρηματοδοτικά εργαλεία και εμπόδιο αρχικού κεφαλαίου};
+\node[layer, below=0.24cm of l2] (l3) {Κατακερματισμένες διαδικτυακές πηγές και ετερογενής ορολογία};
+\node[layer, below=0.24cm of l3] (l4) {Συλλογή περιεχομένου, καθαρισμός και τυποποίηση};
+\node[layer, below=0.24cm of l4] (l5) {LLMs για ταξινόμηση συνάφειας και εξαγωγή δομημένων πεδίων};
+\node[layer, below=0.24cm of l5] (l6) {Έλεγχος ποιότητας, τεκμηρίωση πηγής και ανθρώπινη εποπτεία};
+
+\draw[arrow] (l1) -- (l2);
+\draw[arrow] (l2) -- (l3);
+\draw[arrow] (l3) -- (l4);
+\draw[arrow] (l4) -- (l5);
+\draw[arrow] (l5) -- (l6);
+
+\node[note, below=0.48cm of l6, xshift=-4.35cm] (n1) {Επίσημες πηγές};
+\node[note, below=0.48cm of l6, xshift=-1.45cm] (n2) {Δομημένο JSON};
+\node[note, below=0.48cm of l6, xshift=1.45cm] (n3) {Αποθήκευση JSON};
+\node[note, below=0.48cm of l6, xshift=4.35cm] (n4) {Web εφαρμογή};
+\end{tikzpicture}

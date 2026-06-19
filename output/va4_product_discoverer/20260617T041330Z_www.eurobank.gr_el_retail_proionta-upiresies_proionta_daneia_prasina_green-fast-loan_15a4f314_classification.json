@@ -1,0 +1,62 @@
+{
+  "timestamp": "20260617T041330Z",
+  "url": "https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/green-fast-loan",
+  "classification": {
+    "is_relevant": true,
+    "primary_category": "green_housing_loan",
+    "secondary_categories": [
+      "energy_upgrade"
+    ],
+    "confidence": 0.92,
+    "reasoning": "Deterministic scope pass: home energy finance signals found",
+    "key_features": [
+      "deterministic_home_green_finance_scope"
+    ]
+  },
+  "extracted_data": {
+    "programme_name": "Προσωπικό Δάνειο Green Fast Loan",
+    "description": "Στην Eurobank στηρίζουμε το πρόγραμμα «Ανακυκλώνω – Αλλάζω συσκευή» του Υπουργείου Περιβάλλοντος και Ενέργειας και ενισχύουμε την προσπάθειά σας να εξοικονομήσετε ενέργεια για το περιβάλλον και χρήματα για τις ανάγκες σας. Αποκτήστε Green Fast Loan για να αγοράσετε πράσινες οικιακές συσκευές, να αντικαταστήσετε παλιές συσκευές σας που καταναλώνουν πολλή ενέργεια ή να εξοικονομείτε ενέργεια στις μετακινήσεις σας με την αγορά ηλεκτρικού ποδηλάτου ή σκούτερ.",
+    "programme_objective": "Στην Eurobank στηρίζουμε το πρόγραμμα «Ανακυκλώνω – Αλλάζω συσκευή» του Υπουργείου Περιβάλλοντος και Ενέργειας και ενισχύουμε την προσπάθειά σας να εξοικονομήσετε ενέργεια για το περιβάλλον και χρήματα για τις ανάγκες σας. Αποκτήστε Green Fast Loan για να αγοράσετε πράσινες οικιακές συσκευές, να αντικαταστήσετε παλιές συσκευές σας που καταναλώνουν πολλή ενέργεια ή να εξοικονομείτε ενέργεια στις μετακινήσεις σας με την αγορά ηλεκτρικού ποδηλάτου ή σκούτερ.",
+    "eligible_parties": [],
+    "eligibility_criteria": [],
+    "property_requirements": [
+      "πράσινες ανάγκες σας"
+    ],
+    "minimum_funding_amount": "300€",
+    "maximum_funding_amount": "5.000€",
+    "funding_type": "Δάνειο",
+    "interest_rate": "11,90%",
+    "funding_coverage": "",
+    "total_budget": "",
+    "funding_sources": [],
+    "duration": "",
+    "loan_duration": [
+      "6 μήνες έως 2 χρόνια",
+      "6 μήνες έως 4 χρόνια",
+      "6 μήνες έως 5 χρόνια"
+    ],
+    "completion_deadline": "",
+    "application_start_date": "",
+    "application_end_date": "",
+    "energy_performance_targets": "",
+    "eligible_interventions": [
+      "Πράσινες οικιακές συσκευές",
+      "Λευκές οικιακές συσκευές",
+      "Συσκευές θέρμανσης και κλιματισμού",
+      "Ενεργειακή αναβάθμιση κατοικίας"
+    ],
+    "application_process": "",
+    "managing_body": "",
+    "announcement_date": "",
+    "contact_info": [
+      "2109555455",
+      "Δευτέρα-Παρασκευή, 09:00-17:00"
+    ],
+    "additional_details": "",
+    "source_url": "https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/green-fast-loan",
+    "source_urls": [
+      "https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/green-fast-loan"
+    ],
+    "id": "green-fast-loan-15a4f314f7"
+  }
+}

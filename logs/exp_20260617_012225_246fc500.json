@@ -1,0 +1,15 @@
+{
+  "experiment_id": "exp_20260617_012225_246fc500",
+  "timestamp": "2026-06-17T01:22:25.633804+00:00",
+  "model": "deterministic_scope_guard",
+  "temperature": 0.0,
+  "hyperparameters": {
+    "mode": "pre_llm_classification"
+  },
+  "prompt": "",
+  "sources": [
+    "Πράσινο Στεγαστικό Δάνειο Συνδεδεμένο με Euribor"
+  ],
+  "terminal_output": "Category: green_housing_loan | Confidence: 92% | Relevant: True",
+  "template_output_file": null
+}

@@ -1,0 +1,210 @@
+[
+  {
+    "url": "https://exoikonomo2025.gov.gr/",
+    "status": "repaired",
+    "programme_name": "ΕΞΟΙΚΟΝΟΜΩ 2025",
+    "is_relevant": true,
+    "primary_category": "green_housing_loan",
+    "extracted_path": "C:\\Users\\stavr\\Desktop\\HMMY\\Thesis\\llm-axe\\output\\va3_scraper_to_template\\20260616T201029Z_exoikonomo2025.gov.gr_2077aa70_extracted.json",
+    "classification_path": "C:\\Users\\stavr\\Desktop\\HMMY\\Thesis\\llm-axe\\output\\va4_product_discoverer\\20260616T201029Z_exoikonomo2025.gov.gr_2077aa70_classification.json",
+    "scraped_chars": 2591
+  },
+  {
+    "url": "https://exoikonomo2025.gov.gr/odegos",
+    "status": "rejected_no_extracted_json",
+    "classification": {
+      "is_relevant": false,
+      "primary_category": "other",
+      "secondary_categories": [],
+      "confidence": 0.96,
+      "reasoning": "No extracted JSON was produced in the latest batch; scoped source check: missing financing signal",
+      "key_features": [
+        "prefilter_reject"
+      ]
+    },
+    "classification_path": "C:\\Users\\stavr\\Desktop\\HMMY\\Thesis\\llm-axe\\output\\va4_product_discoverer\\20260616T201029Z_exoikonomo2025.gov.gr_odegos_114d40cb_classification.json",
+    "scraped_chars": 707
+  },
+  {
+    "url": "https://stegasi.gov.gr/programs/anavathmizo-to-spiti-mou/",
+    "status": "repaired",
+    "programme_name": "Αναβαθμίζω το Σπίτι μου",
+    "is_relevant": true,
+    "primary_category": "green_housing_loan",
+    "extracted_path": "C:\\Users\\stavr\\Desktop\\HMMY\\Thesis\\llm-axe\\output\\va3_scraper_to_template\\20260616T201029Z_stegasi.gov.gr_programs_anavathmizo-to-spiti-mou_a352dd59_extracted.json",
+    "classification_path": "C:\\Users\\stavr\\Desktop\\HMMY\\Thesis\\llm-axe\\output\\va4_product_discoverer\\20260616T201029Z_stegasi.gov.gr_programs_anavathmizo-to-spiti-mou_a352dd59_classification.json",
+    "scraped_chars": 2893
+  },
+  {
+    "url": "https://stegasi.gov.gr/programs/exoikonomo-2025/",
+    "status": "repaired",
+    "programme_name": "Εξοικονομώ 2025",
+    "is_relevant": true,
+    "primary_category": "green_housing_loan",
+    "extracted_path": "C:\\Users\\stavr\\Desktop\\HMMY\\Thesis\\llm-axe\\output\\va3_scraper_to_template\\20260616T201029Z_stegasi.gov.gr_programs_exoikonomo-2025_6b58db07_extracted.json",
+    "classification_path": "C:\\Users\\stavr\\Desktop\\HMMY\\Thesis\\llm-axe\\output\\va4_product_discoverer\\20260616T201029Z_stegasi.gov.gr_programs_exoikonomo-2025_6b58db07_classification.json",
+    "scraped_chars": 5156
+  },
+  {
+    "url": "https://greece20.gov.gr/home-loans/",
+    "status": "repaired",
+    "programme_name": "Αναβαθμίζω το σπίτι μου",
+    "is_relevant": true,
+    "primary_category": "green_housing_loan",
+    "extracted_path": "C:\\Users\\stavr\\Desktop\\HMMY\\Thesis\\llm-axe\\output\\va3_scraper_to_template\\20260616T201029Z_greece20.gov.gr_home-loans_99a7b9db_extracted.json",
+    "classification_path": "C:\\Users\\stavr\\Desktop\\HMMY\\Thesis\\llm-axe\\output\\va4_product_discoverer\\20260616T201029Z_greece20.gov.gr_home-loans_99a7b9db_classification.json",
+    "scraped_chars": 5609
+  },
+  {
+    "url": "https://www.gov.gr/ipiresies/periousia-kai-phorologia/diakheirise-akinetes-periousias/exoikonomo-2025",
+    "status": "repaired",
+    "programme_name": "Εξοικονομώ 2025",
+    "is_relevant": true,
+    "primary_category": "green_housing_loan",
+    "extracted_path": "C:\\Users\\stavr\\Desktop\\HMMY\\Thesis\\llm-axe\\output\\va3_scraper_to_template\\20260616T201029Z_www.gov.gr_ipiresies_periousia-kai-phorologia_diakheirise-akinetes-periousias_exoikonomo-2025_2892978b_extracted.json",
+    "classification_path": "C:\\Users\\stavr\\Desktop\\HMMY\\Thesis\\llm-axe\\output\\va4_product_discoverer\\20260616T201029Z_www.gov.gr_ipiresies_periousia-kai-phorologia_diakheirise-akinetes-periousias_exoikonomo-2025_2892978b_classification.json",
+    "scraped_chars": 2584
+  },
+  {
+    "url": "https://www.piraeusbank.gr/el/idiwtes/proionta-upiresies/stegastika-daneia/anabathmizo-to-spiti-mou",
+    "status": "repaired",
+    "programme_name": "Αναβαθμίζω το Σπίτι μου",
+    "is_relevant": true,
+    "primary_category": "green_housing_loan",
+    "extracted_path": "C:\\Users\\stavr\\Desktop\\HMMY\\Thesis\\llm-axe\\output\\va3_scraper_to_template\\20260616T201029Z_www.piraeusbank.gr_el_idiwtes_proionta-upiresies_stegastika-daneia_anabathmizo-to-spiti-mou_314a39ff_extracted.json",
+    "classification_path": "C:\\Users\\stavr\\Desktop\\HMMY\\Thesis\\llm-axe\\output\\va4_product_discoverer\\20260616T201029Z_www.piraeusbank.gr_el_idiwtes_proionta-upiresies_stegastika-daneia_anabathmizo-to-spiti-mou_314a39ff_classification.json",
+    "scraped_chars": 12107
+  },
+  {
+    "url": "https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/eksoikonomo-2025",
+    "status": "repaired",
+    "programme_name": "Εξοικονομώ 2025",
+    "is_relevant": true,
+    "primary_category": "green_housing_loan",
+    "extracted_path": "C:\\Users\\stavr\\Desktop\\HMMY\\Thesis\\llm-axe\\output\\va3_scraper_to_template\\20260616T201030Z_www.eurobank.gr_el_retail_proionta-upiresies_proionta_daneia_prasina_eksoikonomo-2025_9a0afe12_extracted.json",
+    "classification_path": "C:\\Users\\stavr\\Desktop\\HMMY\\Thesis\\llm-axe\\output\\va4_product_discoverer\\20260616T201030Z_www.eurobank.gr_el_retail_proionta-upiresies_proionta_daneia_prasina_eksoikonomo-2025_9a0afe12_classification.json",
+    "scraped_chars": 26713
+  },
+  {
+    "url": "https://www.nbg.gr/el/idiwtes/daneia/daneia-exoikonomisis-energeias",
+    "status": "repaired",
+    "programme_name": "Εξοικονομώ",
+    "is_relevant": true,
+    "primary_category": "green_housing_loan",
+    "extracted_path": "C:\\Users\\stavr\\Desktop\\HMMY\\Thesis\\llm-axe\\output\\va3_scraper_to_template\\20260616T201030Z_www.nbg.gr_el_idiwtes_daneia_daneia-exoikonomisis-energeias_f784a97e_extracted.json",
+    "classification_path": "C:\\Users\\stavr\\Desktop\\HMMY\\Thesis\\llm-axe\\output\\va4_product_discoverer\\20260616T201030Z_www.nbg.gr_el_idiwtes_daneia_daneia-exoikonomisis-energeias_f784a97e_classification.json",
+    "scraped_chars": 1810
+  },
+  {
+    "url": "https://www.nbg.gr/el/idiwtes/daneia/daneia-exoikonomisis-energeias/prasino-daneio-spitiou-h-autokinhtou",
+    "status": "repaired",
+    "programme_name": "Πράσινο Δάνειο Σπιτιού ή Αυτοκινήτου",
+    "is_relevant": true,
+    "primary_category": "green_housing_loan",
+    "extracted_path": "C:\\Users\\stavr\\Desktop\\HMMY\\Thesis\\llm-axe\\output\\va3_scraper_to_template\\20260616T201030Z_www.nbg.gr_el_idiwtes_daneia_daneia-exoikonomisis-energeias_prasino-daneio-spitiou-h-autokinhtou_d27b3e33_extracted.json",
+    "classification_path": "C:\\Users\\stavr\\Desktop\\HMMY\\Thesis\\llm-axe\\output\\va4_product_discoverer\\20260616T201030Z_www.nbg.gr_el_idiwtes_daneia_daneia-exoikonomisis-energeias_prasino-daneio-spitiou-h-autokinhtou_d27b3e33_classification.json",
+    "scraped_chars": 12346
+  },
+  {
+    "url": "https://www.alpha.gr/el/idiotes/daneia/prasina-daneia",
+    "status": "repaired",
+    "programme_name": "Πράσινα Δάνεια",
+    "is_relevant": true,
+    "primary_category": "green_housing_loan",
+    "extracted_path": "C:\\Users\\stavr\\Desktop\\HMMY\\Thesis\\llm-axe\\output\\va3_scraper_to_template\\20260616T201030Z_www.alpha.gr_el_idiotes_daneia_prasina-daneia_f5ec5bff_extracted.json",
+    "classification_path": "C:\\Users\\stavr\\Desktop\\HMMY\\Thesis\\llm-axe\\output\\va4_product_discoverer\\20260616T201030Z_www.alpha.gr_el_idiotes_daneia_prasina-daneia_f5ec5bff_classification.json",
+    "scraped_chars": 6258
+  },
+  {
+    "url": "https://www.alpha.gr/el/idiotes/daneia/episkevastika-daneia-gia-anakainisi/programma-eksoikonomo-2025",
+    "status": "repaired",
+    "programme_name": "Εξοικονομώ 2025",
+    "is_relevant": true,
+    "primary_category": "green_housing_loan",
+    "extracted_path": "C:\\Users\\stavr\\Desktop\\HMMY\\Thesis\\llm-axe\\output\\va3_scraper_to_template\\20260616T201030Z_www.alpha.gr_el_idiotes_daneia_episkevastika-daneia-gia-anakainisi_programma-eksoikonomo-2025_5e203b18_extracted.json",
+    "classification_path": "C:\\Users\\stavr\\Desktop\\HMMY\\Thesis\\llm-axe\\output\\va4_product_discoverer\\20260616T201030Z_www.alpha.gr_el_idiotes_daneia_episkevastika-daneia-gia-anakainisi_programma-eksoikonomo-2025_5e203b18_classification.json",
+    "scraped_chars": 7111
+  },
+  {
+    "url": "https://www.crediabank.com/idiotes/daneia/eco-katanalotika/eco-lyseis-energeiaki-anavathmisi-katoikias/",
+    "status": "repaired",
+    "programme_name": "Credia Eco Λύσεις - ενεργειακή Αναβάθμιση Κατοικίας",
+    "is_relevant": true,
+    "primary_category": "green_housing_loan",
+    "extracted_path": "C:\\Users\\stavr\\Desktop\\HMMY\\Thesis\\llm-axe\\output\\va3_scraper_to_template\\20260616T201030Z_www.crediabank.com_idiotes_daneia_eco-katanalotika_eco-lyseis-energeiaki-anavathmisi-katoikias_36a72e32_extracted.json",
+    "classification_path": "C:\\Users\\stavr\\Desktop\\HMMY\\Thesis\\llm-axe\\output\\va4_product_discoverer\\20260616T201030Z_www.crediabank.com_idiotes_daneia_eco-katanalotika_eco-lyseis-energeiaki-anavathmisi-katoikias_36a72e32_classification.json",
+    "scraped_chars": 4689
+  },
+  {
+    "url": "https://www.crediabank.com/idiotes/daneia/stegastika/stegastiko-daneio-eco-home/",
+    "status": "repaired",
+    "programme_name": "Στεγαστικό Δάνειο Eco Home",
+    "is_relevant": true,
+    "primary_category": "green_housing_loan",
+    "extracted_path": "C:\\Users\\stavr\\Desktop\\HMMY\\Thesis\\llm-axe\\output\\va3_scraper_to_template\\20260616T201030Z_www.crediabank.com_idiotes_daneia_stegastika_stegastiko-daneio-eco-home_592fa2ea_extracted.json",
+    "classification_path": "C:\\Users\\stavr\\Desktop\\HMMY\\Thesis\\llm-axe\\output\\va4_product_discoverer\\20260616T201030Z_www.crediabank.com_idiotes_daneia_stegastika_stegastiko-daneio-eco-home_592fa2ea_classification.json",
+    "scraped_chars": 3639
+  },
+  {
+    "url": "https://www.crediabank.com/idiotes/daneia/stegastika/programma-anavathmizo-to-spiti-mou/",
+    "status": "repaired",
+    "programme_name": "Αναβαθμίζω το Σπίτι μου",
+    "is_relevant": true,
+    "primary_category": "green_housing_loan",
+    "extracted_path": "C:\\Users\\stavr\\Desktop\\HMMY\\Thesis\\llm-axe\\output\\va3_scraper_to_template\\20260616T201030Z_www.crediabank.com_idiotes_daneia_stegastika_programma-anavathmizo-to-spiti-mou_29ff1023_extracted.json",
+    "classification_path": "C:\\Users\\stavr\\Desktop\\HMMY\\Thesis\\llm-axe\\output\\va4_product_discoverer\\20260616T201030Z_www.crediabank.com_idiotes_daneia_stegastika_programma-anavathmizo-to-spiti-mou_29ff1023_classification.json",
+    "scraped_chars": 3989
+  },
+  {
+    "url": "https://exoikonomoepixeiro.energy-invest.gov.gr/",
+    "status": "rejected_no_extracted_json",
+    "classification": {
+      "is_relevant": false,
+      "primary_category": "other",
+      "secondary_categories": [],
+      "confidence": 0.96,
+      "reasoning": "No extracted JSON was produced in the latest batch; scoped source check: missing financing signal",
+      "key_features": [
+        "prefilter_reject"
+      ]
+    },
+    "classification_path": "C:\\Users\\stavr\\Desktop\\HMMY\\Thesis\\llm-axe\\output\\va4_product_discoverer\\20260616T201030Z_exoikonomoepixeiro.energy-invest.gov.gr_4b8e68b0_classification.json",
+    "scraped_chars": 1144
+  },
+  {
+    "url": "https://hdb.gr/en/green-co-financing-loans/",
+    "status": "rejected_no_extracted_json",
+    "classification": {
+      "is_relevant": false,
+      "primary_category": "other",
+      "secondary_categories": [],
+      "confidence": 0.96,
+      "reasoning": "No extracted JSON was produced in the latest batch; scoped source check: business/public context without residential home signal",
+      "key_features": [
+        "prefilter_reject"
+      ]
+    },
+    "classification_path": "C:\\Users\\stavr\\Desktop\\HMMY\\Thesis\\llm-axe\\output\\va4_product_discoverer\\20260616T201030Z_hdb.gr_en_green-co-financing-loans_ad8f5fef_classification.json",
+    "scraped_chars": 8411
+  },
+  {
+    "url": "https://hlektra.gov.gr/home",
+    "status": "repaired",
+    "programme_name": "ΗΛΕΚΤΡΑ",
+    "is_relevant": false,
+    "primary_category": "other",
+    "extracted_path": "C:\\Users\\stavr\\Desktop\\HMMY\\Thesis\\llm-axe\\output\\va3_scraper_to_template\\20260616T201030Z_hlektra.gov.gr_home_658d8457_extracted.json",
+    "classification_path": "C:\\Users\\stavr\\Desktop\\HMMY\\Thesis\\llm-axe\\output\\va4_product_discoverer\\20260616T201030Z_hlektra.gov.gr_home_658d8457_classification.json",
+    "scraped_chars": 1984
+  },
+  {
+    "url": "https://www.gov.gr/ipiresies/polites-kai-kathemerinoteta/periballon-kai-poioteta-zoes/photoboltaika-ste-stege",
+    "status": "repaired",
+    "programme_name": "Φωτοβολταϊκά στη στέγη",
+    "is_relevant": true,
+    "primary_category": "green_housing_loan",
+    "extracted_path": "C:\\Users\\stavr\\Desktop\\HMMY\\Thesis\\llm-axe\\output\\va3_scraper_to_template\\20260616T201030Z_www.gov.gr_ipiresies_polites-kai-kathemerinoteta_periballon-kai-poioteta-zoes_photoboltaika-ste-stege_9d577ea5_extracted.json",
+    "classification_path": "C:\\Users\\stavr\\Desktop\\HMMY\\Thesis\\llm-axe\\output\\va4_product_discoverer\\20260616T201030Z_www.gov.gr_ipiresies_polites-kai-kathemerinoteta_periballon-kai-poioteta-zoes_photoboltaika-ste-stege_9d577ea5_classification.json",
+    "scraped_chars": 1626
+  }
+]

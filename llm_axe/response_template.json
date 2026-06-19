@@ -1,5 +1,8 @@
 [
   {
+    "id": "",
+    "source_url": "",
+    "source_urls": [],
     "programme_name": "",
     "description": "",
     "programme_objective": "",
@@ -18,6 +21,8 @@
 
     "programme_duration": "",
     "loan_duration": "",
+    "completion_delay_consequences": "",
+    "post_completion_obligations": "",
     "energy_performance_targets": "",
 
     "eligible_interventions": [],

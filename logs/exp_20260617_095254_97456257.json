@@ -1,0 +1,15 @@
+{
+  "experiment_id": "exp_20260617_095254_97456257",
+  "timestamp": "2026-06-17T09:52:54.180419+00:00",
+  "model": "llama3.2:latest",
+  "temperature": 0.0,
+  "hyperparameters": {
+    "filter": "keyword_prescreen"
+  },
+  "prompt": "[Keyword Pre-screen]",
+  "sources": [
+    "https://hlektra.gov.gr/home"
+  ],
+  "terminal_output": "REJECTED at keyword pre-screen (before extraction)",
+  "template_output_file": null
+}

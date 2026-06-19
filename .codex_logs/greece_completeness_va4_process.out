@@ -1,0 +1,1409 @@
+Greece completeness batch started 20260616T225519Z
+
+[1/24] START https://hdb.gr/anavathmizo-to-spiti-mou/
+[WARN] package-level imports failed; loading modules directly
+[INFO] LLM fast  (pre-screen + extraction): llama3.2:latest
+[INFO] LLM smart (classification + Q&A):     llama3.1:8b-instruct-q4_K_M
+
+======================================================================
+ΕΠΕΞΕΡΓΑΣΙΑ URL: https://hdb.gr/anavathmizo-to-spiti-mou/
+======================================================================
+
+[1/3] Scraping, pre-screening και εξαγωγή δεδομένων...
+[DEBUG] Fetching page content
+[DEBUG] Scraped text length: 8936 characters
+[DEBUG] Saved scraped text to: C:\Users\stavr\Desktop\HMMY\Thesis\llm-axe\output\va3_scraper_to_template\20260616T225527Z_hdb.gr_anavathmizo-to-spiti-mou_eb9a84a8_scraped.txt
+[DEBUG] Scoped keyword pre-filter passed: home energy finance signals found
+[PRE-SCREEN] Deterministic scope pass: home energy finance signals found
+[✓] Pre-screening passed — proceeding with full extraction
+[INFO] Smart text extraction: 8936 → 8936 chars (1 relevant sections)
+[DEBUG] Building extraction prompt
+[INFO] LLM inference (llama3.2:latest, attempt 1/3, ~11162 input chars)...
+[INFO] ✓ LLM responded in 803.1s (1895 chars output)
+[DEBUG] Parsing JSON string (1895 chars): {
+  "programme_name": "Αναβαθμίζω το Σπίτι Μου",
+  "description": "",
+  "programme_objective": "βελτ...http://r)"
+    }
+  ],
+  "additional_details": ""
+}
+[DEBUG] Parse result type: <class 'dict'>, keys: ['programme_name', 'description', 'programme_objective', 'eligible_parties', 'eligibility_criteria']
+[DEBUG] Converting dict to array
+[DEBUG] Successfully extracted JSON (attempt 1)
+[DEBUG] Extracted data has 25 keys: ['programme_name', 'description', 'programme_objective', 'eligible_parties', 'eligibility_criteria', 'property_requirements', 'minimum_funding_amount', 'maximum_funding_amount', 'funding_type', 'interest_rate']...
+✓ Εξαγωγή ολοκληρώθηκε: Αναβαθμίζω το Σπίτι Μου
+  Περιγραφή: Το Πρόγραμμα «Αναβαθμίζω το Σπίτι Μου», δημιουργήθηκε για να παρέχει συγχρηματοδ...
+  → Max ποσό: 25.000€, Επεμβάσεις: 6
+[DEBUG] Saved validated extracted data to: C:\Users\stavr\Desktop\HMMY\Thesis\llm-axe\output\va3_scraper_to_template\20260616T230850Z_hdb.gr_anavathmizo-to-spiti-mou_eb9a84a8_extracted.json
+
+[2/3] Κατηγοριοποίηση προγράμματος...
+[DEBUG] Classifying product/program...
+[DEBUG] Deterministic classification: Deterministic scope pass: home energy finance signals found
+[LOG] Experiment: exp_20260616_230850_30f74f0c
+
+======================================================================
+ΑΠΟΤΕΛΕΣΜΑ ΚΑΤΗΓΟΡΙΟΠΟΙΗΣΗΣ
+======================================================================
+Κατηγορία: Πράσινο στεγαστικό δάνειο (Green housing loan with mandatory energy upgrades)
+Ενδιαφέρον: ✓ ΝΑΙ
+Βεβαιότητα: 92%
+Αιτιολόγηση: Deterministic scope pass: home energy finance signals found
+Δευτερεύουσες: ΑΠΕ σε σπίτι (Renewable energy for homes - solar panels, heat pumps, insulation), Ενεργειακή αναβάθμιση (Energy upgrade/efficiency programs)
+======================================================================
+
+[DEBUG] Experiment Log: exp_20260616_230850_30f74f0c
+[DEBUG] Classification Output: C:\Users\stavr\Desktop\HMMY\Thesis\llm-axe\output\va4_product_discoverer\20260616T230850Z_hdb.gr_anavathmizo-to-spiti-mou_eb9a84a8_classification.json
+
+[3/3] Q&A απενεργοποιημένο.
+
+[1/24] END ok rc=0 seconds=812.5
+
+[2/24] START https://greece20.gov.gr/?calls=programma-sygchrimatodotoymenon-stegastikon-daneion-anavathmizo-to-spiti-moy
+[WARN] package-level imports failed; loading modules directly
+[INFO] LLM fast  (pre-screen + extraction): llama3.2:latest
+[INFO] LLM smart (classification + Q&A):     llama3.1:8b-instruct-q4_K_M
+
+======================================================================
+ΕΠΕΞΕΡΓΑΣΙΑ URL: https://greece20.gov.gr/?calls=programma-sygchrimatodotoymenon-stegastikon-daneion-anavathmizo-to-spiti-moy
+======================================================================
+
+[1/3] Scraping, pre-screening και εξαγωγή δεδομένων...
+[DEBUG] Fetching page content
+[DEBUG] Scraped text length: 8397 characters
+[DEBUG] Saved scraped text to: C:\Users\stavr\Desktop\HMMY\Thesis\llm-axe\output\va3_scraper_to_template\20260616T230901Z_greece20.gov.gr_cc0f4abc_scraped.txt
+[DEBUG] Scoped keyword pre-filter passed: home energy finance signals found
+[PRE-SCREEN] Deterministic scope pass: home energy finance signals found
+[✓] Pre-screening passed — proceeding with full extraction
+[INFO] Smart text extraction: 8397 → 8397 chars (1 relevant sections)
+[DEBUG] Building extraction prompt
+[INFO] LLM inference (llama3.2:latest, attempt 1/3, ~10690 input chars)...
+[INFO] ✓ LLM responded in 705.8s (1518 chars output)
+[DEBUG] Parsing JSON string (1518 chars): {
+  "programme_name": "Αναβαθμίζω το Σπίτι μου",
+  "description": "",
+  "programme_objective": "",
+ ...1-1058659"
+    }
+  ],
+  "additional_details": ""
+}
+[DEBUG] Parse result type: <class 'dict'>, keys: ['programme_name', 'description', 'programme_objective', 'eligible_parties', 'eligibility_criteria']
+[DEBUG] Converting dict to array
+[DEBUG] Successfully extracted JSON (attempt 1)
+[DEBUG] Extracted data has 25 keys: ['programme_name', 'description', 'programme_objective', 'eligible_parties', 'eligibility_criteria', 'property_requirements', 'minimum_funding_amount', 'maximum_funding_amount', 'funding_type', 'interest_rate']...
+✓ Εξαγωγή ολοκληρώθηκε: Αναβαθμίζω το Σπίτι μου
+  Περιγραφή: Αναβαθμίζω το Σπίτι μου – Όροι συμμετοχής - Ελλάδα 2.0 Αναβαθμίζω το Σπίτι μου -...
+  → Max ποσό: €80.000.000,00, Επεμβάσεις: 6
+[DEBUG] Saved validated extracted data to: C:\Users\stavr\Desktop\HMMY\Thesis\llm-axe\output\va3_scraper_to_template\20260616T232047Z_greece20.gov.gr_cc0f4abc_extracted.json
+
+[2/3] Κατηγοριοποίηση προγράμματος...
+[DEBUG] Classifying product/program...
+[DEBUG] Deterministic classification: Deterministic scope pass: home energy finance signals found
+[LOG] Experiment: exp_20260616_232047_f68700af
+
+======================================================================
+ΑΠΟΤΕΛΕΣΜΑ ΚΑΤΗΓΟΡΙΟΠΟΙΗΣΗΣ
+======================================================================
+Κατηγορία: Πράσινο στεγαστικό δάνειο (Green housing loan with mandatory energy upgrades)
+Ενδιαφέρον: ✓ ΝΑΙ
+Βεβαιότητα: 92%
+Αιτιολόγηση: Deterministic scope pass: home energy finance signals found
+Δευτερεύουσες: ΑΠΕ σε σπίτι (Renewable energy for homes - solar panels, heat pumps, insulation), Ενεργειακή αναβάθμιση (Energy upgrade/efficiency programs)
+======================================================================
+
+[DEBUG] Experiment Log: exp_20260616_232047_f68700af
+[DEBUG] Classification Output: C:\Users\stavr\Desktop\HMMY\Thesis\llm-axe\output\va4_product_discoverer\20260616T232047Z_greece20.gov.gr_cc0f4abc_classification.json
+
+[3/3] Q&A απενεργοποιημένο.
+
+[2/24] END ok rc=0 seconds=716.6
+
+[3/24] START https://greece20.gov.gr/anavathmizo-to-spiti-moy/
+[WARN] package-level imports failed; loading modules directly
+[INFO] LLM fast  (pre-screen + extraction): llama3.2:latest
+[INFO] LLM smart (classification + Q&A):     llama3.1:8b-instruct-q4_K_M
+
+======================================================================
+ΕΠΕΞΕΡΓΑΣΙΑ URL: https://greece20.gov.gr/anavathmizo-to-spiti-moy/
+======================================================================
+
+[1/3] Scraping, pre-screening και εξαγωγή δεδομένων...
+[DEBUG] Fetching page content
+[DEBUG] Scraped text length: 5193 characters
+[DEBUG] Saved scraped text to: C:\Users\stavr\Desktop\HMMY\Thesis\llm-axe\output\va3_scraper_to_template\20260616T232056Z_greece20.gov.gr_anavathmizo-to-spiti-moy_d6db9dc7_scraped.txt
+[DEBUG] Scoped keyword pre-filter passed: home energy finance signals found
+[PRE-SCREEN] Deterministic scope pass: home energy finance signals found
+[✓] Pre-screening passed — proceeding with full extraction
+[INFO] Smart text extraction: 5193 → 5193 chars (1 relevant sections)
+[DEBUG] Building extraction prompt
+[INFO] LLM inference (llama3.2:latest, attempt 1/3, ~7428 input chars)...
+[INFO] ✓ LLM responded in 487.4s (2076 chars output)
+[DEBUG] Parsing JSON string (2076 chars): {
+  "programme_name": "Αναβαθμίζω το Σπίτι μου",
+  "description": "",
+  "programme_objective": "παιχ...spiti-mou"
+    }
+  ],
+  "additional_details": ""
+}
+[DEBUG] Parse result type: <class 'dict'>, keys: ['programme_name', 'description', 'programme_objective', 'eligible_parties', 'eligibility_criteria']
+[DEBUG] Converting dict to array
+[DEBUG] Successfully extracted JSON (attempt 1)
+[DEBUG] Extracted data has 25 keys: ['programme_name', 'description', 'programme_objective', 'eligible_parties', 'eligibility_criteria', 'property_requirements', 'minimum_funding_amount', 'maximum_funding_amount', 'funding_type', 'interest_rate']...
+✓ Εξαγωγή ολοκληρώθηκε: Αναβαθμίζω το Σπίτι μου
+  Περιγραφή: Αναβαθμίζω το Σπίτι μου: Ξεκινούν σήμερα οι αιτήσεις - Ελλάδα 2.0 Πίσω στα Νέα Α...
+  → Max ποσό: 25.000€, Επεμβάσεις: 6
+[DEBUG] Saved validated extracted data to: C:\Users\stavr\Desktop\HMMY\Thesis\llm-axe\output\va3_scraper_to_template\20260616T232903Z_greece20.gov.gr_anavathmizo-to-spiti-moy_d6db9dc7_extracted.json
+
+[2/3] Κατηγοριοποίηση προγράμματος...
+[DEBUG] Classifying product/program...
+[DEBUG] Deterministic classification: Deterministic scope pass: home energy finance signals found
+[LOG] Experiment: exp_20260616_232903_c46d6413
+
+======================================================================
+ΑΠΟΤΕΛΕΣΜΑ ΚΑΤΗΓΟΡΙΟΠΟΙΗΣΗΣ
+======================================================================
+Κατηγορία: Πράσινο στεγαστικό δάνειο (Green housing loan with mandatory energy upgrades)
+Ενδιαφέρον: ✓ ΝΑΙ
+Βεβαιότητα: 92%
+Αιτιολόγηση: Deterministic scope pass: home energy finance signals found
+Δευτερεύουσες: ΑΠΕ σε σπίτι (Renewable energy for homes - solar panels, heat pumps, insulation), Ενεργειακή αναβάθμιση (Energy upgrade/efficiency programs)
+======================================================================
+
+[DEBUG] Experiment Log: exp_20260616_232903_c46d6413
+[DEBUG] Classification Output: C:\Users\stavr\Desktop\HMMY\Thesis\llm-axe\output\va4_product_discoverer\20260616T232903Z_greece20.gov.gr_anavathmizo-to-spiti-moy_d6db9dc7_classification.json
+
+[3/3] Q&A απενεργοποιημένο.
+
+[3/24] END ok rc=0 seconds=496.3
+
+[4/24] START https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/programma-anabathmizo-to-spiti-mou
+[WARN] package-level imports failed; loading modules directly
+[INFO] LLM fast  (pre-screen + extraction): llama3.2:latest
+[INFO] LLM smart (classification + Q&A):     llama3.1:8b-instruct-q4_K_M
+
+======================================================================
+ΕΠΕΞΕΡΓΑΣΙΑ URL: https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/programma-anabathmizo-to-spiti-mou
+======================================================================
+
+[1/3] Scraping, pre-screening και εξαγωγή δεδομένων...
+[DEBUG] Fetching page content
+[DEBUG] Scraped text length: 29132 characters
+[DEBUG] Saved scraped text to: C:\Users\stavr\Desktop\HMMY\Thesis\llm-axe\output\va3_scraper_to_template\20260616T232913Z_www.eurobank.gr_el_retail_proionta-upiresies_proionta_daneia_prasina_programma-anabathmizo-to-spiti-mou_f1e4767b_scraped.txt
+[DEBUG] Scoped keyword pre-filter passed: home energy finance signals found
+[PRE-SCREEN] Deterministic scope pass: home energy finance signals found
+[✓] Pre-screening passed — proceeding with full extraction
+[INFO] Focused extraction cap applied: 29132 -> 14530 chars
+[INFO] Smart text extraction: 29132 → 14530 chars (1 relevant sections)
+[DEBUG] Building extraction prompt
+[INFO] LLM inference (llama3.2:latest, attempt 1/3, ~16827 input chars)...
+[INFO] ✓ LLM responded in 691.4s (1165 chars output)
+[DEBUG] Parsing JSON string (1165 chars): {
+  "programme_name": "Αναβαθμίζω το Σπίτι μου",
+  "description": "",
+  "programme_objective": "",
+ ...  "contact_info": [],
+  "additional_details": ""
+}
+[DEBUG] Parse result type: <class 'dict'>, keys: ['programme_name', 'description', 'programme_objective', 'eligible_parties', 'eligibility_criteria']
+[DEBUG] Converting dict to array
+[DEBUG] Successfully extracted JSON (attempt 1)
+[DEBUG] Extracted data has 25 keys: ['programme_name', 'description', 'programme_objective', 'eligible_parties', 'eligibility_criteria', 'property_requirements', 'minimum_funding_amount', 'maximum_funding_amount', 'funding_type', 'interest_rate']...
+✓ Εξαγωγή ολοκληρώθηκε: Αναβαθμίζω το Σπίτι μου
+  Περιγραφή: Εναλλακτικά, για γενικές πληροφορίες σχετικά με το πρόγραμμα «Αναβαθμίζω το Σπίτ...
+  → Max ποσό: 25.000€, Επεμβάσεις: 6
+[DEBUG] Saved validated extracted data to: C:\Users\stavr\Desktop\HMMY\Thesis\llm-axe\output\va3_scraper_to_template\20260616T234045Z_www.eurobank.gr_el_retail_proionta-upiresies_proionta_daneia_prasina_programma-anabathmizo-to-spiti-mou_f1e4767b_extracted.json
+
+[2/3] Κατηγοριοποίηση προγράμματος...
+[DEBUG] Classifying product/program...
+[DEBUG] Deterministic classification: Deterministic scope pass: home energy finance signals found
+[LOG] Experiment: exp_20260616_234045_3cb0cb90
+
+======================================================================
+ΑΠΟΤΕΛΕΣΜΑ ΚΑΤΗΓΟΡΙΟΠΟΙΗΣΗΣ
+======================================================================
+Κατηγορία: Πράσινο στεγαστικό δάνειο (Green housing loan with mandatory energy upgrades)
+Ενδιαφέρον: ✓ ΝΑΙ
+Βεβαιότητα: 92%
+Αιτιολόγηση: Deterministic scope pass: home energy finance signals found
+Δευτερεύουσες: ΑΠΕ σε σπίτι (Renewable energy for homes - solar panels, heat pumps, insulation), Ενεργειακή αναβάθμιση (Energy upgrade/efficiency programs)
+======================================================================
+
+[DEBUG] Experiment Log: exp_20260616_234045_3cb0cb90
+[DEBUG] Classification Output: C:\Users\stavr\Desktop\HMMY\Thesis\llm-axe\output\va4_product_discoverer\20260616T234045Z_www.eurobank.gr_el_retail_proionta-upiresies_proionta_daneia_prasina_programma-anabathmizo-to-spiti-mou_f1e4767b_classification.json
+
+[3/3] Q&A απενεργοποιημένο.
+
+[4/24] END ok rc=0 seconds=701.3
+
+[5/24] START https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/eksoikonomo-anakainizo-gia-neous
+[WARN] package-level imports failed; loading modules directly
+[INFO] LLM fast  (pre-screen + extraction): llama3.2:latest
+[INFO] LLM smart (classification + Q&A):     llama3.1:8b-instruct-q4_K_M
+
+======================================================================
+ΕΠΕΞΕΡΓΑΣΙΑ URL: https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/eksoikonomo-anakainizo-gia-neous
+======================================================================
+
+[1/3] Scraping, pre-screening και εξαγωγή δεδομένων...
+[DEBUG] Fetching page content
+[DEBUG] Scraped text length: 28311 characters
+[DEBUG] Saved scraped text to: C:\Users\stavr\Desktop\HMMY\Thesis\llm-axe\output\va3_scraper_to_template\20260616T234053Z_www.eurobank.gr_el_retail_proionta-upiresies_proionta_daneia_prasina_eksoikonomo-anakainizo-gia-neous_57ff89ca_scraped.txt
+[DEBUG] Scoped keyword pre-filter passed: home energy finance signals found
+[PRE-SCREEN] Deterministic scope pass: home energy finance signals found
+[✓] Pre-screening passed — proceeding with full extraction
+[INFO] Focused extraction cap applied: 28311 -> 14155 chars
+[INFO] Smart text extraction: 28311 → 14155 chars (1 relevant sections)
+[DEBUG] Building extraction prompt
+[INFO] LLM inference (llama3.2:latest, attempt 1/3, ~16450 input chars)...
+[INFO] ✓ LLM responded in 650.6s (1090 chars output)
+[DEBUG] Parsing JSON string (1090 chars): {
+  "programme_name": "Εξοικονομώ - Ανακαινίζω για νέους",
+  "description": "",
+  "programme_objecti..._info": [
+    ""
+  ],
+  "additional_details": ""
+}
+[DEBUG] Parse result type: <class 'dict'>, keys: ['programme_name', 'description', 'programme_objective', 'eligible_parties', 'eligibility_criteria']
+[DEBUG] Converting dict to array
+[DEBUG] Successfully extracted JSON (attempt 1)
+[DEBUG] Extracted data has 25 keys: ['programme_name', 'description', 'programme_objective', 'eligible_parties', 'eligibility_criteria', 'property_requirements', 'minimum_funding_amount', 'maximum_funding_amount', 'funding_type', 'interest_rate']...
+✓ Εξαγωγή ολοκληρώθηκε: Εξοικονομώ - Ανακαινίζω για νέους
+  Περιγραφή: Το πρόγραμμα «Εξοικονομώ – Ανακαινίζω για νέους» του Υπουργείου Περιβάλλοντος κα...
+  → Max ποσό: 13.500€, Επεμβάσεις: 5
+[DEBUG] Saved validated extracted data to: C:\Users\stavr\Desktop\HMMY\Thesis\llm-axe\output\va3_scraper_to_template\20260616T235144Z_www.eurobank.gr_el_retail_proionta-upiresies_proionta_daneia_prasina_eksoikonomo-anakainizo-gia-neous_57ff89ca_extracted.json
+
+[2/3] Κατηγοριοποίηση προγράμματος...
+[DEBUG] Classifying product/program...
+[DEBUG] Deterministic classification: Deterministic scope pass: home energy finance signals found
+[LOG] Experiment: exp_20260616_235144_30268d75
+
+======================================================================
+ΑΠΟΤΕΛΕΣΜΑ ΚΑΤΗΓΟΡΙΟΠΟΙΗΣΗΣ
+======================================================================
+Κατηγορία: Πράσινο στεγαστικό δάνειο (Green housing loan with mandatory energy upgrades)
+Ενδιαφέρον: ✓ ΝΑΙ
+Βεβαιότητα: 92%
+Αιτιολόγηση: Deterministic scope pass: home energy finance signals found
+Δευτερεύουσες: ΑΠΕ σε σπίτι (Renewable energy for homes - solar panels, heat pumps, insulation), Ενεργειακή αναβάθμιση (Energy upgrade/efficiency programs)
+======================================================================
+
+[DEBUG] Experiment Log: exp_20260616_235144_30268d75
+[DEBUG] Classification Output: C:\Users\stavr\Desktop\HMMY\Thesis\llm-axe\output\va4_product_discoverer\20260616T235144Z_www.eurobank.gr_el_retail_proionta-upiresies_proionta_daneia_prasina_eksoikonomo-anakainizo-gia-neous_57ff89ca_classification.json
+
+[3/3] Q&A απενεργοποιημένο.
+
+[5/24] END ok rc=0 seconds=659.3
+
+[6/24] START https://www.nbg.gr/el/idiwtes/daneia/stegastika-daneia/episkeuastika-daneia/anavathmizw-to-spiti-mou
+[WARN] package-level imports failed; loading modules directly
+[INFO] LLM fast  (pre-screen + extraction): llama3.2:latest
+[INFO] LLM smart (classification + Q&A):     llama3.1:8b-instruct-q4_K_M
+
+======================================================================
+ΕΠΕΞΕΡΓΑΣΙΑ URL: https://www.nbg.gr/el/idiwtes/daneia/stegastika-daneia/episkeuastika-daneia/anavathmizw-to-spiti-mou
+======================================================================
+
+[1/3] Scraping, pre-screening και εξαγωγή δεδομένων...
+[DEBUG] Fetching page content
+[DEBUG] Scraped text length: 7180 characters
+[DEBUG] Saved scraped text to: C:\Users\stavr\Desktop\HMMY\Thesis\llm-axe\output\va3_scraper_to_template\20260616T235153Z_www.nbg.gr_el_idiwtes_daneia_stegastika-daneia_episkeuastika-daneia_anavathmizw-to-spiti-mou_690e940f_scraped.txt
+[DEBUG] Scoped keyword pre-filter passed: home energy finance signals found
+[PRE-SCREEN] Deterministic scope pass: home energy finance signals found
+[✓] Pre-screening passed — proceeding with full extraction
+[INFO] Smart text extraction: 7180 → 7180 chars (1 relevant sections)
+[DEBUG] Building extraction prompt
+[INFO] LLM inference (llama3.2:latest, attempt 1/3, ~9466 input chars)...
+[INFO] ✓ LLM responded in 510.9s (1880 chars output)
+[DEBUG] Parsing JSON string (1880 chars): {
+  "programme_name": "Αναβαθμίζω το Σπίτι μου",
+  "description": "",
+  "programme_objective": "",
+ ...  "contact_info": [],
+  "additional_details": ""
+}
+[DEBUG] Parse result type: <class 'dict'>, keys: ['programme_name', 'description', 'programme_objective', 'eligible_parties', 'eligibility_criteria']
+[DEBUG] Converting dict to array
+[DEBUG] Successfully extracted JSON (attempt 1)
+[DEBUG] Extracted data has 25 keys: ['programme_name', 'description', 'programme_objective', 'eligible_parties', 'eligibility_criteria', 'property_requirements', 'minimum_funding_amount', 'maximum_funding_amount', 'funding_type', 'interest_rate']...
+✓ Εξαγωγή ολοκληρώθηκε: Αναβαθμίζω το Σπίτι μου
+  Περιγραφή: «Αναβαθμίζω το σπίτι μου» | Εθνική Τράπεζα Close Button Σύνδεση στο Digital Bank...
+  → Max ποσό: €25.000, Επεμβάσεις: 6
+[DEBUG] Saved validated extracted data to: C:\Users\stavr\Desktop\HMMY\Thesis\llm-axe\output\va3_scraper_to_template\20260617T000024Z_www.nbg.gr_el_idiwtes_daneia_stegastika-daneia_episkeuastika-daneia_anavathmizw-to-spiti-mou_690e940f_extracted.json
+
+[2/3] Κατηγοριοποίηση προγράμματος...
+[DEBUG] Classifying product/program...
+[DEBUG] Deterministic classification: Deterministic scope pass: home energy finance signals found
+[LOG] Experiment: exp_20260617_000024_00798c81
+
+======================================================================
+ΑΠΟΤΕΛΕΣΜΑ ΚΑΤΗΓΟΡΙΟΠΟΙΗΣΗΣ
+======================================================================
+Κατηγορία: Πράσινο στεγαστικό δάνειο (Green housing loan with mandatory energy upgrades)
+Ενδιαφέρον: ✓ ΝΑΙ
+Βεβαιότητα: 92%
+Αιτιολόγηση: Deterministic scope pass: home energy finance signals found
+Δευτερεύουσες: ΑΠΕ σε σπίτι (Renewable energy for homes - solar panels, heat pumps, insulation), Ενεργειακή αναβάθμιση (Energy upgrade/efficiency programs)
+======================================================================
+
+[DEBUG] Experiment Log: exp_20260617_000024_00798c81
+[DEBUG] Classification Output: C:\Users\stavr\Desktop\HMMY\Thesis\llm-axe\output\va4_product_discoverer\20260617T000024Z_www.nbg.gr_el_idiwtes_daneia_stegastika-daneia_episkeuastika-daneia_anavathmizw-to-spiti-mou_690e940f_classification.json
+
+[3/3] Q&A απενεργοποιημένο.
+
+[6/24] END ok rc=0 seconds=519.8
+
+[7/24] START https://www.nbg.gr/el/idiwtes/daneia/daneia-exoikonomisis-energeias/exoikonomo-2025
+[WARN] package-level imports failed; loading modules directly
+[INFO] LLM fast  (pre-screen + extraction): llama3.2:latest
+[INFO] LLM smart (classification + Q&A):     llama3.1:8b-instruct-q4_K_M
+
+======================================================================
+ΕΠΕΞΕΡΓΑΣΙΑ URL: https://www.nbg.gr/el/idiwtes/daneia/daneia-exoikonomisis-energeias/exoikonomo-2025
+======================================================================
+
+[1/3] Scraping, pre-screening και εξαγωγή δεδομένων...
+[DEBUG] Fetching page content
+[DEBUG] Scraped text length: 13262 characters
+[DEBUG] Saved scraped text to: C:\Users\stavr\Desktop\HMMY\Thesis\llm-axe\output\va3_scraper_to_template\20260617T000033Z_www.nbg.gr_el_idiwtes_daneia_daneia-exoikonomisis-energeias_exoikonomo-2025_ef28c88a_scraped.txt
+[DEBUG] Scoped keyword pre-filter passed: home energy finance signals found
+[PRE-SCREEN] Deterministic scope pass: home energy finance signals found
+[✓] Pre-screening passed — proceeding with full extraction
+[INFO] Focused extraction cap applied: 13262 -> 7397 chars
+[INFO] Smart text extraction: 13262 → 7397 chars (1 relevant sections)
+[DEBUG] Building extraction prompt
+[INFO] LLM inference (llama3.2:latest, attempt 1/3, ~9666 input chars)...
+[INFO] ✓ LLM responded in 532.8s (1798 chars output)
+[DEBUG] Parsing JSON string (1798 chars): {
+  "programme_name": "Εξοικονομώ 2025",
+  "description": "",
+  "programme_objective": "Αναβάθμιση ε...  "210 690 5200"
+  ],
+  "additional_details": ""
+}
+[DEBUG] Parse result type: <class 'dict'>, keys: ['programme_name', 'description', 'programme_objective', 'eligible_parties', 'eligibility_criteria']
+[DEBUG] Converting dict to array
+[DEBUG] Successfully extracted JSON (attempt 1)
+[DEBUG] Extracted data has 25 keys: ['programme_name', 'description', 'programme_objective', 'eligible_parties', 'eligibility_criteria', 'property_requirements', 'minimum_funding_amount', 'maximum_funding_amount', 'funding_type', 'interest_rate']...
+✓ Εξαγωγή ολοκληρώθηκε: Εξοικονομώ 2025
+  Περιγραφή: Εξοικονομώ 2025 | Εθνική Τράπεζα Πράσινα δάνεια Εξοικονομώ 2025 Πράσινο σπίτι, μ...
+  → Max ποσό: €17.500, Επεμβάσεις: 6
+[DEBUG] Saved validated extracted data to: C:\Users\stavr\Desktop\HMMY\Thesis\llm-axe\output\va3_scraper_to_template\20260617T000926Z_www.nbg.gr_el_idiwtes_daneia_daneia-exoikonomisis-energeias_exoikonomo-2025_ef28c88a_extracted.json
+
+[2/3] Κατηγοριοποίηση προγράμματος...
+[DEBUG] Classifying product/program...
+[DEBUG] Deterministic classification: Deterministic scope pass: home energy finance signals found
+[LOG] Experiment: exp_20260617_000926_cf4bf9cd
+
+======================================================================
+ΑΠΟΤΕΛΕΣΜΑ ΚΑΤΗΓΟΡΙΟΠΟΙΗΣΗΣ
+======================================================================
+Κατηγορία: Πράσινο στεγαστικό δάνειο (Green housing loan with mandatory energy upgrades)
+Ενδιαφέρον: ✓ ΝΑΙ
+Βεβαιότητα: 92%
+Αιτιολόγηση: Deterministic scope pass: home energy finance signals found
+Δευτερεύουσες: ΑΠΕ σε σπίτι (Renewable energy for homes - solar panels, heat pumps, insulation), Ενεργειακή αναβάθμιση (Energy upgrade/efficiency programs)
+======================================================================
+
+[DEBUG] Experiment Log: exp_20260617_000926_cf4bf9cd
+[DEBUG] Classification Output: C:\Users\stavr\Desktop\HMMY\Thesis\llm-axe\output\va4_product_discoverer\20260617T000926Z_www.nbg.gr_el_idiwtes_daneia_daneia-exoikonomisis-energeias_exoikonomo-2025_ef28c88a_classification.json
+
+[3/3] Q&A απενεργοποιημένο.
+
+[7/24] END ok rc=0 seconds=542.3
+
+[8/24] START https://www.nbg.gr/el/idiwtes/daneia/daneia-exoikonomisis-energeias/eksoikonomw-anakoinizw-daneio-gia-neous
+[WARN] package-level imports failed; loading modules directly
+[INFO] LLM fast  (pre-screen + extraction): llama3.2:latest
+[INFO] LLM smart (classification + Q&A):     llama3.1:8b-instruct-q4_K_M
+
+======================================================================
+ΕΠΕΞΕΡΓΑΣΙΑ URL: https://www.nbg.gr/el/idiwtes/daneia/daneia-exoikonomisis-energeias/eksoikonomw-anakoinizw-daneio-gia-neous
+======================================================================
+
+[1/3] Scraping, pre-screening και εξαγωγή δεδομένων...
+[DEBUG] Fetching page content
+[DEBUG] Scraped text length: 11632 characters
+[DEBUG] Saved scraped text to: C:\Users\stavr\Desktop\HMMY\Thesis\llm-axe\output\va3_scraper_to_template\20260617T000936Z_www.nbg.gr_el_idiwtes_daneia_daneia-exoikonomisis-energeias_eksoikonomw-anakoinizw-daneio-gia-neous_567f8172_scraped.txt
+[DEBUG] Scoped keyword pre-filter passed: home energy finance signals found
+[PRE-SCREEN] Deterministic scope pass: home energy finance signals found
+[✓] Pre-screening passed — proceeding with full extraction
+[INFO] Focused extraction cap applied: 11632 -> 9000 chars
+[INFO] Smart text extraction: 11632 → 9000 chars (1 relevant sections)
+[DEBUG] Building extraction prompt
+[INFO] LLM inference (llama3.2:latest, attempt 1/3, ~11293 input chars)...
+[INFO] ✓ LLM responded in 577.2s (1416 chars output)
+[DEBUG] Parsing JSON string (1416 chars): {
+  "programme_name": "Εξοικονομώ-Ανακαινίζω για νέους",
+  "description": "",
+  "programme_objective...  "contact_info": [],
+  "additional_details": ""
+}
+[DEBUG] Parse result type: <class 'dict'>, keys: ['programme_name', 'description', 'programme_objective', 'eligible_parties', 'eligibility_criteria']
+[DEBUG] Converting dict to array
+[DEBUG] Successfully extracted JSON (attempt 1)
+[DEBUG] Extracted data has 25 keys: ['programme_name', 'description', 'programme_objective', 'eligible_parties', 'eligibility_criteria', 'property_requirements', 'minimum_funding_amount', 'maximum_funding_amount', 'funding_type', 'interest_rate']...
+✓ Εξαγωγή ολοκληρώθηκε: Εξοικονομώ-Ανακαινίζω για νέους
+  Περιγραφή: ‘Εξοικονομώ – Ανακαινίζω’ Δάνειο για Νέους | Εθνική Τράπεζα Πράσινα δάνεια Εξοικ...
+  → Max ποσό: 22.500€, Επεμβάσεις: 6
+[DEBUG] Saved validated extracted data to: C:\Users\stavr\Desktop\HMMY\Thesis\llm-axe\output\va3_scraper_to_template\20260617T001913Z_www.nbg.gr_el_idiwtes_daneia_daneia-exoikonomisis-energeias_eksoikonomw-anakoinizw-daneio-gia-neous_567f8172_extracted.json
+
+[2/3] Κατηγοριοποίηση προγράμματος...
+[DEBUG] Classifying product/program...
+[DEBUG] Deterministic classification: Deterministic scope pass: home energy finance signals found
+[LOG] Experiment: exp_20260617_001913_ac92ffee
+
+======================================================================
+ΑΠΟΤΕΛΕΣΜΑ ΚΑΤΗΓΟΡΙΟΠΟΙΗΣΗΣ
+======================================================================
+Κατηγορία: Πράσινο στεγαστικό δάνειο (Green housing loan with mandatory energy upgrades)
+Ενδιαφέρον: ✓ ΝΑΙ
+Βεβαιότητα: 92%
+Αιτιολόγηση: Deterministic scope pass: home energy finance signals found
+Δευτερεύουσες: ΑΠΕ σε σπίτι (Renewable energy for homes - solar panels, heat pumps, insulation), Ενεργειακή αναβάθμιση (Energy upgrade/efficiency programs)
+======================================================================
+
+[DEBUG] Experiment Log: exp_20260617_001913_ac92ffee
+[DEBUG] Classification Output: C:\Users\stavr\Desktop\HMMY\Thesis\llm-axe\output\va4_product_discoverer\20260617T001913Z_www.nbg.gr_el_idiwtes_daneia_daneia-exoikonomisis-energeias_eksoikonomw-anakoinizw-daneio-gia-neous_567f8172_classification.json
+
+[3/3] Q&A απενεργοποιημένο.
+
+[8/24] END ok rc=0 seconds=587.0
+
+[9/24] START https://www.alpha.gr/el/idiotes/daneia/episkevastika-daneia-gia-anakainisi/alpha-prasines-luseis-katanalotiko-daneio-gia-to-spiti
+[WARN] package-level imports failed; loading modules directly
+[INFO] LLM fast  (pre-screen + extraction): llama3.2:latest
+[INFO] LLM smart (classification + Q&A):     llama3.1:8b-instruct-q4_K_M
+
+======================================================================
+ΕΠΕΞΕΡΓΑΣΙΑ URL: https://www.alpha.gr/el/idiotes/daneia/episkevastika-daneia-gia-anakainisi/alpha-prasines-luseis-katanalotiko-daneio-gia-to-spiti
+======================================================================
+
+[1/3] Scraping, pre-screening και εξαγωγή δεδομένων...
+[DEBUG] Fetching page content
+[DEBUG] Scraped text length: 8906 characters
+[DEBUG] Saved scraped text to: C:\Users\stavr\Desktop\HMMY\Thesis\llm-axe\output\va3_scraper_to_template\20260617T001921Z_www.alpha.gr_el_idiotes_daneia_episkevastika-daneia-gia-a...si_alpha-prasines-luseis-katanalotiko-daneio-gia-to-spiti_3ef84f91_scraped.txt
+[DEBUG] Scoped keyword pre-filter passed: home energy finance signals found
+[PRE-SCREEN] Deterministic scope pass: home energy finance signals found
+[✓] Pre-screening passed — proceeding with full extraction
+[INFO] Smart text extraction: 8906 → 8906 chars (1 relevant sections)
+[DEBUG] Building extraction prompt
+[INFO] LLM inference (llama3.2:latest, attempt 1/3, ~11221 input chars)...
+[INFO] ✓ LLM responded in 524.2s (1096 chars output)
+[DEBUG] Parsing JSON string (1096 chars): {
+  "programme_name": "",
+  "description": "",
+  "programme_objective": "",
+  "eligible_parties": [
+...,
+    "",
+    ""
+  ],
+  "additional_details": ""
+}
+[DEBUG] Parse result type: <class 'dict'>, keys: ['programme_name', 'description', 'programme_objective', 'eligible_parties', 'eligibility_criteria']
+[DEBUG] Converting dict to array
+[DEBUG] Successfully extracted JSON (attempt 1)
+[DEBUG] Extracted data has 25 keys: ['programme_name', 'description', 'programme_objective', 'eligible_parties', 'eligibility_criteria', 'property_requirements', 'minimum_funding_amount', 'maximum_funding_amount', 'funding_type', 'interest_rate']...
+✓ Εξαγωγή ολοκληρώθηκε: Πράσινο Δάνειο για το Σπίτι
+  Περιγραφή: Αποκτήστε πράσινο δάνειο για το σπίτι, εξασφαλίστε την ενεργειακή αναβάθμισή του...
+  → Max ποσό: 30,000, Επεμβάσεις: 3
+[DEBUG] Saved validated extracted data to: C:\Users\stavr\Desktop\HMMY\Thesis\llm-axe\output\va3_scraper_to_template\20260617T002805Z_www.alpha.gr_el_idiotes_daneia_episkevastika-daneia-gia-a...si_alpha-prasines-luseis-katanalotiko-daneio-gia-to-spiti_3ef84f91_extracted.json
+
+[2/3] Κατηγοριοποίηση προγράμματος...
+[DEBUG] Classifying product/program...
+[DEBUG] Deterministic classification: Deterministic scope pass: home energy finance signals found
+[LOG] Experiment: exp_20260617_002805_d0ef6539
+
+======================================================================
+ΑΠΟΤΕΛΕΣΜΑ ΚΑΤΗΓΟΡΙΟΠΟΙΗΣΗΣ
+======================================================================
+Κατηγορία: Πράσινο στεγαστικό δάνειο (Green housing loan with mandatory energy upgrades)
+Ενδιαφέρον: ✓ ΝΑΙ
+Βεβαιότητα: 92%
+Αιτιολόγηση: Deterministic scope pass: home energy finance signals found
+Δευτερεύουσες: ΑΠΕ σε σπίτι (Renewable energy for homes - solar panels, heat pumps, insulation), Ενεργειακή αναβάθμιση (Energy upgrade/efficiency programs)
+======================================================================
+
+[DEBUG] Experiment Log: exp_20260617_002805_d0ef6539
+[DEBUG] Classification Output: C:\Users\stavr\Desktop\HMMY\Thesis\llm-axe\output\va4_product_discoverer\20260617T002805Z_www.alpha.gr_el_idiotes_daneia_episkevastika-daneia-gia-a...si_alpha-prasines-luseis-katanalotiko-daneio-gia-to-spiti_3ef84f91_classification.json
+
+[3/3] Q&A απενεργοποιημένο.
+
+[9/24] END ok rc=0 seconds=532.0
+
+[10/24] START https://www.alpha.gr/el/idiotes/daneia/episkevastika-daneia-gia-anakainisi/programma-anavathmizo-to-spiti-mou
+[WARN] package-level imports failed; loading modules directly
+[INFO] LLM fast  (pre-screen + extraction): llama3.2:latest
+[INFO] LLM smart (classification + Q&A):     llama3.1:8b-instruct-q4_K_M
+
+======================================================================
+ΕΠΕΞΕΡΓΑΣΙΑ URL: https://www.alpha.gr/el/idiotes/daneia/episkevastika-daneia-gia-anakainisi/programma-anavathmizo-to-spiti-mou
+======================================================================
+
+[1/3] Scraping, pre-screening και εξαγωγή δεδομένων...
+[DEBUG] Fetching page content
+[DEBUG] Scraped text length: 6516 characters
+[DEBUG] Saved scraped text to: C:\Users\stavr\Desktop\HMMY\Thesis\llm-axe\output\va3_scraper_to_template\20260617T002813Z_www.alpha.gr_el_idiotes_daneia_episkevastika-daneia-gia-anakainisi_programma-anavathmizo-to-spiti-mou_f7cef06e_scraped.txt
+[DEBUG] Scoped keyword pre-filter passed: home energy finance signals found
+[PRE-SCREEN] Deterministic scope pass: home energy finance signals found
+[✓] Pre-screening passed — proceeding with full extraction
+[INFO] Smart text extraction: 6516 → 6516 chars (1 relevant sections)
+[DEBUG] Building extraction prompt
+[INFO] LLM inference (llama3.2:latest, attempt 1/3, ~8811 input chars)...
+[INFO] ✓ LLM responded in 440.0s (1540 chars output)
+[DEBUG] Parsing JSON string (1540 chars): {
+  "programme_name": "Αναβαθμίζω το σπίτι μου",
+  "description": "",
+  "programme_objective": "",
+ ...  "contact_info": [],
+  "additional_details": ""
+}
+[DEBUG] Parse result type: <class 'dict'>, keys: ['programme_name', 'description', 'programme_objective', 'eligible_parties', 'eligibility_criteria']
+[DEBUG] Converting dict to array
+[DEBUG] Successfully extracted JSON (attempt 1)
+[DEBUG] Extracted data has 25 keys: ['programme_name', 'description', 'programme_objective', 'eligible_parties', 'eligibility_criteria', 'property_requirements', 'minimum_funding_amount', 'maximum_funding_amount', 'funding_type', 'interest_rate']...
+✓ Εξαγωγή ολοκληρώθηκε: Αναβαθμίζω το σπίτι μου
+  Περιγραφή: Πρόγραμμα «Αναβαθμίζω το Σπίτι μου» | ALPHA BANK ΠΙΣΩ Αναβαθμίζω το σπίτι μου Πρ...
+  → Max ποσό: 25.000€, Επεμβάσεις: 8
+[DEBUG] Saved validated extracted data to: C:\Users\stavr\Desktop\HMMY\Thesis\llm-axe\output\va3_scraper_to_template\20260617T003533Z_www.alpha.gr_el_idiotes_daneia_episkevastika-daneia-gia-anakainisi_programma-anavathmizo-to-spiti-mou_f7cef06e_extracted.json
+
+[2/3] Κατηγοριοποίηση προγράμματος...
+[DEBUG] Classifying product/program...
+[DEBUG] Deterministic classification: Deterministic scope pass: home energy finance signals found
+[LOG] Experiment: exp_20260617_003533_78d49be8
+
+======================================================================
+ΑΠΟΤΕΛΕΣΜΑ ΚΑΤΗΓΟΡΙΟΠΟΙΗΣΗΣ
+======================================================================
+Κατηγορία: Πράσινο στεγαστικό δάνειο (Green housing loan with mandatory energy upgrades)
+Ενδιαφέρον: ✓ ΝΑΙ
+Βεβαιότητα: 92%
+Αιτιολόγηση: Deterministic scope pass: home energy finance signals found
+Δευτερεύουσες: Ενεργειακή αναβάθμιση (Energy upgrade/efficiency programs)
+======================================================================
+
+[DEBUG] Experiment Log: exp_20260617_003533_78d49be8
+[DEBUG] Classification Output: C:\Users\stavr\Desktop\HMMY\Thesis\llm-axe\output\va4_product_discoverer\20260617T003533Z_www.alpha.gr_el_idiotes_daneia_episkevastika-daneia-gia-anakainisi_programma-anavathmizo-to-spiti-mou_f7cef06e_classification.json
+
+[3/3] Q&A απενεργοποιημένο.
+
+[10/24] END ok rc=0 seconds=448.1
+
+[11/24] START https://www.piraeusbank.gr/el/idiwtes/proionta-upiresies/stegastika-daneia/daneio-eksoikonomw
+[WARN] package-level imports failed; loading modules directly
+[INFO] LLM fast  (pre-screen + extraction): llama3.2:latest
+[INFO] LLM smart (classification + Q&A):     llama3.1:8b-instruct-q4_K_M
+
+======================================================================
+ΕΠΕΞΕΡΓΑΣΙΑ URL: https://www.piraeusbank.gr/el/idiwtes/proionta-upiresies/stegastika-daneia/daneio-eksoikonomw
+======================================================================
+
+[1/3] Scraping, pre-screening και εξαγωγή δεδομένων...
+[DEBUG] Fetching page content
+[DEBUG] Scraped text length: 27016 characters
+[DEBUG] Saved scraped text to: C:\Users\stavr\Desktop\HMMY\Thesis\llm-axe\output\va3_scraper_to_template\20260617T003545Z_www.piraeusbank.gr_el_idiwtes_proionta-upiresies_stegastika-daneia_daneio-eksoikonomw_19afb17d_scraped.txt
+[DEBUG] Scoped keyword pre-filter passed: home energy finance signals found
+[PRE-SCREEN] Deterministic scope pass: home energy finance signals found
+[✓] Pre-screening passed — proceeding with full extraction
+[INFO] Focused extraction cap applied: 27016 -> 13094 chars
+[INFO] Smart text extraction: 27016 → 13094 chars (1 relevant sections)
+[DEBUG] Building extraction prompt
+[INFO] LLM inference (llama3.2:latest, attempt 1/3, ~15373 input chars)...
+[INFO] ✓ LLM responded in 534.2s (960 chars output)
+[DEBUG] Parsing JSON string (960 chars): {
+  "programme_name": "Exoikonomo 2025",
+  "description": "",
+  "programme_objective": "",
+  "eligib...  "contact_info": [],
+  "additional_details": ""
+}
+[DEBUG] Parse result type: <class 'dict'>, keys: ['programme_name', 'description', 'programme_objective', 'eligible_parties', 'eligibility_criteria']
+[DEBUG] Converting dict to array
+[DEBUG] Successfully extracted JSON (attempt 1)
+[DEBUG] Extracted data has 25 keys: ['programme_name', 'description', 'programme_objective', 'eligible_parties', 'eligibility_criteria', 'property_requirements', 'minimum_funding_amount', 'maximum_funding_amount', 'funding_type', 'interest_rate']...
+✓ Εξαγωγή ολοκληρώθηκε: Exoikonomo 2025
+  Περιγραφή: Δάνειο για το Πρόγραμμα Εξοικονομώ 2025 Αναβαθμίστε το σπίτι σας και μειώστε τις...
+  → Max ποσό: Έως 17.500€ ΔΙΑΡΚΕΙΑ 4, Επεμβάσεις: 7
+[DEBUG] Saved validated extracted data to: C:\Users\stavr\Desktop\HMMY\Thesis\llm-axe\output\va3_scraper_to_template\20260617T004439Z_www.piraeusbank.gr_el_idiwtes_proionta-upiresies_stegastika-daneia_daneio-eksoikonomw_19afb17d_extracted.json
+
+[2/3] Κατηγοριοποίηση προγράμματος...
+[DEBUG] Classifying product/program...
+[DEBUG] Deterministic classification: Deterministic scope pass: home energy finance signals found
+[LOG] Experiment: exp_20260617_004439_c9dc249b
+
+======================================================================
+ΑΠΟΤΕΛΕΣΜΑ ΚΑΤΗΓΟΡΙΟΠΟΙΗΣΗΣ
+======================================================================
+Κατηγορία: Πράσινο στεγαστικό δάνειο (Green housing loan with mandatory energy upgrades)
+Ενδιαφέρον: ✓ ΝΑΙ
+Βεβαιότητα: 92%
+Αιτιολόγηση: Deterministic scope pass: home energy finance signals found
+Δευτερεύουσες: ΑΠΕ σε σπίτι (Renewable energy for homes - solar panels, heat pumps, insulation), Ενεργειακή αναβάθμιση (Energy upgrade/efficiency programs)
+======================================================================
+
+[DEBUG] Experiment Log: exp_20260617_004439_c9dc249b
+[DEBUG] Classification Output: C:\Users\stavr\Desktop\HMMY\Thesis\llm-axe\output\va4_product_discoverer\20260617T004439Z_www.piraeusbank.gr_el_idiwtes_proionta-upiresies_stegastika-daneia_daneio-eksoikonomw_19afb17d_classification.json
+
+[3/3] Q&A απενεργοποιημένο.
+
+[11/24] END ok rc=0 seconds=545.8
+
+[12/24] START https://www.piraeusbank.gr/el/idiwtes/proionta-upiresies/stegastika-daneia/prasino-episkeuastiko-daneio-me-eksasfalisi
+[WARN] package-level imports failed; loading modules directly
+[INFO] LLM fast  (pre-screen + extraction): llama3.2:latest
+[INFO] LLM smart (classification + Q&A):     llama3.1:8b-instruct-q4_K_M
+
+======================================================================
+ΕΠΕΞΕΡΓΑΣΙΑ URL: https://www.piraeusbank.gr/el/idiwtes/proionta-upiresies/stegastika-daneia/prasino-episkeuastiko-daneio-me-eksasfalisi
+======================================================================
+
+[1/3] Scraping, pre-screening και εξαγωγή δεδομένων...
+[DEBUG] Fetching page content
+[DEBUG] Scraped text length: 18652 characters
+[DEBUG] Saved scraped text to: C:\Users\stavr\Desktop\HMMY\Thesis\llm-axe\output\va3_scraper_to_template\20260617T004450Z_www.piraeusbank.gr_el_idiwtes_proionta-upiresies_stegastika-daneia_prasino-episkeuastiko-daneio-me-eksasfalisi_3f1b2ca9_scraped.txt
+[DEBUG] Scoped keyword pre-filter passed: home energy finance signals found
+[PRE-SCREEN] Deterministic scope pass: home energy finance signals found
+[✓] Pre-screening passed — proceeding with full extraction
+[INFO] Focused extraction cap applied: 18652 -> 8612 chars
+[INFO] Smart text extraction: 18652 → 8612 chars (1 relevant sections)
+[DEBUG] Building extraction prompt
+[INFO] LLM inference (llama3.2:latest, attempt 1/3, ~10916 input chars)...
+[INFO] ✓ LLM responded in 638.5s (709 chars output)
+[DEBUG] Parsing JSON string (709 chars): {
+  "programme_name": "",
+  "description": "",
+  "programme_objective": "",
+  "eligible_parties": []...  "contact_info": [],
+  "additional_details": ""
+}
+[DEBUG] Parse result type: <class 'dict'>, keys: ['programme_name', 'description', 'programme_objective', 'eligible_parties', 'eligibility_criteria']
+[DEBUG] Converting dict to array
+[DEBUG] Successfully extracted JSON (attempt 1)
+[DEBUG] Extracted data has 25 keys: ['programme_name', 'description', 'programme_objective', 'eligible_parties', 'eligibility_criteria', 'property_requirements', 'minimum_funding_amount', 'maximum_funding_amount', 'funding_type', 'interest_rate']...
+✓ Εξαγωγή ολοκληρώθηκε: Πράσινο Επισκευαστικό Δάνειο με Εξασφάλιση Πειραιώς
+  Περιγραφή: Πράσινο Επισκευαστικό Δάνειο με Εξασφάλιση Πειραιώς | Τράπεζα Πειραιώς Εξοικονόμ...
+  → Επεμβάσεις: 4
+[DEBUG] Saved validated extracted data to: C:\Users\stavr\Desktop\HMMY\Thesis\llm-axe\output\va3_scraper_to_template\20260617T005529Z_www.piraeusbank.gr_el_idiwtes_proionta-upiresies_stegastika-daneia_prasino-episkeuastiko-daneio-me-eksasfalisi_3f1b2ca9_extracted.json
+
+[2/3] Κατηγοριοποίηση προγράμματος...
+[DEBUG] Classifying product/program...
+[LOG] Experiment: exp_20260617_010139_e2a0f6ea
+
+======================================================================
+ΑΠΟΤΕΛΕΣΜΑ ΚΑΤΗΓΟΡΙΟΠΟΙΗΣΗΣ
+======================================================================
+Κατηγορία: Πράσινο στεγαστικό δάνειο (Green housing loan with mandatory energy upgrades)
+Ενδιαφέρον: ✓ ΝΑΙ
+Βεβαιότητα: 95%
+Αιτιολόγηση: Το πρόγραμμα αφορά πράσινο στεγαστικό δάνειο με υποχρεωτικές ενεργειακές επεμβάσεις, που είναι χαρακτηριστικό της κατηγορίας green_housing_loan και energy_upgrade.
+Δευτερεύουσες: Ενεργειακή αναβάθμιση (Energy upgrade/efficiency programs)
+======================================================================
+
+[DEBUG] Experiment Log: exp_20260617_010139_e2a0f6ea
+[DEBUG] Classification Output: C:\Users\stavr\Desktop\HMMY\Thesis\llm-axe\output\va4_product_discoverer\20260617T010139Z_www.piraeusbank.gr_el_idiwtes_proionta-upiresies_stegastika-daneia_prasino-episkeuastiko-daneio-me-eksasfalisi_3f1b2ca9_classification.json
+
+[3/3] Q&A απενεργοποιημένο.
+
+[12/24] END ok rc=0 seconds=1020.7
+
+[13/24] START https://www.piraeusbank.gr/el/idiwtes/proionta-upiresies/stegastika-daneia/prasino-stegastiko-daneio-me-stathero-epitokio
+[WARN] package-level imports failed; loading modules directly
+[INFO] LLM fast  (pre-screen + extraction): llama3.2:latest
+[INFO] LLM smart (classification + Q&A):     llama3.1:8b-instruct-q4_K_M
+
+======================================================================
+ΕΠΕΞΕΡΓΑΣΙΑ URL: https://www.piraeusbank.gr/el/idiwtes/proionta-upiresies/stegastika-daneia/prasino-stegastiko-daneio-me-stathero-epitokio
+======================================================================
+
+[1/3] Scraping, pre-screening και εξαγωγή δεδομένων...
+[DEBUG] Fetching page content
+[DEBUG] Scraped text length: 21838 characters
+[DEBUG] Saved scraped text to: C:\Users\stavr\Desktop\HMMY\Thesis\llm-axe\output\va3_scraper_to_template\20260617T010153Z_www.piraeusbank.gr_el_idiwtes_proionta-upiresies_stegastika-daneia_prasino-stegastiko-daneio-me-stathero-epitokio_b3518007_scraped.txt
+[DEBUG] Scoped keyword pre-filter passed: home energy finance signals found
+[PRE-SCREEN] Deterministic scope pass: home energy finance signals found
+[✓] Pre-screening passed — proceeding with full extraction
+[INFO] Focused extraction cap applied: 21838 -> 9797 chars
+[INFO] Smart text extraction: 21838 → 9797 chars (1 relevant sections)
+[DEBUG] Building extraction prompt
+[INFO] LLM inference (llama3.2:latest, attempt 1/3, ~12104 input chars)...
+[INFO] ✓ LLM responded in 704.0s (1738 chars output)
+[DEBUG] Parsing JSON string (1738 chars): {
+  "programme_name": "",
+  "description": "Residential Home Energy Programme",
+  "programme_objecti...0 6973000"
+    }
+  ],
+  "additional_details": ""
+}
+[DEBUG] Parse result type: <class 'dict'>, keys: ['programme_name', 'description', 'programme_objective', 'eligible_parties', 'eligibility_criteria']
+[DEBUG] Converting dict to array
+[DEBUG] Successfully extracted JSON (attempt 1)
+[DEBUG] Extracted data has 25 keys: ['programme_name', 'description', 'programme_objective', 'eligible_parties', 'eligibility_criteria', 'property_requirements', 'minimum_funding_amount', 'maximum_funding_amount', 'funding_type', 'interest_rate']...
+✓ Εξαγωγή ολοκληρώθηκε: Πράσινο Στεγαστικό Δάνειο με Σταθερό Επιτόκιο
+  Περιγραφή: Πράσινο Στεγαστικό Δάνειο με Σταθερό Επιτόκιο | Τράπεζα Πειραιώς Εξοικονόμηση εν...
+  → Τύπος: Grant, Max ποσό: 50,000€, Επεμβάσεις: 4
+[DEBUG] Saved validated extracted data to: C:\Users\stavr\Desktop\HMMY\Thesis\llm-axe\output\va3_scraper_to_template\20260617T011337Z_www.piraeusbank.gr_el_idiwtes_proionta-upiresies_stegastika-daneia_prasino-stegastiko-daneio-me-stathero-epitokio_b3518007_extracted.json
+
+[2/3] Κατηγοριοποίηση προγράμματος...
+[DEBUG] Classifying product/program...
+[DEBUG] Deterministic classification: Deterministic scope pass: home energy finance signals found
+[LOG] Experiment: exp_20260617_011337_8c977c32
+
+======================================================================
+ΑΠΟΤΕΛΕΣΜΑ ΚΑΤΗΓΟΡΙΟΠΟΙΗΣΗΣ
+======================================================================
+Κατηγορία: Πράσινο στεγαστικό δάνειο (Green housing loan with mandatory energy upgrades)
+Ενδιαφέρον: ✓ ΝΑΙ
+Βεβαιότητα: 92%
+Αιτιολόγηση: Deterministic scope pass: home energy finance signals found
+Δευτερεύουσες: ΑΠΕ σε σπίτι (Renewable energy for homes - solar panels, heat pumps, insulation), Ενεργειακή αναβάθμιση (Energy upgrade/efficiency programs)
+======================================================================
+
+[DEBUG] Experiment Log: exp_20260617_011337_8c977c32
+[DEBUG] Classification Output: C:\Users\stavr\Desktop\HMMY\Thesis\llm-axe\output\va4_product_discoverer\20260617T011337Z_www.piraeusbank.gr_el_idiwtes_proionta-upiresies_stegastika-daneia_prasino-stegastiko-daneio-me-stathero-epitokio_b3518007_classification.json
+
+[3/3] Q&A απενεργοποιημένο.
+
+[13/24] END ok rc=0 seconds=717.5
+
+[14/24] START https://www.piraeusbank.gr/el/idiwtes/proionta-upiresies/stegastika-daneia/prasino-stegastiko-daneio-sundedemeno-me-euribor
+[WARN] package-level imports failed; loading modules directly
+[INFO] LLM fast  (pre-screen + extraction): llama3.2:latest
+[INFO] LLM smart (classification + Q&A):     llama3.1:8b-instruct-q4_K_M
+
+======================================================================
+ΕΠΕΞΕΡΓΑΣΙΑ URL: https://www.piraeusbank.gr/el/idiwtes/proionta-upiresies/stegastika-daneia/prasino-stegastiko-daneio-sundedemeno-me-euribor
+======================================================================
+
+[1/3] Scraping, pre-screening και εξαγωγή δεδομένων...
+[DEBUG] Fetching page content
+[DEBUG] Scraped text length: 20951 characters
+[DEBUG] Saved scraped text to: C:\Users\stavr\Desktop\HMMY\Thesis\llm-axe\output\va3_scraper_to_template\20260617T011350Z_www.piraeusbank.gr_el_idiwtes_proionta-upiresies_stegastika-daneia_prasino-stegastiko-daneio-sundedemeno-me-euribor_30fdb982_scraped.txt
+[DEBUG] Scoped keyword pre-filter passed: home energy finance signals found
+[PRE-SCREEN] Deterministic scope pass: home energy finance signals found
+[✓] Pre-screening passed — proceeding with full extraction
+[INFO] Focused extraction cap applied: 20951 -> 8475 chars
+[INFO] Smart text extraction: 20951 → 8475 chars (1 relevant sections)
+[DEBUG] Building extraction prompt
+[INFO] LLM inference (llama3.2:latest, attempt 1/3, ~10784 input chars)...
+[INFO] ✓ LLM responded in 515.1s (502 chars output)
+[DEBUG] Parsing JSON string (502 chars): {
+  "programme_name": "",
+  "description": "",
+  "programme_objective": "",
+  "eligible_parties": []...tions": [
+    ""
+  ],
+  "additional_details": ""
+}
+[DEBUG] Parse result type: <class 'dict'>, keys: ['programme_name', 'description', 'programme_objective', 'eligible_parties', 'eligibility_criteria']
+[DEBUG] Converting dict to array
+[DEBUG] Successfully extracted JSON (attempt 1)
+[DEBUG] Extracted data has 17 keys: ['programme_name', 'description', 'programme_objective', 'eligible_parties', 'eligibility_criteria', 'property_requirements', 'minimum_funding_amount', 'maximum_funding_amount', 'funding_type', 'interest_rate']...
+✓ Εξαγωγή ολοκληρώθηκε: Πράσινο Στεγαστικό Δάνειο Συνδεδεμένο με Euribor
+  Περιγραφή: Πράσινο Στεγαστικό Δάνειο Συνδεδεμένο με Euribor | Τράπεζα Πειραιώς Εξοικονόμηση...
+  → Επεμβάσεις: 4
+[DEBUG] Saved validated extracted data to: C:\Users\stavr\Desktop\HMMY\Thesis\llm-axe\output\va3_scraper_to_template\20260617T012225Z_www.piraeusbank.gr_el_idiwtes_proionta-upiresies_stegastika-daneia_prasino-stegastiko-daneio-sundedemeno-me-euribor_30fdb982_extracted.json
+
+[2/3] Κατηγοριοποίηση προγράμματος...
+[DEBUG] Classifying product/program...
+[DEBUG] Deterministic classification: Deterministic scope pass: home energy finance signals found
+[LOG] Experiment: exp_20260617_012225_246fc500
+
+======================================================================
+ΑΠΟΤΕΛΕΣΜΑ ΚΑΤΗΓΟΡΙΟΠΟΙΗΣΗΣ
+======================================================================
+Κατηγορία: Πράσινο στεγαστικό δάνειο (Green housing loan with mandatory energy upgrades)
+Ενδιαφέρον: ✓ ΝΑΙ
+Βεβαιότητα: 92%
+Αιτιολόγηση: Deterministic scope pass: home energy finance signals found
+Δευτερεύουσες: ΑΠΕ σε σπίτι (Renewable energy for homes - solar panels, heat pumps, insulation), Ενεργειακή αναβάθμιση (Energy upgrade/efficiency programs)
+======================================================================
+
+[DEBUG] Experiment Log: exp_20260617_012225_246fc500
+[DEBUG] Classification Output: C:\Users\stavr\Desktop\HMMY\Thesis\llm-axe\output\va4_product_discoverer\20260617T012225Z_www.piraeusbank.gr_el_idiwtes_proionta-upiresies_stegastika-daneia_prasino-stegastiko-daneio-sundedemeno-me-euribor_30fdb982_classification.json
+
+[3/3] Q&A απενεργοποιημένο.
+
+[14/24] END ok rc=0 seconds=528.0
+
+[15/24] START https://www.crediabank.com/idiotes/daneia/hrimatodotika-programmata/exoikonomo-2025/
+[WARN] package-level imports failed; loading modules directly
+[INFO] LLM fast  (pre-screen + extraction): llama3.2:latest
+[INFO] LLM smart (classification + Q&A):     llama3.1:8b-instruct-q4_K_M
+
+======================================================================
+ΕΠΕΞΕΡΓΑΣΙΑ URL: https://www.crediabank.com/idiotes/daneia/hrimatodotika-programmata/exoikonomo-2025/
+======================================================================
+
+[1/3] Scraping, pre-screening και εξαγωγή δεδομένων...
+[DEBUG] Fetching page content
+[DEBUG] Scraped text length: 8894 characters
+[DEBUG] Saved scraped text to: C:\Users\stavr\Desktop\HMMY\Thesis\llm-axe\output\va3_scraper_to_template\20260617T012234Z_www.crediabank.com_idiotes_daneia_hrimatodotika-programmata_exoikonomo-2025_41e7ef10_scraped.txt
+[DEBUG] Scoped keyword pre-filter passed: home energy finance signals found
+[PRE-SCREEN] Deterministic scope pass: home energy finance signals found
+[✓] Pre-screening passed — proceeding with full extraction
+[INFO] Smart text extraction: 8894 → 8894 chars (1 relevant sections)
+[DEBUG] Building extraction prompt
+[INFO] LLM inference (llama3.2:latest, attempt 1/3, ~11164 input chars)...
+[INFO] ✓ LLM responded in 596.4s (1169 chars output)
+[DEBUG] Parsing JSON string (1169 chars): {
+  "programme_name": "Exoikonomo 2025",
+  "description": "",
+  "programme_objective": "υποχρεωτική ...  "contact_info": [],
+  "additional_details": ""
+}
+[DEBUG] Parse result type: <class 'dict'>, keys: ['programme_name', 'description', 'programme_objective', 'eligible_parties', 'eligibility_criteria']
+[DEBUG] Converting dict to array
+[DEBUG] Successfully extracted JSON (attempt 1)
+[DEBUG] Extracted data has 25 keys: ['programme_name', 'description', 'programme_objective', 'eligible_parties', 'eligibility_criteria', 'property_requirements', 'minimum_funding_amount', 'maximum_funding_amount', 'funding_type', 'interest_rate']...
+✓ Εξαγωγή ολοκληρώθηκε: Exoikonomo 2025
+  Περιγραφή: Το Πρόγραμμα περιλαμβάνει ξεχωριστά κίνητρα για τη στήριξη των οικονομικά ασθενέ...
+  → Max ποσό: 37.750, Επεμβάσεις: 1
+[DEBUG] Saved validated extracted data to: C:\Users\stavr\Desktop\HMMY\Thesis\llm-axe\output\va3_scraper_to_template\20260617T013231Z_www.crediabank.com_idiotes_daneia_hrimatodotika-programmata_exoikonomo-2025_41e7ef10_extracted.json
+
+[2/3] Κατηγοριοποίηση προγράμματος...
+[DEBUG] Classifying product/program...
+[DEBUG] Deterministic classification: Deterministic scope pass: home energy finance signals found
+[LOG] Experiment: exp_20260617_013231_c9b7d287
+
+======================================================================
+ΑΠΟΤΕΛΕΣΜΑ ΚΑΤΗΓΟΡΙΟΠΟΙΗΣΗΣ
+======================================================================
+Κατηγορία: Πράσινο στεγαστικό δάνειο (Green housing loan with mandatory energy upgrades)
+Ενδιαφέρον: ✓ ΝΑΙ
+Βεβαιότητα: 92%
+Αιτιολόγηση: Deterministic scope pass: home energy finance signals found
+Δευτερεύουσες: Ενεργειακή αναβάθμιση (Energy upgrade/efficiency programs)
+======================================================================
+
+[DEBUG] Experiment Log: exp_20260617_013231_c9b7d287
+[DEBUG] Classification Output: C:\Users\stavr\Desktop\HMMY\Thesis\llm-axe\output\va4_product_discoverer\20260617T013231Z_www.crediabank.com_idiotes_daneia_hrimatodotika-programmata_exoikonomo-2025_41e7ef10_classification.json
+
+[3/3] Q&A απενεργοποιημένο.
+
+[15/24] END ok rc=0 seconds=605.2
+
+[16/24] START https://www.crediabank.com/idiotes/daneia/eco-katanalotika/eco-lyseis-net-metering-egkatastasi-oikiakon-fv-sustimaton/
+[WARN] package-level imports failed; loading modules directly
+[INFO] LLM fast  (pre-screen + extraction): llama3.2:latest
+[INFO] LLM smart (classification + Q&A):     llama3.1:8b-instruct-q4_K_M
+
+======================================================================
+ΕΠΕΞΕΡΓΑΣΙΑ URL: https://www.crediabank.com/idiotes/daneia/eco-katanalotika/eco-lyseis-net-metering-egkatastasi-oikiakon-fv-sustimaton/
+======================================================================
+
+[1/3] Scraping, pre-screening και εξαγωγή δεδομένων...
+[DEBUG] Fetching page content
+[DEBUG] Scraped text length: 3673 characters
+[DEBUG] Saved scraped text to: C:\Users\stavr\Desktop\HMMY\Thesis\llm-axe\output\va3_scraper_to_template\20260617T013238Z_www.crediabank.com_idiotes_daneia_eco-katanalotika_eco-lyseis-net-metering-egkatastasi-oikiakon-fv-sustimaton_95f59cba_scraped.txt
+[DEBUG] Scoped keyword pre-filter passed: home energy finance signals found
+[PRE-SCREEN] Deterministic scope pass: home energy finance signals found
+[✓] Pre-screening passed — proceeding with full extraction
+[DEBUG] Building extraction prompt
+[INFO] LLM inference (llama3.2:latest, attempt 1/3, ~5977 input chars)...
+[INFO] ✓ LLM responded in 201.0s (764 chars output)
+[DEBUG] Parsing JSON string (764 chars): {
+  "programme_name": "Eco Λύσεις - Net Metering",
+  "description": "",
+  "programme_objective": "",...βολταϊκών πάνελ"
+  ],
+  "additional_details": ""
+}
+[DEBUG] Parse result type: <class 'dict'>, keys: ['programme_name', 'description', 'programme_objective', 'eligible_parties', 'eligibility_criteria']
+[DEBUG] Converting dict to array
+[DEBUG] Successfully extracted JSON (attempt 1)
+[DEBUG] Extracted data has 21 keys: ['programme_name', 'description', 'programme_objective', 'eligible_parties', 'eligibility_criteria', 'property_requirements', 'minimum_funding_amount', 'maximum_funding_amount', 'funding_type', 'interest_rate']...
+✓ Εξαγωγή ολοκληρώθηκε: Eco Λύσεις - Net Metering
+  Περιγραφή: Eco Λύσεις - Net Metering (Εγκατάσταση Οικιακών Φ/Β Συστημάτων) - CrediaBank Eco...
+  → Τύπος: Δάνειο, Max ποσό: 25.000€, Επεμβάσεις: 2
+[DEBUG] Saved validated extracted data to: C:\Users\stavr\Desktop\HMMY\Thesis\llm-axe\output\va3_scraper_to_template\20260617T013559Z_www.crediabank.com_idiotes_daneia_eco-katanalotika_eco-lyseis-net-metering-egkatastasi-oikiakon-fv-sustimaton_95f59cba_extracted.json
+
+[2/3] Κατηγοριοποίηση προγράμματος...
+[DEBUG] Classifying product/program...
+[DEBUG] Deterministic classification: Deterministic scope pass: home energy finance signals found
+[LOG] Experiment: exp_20260617_013559_70815a9d
+
+======================================================================
+ΑΠΟΤΕΛΕΣΜΑ ΚΑΤΗΓΟΡΙΟΠΟΙΗΣΗΣ
+======================================================================
+Κατηγορία: Πράσινο στεγαστικό δάνειο (Green housing loan with mandatory energy upgrades)
+Ενδιαφέρον: ✓ ΝΑΙ
+Βεβαιότητα: 92%
+Αιτιολόγηση: Deterministic scope pass: home energy finance signals found
+Δευτερεύουσες: ΑΠΕ σε σπίτι (Renewable energy for homes - solar panels, heat pumps, insulation), Ενεργειακή αναβάθμιση (Energy upgrade/efficiency programs)
+======================================================================
+
+[DEBUG] Experiment Log: exp_20260617_013559_70815a9d
+[DEBUG] Classification Output: C:\Users\stavr\Desktop\HMMY\Thesis\llm-axe\output\va4_product_discoverer\20260617T013559Z_www.crediabank.com_idiotes_daneia_eco-katanalotika_eco-lyseis-net-metering-egkatastasi-oikiakon-fv-sustimaton_95f59cba_classification.json
+
+[3/3] Q&A απενεργοποιημένο.
+
+[16/24] END ok rc=0 seconds=208.7
+
+[17/24] START https://www.crediabank.com/programma-exoikonomo-anakainizo-gia-neous/
+[WARN] package-level imports failed; loading modules directly
+[INFO] LLM fast  (pre-screen + extraction): llama3.2:latest
+[INFO] LLM smart (classification + Q&A):     llama3.1:8b-instruct-q4_K_M
+
+======================================================================
+ΕΠΕΞΕΡΓΑΣΙΑ URL: https://www.crediabank.com/programma-exoikonomo-anakainizo-gia-neous/
+======================================================================
+
+[1/3] Scraping, pre-screening και εξαγωγή δεδομένων...
+[DEBUG] Fetching page content
+[DEBUG] Scraped text length: 11226 characters
+[DEBUG] Saved scraped text to: C:\Users\stavr\Desktop\HMMY\Thesis\llm-axe\output\va3_scraper_to_template\20260617T013608Z_www.crediabank.com_programma-exoikonomo-anakainizo-gia-neous_4b3f4f1c_scraped.txt
+[DEBUG] Scoped keyword pre-filter passed: home energy finance signals found
+[PRE-SCREEN] Deterministic scope pass: home energy finance signals found
+[✓] Pre-screening passed — proceeding with full extraction
+[INFO] Focused extraction cap applied: 11226 -> 9000 chars
+[INFO] Smart text extraction: 11226 → 9000 chars (1 relevant sections)
+[DEBUG] Building extraction prompt
+[INFO] LLM inference (llama3.2:latest, attempt 1/3, ~11255 input chars)...
+[INFO] ✓ LLM responded in 661.6s (1383 chars output)
+[DEBUG] Parsing JSON string (1383 chars): {
+  "programme_name": "Εξοικοδομητική Εnergeia",
+  "description": "",
+  "programme_objective": "Αντι...  "contact_info": [],
+  "additional_details": ""
+}
+[DEBUG] Parse result type: <class 'dict'>, keys: ['programme_name', 'description', 'programme_objective', 'eligible_parties', 'eligibility_criteria']
+[DEBUG] Converting dict to array
+[DEBUG] Successfully extracted JSON (attempt 1)
+[DEBUG] Extracted data has 25 keys: ['programme_name', 'description', 'programme_objective', 'eligible_parties', 'eligibility_criteria', 'property_requirements', 'minimum_funding_amount', 'maximum_funding_amount', 'funding_type', 'interest_rate']...
+✓ Εξαγωγή ολοκληρώθηκε: Εξοικοδομητική Εnergeia
+  Περιγραφή: Το πρόγραμμα καλύπτει από 40% έως 75% (με πρόσθετη επιχορήγηση 15% για πολύτεκνο...
+  → Τύπος: Δανειακή επιχορήγηση, Επεμβάσεις: 2
+[DEBUG] Saved validated extracted data to: C:\Users\stavr\Desktop\HMMY\Thesis\llm-axe\output\va3_scraper_to_template\20260617T014709Z_www.crediabank.com_programma-exoikonomo-anakainizo-gia-neous_4b3f4f1c_extracted.json
+
+[2/3] Κατηγοριοποίηση προγράμματος...
+[DEBUG] Classifying product/program...
+[DEBUG] Deterministic classification: Deterministic scope pass: home energy finance signals found
+[LOG] Experiment: exp_20260617_014709_9f09694b
+
+======================================================================
+ΑΠΟΤΕΛΕΣΜΑ ΚΑΤΗΓΟΡΙΟΠΟΙΗΣΗΣ
+======================================================================
+Κατηγορία: Πράσινο στεγαστικό δάνειο (Green housing loan with mandatory energy upgrades)
+Ενδιαφέρον: ✓ ΝΑΙ
+Βεβαιότητα: 92%
+Αιτιολόγηση: Deterministic scope pass: home energy finance signals found
+Δευτερεύουσες: Ενεργειακή αναβάθμιση (Energy upgrade/efficiency programs)
+======================================================================
+
+[DEBUG] Experiment Log: exp_20260617_014709_9f09694b
+[DEBUG] Classification Output: C:\Users\stavr\Desktop\HMMY\Thesis\llm-axe\output\va4_product_discoverer\20260617T014709Z_www.crediabank.com_programma-exoikonomo-anakainizo-gia-neous_4b3f4f1c_classification.json
+
+[3/3] Q&A απενεργοποιημένο.
+
+[17/24] END ok rc=0 seconds=670.0
+
+[18/24] START https://www.chaniabank.gr/idiotes/dania/anavathmizo-to-spiti-moy/
+[WARN] package-level imports failed; loading modules directly
+[INFO] LLM fast  (pre-screen + extraction): llama3.2:latest
+[INFO] LLM smart (classification + Q&A):     llama3.1:8b-instruct-q4_K_M
+
+======================================================================
+ΕΠΕΞΕΡΓΑΣΙΑ URL: https://www.chaniabank.gr/idiotes/dania/anavathmizo-to-spiti-moy/
+======================================================================
+
+[1/3] Scraping, pre-screening και εξαγωγή δεδομένων...
+[DEBUG] Fetching page content
+[DEBUG] Scraped text length: 9780 characters
+[DEBUG] Saved scraped text to: C:\Users\stavr\Desktop\HMMY\Thesis\llm-axe\output\va3_scraper_to_template\20260617T014727Z_www.chaniabank.gr_idiotes_dania_anavathmizo-to-spiti-moy_e7d7db78_scraped.txt
+[DEBUG] Scoped keyword pre-filter passed: home energy finance signals found
+[PRE-SCREEN] Deterministic scope pass: home energy finance signals found
+[✓] Pre-screening passed — proceeding with full extraction
+[INFO] Focused extraction cap applied: 9780 -> 7525 chars
+[INFO] Smart text extraction: 9780 → 7525 chars (1 relevant sections)
+[DEBUG] Building extraction prompt
+[INFO] LLM inference (llama3.2:latest, attempt 1/3, ~9776 input chars)...
+[INFO] ✓ LLM responded in 561.5s (1318 chars output)
+[DEBUG] Parsing JSON string (1318 chars): {
+  "programme_name": "Αναβαθμίζω το Σπίτι μου",
+  "description": "",
+  "programme_objective": "",
+ ...e_interventions": [],
+  "additional_details": ""
+}
+[DEBUG] Parse result type: <class 'dict'>, keys: ['programme_name', 'description', 'programme_objective', 'eligible_parties', 'eligibility_criteria']
+[DEBUG] Converting dict to array
+[DEBUG] Successfully extracted JSON (attempt 1)
+[DEBUG] Extracted data has 21 keys: ['programme_name', 'description', 'programme_objective', 'eligible_parties', 'eligibility_criteria', 'property_requirements', 'minimum_funding_amount', 'maximum_funding_amount', 'funding_type', 'interest_rate']...
+✓ Εξαγωγή ολοκληρώθηκε: Αναβαθμίζω το Σπίτι μου
+  Περιγραφή: Αναβαθμίζω το σπίτι μου - Τράπεζα Χανίων Αναβαθμίζω το σπίτι μου Ενεργειακή αναβ...
+  → Max ποσό: 25.000€, Επεμβάσεις: 6
+[DEBUG] Saved validated extracted data to: C:\Users\stavr\Desktop\HMMY\Thesis\llm-axe\output\va3_scraper_to_template\20260617T015648Z_www.chaniabank.gr_idiotes_dania_anavathmizo-to-spiti-moy_e7d7db78_extracted.json
+
+[2/3] Κατηγοριοποίηση προγράμματος...
+[DEBUG] Classifying product/program...
+[DEBUG] Deterministic classification: Deterministic scope pass: home energy finance signals found
+[LOG] Experiment: exp_20260617_015648_93a92ee5
+
+======================================================================
+ΑΠΟΤΕΛΕΣΜΑ ΚΑΤΗΓΟΡΙΟΠΟΙΗΣΗΣ
+======================================================================
+Κατηγορία: Πράσινο στεγαστικό δάνειο (Green housing loan with mandatory energy upgrades)
+Ενδιαφέρον: ✓ ΝΑΙ
+Βεβαιότητα: 92%
+Αιτιολόγηση: Deterministic scope pass: home energy finance signals found
+Δευτερεύουσες: ΑΠΕ σε σπίτι (Renewable energy for homes - solar panels, heat pumps, insulation), Ενεργειακή αναβάθμιση (Energy upgrade/efficiency programs)
+======================================================================
+
+[DEBUG] Experiment Log: exp_20260617_015648_93a92ee5
+[DEBUG] Classification Output: C:\Users\stavr\Desktop\HMMY\Thesis\llm-axe\output\va4_product_discoverer\20260617T015648Z_www.chaniabank.gr_idiotes_dania_anavathmizo-to-spiti-moy_e7d7db78_classification.json
+
+[3/3] Q&A απενεργοποιημένο.
+
+[18/24] END ok rc=0 seconds=578.9
+
+[19/24] START https://www.bankofkarditsa.com.gr/el/idiotes/daneia/anavathmizo-to-spiti-mou
+[WARN] package-level imports failed; loading modules directly
+[INFO] LLM fast  (pre-screen + extraction): llama3.2:latest
+[INFO] LLM smart (classification + Q&A):     llama3.1:8b-instruct-q4_K_M
+
+======================================================================
+ΕΠΕΞΕΡΓΑΣΙΑ URL: https://www.bankofkarditsa.com.gr/el/idiotes/daneia/anavathmizo-to-spiti-mou
+======================================================================
+
+[1/3] Scraping, pre-screening και εξαγωγή δεδομένων...
+[DEBUG] Fetching page content
+[DEBUG] Scraped text length: 6371 characters
+[DEBUG] Saved scraped text to: C:\Users\stavr\Desktop\HMMY\Thesis\llm-axe\output\va3_scraper_to_template\20260617T015656Z_www.bankofkarditsa.com.gr_el_idiotes_daneia_anavathmizo-to-spiti-mou_49f26189_scraped.txt
+[DEBUG] Scoped keyword pre-filter passed: home energy finance signals found
+[PRE-SCREEN] Deterministic scope pass: home energy finance signals found
+[✓] Pre-screening passed — proceeding with full extraction
+[INFO] Smart text extraction: 6371 → 6371 chars (1 relevant sections)
+[DEBUG] Building extraction prompt
+[INFO] LLM inference (llama3.2:latest, attempt 1/3, ~8633 input chars)...
+[INFO] ✓ LLM responded in 365.0s (1339 chars output)
+[DEBUG] Parsing JSON string (1339 chars): {
+  "programme_name": "Αναβαθμίζω το Σπίτι μου",
+  "description": "",
+  "programme_objective": "",
+ ...  "contact_info": [],
+  "additional_details": ""
+}
+[DEBUG] Parse result type: <class 'dict'>, keys: ['programme_name', 'description', 'programme_objective', 'eligible_parties', 'eligibility_criteria']
+[DEBUG] Converting dict to array
+[DEBUG] Successfully extracted JSON (attempt 1)
+[DEBUG] Extracted data has 25 keys: ['programme_name', 'description', 'programme_objective', 'eligible_parties', 'eligibility_criteria', 'property_requirements', 'minimum_funding_amount', 'maximum_funding_amount', 'funding_type', 'interest_rate']...
+✓ Εξαγωγή ολοκληρώθηκε: Αναβαθμίζω το Σπίτι μου
+  Περιγραφή: Αναβαθμίζω το Σπίτι μου Τράπεζα Προφίλ Οικονομικά Στοιχεία Ανθρώπινο Δυναμικό Ακ...
+  → Max ποσό: 25.000, Επεμβάσεις: 3
+[DEBUG] Saved validated extracted data to: C:\Users\stavr\Desktop\HMMY\Thesis\llm-axe\output\va3_scraper_to_template\20260617T020301Z_www.bankofkarditsa.com.gr_el_idiotes_daneia_anavathmizo-to-spiti-mou_49f26189_extracted.json
+
+[2/3] Κατηγοριοποίηση προγράμματος...
+[DEBUG] Classifying product/program...
+[DEBUG] Deterministic classification: Deterministic scope pass: home energy finance signals found
+[LOG] Experiment: exp_20260617_020301_8f00a6f8
+
+======================================================================
+ΑΠΟΤΕΛΕΣΜΑ ΚΑΤΗΓΟΡΙΟΠΟΙΗΣΗΣ
+======================================================================
+Κατηγορία: Πράσινο στεγαστικό δάνειο (Green housing loan with mandatory energy upgrades)
+Ενδιαφέρον: ✓ ΝΑΙ
+Βεβαιότητα: 92%
+Αιτιολόγηση: Deterministic scope pass: home energy finance signals found
+Δευτερεύουσες: ΑΠΕ σε σπίτι (Renewable energy for homes - solar panels, heat pumps, insulation), Ενεργειακή αναβάθμιση (Energy upgrade/efficiency programs)
+======================================================================
+
+[DEBUG] Experiment Log: exp_20260617_020301_8f00a6f8
+[DEBUG] Classification Output: C:\Users\stavr\Desktop\HMMY\Thesis\llm-axe\output\va4_product_discoverer\20260617T020301Z_www.bankofkarditsa.com.gr_el_idiotes_daneia_anavathmizo-to-spiti-mou_49f26189_classification.json
+
+[3/3] Q&A απενεργοποιημένο.
+
+[19/24] END ok rc=0 seconds=372.4
+
+[20/24] START https://www.bankofthessaly.gr/idiotes/prasina-daneia/
+[WARN] package-level imports failed; loading modules directly
+[INFO] LLM fast  (pre-screen + extraction): llama3.2:latest
+[INFO] LLM smart (classification + Q&A):     llama3.1:8b-instruct-q4_K_M
+
+======================================================================
+ΕΠΕΞΕΡΓΑΣΙΑ URL: https://www.bankofthessaly.gr/idiotes/prasina-daneia/
+======================================================================
+
+[1/3] Scraping, pre-screening και εξαγωγή δεδομένων...
+[DEBUG] Fetching page content
+[DEBUG] Scraped text length: 552 characters
+[DEBUG] Saved scraped text to: C:\Users\stavr\Desktop\HMMY\Thesis\llm-axe\output\va3_scraper_to_template\20260617T020308Z_www.bankofthessaly.gr_idiotes_prasina-daneia_a04101da_scraped.txt
+[DEBUG] Scoped keyword pre-filter passed: home energy finance signals found
+[PRE-SCREEN] Deterministic scope pass: home energy finance signals found
+[✓] Pre-screening passed — proceeding with full extraction
+[DEBUG] Building extraction prompt
+[INFO] LLM inference (llama3.2:latest, attempt 1/3, ~2791 input chars)...
+[INFO] ✓ LLM responded in 53.1s (593 chars output)
+[DEBUG] Parsing JSON string (593 chars): {
+  "programme_name": "",
+  "description": "",
+  "programme_objective": "",
+  "eligible_parties": []...tions": [
+    ""
+  ],
+  "additional_details": ""
+}
+[DEBUG] Parse result type: <class 'dict'>, keys: ['programme_name', 'description', 'programme_objective', 'eligible_parties', 'eligibility_criteria']
+[DEBUG] Converting dict to array
+[DEBUG] Successfully extracted JSON (attempt 1)
+[DEBUG] Extracted data has 21 keys: ['programme_name', 'description', 'programme_objective', 'eligible_parties', 'eligibility_criteria', 'property_requirements', 'minimum_funding_amount', 'maximum_funding_amount', 'funding_type', 'interest_rate']...
+✓ Εξαγωγή ολοκληρώθηκε: Τράπεζα Θεσσαλίας - Πράσινα Δάνεια Χρηματοδοτούμε τη βιωσιμότητα, γιατί το μέλλον είναι πράσινο. Πράσινα Δάνεια Εξοικονο
+  Περιγραφή: Τράπεζα Θεσσαλίας - Πράσινα Δάνεια Χρηματοδοτούμε τη βιωσιμότητα, γιατί το μέλλο...
+  → Τύπος: Δάνειο
+[DEBUG] Saved validated extracted data to: C:\Users\stavr\Desktop\HMMY\Thesis\llm-axe\output\va3_scraper_to_template\20260617T020401Z_www.bankofthessaly.gr_idiotes_prasina-daneia_a04101da_extracted.json
+
+[2/3] Κατηγοριοποίηση προγράμματος...
+[DEBUG] Classifying product/program...
+[DEBUG] Deterministic classification: Deterministic scope pass: home energy finance signals found
+[LOG] Experiment: exp_20260617_020401_33efcc3d
+
+======================================================================
+ΑΠΟΤΕΛΕΣΜΑ ΚΑΤΗΓΟΡΙΟΠΟΙΗΣΗΣ
+======================================================================
+Κατηγορία: Πράσινο στεγαστικό δάνειο (Green housing loan with mandatory energy upgrades)
+Ενδιαφέρον: ✓ ΝΑΙ
+Βεβαιότητα: 84%
+Αιτιολόγηση: Deterministic scope pass: home energy finance signals found
+Δευτερεύουσες: ΑΠΕ σε σπίτι (Renewable energy for homes - solar panels, heat pumps, insulation), Ενεργειακή αναβάθμιση (Energy upgrade/efficiency programs)
+======================================================================
+
+[DEBUG] Experiment Log: exp_20260617_020401_33efcc3d
+[DEBUG] Classification Output: C:\Users\stavr\Desktop\HMMY\Thesis\llm-axe\output\va4_product_discoverer\20260617T020401Z_www.bankofthessaly.gr_idiotes_prasina-daneia_a04101da_classification.json
+
+[3/3] Q&A απενεργοποιημένο.
+
+[20/24] END ok rc=0 seconds=60.5
+
+[21/24] START https://www.bankofthessaly.gr/idiotes/prasina-daneia/exoikonomo-2025/
+[WARN] package-level imports failed; loading modules directly
+[INFO] LLM fast  (pre-screen + extraction): llama3.2:latest
+[INFO] LLM smart (classification + Q&A):     llama3.1:8b-instruct-q4_K_M
+
+======================================================================
+ΕΠΕΞΕΡΓΑΣΙΑ URL: https://www.bankofthessaly.gr/idiotes/prasina-daneia/exoikonomo-2025/
+======================================================================
+
+[1/3] Scraping, pre-screening και εξαγωγή δεδομένων...
+[DEBUG] Fetching page content
+[DEBUG] Scraped text length: 1073 characters
+[DEBUG] Saved scraped text to: C:\Users\stavr\Desktop\HMMY\Thesis\llm-axe\output\va3_scraper_to_template\20260617T020408Z_www.bankofthessaly.gr_idiotes_prasina-daneia_exoikonomo-2025_71ea87f1_scraped.txt
+[DEBUG] Scoped keyword pre-filter passed: home energy finance signals found
+[PRE-SCREEN] Deterministic scope pass: home energy finance signals found
+[✓] Pre-screening passed — proceeding with full extraction
+[DEBUG] Building extraction prompt
+[INFO] LLM inference (llama3.2:latest, attempt 1/3, ~3328 input chars)...
+[INFO] ✓ LLM responded in 59.7s (645 chars output)
+[DEBUG] Parsing JSON string (645 chars): {
+  "programme_name": "Εξοικονομώ 2025",
+  "description": "",
+  "programme_objective": "",
+  "eligib...e_interventions": [],
+  "additional_details": ""
+}
+[DEBUG] Parse result type: <class 'dict'>, keys: ['programme_name', 'description', 'programme_objective', 'eligible_parties', 'eligibility_criteria']
+[DEBUG] Converting dict to array
+[DEBUG] Successfully extracted JSON (attempt 1)
+[DEBUG] Extracted data has 21 keys: ['programme_name', 'description', 'programme_objective', 'eligible_parties', 'eligibility_criteria', 'property_requirements', 'minimum_funding_amount', 'maximum_funding_amount', 'funding_type', 'interest_rate']...
+✓ Εξαγωγή ολοκληρώθηκε: Εξοικονομώ 2025
+  Περιγραφή: Το Πρόγραμμα « Εξοικονομώ 2025 » χρηματοδοτείται από πόρους του Ταμείου Ανάκαμψη...
+  → Τύπος: Δάνειο, Επεμβάσεις: 1
+[DEBUG] Saved validated extracted data to: C:\Users\stavr\Desktop\HMMY\Thesis\llm-axe\output\va3_scraper_to_template\20260617T020508Z_www.bankofthessaly.gr_idiotes_prasina-daneia_exoikonomo-2025_71ea87f1_extracted.json
+
+[2/3] Κατηγοριοποίηση προγράμματος...
+[DEBUG] Classifying product/program...
+[DEBUG] Deterministic classification: Deterministic scope pass: home energy finance signals found
+[LOG] Experiment: exp_20260617_020508_233b57d1
+
+======================================================================
+ΑΠΟΤΕΛΕΣΜΑ ΚΑΤΗΓΟΡΙΟΠΟΙΗΣΗΣ
+======================================================================
+Κατηγορία: Πράσινο στεγαστικό δάνειο (Green housing loan with mandatory energy upgrades)
+Ενδιαφέρον: ✓ ΝΑΙ
+Βεβαιότητα: 92%
+Αιτιολόγηση: Deterministic scope pass: home energy finance signals found
+Δευτερεύουσες: ΑΠΕ σε σπίτι (Renewable energy for homes - solar panels, heat pumps, insulation), Ενεργειακή αναβάθμιση (Energy upgrade/efficiency programs)
+======================================================================
+
+[DEBUG] Experiment Log: exp_20260617_020508_233b57d1
+[DEBUG] Classification Output: C:\Users\stavr\Desktop\HMMY\Thesis\llm-axe\output\va4_product_discoverer\20260617T020508Z_www.bankofthessaly.gr_idiotes_prasina-daneia_exoikonomo-2025_71ea87f1_classification.json
+
+[3/3] Q&A απενεργοποιημένο.
+
+[21/24] END ok rc=0 seconds=66.4
+
+[22/24] START https://www.bankofthessaly.gr/idiotes/prasina-daneia/anavathmizo-to-spiti-mou/
+[WARN] package-level imports failed; loading modules directly
+[INFO] LLM fast  (pre-screen + extraction): llama3.2:latest
+[INFO] LLM smart (classification + Q&A):     llama3.1:8b-instruct-q4_K_M
+
+======================================================================
+ΕΠΕΞΕΡΓΑΣΙΑ URL: https://www.bankofthessaly.gr/idiotes/prasina-daneia/anavathmizo-to-spiti-mou/
+======================================================================
+
+[1/3] Scraping, pre-screening και εξαγωγή δεδομένων...
+[DEBUG] Fetching page content
+[DEBUG] Scraped text length: 2689 characters
+[DEBUG] Saved scraped text to: C:\Users\stavr\Desktop\HMMY\Thesis\llm-axe\output\va3_scraper_to_template\20260617T020514Z_www.bankofthessaly.gr_idiotes_prasina-daneia_anavathmizo-to-spiti-mou_468fbc2c_scraped.txt
+[DEBUG] Scoped keyword pre-filter passed: home energy finance signals found
+[PRE-SCREEN] Deterministic scope pass: home energy finance signals found
+[✓] Pre-screening passed — proceeding with full extraction
+[DEBUG] Building extraction prompt
+[INFO] LLM inference (llama3.2:latest, attempt 1/3, ~4953 input chars)...
+[INFO] ✓ LLM responded in 176.0s (1352 chars output)
+[DEBUG] Parsing JSON string (1352 chars): {
+  "programme_name": "Αναβαθμίζω το Σπίτι μου",
+  "description": "",
+  "programme_objective": "",
+ ...  "contact_info": [],
+  "additional_details": ""
+}
+[DEBUG] Parse result type: <class 'dict'>, keys: ['programme_name', 'description', 'programme_objective', 'eligible_parties', 'eligibility_criteria']
+[DEBUG] Converting dict to array
+[DEBUG] Successfully extracted JSON (attempt 1)
+[DEBUG] Extracted data has 25 keys: ['programme_name', 'description', 'programme_objective', 'eligible_parties', 'eligibility_criteria', 'property_requirements', 'minimum_funding_amount', 'maximum_funding_amount', 'funding_type', 'interest_rate']...
+✓ Εξαγωγή ολοκληρώθηκε: Αναβαθμίζω το Σπίτι μου
+  Περιγραφή: Τράπεζα Θεσσαλίας - Πρόγραμμα «Αναβαθμίζω το σπίτι μου» Πρόγραμμα «Αναβαθμίζω το...
+  → Τύπος: Δάνειο, Max ποσό: 25.000€, Επεμβάσεις: 6
+[DEBUG] Saved validated extracted data to: C:\Users\stavr\Desktop\HMMY\Thesis\llm-axe\output\va3_scraper_to_template\20260617T020810Z_www.bankofthessaly.gr_idiotes_prasina-daneia_anavathmizo-to-spiti-mou_468fbc2c_extracted.json
+
+[2/3] Κατηγοριοποίηση προγράμματος...
+[DEBUG] Classifying product/program...
+[DEBUG] Deterministic classification: Deterministic scope pass: home energy finance signals found
+[LOG] Experiment: exp_20260617_020810_bf08b13b
+
+======================================================================
+ΑΠΟΤΕΛΕΣΜΑ ΚΑΤΗΓΟΡΙΟΠΟΙΗΣΗΣ
+======================================================================
+Κατηγορία: Πράσινο στεγαστικό δάνειο (Green housing loan with mandatory energy upgrades)
+Ενδιαφέρον: ✓ ΝΑΙ
+Βεβαιότητα: 92%
+Αιτιολόγηση: Deterministic scope pass: home energy finance signals found
+Δευτερεύουσες: ΑΠΕ σε σπίτι (Renewable energy for homes - solar panels, heat pumps, insulation), Ενεργειακή αναβάθμιση (Energy upgrade/efficiency programs)
+======================================================================
+
+[DEBUG] Experiment Log: exp_20260617_020810_bf08b13b
+[DEBUG] Classification Output: C:\Users\stavr\Desktop\HMMY\Thesis\llm-axe\output\va4_product_discoverer\20260617T020810Z_www.bankofthessaly.gr_idiotes_prasina-daneia_anavathmizo-to-spiti-mou_468fbc2c_classification.json
+
+[3/3] Q&A απενεργοποιημένο.
+
+[22/24] END ok rc=0 seconds=182.8
+
+[23/24] START https://www.bankofthessaly.gr/idiotes/prasina-daneia/exoikonomo-anakainizo-gia-neous/
+[WARN] package-level imports failed; loading modules directly
+[INFO] LLM fast  (pre-screen + extraction): llama3.2:latest
+[INFO] LLM smart (classification + Q&A):     llama3.1:8b-instruct-q4_K_M
+
+======================================================================
+ΕΠΕΞΕΡΓΑΣΙΑ URL: https://www.bankofthessaly.gr/idiotes/prasina-daneia/exoikonomo-anakainizo-gia-neous/
+======================================================================
+
+[1/3] Scraping, pre-screening και εξαγωγή δεδομένων...
+[DEBUG] Fetching page content
+[DEBUG] Scraped text length: 1740 characters
+[DEBUG] Saved scraped text to: C:\Users\stavr\Desktop\HMMY\Thesis\llm-axe\output\va3_scraper_to_template\20260617T020818Z_www.bankofthessaly.gr_idiotes_prasina-daneia_exoikonomo-anakainizo-gia-neous_ff06ecc7_scraped.txt
+[DEBUG] Scoped keyword pre-filter passed: home energy finance signals found
+[PRE-SCREEN] Deterministic scope pass: home energy finance signals found
+[✓] Pre-screening passed — proceeding with full extraction
+[DEBUG] Building extraction prompt
+[INFO] LLM inference (llama3.2:latest, attempt 1/3, ~4011 input chars)...
+[INFO] ✓ LLM responded in 114.8s (914 chars output)
+[DEBUG] Parsing JSON string (914 chars): {
+  "programme_name": "Εξοικονομώ-Ανακαινίζω για Νέους",
+  "description": "",
+  "programme_objective...μησης ενέργειας"
+  ],
+  "additional_details": ""
+}
+[DEBUG] Parse result type: <class 'dict'>, keys: ['programme_name', 'description', 'programme_objective', 'eligible_parties', 'eligibility_criteria']
+[DEBUG] Converting dict to array
+[DEBUG] Successfully extracted JSON (attempt 1)
+[DEBUG] Extracted data has 21 keys: ['programme_name', 'description', 'programme_objective', 'eligible_parties', 'eligibility_criteria', 'property_requirements', 'minimum_funding_amount', 'maximum_funding_amount', 'funding_type', 'interest_rate']...
+✓ Εξαγωγή ολοκληρώθηκε: Εξοικονομώ-Ανακαινίζω για Νέους
+  Περιγραφή: Το Πρόγραμμα « Εξοικονομώ – Ανακαινίζω για νέους » χρηματοδοτείται από πόρους το...
+  → Τύπος: Δάνειο, Επεμβάσεις: 1
+[DEBUG] Saved validated extracted data to: C:\Users\stavr\Desktop\HMMY\Thesis\llm-axe\output\va3_scraper_to_template\20260617T021012Z_www.bankofthessaly.gr_idiotes_prasina-daneia_exoikonomo-anakainizo-gia-neous_ff06ecc7_extracted.json
+
+[2/3] Κατηγοριοποίηση προγράμματος...
+[DEBUG] Classifying product/program...
+[DEBUG] Deterministic classification: Deterministic scope pass: home energy finance signals found
+[LOG] Experiment: exp_20260617_021012_463c15bc
+
+======================================================================
+ΑΠΟΤΕΛΕΣΜΑ ΚΑΤΗΓΟΡΙΟΠΟΙΗΣΗΣ
+======================================================================
+Κατηγορία: Πράσινο στεγαστικό δάνειο (Green housing loan with mandatory energy upgrades)
+Ενδιαφέρον: ✓ ΝΑΙ
+Βεβαιότητα: 92%
+Αιτιολόγηση: Deterministic scope pass: home energy finance signals found
+Δευτερεύουσες: Ενεργειακή αναβάθμιση (Energy upgrade/efficiency programs)
+======================================================================
+
+[DEBUG] Experiment Log: exp_20260617_021012_463c15bc
+[DEBUG] Classification Output: C:\Users\stavr\Desktop\HMMY\Thesis\llm-axe\output\va4_product_discoverer\20260617T021012Z_www.bankofthessaly.gr_idiotes_prasina-daneia_exoikonomo-anakainizo-gia-neous_ff06ecc7_classification.json
+
+[3/3] Q&A απενεργοποιημένο.
+
+[23/24] END ok rc=0 seconds=122.1
+
+[24/24] START https://www.epirusbank.com/citizens/anavathmizo-to-spiti-mou
+[WARN] package-level imports failed; loading modules directly
+[INFO] LLM fast  (pre-screen + extraction): llama3.2:latest
+[INFO] LLM smart (classification + Q&A):     llama3.1:8b-instruct-q4_K_M
+
+======================================================================
+ΕΠΕΞΕΡΓΑΣΙΑ URL: https://www.epirusbank.com/citizens/anavathmizo-to-spiti-mou
+======================================================================
+
+[1/3] Scraping, pre-screening και εξαγωγή δεδομένων...
+[DEBUG] Fetching page content
+[DEBUG] Scraped text length: 9352 characters
+[DEBUG] Saved scraped text to: C:\Users\stavr\Desktop\HMMY\Thesis\llm-axe\output\va3_scraper_to_template\20260617T021020Z_www.epirusbank.com_citizens_anavathmizo-to-spiti-mou_ed54d60e_scraped.txt
+[DEBUG] Scoped keyword pre-filter passed: home energy finance signals found
+[PRE-SCREEN] Deterministic scope pass: home energy finance signals found
+[✓] Pre-screening passed — proceeding with full extraction
+[INFO] Focused extraction cap applied: 9352 -> 9000 chars
+[INFO] Smart text extraction: 9352 → 9000 chars (1 relevant sections)
+[DEBUG] Building extraction prompt
+[INFO] LLM inference (llama3.2:latest, attempt 1/3, ~11246 input chars)...
+[INFO] ✓ LLM responded in 548.9s (1423 chars output)
+[DEBUG] Parsing JSON string (1423 chars): {
+  "programme_name": "Αναβαθμίζω το Σπίτι Μου",
+  "description": "",
+  "programme_objective": "πρόσ...  "contact_info": [],
+  "additional_details": ""
+}
+[DEBUG] Parse result type: <class 'dict'>, keys: ['programme_name', 'description', 'programme_objective', 'eligible_parties', 'eligibility_criteria']
+[DEBUG] Converting dict to array
+[DEBUG] Successfully extracted JSON (attempt 1)
+[DEBUG] Extracted data has 25 keys: ['programme_name', 'description', 'programme_objective', 'eligible_parties', 'eligibility_criteria', 'property_requirements', 'minimum_funding_amount', 'maximum_funding_amount', 'funding_type', 'interest_rate']...
+✓ Εξαγωγή ολοκληρώθηκε: Αναβαθμίζω το Σπίτι Μου
+  Περιγραφή: Το Πρόγραμμα « Αναβαθμίζω το Σπίτι Μου » στοχεύει στην παροχή κινήτρων σε φυσικά...
+  → Τύπος: Δάνειο, Max ποσό: 25.000€, Επεμβάσεις: 6
+[DEBUG] Saved validated extracted data to: C:\Users\stavr\Desktop\HMMY\Thesis\llm-axe\output\va3_scraper_to_template\20260617T021929Z_www.epirusbank.com_citizens_anavathmizo-to-spiti-mou_ed54d60e_extracted.json
+
+[2/3] Κατηγοριοποίηση προγράμματος...
+[DEBUG] Classifying product/program...
+[DEBUG] Deterministic classification: Deterministic scope pass: home energy finance signals found
+[LOG] Experiment: exp_20260617_021929_8c242aeb
+
+======================================================================
+ΑΠΟΤΕΛΕΣΜΑ ΚΑΤΗΓΟΡΙΟΠΟΙΗΣΗΣ
+======================================================================
+Κατηγορία: Πράσινο στεγαστικό δάνειο (Green housing loan with mandatory energy upgrades)
+Ενδιαφέρον: ✓ ΝΑΙ
+Βεβαιότητα: 92%
+Αιτιολόγηση: Deterministic scope pass: home energy finance signals found
+Δευτερεύουσες: ΑΠΕ σε σπίτι (Renewable energy for homes - solar panels, heat pumps, insulation), Ενεργειακή αναβάθμιση (Energy upgrade/efficiency programs)
+======================================================================
+
+[DEBUG] Experiment Log: exp_20260617_021929_8c242aeb
+[DEBUG] Classification Output: C:\Users\stavr\Desktop\HMMY\Thesis\llm-axe\output\va4_product_discoverer\20260617T021929Z_www.epirusbank.com_citizens_anavathmizo-to-spiti-mou_ed54d60e_classification.json
+
+[3/3] Q&A απενεργοποιημένο.
+
+[24/24] END ok rc=0 seconds=556.3
+Greece completeness batch summary: C:\Users\stavr\Desktop\HMMY\Thesis\llm-axe\.codex_logs\greece_completeness_va4_batch_20260616T225519Z_summary.json

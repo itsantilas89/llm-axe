@@ -1,0 +1,162 @@
+{
+  "timestamp": "20260617T130834Z",
+  "url": "https://www.nbg.gr/el/idiwtes/daneia/daneia-exoikonomisis-energeias",
+  "programme_name": "Εξοικονομώ",
+  "classification_file": "004_www.nbg.gr_el_idiwtes_daneia_daneia-exoikonomisis-energeias_f784a97e_classification.json",
+  "qa_count": 15,
+  "source": "qa_evaluation_suite",
+  "mode": "all15",
+  "responses": [
+    {
+      "question_id": "q12",
+      "question": "12) Ποια είναι η πρωτεύουσα της Ελλάδας ;",
+      "answer": "Δεν υπάρχει πληροφορία",
+      "repeat_index": 1,
+      "repeat_count": 1,
+      "timestamp": "2026-06-17T13:08:34.052410+00:00",
+      "source": "qa_evaluation_suite",
+      "answer_mode": "deterministic_out_of_scope_guard"
+    },
+    {
+      "question_id": "q13",
+      "question": "13) Ποια είναι η πρωτεύουσα της Γαλλίας ;",
+      "answer": "Δεν υπάρχει πληροφορία",
+      "repeat_index": 1,
+      "repeat_count": 1,
+      "timestamp": "2026-06-17T13:08:34.054153+00:00",
+      "source": "qa_evaluation_suite",
+      "answer_mode": "deterministic_out_of_scope_guard"
+    },
+    {
+      "question_id": "q14",
+      "question": "14) What's the capital of Greece ?",
+      "answer": "Δεν υπάρχει πληροφορία",
+      "repeat_index": 1,
+      "repeat_count": 1,
+      "timestamp": "2026-06-17T13:08:34.055491+00:00",
+      "source": "qa_evaluation_suite",
+      "answer_mode": "deterministic_out_of_scope_guard"
+    },
+    {
+      "question_id": "q15",
+      "question": "15) What's the capital of France ?",
+      "answer": "Δεν υπάρχει πληροφορία",
+      "repeat_index": 1,
+      "repeat_count": 1,
+      "timestamp": "2026-06-17T13:08:34.056944+00:00",
+      "source": "qa_evaluation_suite",
+      "answer_mode": "deterministic_out_of_scope_guard"
+    },
+    {
+      "question_id": "q1",
+      "question": "1) Περίγραψε το πρόγραμμα, στόχος, δικαιούχοι, βασικά οφέλη.",
+      "answer": "Το πρόγραμμα ονομάζεται \"Εξοικονομώ\" και στόχος του είναι να προσφέρει δάνεια για την απόκτηση λύσεων εξοικονόμησης ενέργειας. Οι δικαιούχοι είναι οι ιδιώτες και τα βασικά οφέλη είναι η πρόσβαση σε πράσινα δάνεια με την εγγύηση του Ευρωπαϊκού Ταμείου Επενδύσεων (EIF) για την αναβάθμισή τους.",
+      "repeat_index": 1,
+      "repeat_count": 1,
+      "timestamp": "2026-06-17T13:12:06.061160+00:00",
+      "source": "qa_evaluation_suite",
+      "answer_mode": "llm"
+    },
+    {
+      "question_id": "q2",
+      "question": "2) Εξήγησε τη διαφορά μεταξύ “επιχορήγησης” και “δανείου” στο πλαίσιο ενεργειακής αναβάθμισης, με ένα παράδειγμα για το καθένα.",
+      "answer": "Δεν υπάρχει πληροφορία",
+      "repeat_index": 1,
+      "repeat_count": 1,
+      "timestamp": "2026-06-17T13:12:06.063241+00:00",
+      "source": "qa_evaluation_suite",
+      "answer_mode": "llm"
+    },
+    {
+      "question_id": "q3",
+      "question": "3) Δώσε 5 λέξεις-κλειδιά για αναζήτηση σχετικών προγραμμάτων και εξήγησε σε 1 πρόταση γιατί είναι χρήσιμη η καθεμία.",
+      "answer": "[{'keyword': 'πράσινο δάνειο', 'description': 'Χρήσιμο για την αναζήτηση προγραμμάτων που προσφέρουν πράσια δάνεια'}, {'keyword': 'Ευρωπαϊκό Ταμείο Επενδύσεων (EIF)', 'description': 'Χρήσιμο για την αναζήτηση προγραμμάτων που έχουν την εγγύηση του Ευρωπαϊκού Ταμείου Επενδύσεων'}, {'keyword': 'εξοικονόμηση ενέργειας', 'description': 'Χρήσιμο για την αναζήτηση προγραμμάτων που αφορούν την εξοικονόμηση ενέργειας'}, {'keyword': 'αναβάθμισης σπιτιού', 'description': 'Χρήσιμο για την αναζήτηση προγραμμάτων που αφορούν την αναβάθμιση σπιτιών'}, {'keyword': 'Εθνική Τράπεζα', 'description': 'Χρήσιμο για την αναζήτηση προγραμμάτων που σχετίζονται με την Εθνική Τράπεζα'}]",
+      "repeat_index": 1,
+      "repeat_count": 1,
+      "timestamp": "2026-06-17T13:12:06.066827+00:00",
+      "source": "qa_evaluation_suite",
+      "answer_mode": "llm"
+    },
+    {
+      "question_id": "q4",
+      "question": "4) Εντόπισε όλες τις προθεσμίες που αναφέρονται και γράψε τες σε μορφή ΗΗ/ΜΜ/ΕΕΕΕ.",
+      "answer": "Δεν υπάρχει πληροφορία",
+      "repeat_index": 1,
+      "repeat_count": 1,
+      "timestamp": "2026-06-17T13:13:23.102295+00:00",
+      "source": "qa_evaluation_suite",
+      "answer_mode": "llm"
+    },
+    {
+      "question_id": "q5",
+      "question": "5) Βρες αν υπάρχει ανώτατο ή κατώτατο όριο χρηματοδότησης και δώσε το ακριβές ποσό/ποσοστό.",
+      "answer": "{\"maximum_funding_amount\": \"15.000\\u20ac\", \"minimum_funding_amount\": \"6.000\\u20ac\"}",
+      "repeat_index": 1,
+      "repeat_count": 1,
+      "timestamp": "2026-06-17T13:13:23.104451+00:00",
+      "source": "qa_evaluation_suite",
+      "answer_mode": "llm"
+    },
+    {
+      "question_id": "q6",
+      "question": "6) Ποιες παρεμβάσεις ενεργειακής αναβάθμισης χρηματοδοτούνται;",
+      "answer": "[\"πράσινο δάνειο με την εγγύηση του Ευρωπαϊκού Ταμείου Επενδύσεων (EIF)\", \"αναβαθμισμένο σπίτι\", \"πράσινο δάνειο για την απόκτηση λύσεων εξοικονόμησης ενέργειας\"]",
+      "repeat_index": 1,
+      "repeat_count": 1,
+      "timestamp": "2026-06-17T13:13:23.107134+00:00",
+      "source": "qa_evaluation_suite",
+      "answer_mode": "llm"
+    },
+    {
+      "question_id": "q7",
+      "question": "7) Ποια είναι τα σημαντικότερα σημεία που πρέπει να προσέξει ένας ενδιαφερόμενος πριν υποβάλει αίτηση;",
+      "answer": "Δεν υπάρχει πληροφορία",
+      "repeat_index": 1,
+      "repeat_count": 1,
+      "timestamp": "2026-06-17T13:14:17.515476+00:00",
+      "source": "qa_evaluation_suite",
+      "answer_mode": "llm"
+    },
+    {
+      "question_id": "q8",
+      "question": "8) Τι γίνεται αν δεν ολοκληρωθούν οι εργασίες μέσα στην προβλεπόμενη προθεσμία;",
+      "answer": "Δεν υπάρχει πληροφορία",
+      "repeat_index": 1,
+      "repeat_count": 1,
+      "timestamp": "2026-06-17T13:14:17.517068+00:00",
+      "source": "qa_evaluation_suite",
+      "answer_mode": "llm"
+    },
+    {
+      "question_id": "q9",
+      "question": "9) Υπάρχουν υποχρεώσεις του δικαιούχου μετά την ολοκλήρωση του έργου;",
+      "answer": "Δεν υπάρχει πληροφορία",
+      "repeat_index": 1,
+      "repeat_count": 1,
+      "timestamp": "2026-06-17T13:14:17.518428+00:00",
+      "source": "qa_evaluation_suite",
+      "answer_mode": "llm"
+    },
+    {
+      "question_id": "q10",
+      "question": "10) Describe the program in 90-120 words.",
+      "answer": "Το πρόγραμμα \"Εξοικονομώ\" προσφέρει δάνεια εξοικονόμησης ενέργειας με την εγγύηση του Ευρωπαϊκού Ταμείου Επενδύσεων (EIF). Οι ιδιώτες μπορούν να αποκτήσουν ένα πράσινο δάνειο για την απόκτηση λύσεων εξοικονόμησης ενέργειας και να αναβαθμίσουν το σπίτι τους.",
+      "repeat_index": 1,
+      "repeat_count": 1,
+      "timestamp": "2026-06-17T13:15:22.188257+00:00",
+      "source": "qa_evaluation_suite",
+      "answer_mode": "llm"
+    },
+    {
+      "question_id": "q11",
+      "question": "11) Explain the difference between a 'grant' and a 'loan' in the context of energy upgrades, with one example for each.",
+      "answer": "Δεν υπάρχει πληροφορία",
+      "repeat_index": 1,
+      "repeat_count": 1,
+      "timestamp": "2026-06-17T13:15:22.191997+00:00",
+      "source": "qa_evaluation_suite",
+      "answer_mode": "llm"
+    }
+  ],
+  "updated_at": "2026-06-17T13:15:22.192035+00:00"
+}

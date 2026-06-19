@@ -1,0 +1,58 @@
+{
+  "timestamp": "20260617T013231Z",
+  "url": "https://www.crediabank.com/idiotes/daneia/hrimatodotika-programmata/exoikonomo-2025/",
+  "classification": {
+    "is_relevant": true,
+    "primary_category": "green_housing_loan",
+    "secondary_categories": [
+      "energy_upgrade"
+    ],
+    "confidence": 0.92,
+    "reasoning": "Deterministic scope pass: home energy finance signals found",
+    "key_features": [
+      "deterministic_home_green_finance_scope"
+    ]
+  },
+  "extracted_data": {
+    "programme_name": "Exoikonomo 2025",
+    "description": "Το Πρόγραμμα περιλαμβάνει ξεχωριστά κίνητρα για τη στήριξη των οικονομικά ασθενέστερων και ευάλωτων νοικοκυριών με τη μορφή αυξημένου ποσοστού επιχορηγήσεων και χωριστού προϋπολογισμού. επιχορήγηση έως και 100% του κόστους των επιλέξιμων παρεμβάσεων επιδότηση επιτοκίου κατά 100%, σε περίπτωση δανειοδότησης (προαιρετικά) για την κάλυψη της ιδιωτικής συμμετοχής κάλυψη αμοιβής συμβούλου έργου, ενεργειακών επιθεωρητών, έκδοσης Ηλεκτρονικής ταυτότητας κτιρίου και λοιπών αδειών/εγκρίσεων Όσα χρειάζεται να ξέρεις Ποιους αφορά Δικαίωμα συμμετοχής στο Πρόγραμμα “Εξοικονομώ 2025” έχεις εφόσον είσαι φυσ",
+    "programme_objective": "υποχρεωτική αναβάθμιση κατά τουλάχιστον τρείς ενεργειακές κατηγορίες σε σχέση με το Α’ ΠΕΑ ώστε να εξασφαλίζεται εξοικονόμηση Πρωτογενούς Ενέργειας σε ποσοστό άνω του 30%",
+    "eligible_parties": [
+      "ωφελούμενοι της εισοδηματικής κατηγορίας 1",
+      "ωφελούμενοι της εισοδηματικής κατηγορίας 2"
+    ],
+    "eligibility_criteria": [
+      "Ατομικό Εισόδημα (€) ≤5.000 ή Οικογενειακό Εισόδημα (€) ≤10.000",
+      "Ωφελούμενοι της εισοδηματικής κατηγορίας 1"
+    ],
+    "property_requirements": "",
+    "minimum_funding_amount": "",
+    "maximum_funding_amount": "37.750€",
+    "funding_type": "Δάνειο",
+    "interest_rate": "σταθερό 7,50%, επιδοτούμενο κατά 100%, πλέον εισφοράς του Ν. 128/75",
+    "funding_coverage": "100%",
+    "total_budget": "",
+    "funding_sources": [],
+    "duration": "",
+    "loan_duration": "4, 5 ή 6 έτη",
+    "completion_deadline": "",
+    "application_start_date": "",
+    "application_end_date": "",
+    "energy_performance_targets": [
+      "30%"
+    ],
+    "eligible_interventions": [
+      "υποχρεωτική αναβάθμιση κατά τουλάχιστον τρείς ενεργειακές κατηγορίες"
+    ],
+    "application_process": "",
+    "managing_body": "",
+    "announcement_date": "",
+    "contact_info": "",
+    "additional_details": "",
+    "post_completion_obligations": "Κατά την τελική εκταμίευση λαμβάνεις το υπόλοιπο 30% της επιχορήγησης."
+  },
+  "repair_metadata": {
+    "source_scraped_file": "C:\\Users\\stavr\\Desktop\\HMMY\\Thesis\\llm-axe\\output\\va3_scraper_to_template\\20260617T012234Z_www.crediabank.com_idiotes_daneia_hrimatodotika-programmata_exoikonomo-2025_41e7ef10_scraped.txt",
+    "repair": "source_backed_core_field_repair"
+  }
+}

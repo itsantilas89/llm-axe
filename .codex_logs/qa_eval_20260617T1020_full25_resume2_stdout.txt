@@ -1,0 +1,14 @@
+13:40:34 Targets selected: 25
+13:40:35 [all15] Program 1/25: Credia Eco ?????? | https://www.crediabank.com/idiotes/daneia/eco-katanalotika/eco-lyseis-energeiaki-anavathmisi-katoikias/
+13:40:35 [all15] Program 2/25: Eco ?????? - Net Metering | https://www.crediabank.com/idiotes/daneia/eco-katanalotika/eco-lyseis-net-metering-egkatastasi-oikiakon-fv-sustimaton/
+13:40:56 [all15] Answer 21/375 (Eco ?????? - Net Metering, q6) ETA 6.1m
+13:41:07 [all15] Answer 22/375 (Eco ?????? - Net Metering, q7) ETA 8.6m
+13:41:17 [all15] Answer 23/375 (Eco ?????? - Net Metering, q8) ETA 10.7m
+13:41:26 [all15] Answer 24/375 (Eco ?????? - Net Metering, q9) ETA 12.5m
+13:42:32 [all15] Answer 25/375 (Eco ?????? - Net Metering, q10) ETA 27.5m
+13:44:08 [all15] Answer 26/375 (Eco ?????? - Net Metering, q11) ETA 47.7m
+13:44:17 [all15] Answer 27/375 (Eco ?????? - Net Metering, q12) ETA 47.7m
+13:44:24 [all15] Answer 28/375 (Eco ?????? - Net Metering, q13) ETA 47.4m
+13:44:31 [all15] Answer 29/375 (Eco ?????? - Net Metering, q14) ETA 47.1m
+13:44:38 [all15] Answer 30/375 (Eco ?????? - Net Metering, q15) ETA 46.7m
+13:44:38 [all15] Program 3/25: Exoikonomo 2025 | https://www.crediabank.com/idiotes/daneia/hrimatodotika-programmata/exoikonomo-2025/

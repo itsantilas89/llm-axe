@@ -1,0 +1,162 @@
+{
+  "timestamp": "20260619T125652Z",
+  "url": "https://www.gov.gr/ipiresies/polites-kai-kathemerinoteta/periballon-kai-poioteta-zoes/photoboltaika-ste-stege",
+  "programme_name": "Φωτοβολταϊκά στη στέγη",
+  "classification_file": "022_www.gov.gr_ipiresies_polites-kai-kathemerinoteta_periballon-kai-poioteta-zoes_photoboltaika-ste-stege_9d577ea5_classification.json",
+  "qa_count": 15,
+  "source": "qa_evaluation_suite",
+  "mode": "all15",
+  "responses": [
+    {
+      "question_id": "q12",
+      "question": "12) Ποια είναι η πρωτεύουσα της Ελλάδας ;",
+      "answer": "Δεν υπάρχει πληροφορία",
+      "repeat_index": 1,
+      "repeat_count": 1,
+      "timestamp": "2026-06-19T12:56:52.628152+00:00",
+      "source": "qa_evaluation_suite",
+      "answer_mode": "deterministic_out_of_scope_guard"
+    },
+    {
+      "question_id": "q13",
+      "question": "13) Ποια είναι η πρωτεύουσα της Γαλλίας ;",
+      "answer": "Δεν υπάρχει πληροφορία",
+      "repeat_index": 1,
+      "repeat_count": 1,
+      "timestamp": "2026-06-19T12:56:52.629690+00:00",
+      "source": "qa_evaluation_suite",
+      "answer_mode": "deterministic_out_of_scope_guard"
+    },
+    {
+      "question_id": "q14",
+      "question": "14) What's the capital of Greece ?",
+      "answer": "Δεν υπάρχει πληροφορία",
+      "repeat_index": 1,
+      "repeat_count": 1,
+      "timestamp": "2026-06-19T12:56:52.631749+00:00",
+      "source": "qa_evaluation_suite",
+      "answer_mode": "deterministic_out_of_scope_guard"
+    },
+    {
+      "question_id": "q15",
+      "question": "15) What's the capital of France ?",
+      "answer": "Δεν υπάρχει πληροφορία",
+      "repeat_index": 1,
+      "repeat_count": 1,
+      "timestamp": "2026-06-19T12:56:52.633421+00:00",
+      "source": "qa_evaluation_suite",
+      "answer_mode": "deterministic_out_of_scope_guard"
+    },
+    {
+      "question_id": "q1",
+      "question": "1) Περίγραψε το πρόγραμμα, στόχος, δικαιούχοι, βασικά οφέλη.",
+      "answer": "Το πρόγραμμα ονομάζεται \"Φωτοβολταϊκά στη στέγη\" και έχει ως στόχο την εγκατάσταση φωτοβολταϊκών_Panel στην στέγη των κατοικιών. Δικαιούχοι είναι τα νοικοκυριά. Τα βασικά οφέλη περιλαμβάνουν τη μείωση της ενεργειακής φόρτωσης, την αυτονομία από τον ηλεκτρισμό και την προστασία του περιβάλλοντος.",
+      "repeat_index": 1,
+      "repeat_count": 1,
+      "timestamp": "2026-06-19T12:58:43.565673+00:00",
+      "source": "qa_evaluation_suite",
+      "answer_mode": "llm"
+    },
+    {
+      "question_id": "q2",
+      "question": "2) Εξήγησε τη διαφορά μεταξύ “επιχορήγησης” και “δανείου” στο πλαίσιο ενεργειακής αναβάθμισης, με ένα παράδειγμα για το καθένα.",
+      "answer": "Η επιχορήγηση και το δάνειο είναι δύο διαφορετικοί τύποι χρηματοδότησης για την ενεργειακή αναβάθμιση. Η επιχορήγηση είναι μια μορφή χρηματοδότησης που δεν χρειάζεται να επιστρέφεται, ενώ το δάνειο είναι μια μορφή χρηματοδότησης που πρέπει να επιστραφεί με τόκο. Παράδειγμα: Imagine ότι θέλεις να αντικαταστήσεις τα παλιά φώτα του σπιού σου με LED φώτα. Μπορείς να λάβεις επιχορήγηση από την κυβέρνηση για αυτό το έργο, χωρίς να χρειάζεται να επιστρέφεις χρήματα. Αλλά αν θέλεις να αγοράσεις ένα νέο φωτοβολταϊκό σύστημα, μπορεί να χρειαστεί να δανειστείς χρήματα από τράπεζα και να τα επιστρέψεις με τόκο.",
+      "repeat_index": 1,
+      "repeat_count": 1,
+      "timestamp": "2026-06-19T13:00:26.911617+00:00",
+      "source": "qa_evaluation_suite",
+      "answer_mode": "llm"
+    },
+    {
+      "question_id": "q3",
+      "question": "3) Δώσε 5 λέξεις-κλειδιά για αναζήτηση σχετικών προγραμμάτων και εξήγησε σε 1 πρόταση γιατί είναι χρήσιμη η καθεμία.",
+      "answer": "Φωτοβολταϊκά, στέγη, Gov.gr, EL, English",
+      "repeat_index": 1,
+      "repeat_count": 1,
+      "timestamp": "2026-06-19T13:00:58.164559+00:00",
+      "source": "qa_evaluation_suite",
+      "answer_mode": "llm"
+    },
+    {
+      "question_id": "q4",
+      "question": "4) Εντόπισε όλες τις προθεσμίες που αναφέρονται και γράψε τες σε μορφή ΗΗ/ΜΜ/ΕΕΕΕ.",
+      "answer": "Δεν υπάρχει πληροφορία σχετικά με προθεσμίες στο JSON.",
+      "repeat_index": 1,
+      "repeat_count": 1,
+      "timestamp": "2026-06-19T13:01:24.485541+00:00",
+      "source": "qa_evaluation_suite",
+      "answer_mode": "llm"
+    },
+    {
+      "question_id": "q5",
+      "question": "5) Βρες αν υπάρχει ανώτατο ή κατώτατο όριο χρηματοδότησης και δώσε το ακριβές ποσό/ποσοστό.",
+      "answer": "Δεν υπάρχει πληροφορία",
+      "repeat_index": 1,
+      "repeat_count": 1,
+      "timestamp": "2026-06-19T13:01:48.319975+00:00",
+      "source": "qa_evaluation_suite",
+      "answer_mode": "llm"
+    },
+    {
+      "question_id": "q6",
+      "question": "6) Ποιες παρεμβάσεις ενεργειακής αναβάθμισης χρηματοδοτούνται;",
+      "answer": "Δεν αναφέρεται στο JSON, αλλά το πρόγραμμα φαίνεται να αφορά την εγκατάσταση φωτοβολταϊκών στη στέγη.",
+      "repeat_index": 1,
+      "repeat_count": 1,
+      "timestamp": "2026-06-19T13:02:23.900883+00:00",
+      "source": "qa_evaluation_suite",
+      "answer_mode": "llm"
+    },
+    {
+      "question_id": "q7",
+      "question": "7) Ποια είναι τα σημαντικότερα σημεία που πρέπει να προσέξει ένας ενδιαφερόμενος πριν υποβάλει αίτηση;",
+      "answer": "Οι ενδιαφερόμενοι πρέπει να προσέχουν τα εξής σημαντικά σημεία πριν υποβάλουν αίτηση: Η σύνδεση με τον Διαχειριστή Ελληνικού Δικτύου Διανομής Ηλεκτρικής Ενέργειας (ΔΕΔΔΗΕ) είναι απαραίτητη για την επιλογή του προγράμματος.",
+      "repeat_index": 1,
+      "repeat_count": 1,
+      "timestamp": "2026-06-19T13:03:10.161873+00:00",
+      "source": "qa_evaluation_suite",
+      "answer_mode": "llm"
+    },
+    {
+      "question_id": "q8",
+      "question": "8) Τι γίνεται αν δεν ολοκληρωθούν οι εργασίες μέσα στην προβλεπόμενη προθεσμία;",
+      "answer": "Δεν υπάρχει πληροφορία σχετικά με τις συνέπειες αν δεν ολοκληρωθούν οι εργασίες μέσα στην προβλεπόμενη προθεσμία.",
+      "repeat_index": 1,
+      "repeat_count": 1,
+      "timestamp": "2026-06-19T13:03:41.847850+00:00",
+      "source": "qa_evaluation_suite",
+      "answer_mode": "llm"
+    },
+    {
+      "question_id": "q9",
+      "question": "9) Υπάρχουν υποχρεώσεις του δικαιούχου μετά την ολοκλήρωση του έργου;",
+      "answer": "Δεν υπάρχουν υποχρεώσεις του δικαιούχου μετά την ολοκλήρωση του έργου, καθώς δεν αναφέρονται στο JSON.",
+      "repeat_index": 1,
+      "repeat_count": 1,
+      "timestamp": "2026-06-19T13:04:17.874900+00:00",
+      "source": "qa_evaluation_suite",
+      "answer_mode": "llm"
+    },
+    {
+      "question_id": "q10",
+      "question": "10) Describe the program in 90-120 words.",
+      "answer": "Το πρόγραμμα «Φωτοβολταϊκά στη στέγη» έχει ως στόχο την εγκατάσταση φωτοβολταϊκών_Panel στην στέγη των νοικοκυριών. Οι απαιτήσεις για συμμετοχή περιλαμβάνουν σύνδεση με τον Διαχειριστή Ελληνικού Δικτύου Διανομής Ηλεκτρικής Ενέργειας (ΔΕΔΔΗΕ). Το πρόγραμμα έχει ως προθεσμία ολοκλήρωσης την 30η Απριλίου 2026.",
+      "repeat_index": 1,
+      "repeat_count": 1,
+      "timestamp": "2026-06-19T13:05:19.289097+00:00",
+      "source": "qa_evaluation_suite",
+      "answer_mode": "llm"
+    },
+    {
+      "question_id": "q11",
+      "question": "11) Explain the difference between a 'grant' and a 'loan' in the context of energy upgrades, with one example for each.",
+      "answer": "Στο πλαίσιο των ενεργειακών αναβαθμίσεων, ένα 'δάνειο' (loan) είναι μια χρηματοδοτική trợήθεια που πρέπει να επιστραφεί με τόκο, ενώ ένα 'χορηγία' (grant) είναι μια χρηματοδοτική υποστήριξη που δεν απαιτεί επιστροφή. Παράδειγμα δανείου: Ένας ιδιοκτήτης κατοικίας λαμβάνει δάνειο για την εγκατάσταση φωτοβολταϊκών πάνελ στην στέγη του, με την υπόσχεση να επιστρέψει το δάνειο με τόκο. Παράδειγμα χορηγίας: Ο ίδιος ιδιοκτήτης κατοικίας λαμβάνει χορηγία για την εγκατάσταση φωτοβολταϊκών πάνελ στην στέγη του, χωρίς να απαιτείται επιστροφή του χρηματικού ποσού.",
+      "repeat_index": 1,
+      "repeat_count": 1,
+      "timestamp": "2026-06-19T13:06:45.287188+00:00",
+      "source": "qa_evaluation_suite",
+      "answer_mode": "llm"
+    }
+  ],
+  "updated_at": "2026-06-19T13:06:45.287217+00:00"
+}

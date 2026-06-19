@@ -1,0 +1,67 @@
+{
+  "timestamp": "20260616T210418Z",
+  "url": "https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/eksoikonomo-2025",
+  "classification": {
+    "is_relevant": true,
+    "primary_category": "green_housing_loan",
+    "secondary_categories": [
+      "home_renewables",
+      "energy_upgrade"
+    ],
+    "confidence": 0.92,
+    "reasoning": "Deterministic scope pass: home energy finance signals found",
+    "key_features": [
+      "deterministic_home_green_finance_scope"
+    ]
+  },
+  "extracted_data": {
+    "programme_name": "Εξοικονομώ 2025",
+    "description": "Πρόγραμμα «Εξοικονομώ 2025» | Eurobank Πρόγραμμα «Εξοικονομώ 2025» Έως 35.000€ / κατοικία για ενεργειακή αναβάθμιση Έως 100% επιχορήγηση του κόστους των εργασιών 100% επιδότηση τόκων δανείου Εάν είστε δικαιούχος του προγράμματος «Εξοικονομώ 2025», επιλέξτε την Eurobank ως τράπεζα συνεργασίας ή/και χρηματοδότησης και εξασφαλίστε αυτοματοποιημένη ψηφιακή διαδικασία αιτήσεων για άμεση προέγκριση και γρηγορότερη εκταμίευση του δανείου.",
+    "programme_objective": "Αυτοματοποίηση και ενίσχυση της ενεργειακής αναβάθμισης των σπιτιών",
+    "eligible_parties": [
+      "Ιδιοκτήτες σπιτιών"
+    ],
+    "eligibility_criteria": [
+      "Σε σπίτια που κατοικούν από 1 έως 4 άτομα",
+      "Σε σπίτια που έχουν παλιό κτίριο (πάνω από 20 χρόνια)",
+      "Σε σπίτια που δεν έχουν αναβαθειθεί σε κατώτατη ενεργειακή κατηγορία"
+    ],
+    "property_requirements": [
+      "Σπίτια με πλήρη οροφή",
+      "Σπίτια με ταράτσα",
+      "Σπίτια με κλιματισμό"
+    ],
+    "minimum_funding_amount": "",
+    "maximum_funding_amount": "17.500€",
+    "funding_type": "Δάνειο",
+    "interest_rate": "",
+    "funding_coverage": "100%",
+    "total_budget": "",
+    "funding_sources": [],
+    "duration": "2 δόσεις",
+    "loan_duration": "",
+    "completion_deadline": "",
+    "application_start_date": "",
+    "application_end_date": "",
+    "energy_performance_targets": [
+      "Εγκατάσταση αντλίας θερμότητας",
+      "Μονωποίηση ταράτσας",
+      "Τόποση θερμομόνωση"
+    ],
+    "eligible_interventions": [
+      "Εγκατάσταση καυστήρα ή λέβητα που λειτουργεί με φυσικό αέριο",
+      "Αντικατάσταση παλιών κουφωμάτων και διπλών ζαμιών",
+      "Εγκατάσταση κλιματιστικών τύπου Inverter"
+    ],
+    "application_process": "",
+    "managing_body": "",
+    "announcement_date": "",
+    "contact_info": [],
+    "additional_details": "",
+    "source_url": "https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/eksoikonomo-2025",
+    "source_urls": [
+      "https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/eksoikonomo-2025"
+    ],
+    "id": "2025-9a0afe12f0"
+  }
+}

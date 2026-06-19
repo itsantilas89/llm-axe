@@ -1,0 +1,54 @@
+{
+  "timestamp": "20260616T202314Z",
+  "url": "https://stegasi.gov.gr/programs/anavathmizo-to-spiti-mou/",
+  "classification": {
+    "is_relevant": true,
+    "primary_category": "green_housing_loan",
+    "secondary_categories": [
+      "energy_upgrade"
+    ],
+    "confidence": 0.92,
+    "reasoning": "Deterministic scope pass: home energy finance signals found",
+    "key_features": [
+      "deterministic_home_green_finance_scope"
+    ]
+  },
+  "extracted_data": {
+    "programme_name": "Αναβαθμίζω το Σπίτι Μου",
+    "description": "Το Πρόγραμμα στοχεύει στη βελτίωση της ενεργειακής απόδοσης και της ποιότητας ζωής στις υφιστάμενες κατοικίες, προσφέροντας άτοκη χρηματοδότηση σε φυσικά πρόσωπα-ιδιοκτήτες ακινήτων για την υλοποίηση παρεμβάσεων εξοικονόμησης ενέργειας και ενεργειακής αναβάθμισης. Ομάδα – Στόχος Φυσικά πρόσωπα που πληρούν τα ακόλουθα κριτήρια επιλεξιμότητας: Διαθέτουν νόμιμο εμπράγματο δικαίωμα (πλήρη κυριότητα, επικαρπία, ψιλή κυριότητα) σε κατοικία που πληροί τις προδιαγραφές ε",
+    "programme_objective": "βελτίωση της ενεργειακής απόδοσης και της ποιότητας ζωής στις υφιστάμενες κατοικίες",
+    "eligible_parties": [
+      "Φυσικά πρόσωπα που πληρούν τα ακόλουθα κριτήρια επιλεξιμότητας"
+    ],
+    "eligibility_criteria": [
+      "Διαθέτουν νόμιμο εμπράγματο δικαίωμα (πλήρη κυριότητα, επικαρπία, ψιλή κυριότητα) σε κατοิกία που πληροί τις προδιαγραφές επιλεξιμότητας.",
+      "Δεν έχουν καταστεί ωφελούμενοι από 01.01.2020 από οποιοδήποτε άλλο Πρόγραμμα ενεργειακής αναβάθμισης που χρηματοδοτήθηκε ή εξακολουθεί να χρηματοδοτείται με ενωσιακούς πόρους."
+    ],
+    "property_requirements": [
+      "Κύριες ή μη εκμισθωμένες δευτερεύουσες κατοικίες φυσικών προσώπων, εντός της ελληνικής επικράτειας, οι οποίες πληρούν τις προϋποθέσεις νομιμότητας."
+    ],
+    "minimum_funding_amount": "5.000€",
+    "maximum_funding_amount": "€25.000",
+    "funding_type": "",
+    "interest_rate": "",
+    "funding_coverage": "",
+    "total_budget": "",
+    "funding_sources": [],
+    "duration": "3-7 έτη",
+    "loan_duration": "3-7 έτη",
+    "completion_deadline": "",
+    "application_start_date": "",
+    "application_end_date": "",
+    "energy_performance_targets": "",
+    "eligible_interventions": [
+      "Το Πρόγραμμα στοχεύει στη βελτίωση της ενεργειακής απόδοσης",
+      "ενεργειακής αναβάθμισης"
+    ],
+    "additional_details": "",
+    "source_url": "https://stegasi.gov.gr/programs/anavathmizo-to-spiti-mou/",
+    "source_urls": [
+      "https://stegasi.gov.gr/programs/anavathmizo-to-spiti-mou/"
+    ],
+    "id": "program-a352dd590b"
+  }
+}

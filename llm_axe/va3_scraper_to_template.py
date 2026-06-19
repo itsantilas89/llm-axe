@@ -52,6 +52,9 @@ except Exception:
 # --------------------------------------------------------------------------
 
 TEMPLATE_DEFAULT = [{
+    "id": "",
+    "source_url": "",
+    "source_urls": [],
     "programme_name": "",
     "description": "",
     "programme_objective": "",
@@ -68,11 +71,13 @@ TEMPLATE_DEFAULT = [{
     "duration": "",
     "loan_duration": "",
     "completion_deadline": "",
+    "completion_delay_consequences": "",
     "application_start_date": "",
     "application_end_date": "",
     "energy_performance_targets": "",
     "eligible_interventions": [],
     "application_process": "",
+    "post_completion_obligations": "",
     "managing_body": "",
     "announcement_date": "",
     "contact_info": [],
@@ -84,8 +89,17 @@ TEMPLATE_DEFAULT = [{
 # Helper Functions
 # --------------------------------------------------------------------------
 
+def _safe_console_print(message: object) -> None:
+    text = str(message)
+    try:
+        print(text, flush=True)
+    except UnicodeEncodeError:
+        encoding = getattr(sys.stdout, "encoding", None) or "utf-8"
+        safe_text = text.encode(encoding, errors="replace").decode(encoding, errors="replace")
+        print(safe_text, flush=True)
+
 def log(msg: str) -> None:
-    print(msg, flush=True)
+    _safe_console_print(msg)
 
 def ensure_outputs_dir() -> str:
     """
@@ -117,9 +131,63 @@ def save_result(data, url: str) -> str:
     # Use canonical safe name and append a short hash to reduce collisions
     safe_name = f"{_make_safe_name(url)}_{_short_hash(url)}"
     path = os.path.join(out_dir, f"{ts}_{safe_name}_extracted.json")
+    data = [
+        enrich_program_identity(item, url) if isinstance(item, dict) else item
+        for item in data
+    ]
     with open(path, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
     return path
+
+
+def _safe_program_id(value: str) -> str:
+    value = (value or "").strip().lower()
+    value = re.sub(r"[^a-z0-9_-]+", "-", value)
+    value = re.sub(r"-{2,}", "-", value).strip("-")
+    return value[:90]
+
+
+def stable_program_id(programme_name: str, url: str) -> str:
+    base = str(url or programme_name or datetime.utcnow().isoformat())
+    digest = hashlib.sha1(base.encode("utf-8")).hexdigest()[:10]
+    title_slug = _safe_program_id(programme_name)
+    return f"{title_slug[:60]}-{digest}" if title_slug else f"program-{digest}"
+
+
+def enrich_program_identity(program: dict, url: str) -> dict:
+    """Fill stable metadata fields that should not be left to the LLM."""
+    source_url = str(program.get("source_url") or "").strip()
+    if not source_url:
+        source = program.get("source")
+        if isinstance(source, str):
+            source_url = source.strip()
+        elif isinstance(source, list) and source:
+            source_url = str(source[0] or "").strip()
+    if not source_url:
+        source_url = str(url or "").strip()
+
+    if source_url:
+        program["source_url"] = source_url
+
+    source_urls = program.get("source_urls")
+    if not isinstance(source_urls, list):
+        source_urls = []
+    if source_url and source_url not in source_urls:
+        source_urls.insert(0, source_url)
+    program["source_urls"] = source_urls
+
+    current_id = _safe_program_id(str(program.get("id") or ""))
+    if not current_id:
+        programme_name = str(
+            program.get("programme_name")
+            or program.get("program_name")
+            or program.get("title")
+            or ""
+        ).strip()
+        program["id"] = stable_program_id(programme_name, source_url)
+    else:
+        program["id"] = current_id
+    return program
 
 
 # --------------------------------------------------------------------------
@@ -476,14 +544,9 @@ def recommend_sources_for_topic(topic: str) -> List[Dict[str, str]]:
 # Page Scraper
 # --------------------------------------------------------------------------
 
-def scrape_page(url: str, timeout: int = 30) -> str:
-    log("[DEBUG] Fetching page content")
-    r = requests.get(url, headers={"User-Agent": "Mozilla/5.0"}, timeout=timeout)
-    r.raise_for_status()
+def _html_to_clean_text(html: str) -> str:
+    soup = BeautifulSoup(html, "html.parser")
 
-    soup = BeautifulSoup(r.text, "html.parser")
-
-    # Remove non-content elements
     for tag in soup(["script", "style", "noscript", "header", "footer", "nav", "form"]):
         tag.decompose()
 
@@ -494,8 +557,92 @@ def scrape_page(url: str, timeout: int = 30) -> str:
                            "[class*='banner'], [class*='popup'], [class*='modal']"):
         tag.decompose()
 
-    text = " ".join(soup.stripped_strings)
+    return " ".join(soup.stripped_strings)
+
+
+def _looks_like_dynamic_shell(text: str, html: str = "") -> bool:
+    cleaned = re.sub(r"\s+", " ", text or "").strip()
+    if len(cleaned) < 350:
+        return True
+    lower = cleaned.lower()
+    shell_markers = [
+        "enable javascript",
+        "please enable javascript",
+        "root",
+        "__next",
+        "vite",
+        "nuxt",
+    ]
+    if any(marker in lower for marker in shell_markers) and len(cleaned) < 1200:
+        return True
+    html_lower = (html or "").lower()
+    return len(cleaned) < 900 and any(marker in html_lower for marker in ("__next", "vite", "webpack", "data-reactroot"))
+
+
+def _scrape_page_with_browser(url: str, timeout: int = 45) -> str:
+    log("[DEBUG] Falling back to browser-rendered scrape")
+    import time
+    try:
+        from selenium import webdriver
+        from selenium.webdriver.chrome.options import Options
+        from selenium.webdriver.common.by import By
+        from selenium.webdriver.support.ui import WebDriverWait
+    except Exception as exc:
+        log(f"[WARN] Selenium is not available for rendered scrape: {exc}")
+        return ""
+
+    driver = None
+    try:
+        options = Options()
+        options.add_argument("--headless=new")
+        options.add_argument("--disable-gpu")
+        options.add_argument("--no-sandbox")
+        options.add_argument("--disable-dev-shm-usage")
+        options.add_argument("--window-size=1366,1200")
+        options.add_argument("--lang=el-GR")
+        options.add_argument("user-agent=Mozilla/5.0")
+
+        driver = webdriver.Chrome(options=options)
+        driver.set_page_load_timeout(timeout)
+        driver.get(url)
+        WebDriverWait(driver, min(timeout, 20)).until(
+            lambda d: len(d.find_element(By.TAG_NAME, "body").text.strip()) > 300
+        )
+        time.sleep(2)
+        driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+        time.sleep(1)
+
+        rendered_text = _html_to_clean_text(driver.page_source or "")
+        if _looks_like_dynamic_shell(rendered_text, driver.page_source or ""):
+            rendered_text = driver.find_element(By.TAG_NAME, "body").get_attribute("innerText") or ""
+            rendered_text = re.sub(r"\s+", " ", rendered_text).strip()
+
+        log(f"[DEBUG] Browser-rendered text length: {len(rendered_text)} characters")
+        return rendered_text
+    except Exception as exc:
+        log(f"[WARN] Browser-rendered scrape failed: {exc}")
+        return ""
+    finally:
+        if driver is not None:
+            try:
+                driver.quit()
+            except Exception:
+                pass
+
+
+def scrape_page(url: str, timeout: int = 30) -> str:
+    log("[DEBUG] Fetching page content")
+    r = requests.get(url, headers={"User-Agent": "Mozilla/5.0"}, timeout=timeout)
+    r.raise_for_status()
+
+    text = _html_to_clean_text(r.text)
     log(f"[DEBUG] Scraped text length: {len(text)} characters")
+
+    if _looks_like_dynamic_shell(text, r.text):
+        rendered_text = _scrape_page_with_browser(url)
+        if len(rendered_text) > len(text):
+            text = rendered_text
+            log(f"[DEBUG] Using browser-rendered text: {len(text)} characters")
 
     return text
 
@@ -510,9 +657,14 @@ def build_prompt(page_text: str, template: dict, url: str):
         "Extract data from the provided Greek/English text into the given JSON schema. "
         "Output ONLY the filled JSON. No markdown, no explanation, no extra text. "
         "Rules: Use '' for missing strings, [] for missing arrays. "
+        "Project scope: extract residential/home energy-upgrade, home renewable-energy, and green home-loan information. "
+        "Ignore electric-vehicle-only, mobility-only, business/SME, commercial, industrial, and public-building details unless they are directly tied to residential home energy upgrades. "
+        "For completion_delay_consequences, extract only explicit consequences or handling rules for late/non-completion of works, failure to meet completion deadlines, or failure to meet required energy targets. "
+        "For post_completion_obligations, extract only explicit beneficiary/borrower obligations after project completion, final disbursement, or loan disbursement. "
         "VERBATIM MODE: every non-empty value must be copied exactly from the source text as-is. "
         "Do NOT paraphrase, summarize, translate, transliterate, normalize, or infer. "
-        "If exact wording is not present in the text, leave it empty ('' or []). "
+        "When a field is explicitly stated in the text, fill it with the shortest exact copied span that answers the field. "
+        "Only leave a field empty when the information is genuinely not present. "
         "Keep original language/script, punctuation, accents, symbols, and casing from source snippets. "
         "Do NOT invent data."
     )
@@ -523,7 +675,10 @@ def build_prompt(page_text: str, template: dict, url: str):
         f"TEXT:\n{page_text}\n\n"
         f"SCHEMA:\n{template_str}\n\n"
         "Fill the schema using ONLY exact spans from TEXT. "
+        "Focus on the residential/home energy part of the source. "
+        "Do not fill fields from electric vehicle, business, SME, public-building, or commercial sections when they are outside that scope. "
         "For list/object items, each field value must be an exact substring from TEXT. "
+        "Prefer short exact snippets, amounts, dates, bullet items, and named programme titles when they appear in TEXT. "
         "If uncertain or not exact, keep it empty. Return ONLY the JSON."
     )
     return [make_prompt("system", system), make_prompt("user", user)]
@@ -544,15 +699,14 @@ def extract_json(llm, page_text: str, template: dict, url: str):
         try:
             # Increase temperature on retries
             temp = 0.1 + (attempt * 0.15)
-            # num_predict: cap output tokens (JSON response is ~1500 tokens max)
-            # num_ctx: ensure context window fits full input without truncation
             input_chars = sum(len(m.get("content", "")) for m in prompts)
+            num_ctx = min(16384, max(4096, (input_chars // 3) + 2048))
             log(f"[INFO] LLM inference ({getattr(llm, '_model', '?')}, attempt {attempt+1}/{max_retries}, ~{input_chars} input chars)...")
             import time as _t; _t0 = _t.monotonic()
             raw = llm.ask(
                 prompts, format="json", temperature=temp,
-                num_predict=1024,
-                num_ctx=4096
+                num_predict=1536,
+                num_ctx=num_ctx
             )
             log(f"[INFO] ✓ LLM responded in {_t.monotonic()-_t0:.1f}s ({len(raw)} chars output)")
             
@@ -695,7 +849,7 @@ def interactive_loop():
                 saved_path = save_result(llm_output, save_key)
 
                 log("\n===== JSON RESULT =====")
-                print(json.dumps(llm_output, ensure_ascii=False, indent=2))
+                _safe_console_print(json.dumps(llm_output, ensure_ascii=False, indent=2))
                 log(f"\n[DEBUG] Saved structured output to: {saved_path}\n")
 
             except Exception as e:
@@ -722,12 +876,12 @@ def interactive_loop():
 
             log("\n===== RECOMMENDED SOURCES =====")
             for i, r in enumerate(recs, start=1):
-                print(f"{i}. {r.get('display_name', r['source'])}")
-                print(f"   url: {r['source']}")
-                print(f"   trusted_key: {r.get('trusted_key', '')}")
-                print(f"   local_raw: {r['suggested_raw']}")
-                print(f"   local_json: {r['suggested_json']}")
-                print(f"   run command: {r['command']}")
+                _safe_console_print(f"{i}. {r.get('display_name', r['source'])}")
+                _safe_console_print(f"   url: {r['source']}")
+                _safe_console_print(f"   trusted_key: {r.get('trusted_key', '')}")
+                _safe_console_print(f"   local_raw: {r['suggested_raw']}")
+                _safe_console_print(f"   local_json: {r['suggested_json']}")
+                _safe_console_print(f"   run command: {r['command']}")
             # Allow the user to pick one of the recommended sources and run it immediately
             pick = input("Pick index to scrape (or press Enter to skip)> ").strip()
             if pick:
@@ -777,7 +931,7 @@ def interactive_loop():
                                 saved_path = save_result(llm_output, save_key)
 
                                 log("\n===== JSON RESULT =====")
-                                print(json.dumps(llm_output, ensure_ascii=False, indent=2))
+                                _safe_console_print(json.dumps(llm_output, ensure_ascii=False, indent=2))
                                 log(f"\n[DEBUG] Saved structured output to: {saved_path}\n")
                                 # success - break out
                                 break
@@ -829,7 +983,7 @@ def main():
             llm_output = extract_json(llm, text, template, save_key)
             saved_path = save_result(llm_output, save_key)
 
-            print(json.dumps(llm_output, ensure_ascii=False, indent=2))
+            _safe_console_print(json.dumps(llm_output, ensure_ascii=False, indent=2))
             log(f"[DEBUG] Saved structured output to: {saved_path}")
         else:
             topic = arg
@@ -841,7 +995,7 @@ def main():
                 log(f"[ERROR] LLM-based discovery failed: {e}")
                 recs = []
             # Print recommendations as JSON so it can be consumed programmatically.
-            print(json.dumps(recs, ensure_ascii=False, indent=2))
+            _safe_console_print(json.dumps(recs, ensure_ascii=False, indent=2))
     else:
         interactive_loop()
 

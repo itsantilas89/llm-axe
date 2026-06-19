@@ -1,0 +1,18 @@
+15:06:39 Targets selected: 21
+15:06:40 [all15] Program 1/21: Credia Eco ?????? | https://www.crediabank.com/idiotes/daneia/eco-katanalotika/eco-lyseis-energeiaki-anavathmisi-katoikias/
+15:13:45 [all15] Answer 1/315 (Credia Eco ??????, q1) ETA 2226.4m
+15:13:45 [all15] Answer 2/315 (Credia Eco ??????, q2) ETA 1109.7m
+15:13:45 [all15] Answer 3/315 (Credia Eco ??????, q3) ETA 737.5m
+15:15:32 [all15] Answer 4/315 (Credia Eco ??????, q4) ETA 689.0m
+15:15:32 [all15] Answer 5/315 (Credia Eco ??????, q5) ETA 549.5m
+15:15:32 [all15] Answer 6/315 (Credia Eco ??????, q6) ETA 456.4m
+15:16:31 [all15] Answer 7/315 (Credia Eco ??????, q7) ETA 433.8m
+15:16:31 [all15] Answer 8/315 (Credia Eco ??????, q8) ETA 378.4m
+15:16:31 [all15] Answer 9/315 (Credia Eco ??????, q9) ETA 335.2m
+15:19:28 [all15] Answer 10/315 (Credia Eco ??????, q10) ETA 390.3m
+15:19:28 [all15] Answer 11/315 (Credia Eco ??????, q11) ETA 353.7m
+15:19:28 [all15] Answer 12/315 (Credia Eco ??????, q12) ETA 323.1m
+15:20:17 [all15] Answer 13/315 (Credia Eco ??????, q13) ETA 316.5m
+15:20:17 [all15] Answer 14/315 (Credia Eco ??????, q14) ETA 293.0m
+15:20:17 [all15] Answer 15/315 (Credia Eco ??????, q15) ETA 272.5m
+15:20:17 [all15] Program 2/21: Eco ?????? - Net Metering | https://www.crediabank.com/idiotes/daneia/eco-katanalotika/eco-lyseis-net-metering-egkatastasi-oikiakon-fv-sustimaton/

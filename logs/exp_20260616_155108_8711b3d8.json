@@ -1,0 +1,16 @@
+{
+  "experiment_id": "exp_20260616_155108_8711b3d8",
+  "timestamp": "2026-06-16T15:51:08.543104+00:00",
+  "model": "llama3.2:latest",
+  "temperature": 0.0,
+  "hyperparameters": {
+    "max_retries": 2,
+    "validation_filter": true
+  },
+  "prompt": "[Data Validation Pre-filter]",
+  "sources": [
+    "Άγνωστο πρόγραμμα"
+  ],
+  "terminal_output": "REJECTED: Data validation failed\nNo meaningful content in extraction",
+  "template_output_file": null
+}

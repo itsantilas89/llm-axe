@@ -1,0 +1,15 @@
+{
+  "experiment_id": "exp_20260616_190305_4271ccec",
+  "timestamp": "2026-06-16T19:03:05.238713+00:00",
+  "model": "deterministic_scope_guard",
+  "temperature": 0.0,
+  "hyperparameters": {
+    "mode": "pre_llm_classification"
+  },
+  "prompt": "",
+  "sources": [
+    "Credia Eco Λύσεις - ενεργειακή Αναβάθμιση Κατοικίας"
+  ],
+  "terminal_output": "Category: green_housing_loan | Confidence: 92% | Relevant: True",
+  "template_output_file": null
+}

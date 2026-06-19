@@ -1,0 +1,21 @@
+{
+  "timestamp": "20260616T214902Z",
+  "url": "https://hdb.gr/en/green-co-financing-loans/",
+  "classification": {
+    "is_relevant": false,
+    "primary_category": "other",
+    "secondary_categories": [],
+    "confidence": 0.99,
+    "reasoning": "Αυτόματη απόρριψη: Δεν βρέθηκαν ενεργειακά + χρηματοδοτικά keywords.",
+    "key_features": [
+      "keyword_prefilter_reject"
+    ]
+  },
+  "extracted_data": {
+    "source_url": "https://hdb.gr/en/green-co-financing-loans/",
+    "source_urls": [
+      "https://hdb.gr/en/green-co-financing-loans/"
+    ],
+    "id": "program-ad8f5fefab"
+  }
+}

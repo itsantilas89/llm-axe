@@ -1,0 +1,52 @@
+{
+  "timestamp": "20260617T024138Z",
+  "url": "https://www.gov.gr/ipiresies/polites-kai-kathemerinoteta/periballon-kai-poioteta-zoes/photoboltaika-ste-stege",
+  "classification": {
+    "is_relevant": true,
+    "primary_category": "green_housing_loan",
+    "secondary_categories": [
+      "home_renewables",
+      "energy_upgrade"
+    ],
+    "confidence": 0.92,
+    "reasoning": "Deterministic scope pass: home energy finance signals found",
+    "key_features": [
+      "deterministic_home_green_finance_scope"
+    ]
+  },
+  "extracted_data": {
+    "programme_name": "Φωτοβολταϊκά στη στέγη",
+    "description": "Φωτοβολταϊκά στη στέγη - Gov.gr EL English EL English 3.900.000+ διάλογοι BETA 3.900.000+ διάλογοι BETA Ρωτήστε τον ψηφιακό βοηθό του gov.gr Ρωτήστε τον ψηφιακό βοηθό του gov.gr Αρχική Πολίτης και καθημερινότητα Περιβάλλον και ποιότητα ζωής Φωτοβολταϊκά στη στέγη Created with sketchtool.",
+    "programme_objective": "Φωτοβολταϊκά στη στέγη - Gov.gr EL English EL English 3.900.000+ διάλογοι BETA 3.900.000+ διάλογοι BETA Ρωτήστε τον ψηφιακό βοηθό του gov.gr Ρωτήστε τον ψηφιακό βοηθό του gov.gr Αρχική Πολίτης και καθημερινότητα Περιβάλλον και ποιότητα ζωής Φωτοβολταϊκά στη στέγη Created with sketchtool.",
+    "eligible_parties": [
+      "τα νοικοκυριά",
+      "η εταιρεία"
+    ],
+    "eligibility_criteria": [],
+    "property_requirements": [
+      "σύνδεση με τον Διαχειριστή Ελληνικού Δικτύου Διανομής Ηλεκτρικής Ενέργειας (ΔΕΔΔΗΕ)",
+      "έκταção για ατομοκατανάλωση"
+    ],
+    "minimum_funding_amount": "",
+    "maximum_funding_amount": "",
+    "funding_type": "",
+    "interest_rate": "",
+    "funding_coverage": "",
+    "total_budget": "",
+    "funding_sources": [],
+    "duration": "",
+    "loan_duration": "",
+    "completion_deadline": "30η Απριλίου 2026",
+    "application_start_date": "",
+    "application_end_date": "",
+    "energy_performance_targets": "",
+    "eligible_interventions": [
+      "η εγκατάσταση φωτοβολταϊκών συστημάτων με σύστημα αποθήκευσης"
+    ],
+    "additional_details": ""
+  },
+  "repair_metadata": {
+    "source_scraped_file": "C:\\Users\\stavr\\Desktop\\HMMY\\Thesis\\llm-axe\\output\\va3_scraper_to_template\\20260616T191638Z_www.gov.gr_ipiresies_polites-kai-kathemerinoteta_periballon-kai-poioteta-zoes_photoboltaika-ste-stege_9d577ea5_scraped.txt",
+    "repair": "source_backed_core_field_repair"
+  }
+}

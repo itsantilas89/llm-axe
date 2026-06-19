@@ -1,0 +1,61 @@
+{
+  "timestamp": "20260616T223814Z",
+  "url": "https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/green-fast-loan",
+  "classification": {
+    "is_relevant": true,
+    "primary_category": "green_housing_loan",
+    "secondary_categories": [
+      "energy_upgrade"
+    ],
+    "confidence": 0.92,
+    "reasoning": "Deterministic scope pass: home energy finance signals found",
+    "key_features": [
+      "deterministic_home_green_finance_scope"
+    ]
+  },
+  "extracted_data": {
+    "programme_name": "Προσωπικό Δάνειο Green Fast Loan",
+    "description": "Αποκτήστε συγχρηματοδοτούμενο δάνειο με 100% επιδότηση τόκων για να αναβαθμίσετε ενεργειακά το σπίτι σας.",
+    "programme_objective": "Αποκτήστε συγχρηματοδοτούμενο δάνειο με 100% επιδότηση τόκων για να αναβαθμίσετε ενεργειακά το σπίτι σας.",
+    "eligible_parties": [],
+    "eligibility_criteria": [],
+    "property_requirements": [
+      "πράσινες ανάγκες σας"
+    ],
+    "minimum_funding_amount": "300€",
+    "maximum_funding_amount": "5.000€",
+    "funding_type": "",
+    "interest_rate": "11,90%",
+    "funding_coverage": "",
+    "total_budget": "",
+    "funding_sources": [],
+    "duration": "",
+    "loan_duration": [
+      "6 μήνες έως 2 χρόνια",
+      "6 μήνες έως 4 χρόνια",
+      "6 μήνες έως 5 χρόνια"
+    ],
+    "completion_deadline": "",
+    "application_start_date": "",
+    "application_end_date": "",
+    "energy_performance_targets": "",
+    "eligible_interventions": [
+      "Πράσινες οικιακές συσκευές",
+      "Λευκές οικιακές συσκευές",
+      "Συσκευές θέρμανσης και κλιματισμού",
+      "Ενεργειακή αναβάθμιση κατοικίας"
+    ],
+    "application_process": "",
+    "managing_body": "",
+    "announcement_date": "",
+    "contact_info": [
+      "email"
+    ],
+    "additional_details": "",
+    "source_url": "https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/green-fast-loan",
+    "source_urls": [
+      "https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/green-fast-loan"
+    ],
+    "id": "green-fast-loan-15a4f314f7"
+  }
+}

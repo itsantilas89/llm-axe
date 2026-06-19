@@ -1,0 +1,61 @@
+{
+  "timestamp": "20260616T234045Z",
+  "url": "https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/programma-anabathmizo-to-spiti-mou",
+  "classification": {
+    "is_relevant": true,
+    "primary_category": "green_housing_loan",
+    "secondary_categories": [
+      "home_renewables",
+      "energy_upgrade"
+    ],
+    "confidence": 0.92,
+    "reasoning": "Deterministic scope pass: home energy finance signals found",
+    "key_features": [
+      "deterministic_home_green_finance_scope"
+    ]
+  },
+  "extracted_data": {
+    "programme_name": "Αναβαθμίζω το Σπίτι μου",
+    "description": "Εναλλακτικά, για γενικές πληροφορίες σχετικά με το πρόγραμμα «Αναβαθμίζω το Σπίτι μου» ή για να κλείσετε ραντεβού σε κατάστημά μας, τηλεφωνήστε στην Ειδική Γραμμή Εξυπηρέτησης για στεγαστικό δάνειο Eurobank: 2109555888 , Δευτέρα έως Παρασκευή, 09:00-17:00.",
+    "programme_objective": "Εναλλακτικά, για γενικές πληροφορίες σχετικά με το πρόγραμμα «Αναβαθμίζω το Σπίτι μου» ή για να κλείσετε ραντεβού σε κατάστημά μας, τηλεφωνήστε στην Ειδική Γραμμή Εξυπηρέτησης για στεγαστικό δάνειο Eurobank: 2109555888 , Δευτέρα έως Παρασκευή, 09:00-17:00.",
+    "eligible_parties": "",
+    "eligibility_criteria": [
+      "Διαθέσιμο υπόλοιπο πόρων του προγράμματος"
+    ],
+    "property_requirements": "",
+    "minimum_funding_amount": "5.000€",
+    "maximum_funding_amount": "25.000€",
+    "funding_type": "Δάνειο",
+    "interest_rate": "25% του δανείου, το επιτόκιο επιδοτείται 100% από το πρόγραμμα",
+    "funding_coverage": "επιτόκιο επιδοτείται 100% από το πρόγραμμα",
+    "total_budget": "",
+    "funding_sources": [],
+    "duration": "",
+    "loan_duration": "7 χρόνια",
+    "completion_deadline": "",
+    "application_start_date": "",
+    "application_end_date": "",
+    "energy_performance_targets": [
+      "Ενεργειακή απόδοση",
+      "Λογαριασμοί ενέργειας"
+    ],
+    "eligible_interventions": [
+      "Μονώσεις",
+      "Τοποθέτηση / αντικατάσταση κελύφους για θερμομόνωση",
+      "Τοποθέτηση ηλιακού θερμοσίφωνα",
+      "Κατασκευή πράσινης στέγης",
+      "Εγκατάσταση φωτοβολταϊκών ή άλλων ΑΠΕ",
+      "Εγκατάσταση συστήματος αποθήκευσης ενέργειας"
+    ],
+    "application_process": "",
+    "managing_body": "",
+    "announcement_date": "",
+    "contact_info": "",
+    "additional_details": "",
+    "post_completion_obligations": "Τελική εκταμίευση – Ολοκληρώνεται η εκταμίευση του υπόλοιπου δανείου, με την προϋπόθεση ότι προκύπτει υπόλοιπο ποσό δανείου που χρειάζεται να καταβληθεί μετά από τον έλεγχο των επιλέξιμων παραστατικών."
+  },
+  "repair_metadata": {
+    "source_scraped_file": "C:\\Users\\stavr\\Desktop\\HMMY\\Thesis\\llm-axe\\output\\va3_scraper_to_template\\20260616T232913Z_www.eurobank.gr_el_retail_proionta-upiresies_proionta_daneia_prasina_programma-anabathmizo-to-spiti-mou_f1e4767b_scraped.txt",
+    "repair": "source_backed_core_field_repair"
+  }
+}

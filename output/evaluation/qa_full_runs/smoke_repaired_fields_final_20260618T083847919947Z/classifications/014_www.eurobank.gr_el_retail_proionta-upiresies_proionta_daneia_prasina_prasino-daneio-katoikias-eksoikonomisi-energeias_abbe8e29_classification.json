@@ -1,0 +1,70 @@
+{
+  "id": "program-abbe8e2969",
+  "timestamp": "20260618T083902Z",
+  "url": "https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/prasino-daneio-katoikias-eksoikonomisi-energeias",
+  "source_urls": [
+    "https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/prasino-daneio-katoikias-eksoikonomisi-energeias"
+  ],
+  "source_files": [
+    "C:\\Users\\stavr\\Desktop\\HMMY\\Thesis\\llm-axe\\output\\va4_product_discoverer\\20260617T040546Z_www.eurobank.gr_el_retail_proionta-upiresies_proionta_daneia_prasina_prasino-daneio-katoikias-eksoikonomisi-energeias_abbe8e29_classification.json"
+  ],
+  "merged_from_count": 1,
+  "merged": true,
+  "field_sources": {
+    "description": "https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/prasino-daneio-katoikias-eksoikonomisi-energeias",
+    "eligible_interventions": [
+      "https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/prasino-daneio-katoikias-eksoikonomisi-energeias"
+    ],
+    "funding_type": "https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/prasino-daneio-katoikias-eksoikonomisi-energeias",
+    "id": "https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/prasino-daneio-katoikias-eksoikonomisi-energeias",
+    "interest_rate": "https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/prasino-daneio-katoikias-eksoikonomisi-energeias",
+    "loan_duration": "https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/prasino-daneio-katoikias-eksoikonomisi-energeias",
+    "maximum_funding_amount": "https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/prasino-daneio-katoikias-eksoikonomisi-energeias",
+    "programme_name": "https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/prasino-daneio-katoikias-eksoikonomisi-energeias",
+    "programme_objective": "https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/prasino-daneio-katoikias-eksoikonomisi-energeias",
+    "property_requirements": [
+      "https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/prasino-daneio-katoikias-eksoikonomisi-energeias"
+    ],
+    "source_url": "https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/prasino-daneio-katoikias-eksoikonomisi-energeias",
+    "source_urls": [
+      "https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/prasino-daneio-katoikias-eksoikonomisi-energeias"
+    ]
+  },
+  "extracted_data": {
+    "description": "Με το πράσινο δάνειο κατοικίας – Εξοικονόμηση ενέργειας πραγματοποιείτε εργασίες ενεργειακής αναβάθμισης στο σπίτι σας, π.χ. τοποθετείτε διπλά τζάμια, θερμομονωτικό κέλυφος, νέο καυστήρα, ηλιακό θερμοσίφωνα ή φωτοβολταϊκό σύστημα. Εξοικονομείτε χρήματα από τους λογαριασμούς ενέργειας, ενώ παράλληλα ανεβαίνει η αξία του σπιτιού σας. Εάν είστε πελάτης μας και έχετε κωδικούς e-Banking , μπορείτε μέσα από το Eurobank Mobile App ή το e-Banking σας να: Διαμορφώσετε τα χαρακτηριστικά του δανείου σας online, στον Υπολογιστή δανείου , που υπολογίζει το αποτέλεσμα με βάση το δικό σας προφίλ. Λάβετε ενδεικτική εξατομικευμένη προσφορά με το επιτόκιο, τη δόση και τα έξοδα δανείο",
+    "eligible_interventions": [
+      "τοποθετείτε διπλά τζάμια",
+      "θερμομονωτικό κέλυφος",
+      "νέο καυστήρα",
+      "ηλιακό θερμοσίφωνα"
+    ],
+    "funding_type": "Δάνειο",
+    "id": "program-abbe8e2969",
+    "interest_rate": "κυμαινόμενο επιτόκιο συνδέεται με το Euribor και αναπροσαρμόζεται κάθε μήνα",
+    "loan_duration": "30 χρόνια",
+    "maximum_funding_amount": "15.000€",
+    "programme_name": "Πράσινο Δάνειο Κατοικίας – Εξοικονόμηση Ενέργειας",
+    "programme_objective": "Με το πράσινο δάνειο κατοικίας – Εξοικονόμηση ενέργειας πραγματοποιείτε εργασίες ενεργειακής αναβάθμισης στο σπίτι σας, π.χ. τοποθετείτε διπλά τζάμια, θερμομονωτικό κέλυφος, νέο καυστήρα, ηλιακό θερμοσίφωνα ή φωτοβολταϊκό σύστημα. Εξοικονομείτε χρήματα από τους λογαριασμούς ενέργειας, ενώ παράλληλα ανεβαίνει η αξία του σπιτιού σας. Εάν είστε πελάτης μας και έχετε κωδικούς e-Banking , μπορείτε μέσα από το Eurobank Mobile App ή το e-Banking σας να: Διαμορφώσετε τα χαρακτηριστικά του δανείου σας online, στον Υπολογιστή δανείου , που υπολογίζει το αποτέλεσμα με βάση το δικό σας προφίλ. Λάβετε ενδεικτική εξατομικευμένη προσφορά με το επιτόκιο, τη δόση και τα έξοδα δανείο",
+    "property_requirements": [
+      "σπίτι",
+      "οικόπεδο"
+    ],
+    "source_url": "https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/prasino-daneio-katoikias-eksoikonomisi-energeias",
+    "source_urls": [
+      "https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/prasino-daneio-katoikias-eksoikonomisi-energeias"
+    ]
+  },
+  "classification": {
+    "is_relevant": true,
+    "primary_category": "green_housing_loan",
+    "secondary_categories": [
+      "energy_upgrade",
+      "home_renewables"
+    ],
+    "confidence": 0.92,
+    "reasoning": "Merged source-backed JSON from 1 relevant URL(s).",
+    "key_features": [
+      "deterministic_home_green_finance_scope"
+    ]
+  }
+}

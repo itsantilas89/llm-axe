@@ -1,0 +1,15 @@
+{
+  "experiment_id": "exp_20260617_043114_d110d82f",
+  "timestamp": "2026-06-17T04:31:14.779072+00:00",
+  "model": "deterministic_scope_guard",
+  "temperature": 0.0,
+  "hyperparameters": {
+    "mode": "pre_llm_classification"
+  },
+  "prompt": "",
+  "sources": [
+    "Εξοικονομώ – Ανακαινίζω για Νέους"
+  ],
+  "terminal_output": "Category: green_housing_loan | Confidence: 92% | Relevant: True",
+  "template_output_file": null
+}

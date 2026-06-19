@@ -1,5 +1,6 @@
 [
   {
+    "id": "program-f1e4767bad",
     "programme_name": "Αναβαθμίζω το Σπίτι μου",
     "description": "",
     "programme_objective": "",
@@ -40,6 +41,27 @@
         "email": ""
       }
     ],
-    "additional_details": ""
+    "additional_details": "",
+    "source_url": "https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/programma-anabathmizo-to-spiti-mou",
+    "source_urls": [
+      "https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/programma-anabathmizo-to-spiti-mou"
+    ],
+    "review_status": "approved",
+    "admin_notes": "",
+    "scraped_at": "2026-05-18T09:30:37+00:00",
+    "updated_at": "2026-05-29T13:03:57+00:00",
+    "classification": {
+      "is_relevant": true,
+      "primary_category": "energy_upgrade",
+      "secondary_categories": [
+        "home_renewables"
+      ],
+      "confidence": 0.95,
+      "reasoning": "Το πρόγραμμα 'Αναβαθμίζω το Σπίτι μου' αφορά ενεργειακές επεμβάσεις σε κατοικίες, όπως θερμομόνωση και αντλίες θερμότητας.",
+      "key_features": [
+        "θερμομόνωση",
+        "αντλία θερμότητας"
+      ]
+    }
   }
 ]

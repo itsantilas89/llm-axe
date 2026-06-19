@@ -1,0 +1,15 @@
+{
+  "experiment_id": "exp_20260617_020401_33efcc3d",
+  "timestamp": "2026-06-17T02:04:01.728720+00:00",
+  "model": "deterministic_scope_guard",
+  "temperature": 0.0,
+  "hyperparameters": {
+    "mode": "pre_llm_classification"
+  },
+  "prompt": "",
+  "sources": [
+    "Τράπεζα Θεσσαλίας - Πράσινα Δάνεια Χρηματοδοτούμε τη βιωσιμότητα, γιατί το μέλλον είναι πράσινο. Πράσινα Δάνεια Εξοικονο"
+  ],
+  "terminal_output": "Category: green_housing_loan | Confidence: 84% | Relevant: True",
+  "template_output_file": null
+}

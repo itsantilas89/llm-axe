@@ -1,0 +1,229 @@
+{
+  "id": "2025-2892978b52",
+  "timestamp": "20260618T042636Z",
+  "url": "https://www.gov.gr/ipiresies/periousia-kai-phorologia/diakheirise-akinetes-periousias/exoikonomo-2025",
+  "source_urls": [
+    "https://www.gov.gr/ipiresies/periousia-kai-phorologia/diakheirise-akinetes-periousias/exoikonomo-2025",
+    "https://stegasi.gov.gr/programs/exoikonomo-2025/",
+    "https://exoikonomo2025.gov.gr/",
+    "https://exoikonomo2025.gov.gr/odegos",
+    "https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/eksoikonomo-2025",
+    "https://www.alpha.gr/el/idiotes/daneia/episkevastika-daneia-gia-anakainisi/programma-eksoikonomo-2025",
+    "https://www.bankofthessaly.gr/idiotes/prasina-daneia/exoikonomo-2025/",
+    "https://www.crediabank.com/idiotes/daneia/hrimatodotika-programmata/exoikonomo-2025/",
+    "https://www.piraeusbank.gr/el/idiwtes/proionta-upiresies/stegastika-daneia/daneio-eksoikonomw",
+    "https://www.nbg.gr/el/idiwtes/daneia/daneia-exoikonomisis-energeias/exoikonomo-2025"
+  ],
+  "source_files": [
+    "C:\\Users\\stavr\\Desktop\\HMMY\\Thesis\\llm-axe\\output\\va4_product_discoverer\\20260617T023915Z_www.gov.gr_ipiresies_periousia-kai-phorologia_diakheirise-akinetes-periousias_exoikonomo-2025_2892978b_classification.json",
+    "C:\\Users\\stavr\\Desktop\\HMMY\\Thesis\\llm-axe\\output\\va4_product_discoverer\\20260617T023513Z_stegasi.gov.gr_programs_exoikonomo-2025_6b58db07_classification.json",
+    "C:\\Users\\stavr\\Desktop\\HMMY\\Thesis\\llm-axe\\output\\va4_product_discoverer\\20260617T022348Z_exoikonomo2025.gov.gr_2077aa70_classification.json",
+    "C:\\Users\\stavr\\Desktop\\HMMY\\Thesis\\llm-axe\\output\\va4_product_discoverer\\20260616T223324Z_exoikonomo2025.gov.gr_odegos_114d40cb_classification.json",
+    "C:\\Users\\stavr\\Desktop\\HMMY\\Thesis\\llm-axe\\output\\va4_product_discoverer\\20260618T041134Z_www.eurobank.gr_el_retail_proionta-upiresies_proionta_daneia_prasina_eksoikonomo-2025_9a0afe12_classification.json",
+    "C:\\Users\\stavr\\Desktop\\HMMY\\Thesis\\llm-axe\\output\\va4_product_discoverer\\20260617T031436Z_www.alpha.gr_el_idiotes_daneia_episkevastika-daneia-gia-anakainisi_programma-eksoikonomo-2025_5e203b18_classification.json",
+    "C:\\Users\\stavr\\Desktop\\HMMY\\Thesis\\llm-axe\\output\\va4_product_discoverer\\20260617T020508Z_www.bankofthessaly.gr_idiotes_prasina-daneia_exoikonomo-2025_71ea87f1_classification.json",
+    "C:\\Users\\stavr\\Desktop\\HMMY\\Thesis\\llm-axe\\output\\va4_product_discoverer\\20260617T013231Z_www.crediabank.com_idiotes_daneia_hrimatodotika-programmata_exoikonomo-2025_41e7ef10_classification.json",
+    "C:\\Users\\stavr\\Desktop\\HMMY\\Thesis\\llm-axe\\output\\va4_product_discoverer\\20260617T004439Z_www.piraeusbank.gr_el_idiwtes_proionta-upiresies_stegastika-daneia_daneio-eksoikonomw_19afb17d_classification.json",
+    "C:\\Users\\stavr\\Desktop\\HMMY\\Thesis\\llm-axe\\output\\va4_product_discoverer\\20260617T000926Z_www.nbg.gr_el_idiwtes_daneia_daneia-exoikonomisis-energeias_exoikonomo-2025_ef28c88a_classification.json"
+  ],
+  "merged_from_count": 10,
+  "merged": true,
+  "field_sources": {
+    "application_end_date": "https://stegasi.gov.gr/programs/exoikonomo-2025/",
+    "application_start_date": "https://www.piraeusbank.gr/el/idiwtes/proionta-upiresies/stegastika-daneia/daneio-eksoikonomw",
+    "completion_deadline": "https://exoikonomo2025.gov.gr/",
+    "completion_delay_consequences": "https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/eksoikonomo-2025",
+    "contact_info": [
+      "https://www.nbg.gr/el/idiwtes/daneia/daneia-exoikonomisis-energeias/exoikonomo-2025"
+    ],
+    "description": "https://stegasi.gov.gr/programs/exoikonomo-2025/",
+    "duration": "https://exoikonomo2025.gov.gr/",
+    "eligibility_criteria": [
+      "https://www.gov.gr/ipiresies/periousia-kai-phorologia/diakheirise-akinetes-periousias/exoikonomo-2025",
+      "https://stegasi.gov.gr/programs/exoikonomo-2025/",
+      "https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/eksoikonomo-2025",
+      "https://www.crediabank.com/idiotes/daneia/hrimatodotika-programmata/exoikonomo-2025/",
+      "https://www.piraeusbank.gr/el/idiwtes/proionta-upiresies/stegastika-daneia/daneio-eksoikonomw"
+    ],
+    "eligible_interventions": [
+      "https://www.gov.gr/ipiresies/periousia-kai-phorologia/diakheirise-akinetes-periousias/exoikonomo-2025",
+      "https://stegasi.gov.gr/programs/exoikonomo-2025/",
+      "https://exoikonomo2025.gov.gr/",
+      "https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/eksoikonomo-2025",
+      "https://www.alpha.gr/el/idiotes/daneia/episkevastika-daneia-gia-anakainisi/programma-eksoikonomo-2025",
+      "https://www.bankofthessaly.gr/idiotes/prasina-daneia/exoikonomo-2025/",
+      "https://www.crediabank.com/idiotes/daneia/hrimatodotika-programmata/exoikonomo-2025/",
+      "https://www.piraeusbank.gr/el/idiwtes/proionta-upiresies/stegastika-daneia/daneio-eksoikonomw"
+    ],
+    "eligible_parties": [
+      "https://stegasi.gov.gr/programs/exoikonomo-2025/",
+      "https://exoikonomo2025.gov.gr/",
+      "https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/eksoikonomo-2025",
+      "https://www.alpha.gr/el/idiotes/daneia/episkevastika-daneia-gia-anakainisi/programma-eksoikonomo-2025",
+      "https://www.crediabank.com/idiotes/daneia/hrimatodotika-programmata/exoikonomo-2025/",
+      "https://www.piraeusbank.gr/el/idiwtes/proionta-upiresies/stegastika-daneia/daneio-eksoikonomw",
+      "https://www.nbg.gr/el/idiwtes/daneia/daneia-exoikonomisis-energeias/exoikonomo-2025"
+    ],
+    "energy_performance_targets": [
+      "https://www.gov.gr/ipiresies/periousia-kai-phorologia/diakheirise-akinetes-periousias/exoikonomo-2025",
+      "https://stegasi.gov.gr/programs/exoikonomo-2025/",
+      "https://exoikonomo2025.gov.gr/",
+      "https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/eksoikonomo-2025",
+      "https://www.crediabank.com/idiotes/daneia/hrimatodotika-programmata/exoikonomo-2025/",
+      "https://www.piraeusbank.gr/el/idiwtes/proionta-upiresies/stegastika-daneia/daneio-eksoikonomw",
+      "https://www.nbg.gr/el/idiwtes/daneia/daneia-exoikonomisis-energeias/exoikonomo-2025"
+    ],
+    "funding_coverage": "https://stegasi.gov.gr/programs/exoikonomo-2025/",
+    "funding_sources": [
+      "https://exoikonomo2025.gov.gr/",
+      "https://www.bankofthessaly.gr/idiotes/prasina-daneia/exoikonomo-2025/"
+    ],
+    "funding_type": "https://www.alpha.gr/el/idiotes/daneia/episkevastika-daneia-gia-anakainisi/programma-eksoikonomo-2025",
+    "interest_rate": "https://www.piraeusbank.gr/el/idiwtes/proionta-upiresies/stegastika-daneia/daneio-eksoikonomw",
+    "loan_duration": "https://www.alpha.gr/el/idiotes/daneia/episkevastika-daneia-gia-anakainisi/programma-eksoikonomo-2025",
+    "managing_body": "https://stegasi.gov.gr/programs/exoikonomo-2025/",
+    "maximum_funding_amount": "https://www.alpha.gr/el/idiotes/daneia/episkevastika-daneia-gia-anakainisi/programma-eksoikonomo-2025",
+    "minimum_funding_amount": "https://www.nbg.gr/el/idiwtes/daneia/daneia-exoikonomisis-energeias/exoikonomo-2025",
+    "post_completion_obligations": "https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/eksoikonomo-2025",
+    "programme_name": "https://www.gov.gr/ipiresies/periousia-kai-phorologia/diakheirise-akinetes-periousias/exoikonomo-2025",
+    "programme_objective": "https://exoikonomo2025.gov.gr/odegos",
+    "property_requirements": [
+      "https://www.gov.gr/ipiresies/periousia-kai-phorologia/diakheirise-akinetes-periousias/exoikonomo-2025",
+      "https://stegasi.gov.gr/programs/exoikonomo-2025/",
+      "https://exoikonomo2025.gov.gr/",
+      "https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/eksoikonomo-2025",
+      "https://www.alpha.gr/el/idiotes/daneia/episkevastika-daneia-gia-anakainisi/programma-eksoikonomo-2025",
+      "https://www.piraeusbank.gr/el/idiwtes/proionta-upiresies/stegastika-daneia/daneio-eksoikonomw",
+      "https://www.nbg.gr/el/idiwtes/daneia/daneia-exoikonomisis-energeias/exoikonomo-2025"
+    ],
+    "source_url": "https://exoikonomo2025.gov.gr/odegos",
+    "source_urls": [
+      "https://exoikonomo2025.gov.gr/odegos"
+    ]
+  },
+  "extracted_data": {
+    "application_end_date": "13/4/2025",
+    "application_start_date": "08/01/2025",
+    "completion_deadline": "30 Ιουνίου 2026",
+    "completion_delay_consequences": "Εάν δεν πετύχει τον ελάχιστο ενεργειακό στόχο του προγράμματος, ανακαλείται η απόφαση για υπαγωγή σας στο πρόγραμμα «Εξοικονομώ 2025» και δεν θα μπορείτε να λάβετε τις ενισχύσεις που προσφέρει.",
+    "contact_info": [
+      "210 690 5200"
+    ],
+    "description": "Μετάβαση στο κύριο περιεχόμενο Ενεργοποίηση προσβασιμότητας για χαμηλή όραση Ανοίξτε το μενού προσβασιμότητας ΕΛΛΗΝΙΚΗ ΔΗΜΟΚΡΑΤΙΑ Υπουργειο Κοινωνικης Συνοχης και Οικογενειας Βρες το πρόγραμμά σου Εξοικονομώ 2025 Δήμοι - Οργανισμός Προνοιακών Επιδομάτων και Κοινωνικής Αλληλεγγύης - Υπουργείο Περιβάλλοντος και Ενέργειας Σε εξέλιξη Παρήλθε η περίοδος αιτήσεων Αρχική /Όλα Τα Προγράμματα /Στεγαστικά Προγράμματα /Εξοικονομώ 2025 Πληροφορίες Προγράμματος Στόχος του προγράμματος είναι η εξοικονόμηση ενέργειας, μέσω βελτίωσης της ενεργειακής κλάσης των νοικοκυριών, επιτυγχάνοντας εξοικονόμηση πρωτογενούς ενέργειας πάνω από 30% για κάθε κατοικία, μέσω της ενεργειακής αναβάθμισης κατά τουλάχιστον 3 ενεργειακές κατηγορίες.",
+    "duration": "2025",
+    "eligibility_criteria": [
+      "Οικογένειες με μέλος/μέλη ΑμεΑ",
+      "Οικογένειες με τρία εξαρτώμενα τέκνα",
+      "Πληγέντες σεισμόπληκτους",
+      "Ευάλωτα νοικοκυριά",
+      "Ατομικό εισόδημα: ≤5.000 ή οικογενειακό εισόδημα: ≤10.000",
+      "Ατομικό εισόδημα: >5.000 ή οικογενειακό εισόδημα: >10.000",
+      "Να είστε φυσικό πρόσωπο.",
+      "Να είστε ο ιδιοκτήτης του ακινήτου, δηλαδή να έχετε πλήρη κυριότητα, ψιλή κυριότητα ή επικαρπία, ή να είστε ενοικιαστής με μισθωτήριο συμβόλαιο που να έχει διάρκεια υπολειπόμενης ισχύος μίσθωσης τουλάχιστον 7 έτη κατά την υποβολή της αίτησης.",
+      "Ατομικό Εισόδημα (€) ≤5.000 ή Οικογενειακό Εισόδημα (€) ≤10.000",
+      "Ωφελούμενοι της εισοδηματικής κατηγορίας 1",
+      "δικαίωμα συμμετοχής έχει μόνο εκείνος που την ιδιοκατοikεί σε περιπτώσεις δωρεάν παραχώρησης / ενοικίασης"
+    ],
+    "eligible_interventions": [
+      "Μονώσεις",
+      "Τοποθέτηση / αντικατάσταση κελύφους για θερμομόνωση",
+      "Αναβάθμιση συστήματος ζεστού νερού χρήσης μέσω ΑΠΕ",
+      "Εγκατάσταση συστήματος αποθήκευσης ενέργειας",
+      "Αντικατάσταση κουφωμάτων",
+      "Αναβάθμιση συστήματος θέρμανσης / ψύξης",
+      "ενωσιακής ενεργειακής πολιτικής για την εξοικονόμηση ενέργειας",
+      "μέσω βελτίωσης της ενεργειακής κλάσης των νοικοκυριών",
+      "μέσω της ενεργειακής αναβάθμισης κατά τουλάχιστον 3 ενεργειακές κατηγορίες",
+      "Αντικατάσταση φωτισμού με LED",
+      "Μονωμένη θερμομόνωση",
+      "Εγκατάσταση καυστήρα ή λέβητα που λειτουργεί με φυσικό αέριο",
+      "Αντικατάσταση παλιού κλιματιστικού με καινούργιο τύπου Inverter",
+      "Ενεργειακή αναβάθμιση κατοικίας",
+      "ενεργειακής ανακαίνισης στον οικιακό κτηριακό τομέα: Επιχορήγηση από 50% έως 100% του προϋπολογισμού των εργασιών",
+      "υποχρεωτική αναβάθμιση κατά τουλάχιστον τρείς ενεργειακές κατηγορίες",
+      "Εγκατάσταση φωτοβολταϊκών ή άλλων ΑΠΕ"
+    ],
+    "eligible_parties": [
+      "πληγέντες φυσικών καταστροφών των περιοχών της Θεσσαλίας, της Στερεάς Ελλάδας, της Κεντρικής και Δυτικής Μακεδονίας και τους σεισμόπληκτους του Αρκαλοχωρίου και της Σάμου",
+      "οικογένειες με τρία (3) ή περισσότερα εξαρτώμενα τέκνα",
+      "οικογένειες με μέλος/μέλη ΑμεΑ",
+      "πληγέντες φυσικών καταστροφών των περιοχών της Θεσσαλίας, της Στερεάς Ελλάδας, της Κεντρικής και Δυτικής Μακεδονίας",
+      "εὐάλωτα νοικοκυριά",
+      "Φυσικό πρόσωπο",
+      "Χωρίς εξασφάλιση",
+      "ωφελούμενοι της εισοδηματικής κατηγορίας 1",
+      "ωφελούμενοι της εισοδηματικής κατηγορίας 2",
+      "υφίσταται νόμιμα κατοικία",
+      "φυσικά πρόσωπα που έχουν εμπράγματο δικαίωμα (πλήρους κυριότητας / επικαρπίας / ψιλής κυριότητας) σε επιλέξιμη κατοिकία"
+    ],
+    "energy_performance_targets": [
+      "30% μέσω ενεργειακής αναβάθμισης κατά τουλάχιστον τρείς ενεργειακές κατηγορίες",
+      "30% για κάθε κατοικία",
+      "εξοικονόμηση πρωτογενούς ενέργειας πάνω από 30% για κάθε κατοικία",
+      "Αναβάθμιση του ακινήτου σας κατά τουλάχιστον 3 ενεργειακές κατηγορίες μετά την ολοκλήρωση των εργασιών (ελάχιστος ενεργειακός στόχος), ώστε να εξασφαλίζεται εξοικονόμηση ενέργειας σε ποσοστό πάνω από 30%.",
+      "Ενεργειακή αναβάθμιση για να μειώσει την κατανάλωση ενέργειας",
+      "30%",
+      "30% εξοικονόμηση πρωτογενούς ενέργειας",
+      "κάλυψη: του κόστους των δύο ενεργειακών επιθεωρήσεων και της καταχώρησης της Πρότασης Παρεμβάσεων και της Καταγραφής Παρεμβάσεων της αμοιβής για την κατάρτιση της Ηλεκτρονικής Ταυτότητας Κτιρίου/Διηρημένης Ιδιοκτησίας της αμοιβής του Τεχνικού Συμβούλου της αμοιβής για τυχόν εκδόσεις αδειών/βεβαιώσεων/εγκρίσεων ή εκπόνησης μελετών που απαιτούνται από την κείμενη νομοθεσία για την υλοποίηση παρεμβάσεων"
+    ],
+    "funding_coverage": "έως το 100% του επιλέξιμου προϋπολογισμού παρεμβάσεων υφίσταται η δυνατότητα χορήγησης δανείου για την εισοδηματική κατηγορία 2 με επιδότηση επιτοκίου, στη βάση σχετικού αιτήματος του Ωφελούμενου",
+    "funding_sources": [
+      "Ταμείο Ανάκαμψης και Ανθεκτικότητας",
+      "πόρους του Ταμείου Ανάκαμψης και Ανθεκτικότητας"
+    ],
+    "funding_type": "Δάνειο",
+    "interest_rate": "7,5% 100% επιδοτούμενο πλέον εισφοράς Ν.128/75",
+    "loan_duration": "4-6 χρόνια",
+    "managing_body": "Οργανισμός Προνοιακών Επιδομάτων και Κοινωνικής Αλληλεγγύης - Υπουργείο Περιβάλλοντος και Ενέργειας",
+    "maximum_funding_amount": "17.500€",
+    "minimum_funding_amount": "300€",
+    "post_completion_obligations": "Κατά την τελική εκταμίευση του προγράμματος οι αμοιβές των ενεργειακών επιθεωρητών πιστώνονται στον λογαριασμό σας, με βάση τις αποδείξεις που ανεβάζετε στην ηλεκτρονική πλατφόρμα του προγράμματος.",
+    "programme_name": "Εξοικονομώ 2025",
+    "programme_objective": "ΕΞΟΙΚΟΝΟΜΩ 2025 : Οδηγός / Παραρτήματα Μετάβαση στο περιεχόμενο Οδηγός / Παραρτήματα / Οδηγός Προγράμματος Οδηγός Προγράμματος Εξοικονομώ 2025 Παραρτήματα Οδηγού 1. ΠΑΡΑΡΤΗΜΑ Ι Δικαιολογητικά Υποβολής Αίτησης.pdf 2. ΠΑΡΑΡΤΗΜΑ II Πρόταση Παρεμβάσεων.pdf 3. ΠΑΡΑΡΤΗΜΑ ΙΙΙ Δήλωση Ωφελούμενου Υποβολής Αίτησης.pdf 4. ΠΑΡΑΡΤΗΜΑ IV Καταγραφή Παρεμβάσεων.pdf 5. ΠΑΡΑΡΤΗΜΑ V Δήλωση πιστοποίησης και Δικαιολογητικά.pdf 6. ΠΑΡΑΡΤΗΜΑ VΙ ΥΔ για ενισχύσεις βάσει de minimis.docx 7. ΠΑΡΑΡΤΗΜΑ VII ΥΔ Μη υποχρέωσης υποβολής δήλωσης φορολογίας.doc 8. ΠΑΡΑΡΤΗΜΑ VIII YΔ Χρήσης ακινήτου.doc 8.Β. ΠΑΡΑΡΤΗΜΑ VIII Β YΔ Χρήσης ακινήτου.doc 9. ΠΑΡΑΡΤΗΜΑ ΙΧ- Κριτήριο Αξιολόγησης.pdf 10. ΠΑΡΑΡΤΗΜΑ X Βεβαίωση εκτέλεσης εργασιών.pdf",
+    "property_requirements": [
+      "Υφίσταται νόμιμα / Δεν έχει κριθεί κατεδαφιστέα. Χρησιμοποιείται ως κύρια κατοικία.",
+      "υφίσταται νόμιμα",
+      "δεν έχει κριθεί κατεδαφιστέα",
+      "χρησιμοποιείται ως κύρια κατοικία",
+      "έχει καταταχθεί βάσει του Πρώτου Πιστοποιητικού Ενεργειακής Απόδοσης (Α’ Π.Ε.Α.) σε κατηγορία χαμηλότερη ή ίση της Γ.",
+      "βελτίωση της ενεργειακής κλάσης των νοικοキュριών",
+      "Να χρησιμοποιείται ως κύρια κατοικία είτε από εσάς που κατοικείτε σε αυτή ως ιδιοκτήτης (ιδιοκατοίκηση) είτε από κάποιο άλλο πρόσωπο (π.χ. ενοικιαστή).",
+      "Να είναι νόμιμο, δηλαδή να διαθέτει οικοδομική άδεια ή άλλο νομιμοποιητικό έγγραφο.",
+      "Να έχει καταταχθεί σε ενεργειακή κατηγορία χαμηλότερη ή ίση με τη Γ.",
+      "Έχει νόμιμη άδεια",
+      "Μην έχει κριθεί κατεδαφιστέο",
+      "Κατατάσσεται σε κατηγορία χαμηλότερη ή ίση της Γ, με βάση το Πιστοποιητικό Ενεργειακής Απόδοσης (ΠΕΑ)",
+      "Μην χρησιμοποιείται με βραχυχρόνια μίσθωση",
+      "υφίσταται νόμιμα κατοικία",
+      "υφίσταται βάσει του Α’ Π.Ε.Α. στην κατηγορία χαμηλότερη ή ίση της Γ’",
+      "η μονοκατοικία και το διαμέρισμα"
+    ],
+    "source_url": "https://exoikonomo2025.gov.gr/odegos",
+    "source_urls": [
+      "https://www.gov.gr/ipiresies/periousia-kai-phorologia/diakheirise-akinetes-periousias/exoikonomo-2025",
+      "https://stegasi.gov.gr/programs/exoikonomo-2025/",
+      "https://exoikonomo2025.gov.gr/",
+      "https://exoikonomo2025.gov.gr/odegos",
+      "https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/eksoikonomo-2025",
+      "https://www.alpha.gr/el/idiotes/daneia/episkevastika-daneia-gia-anakainisi/programma-eksoikonomo-2025",
+      "https://www.bankofthessaly.gr/idiotes/prasina-daneia/exoikonomo-2025/",
+      "https://www.crediabank.com/idiotes/daneia/hrimatodotika-programmata/exoikonomo-2025/",
+      "https://www.piraeusbank.gr/el/idiwtes/proionta-upiresies/stegastika-daneia/daneio-eksoikonomw",
+      "https://www.nbg.gr/el/idiwtes/daneia/daneia-exoikonomisis-energeias/exoikonomo-2025"
+    ],
+    "id": "2025-2892978b52"
+  },
+  "classification": {
+    "is_relevant": true,
+    "primary_category": "green_housing_loan",
+    "secondary_categories": [
+      "energy_upgrade",
+      "home_renewables"
+    ],
+    "confidence": 0.92,
+    "reasoning": "Merged source-backed JSON from 10 relevant URL(s).",
+    "key_features": [
+      "deterministic_home_green_finance_scope"
+    ]
+  }
+}

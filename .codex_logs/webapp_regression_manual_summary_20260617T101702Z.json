@@ -1,0 +1,137 @@
+{
+  "timestamp": "20260617T101702Z",
+  "passed": 13,
+  "total": 13,
+  "rows": [
+    {
+      "label": "Alpha EV",
+      "url": "https://www.alpha.gr/el/idiotes/daneia/katanalotika-daneia/alpha-prasines-luseis-daneio-ilektriko-autokinito",
+      "expected_is_relevant": false,
+      "actual_is_relevant": false,
+      "passed": true,
+      "primary_category": "other",
+      "reasoning": "Αυτόματη απόρριψη: Δεν βρέθηκαν ενεργειακά + χρηματοδοτικά keywords.",
+      "classification_path": "C:\\Users\\stavr\\Desktop\\HMMY\\Thesis\\llm-axe\\output\\va4_product_discoverer\\20260617T095149Z_www.alpha.gr_el_idiotes_daneia_katanalotika-daneia_alpha-prasines-luseis-daneio-ilektriko-autokinito_b4ed8ed1_classification.json"
+    },
+    {
+      "label": "Piraeus EV",
+      "url": "https://www.piraeusbank.gr/el/idiwtes/proionta-upiresies/daneia/proswpika/katanalotiko-daneio-ev-loan-gia-agora-ilektrikou-autokinitou",
+      "expected_is_relevant": false,
+      "actual_is_relevant": false,
+      "passed": true,
+      "primary_category": "other",
+      "reasoning": "Αυτόματη απόρριψη: Δεν βρέθηκαν ενεργειακά + χρηματοδοτικά keywords.",
+      "classification_path": "C:\\Users\\stavr\\Desktop\\HMMY\\Thesis\\llm-axe\\output\\va4_product_discoverer\\20260617T095158Z_www.piraeusbank.gr_el_idiwtes_proionta-upiresies_daneia_p...analotiko-daneio-ev-loan-gia-agora-ilektrikou-autokinitou_69bfc371_classification.json"
+    },
+    {
+      "label": "Kinoumai Ilektrika III",
+      "url": "https://kinoumeilektrika3.gov.gr/",
+      "expected_is_relevant": false,
+      "actual_is_relevant": false,
+      "passed": true,
+      "primary_category": "other",
+      "reasoning": "Αυτόματη απόρριψη: Δεν βρέθηκαν ενεργειακά + χρηματοδοτικά keywords.",
+      "classification_path": "C:\\Users\\stavr\\Desktop\\HMMY\\Thesis\\llm-axe\\output\\va4_product_discoverer\\20260617T095204Z_kinoumeilektrika3.gov.gr_04f67853_classification.json"
+    },
+    {
+      "label": "gov.gr Kinoumai Ilektrika III",
+      "url": "https://www.gov.gr/ipiresies/polites-kai-kathemerinoteta/periballon-kai-poioteta-zoes/kinoumai-elektrika-iii",
+      "expected_is_relevant": false,
+      "actual_is_relevant": false,
+      "passed": true,
+      "primary_category": "other",
+      "reasoning": "Αυτόματη απόρριψη: Δεν βρέθηκαν ενεργειακά + χρηματοδοτικά keywords.",
+      "classification_path": "C:\\Users\\stavr\\Desktop\\HMMY\\Thesis\\llm-axe\\output\\va4_product_discoverer\\20260617T095239Z_www.gov.gr_ipiresies_polites-kai-kathemerinoteta_periballon-kai-poioteta-zoes_kinoumai-elektrika-iii_a9692868_classification.json"
+    },
+    {
+      "label": "HDB Green Co-Financing SME",
+      "url": "https://hdb.gr/growth-fund-green-co-financing-loans/",
+      "expected_is_relevant": false,
+      "actual_is_relevant": false,
+      "passed": true,
+      "primary_category": "other",
+      "reasoning": "Αυτόματη απόρριψη: Δεν βρέθηκαν ενεργειακά + χρηματοδοτικά keywords.",
+      "classification_path": "C:\\Users\\stavr\\Desktop\\HMMY\\Thesis\\llm-axe\\output\\va4_product_discoverer\\20260617T095244Z_hdb.gr_growth-fund-green-co-financing-loans_af492829_classification.json"
+    },
+    {
+      "label": "Exoikonomo Epixeiro",
+      "url": "https://exoikonomoepixeiro.energy-invest.gov.gr/",
+      "expected_is_relevant": false,
+      "actual_is_relevant": false,
+      "passed": true,
+      "primary_category": "other",
+      "reasoning": "Αυτόματη απόρριψη: Δεν βρέθηκαν ενεργειακά + χρηματοδοτικά keywords.",
+      "classification_path": "C:\\Users\\stavr\\Desktop\\HMMY\\Thesis\\llm-axe\\output\\va4_product_discoverer\\20260617T095250Z_exoikonomoepixeiro.energy-invest.gov.gr_4b8e68b0_classification.json"
+    },
+    {
+      "label": "HLEKTRA",
+      "url": "https://hlektra.gov.gr/home",
+      "expected_is_relevant": false,
+      "actual_is_relevant": false,
+      "passed": true,
+      "primary_category": "other",
+      "reasoning": "Αυτόματη απόρριψη: Δεν βρέθηκαν ενεργειακά + χρηματοδοτικά keywords.",
+      "classification_path": "C:\\Users\\stavr\\Desktop\\HMMY\\Thesis\\llm-axe\\output\\va4_product_discoverer\\20260617T095254Z_hlektra.gov.gr_home_658d8457_classification.json"
+    },
+    {
+      "label": "Piraeus business PV",
+      "url": "https://www.piraeusbank.gr/el/epixeiriseis-epaggelmaties/xrimatodotiseis-programmata-xrimatodotisis/mikres-mesaies-epixeiriseis/prasines-xrimatodotiseis/peiraiws-epixeirein-fwtoboltaiko",
+      "expected_is_relevant": false,
+      "actual_is_relevant": false,
+      "passed": true,
+      "primary_category": "other",
+      "reasoning": "Αυτόματη απόρριψη: Δεν βρέθηκαν ενεργειακά + χρηματοδοτικά keywords.",
+      "classification_path": "C:\\Users\\stavr\\Desktop\\HMMY\\Thesis\\llm-axe\\output\\va4_product_discoverer\\20260617T095304Z_www.piraeusbank.gr_el_epixeiriseis-epaggelmaties_xrimatod...prasines-xrimatodotiseis_peiraiws-epixeirein-fwtoboltaiko_92ffafb9_classification.json"
+    },
+    {
+      "label": "Piraeus business net metering",
+      "url": "https://www.piraeusbank.gr/el/epixeiriseis-epaggelmaties/xrimatodotiseis-programmata-xrimatodotisis/mikres-mesaies-epixeiriseis/prasines-xrimatodotiseis/peiraiws-net-metering",
+      "expected_is_relevant": false,
+      "actual_is_relevant": false,
+      "passed": true,
+      "primary_category": "other",
+      "reasoning": "Αυτόματη απόρριψη: Δεν βρέθηκαν ενεργειακά + χρηματοδοτικά keywords.",
+      "classification_path": "C:\\Users\\stavr\\Desktop\\HMMY\\Thesis\\llm-axe\\output\\va4_product_discoverer\\20260617T095313Z_www.piraeusbank.gr_el_epixeiriseis-epaggelmaties_xrimatod...ixeiriseis_prasines-xrimatodotiseis_peiraiws-net-metering_5f356e17_classification.json"
+    },
+    {
+      "label": "Alpha green home",
+      "url": "https://www.alpha.gr/el/idiotes/daneia/episkevastika-daneia-gia-anakainisi/alpha-prasines-luseis-katanalotiko-daneio-gia-to-spiti",
+      "expected_is_relevant": true,
+      "actual_is_relevant": true,
+      "passed": true,
+      "primary_category": "green_housing_loan",
+      "reasoning": "Deterministic scope pass: home energy finance signals found",
+      "classification_path": "C:\\Users\\stavr\\Desktop\\HMMY\\Thesis\\llm-axe\\output\\va4_product_discoverer\\20260617T095859Z_www.alpha.gr_el_idiotes_daneia_episkevastika-daneia-gia-a...si_alpha-prasines-luseis-katanalotiko-daneio-gia-to-spiti_3ef84f91_classification.json"
+    },
+    {
+      "label": "Piraeus green consumer",
+      "url": "https://www.piraeusbank.gr/el/idiwtes/proionta-upiresies/daneia/proswpika/katanalwtiko-daneio-green-gia-prasines-episkeves",
+      "expected_is_relevant": true,
+      "actual_is_relevant": true,
+      "passed": true,
+      "primary_category": "green_housing_loan",
+      "reasoning": "Deterministic scope pass: home energy finance signals found",
+      "classification_path": "C:\\Users\\stavr\\Desktop\\HMMY\\Thesis\\llm-axe\\output\\va4_product_discoverer\\20260617T100354Z_www.piraeusbank.gr_el_idiwtes_proionta-upiresies_daneia_proswpika_katanalwtiko-daneio-green-gia-prasines-episkeves_6f5d50a6_classification.json"
+    },
+    {
+      "label": "Piraeus green secured",
+      "url": "https://www.piraeusbank.gr/el/idiwtes/proionta-upiresies/stegastika-daneia/prasino-episkeuastiko-daneio-me-eksasfalisi",
+      "expected_is_relevant": true,
+      "actual_is_relevant": true,
+      "passed": true,
+      "primary_category": "green_housing_loan",
+      "reasoning": "Deterministic scope pass: home energy finance signals found",
+      "classification_path": "C:\\Users\\stavr\\Desktop\\HMMY\\Thesis\\llm-axe\\output\\va4_product_discoverer\\20260617T100909Z_www.piraeusbank.gr_el_idiwtes_proionta-upiresies_stegastika-daneia_prasino-episkeuastiko-daneio-me-eksasfalisi_3f1b2ca9_classification.json"
+    },
+    {
+      "label": "Chania Anavathmizo",
+      "url": "https://www.chaniabank.gr/idiotes/dania/anavathmizo-to-spiti-moy/",
+      "expected_is_relevant": true,
+      "actual_is_relevant": true,
+      "passed": true,
+      "primary_category": "green_housing_loan",
+      "reasoning": "Deterministic scope pass: home energy finance signals found",
+      "classification_path": "C:\\Users\\stavr\\Desktop\\HMMY\\Thesis\\llm-axe\\output\\va4_product_discoverer\\20260617T101527Z_www.chaniabank.gr_idiotes_dania_anavathmizo-to-spiti-moy_e7d7db78_classification.json"
+    }
+  ]
+}

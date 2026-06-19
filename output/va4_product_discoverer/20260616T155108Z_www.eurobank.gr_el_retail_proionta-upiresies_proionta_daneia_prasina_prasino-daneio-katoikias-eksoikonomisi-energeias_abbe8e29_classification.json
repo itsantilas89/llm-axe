@@ -1,0 +1,59 @@
+{
+  "timestamp": "20260616T155108Z",
+  "url": "https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/prasino-daneio-katoikias-eksoikonomisi-energeias",
+  "classification": {
+    "is_relevant": false,
+    "primary_category": "other",
+    "secondary_categories": [],
+    "confidence": 0.95,
+    "reasoning": "Η εξαγομένη δεδομένα δεν περιέχουν νόημα για κατηγοριοποίηση.",
+    "key_features": [
+      "empty_extraction"
+    ]
+  },
+  "extracted_data": {
+    "programme_name": "",
+    "description": "",
+    "programme_objective": "",
+    "eligible_parties": [],
+    "eligibility_criteria": [
+      ""
+    ],
+    "property_requirements": [
+      "σπίτι",
+      "οικόπεδο"
+    ],
+    "minimum_funding_amount": "15.000€",
+    "maximum_funding_amount": "",
+    "funding_type": "",
+    "interest_rate": "",
+    "funding_coverage": "",
+    "total_budget": "",
+    "funding_sources": [],
+    "duration": "",
+    "loan_duration": "",
+    "completion_deadline": "",
+    "application_start_date": "",
+    "application_end_date": "",
+    "energy_performance_targets": [
+      "80%",
+      "65%"
+    ],
+    "eligible_interventions": [
+      "τοποθετείτε διπλά τζάμια",
+      "θερμομονωτικό κέλυφος",
+      "νέο καυστήρα",
+      "ηλιακό θερμοσίφωνα"
+    ],
+    "application_process": "",
+    "managing_body": "",
+    "announcement_date": "",
+    "contact_info": [],
+    "additional_details": "",
+    "source_url": "https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/prasino-daneio-katoikias-eksoikonomisi-energeias",
+    "source_urls": [
+      "https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/prasino-daneio-katoikias-eksoikonomisi-energeias"
+    ],
+    "id": "program-abbe8e2969"
+  }
+}

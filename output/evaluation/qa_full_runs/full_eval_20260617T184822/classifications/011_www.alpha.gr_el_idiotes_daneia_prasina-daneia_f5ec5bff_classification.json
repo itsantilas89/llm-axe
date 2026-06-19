@@ -1,0 +1,57 @@
+{
+  "id": "program-f5ec5bff60",
+  "timestamp": "20260617T154845Z",
+  "url": "https://www.alpha.gr/el/idiotes/daneia/prasina-daneia",
+  "source_urls": [
+    "https://www.alpha.gr/el/idiotes/daneia/prasina-daneia"
+  ],
+  "source_files": [
+    "C:\\Users\\stavr\\Desktop\\HMMY\\Thesis\\llm-axe\\output\\va4_product_discoverer\\20260617T041839Z_www.alpha.gr_el_idiotes_daneia_prasina-daneia_f5ec5bff_classification.json"
+  ],
+  "merged_from_count": 1,
+  "merged": true,
+  "field_sources": {
+    "description": "https://www.alpha.gr/el/idiotes/daneia/prasina-daneia",
+    "eligible_interventions": [
+      "https://www.alpha.gr/el/idiotes/daneia/prasina-daneia"
+    ],
+    "funding_coverage": "https://www.alpha.gr/el/idiotes/daneia/prasina-daneia",
+    "funding_type": "https://www.alpha.gr/el/idiotes/daneia/prasina-daneia",
+    "interest_rate": "https://www.alpha.gr/el/idiotes/daneia/prasina-daneia",
+    "maximum_funding_amount": "https://www.alpha.gr/el/idiotes/daneia/prasina-daneia",
+    "programme_name": "https://www.alpha.gr/el/idiotes/daneia/prasina-daneia",
+    "programme_objective": "https://www.alpha.gr/el/idiotes/daneia/prasina-daneia"
+  },
+  "extracted_data": {
+    "description": "Πράσινα Δάνεια | ALPHA BANK ΠΙΣΩ Πράσινα Για το σπίτι Για ηλεκτρικό αυτοκίνητο Αναβαθμίζω το σπίτι μου Εξοικονομώ – Ανακαινίζω για νέους Πράσινα δάνεια Αναβαθμίστε ενεργειακά το σπίτι σας ή αποκτήστε οικολογικό όχημα, με δάνεια με ευνοϊκούς όρους που επιβραβεύουν τον οικολογικό τρόπο ζωής. Κλείνω ραντεβού Γιατί να πάρω πράσινο δάνειο Για να αναβαθμίσετε ενεργειακά Κάντε αναβάθμιση στο σπίτι σας ή αγοράστε και εγκαταστήστε οικιακό φωτοβολταϊκό σύστημα, για να εξοικονομήσετε ενέργεια. Για να αγοράσετε αυτοκίνητο Αγοράστε ηλεκτρικό ή υβριδικό αυτοκίνητο, ή άλλο οικολογικό όχημα και μειώστε το περιβαλλοντικό αποτύπωμά σας. Τι πρέπει να ξέρω για τα πράσινα δάνεια Επιλέγετε δάνειο ανάλογα με τις ανάγκες και το προφίλ σας.",
+    "eligible_interventions": [
+      "Ενεργειακή αναβάθμιση κατοικίας",
+      "Εγκατάσταση οικιακού φωτοβολταϊκού συστήματος",
+      "Εγκατάσταση φωτοβολταϊκών ή άλλων ΑΠΕ"
+    ],
+    "funding_coverage": "μέχρι και 100% του προϋπολογισμού σας",
+    "funding_type": "Δάνειο",
+    "interest_rate": "Σταθερό ή κυμαινόμενο επιτόκιο Με το κυμαινόμενο επιτόκιο, η δόση σας ακολουθεί την πορεία των επιτοκίων στην αγορά",
+    "maximum_funding_amount": "30.000€",
+    "programme_name": "Πράσινα Δάνεια",
+    "programme_objective": "Πράσινα Δάνεια | ALPHA BANK ΠΙΣΩ Πράσινα Για το σπίτι Για ηλεκτρικό αυτοκίνητο Αναβαθμίζω το σπίτι μου Εξοικονομώ – Ανακαινίζω για νέους Πράσινα δάνεια Αναβαθμίστε ενεργειακά το σπίτι σας ή αποκτήστε οικολογικό όχημα, με δάνεια με ευνοϊκούς όρους που επιβραβεύουν τον οικολογικό τρόπο ζωής. Κλείνω ραντεβού Γιατί να πάρω πράσινο δάνειο Για να αναβαθμίσετε ενεργειακά Κάντε αναβάθμιση στο σπίτι σας ή αγοράστε και εγκαταστήστε οικιακό φωτοβολταϊκό σύστημα, για να εξοικονομήσετε ενέργεια. Για να αγοράσετε αυτοκίνητο Αγοράστε ηλεκτρικό ή υβριδικό αυτοκίνητο, ή άλλο οικολογικό όχημα και μειώστε το περιβαλλοντικό αποτύπωμά σας. Τι πρέπει να ξέρω για τα πράσινα δάνεια Επιλέγετε δάνειο ανάλογα με τις ανάγκες και το προφίλ σας.",
+    "source_urls": [
+      "https://www.alpha.gr/el/idiotes/daneia/prasina-daneia"
+    ],
+    "source_url": "https://www.alpha.gr/el/idiotes/daneia/prasina-daneia",
+    "id": "program-f5ec5bff60"
+  },
+  "classification": {
+    "is_relevant": true,
+    "primary_category": "green_housing_loan",
+    "secondary_categories": [
+      "energy_upgrade",
+      "home_renewables"
+    ],
+    "confidence": 0.92,
+    "reasoning": "Merged source-backed JSON from 1 relevant URL(s).",
+    "key_features": [
+      "deterministic_home_green_finance_scope"
+    ]
+  }
+}

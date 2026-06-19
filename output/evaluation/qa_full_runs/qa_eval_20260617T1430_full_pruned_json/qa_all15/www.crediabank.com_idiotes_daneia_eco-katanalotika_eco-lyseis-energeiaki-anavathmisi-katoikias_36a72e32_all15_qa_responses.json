@@ -1,0 +1,147 @@
+{
+  "timestamp": "20260617T113024Z",
+  "url": "https://www.crediabank.com/idiotes/daneia/eco-katanalotika/eco-lyseis-energeiaki-anavathmisi-katoikias/",
+  "programme_name": "Credia Eco Λύσεις",
+  "classification_file": "20260617T033048Z_www.crediabank.com_idiotes_daneia_eco-katanalotika_eco-lyseis-energeiaki-anavathmisi-katoikias_36a72e32_classification.json",
+  "qa_count": 15,
+  "source": "qa_evaluation_suite",
+  "mode": "all15",
+  "responses": [
+    {
+      "question_id": "q1",
+      "question": "1) Περίγραψε το πρόγραμμα, στόχος, δικαιούχοι, βασικά οφέλη.",
+      "answer": "Το πρόγραμμα ονομάζεται Credia Eco Λύσεις και έχει στόχο την ενεργειακή αναβάθμιση κατοικιών. Οι δικαιούχοι είναι οι ιδιοκτήτες κατοικίας. Τα βασικά οφέλη είναι η μείωση του κόστους ενέργειας θέρμανσης – ψύξης και η προστασία του περιβαλλοντικού αποτυπώματος.",
+      "repeat_index": 1,
+      "repeat_count": 1,
+      "timestamp": "2026-06-17T11:36:16.012549+00:00",
+      "source": "qa_evaluation_suite"
+    },
+    {
+      "question_id": "q2",
+      "question": "2) Εξήγησε τη διαφορά μεταξύ “επιχορήγησης” και “δανείου” στο πλαίσιο ενεργειακής αναβάθμισης, με ένα παράδειγμα για το καθένα.",
+      "answer": "Δεν υπάρχει πληροφορία",
+      "repeat_index": 1,
+      "repeat_count": 1,
+      "timestamp": "2026-06-17T11:36:16.016208+00:00",
+      "source": "qa_evaluation_suite"
+    },
+    {
+      "question_id": "q3",
+      "question": "3) Δώσε 5 λέξεις-κλειδιά για αναζήτηση σχετικών προγραμμάτων και εξήγησε σε 1 πρόταση γιατί είναι χρήσιμη η καθεμία.",
+      "answer": "[{'keyword': 'ενεργειακή αναβάθμιση', 'description': 'Χρησιμοποιείται για την αναζήτηση προγραμμάτων που σχετίζονται με την ενεργειακή αναβάθμιση κατοικιών.'}, {'keyword': 'δάνειο', 'description': 'Χρησιμοποιείται για την αναζήτηση προγραμμάτων που χρηματοδοτούν την ενεργειακή αναβάθμιση κατοικιών με δάνεια.'}, {'keyword': 'χρηματοδότηση', 'description': 'Χρησιμοποιείται για την αναζήτηση προγραμμάτων που χρηματοδοτούν την ενεργειακή αναβάθμιση κατοικιών.'}, {'keyword': 'πράσινη οικονομία', 'description': 'Χρησιμοποιείται για την αναζήτηση προγραμμάτων που σχετίζονται με την πράσινη οικονομία και την ενεργειακή αναβάθμιση κατοικιών.'}, {'keyword': 'ενέργεια', 'description': 'Χρησιμοποιείται για την αναζήτηση προγραμμάτων που σχετίζονται με την ενέργεια και την ενεργειακή αναβάθμιση κατοικιών.'}]",
+      "repeat_index": 1,
+      "repeat_count": 1,
+      "timestamp": "2026-06-17T11:36:16.018832+00:00",
+      "source": "qa_evaluation_suite"
+    },
+    {
+      "question_id": "q4",
+      "question": "4) Εντόπισε όλες τις προθεσμίες που αναφέρονται και γράψε τες σε μορφή ΗΗ/ΜΜ/ΕΕΕΕ.",
+      "answer": "Δεν υπάρχει πληροφορία",
+      "repeat_index": 1,
+      "repeat_count": 1,
+      "timestamp": "2026-06-17T11:37:44.008611+00:00",
+      "source": "qa_evaluation_suite"
+    },
+    {
+      "question_id": "q5",
+      "question": "5) Βρες αν υπάρχει ανώτατο ή κατώτατο όριο χρηματοδότησης και δώσε το ακριβές ποσό/ποσοστό.",
+      "answer": "1.500€ - 25.000€",
+      "repeat_index": 1,
+      "repeat_count": 1,
+      "timestamp": "2026-06-17T11:37:44.010642+00:00",
+      "source": "qa_evaluation_suite"
+    },
+    {
+      "question_id": "q6",
+      "question": "6) Ποιες παρεμβάσεις ενεργειακής αναβάθμισης χρηματοδοτούνται;",
+      "answer": "[\"Μονώσεις\", \"Αντικατάσταση κουφωμάτων\", \"Τοποθέτηση / αντικατάσταση κελύφους για θερμομόνωση\", \"Αναβάθμιση συστήματος θέρμανσης / ψύξης\", \"Αναβάθμιση συστήματος ζεστού νερού χρήσης μέσω ΑΠΕ\"]",
+      "repeat_index": 1,
+      "repeat_count": 1,
+      "timestamp": "2026-06-17T11:37:44.012595+00:00",
+      "source": "qa_evaluation_suite"
+    },
+    {
+      "question_id": "q7",
+      "question": "7) Ποια είναι τα σημαντικότερα σημεία που πρέπει να προσέξει ένας ενδιαφερόμενος πριν υποβάλει αίτηση;",
+      "answer": "Δεν υπάρχει πληροφορία",
+      "repeat_index": 1,
+      "repeat_count": 1,
+      "timestamp": "2026-06-17T11:38:36.516668+00:00",
+      "source": "qa_evaluation_suite"
+    },
+    {
+      "question_id": "q8",
+      "question": "8) Τι γίνεται αν δεν ολοκληρωθούν οι εργασίες μέσα στην προβλεπόμενη προθεσμία;",
+      "answer": "Δεν υπάρχει πληροφορία",
+      "repeat_index": 1,
+      "repeat_count": 1,
+      "timestamp": "2026-06-17T11:38:36.518388+00:00",
+      "source": "qa_evaluation_suite"
+    },
+    {
+      "question_id": "q9",
+      "question": "9) Υπάρχουν υποχρεώσεις του δικαιούχου μετά την ολοκλήρωση του έργου;",
+      "answer": "Δεν υπάρχει πληροφορία",
+      "repeat_index": 1,
+      "repeat_count": 1,
+      "timestamp": "2026-06-17T11:38:36.520228+00:00",
+      "source": "qa_evaluation_suite"
+    },
+    {
+      "question_id": "q10",
+      "question": "10) Describe the program in 90-120 words.",
+      "answer": "Το πρόγραμμα Credia Eco Λύσεις προσφέρει χρηματοδότηση έως και το 100% του ποσού τιμολογίων/προτιμολογίων ή προσφοράς για εργασίες ενεργειακής αναβάθμισης κατοικίας. Οι επιλέξιμες παρεμβάσεις περιλαμβάνουν την αντικατάσταση κουφωμάτων, τη τοποθέτηση/αναβάθμιση θερμομόνωσης και την αναβάθμιση συστήματος θέρμανσης/ψύξης.",
+      "repeat_index": 1,
+      "repeat_count": 1,
+      "timestamp": "2026-06-17T11:41:05.465758+00:00",
+      "source": "qa_evaluation_suite"
+    },
+    {
+      "question_id": "q11",
+      "question": "11) Explain the difference between a 'grant' and a 'loan' in the context of energy upgrades, with one example for each.",
+      "answer": "Μια δόση (grant) είναι μια μορφή χρηματοδότησης που δεν χρειάζεται να αποπληρωθεί, ενώ ένα δάνειο (loan) πρέπει να επιστραφεί με τόκο. Παράδειγμα: Eine δόση για την αντικατάσταση κουφωμάτων θα δώσει 100% των αναγκαίων ποσών χωρίς να χρειάζεται να επιστρέψει το ποσό, ενώ ένα δάνειο για την ίδια εργασία θα απαιτεί την επιστροφή του ποσού με τόκο.",
+      "repeat_index": 1,
+      "repeat_count": 1,
+      "timestamp": "2026-06-17T11:41:05.468392+00:00",
+      "source": "qa_evaluation_suite"
+    },
+    {
+      "question_id": "q12",
+      "question": "12) Ποια είναι η πρωτεύουσα της Ελλάδας ;",
+      "answer": "Δεν υπάρχει πληροφορία",
+      "repeat_index": 1,
+      "repeat_count": 1,
+      "timestamp": "2026-06-17T11:41:05.470092+00:00",
+      "source": "qa_evaluation_suite"
+    },
+    {
+      "question_id": "q13",
+      "question": "13) Ποια είναι η πρωτεύουσα της Γαλλίας ;",
+      "answer": "Δεν υπάρχει πληροφορία",
+      "repeat_index": 1,
+      "repeat_count": 1,
+      "timestamp": "2026-06-17T11:41:47.311743+00:00",
+      "source": "qa_evaluation_suite"
+    },
+    {
+      "question_id": "q14",
+      "question": "14) What's the capital of Greece ?",
+      "answer": "Δεν υπάρχει πληροφορία",
+      "repeat_index": 1,
+      "repeat_count": 1,
+      "timestamp": "2026-06-17T11:41:47.313711+00:00",
+      "source": "qa_evaluation_suite"
+    },
+    {
+      "question_id": "q15",
+      "question": "15) What's the capital of France ?",
+      "answer": "Δεν υπάρχει πληροφορίες",
+      "repeat_index": 1,
+      "repeat_count": 1,
+      "timestamp": "2026-06-17T11:41:47.315201+00:00",
+      "source": "qa_evaluation_suite"
+    }
+  ],
+  "updated_at": "2026-06-17T11:41:47.315228+00:00"
+}

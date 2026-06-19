@@ -1,0 +1,43 @@
+\begin{tikzpicture}[
+    card/.style={
+        rectangle,
+        rounded corners=3pt,
+        draw=blue!55,
+        fill=blue!6,
+        align=left,
+        text width=4.95cm,
+        minimum height=0.92cm,
+        inner xsep=7pt,
+        font=\sffamily\small
+    },
+    outcome/.style={
+        rectangle,
+        rounded corners=3pt,
+        draw=teal!55!black,
+        fill=teal!7,
+        align=left,
+        text width=4.95cm,
+        minimum height=0.92cm,
+        inner xsep=7pt,
+        font=\sffamily\small
+    },
+    arrow/.style={-{Latex[length=2mm]}, thick, draw=gray!65}
+]
+\node[card] (s1) at (0,0) {\textbf{1.} Διαδικτυακές πηγές};
+\node[card, below=0.36cm of s1] (s2) {\textbf{2.} Συλλογή και καθαρισμός περιεχομένου};
+\node[card, below=0.36cm of s2] (s3) {\textbf{3.} Απόφαση συνάφειας με LLM};
+\node[card, below=0.36cm of s3] (s4) {\textbf{4.} Εξαγωγή σε δομημένο JSON};
+
+\node[outcome, right=1.05cm of s1] (s5) {\textbf{5.} Έλεγχος ποιότητας και τεκμηρίωσης};
+\node[outcome, below=0.36cm of s5] (s6) {\textbf{6.} Δομημένη αποθήκευση JSON};
+\node[outcome, below=0.36cm of s6] (s7) {\textbf{7.} Web εφαρμογή διαχειριστή};
+\node[outcome, below=0.36cm of s7] (s8) {\textbf{8.} Προβολή και ερωτήσεις χρήστη};
+
+\draw[arrow] (s1) -- (s2);
+\draw[arrow] (s2) -- (s3);
+\draw[arrow] (s3) -- (s4);
+\draw[arrow] (s4.east) -- ++(0.52,0) |- (s5.west);
+\draw[arrow] (s5) -- (s6);
+\draw[arrow] (s6) -- (s7);
+\draw[arrow] (s7) -- (s8);
+\end{tikzpicture}

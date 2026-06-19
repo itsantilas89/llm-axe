@@ -1,5 +1,6 @@
 [
   {
+    "id": "2023-38e6dacb34",
     "programme_name": "Εξοικονομώ 2023",
     "description": "",
     "programme_objective": "",
@@ -31,6 +32,27 @@
     "managing_body": "Ευρωπαϊκή Επιτροπή",
     "announcement_date": "01/06/2023",
     "contact_info": [],
-    "additional_details": ""
+    "additional_details": "",
+    "source_url": "https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/eksoikonomo-2023",
+    "source_urls": [
+      "https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/eksoikonomo-2023"
+    ],
+    "review_status": "needs_review",
+    "admin_notes": "",
+    "scraped_at": "2026-05-18T10:16:38+00:00",
+    "updated_at": "2026-05-26T08:16:05+00:00",
+    "classification": {
+      "is_relevant": true,
+      "primary_category": "green_housing_loan",
+      "secondary_categories": [
+        "energy_upgrade"
+      ],
+      "confidence": 0.95,
+      "reasoning": "Το πρόγραμμα 'Εξοικονομώ 2023' είναι ένα πράσινο στεγαστικό δάνειο με υποχρεωτικές ενεργειακές επεμβάσεις, που απαιτεί από τους ιδιοκτήτες να έχουν σπίτια με ενεργειακή κατανόηση A ή B.",
+      "key_features": [
+        "πράσινο στεγαστικό δάνειο",
+        "υποχρεωτικές ενεργειακές επεμβάσεις"
+      ]
+    }
   }
 ]

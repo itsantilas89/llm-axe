@@ -1,0 +1,83 @@
+{
+  "timestamp": "20260616T160047Z",
+  "url": "https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/prasino-daneio-katoikias-eksoikonomisi-energeias",
+  "classification": {
+    "is_relevant": true,
+    "primary_category": "green_housing_loan",
+    "secondary_categories": [
+      "energy_upgrade"
+    ],
+    "confidence": 0.95,
+    "reasoning": "Το πρόγραμμα αφορά πράσινο δάνειο κατοικίας με υποχρεωτικές ενεργειακές επεμβάσεις, που είναι χαρακτηριστικό της κατηγορίας green_housing_loan και energy_upgrade.",
+    "key_features": [
+      "πράσινο δάνειο",
+      "υποχρεωτικές ενεργειακές επεμβάσεις",
+      "deterministic_home_green_finance_scope"
+    ]
+  },
+  "extracted_data": {
+    "programme_name": "Πράσινο Δάνειο Κατοικίας – Εξοικονόμηση Ενέργειας",
+    "description": "Πράσινο Δάνειο Κατοικίας – Εξοικονόμηση Ενέργειας | Eurobank Επιλέξτε γλώσσα Επιλέξτε γλώσσα Top Menu Top Menu Main Menu Extra Button Menu Page Contents Footer Αναζήτηση Αναζήτηση Πράσινο δάνειο κατοικίας – Εξοικονόμηση ενέργειας Οικονομία σε λογαριασμούς ενέργειας Έως 15.000€ χωρίς εξασφάλιση Πάνω από 15.000€ με εξασφάλιση Με το πράσινο δάνειο κατοικίας – Εξοικονόμηση ενέργειας πραγματοποιείτε εργασίες ενεργειακής αναβάθμισης στο σπίτι σας, π.χ.",
+    "programme_objective": "Πράσινο Δάνειο Κατοικίας – Εξοικονόμηση Ενέργειας | Eurobank Επιλέξτε γλώσσα Επιλέξτε γλώσσα Top Menu Top Menu Main Menu Extra Button Menu Page Contents Footer Αναζήτηση Αναζήτηση Πράσινο δάνειο κατοικίας – Εξοικονόμηση ενέργειας Οικονομία σε λογαριασμούς ενέργειας Έως 15.000€ χωρίς εξασφάλιση Πάνω από 15.000€ με εξασφάλιση Με το πράσινο δάνειο κατοικίας – Εξοικονόμηση ενέργειας πραγματοποιείτε εργασίες ενεργειακής αναβάθμισης στο σπίτι σας, π.χ.",
+    "eligible_parties": [],
+    "eligibility_criteria": [],
+    "property_requirements": [
+      ""
+    ],
+    "minimum_funding_amount": "",
+    "maximum_funding_amount": "",
+    "funding_type": "",
+    "interest_rate": "",
+    "funding_coverage": "",
+    "total_budget": "",
+    "funding_sources": [],
+    "duration": "",
+    "loan_duration": "",
+    "completion_deadline": "",
+    "application_start_date": "",
+    "application_end_date": "",
+    "energy_performance_targets": [
+      ""
+    ],
+    "eligible_interventions": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "application_process": "",
+    "managing_body": "",
+    "announcement_date": "",
+    "contact_info": [],
+    "additional_details": "",
+    "source_url": "https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/prasino-daneio-katoikias-eksoikonomisi-energeias",
+    "source_urls": [
+      "https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/prasino-daneio-katoikias-eksoikonomisi-energeias"
+    ],
+    "id": "program-abbe8e2969"
+  }
+}

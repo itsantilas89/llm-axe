@@ -61,7 +61,7 @@ def example_single_url():
             return
         
         # Process the URL
-        extracted_data, classification = process_url(url, llm, enable_qa=True)
+        extracted_data, classification, _experiment_id = process_url(url, llm, enable_qa=True)
         
         # Print summary
         print("\n" + "="*70)
@@ -100,7 +100,7 @@ def example_batch_processing():
     for i, url in enumerate(urls_to_test, 1):
         print(f"\n[{i}/{len(urls_to_test)}] Επεξεργασία: {url}")
         try:
-            extracted_data, classification = process_url(
+            extracted_data, classification, _experiment_id = process_url(
                 url, llm, enable_qa=False  # Disable Q&A for batch processing
             )
             results.append({

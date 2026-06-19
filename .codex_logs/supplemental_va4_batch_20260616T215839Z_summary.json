@@ -1,0 +1,26 @@
+{
+  "started": "20260616T215839Z",
+  "results": [
+    {
+      "url": "https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/green-fast-loan",
+      "status": "error",
+      "returncode": null,
+      "seconds": 715.528568,
+      "error": "'charmap' codec can't encode characters in position 272-282: character maps to <undefined>"
+    },
+    {
+      "url": "https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/prasino-daneio-katoikias-eksoikonomisi-energeias",
+      "status": "error",
+      "returncode": null,
+      "seconds": 434.811475,
+      "error": "'charmap' codec can't encode characters in position 272-282: character maps to <undefined>"
+    },
+    {
+      "url": "https://www.nbg.gr/el/idiwtes/daneia/daneia-exoikonomisis-energeias/prasino-daneio",
+      "status": "error",
+      "returncode": null,
+      "seconds": 584.678729,
+      "error": "'charmap' codec can't encode characters in position 272-282: character maps to <undefined>"
+    }
+  ]
+}

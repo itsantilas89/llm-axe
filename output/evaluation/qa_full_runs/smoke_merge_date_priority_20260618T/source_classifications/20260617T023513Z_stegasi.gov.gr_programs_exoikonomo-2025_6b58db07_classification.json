@@ -1,0 +1,75 @@
+{
+  "timestamp": "20260617T023513Z",
+  "url": "https://stegasi.gov.gr/programs/exoikonomo-2025/",
+  "classification": {
+    "is_relevant": true,
+    "primary_category": "green_housing_loan",
+    "secondary_categories": [
+      "home_renewables",
+      "energy_upgrade"
+    ],
+    "confidence": 0.92,
+    "reasoning": "Deterministic scope pass: home energy finance signals found",
+    "key_features": [
+      "deterministic_home_green_finance_scope"
+    ]
+  },
+  "extracted_data": {
+    "programme_name": "Εξοικονομώ 2025",
+    "description": "Μετάβαση στο κύριο περιεχόμενο Ενεργοποίηση προσβασιμότητας για χαμηλή όραση Ανοίξτε το μενού προσβασιμότητας ΕΛΛΗΝΙΚΗ ΔΗΜΟΚΡΑΤΙΑ Υπουργειο Κοινωνικης Συνοχης και Οικογενειας Βρες το πρόγραμμά σου Εξοικονομώ 2025 Δήμοι - Οργανισμός Προνοιακών Επιδομάτων και Κοινωνικής Αλληλεγγύης - Υπουργείο Περιβάλλοντος και Ενέργειας Σε εξέλιξη Παρήλθε η περίοδος αιτήσεων Αρχική /Όλα Τα Προγράμματα /Στεγαστικά Προγράμματα /Εξοικονομώ 2025 Πληροφορίες Προγράμματος Στόχος του προγράμματος είναι η εξοικονόμηση ενέργειας, μέσω βελτίωσης της ενεργειακής κλάσης των νοικοκυριών, επιτυγχάνοντας εξοικονόμηση πρωτογενούς ενέργειας πάνω από 30% για κάθε κατοικία, μέσω της ενεργειακής αναβάθμισης κατά τουλάχιστον 3 ενεργειακές κατηγορίες.",
+    "programme_objective": "η εξοικονόμηση ενέργειας, μέσω βελτίωσης της ενεργειακής κλάσης των νοικοκυριών",
+    "eligible_parties": [
+      "πληγέντες φυσικών καταστροφών των περιοχών της Θεσσαλίας, της Στερεάς Ελλάδας, της Κεντρικής και Δυτικής Μακεδονίας και τους σεισμόπληκτους του Αρκαλοχωρίου και της Σάμου",
+      "οικογένειες με τρία (3) ή περισσότερα εξαρτώμενα τέκνα"
+    ],
+    "eligibility_criteria": [
+      "Ατομικό εισόδημα: ≤5.000 ή οικογενειακό εισόδημα: ≤10.000",
+      "Ατομικό εισόδημα: >5.000 ή οικογενειακό εισόδημα: >10.000"
+    ],
+    "property_requirements": [
+      "υφίσταται νόμιμα",
+      "δεν έχει κριθεί κατεδαφιστέα",
+      "χρησιμοποιείται ως κύρια κατοικία",
+      "έχει καταταχθεί βάσει του Πρώτου Πιστοποιητικού Ενεργειακής Απόδοσης (Α’ Π.Ε.Α.) σε κατηγορία χαμηλότερη ή ίση της Γ."
+    ],
+    "minimum_funding_amount": "",
+    "maximum_funding_amount": "",
+    "funding_type": "",
+    "interest_rate": "",
+    "funding_coverage": "έως το 100% του επιλέξιμου προϋπολογισμού παρεμβάσεων υφίσταται η δυνατότητα χορήγησης δανείου για την εισοδηματική κατηγορία 2 με επιδότηση επιτοκίου, στη βάση σχετικού αιτήματος του Ωφελούμενου",
+    "total_budget": "",
+    "funding_sources": [],
+    "duration": "",
+    "loan_duration": "",
+    "completion_deadline": "",
+    "application_start_date": "",
+    "application_end_date": "13/4/2025",
+    "energy_performance_targets": [
+      "30% για κάθε κατοικία"
+    ],
+    "eligible_interventions": [
+      "Μονώσεις",
+      "Αντικατάσταση κουφωμάτων",
+      "Τοποθέτηση / αντικατάσταση κελύφους για θερμομόνωση",
+      "Αναβάθμιση συστήματος θέρμανσης / ψύξης",
+      "Αναβάθμιση συστήματος ζεστού νερού χρήσης μέσω ΑΠΕ",
+      "Εγκατάσταση συστήματος αποθήκευσης ενέργειας"
+    ],
+    "application_process": "",
+    "managing_body": "Οργανισμός Προνοιακών Επιδομάτων και Κοινωνικής Αλληλεγγύης - Υπουργείο Περιβάλλοντος και Ενέργειας",
+    "announcement_date": "",
+    "contact_info": "",
+    "additional_details": "",
+    "source_url": "https://stegasi.gov.gr/programs/exoikonomo-2025/",
+    "source_urls": [
+      "https://stegasi.gov.gr/programs/exoikonomo-2025/"
+    ],
+    "id": "2025-6b58db07e5",
+    "completion_delay_consequences": "",
+    "post_completion_obligations": ""
+  },
+  "repair_metadata": {
+    "source_scraped_file": "C:\\Users\\stavr\\Desktop\\HMMY\\Thesis\\llm-axe\\output\\va3_scraper_to_template\\20260617T022925Z_stegasi.gov.gr_programs_exoikonomo-2025_6b58db07_scraped.txt",
+    "repair": "source_backed_core_field_repair"
+  }
+}

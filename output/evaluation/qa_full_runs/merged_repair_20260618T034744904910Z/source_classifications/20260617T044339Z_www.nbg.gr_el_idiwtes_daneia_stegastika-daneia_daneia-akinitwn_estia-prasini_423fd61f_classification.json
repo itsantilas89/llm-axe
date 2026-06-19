@@ -1,0 +1,62 @@
+{
+  "timestamp": "20260617T044339Z",
+  "url": "https://www.nbg.gr/el/idiwtes/daneia/stegastika-daneia/daneia-akinitwn/estia-prasini",
+  "classification": {
+    "is_relevant": true,
+    "primary_category": "green_housing_loan",
+    "secondary_categories": [
+      "home_renewables",
+      "energy_upgrade"
+    ],
+    "confidence": 0.92,
+    "reasoning": "Deterministic scope pass: home energy finance signals found",
+    "key_features": [
+      "deterministic_home_green_finance_scope"
+    ]
+  },
+  "extracted_data": {
+    "programme_name": "ΕΣΤΙΑ Πράσινη Στεγαστικό Δάνειο",
+    "description": "ΕΣΤΙΑ Πράσινη Στεγαστικό Δάνειο | Εθνική Τράπεζα Στεγαστικό ΕΣΤΙΑ Πράσινη 48 ώρες προέγκριση, 48 ώρες εκταμίευση, προσωπικός σύμβουλος. Ιδιώτες Δάνεια Στεγαστικά Δάνεια Δάνεια για Αγορά Ακινήτων ΕΣΤΙΑ Πράσινη Με το ΕΣΤΙΑ Πράσινη μπορείτε να χρηματοδοτηθείτε με ευνοϊκούς όρους για να αγοράσετε σπίτι με ενεργειακή κατηγορία τουλάχιστον Γ'. Έτσι, μπορείτε να εξοικονομήσετε ενέργεια και χρήματα, προστατεύοντας το περιβάλλον.",
+    "programme_objective": "ΕΣΤΙΑ Πράσινη Στεγαστικό Δάνειο | Εθνική Τράπεζα Στεγαστικό ΕΣΤΙΑ Πράσινη 48 ώρες προέγκριση, 48 ώρες εκταμίευση, προσωπικός σύμβουλος. Ιδιώτες Δάνεια Στεγαστικά Δάνεια Δάνεια για Αγορά Ακινήτων ΕΣΤΙΑ Πράσινη Με το ΕΣΤΙΑ Πράσινη μπορείτε να χρηματοδοτηθείτε με ευνοϊκούς όρους για να αγοράσετε σπίτι με ενεργειακή κατηγορία τουλάχιστον Γ'. Έτσι, μπορείτε να εξοικονομήσετε ενέργεια και χρήματα, προστατεύοντας το περιβάλλον.",
+    "eligible_parties": [
+      "Ιδιώτες"
+    ],
+    "eligibility_criteria": "",
+    "property_requirements": [
+      "Αγορά σπιτιού",
+      "Αγορά οικοπέδου για ανέγερση σπιτιού",
+      "Ανέγερση, αποπεράτωση, επέκταση ή επισκευή σπιτιού"
+    ],
+    "minimum_funding_amount": "",
+    "maximum_funding_amount": "",
+    "funding_type": "Δάνειο",
+    "interest_rate": "σας κατά 0,10% ανεξαρτήτως ενεργειακής κατηγορίας Να μειώσετε το περιθώριο κυμαινόμενου επιτοκίου του δανείου σας κατά 0,10%, 0,15% ή 0,25%, ανάλογα με την ενεργειακή κατηγορία Να έχετε έκπτωση 50% στα έξοδα δανείου και το χαμηλότερο σταθε",
+    "funding_coverage": "100%",
+    "total_budget": "",
+    "funding_sources": [],
+    "duration": "40 χρόνια",
+    "loan_duration": "10 χρόνια",
+    "completion_deadline": "",
+    "application_start_date": "",
+    "application_end_date": "",
+    "energy_performance_targets": [
+      "Γ' ενεργειακή κατηγορία"
+    ],
+    "eligible_interventions": [
+      "αιτήματα για μεγαλύτερα ποσά δανείου",
+      "τα οποία ενδέχεται να απαιτούν πρόσθετη αξιολόγηση από αρμόδια ανώτερη εγκριτική επιτροπή και",
+      "ως εκ τούτου",
+      "μην λάβουν προέγκριση εντός του εν λόγω χρονικού διαστήματος"
+    ],
+    "application_process": "",
+    "managing_body": "",
+    "announcement_date": "",
+    "contact_info": "",
+    "additional_details": "",
+    "post_completion_obligations": "Για τις λοιπές περιπτώσεις (αγορά υπό ανέγερση κατοικίας, ανέγερση / αποπεράτωση / επισκευή), μετά την ολοκλήρωση των εργασιών και την προσκόμιση στην Τράπεζα του Πιστοποιητικού Ενεργειακής Αναβάθμισης (Π.Ε.Α.), σύμφωνα με το οποίο πιστοποιείται η τελική κατάταξη του ακινήτου σε ενεργειακή κατηγορία, αρκεί το δάνειο να είναι ενήμερο και επιπλέον σε περίπτωση επισκευής, το σπίτι να έχει αναβαθμιστεί κατά τουλάχιστον 1 ενεργειακή κατηγορία."
+  },
+  "repair_metadata": {
+    "source_scraped_file": "C:\\Users\\stavr\\Desktop\\HMMY\\Thesis\\llm-axe\\output\\va3_scraper_to_template\\20260617T043518Z_www.nbg.gr_el_idiwtes_daneia_stegastika-daneia_daneia-akinitwn_estia-prasini_423fd61f_scraped.txt",
+    "repair": "source_backed_core_field_repair"
+  }
+}

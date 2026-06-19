@@ -1,0 +1,47 @@
+[
+  {
+    "programme_name": "Πράσινο Δάνειο",
+    "description": "Μπορείτε να αποκτήσετε καινούργιο ηλεκτρικό όχημα/υβριδικό αυτοκίνητο και να αναβαθμίσετε ενεργειακά το σπίτι σας ή να αποκτήσετε συσκευές για εξοικονόμηση ενέργειας.",
+    "programme_objective": "Μπορείτε να αποκτήσετε καινούργιο ηλεκτρικό όχημα/υβριδικό αυτοκίνητο και να αναβαθμίσετε ενεργειακά το σπίτι σας ή να αποκτήσετε συσκευές για εξοικονόμηση ενέργειας.",
+    "eligible_parties": [
+      "Ιδιώτες",
+      "Δημόσιος"
+    ],
+    "eligibility_criteria": [],
+    "property_requirements": [
+      "αγορά καινούργιο ηλεκτρικό όχημα/υβριδικό αυτοκίνητο",
+      "ενεργειακή αναβάθμιση της κατοικίας σας"
+    ],
+    "minimum_funding_amount": "",
+    "maximum_funding_amount": "€30.000",
+    "funding_type": "",
+    "interest_rate": "",
+    "funding_coverage": "",
+    "total_budget": "",
+    "funding_sources": [],
+    "duration": "",
+    "loan_duration": [
+      "12-48 μήνες",
+      "12-72 μήνες",
+      "12-84 μήνες"
+    ],
+    "completion_deadline": "",
+    "application_start_date": "",
+    "application_end_date": "",
+    "energy_performance_targets": "",
+    "eligible_interventions": [
+      "αγορά καινούργιο ηλεκτρικό όχημα/υβριδικό αυτοκίνητο",
+      "ενεργειακή αναβάθμιση της κατοικίας σας"
+    ],
+    "application_process": "",
+    "managing_body": "",
+    "announcement_date": "",
+    "contact_info": [],
+    "additional_details": "",
+    "source_url": "https://www.nbg.gr/el/idiwtes/daneia/daneia-exoikonomisis-energeias/prasino-daneio",
+    "source_urls": [
+      "https://www.nbg.gr/el/idiwtes/daneia/daneia-exoikonomisis-energeias/prasino-daneio"
+    ],
+    "id": "program-8ef520bcb6"
+  }
+]

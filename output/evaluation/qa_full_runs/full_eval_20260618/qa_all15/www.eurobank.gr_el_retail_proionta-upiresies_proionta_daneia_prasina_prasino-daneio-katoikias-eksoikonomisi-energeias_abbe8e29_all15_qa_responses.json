@@ -1,0 +1,162 @@
+{
+  "timestamp": "20260619T025337Z",
+  "url": "https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/prasino-daneio-katoikias-eksoikonomisi-energeias",
+  "programme_name": "Πράσινο Δάνειο Κατοικίας – Εξοικονόμηση Ενέργειας",
+  "classification_file": "014_www.eurobank.gr_el_retail_proionta-upiresies_proionta_daneia_prasina_prasino-daneio-katoikias-eksoikonomisi-energeias_abbe8e29_classification.json",
+  "qa_count": 15,
+  "source": "qa_evaluation_suite",
+  "mode": "all15",
+  "responses": [
+    {
+      "question_id": "q12",
+      "question": "12) Ποια είναι η πρωτεύουσα της Ελλάδας ;",
+      "answer": "Δεν υπάρχει πληροφορία",
+      "repeat_index": 1,
+      "repeat_count": 1,
+      "timestamp": "2026-06-19T02:53:37.500300+00:00",
+      "source": "qa_evaluation_suite",
+      "answer_mode": "deterministic_out_of_scope_guard"
+    },
+    {
+      "question_id": "q13",
+      "question": "13) Ποια είναι η πρωτεύουσα της Γαλλίας ;",
+      "answer": "Δεν υπάρχει πληροφορία",
+      "repeat_index": 1,
+      "repeat_count": 1,
+      "timestamp": "2026-06-19T02:53:37.501270+00:00",
+      "source": "qa_evaluation_suite",
+      "answer_mode": "deterministic_out_of_scope_guard"
+    },
+    {
+      "question_id": "q14",
+      "question": "14) What's the capital of Greece ?",
+      "answer": "Δεν υπάρχει πληροφορία",
+      "repeat_index": 1,
+      "repeat_count": 1,
+      "timestamp": "2026-06-19T02:53:37.502590+00:00",
+      "source": "qa_evaluation_suite",
+      "answer_mode": "deterministic_out_of_scope_guard"
+    },
+    {
+      "question_id": "q15",
+      "question": "15) What's the capital of France ?",
+      "answer": "Δεν υπάρχει πληροφορία",
+      "repeat_index": 1,
+      "repeat_count": 1,
+      "timestamp": "2026-06-19T02:53:37.503786+00:00",
+      "source": "qa_evaluation_suite",
+      "answer_mode": "deterministic_out_of_scope_guard"
+    },
+    {
+      "question_id": "q1",
+      "question": "1) Περίγραψε το πρόγραμμα, στόχος, δικαιούχοι, βασικά οφέλη.",
+      "answer": "Το πρόγραμμα \"Πράσινο Δάνειο Κατοικίας – Εξοικονόμηση Ενέργειας\" έχει ως στόχο την ενεργειακή αναβάθμισης των κατοικιών. Οι δικαιούχοι είναι οι πελάτες της Eurobank που έχουν κωδικούς e-Banking. Τα βασικά οφέλη του προγράμματος περιλαμβάνουν τη μείωση των λογαριασμών ενέργειας και την αύξηση της αξίας του σπιτιού.",
+      "repeat_index": 1,
+      "repeat_count": 1,
+      "timestamp": "2026-06-19T02:55:58.610459+00:00",
+      "source": "qa_evaluation_suite",
+      "answer_mode": "llm"
+    },
+    {
+      "question_id": "q2",
+      "question": "2) Εξήγησε τη διαφορά μεταξύ “επιχορήγησης” και “δανείου” στο πλαίσιο ενεργειακής αναβάθμισης, με ένα παράδειγμα για το καθένα.",
+      "answer": "Η επιχορήγηση και το δάνειο είναι δύο διαφορετικές μορφές χρηματοδότησης για την ενεργειακή αναβάθμιση. Η επιχορήγηση είναι μια χρηματική βοήθεια που προσφέρεται από την κυβέρνηση ή άλλες αρχές, χωρίς να απαιτείται επιστροφή του ποσού. Το δάνειο, αντίθετα, είναι ένα χρηματοοικονομικό προϊόν που απαιτεί την επιστροφή του ποσού με τόκους. Παράδειγμα: Imagine ότι θέλετε να τοποθετήσετε διπλά τζάμια στο σπίτι σας για να εξοικονομήσετε ενέργεια. Η κυβέρνηση μπορεί να προσφέρει επιχορήγηση 5.000€ για την κάλυψη των έξοδων, ενώ ο Eurobank μπορεί να προσφέρει δάνειο 10.000€ με επιτόκιο και δόση που θα πρέπει να επιστραφεί.",
+      "repeat_index": 1,
+      "repeat_count": 1,
+      "timestamp": "2026-06-19T02:57:49.124256+00:00",
+      "source": "qa_evaluation_suite",
+      "answer_mode": "llm"
+    },
+    {
+      "question_id": "q3",
+      "question": "3) Δώσε 5 λέξεις-κλειδιά για αναζήτηση σχετικών προγραμμάτων και εξήγησε σε 1 πρόταση γιατί είναι χρήσιμη η καθεμία.",
+      "answer": "Πράσινο Δάνειο, Κατοικία, Εξοικονόμηση Ενέργειας, Αναβάθμιση, Ενεργειακή",
+      "repeat_index": 1,
+      "repeat_count": 1,
+      "timestamp": "2026-06-19T02:58:22.962595+00:00",
+      "source": "qa_evaluation_suite",
+      "answer_mode": "llm"
+    },
+    {
+      "question_id": "q4",
+      "question": "4) Εντόπισε όλες τις προθεσμίες που αναφέρονται και γράψε τες σε μορφή ΗΗ/ΜΜ/ΕΕΕΕ.",
+      "answer": "Δεν υπάρχει πληροφορία σχετικά με προθεσμίες στο JSON.",
+      "repeat_index": 1,
+      "repeat_count": 1,
+      "timestamp": "2026-06-19T02:58:48.951589+00:00",
+      "source": "qa_evaluation_suite",
+      "answer_mode": "llm"
+    },
+    {
+      "question_id": "q5",
+      "question": "5) Βρες αν υπάρχει ανώτατο ή κατώτατο όριο χρηματοδότησης και δώσε το ακριβές ποσό/ποσοστό.",
+      "answer": "15.000€",
+      "repeat_index": 1,
+      "repeat_count": 1,
+      "timestamp": "2026-06-19T02:59:10.865299+00:00",
+      "source": "qa_evaluation_suite",
+      "answer_mode": "llm"
+    },
+    {
+      "question_id": "q6",
+      "question": "6) Ποιες παρεμβάσεις ενεργειακής αναβάθμισης χρηματοδοτούνται;",
+      "answer": "Οι παρεμβάσεις ενεργειακής αναβάθμισης που χρηματοδοτούνται είναι: τοποθετείτε διπλά τζάμια, θερμομονωτικό κέλυφος, νέο καυστήρα και ηλιακό θερμοσίφωνα.",
+      "repeat_index": 1,
+      "repeat_count": 1,
+      "timestamp": "2026-06-19T02:59:53.389845+00:00",
+      "source": "qa_evaluation_suite",
+      "answer_mode": "llm"
+    },
+    {
+      "question_id": "q7",
+      "question": "7) Ποια είναι τα σημαντικότερα σημεία που πρέπει να προσέξει ένας ενδιαφερόμενος πριν υποβάλει αίτηση;",
+      "answer": "Για να υποβάλετε αίτηση στο πρόγραμμα \"Πράσινο Δάνειο Κατοικίας – Εξοικονόμηση Ενέργειας\", πρέπει να διαθέτετε σπίτι ή οικόπεδο και να είναι πελάτης της Eurobank. Μπορείτε να διαμορφώσετε τα χαρακτηριστικά του δανείου σας online, στον Υπολογιστή δανείου, για να λάβετε ενδεικτική εξατομικευμένη προσφορά με το επιτόκιο, τη δόση και τα έξοδα δανείο.",
+      "repeat_index": 1,
+      "repeat_count": 1,
+      "timestamp": "2026-06-19T03:01:02.356324+00:00",
+      "source": "qa_evaluation_suite",
+      "answer_mode": "llm"
+    },
+    {
+      "question_id": "q8",
+      "question": "8) Τι γίνεται αν δεν ολοκληρωθούν οι εργασίες μέσα στην προβλεπόμενη προθεσμία;",
+      "answer": "Δεν υπάρχει πληροφορία σχετικά με τις συνέπειες αν δεν ολοκληρωθούν οι εργασίες μέσα στην προβλεπόμενη προθεσμία.",
+      "repeat_index": 1,
+      "repeat_count": 1,
+      "timestamp": "2026-06-19T03:01:34.702473+00:00",
+      "source": "qa_evaluation_suite",
+      "answer_mode": "llm"
+    },
+    {
+      "question_id": "q9",
+      "question": "9) Υπάρχουν υποχρεώσεις του δικαιούχου μετά την ολοκλήρωση του έργου;",
+      "answer": "Δεν υπάρχει πληροφορία",
+      "repeat_index": 1,
+      "repeat_count": 1,
+      "timestamp": "2026-06-19T03:01:56.336014+00:00",
+      "source": "qa_evaluation_suite",
+      "answer_mode": "llm"
+    },
+    {
+      "question_id": "q10",
+      "question": "10) Describe the program in 90-120 words.",
+      "answer": "Το πρόγραμμα \"Πράσινο Δάνειο Κατοικίας – Εξοικονόμηση Ενέργειας\" προσφέρει δάνεια για την ενεργειακή αναβάθμισης κατοικιών. Οι εγγεγραμμένοι πελάτες του Eurobank μπορούν να ζητήσουν δάνειο μέσω του e-Banking ή του mobile app, και να λάβουν μια εξατομικευμένη προσφορά με το επιτόκιο, τη δόση και τα έξοδα. Οι εργασίες που υποστηρίζονται περιλαμβάνουν την τοποθέτηση διπλών τζάμιων, θερμομονωτικού κελύφους, νέου καυστήρα ή ηλιακού θερμοσιφώνα. Το δάνειο έχει μήκος ζωής 30 ετών και μέγιστη χρηματοδότηση 15.000€.",
+      "repeat_index": 1,
+      "repeat_count": 1,
+      "timestamp": "2026-06-19T03:03:27.224430+00:00",
+      "source": "qa_evaluation_suite",
+      "answer_mode": "llm"
+    },
+    {
+      "question_id": "q11",
+      "question": "11) Explain the difference between a 'grant' and a 'loan' in the context of energy upgrades, with one example for each.",
+      "answer": "Στο πλαίσιο των ενεργειακών αναβαθμίσεων, ένα 'δάνειο' (loan) είναι μια χρηματοδοτική trợφή που πρέπει να επιστραφεί με τόκο, ενώ ένα 'συνδρομή' (grant) είναι μια χρηματοδοτική trợφή που δεν πρέπει να επιστραφεί. Παράδειγμα δανείου: Ένας ιδιοκτήτης σπιτιού δανείζεται 10.000€ για την αντικατάσταση των τζαμιών με διπλά, και πρέπει να επιστρέψει το ποσό με τόκο. Παράδειγμα συνδρόμματος: Ο ίδιος ιδιοκτήτης σπιτιού λαμβάνει 5.000€ ως συνδρομή για την εγκατάσταση ηλιακού θερμοσίφωνα, χωρίς να χρειάζεται να επιστρέψει το ποσό.",
+      "repeat_index": 1,
+      "repeat_count": 1,
+      "timestamp": "2026-06-19T03:04:57.320479+00:00",
+      "source": "qa_evaluation_suite",
+      "answer_mode": "llm"
+    }
+  ],
+  "updated_at": "2026-06-19T03:04:57.320503+00:00"
+}

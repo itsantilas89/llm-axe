@@ -1,0 +1,49 @@
+{
+  "timestamp": "20260617T020508Z",
+  "url": "https://www.bankofthessaly.gr/idiotes/prasina-daneia/exoikonomo-2025/",
+  "classification": {
+    "is_relevant": true,
+    "primary_category": "green_housing_loan",
+    "secondary_categories": [
+      "home_renewables",
+      "energy_upgrade"
+    ],
+    "confidence": 0.92,
+    "reasoning": "Deterministic scope pass: home energy finance signals found",
+    "key_features": [
+      "deterministic_home_green_finance_scope"
+    ]
+  },
+  "extracted_data": {
+    "programme_name": "Εξοικονομώ 2025",
+    "description": "Το Πρόγραμμα « Εξοικονομώ 2025 » χρηματοδοτείται από πόρους του Ταμείου Ανάκαμψης και Ανθεκτικότητας και παρέχει κίνητρα για παρεμβάσεις εξοικονόμησης ενέργειας και ενεργειακής ανακαίνισης στον οικιακό κτηριακό τομέα: Επιχορήγηση από 50% έως 100% του προϋπολογισμού των εργασιών, σύμφωνα με εισοδηματικά και κοινωνικά κριτήρια Δυνατότητα δανειοδότησης με 100% επιδότηση του επιτοκίου Κάλυψη του κόστους Ενεργειακών Επιθεωρήσεων και μελετών Φορέας Υλοποίησης του Προγράμματος είναι το Τεχνικό Επιμελητήριο Ελλάδας και φορέας Οικονομικής Διαχείρισης η Ελληνική Αναπτυξιακή Τράπεζα Α.Ε. Για αναλυτικές πληροφορίες σχετικά με το προϊόν, μπορείτε να επισκεφθείτε ένα κατάστημα της Τράπεζας Θεσσαλίας.",
+    "programme_objective": "Το Πρόγραμμα « Εξοικονομώ 2025 » χρηματοδοτείται από πόρους του Ταμείου Ανάκαμψης και Ανθεκτικότητας και παρέχει κίνητρα για παρεμβάσεις εξοικονόμησης ενέργειας και ενεργειακής ανακαίνισης στον οικιακό κτηριακό τομέα: Επιχορήγηση από 50% έως 100% του προϋπολογισμού των εργασιών, σύμφωνα με εισοδηματικά και κοινωνικά κριτήρια Δυνατότητα δανειοδότησης με 100% επιδότηση του επιτοκίου Κάλυψη του κόστους Ενεργειακών Επιθεωρήσεων και μελετών Φορέας Υλοποίησης του Προγράμματος είναι το Τεχνικό Επιμελητήριο Ελλάδας και φορέας Οικονομικής Διαχείρισης η Ελληνική Αναπτυξιακή Τράπεζα Α.Ε. Για αναλυτικές πληροφορίες σχετικά με το προϊόν, μπορείτε να επισκεφθείτε ένα κατάστημα της Τράπεζας Θεσσαλίας.",
+    "eligible_parties": [],
+    "eligibility_criteria": [],
+    "property_requirements": [],
+    "minimum_funding_amount": "",
+    "maximum_funding_amount": "",
+    "funding_type": "Δάνειο",
+    "interest_rate": "",
+    "funding_coverage": "",
+    "total_budget": "",
+    "funding_sources": [
+      "πόρους του Ταμείου Ανάκαμψης και Ανθεκτικότητας"
+    ],
+    "duration": "",
+    "loan_duration": "",
+    "completion_deadline": "",
+    "application_start_date": "",
+    "application_end_date": "",
+    "energy_performance_targets": "",
+    "eligible_interventions": [
+      "ενεργειακής ανακαίνισης στον οικιακό κτηριακό τομέα: Επιχορήγηση από 50% έως 100% του προϋπολογισμού των εργασιών"
+    ],
+    "additional_details": "",
+    "source_url": "https://www.bankofthessaly.gr/idiotes/prasina-daneia/exoikonomo-2025/",
+    "source_urls": [
+      "https://www.bankofthessaly.gr/idiotes/prasina-daneia/exoikonomo-2025/"
+    ],
+    "id": "2025-71ea87f103"
+  }
+}

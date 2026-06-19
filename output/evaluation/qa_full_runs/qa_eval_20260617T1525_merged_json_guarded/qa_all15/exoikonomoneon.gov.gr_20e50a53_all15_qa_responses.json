@@ -1,0 +1,142 @@
+{
+  "timestamp": "20260617T134508Z",
+  "url": "https://exoikonomoneon.gov.gr/",
+  "programme_name": "Εξοικονομώ – Ανακαινίζω για νέους",
+  "classification_file": "007_exoikonomoneon.gov.gr_20e50a53_classification.json",
+  "qa_count": 13,
+  "source": "qa_evaluation_suite",
+  "mode": "all15",
+  "responses": [
+    {
+      "question_id": "q12",
+      "question": "12) Ποια είναι η πρωτεύουσα της Ελλάδας ;",
+      "answer": "Δεν υπάρχει πληροφορία",
+      "repeat_index": 1,
+      "repeat_count": 1,
+      "timestamp": "2026-06-17T13:45:08.041392+00:00",
+      "source": "qa_evaluation_suite",
+      "answer_mode": "deterministic_out_of_scope_guard"
+    },
+    {
+      "question_id": "q13",
+      "question": "13) Ποια είναι η πρωτεύουσα της Γαλλίας ;",
+      "answer": "Δεν υπάρχει πληροφορία",
+      "repeat_index": 1,
+      "repeat_count": 1,
+      "timestamp": "2026-06-17T13:45:08.042989+00:00",
+      "source": "qa_evaluation_suite",
+      "answer_mode": "deterministic_out_of_scope_guard"
+    },
+    {
+      "question_id": "q14",
+      "question": "14) What's the capital of Greece ?",
+      "answer": "Δεν υπάρχει πληροφορία",
+      "repeat_index": 1,
+      "repeat_count": 1,
+      "timestamp": "2026-06-17T13:45:08.044423+00:00",
+      "source": "qa_evaluation_suite",
+      "answer_mode": "deterministic_out_of_scope_guard"
+    },
+    {
+      "question_id": "q15",
+      "question": "15) What's the capital of France ?",
+      "answer": "Δεν υπάρχει πληροφορία",
+      "repeat_index": 1,
+      "repeat_count": 1,
+      "timestamp": "2026-06-17T13:45:08.045795+00:00",
+      "source": "qa_evaluation_suite",
+      "answer_mode": "deterministic_out_of_scope_guard"
+    },
+    {
+      "question_id": "q1",
+      "question": "1) Περίγραψε το πρόγραμμα, στόχος, δικαιούχοι, βασικά οφέλη.",
+      "answer": "Το πρόγραμμα \"Εξοικονομώ – Ανακαινίζω για νέους\" έχει στόχο την προώθηση της εθνικής και ενωσιακής ενεργειακής πολιτικής για την εξοικονόμηση ενέργειας. Οι δικαιούχοι είναι νοικοκυριά με ατομικό εισόδημα έως €30.000 και οικογενειακό εισόδημα έως €50.000, φυσικά πρόσωπα που έχουν γεννηθεί από 01/01/1984 έως και 31/12/2005 και ιδιοκατοικούν ακίνητα. Τα βασικά οφέλη είναι η εξοικονόμηση ενέργειας κατά τουλάχιστον 213 ktoe ετησίως και η ενεργειακή ανακαίνιση κατ' ελάχιστον 105.000 κατοικιών έως το 2025.",
+      "repeat_index": 1,
+      "repeat_count": 1,
+      "timestamp": "2026-06-17T13:52:48.280105+00:00",
+      "source": "qa_evaluation_suite",
+      "answer_mode": "llm"
+    },
+    {
+      "question_id": "q2",
+      "question": "2) Εξήγησε τη διαφορά μεταξύ “επιχορήγησης” και “δανείου” στο πλαίσιο ενεργειακής αναβάθμισης, με ένα παράδειγμα για το καθένα.",
+      "answer": "Δεν υπάρχει πληροφορία",
+      "repeat_index": 1,
+      "repeat_count": 1,
+      "timestamp": "2026-06-17T13:52:48.287059+00:00",
+      "source": "qa_evaluation_suite",
+      "answer_mode": "llm"
+    },
+    {
+      "question_id": "q3",
+      "question": "3) Δώσε 5 λέξεις-κλειδιά για αναζήτηση σχετικών προγραμμάτων και εξήγησε σε 1 πρόταση γιατί είναι χρήσιμη η καθεμία.",
+      "answer": "[{'lemma': 'Εξοικονομώ', 'description': 'Το πρόγραμμα \"Εξοικονομώ – Ανακαινίζω για νέους\"'}, {'lemma': 'Ανακαινίζω', 'description': 'Η ενεργειακή αναβάθμιση κατοικιών'}, {'lemma': 'Νέοι', 'description': 'Οι δικαιούχοι του προγράμματος'}, {'lemma': 'Δάνειο', 'description': 'Το χρηματοδοτικό μέσο του προγράμματος'}, {'lemma': 'Ενεργειακή αναβάθμιση', 'description': 'Ο στόχος και τα οφέλη του προγράμματος'}]",
+      "repeat_index": 1,
+      "repeat_count": 1,
+      "timestamp": "2026-06-17T13:52:48.290219+00:00",
+      "source": "qa_evaluation_suite",
+      "answer_mode": "llm"
+    },
+    {
+      "question_id": "q4",
+      "question": "4) Εντόπισε όλες τις προθεσμίες που αναφέρονται και γράψε τες σε μορφή ΗΗ/ΜΜ/ΕΕΕΕ.",
+      "answer": "30 Ιουνίου 2026",
+      "repeat_index": 1,
+      "repeat_count": 1,
+      "timestamp": "2026-06-17T13:55:14.483012+00:00",
+      "source": "qa_evaluation_suite",
+      "answer_mode": "llm"
+    },
+    {
+      "question_id": "q5",
+      "question": "5) Βρες αν υπάρχει ανώτατο ή κατώτατο όριο χρηματοδότησης και δώσε το ακριβές ποσό/ποσοστό.",
+      "answer": "Δεν υπάρχει πληροφορία",
+      "repeat_index": 1,
+      "repeat_count": 1,
+      "timestamp": "2026-06-17T13:55:14.484430+00:00",
+      "source": "qa_evaluation_suite",
+      "answer_mode": "llm"
+    },
+    {
+      "question_id": "q6",
+      "question": "6) Ποιες παρεμβάσεις ενεργειακής αναβάθμισης χρηματοδοτούνται;",
+      "answer": "παρεμβάσεις ενεργειακής εξοικονόμησης, ανακαίνιση κατοικίας, προμήθεια και τοποθέτηση ενεργειακά αποδοτικών οικιακών ηλεκτρικών συσκευών, Μονώσεις, Αντικατάσταση κουφωμάτων, Τοποθέτηση / αντικατάσταση κελύφους για θερμομόνωση, Αναβάθμιση συστήματος θέρμανσης / ψύξης, Αναβάθμιση συστήματος ζεστού νερού χρήσης μέσω ΑΠΕ",
+      "repeat_index": 1,
+      "repeat_count": 1,
+      "timestamp": "2026-06-17T13:55:14.486070+00:00",
+      "source": "qa_evaluation_suite",
+      "answer_mode": "llm"
+    },
+    {
+      "question_id": "q7",
+      "question": "7) Ποια είναι τα σημαντικότερα σημεία που πρέπει να προσέξει ένας ενδιαφερόμενος πριν υποβάλει αίτηση;",
+      "answer": "Δεν υπάρχει πληροφορία",
+      "repeat_index": 1,
+      "repeat_count": 1,
+      "timestamp": "2026-06-17T13:56:53.242723+00:00",
+      "source": "qa_evaluation_suite",
+      "answer_mode": "llm"
+    },
+    {
+      "question_id": "q8",
+      "question": "8) Τι γίνεται αν δεν ολοκληρωθούν οι εργασίες μέσα στην προβλεπόμενη προθεσμία;",
+      "answer": "Δεν υπάρχει πληροφορία",
+      "repeat_index": 1,
+      "repeat_count": 1,
+      "timestamp": "2026-06-17T13:56:53.247169+00:00",
+      "source": "qa_evaluation_suite",
+      "answer_mode": "llm"
+    },
+    {
+      "question_id": "q9",
+      "question": "9) Υπάρχουν υποχρεώσεις του δικαιούχου μετά την ολοκλήρωση του έργου;",
+      "answer": "Ναι, απαραίτητες προϋποθέσεις για συμμετοχή με δάνειο στο σκέλος \"Ανακαινίζω\" είναι η συμμετοχή με δάνειο στο σκέλος \"Εξοικονομώ\".",
+      "repeat_index": 1,
+      "repeat_count": 1,
+      "timestamp": "2026-06-17T13:56:53.249944+00:00",
+      "source": "qa_evaluation_suite",
+      "answer_mode": "llm"
+    }
+  ],
+  "updated_at": "2026-06-17T13:56:53.250552+00:00"
+}

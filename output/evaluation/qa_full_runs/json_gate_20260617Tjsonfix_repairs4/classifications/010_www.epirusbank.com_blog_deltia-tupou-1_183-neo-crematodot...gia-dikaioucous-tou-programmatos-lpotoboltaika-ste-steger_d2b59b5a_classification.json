@@ -1,0 +1,59 @@
+{
+  "timestamp": "20260617T142940Z",
+  "url": "https://www.epirusbank.com/blog/deltia-tupou-1/183-neo-crematodotiko-proion-gia-dikaioucous-tou-programmatos-lpotoboltaika-ste-steger",
+  "source_urls": [
+    "https://www.epirusbank.com/blog/deltia-tupou-1/183-neo-crematodotiko-proion-gia-dikaioucous-tou-programmatos-lpotoboltaika-ste-steger"
+  ],
+  "source_files": [
+    "C:\\Users\\stavr\\Desktop\\HMMY\\Thesis\\llm-axe\\output\\va4_product_discoverer\\20260617T044552Z_www.epirusbank.com_blog_deltia-tupou-1_183-neo-crematodot...gia-dikaioucous-tou-programmatos-lpotoboltaika-ste-steger_d2b59b5a_classification.json"
+  ],
+  "merged_from_count": 1,
+  "merged": true,
+  "field_sources": {
+    "announcement_date": "https://www.epirusbank.com/blog/deltia-tupou-1/183-neo-crematodotiko-proion-gia-dikaioucous-tou-programmatos-lpotoboltaika-ste-steger",
+    "description": "https://www.epirusbank.com/blog/deltia-tupou-1/183-neo-crematodotiko-proion-gia-dikaioucous-tou-programmatos-lpotoboltaika-ste-steger",
+    "duration": "https://www.epirusbank.com/blog/deltia-tupou-1/183-neo-crematodotiko-proion-gia-dikaioucous-tou-programmatos-lpotoboltaika-ste-steger",
+    "eligible_parties": [
+      "https://www.epirusbank.com/blog/deltia-tupou-1/183-neo-crematodotiko-proion-gia-dikaioucous-tou-programmatos-lpotoboltaika-ste-steger"
+    ],
+    "funding_coverage": "https://www.epirusbank.com/blog/deltia-tupou-1/183-neo-crematodotiko-proion-gia-dikaioucous-tou-programmatos-lpotoboltaika-ste-steger",
+    "funding_type": "https://www.epirusbank.com/blog/deltia-tupou-1/183-neo-crematodotiko-proion-gia-dikaioucous-tou-programmatos-lpotoboltaika-ste-steger",
+    "interest_rate": "https://www.epirusbank.com/blog/deltia-tupou-1/183-neo-crematodotiko-proion-gia-dikaioucous-tou-programmatos-lpotoboltaika-ste-steger",
+    "loan_duration": "https://www.epirusbank.com/blog/deltia-tupou-1/183-neo-crematodotiko-proion-gia-dikaioucous-tou-programmatos-lpotoboltaika-ste-steger",
+    "managing_body": "https://www.epirusbank.com/blog/deltia-tupou-1/183-neo-crematodotiko-proion-gia-dikaioucous-tou-programmatos-lpotoboltaika-ste-steger",
+    "programme_name": "https://www.epirusbank.com/blog/deltia-tupou-1/183-neo-crematodotiko-proion-gia-dikaioucous-tou-programmatos-lpotoboltaika-ste-steger",
+    "programme_objective": "https://www.epirusbank.com/blog/deltia-tupou-1/183-neo-crematodotiko-proion-gia-dikaioucous-tou-programmatos-lpotoboltaika-ste-steger"
+  },
+  "extracted_data": {
+    "announcement_date": "22 Ιανουαρίου, 2024",
+    "description": "Νέο χρηματοδοτικό προϊόν για δικαιούχους του Προγράμματος «Φωτοβολταϊκά στη στέγη» Νέα & Δελτία Τύπου Αρχική Νέα / Δελτία Τύπου ΔΗΜΟΣΙΕΥΘΗΚΕ 22 Ιανουαρίου, 2024 ← Δείτε όλα τα νέα Νέο χρηματοδοτικό προϊόν για δικαιούχους του Προγράμματος «Φωτοβολταϊκά στη στέγη» Η Συνεταιριστική Τράπεζα Ηπείρου ανακοινώνει ένα νέο χρηματοδοτικό προϊόν που θα διατίθεται στα νοικοκυριά που έχουν ενταχθεί στο Πρόγραμμα «Φωτοβολταϊκά στη Στέγη». Το νέο δάνειο, με προνομιακούς όρους, έχει ως στόχο να συμβάλλει στην εξοικονόμηση ενέργειας, τη μείωση του κόστους διαβίωσης και να συμβάλει και στον πράσινο μετασχηματισμό της τοπικής κοινωνίας. Συγκεκριμένα, το νέο δάνειο θα προσφέρεται με ιδιαίτερα χαμηλό σταθερό επιτόκιο 7,90% και για διάρκεια έως 7 έτη.",
+    "duration": "7 έτη",
+    "eligible_parties": [
+      "νοικοκύρια"
+    ],
+    "funding_coverage": "20% - 65%",
+    "funding_type": "Δάνειο",
+    "interest_rate": "7,90%",
+    "loan_duration": "7 έτη",
+    "managing_body": "Συνεταιριστική Τράπεζα Ηπείρου",
+    "programme_name": "Νέο χρηματοδοτικό προϊόν για δικαιούχους του Προγράμματος «Φωτοβολταϊκά στη στέγη» Νέα & Δελτία Τύπου Αρχική Νέα / Δελτί",
+    "programme_objective": "Νέο χρηματοδοτικό προϊόν για δικαιούχους του Προγράμματος «Φωτοβολταϊκά στη στέγη» Νέα & Δελτία Τύπου Αρχική Νέα / Δελτία Τύπου ΔΗΜΟΣΙΕΥΘΗΚΕ 22 Ιανουαρίου, 2024 ← Δείτε όλα τα νέα Νέο χρηματοδοτικό προϊόν για δικαιούχους του Προγράμματος «Φωτοβολταϊκά στη στέγη» Η Συνεταιριστική Τράπεζα Ηπείρου ανακοινώνει ένα νέο χρηματοδοτικό προϊόν που θα διατίθεται στα νοικοκυριά που έχουν ενταχθεί στο Πρόγραμμα «Φωτοβολταϊκά στη Στέγη». Το νέο δάνειο, με προνομιακούς όρους, έχει ως στόχο να συμβάλλει στην εξοικονόμηση ενέργειας, τη μείωση του κόστους διαβίωσης και να συμβάλει και στον πράσινο μετασχηματισμό της τοπικής κοινωνίας. Συγκεκριμένα, το νέο δάνειο θα προσφέρεται με ιδιαίτερα χαμηλό σταθερό επιτόκιο 7,90% και για διάρκεια έως 7 έτη.",
+    "source_urls": [
+      "https://www.epirusbank.com/blog/deltia-tupou-1/183-neo-crematodotiko-proion-gia-dikaioucous-tou-programmatos-lpotoboltaika-ste-steger"
+    ],
+    "source_url": "https://www.epirusbank.com/blog/deltia-tupou-1/183-neo-crematodotiko-proion-gia-dikaioucous-tou-programmatos-lpotoboltaika-ste-steger"
+  },
+  "classification": {
+    "is_relevant": true,
+    "primary_category": "green_housing_loan",
+    "secondary_categories": [
+      "energy_upgrade",
+      "home_renewables"
+    ],
+    "confidence": 0.92,
+    "reasoning": "Merged source-backed JSON from 1 relevant URL(s).",
+    "key_features": [
+      "deterministic_home_green_finance_scope"
+    ]
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "timestamp": "20260617T004439Z",
+  "url": "https://www.piraeusbank.gr/el/idiwtes/proionta-upiresies/stegastika-daneia/daneio-eksoikonomw",
+  "classification": {
+    "is_relevant": true,
+    "primary_category": "green_housing_loan",
+    "secondary_categories": [
+      "home_renewables",
+      "energy_upgrade"
+    ],
+    "confidence": 0.92,
+    "reasoning": "Deterministic scope pass: home energy finance signals found",
+    "key_features": [
+      "deterministic_home_green_finance_scope"
+    ]
+  },
+  "extracted_data": {
+    "programme_name": "Exoikonomo 2025",
+    "description": "Δάνειο για το Πρόγραμμα Εξοικονομώ 2025 Αναβαθμίστε το σπίτι σας και μειώστε τις ενεργειακές του ανάγκες.",
+    "programme_objective": "Δάνειο για το Πρόγραμμα Εξοικονομώ 2025 Αναβαθμίστε το σπίτι σας και μειώστε τις ενεργειακές του ανάγκες.",
+    "eligible_parties": [
+      "υφίσταται νόμιμα κατοικία"
+    ],
+    "eligibility_criteria": [
+      "δικαίωμα συμμετοχής έχει μόνο εκείνος που την ιδιοκατοikεί σε περιπτώσεις δωρεάν παραχώρησης / ενοικίασης"
+    ],
+    "property_requirements": [
+      "υφίσταται νόμιμα κατοικία"
+    ],
+    "minimum_funding_amount": "",
+    "maximum_funding_amount": "17.500€",
+    "funding_type": "Δάνειο",
+    "interest_rate": "7,5% 100% επιδοτούμενο πλέον εισφοράς Ν.128/75",
+    "funding_coverage": "έως το 100% του κόστους των επιλέξιμων εργασιών (έως 35.000€",
+    "total_budget": "",
+    "funding_sources": [],
+    "duration": "7 ετών",
+    "loan_duration": "4, 5 ή 6 έτη",
+    "completion_deadline": "31/05/2026",
+    "application_start_date": "08/01/2025",
+    "application_end_date": "20/03/2025",
+    "energy_performance_targets": [
+      "30% εξοικονόμηση πρωτογενούς ενέργειας"
+    ],
+    "eligible_interventions": [
+      "Μονώσεις",
+      "Αντικατάσταση κουφωμάτων",
+      "Τοποθέτηση / αντικατάσταση κελύφους για θερμομόνωση",
+      "Αναβάθμιση συστήματος θέρμανσης / ψύξης",
+      "Αναβάθμιση συστήματος ζεστού νερού χρήσης μέσω ΑΠΕ",
+      "Εγκατάσταση φωτοβολταϊκών ή άλλων ΑΠΕ",
+      "Εγκατάσταση συστήματος αποθήκευσης ενέργειας"
+    ],
+    "application_process": "",
+    "managing_body": "",
+    "announcement_date": "",
+    "contact_info": "",
+    "additional_details": "",
+    "post_completion_obligations": "Εκταμίευση Η εκταμίευση του δανείου γίνεται σταδιακά, με απευθείας μεταφορά σε τραπεζικό λογαριασμό των προμηθευτών/αναδόχων ως εξής: 1η εκταμίευση / προκαταβολή: 70% του ποσού του δανείου 2η εκταμίευση: αφορά το υπόλοιπο ποσό του δανείου (30%) Σημείωση: με την τελική εκταμίευση του δανείου αποδίδεται και το ποσό της υπόλοιπης επιχορήγησης καθώς και τα λοιπά ωφελήματα του προγράμματος (τόκους που έχετε καταβάλει, αμοιβή για έκδοση Α’ & Β’ ΠΕΑ, τεχνικού συμβούλου έργου, κόστος έκδοσης Ηλεκτρονικής Ταυτότητας Κτιρίου/τυχόν μελετών κ.λπ.)."
+  },
+  "repair_metadata": {
+    "source_scraped_file": "C:\\Users\\stavr\\Desktop\\HMMY\\Thesis\\llm-axe\\output\\va3_scraper_to_template\\20260617T003545Z_www.piraeusbank.gr_el_idiwtes_proionta-upiresies_stegastika-daneia_daneio-eksoikonomw_19afb17d_scraped.txt",
+    "repair": "source_backed_core_field_repair"
+  }
+}

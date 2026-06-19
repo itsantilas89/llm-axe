@@ -1,0 +1,70 @@
+{
+  "timestamp": "20260617T143831Z",
+  "url": "https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/green-fast-loan",
+  "source_urls": [
+    "https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/green-fast-loan"
+  ],
+  "source_files": [
+    "C:\\Users\\stavr\\Desktop\\HMMY\\Thesis\\llm-axe\\output\\va4_product_discoverer\\20260617T041330Z_www.eurobank.gr_el_retail_proionta-upiresies_proionta_daneia_prasina_green-fast-loan_15a4f314_classification.json"
+  ],
+  "merged_from_count": 1,
+  "merged": true,
+  "field_sources": {
+    "contact_info": [
+      "https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/green-fast-loan"
+    ],
+    "description": "https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/green-fast-loan",
+    "eligible_interventions": [
+      "https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/green-fast-loan"
+    ],
+    "funding_type": "https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/green-fast-loan",
+    "interest_rate": "https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/green-fast-loan",
+    "loan_duration": "https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/green-fast-loan",
+    "maximum_funding_amount": "https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/green-fast-loan",
+    "minimum_funding_amount": "https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/green-fast-loan",
+    "programme_name": "https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/green-fast-loan",
+    "programme_objective": "https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/green-fast-loan",
+    "property_requirements": [
+      "https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/green-fast-loan"
+    ]
+  },
+  "extracted_data": {
+    "contact_info": [
+      "2109555455",
+      "Δευτέρα-Παρασκευή, 09:00-17:00"
+    ],
+    "description": "Στην Eurobank στηρίζουμε το πρόγραμμα «Ανακυκλώνω – Αλλάζω συσκευή» του Υπουργείου Περιβάλλοντος και Ενέργειας και ενισχύουμε την προσπάθειά σας να εξοικονομήσετε ενέργεια για το περιβάλλον και χρήματα για τις ανάγκες σας. Αποκτήστε Green Fast Loan για να αγοράσετε πράσινες οικιακές συσκευές, να αντικαταστήσετε παλιές συσκευές σας που καταναλώνουν πολλή ενέργεια ή να εξοικονομείτε ενέργεια στις μετακινήσεις σας με την αγορά ηλεκτρικού ποδηλάτου ή σκούτερ.",
+    "eligible_interventions": [
+      "Πράσινες οικιακές συσκευές",
+      "Λευκές οικιακές συσκευές",
+      "Συσκευές θέρμανσης και κλιματισμού",
+      "Ενεργειακή αναβάθμιση κατοικίας"
+    ],
+    "funding_type": "Δάνειο",
+    "interest_rate": "11,90%",
+    "loan_duration": "από 6 μήνες έως 5 χρόνια",
+    "maximum_funding_amount": "5.000€",
+    "minimum_funding_amount": "300€",
+    "programme_name": "Προσωπικό Δάνειο Green Fast Loan",
+    "programme_objective": "Στην Eurobank στηρίζουμε το πρόγραμμα «Ανακυκλώνω – Αλλάζω συσκευή» του Υπουργείου Περιβάλλοντος και Ενέργειας και ενισχύουμε την προσπάθειά σας να εξοικονομήσετε ενέργεια για το περιβάλλον και χρήματα για τις ανάγκες σας. Αποκτήστε Green Fast Loan για να αγοράσετε πράσινες οικιακές συσκευές, να αντικαταστήσετε παλιές συσκευές σας που καταναλώνουν πολλή ενέργεια ή να εξοικονομείτε ενέργεια στις μετακινήσεις σας με την αγορά ηλεκτρικού ποδηλάτου ή σκούτερ.",
+    "property_requirements": [
+      "πράσινες ανάγκες σας"
+    ],
+    "source_urls": [
+      "https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/green-fast-loan"
+    ],
+    "source_url": "https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/green-fast-loan"
+  },
+  "classification": {
+    "is_relevant": true,
+    "primary_category": "green_housing_loan",
+    "secondary_categories": [
+      "energy_upgrade"
+    ],
+    "confidence": 0.92,
+    "reasoning": "Merged source-backed JSON from 1 relevant URL(s).",
+    "key_features": [
+      "deterministic_home_green_finance_scope"
+    ]
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "timestamp": "20260617T114147Z",
+  "url": "https://www.crediabank.com/idiotes/daneia/eco-katanalotika/eco-lyseis-net-metering-egkatastasi-oikiakon-fv-sustimaton/",
+  "programme_name": "Eco Λύσεις - Net Metering",
+  "classification_file": "20260617T013559Z_www.crediabank.com_idiotes_daneia_eco-katanalotika_eco-lyseis-net-metering-egkatastasi-oikiakon-fv-sustimaton_95f59cba_classification.json",
+  "qa_count": 15,
+  "source": "qa_evaluation_suite",
+  "mode": "all15",
+  "responses": [
+    {
+      "question_id": "q1",
+      "question": "1) Περίγραψε το πρόγραμμα, στόχος, δικαιούχοι, βασικά οφέλη.",
+      "answer": "Το πρόγραμμα ονομάζεται Eco Λύσεις - Net Metering και σκοπός του είναι η εγκατάσταση οικιακών φωτοβολταϊκών συστημάτων. Οι δικαιούχοι είναι φυσικά πρόσωπα και ιδιοκτήτες κτηρίων. Τα βασικά οφέλη περιλαμβάνουν την εγκατάσταση φωτοβολταϊκών πάνελ, τη παρακολούθηση της ενέργειας που καταναλώνεται και παράγεται, καθώς και τη χρήση του δικτύου για έμμεση αποθήκευση της πράσινης ενέργειας.",
+      "repeat_index": 1,
+      "repeat_count": 1,
+      "timestamp": "2026-06-17T11:45:53.293121+00:00",
+      "source": "qa_evaluation_suite"
+    },
+    {
+      "question_id": "q2",
+      "question": "2) Εξήγησε τη διαφορά μεταξύ “επιχορήγησης” και “δανείου” στο πλαίσιο ενεργειακής αναβάθμισης, με ένα παράδειγμα για το καθένα.",
+      "answer": "Δεν υπάρχει πληροφορία",
+      "repeat_index": 1,
+      "repeat_count": 1,
+      "timestamp": "2026-06-17T11:45:53.295243+00:00",
+      "source": "qa_evaluation_suite"
+    },
+    {
+      "question_id": "q3",
+      "question": "3) Δώσε 5 λέξεις-κλειδιά για αναζήτηση σχετικών προγραμμάτων και εξήγησε σε 1 πρόταση γιατί είναι χρήσιμη η καθεμία.",
+      "answer": "[{'keyword': 'φωτοβολταϊκά', 'description': 'Χρησιμοποιείται για την παραγωγή ηλεκτρικής ενέργειας'}, {'keyword': 'net metering', 'description': 'Επιτρέπει τη συμψηφή των αναγκών και της παραγωγής ενέργειας'}, {'keyword': 'δάνειο', 'description': 'Τρόπος χρηματοδότησης για την εγκατάσταση φωτοβολταϊκών'}, {'keyword': 'ενεργειακή αναβάθμισης', 'description': 'Προσπάθεια να βελτιωθεί η ενεργειακή απόδοση των κτηρίων'}, {'keyword': 'CrediaBank', 'description': 'Τράπεζα που προσφέρει χρηματοδότηση για την εγκατάσταση φωτοβολταϊκών'}]",
+      "repeat_index": 1,
+      "repeat_count": 1,
+      "timestamp": "2026-06-17T11:45:53.298728+00:00",
+      "source": "qa_evaluation_suite"
+    },
+    {
+      "question_id": "q4",
+      "question": "4) Εντόπισε όλες τις προθεσμίες που αναφέρονται και γράψε τες σε μορφή ΗΗ/ΜΜ/ΕΕΕΕ.",
+      "answer": "Δεν υπάρχει πληροφορία",
+      "repeat_index": 1,
+      "repeat_count": 1,
+      "timestamp": "2026-06-17T11:46:58.030470+00:00",
+      "source": "qa_evaluation_suite"
+    },
+    {
+      "question_id": "q5",
+      "question": "5) Βρες αν υπάρχει ανώτατο ή κατώτατο όριο χρηματοδότησης και δώσε το ακριβές ποσό/ποσοστό.",
+      "answer": "{'maximum_funding_amount': '25.000€', 'minimum_funding_amount': '1.500€'}",
+      "repeat_index": 1,
+      "repeat_count": 1,
+      "timestamp": "2026-06-17T11:46:58.031996+00:00",
+      "source": "qa_evaluation_suite"
+    },
+    {
+      "question_id": "q6",
+      "question": "6) Ποιες παρεμβάσεις ενεργειακής αναβάθμισης χρηματοδοτούνται;",
+      "answer": "μέσω μίσθωσης, δωρεάν παραχώρηση κ",
+      "repeat_index": 1,
+      "repeat_count": 1,
+      "timestamp": "2026-06-17T11:46:58.033757+00:00",
+      "source": "qa_evaluation_suite"
+    },
+    {
+      "question_id": "q7",
+      "question": "7) Ποια είναι τα σημαντικότερα σημεία που πρέπει να προσέξει ένας ενδιαφερόμενος πριν υποβάλει αίτηση;",
+      "answer": "Δεν υπάρχει πληροφορία",
+      "repeat_index": 1,
+      "repeat_count": 1,
+      "timestamp": "2026-06-17T11:47:47.734691+00:00",
+      "source": "qa_evaluation_suite"
+    },
+    {
+      "question_id": "q8",
+      "question": "8) Τι γίνεται αν δεν ολοκληρωθούν οι εργασίες μέσα στην προβλεπόμενη προθεσμία;",
+      "answer": "Δεν υπάρχει πληροφορία",
+      "repeat_index": 1,
+      "repeat_count": 1,
+      "timestamp": "2026-06-17T11:47:47.736305+00:00",
+      "source": "qa_evaluation_suite"
+    },
+    {
+      "question_id": "q9",
+      "question": "9) Υπάρχουν υποχρεώσεις του δικαιούχου μετά την ολοκλήρωση του έργου;",
+      "answer": "Δεν υπάρχει πληροφορία",
+      "repeat_index": 1,
+      "repeat_count": 1,
+      "timestamp": "2026-06-17T11:47:47.739501+00:00",
+      "source": "qa_evaluation_suite"
+    },
+    {
+      "question_id": "q10",
+      "question": "10) Describe the program in 90-120 words.",
+      "answer": "Το πρόγραμμα Eco Λύσεις - Net Metering προσφέρει χρηματοδότηση για την εγκατάσταση οικιακών φωτοβολταϊκών συστημάτων, με σκοπό το net metering. Οι δικαιούχοι είναι φυσικά πρόσωπα και ιδιοκτήτες κτηρίων. Η χρηματοδότηση κυμαίνεται από 1.500€ έως 25.000€ και το επιτόκιο είναι σταθερό 7,90%.",
+      "repeat_index": 1,
+      "repeat_count": 1,
+      "timestamp": "2026-06-17T11:49:47.242554+00:00",
+      "source": "qa_evaluation_suite"
+    },
+    {
+      "question_id": "q11",
+      "question": "11) Explain the difference between a 'grant' and a 'loan' in the context of energy upgrades, with one example for each.",
+      "answer": "Μια δωρεάν παραχώρηση (grant) δεν χρειάζεται να επιστρέφεται, ενώ ένα δάνειο (loan) πρέπει να επιστραφεί με ενδιαίρεση. Παράδειγμα: Ένας ιδιοκτήτης λαμβάνει 10.000€ για την εγκατάσταση φωτοβολταϊκών πάνελ και δεν χρειάζεται να τα επιστρέψει, αλλά αν λαμβάνει 5.000€ ως δάνειο, πρέπει να τα επιστρέψει με ενδιαίρεση.",
+      "repeat_index": 1,
+      "repeat_count": 1,
+      "timestamp": "2026-06-17T11:49:47.245013+00:00",
+      "source": "qa_evaluation_suite"
+    },
+    {
+      "question_id": "q12",
+      "question": "12) Ποια είναι η πρωτεύουσα της Ελλάδας ;",
+      "answer": "Δεν υπάρχει πληροφορία",
+      "repeat_index": 1,
+      "repeat_count": 1,
+      "timestamp": "2026-06-17T11:49:47.247034+00:00",
+      "source": "qa_evaluation_suite"
+    },
+    {
+      "question_id": "q13",
+      "question": "13) Ποια είναι η πρωτεύουσα της Γαλλίας ;",
+      "answer": "Δεν υπάρχει πληροφορία",
+      "repeat_index": 1,
+      "repeat_count": 1,
+      "timestamp": "2026-06-17T11:50:26.432878+00:00",
+      "source": "qa_evaluation_suite"
+    },
+    {
+      "question_id": "q14",
+      "question": "14) What's the capital of Greece ?",
+      "answer": "Αθήνα",
+      "repeat_index": 1,
+      "repeat_count": 1,
+      "timestamp": "2026-06-17T11:50:26.434300+00:00",
+      "source": "qa_evaluation_suite"
+    },
+    {
+      "question_id": "q15",
+      "question": "15) What's the capital of France ?",
+      "answer": "Παρίσι",
+      "repeat_index": 1,
+      "repeat_count": 1,
+      "timestamp": "2026-06-17T11:50:26.435804+00:00",
+      "source": "qa_evaluation_suite"
+    }
+  ],
+  "updated_at": "2026-06-17T11:50:26.435835+00:00"
+}

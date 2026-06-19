@@ -1,0 +1,15 @@
+{
+  "experiment_id": "exp_20260616_202314_e8e7626f",
+  "timestamp": "2026-06-16T20:23:14.810034+00:00",
+  "model": "deterministic_scope_guard",
+  "temperature": 0.0,
+  "hyperparameters": {
+    "mode": "pre_llm_classification"
+  },
+  "prompt": "",
+  "sources": [
+    "Αναβαθμίζω το Σπίτι Μου"
+  ],
+  "terminal_output": "Category: green_housing_loan | Confidence: 92% | Relevant: True",
+  "template_output_file": null
+}

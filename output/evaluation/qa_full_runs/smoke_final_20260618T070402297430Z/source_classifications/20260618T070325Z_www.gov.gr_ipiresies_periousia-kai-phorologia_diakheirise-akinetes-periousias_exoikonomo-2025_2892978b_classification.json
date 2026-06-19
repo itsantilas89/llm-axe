@@ -1,0 +1,51 @@
+{
+  "timestamp": "20260618T070325Z",
+  "url": "https://www.gov.gr/ipiresies/periousia-kai-phorologia/diakheirise-akinetes-periousias/exoikonomo-2025",
+  "classification": {
+    "is_relevant": true,
+    "primary_category": "energy_upgrade",
+    "secondary_categories": [
+      "home_renewables"
+    ],
+    "confidence": 0.92,
+    "reasoning": "Deterministic scope pass: home energy finance signals found",
+    "key_features": [
+      "deterministic_home_green_finance_scope"
+    ]
+  },
+  "extracted_data": {
+    "id": "2025-2892978b52",
+    "source_url": "https://www.gov.gr/ipiresies/periousia-kai-phorologia/diakheirise-akinetes-periousias/exoikonomo-2025",
+    "programme_name": "Εξοικονομώ 2025",
+    "description": "Εξοικονομώ 2025 - Gov.gr EL English EL English 3.900.000+ διάλογοι BETA 3.900.000+ διάλογοι BETA Ρωτήστε τον ψηφιακό βοηθό του gov.gr Ρωτήστε τον ψηφιακό βοηθό του gov.gr Αρχική Περιουσία και φορολογία Διαχείριση ακίνητης περιουσίας Εξοικονομώ 2025 Created with sketchtool.",
+    "programme_objective": "Εξοικονομώ 2025 - Gov.gr EL English EL English 3.900.000+ διάλογοι BETA 3.900.000+ διάλογοι BETA Ρωτήστε τον ψηφιακό βοηθό του gov.gr Ρωτήστε τον ψηφιακό βοηθό του gov.gr Αρχική Περιουσία και φορολογία Διαχείριση ακίνητης περιουσίας Εξοικονομώ 2025 Created with sketchtool.",
+    "eligible_parties": [
+      "Οικογένειες με μέλος/μέλη ΑμεΑ",
+      "Οικογένειες με τρία εξαρτώμετα τέκνα",
+      "Πληγέντες σεισμόπληκτους",
+      "Ευάλωτα νοικοκυριά"
+    ],
+    "eligible_interventions": [
+      "Μονώσεις",
+      "Τοποθέτηση / αντικατάσταση κελύφους για θερμομόνωση",
+      "Αναβάθμιση συστήματος ζεστού νερού χρήσης μέσω ΑΠΕ",
+      "Εγκατάσταση συστήματος αποθήκευσης ενέργειας"
+    ],
+    "completion_deadline": "",
+    "post_completion_obligations": "",
+    "energy_performance_targets": [
+      "30% μέσω ενεργειακής αναβάθμισης κατά τουλάχιστον τρείς ενεργειακές κατηγορίες"
+    ],
+    "minimum_funding_amount": "",
+    "maximum_funding_amount": "",
+    "total_budget": "",
+    "completion_delay_consequences": "",
+    "source_urls": [
+      "https://www.gov.gr/ipiresies/periousia-kai-phorologia/diakheirise-akinetes-periousias/exoikonomo-2025"
+    ]
+  },
+  "repair_metadata": {
+    "source_scraped_file": "C:\\Users\\stavr\\Desktop\\HMMY\\Thesis\\llm-axe\\output\\va3_scraper_to_template\\20260618T070023Z_www.gov.gr_ipiresies_periousia-kai-phorologia_diakheirise-akinetes-periousias_exoikonomo-2025_2892978b_scraped.txt",
+    "repair": "source_backed_core_field_repair"
+  }
+}

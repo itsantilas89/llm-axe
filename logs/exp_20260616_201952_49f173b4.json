@@ -1,0 +1,15 @@
+{
+  "experiment_id": "exp_20260616_201952_49f173b4",
+  "timestamp": "2026-06-16T20:19:52.935137+00:00",
+  "model": "llama3.2:latest",
+  "temperature": 0.0,
+  "hyperparameters": {
+    "filter": "keyword_prescreen"
+  },
+  "prompt": "[Keyword Pre-screen]",
+  "sources": [
+    "https://exoikonomo2025.gov.gr/odegos"
+  ],
+  "terminal_output": "REJECTED at keyword pre-screen (before extraction)",
+  "template_output_file": null
+}

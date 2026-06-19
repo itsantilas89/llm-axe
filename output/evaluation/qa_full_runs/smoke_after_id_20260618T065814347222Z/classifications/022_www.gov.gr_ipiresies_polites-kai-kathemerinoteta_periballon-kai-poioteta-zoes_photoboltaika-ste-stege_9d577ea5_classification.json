@@ -1,0 +1,60 @@
+{
+  "id": "program-9d577ea5a4",
+  "timestamp": "20260618T065829Z",
+  "url": "https://www.gov.gr/ipiresies/polites-kai-kathemerinoteta/periballon-kai-poioteta-zoes/photoboltaika-ste-stege",
+  "source_urls": [
+    "https://www.gov.gr/ipiresies/polites-kai-kathemerinoteta/periballon-kai-poioteta-zoes/photoboltaika-ste-stege"
+  ],
+  "source_files": [
+    "C:\\Users\\stavr\\Desktop\\HMMY\\Thesis\\llm-axe\\output\\va4_product_discoverer\\20260617T024138Z_www.gov.gr_ipiresies_polites-kai-kathemerinoteta_periballon-kai-poioteta-zoes_photoboltaika-ste-stege_9d577ea5_classification.json"
+  ],
+  "merged_from_count": 1,
+  "merged": true,
+  "field_sources": {
+    "completion_deadline": "https://www.gov.gr/ipiresies/polites-kai-kathemerinoteta/periballon-kai-poioteta-zoes/photoboltaika-ste-stege",
+    "description": "https://www.gov.gr/ipiresies/polites-kai-kathemerinoteta/periballon-kai-poioteta-zoes/photoboltaika-ste-stege",
+    "eligible_parties": [
+      "https://www.gov.gr/ipiresies/polites-kai-kathemerinoteta/periballon-kai-poioteta-zoes/photoboltaika-ste-stege"
+    ],
+    "id": "https://www.gov.gr/ipiresies/polites-kai-kathemerinoteta/periballon-kai-poioteta-zoes/photoboltaika-ste-stege",
+    "programme_name": "https://www.gov.gr/ipiresies/polites-kai-kathemerinoteta/periballon-kai-poioteta-zoes/photoboltaika-ste-stege",
+    "programme_objective": "https://www.gov.gr/ipiresies/polites-kai-kathemerinoteta/periballon-kai-poioteta-zoes/photoboltaika-ste-stege",
+    "property_requirements": [
+      "https://www.gov.gr/ipiresies/polites-kai-kathemerinoteta/periballon-kai-poioteta-zoes/photoboltaika-ste-stege"
+    ],
+    "source_url": "https://www.gov.gr/ipiresies/polites-kai-kathemerinoteta/periballon-kai-poioteta-zoes/photoboltaika-ste-stege",
+    "source_urls": [
+      "https://www.gov.gr/ipiresies/polites-kai-kathemerinoteta/periballon-kai-poioteta-zoes/photoboltaika-ste-stege"
+    ]
+  },
+  "extracted_data": {
+    "completion_deadline": "30η Απριλίου 2026",
+    "description": "Φωτοβολταϊκά στη στέγη - Gov.gr EL English EL English 3.900.000+ διάλογοι BETA 3.900.000+ διάλογοι BETA Ρωτήστε τον ψηφιακό βοηθό του gov.gr Ρωτήστε τον ψηφιακό βοηθό του gov.gr Αρχική Πολίτης και καθημερινότητα Περιβάλλον και ποιότητα ζωής Φωτοβολταϊκά στη στέγη Created with sketchtool.",
+    "eligible_parties": [
+      "τα νοικοκυριά"
+    ],
+    "id": "program-9d577ea5a4",
+    "programme_name": "Φωτοβολταϊκά στη στέγη",
+    "programme_objective": "Φωτοβολταϊκά στη στέγη - Gov.gr EL English EL English 3.900.000+ διάλογοι BETA 3.900.000+ διάλογοι BETA Ρωτήστε τον ψηφιακό βοηθό του gov.gr Ρωτήστε τον ψηφιακό βοηθό του gov.gr Αρχική Πολίτης και καθημερινότητα Περιβάλλον και ποιότητα ζωής Φωτοβολταϊκά στη στέγη Created with sketchtool.",
+    "property_requirements": [
+      "σύνδεση με τον Διαχειριστή Ελληνικού Δικτύου Διανομής Ηλεκτρικής Ενέργειας (ΔΕΔΔΗΕ)"
+    ],
+    "source_url": "https://www.gov.gr/ipiresies/polites-kai-kathemerinoteta/periballon-kai-poioteta-zoes/photoboltaika-ste-stege",
+    "source_urls": [
+      "https://www.gov.gr/ipiresies/polites-kai-kathemerinoteta/periballon-kai-poioteta-zoes/photoboltaika-ste-stege"
+    ]
+  },
+  "classification": {
+    "is_relevant": true,
+    "primary_category": "green_housing_loan",
+    "secondary_categories": [
+      "energy_upgrade",
+      "home_renewables"
+    ],
+    "confidence": 0.92,
+    "reasoning": "Merged source-backed JSON from 1 relevant URL(s).",
+    "key_features": [
+      "deterministic_home_green_finance_scope"
+    ]
+  }
+}

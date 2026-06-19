@@ -1,0 +1,21 @@
+{
+  "timestamp": "20260616T214851Z",
+  "url": "https://exoikonomoepixeiro.energy-invest.gov.gr/",
+  "classification": {
+    "is_relevant": false,
+    "primary_category": "other",
+    "secondary_categories": [],
+    "confidence": 0.99,
+    "reasoning": "Αυτόματη απόρριψη: Δεν βρέθηκαν ενεργειακά + χρηματοδοτικά keywords.",
+    "key_features": [
+      "keyword_prefilter_reject"
+    ]
+  },
+  "extracted_data": {
+    "source_url": "https://exoikonomoepixeiro.energy-invest.gov.gr/",
+    "source_urls": [
+      "https://exoikonomoepixeiro.energy-invest.gov.gr/"
+    ],
+    "id": "program-4b8e68b026"
+  }
+}

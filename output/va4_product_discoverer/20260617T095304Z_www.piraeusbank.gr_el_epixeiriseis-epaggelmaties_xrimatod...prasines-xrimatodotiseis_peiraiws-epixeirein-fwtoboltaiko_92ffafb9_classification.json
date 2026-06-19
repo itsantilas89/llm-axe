@@ -1,0 +1,46 @@
+{
+  "timestamp": "20260617T095304Z",
+  "url": "https://www.piraeusbank.gr/el/epixeiriseis-epaggelmaties/xrimatodotiseis-programmata-xrimatodotisis/mikres-mesaies-epixeiriseis/prasines-xrimatodotiseis/peiraiws-epixeirein-fwtoboltaiko",
+  "classification": {
+    "is_relevant": false,
+    "primary_category": "other",
+    "secondary_categories": [],
+    "confidence": 0.99,
+    "reasoning": "Αυτόματη απόρριψη: Δεν βρέθηκαν ενεργειακά + χρηματοδοτικά keywords.",
+    "key_features": [
+      "keyword_prefilter_reject"
+    ]
+  },
+  "extracted_data": {
+    "programme_name": "",
+    "description": "",
+    "programme_objective": "",
+    "eligible_parties": [],
+    "eligibility_criteria": [],
+    "property_requirements": [],
+    "minimum_funding_amount": "",
+    "maximum_funding_amount": "",
+    "funding_type": "",
+    "interest_rate": "",
+    "funding_coverage": "",
+    "total_budget": "",
+    "funding_sources": [],
+    "duration": "",
+    "loan_duration": "",
+    "completion_deadline": "",
+    "application_start_date": "",
+    "application_end_date": "",
+    "energy_performance_targets": "",
+    "eligible_interventions": [],
+    "application_process": "",
+    "managing_body": "",
+    "announcement_date": "",
+    "contact_info": [],
+    "additional_details": "",
+    "source_url": "https://www.piraeusbank.gr/el/epixeiriseis-epaggelmaties/xrimatodotiseis-programmata-xrimatodotisis/mikres-mesaies-epixeiriseis/prasines-xrimatodotiseis/peiraiws-epixeirein-fwtoboltaiko",
+    "source_urls": [
+      "https://www.piraeusbank.gr/el/epixeiriseis-epaggelmaties/xrimatodotiseis-programmata-xrimatodotisis/mikres-mesaies-epixeiriseis/prasines-xrimatodotiseis/peiraiws-epixeirein-fwtoboltaiko"
+    ],
+    "id": "program-92ffafb90e"
+  }
+}

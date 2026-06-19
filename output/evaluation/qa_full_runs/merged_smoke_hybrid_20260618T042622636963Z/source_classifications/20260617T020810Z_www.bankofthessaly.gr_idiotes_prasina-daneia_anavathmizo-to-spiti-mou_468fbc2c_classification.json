@@ -1,0 +1,63 @@
+{
+  "timestamp": "20260617T020810Z",
+  "url": "https://www.bankofthessaly.gr/idiotes/prasina-daneia/anavathmizo-to-spiti-mou/",
+  "classification": {
+    "is_relevant": true,
+    "primary_category": "green_housing_loan",
+    "secondary_categories": [
+      "home_renewables",
+      "energy_upgrade"
+    ],
+    "confidence": 0.92,
+    "reasoning": "Deterministic scope pass: home energy finance signals found",
+    "key_features": [
+      "deterministic_home_green_finance_scope"
+    ]
+  },
+  "extracted_data": {
+    "programme_name": "Αναβαθμίζω το Σπίτι μου",
+    "description": "Τράπεζα Θεσσαλίας - Πρόγραμμα «Αναβαθμίζω το σπίτι μου» Πρόγραμμα «Αναβαθμίζω το σπίτι μου» Η Συνεταιριστική Τράπεζα Θεσσαλίας συμμετέχει ενεργά στο Πρόγραμμα « Αναβαθμίζω το Σπίτι μου » που διαχειρίζεται η Ελληνική Αναπτυξιακή Τράπεζα Α.Ε και υλοποιείται στο πλαίσιο του Δανειακού Προγράμματος του Ταμείου Ανάκαμψης και Ανθεκτικότητας (ΤΑΑ) με τη χρηματοδότηση της Ευρωπαϊκής Ένωσης-NextGenerationEU . Στηρίζουμε την προσπάθειά σας για την ενεργειακή αναβάθμιση της κατοικίας σας, παρέχοντας μέσω του Προγράμματος άτοκα συγχρηματοδοτούμενα στεγαστικά δάνεια: Από € 5.000 έως € 25.",
+    "programme_objective": "Τράπεζα Θεσσαλίας - Πρόγραμμα «Αναβαθμίζω το σπίτι μου» Πρόγραμμα «Αναβαθμίζω το σπίτι μου» Η Συνεταιριστική Τράπεζα Θεσσαλίας συμμετέχει ενεργά στο Πρόγραμμα « Αναβαθμίζω το Σπίτι μου » που διαχειρίζεται η Ελληνική Αναπτυξιακή Τράπεζα Α.Ε και υλοποιείται στο πλαίσιο του Δανειακού Προγράμματος του Ταμείου Ανάκαμψης και Ανθεκτικότητας (ΤΑΑ) με τη χρηματοδότηση της Ευρωπαϊκής Ένωσης-NextGenerationEU . Στηρίζουμε την προσπάθειά σας για την ενεργειακή αναβάθμιση της κατοικίας σας, παρέχοντας μέσω του Προγράμματος άτοκα συγχρηματοδοτούμενα στεγαστικά δάνεια: Από € 5.000 έως € 25.",
+    "eligible_parties": [
+      "φυσικά πρόσωπα που έχουν οποιοδήποτε εμπράγματο δικαίωμα"
+    ],
+    "eligibility_criteria": "",
+    "property_requirements": [
+      "κύρια ή μη εκμισθωμένη δευτερεύουσα, ανά ΑΦΜ και για ένα μόνο ακίνητο"
+    ],
+    "minimum_funding_amount": "5.000€",
+    "maximum_funding_amount": "25.000€",
+    "funding_type": "Δάνειο",
+    "interest_rate": "0%",
+    "funding_coverage": "100%",
+    "total_budget": "",
+    "funding_sources": [
+      "Ευρωπαϊκής Ένωσης-NextGenerationEU"
+    ],
+    "duration": "3 - 7 έτη",
+    "loan_duration": "από 3 έως και 7 έτη",
+    "completion_deadline": "",
+    "application_start_date": "",
+    "application_end_date": "",
+    "energy_performance_targets": "",
+    "eligible_interventions": [
+      "Μονώσεις",
+      "Τοποθέτηση / αντικατάσταση κελύφους για θερμομόνωση",
+      "Τοποθέτηση ηλιακού θερμοσίφωνα",
+      "Κατασκευή πράσινης στέγης",
+      "Εγκατάσταση φωτοβολταϊκών ή άλλων ΑΠΕ",
+      "Εγκατάσταση συστήματος αποθήκευσης ενέργειας"
+    ],
+    "application_process": "",
+    "managing_body": "Ελληνική Αναπτυξιακή Τράπεζα Α.Ε",
+    "announcement_date": "",
+    "contact_info": "",
+    "additional_details": "",
+    "completion_delay_consequences": "",
+    "post_completion_obligations": ""
+  },
+  "repair_metadata": {
+    "source_scraped_file": "C:\\Users\\stavr\\Desktop\\HMMY\\Thesis\\llm-axe\\output\\va3_scraper_to_template\\20260617T020514Z_www.bankofthessaly.gr_idiotes_prasina-daneia_anavathmizo-to-spiti-mou_468fbc2c_scraped.txt",
+    "repair": "source_backed_core_field_repair"
+  }
+}

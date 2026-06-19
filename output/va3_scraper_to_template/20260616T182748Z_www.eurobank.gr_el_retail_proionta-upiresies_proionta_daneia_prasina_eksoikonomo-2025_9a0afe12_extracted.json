@@ -1,0 +1,52 @@
+[
+  {
+    "programme_name": "Εξοικονομώ 2025",
+    "description": "Αποκτήστε δάνειο έως 5.000€ online, τηλεφωνικά ή σε κατάστημα. Σε 5 λεπτά έχετε τα χρήματα στον λογαριασμό σας. Θέλω Fast Loan ΔΑΝΕΙΑ Πρόγραμμα «Αναβαθμίζω το Σπίτι μου» Αποκτήστε συγχρηματοδοτούμενο δάνειο με 100% επιδότηση τόκων για να αναβαθμίσετε ενεργειακά το σπίτι σας.",
+    "programme_objective": "Αποκτήστε δάνειο έως 5.000€ online, τηλεφωνικά ή σε κατάστημα. Σε 5 λεπτά έχετε τα χρήματα στον λογαριασμό σας. Θέλω Fast Loan ΔΑΝΕΙΑ Πρόγραμμα «Αναβαθμίζω το Σπίτι μου» Αποκτήστε συγχρηματοδοτούμενο δάνειο με 100% επιδότηση τόκων για να αναβαθμίσετε ενεργειακά το σπίτι σας.",
+    "eligible_parties": [
+      "Φυσικό πρόσωπο",
+      "Ο ιδιοκτήτης του ακινήτου"
+    ],
+    "eligibility_criteria": [],
+    "property_requirements": [
+      "Νόμιμο, δηλαδή να διαθέτει οικοδομική άδεια ή άλλο νομιμοποιητικό έγγραφο",
+      "Να είναι νόμιμο, δηλαδή να διαθέτει οικοδομική άδεια ή άλλο νομιμοποιητικό έγγραφο",
+      "Να έχει καταταχθεί σε ενεργειακή κατηγορία χαμηλότερη ή ίση με τη Γ.",
+      "Να μην έχει κριθεί κατεδαφιστέο"
+    ],
+    "minimum_funding_amount": "",
+    "maximum_funding_amount": "Έως 35.000€ / κατοικία για",
+    "funding_type": "",
+    "interest_rate": "",
+    "funding_coverage": "",
+    "total_budget": "",
+    "funding_sources": [],
+    "duration": "",
+    "loan_duration": "",
+    "completion_deadline": "",
+    "application_start_date": "",
+    "application_end_date": "",
+    "energy_performance_targets": [
+      "Δραστική μείωση της κατανάλωσης ενέργειας",
+      "Αναβάθμιση του ακινήτου σας κατά τουλάχιστον 3 ενεργειακές κατηγορίες μετά την ολοκλήρωση των εργασιών"
+    ],
+    "eligible_interventions": [
+      "Αντικατάσταση [...]",
+      "Διαχείριση συστήματος θέρμανσης / ψύξης",
+      "Απομακρυσμένο έλεγχο – π.χ. αισθητήρες WiFi",
+      "Συστημα αποθήκευσης ενέργειας (μπαταρία)",
+      "Φωτισμό – π.χ. έξυπνες πρίζες, φωτισμός LED κ.ά.",
+      "Διαχείριση συστήματος θέρμανσης / ψύξης"
+    ],
+    "application_process": "",
+    "managing_body": "",
+    "announcement_date": "",
+    "contact_info": [],
+    "additional_details": "",
+    "source_url": "https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/eksoikonomo-2025",
+    "source_urls": [
+      "https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/eksoikonomo-2025"
+    ],
+    "id": "2025-9a0afe12f0"
+  }
+]

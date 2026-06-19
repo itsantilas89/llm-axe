@@ -1,0 +1,68 @@
+{
+  "id": "program-b351800789",
+  "timestamp": "20260618T084728Z",
+  "url": "https://www.piraeusbank.gr/el/idiwtes/proionta-upiresies/stegastika-daneia/prasino-stegastiko-daneio-me-stathero-epitokio",
+  "source_urls": [
+    "https://www.piraeusbank.gr/el/idiwtes/proionta-upiresies/stegastika-daneia/prasino-stegastiko-daneio-me-stathero-epitokio"
+  ],
+  "source_files": [
+    "C:\\Users\\stavr\\Desktop\\HMMY\\Thesis\\llm-axe\\output\\va4_product_discoverer\\20260618T043736Z_www.piraeusbank.gr_el_idiwtes_proionta-upiresies_stegastika-daneia_prasino-stegastiko-daneio-me-stathero-epitokio_b3518007_classification.json"
+  ],
+  "merged_from_count": 1,
+  "merged": true,
+  "field_sources": {
+    "completion_delay_consequences": "https://www.piraeusbank.gr/el/idiwtes/proionta-upiresies/stegastika-daneia/prasino-stegastiko-daneio-me-stathero-epitokio",
+    "description": "https://www.piraeusbank.gr/el/idiwtes/proionta-upiresies/stegastika-daneia/prasino-stegastiko-daneio-me-stathero-epitokio",
+    "eligible_interventions": "https://www.piraeusbank.gr/el/idiwtes/proionta-upiresies/stegastika-daneia/prasino-stegastiko-daneio-me-stathero-epitokio",
+    "energy_performance_targets": [
+      "https://www.piraeusbank.gr/el/idiwtes/proionta-upiresies/stegastika-daneia/prasino-stegastiko-daneio-me-stathero-epitokio"
+    ],
+    "funding_coverage": "https://www.piraeusbank.gr/el/idiwtes/proionta-upiresies/stegastika-daneia/prasino-stegastiko-daneio-me-stathero-epitokio",
+    "funding_type": "https://www.piraeusbank.gr/el/idiwtes/proionta-upiresies/stegastika-daneia/prasino-stegastiko-daneio-me-stathero-epitokio",
+    "id": "https://www.piraeusbank.gr/el/idiwtes/proionta-upiresies/stegastika-daneia/prasino-stegastiko-daneio-me-stathero-epitokio",
+    "interest_rate": "https://www.piraeusbank.gr/el/idiwtes/proionta-upiresies/stegastika-daneia/prasino-stegastiko-daneio-me-stathero-epitokio",
+    "loan_duration": "https://www.piraeusbank.gr/el/idiwtes/proionta-upiresies/stegastika-daneia/prasino-stegastiko-daneio-me-stathero-epitokio",
+    "minimum_funding_amount": "https://www.piraeusbank.gr/el/idiwtes/proionta-upiresies/stegastika-daneia/prasino-stegastiko-daneio-me-stathero-epitokio",
+    "programme_name": "https://www.piraeusbank.gr/el/idiwtes/proionta-upiresies/stegastika-daneia/prasino-stegastiko-daneio-me-stathero-epitokio",
+    "programme_objective": "https://www.piraeusbank.gr/el/idiwtes/proionta-upiresies/stegastika-daneia/prasino-stegastiko-daneio-me-stathero-epitokio",
+    "source_url": "https://www.piraeusbank.gr/el/idiwtes/proionta-upiresies/stegastika-daneia/prasino-stegastiko-daneio-me-stathero-epitokio",
+    "source_urls": [
+      "https://www.piraeusbank.gr/el/idiwtes/proionta-upiresies/stegastika-daneia/prasino-stegastiko-daneio-me-stathero-epitokio"
+    ]
+  },
+  "extracted_data": {
+    "completion_delay_consequences": "Εφόσον το δάνειο έχει χορηγηθεί με σκοπό την ανέγερση/επισκευή κατοικίας και σύμφωνα με την πιστοποίηση του μηχανικού της τράπεζας μετά την ολοκλήρωση των εργασιών, η κατοικία ανήκει σε άλλη κατηγορία ενεργειακής απόδοσης πλην των Α+, Α, Β+, καταργείται εφεξής η έκπτωση και το σταθερό επιτόκιο και το περιθώριο του κυμαινομένου επιτοκίου του δανείου επιβαρύνονται με 0,15%.",
+    "description": "Με το Green Στεγαστικό/Επισκευαστικό δάνειο Σταθερού Επιτοκίου μπορείτε να αγοράσετε ή να κατασκευάσετε σπίτι υψηλής ενεργειακής κατηγορίας (Α+, Α, Β+) ή να το ανακαινίσετε και να επωφεληθείτε από έκπτωση στο σταθερό επιτόκιο και μηδενική δαπάνη εξέτασης αιτήματος. Επωφεληθείτε από δωρεάν έξοδα εξέτασης αιτήματος, απάντηση εντός 48 ωρών από την υποβολή της αίτησης και εκταμίευση σε μόλις 24 ώρες από την υπογραφή της σύμβασης, υπό προϋποθέσεις. Πλεονεκτήματα Σταθερότητα στη δόση Έκπτωση επιτοκίου 0,15% Πρόωρη αποπληρωμή οποτεδήποτε χωρίς επιβαρύνσεις Δωρεάν έξοδα εξέτασης αιτήματος Απάντηση σε 48 ώρες από την αίτηση & εκταμίευση σε 24 ώρες από την υπογραφή της σύμβασης Αναλυτικά χαρακτηριστικά Γιατί αυτό το Green στεγαστικό δάνειο;",
+    "eligible_interventions": [
+      "Αγορά, κατασκευή ή ανακαίνιση κατοικίας υψηλής ενεργειακής κατηγορίας (Α+, Α, Β+)"
+    ],
+    "energy_performance_targets": [
+      "Α+, Α, Β+"
+    ],
+    "funding_coverage": "Ύψος χρηματοδότησης Από 20.000€ και έως 80% της αξίας του προσημειωμένου ακινήτου, σύμφωνα με την εκτίμηση του μηχανικού της Τράπεζας. Σημειώσεις: Το ποσοστό χρηματοδότησης διαμορφώνεται ανάλογα με τον σκοπό του δανείου και μπορεί να φτάσει έως το 90% εφόσον: α) η ηλικία σας δεν ξεπερνά τα 50 έτη β) κανένας εκ των οφειλετών/συνοφειλετών δεν τηρεί δάνειο που αφορά σε οικιστικό ακίνητο κατά τη στιγμή της έγκρισης γ) το ποσό του δανείου δεν ξεπερνά τα 500.000€",
+    "funding_type": "Δάνειο",
+    "id": "program-b351800789",
+    "interest_rate": "2,25%",
+    "loan_duration": "7 - 35 έτη",
+    "minimum_funding_amount": "20.000€",
+    "programme_name": "Πράσινο Στεγαστικό Δάνειο με Σταθερό Επιτόκιο",
+    "programme_objective": "Με το Green Στεγαστικό/Επισκευαστικό δάνειο Σταθερού Επιτοκίου μπορείτε να αγοράσετε ή να κατασκευάσετε σπίτι υψηλής ενεργειακής κατηγορίας (Α+, Α, Β+) ή να το ανακαινίσετε και να επωφεληθείτε από έκπτωση στο σταθερό επιτόκιο και μηδενική δαπάνη εξέτασης αιτήματος. Επωφεληθείτε από δωρεάν έξοδα εξέτασης αιτήματος, απάντηση εντός 48 ωρών από την υποβολή της αίτησης και εκταμίευση σε μόλις 24 ώρες από την υπογραφή της σύμβασης, υπό προϋποθέσεις. Πλεονεκτήματα Σταθερότητα στη δόση Έκπτωση επιτοκίου 0,15% Πρόωρη αποπληρωμή οποτεδήποτε χωρίς επιβαρύνσεις Δωρεάν έξοδα εξέτασης αιτήματος Απάντηση σε 48 ώρες από την αίτηση & εκταμίευση σε 24 ώρες από την υπογραφή της σύμβασης Αναλυτικά χαρακτηριστικά Γιατί αυτό το Green στεγαστικό δάνειο;",
+    "source_url": "https://www.piraeusbank.gr/el/idiwtes/proionta-upiresies/stegastika-daneia/prasino-stegastiko-daneio-me-stathero-epitokio",
+    "source_urls": [
+      "https://www.piraeusbank.gr/el/idiwtes/proionta-upiresies/stegastika-daneia/prasino-stegastiko-daneio-me-stathero-epitokio"
+    ]
+  },
+  "classification": {
+    "is_relevant": true,
+    "primary_category": "green_housing_loan",
+    "secondary_categories": [
+      "energy_upgrade",
+      "home_renewables"
+    ],
+    "confidence": 0.92,
+    "reasoning": "Merged source-backed JSON from 1 relevant URL(s).",
+    "key_features": [
+      "deterministic_home_green_finance_scope"
+    ]
+  }
+}

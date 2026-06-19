@@ -1,7 +1,7 @@
 from ollama import Client
 
 class OllamaChat():
-    def __init__(self, host:str="http://localhost:11434", model:str=None):
+    def __init__(self, host:str="http://localhost:11434", model:str=None, timeout:float|None=None):
 
         if model is None:
             raise ValueError('''You must provide a model to use OllamaChat. 
@@ -9,7 +9,8 @@ class OllamaChat():
 
         self._host = host
         self._model = model
-        self._ollama = Client(host)
+        kwargs = {"timeout": timeout} if timeout is not None else {}
+        self._ollama = Client(host, **kwargs)
 
     def ask(self, prompts:list, format:str="", temperature:float=0.8, stream:bool=False, **options):
         """

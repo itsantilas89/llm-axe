@@ -1,0 +1,98 @@
+[
+  {
+    "label": "Alpha EV-only loan",
+    "url": "https://www.alpha.gr/el/idiotes/daneia/katanalotika-daneia/alpha-prasines-luseis-daneio-ilektriko-autokinito",
+    "expected": false,
+    "actual": false,
+    "passed": true,
+    "job_id": "2ada5bc320c1",
+    "job_status": "completed",
+    "saved_program_ids": [],
+    "errors": [],
+    "message": "Ολοκληρώθηκε: 0 JSON αρχεία",
+    "classification_path": "C:\\Users\\stavr\\Desktop\\HMMY\\Thesis\\llm-axe\\output\\va4_product_discoverer\\20260617T094443Z_www.alpha.gr_el_idiotes_daneia_katanalotika-daneia_alpha-prasines-luseis-daneio-ilektriko-autokinito_b4ed8ed1_classification.json",
+    "classification": {
+      "is_relevant": false,
+      "primary_category": "other",
+      "secondary_categories": [],
+      "confidence": 0.99,
+      "reasoning": "Αυτόματη απόρριψη: Δεν βρέθηκαν ενεργειακά + χρηματοδοτικά keywords.",
+      "key_features": [
+        "keyword_prefilter_reject"
+      ]
+    },
+    "last_log": "12:44:43 - Παράλειψη μη σχετικού URL: Αυτόματη απόρριψη: Δεν βρέθηκαν ενεργειακά + χρηματοδοτικά keywords."
+  },
+  {
+    "label": "Piraeus EV-only loan",
+    "url": "https://www.piraeusbank.gr/el/idiwtes/proionta-upiresies/daneia/proswpika/katanalotiko-daneio-ev-loan-gia-agora-ilektrikou-autokinitou",
+    "expected": false,
+    "actual": false,
+    "passed": true,
+    "job_id": "cddf6202ce1e",
+    "job_status": "completed",
+    "saved_program_ids": [],
+    "errors": [],
+    "message": "Ολοκληρώθηκε: 0 JSON αρχεία",
+    "classification_path": "C:\\Users\\stavr\\Desktop\\HMMY\\Thesis\\llm-axe\\output\\va4_product_discoverer\\20260617T094944Z_www.piraeusbank.gr_el_idiwtes_proionta-upiresies_daneia_p...analotiko-daneio-ev-loan-gia-agora-ilektrikou-autokinitou_69bfc371_classification.json",
+    "classification": {
+      "is_relevant": false,
+      "primary_category": "other",
+      "secondary_categories": [],
+      "confidence": 0.95,
+      "reasoning": "Deterministic scope reject: vehicle-only green finance context",
+      "key_features": [
+        "deterministic_scope_reject"
+      ]
+    },
+    "last_log": "12:49:44 - Παράλειψη μη σχετικού URL: Deterministic scope reject: vehicle-only green finance context"
+  },
+  {
+    "label": "Kinoumai Ilektrika III",
+    "url": "https://kinoumeilektrika3.gov.gr/",
+    "expected": false,
+    "actual": false,
+    "passed": true,
+    "job_id": "0f3a0706ea28",
+    "job_status": "completed",
+    "saved_program_ids": [],
+    "errors": [],
+    "message": "Ολοκληρώθηκε: 0 JSON αρχεία",
+    "classification_path": "C:\\Users\\stavr\\Desktop\\HMMY\\Thesis\\llm-axe\\output\\va4_product_discoverer\\20260617T094951Z_kinoumeilektrika3.gov.gr_04f67853_classification.json",
+    "classification": {
+      "is_relevant": false,
+      "primary_category": "other",
+      "secondary_categories": [],
+      "confidence": 0.99,
+      "reasoning": "Αυτόματη απόρριψη: Δεν βρέθηκαν ενεργειακά + χρηματοδοτικά keywords.",
+      "key_features": [
+        "keyword_prefilter_reject"
+      ]
+    },
+    "last_log": "12:49:51 - Παράλειψη μη σχετικού URL: Αυτόματη απόρριψη: Δεν βρέθηκαν ενεργειακά + χρηματοδοτικά keywords."
+  },
+  {
+    "label": "gov.gr Kinoumai Ilektrika III",
+    "url": "https://www.gov.gr/ipiresies/polites-kai-kathemerinoteta/periballon-kai-poioteta-zoes/kinoumai-elektrika-iii",
+    "expected": false,
+    "actual": false,
+    "passed": true,
+    "job_id": "d0d139a5d11a",
+    "job_status": "completed",
+    "saved_program_ids": [],
+    "errors": [],
+    "message": "Ολοκληρώθηκε: 0 JSON αρχεία",
+    "classification_path": "C:\\Users\\stavr\\Desktop\\HMMY\\Thesis\\llm-axe\\output\\va4_product_discoverer\\20260617T095000Z_www.gov.gr_ipiresies_polites-kai-kathemerinoteta_periballon-kai-poioteta-zoes_kinoumai-elektrika-iii_a9692868_classification.json",
+    "classification": {
+      "is_relevant": false,
+      "primary_category": "other",
+      "secondary_categories": [],
+      "confidence": 0.99,
+      "reasoning": "Αυτόματη απόρριψη: Δεν βρέθηκαν ενεργειακά + χρηματοδοτικά keywords.",
+      "key_features": [
+        "keyword_prefilter_reject"
+      ]
+    },
+    "last_log": "12:50:00 - Παράλειψη μη σχετικού URL: Αυτόματη απόρριψη: Δεν βρέθηκαν ενεργειακά + χρηματοδοτικά keywords."
+  }
+]

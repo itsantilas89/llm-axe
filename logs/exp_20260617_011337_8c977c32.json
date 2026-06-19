@@ -1,0 +1,15 @@
+{
+  "experiment_id": "exp_20260617_011337_8c977c32",
+  "timestamp": "2026-06-17T01:13:37.880754+00:00",
+  "model": "deterministic_scope_guard",
+  "temperature": 0.0,
+  "hyperparameters": {
+    "mode": "pre_llm_classification"
+  },
+  "prompt": "",
+  "sources": [
+    "Πράσινο Στεγαστικό Δάνειο με Σταθερό Επιτόκιο"
+  ],
+  "terminal_output": "Category: green_housing_loan | Confidence: 92% | Relevant: True",
+  "template_output_file": null
+}

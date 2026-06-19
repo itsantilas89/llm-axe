@@ -1,0 +1,56 @@
+{
+  "timestamp": "20260616T211651Z",
+  "url": "https://www.nbg.gr/el/idiwtes/daneia/daneia-exoikonomisis-energeias/prasino-daneio-spitiou-h-autokinhtou",
+  "classification": {
+    "is_relevant": true,
+    "primary_category": "green_housing_loan",
+    "secondary_categories": [
+      "home_renewables",
+      "energy_upgrade"
+    ],
+    "confidence": 0.92,
+    "reasoning": "Deterministic scope pass: home energy finance signals found",
+    "key_features": [
+      "deterministic_home_green_finance_scope"
+    ]
+  },
+  "extracted_data": {
+    "programme_name": "Πράσινο Δάνειο Σπιτιού ή Αυτοκινήτου",
+    "description": "Αποκτήστε το σε λίγα βήματα Το θέλω 10% Έκπτωση για Οικιακά Φωτοβολταϊκά Συστήματα με Πράσινο Δάνειο από την Εθνική Τράπεζα! Επωφεληθείτε από την προσφορά μας σε συνεργασία με την kIEFER TEK ΕΠΕ και αποκτήστε το δικό σας οικιακό φωτοβολταϊκό σύστημα με 10% έκπτωση! Συνδυάστε την προσφορά με το Πράσινο Δάνειο ενεργειακής αναβάθμισης από την Εθνική Τράπεζα για μία πιο πράσινη καθημερινότητα.",
+    "programme_objective": "Αποκτήστε το σε λίγα βήματα Το θέλω 10% Έκπτωση για Οικιακά Φωτοβολταϊκά Συστήματα με Πράσινο Δάνειο από την Εθνική Τράπεζα! Επωφεληθείτε από την προσφορά μας σε συνεργασία με την kIEFER TEK ΕΠΕ και αποκτήστε το δικό σας οικιακό φωτοβολταϊκό σύστημα με 10% έκπτωση! Συνδυάστε την προσφορά με το Πράσινο Δάνειο ενεργειακής αναβάθμισης από την Εθνική Τράπεζα για μία πιο πράσινη καθημερινότητα.",
+    "eligible_parties": [],
+    "eligibility_criteria": [],
+    "property_requirements": [],
+    "minimum_funding_amount": "300€",
+    "maximum_funding_amount": "50.000€",
+    "funding_type": "",
+    "interest_rate": "",
+    "funding_coverage": "",
+    "total_budget": "",
+    "funding_sources": [],
+    "duration": "",
+    "loan_duration": "",
+    "completion_deadline": "",
+    "application_start_date": "",
+    "application_end_date": "",
+    "energy_performance_targets": [],
+    "eligible_interventions": [
+      "Μονώσεις",
+      "Συστήματα ψύξης/θέρμανσης",
+      "Εγκατάσταση οικιακού φωτοβολταϊκού συστήματος",
+      "Εγκατάσταση φωτοβολταϊκών ή άλλων ΑΠΕ",
+      "Οικιακή ανεμογεννήτρια",
+      "Γεωθερμία"
+    ],
+    "application_process": "",
+    "managing_body": "",
+    "announcement_date": "",
+    "contact_info": [],
+    "additional_details": "",
+    "source_url": "https://www.nbg.gr/el/idiwtes/daneia/daneia-exoikonomisis-energeias/prasino-daneio-spitiou-h-autokinhtou",
+    "source_urls": [
+      "https://www.nbg.gr/el/idiwtes/daneia/daneia-exoikonomisis-energeias/prasino-daneio-spitiou-h-autokinhtou"
+    ],
+    "id": "program-d27b3e3381"
+  }
+}

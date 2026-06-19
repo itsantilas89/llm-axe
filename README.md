@@ -259,32 +259,48 @@ python llm_axe/va4_product_discoverer.py
 python evaluation/qa_runner.py \
     --classification-dir output/va4_product_discoverer \
     --output-dir output/va4_product_discoverer \
-    --num-questions 3
+    --questions-file evaluation/questions.json
 
-# 3) Validate the saved QA responses
+# Optional: ask each question several times in one run for repeatability checks
+python evaluation/qa_runner.py \
+    --classification-dir output/va4_product_discoverer \
+    --output-dir output/va4_product_discoverer \
+    --questions-file evaluation/questions.json \
+    --repeat-each-question 3
+
+# 3) Validate saved QA answers against extracted structured fields
 python evaluation/qa_consistency_validator.py \
     --classification-dir output/va4_product_discoverer \
     --qa-responses-dir output/va4_product_discoverer \
     --summary-only \
     --output output/evaluation/qa_consistency_report.json
 
-# 4) Compute semantic similarity metrics from the consistency report
+# 4) Measure same-question repeatability across repeated QA runs
+python evaluation/qa_repeatability_validator.py \
+    --qa-responses-dir output/va4_product_discoverer \
+    --summary-only \
+    --output output/evaluation/qa_repeatability_report.json
+
+# 5) Compute semantic similarity metrics from the consistency report
 python evaluation/qa_semantic_validator.py \
     --qa-report output/evaluation/qa_consistency_report.json \
     --enable-bertscore \
     --summary-only
 
-# 5) Flow F: generate visual analytics charts from all metrics
+# 6) Flow F: generate visual analytics charts from all metrics
 python evaluation/metrics_visualizer.py \
     --qa-consistency-report output/evaluation/qa_consistency_report.json \
     --qa-semantic-report output/evaluation/qa_semantic_report.json \
+    --qa-repeatability-report output/evaluation/qa_repeatability_report.json \
     --html-report output/evaluation/html_json_report.json \
     --output-dir output/evaluation/plots
 ```
 
-`qa_runner.py` writes timestamped `_qa_responses.json` files from the stored classification data, so you can repeat the QA step without rerunning classification.
+`qa_runner.py` writes timestamped `_qa_responses.json` files from the stored classification data, so you can repeat the QA step without rerunning classification. Use `--repeat-each-question` when you want multiple answers for the exact same question in one QA file.
 
-`metrics_visualizer.py` (Flow F) creates PNG charts and a `visual_summary.json` file for KPI overview, per-program QA scores, answer-source distribution, semantic metrics, and HTML found-vs-missing coverage.
+`qa_repeatability_validator.py` compares answers for the same URL and question across repeated asks/runs. It reports pairwise Token-F1 and Jaccard similarity, which makes answer stability visible.
+
+`metrics_visualizer.py` (Flow F) creates PNG charts and a `visual_summary.json` file for overall quality scores, per-program answer-data consistency, answer-source counts, semantic similarity, same-question repeatability, and HTML evidence found-vs-missing.
 
 ## Features
 

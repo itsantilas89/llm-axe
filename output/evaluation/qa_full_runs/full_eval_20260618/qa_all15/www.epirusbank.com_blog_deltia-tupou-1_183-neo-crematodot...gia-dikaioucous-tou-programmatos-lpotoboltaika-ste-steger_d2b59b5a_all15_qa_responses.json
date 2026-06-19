@@ -1,0 +1,162 @@
+{
+  "timestamp": "20260618T222951Z",
+  "url": "https://www.epirusbank.com/blog/deltia-tupou-1/183-neo-crematodotiko-proion-gia-dikaioucous-tou-programmatos-lpotoboltaika-ste-steger",
+  "programme_name": "Νέο χρηματοδοτικό προϊόν για δικαιούχους του Προγράμματος «Φωτοβολταϊκά στη στέγη»",
+  "classification_file": "010_www.epirusbank.com_blog_deltia-tupou-1_183-neo-crematodot...gia-dikaioucous-tou-programmatos-lpotoboltaika-ste-steger_d2b59b5a_classification.json",
+  "qa_count": 15,
+  "source": "qa_evaluation_suite",
+  "mode": "all15",
+  "responses": [
+    {
+      "question_id": "q12",
+      "question": "12) Ποια είναι η πρωτεύουσα της Ελλάδας ;",
+      "answer": "Δεν υπάρχει πληροφορία",
+      "repeat_index": 1,
+      "repeat_count": 1,
+      "timestamp": "2026-06-18T22:29:51.912139+00:00",
+      "source": "qa_evaluation_suite",
+      "answer_mode": "deterministic_out_of_scope_guard"
+    },
+    {
+      "question_id": "q13",
+      "question": "13) Ποια είναι η πρωτεύουσα της Γαλλίας ;",
+      "answer": "Δεν υπάρχει πληροφορία",
+      "repeat_index": 1,
+      "repeat_count": 1,
+      "timestamp": "2026-06-18T22:29:51.914070+00:00",
+      "source": "qa_evaluation_suite",
+      "answer_mode": "deterministic_out_of_scope_guard"
+    },
+    {
+      "question_id": "q14",
+      "question": "14) What's the capital of Greece ?",
+      "answer": "Δεν υπάρχει πληροφορία",
+      "repeat_index": 1,
+      "repeat_count": 1,
+      "timestamp": "2026-06-18T22:29:51.915481+00:00",
+      "source": "qa_evaluation_suite",
+      "answer_mode": "deterministic_out_of_scope_guard"
+    },
+    {
+      "question_id": "q15",
+      "question": "15) What's the capital of France ?",
+      "answer": "Δεν υπάρχει πληροφορία",
+      "repeat_index": 1,
+      "repeat_count": 1,
+      "timestamp": "2026-06-18T22:29:51.916796+00:00",
+      "source": "qa_evaluation_suite",
+      "answer_mode": "deterministic_out_of_scope_guard"
+    },
+    {
+      "question_id": "q1",
+      "question": "1) Περίγραψε το πρόγραμμα, στόχος, δικαιούχοι, βασικά οφέλη.",
+      "answer": "Το πρόγραμμα είναι ένα νέο χρηματοδοτικό προϊόν της Συνεταιριστικής Τράπεζας Ηπείρου, που προσφέρεται στα νοικοκυριά που έχουν ενταχθεί στο Πρόγραμμα «Φωτοβολταϊκά στη Στέγη». Ο στόχος του προγράμματος είναι να συμβάλλει στην εξοικονόμηση ενέργειας, τη μείωση του κόστους διαβίωσης και στον πράσινο μετασχηματισμό της τοπικής κοινωνίας. Οι δικαιούχοι του προγράμματος είναι τα νοικοκυριά που έχουν ενταχθεί στο Πρόγραμμα «Φωτοβολταϊκά στη Στέγη». Τα βασικά οφέλη του προγράμματος είναι η πρόσβαση σε ιδιαίτερα χαμηλό σταθερό επιτόκιο 7,90% και για διάρκεια έως 7 έτη.",
+      "repeat_index": 1,
+      "repeat_count": 1,
+      "timestamp": "2026-06-18T22:33:22.349142+00:00",
+      "source": "qa_evaluation_suite",
+      "answer_mode": "llm"
+    },
+    {
+      "question_id": "q2",
+      "question": "2) Εξήγησε τη διαφορά μεταξύ “επιχορήγησης” και “δανείου” στο πλαίσιο ενεργειακής αναβάθμισης, με ένα παράδειγμα για το καθένα.",
+      "answer": "Η επιχορήγηση και το δάνειο είναι δύο διαφορετικά χρηματοδοτικά προϊόντα στην ενεργειακή αναβάθμιση. Η επιχορήγηση είναι μια οικονομική βοήθεια που δεν χρειάζεται να επιστρέφεται, ενώ το δάνειο είναι ένα χρηματοδοτικό προϊόν που πρέπει να επιστραφεί με τόκο. Παράδειγμα: Imagine ότι έχεις αγοράσει ένα φωτοβολταϊκό σύστημα για την στέγη σου και χρειάζεσαι 10.000 ευρώ για την κάλυψη των εξόδων. Μπορείς να λάβεις επιχορήγηση από το πρόγραμμα, χωρίς να πρέπει να επιστρέψεις τα χρήματα. Αλλά αν λάβεις δάνειο, θα πρέπει να επιστρέψεις τα 10.000 ευρώ με τόκο.",
+      "repeat_index": 1,
+      "repeat_count": 1,
+      "timestamp": "2026-06-18T22:35:19.464063+00:00",
+      "source": "qa_evaluation_suite",
+      "answer_mode": "llm"
+    },
+    {
+      "question_id": "q3",
+      "question": "3) Δώσε 5 λέξεις-κλειδιά για αναζήτηση σχετικών προγραμμάτων και εξήγησε σε 1 πρόταση γιατί είναι χρήσιμη η καθεμία.",
+      "answer": "Φωτοβολταϊκά, Στέγη, Δάνειο, Ενέργεια, Πράσινος Μετασχηματισμός",
+      "repeat_index": 1,
+      "repeat_count": 1,
+      "timestamp": "2026-06-18T22:35:56.533158+00:00",
+      "source": "qa_evaluation_suite",
+      "answer_mode": "llm"
+    },
+    {
+      "question_id": "q4",
+      "question": "4) Εντόπισε όλες τις προθεσμίες που αναφέρονται και γράψε τες σε μορφή ΗΗ/ΜΜ/ΕΕΕΕ.",
+      "answer": "Δεν υπάρχει πληροφορία σχετικά με προθεσμίες στο JSON.",
+      "repeat_index": 1,
+      "repeat_count": 1,
+      "timestamp": "2026-06-18T22:36:26.944579+00:00",
+      "source": "qa_evaluation_suite",
+      "answer_mode": "llm"
+    },
+    {
+      "question_id": "q5",
+      "question": "5) Βρες αν υπάρχει ανώτατο ή κατώτατο όριο χρηματοδότησης και δώσε το ακριβές ποσό/ποσοστό.",
+      "answer": "Δεν υπάρχει πληροφορία",
+      "repeat_index": 1,
+      "repeat_count": 1,
+      "timestamp": "2026-06-18T22:36:53.089204+00:00",
+      "source": "qa_evaluation_suite",
+      "answer_mode": "llm"
+    },
+    {
+      "question_id": "q6",
+      "question": "6) Ποιες παρεμβάσεις ενεργειακής αναβάθμισης χρηματοδοτούνται;",
+      "answer": "Δεν αναφέρεται στο JSON",
+      "repeat_index": 1,
+      "repeat_count": 1,
+      "timestamp": "2026-06-18T22:37:18.314771+00:00",
+      "source": "qa_evaluation_suite",
+      "answer_mode": "llm"
+    },
+    {
+      "question_id": "q7",
+      "question": "7) Ποια είναι τα σημαντικότερα σημεία που πρέπει να προσέξει ένας ενδιαφερόμενος πριν υποβάλει αίτηση;",
+      "answer": "Διαβάστε την ανακοίνωση της Συνεταιριστικής Τράπεζας Ηπείρου για λεπτομέρειες σχετικά με το νέο δάνειο. Είναι σημαντικό να διαβάσετε τις προϋποθέσεις και τους όρους του δανείου πριν υποβάλετε αίτηση.",
+      "repeat_index": 1,
+      "repeat_count": 1,
+      "timestamp": "2026-06-18T22:38:13.615278+00:00",
+      "source": "qa_evaluation_suite",
+      "answer_mode": "llm"
+    },
+    {
+      "question_id": "q8",
+      "question": "8) Τι γίνεται αν δεν ολοκληρωθούν οι εργασίες μέσα στην προβλεπόμενη προθεσμία;",
+      "answer": "Δεν υπάρχει πληροφορία σχετικά με τις συνέπειες αν δεν ολοκληρωθούν οι εργασίες μέσα στην προβλεπόμενη προθεσμία.",
+      "repeat_index": 1,
+      "repeat_count": 1,
+      "timestamp": "2026-06-18T22:38:53.131069+00:00",
+      "source": "qa_evaluation_suite",
+      "answer_mode": "llm"
+    },
+    {
+      "question_id": "q9",
+      "question": "9) Υπάρχουν υποχρεώσεις του δικαιούχου μετά την ολοκλήρωση του έργου;",
+      "answer": "Δεν υπάρχει πληροφορία",
+      "repeat_index": 1,
+      "repeat_count": 1,
+      "timestamp": "2026-06-18T22:39:20.046900+00:00",
+      "source": "qa_evaluation_suite",
+      "answer_mode": "llm"
+    },
+    {
+      "question_id": "q10",
+      "question": "10) Describe the program in 90-120 words.",
+      "answer": "Το πρόγραμμα είναι ένα νέο χρηματοδοτικό προϊόν που προσφέρεται στα νοικοκυριά που έχουν ενταχθεί στο Πρόγραμμα «Φωτοβολταϊκά στη Στέγη». Το δάνειο έχει ιδιαίτερα χαμηλό σταθερό επιτόκιο 7,90% και διάρκεια έως 7 έτη. Ο στόχος του προγράμματος είναι να συμβάλλει στην εξοικονόμηση ενέργειας, τη μείωση του κόστους διαβίωσης και τον πράσινο μετασχηματισμό της τοπικής κοινωνίας.",
+      "repeat_index": 1,
+      "repeat_count": 1,
+      "timestamp": "2026-06-18T22:40:51.646015+00:00",
+      "source": "qa_evaluation_suite",
+      "answer_mode": "llm"
+    },
+    {
+      "question_id": "q11",
+      "question": "11) Explain the difference between a 'grant' and a 'loan' in the context of energy upgrades, with one example for each.",
+      "answer": "Στο πλαίσιο των ενεργειακών αναβαθμίσεων, ένα 'δάνειο' (loan) είναι μια χρηματοδοτική trợήγηση που πρέπει να αποπληρωθεί από τον δικαιούχο με τόκο, ενώ ένα 'χορηγημένο δάνειο' (grant) δεν απαιτεί την επιστροφή του ποσού. Παράδειγμα: Ένα δάνειο για την εγκατάσταση φωτοβολταϊκών στη στέγη θα πρέπει να αποπληρωθεί με τόκο, ενώ ένα χορηγημένο δάνειο για την ίδια εφαρμογή δεν απαιτεί την επιστροφή του ποσού.",
+      "repeat_index": 1,
+      "repeat_count": 1,
+      "timestamp": "2026-06-18T22:42:32.604288+00:00",
+      "source": "qa_evaluation_suite",
+      "answer_mode": "llm"
+    }
+  ],
+  "updated_at": "2026-06-18T22:42:32.604360+00:00"
+}

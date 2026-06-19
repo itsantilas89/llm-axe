@@ -81,12 +81,13 @@ python -m llm_axe.va4_product_discoverer
 from llm_axe.va4_product_discoverer import process_url
 from llm_axe.models import OllamaChat
 
-# Initialize LLM
-llm = OllamaChat(model="llama3.1:8b-instruct-q4_K_M")
+# Initialize LLMs
+llm_fast = OllamaChat(model="llama3.2:3b-instruct-q4_K_M")
+llm_smart = OllamaChat(model="llama3.1:8b-instruct-q4_K_M")
 
 # Process URL
 url = "https://www.eurobank.gr/el/retail/proionta-upiresies/proionta/daneia/prasina/eksoikonomo-2025"
-extracted_data, classification = process_url(url, llm, enable_qa=True)
+extracted_data, classification, experiment_id = process_url(url, llm_fast, llm_smart, enable_qa=True)
 
 # Έλεγχος αποτελεσμάτων
 if classification['is_relevant']:
@@ -103,7 +104,8 @@ else:
 from llm_axe.va4_product_discoverer import process_url
 from llm_axe.models import OllamaChat
 
-llm = OllamaChat(model="llama3.1:8b-instruct-q4_K_M")
+llm_fast = OllamaChat(model="llama3.2:3b-instruct-q4_K_M")
+llm_smart = OllamaChat(model="llama3.1:8b-instruct-q4_K_M")
 
 urls = [
     "https://example.com/url1",
@@ -114,7 +116,7 @@ urls = [
 results = []
 for url in urls:
     try:
-        extracted, classification = process_url(url, llm, enable_qa=False)
+        extracted, classification, experiment_id = process_url(url, llm_fast, llm_smart, enable_qa=False)
         results.append({
             'url': url,
             'relevant': classification['is_relevant'],
@@ -274,17 +276,18 @@ python examples/ex_product_discoverer.py
 
 ## API Reference
 
-### `process_url(url, llm, enable_qa=True)`
+### `process_url(url, llm_fast, llm_smart=None, enable_qa=True)`
 
 Κύρια συνάρτηση επεξεργασίας URL.
 
 **Παράμετροι:**
 - `url` (str): URL ή file path προς ανάλυση
-- `llm` (OllamaChat): Initialized LLM instance
+- `llm_fast` (OllamaChat): LLM instance για pre-screen και extraction
+- `llm_smart` (OllamaChat | None): LLM instance για classification και Q&A. Αν λείπει, χρησιμοποιείται το `llm_fast`.
 - `enable_qa` (bool): Ενεργοποίηση Q&A mode (default: True)
 
 **Returns:**
-- Tuple[dict, dict]: (extracted_data, classification)
+- Tuple[dict, dict, str | None]: (extracted_data, classification, experiment_id)
 
 ### `classify_product(llm, extracted_data)`
 

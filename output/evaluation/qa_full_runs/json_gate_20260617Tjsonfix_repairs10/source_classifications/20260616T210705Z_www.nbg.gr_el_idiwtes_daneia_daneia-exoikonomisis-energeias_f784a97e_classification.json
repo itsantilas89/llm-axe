@@ -1,0 +1,56 @@
+{
+  "timestamp": "20260616T210705Z",
+  "url": "https://www.nbg.gr/el/idiwtes/daneia/daneia-exoikonomisis-energeias",
+  "classification": {
+    "is_relevant": true,
+    "primary_category": "green_housing_loan",
+    "secondary_categories": [
+      "home_renewables",
+      "energy_upgrade"
+    ],
+    "confidence": 0.92,
+    "reasoning": "Deterministic scope pass: home energy finance signals found",
+    "key_features": [
+      "deterministic_home_green_finance_scope"
+    ]
+  },
+  "extracted_data": {
+    "programme_name": "Εξοικονομώ",
+    "description": "Δάνεια Εξοικονόμησης Ενέργειας | Εθνική Τράπεζα Δάνεια Εξοικονόμησης Ενέργειας Πείτε \"ναι\" στα θέλω σας με σεβασμό προς το περιβάλλον Βρείτε το δάνειο Εξοικονόμησης Ενέργειας που ταιριάζει στα θέλω σας Εστία Πράσινη Ενεργειακά αναβαθμισμένο σπίτι Πράσινο Δάνειο με την εγγύηση του Ευρωπαϊκού Ταμείου Επενδύσεων (EIF).",
+    "programme_objective": "Δάνεια Εξοικονόμησης Ενέργειας | Εθνική Τράπεζα Δάνεια Εξοικονόμησης Ενέργειας Πείτε \"ναι\" στα θέλω σας με σεβασμό προς το περιβάλλον Βρείτε το δάνειο Εξοικονόμησης Ενέργειας που ταιριάζει στα θέλω σας Εστία Πράσινη Ενεργειακά αναβαθμισμένο σπίτι Πράσινο Δάνειο με την εγγύηση του Ευρωπαϊκού Ταμείου Επενδύσεων (EIF).",
+    "eligible_parties": [
+      "Ιδιώτες"
+    ],
+    "eligibility_criteria": "",
+    "property_requirements": "",
+    "minimum_funding_amount": "6.000€",
+    "maximum_funding_amount": "15.000€",
+    "funding_type": "Δάνειο",
+    "interest_rate": "κυμαινόμενο με βάση το Euribor 3M στο οποίο προστίθεται επιπλέον περιθώριο",
+    "funding_coverage": "",
+    "total_budget": "",
+    "funding_sources": [
+      "Ευρωπαϊκό Ταμείο Επενδύσεων (EIF)"
+    ],
+    "duration": "",
+    "loan_duration": "12-48 μήνες",
+    "completion_deadline": "",
+    "application_start_date": "",
+    "application_end_date": "",
+    "energy_performance_targets": "",
+    "eligible_interventions": [
+      "πράσινο δάνειο με την εγγύηση του Ευρωπαϊκού Ταμείου Επενδύσεων (EIF)",
+      "αναβαθμισμένο σπίτι",
+      "πράσινο δάνειο για την απόκτηση λύσεων εξοικονόμησης ενέργειας"
+    ],
+    "application_process": "",
+    "managing_body": "",
+    "announcement_date": "",
+    "contact_info": "",
+    "additional_details": ""
+  },
+  "repair_metadata": {
+    "source_scraped_file": "C:\\Users\\stavr\\Desktop\\HMMY\\Thesis\\llm-axe\\output\\va3_scraper_to_template\\20260604T115345Z_www.nbg.gr_el_idiwtes_daneia_daneia-exoikonomisis-energeias_prasino-daneio_8ef520bc_scraped.txt",
+    "repair": "source_backed_core_field_repair"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "timestamp": "20260616T223350Z",
+  "url": "https://hlektra.gov.gr/home",
+  "classification": {
+    "is_relevant": false,
+    "primary_category": "other",
+    "secondary_categories": [],
+    "confidence": 0.95,
+    "reasoning": "Deterministic scope reject: business/public context without residential home signal",
+    "key_features": [
+      "deterministic_scope_reject"
+    ]
+  },
+  "extracted_data": {
+    "programme_name": "Το Πρόγραμμα «ΗΛΕΚΤΡΑ» σκοπεύει στην ενεργειακή αναβάθμιση των κτιρίων του Δημόσιου τομέα προωθώντας τον υποδειγματικό ρ",
+    "description": "Το Πρόγραμμα «ΗΛΕΚΤΡΑ» σκοπεύει στην ενεργειακή αναβάθμιση των κτιρίων του Δημόσιου τομέα προωθώντας τον υποδειγματικό ρόλο του Δημοσίου στον τομέα της ενεργειακής αποδοτικότητας των κτιρίων.",
+    "programme_objective": "Το Πρόγραμμα «ΗΛΕΚΤΡΑ» σκοπεύει στην ενεργειακή αναβάθμιση των κτιρίων του Δημόσιου τομέα προωθώντας τον υποδειγματικό ρόλο του Δημοσίου στον τομέα της ενεργειακής αποδοτικότητας των κτιρίων.",
+    "eligible_parties": [],
+    "eligibility_criteria": [],
+    "property_requirements": [],
+    "minimum_funding_amount": "",
+    "maximum_funding_amount": "",
+    "funding_type": "",
+    "interest_rate": "",
+    "funding_coverage": "",
+    "total_budget": "",
+    "funding_sources": [],
+    "duration": "",
+    "loan_duration": "",
+    "completion_deadline": "",
+    "application_start_date": "",
+    "application_end_date": "",
+    "energy_performance_targets": "",
+    "eligible_interventions": [],
+    "application_process": "",
+    "managing_body": "",
+    "announcement_date": "",
+    "contact_info": [],
+    "additional_details": "",
+    "source_url": "https://hlektra.gov.gr/home",
+    "source_urls": [
+      "https://hlektra.gov.gr/home"
+    ],
+    "id": "program-658d84572d"
+  }
+}
